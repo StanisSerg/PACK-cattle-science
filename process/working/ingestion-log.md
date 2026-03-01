@@ -46,7 +46,27 @@
 
 **Year:** 2012
 
-**Status:** pending-analysis
+**Source Type:** Peer-reviewed research (decision support tool)
+
+**Date Ingested:** 2026-03-01
+
+**Relevance:** 
+- Foundational economic model for cow replacement decisions
+- Directly used in Lauber 2025 (cited as base model)
+- Core CS domain (economics, decision support)
+
+**Relevance Test:**
+- [x] Within bounded context? YES (economics, replacement decisions)
+- [x] Relates to identified entities? YES (cow value, replacement)
+- [x] Can be analyzed through distinctions? YES (D.005 Biological/Economic)
+
+**Status:** analyzed
+
+**Initial Notes:**
+- Simple formulation for replacement problem
+- Practical tool for economic value assessment
+- Foundation for later Markov models
+- High citation value (used in Lauber 2025, Giordano 2012)
 
 ---
 
