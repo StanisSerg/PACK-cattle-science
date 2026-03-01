@@ -27,12 +27,32 @@
 
 ## Key Entities (Preview)
 
-| Entity | Description |
-|--------|-------------|
-| CS.METHOD.001 | Protein norm calculation |
-| CS.METHOD.002 | Energy requirement assessment |
-| CS.METHOD.003 | Reproductive program evaluation |
-| CS.METHOD.004 | Economic simulation modeling |
+### Methods
+
+| ID | Description | Source |
+|----|-------------|--------|
+| CS.METHOD.001 | Protein norm calculation | — |
+| CS.METHOD.002 | Energy requirement assessment | — |
+| CS.METHOD.003 | Reproductive program evaluation | CS.SOTA.001, CS.SOTA.005 |
+| CS.METHOD.004 | Economic simulation modeling | CS.SOTA.001-003, CS.SOTA.005 |
+| CS.METHOD.005 | Transition health monitoring | CS.SOTA.004 |
+| CS.METHOD.006 | Reproductive program selection | CS.SOTA.005 |
+
+### Domain Entities
+
+| ID | Description | Key Metrics |
+|----|-------------|-------------|
+| CS.ENTITY.001 | 21-day pregnancy rate | %, target ≥30% |
+| CS.ENTITY.002 | Postpartum health syndrome | NEFA, Ca, BHB, haptoglobin |
+| CS.ENTITY.003 | Reproductive program efficiency | ED rate, accuracy, compliance |
+
+### Work Products
+
+| ID | Description | Application |
+|----|-------------|-------------|
+| CS.WP.003 | Reproduction economic report | IEP optimization |
+| CS.WP.005 | Health-fertility risk assessment | Transition cow management |
+| CS.WP.006 | Reproductive program economic analysis | Program selection |
 
 ## Upstream Dependencies
 
@@ -42,9 +62,9 @@
 
 ## Downstream Consumers
 
-- DS-Knowledge-Index-Tseren
-- Course: "Feeding and Management of Dairy Cattle"
+- Course: "Feeding and Management of Dairy Cattle" (planned)
 - Personal consulting practice
+- Future: DS tools for reproductive decision support
 
 ## Index
 

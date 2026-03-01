@@ -1,0 +1,114 @@
+# CS.MAP.001: SoTA Index — Научные источники
+
+> Карта научно-обоснованных знаний в PACK-cattle-science
+
+---
+
+## Быстрый обзор
+
+| ID | Статья | Год | Тип | Тема | Статус |
+|----|--------|-----|-----|------|--------|
+| CS.SOTA.001 | Lauber et al. | 2025 | Simulation | Экономика ВОС, типы спермы, IEP | Current |
+| CS.SOTA.002 | Cabrera 2012 | 2012 | Model | Economic value of cow | Current |
+| CS.SOTA.003 | Giordano 2012 | 2012 | Model | Markov herd model | Current |
+| CS.SOTA.004 | Bruinjé 2024 | 2024 | Observational | Здоровье → эндокринная функция | Current |
+| CS.SOTA.005 | Galvão 2013 | 2013 | Simulation | Сравнение программ ВОС | Current |
+
+---
+
+## По темам
+
+### Репродуктивная экономика
+
+| Вопрос | Источники | Ключевой вывод |
+|--------|-----------|----------------|
+| Какой оптимальный IEP? | CS.SOTA.001 | 80-200 дней, зависит от ВОС, типа спермы, выживаемости телок |
+| Стоимость 1% улучшения ВОС? | CS.SOTA.001 | $2-7/корова/год |
+| Выгода sexed+beef спермы? | CS.SOTA.001 | +$51/корова/год при 20% ВОС |
+| ED vs TAI vs комбинация? | CS.SOTA.005 | Комбинация лучше, но высокое качество одной системы ≈ комбинации |
+| Пороги для ED-only? | CS.SOTA.005 | ED≥60% + точность≥95% |
+| Пороги для TAI-only? | CS.SOTA.005 | Соблюдение протокола ≥95% |
+
+### Здоровье переходного периода
+
+| Вопрос | Источники | Ключевой вывод |
+|--------|-----------|----------------|
+| Как гипокальция влияет на ВОС? | CS.SOTA.004 | Снижает P4 на день 8 (-0.4 нг/мл) |
+| Как NEFA влияет на беременность? | CS.SOTA.004 | Снижает PAG на день 29 |
+| Как хромота влияет на сигнализацию? | CS.SOTA.004 | Повышает ISG15 (возможно, воспаление) |
+| Как эндометрит влияет на признание беременности? | CS.SOTA.004 | Снижает ISG15 |
+| Порог NEFA? | CS.SOTA.004 | ≥0.73 мМ на 6 DIM |
+| Порог Ca? | CS.SOTA.004 | ≤2.09 мМ на 2 DIM |
+| Порог BCS до отела? | CS.SOTA.004 | ≥3.75 |
+
+### Методологические основы
+
+| Модель | Источник | Применение |
+|--------|----------|------------|
+| Markov chain (cow level) | CS.SOTA.002 | Economic value of reproductive decisions |
+| Markov chain (herd level) | CS.SOTA.003 | Herd dynamics, replacement optimization |
+| Discrete monthly Markov | CS.SOTA.001 | IEP optimization, semen economics |
+| Monte-Carlo simulation | CS.SOTA.005 | Program comparison under uncertainty |
+
+---
+
+## Связи между источниками
+
+```
+CS.SOTA.002 (Cabrera 2012) ──┐
+                             ├──→ CS.SOTA.001 (Lauber 2025)
+CS.SOTA.003 (Giordano 2012) ─┘      ↑
+                                    │ builds upon
+CS.SOTA.005 (Galvão 2013) ──────────┘
+
+CS.SOTA.004 (Bruinjé 2024) ──→ biological mechanisms
+                                    ↓
+                              complements economic models
+```
+
+---
+
+## Применение в практике
+
+### Для консультации по репродукции
+1. Оценить текущий ВОС → CS.SOTA.001 для IEP
+2. Оценить ED/точность → CS.SOTA.005 для выбора программы
+3. Проверить здоровье свежих → CS.SOTA.004 для рисков
+
+### Для экономического анализа
+1. Baseline: CS.SOTA.001 (современные данные)
+2. Validation: CS.SOTA.002, CS.SOTA.003 (методология)
+3. Sensitivity: CS.SOTA.005 (диапазон сценариев)
+
+### Для обучения
+- CS.SOTA.004 — механизмы (почему здоровье важно)
+- CS.SOTA.001, CS.SOTA.005 — экономика (как принимать решения)
+
+---
+
+## Пробелы знаний (для будущих SoTA)
+
+| Тема | Почему важно | Тип исследования |
+|------|--------------|------------------|
+| Автоматизированное обнаружение течки | CS.SOTA.005 основан на ручном ED | Field trials с системами типа Heatime, CowManager |
+| Влияние генетики на репродуктивную экономику | Не учтено в моделях | GWAS + economic modeling |
+| Взаимодействие здоровье-репродукция в долгосрочной перспективе | CS.SOTA.004 — до 40 дня, CS.SOTA.001 — economic only | Longitudinal cohort studies |
+| Точная экономика sexed спермы в РФ | CS.SOTA.001 — US prices | Local market analysis |
+
+---
+
+## Обновление
+
+**Последнее добавление:** CS.SOTA.004, CS.SOTA.005 (2026-03-01)
+
+**Следующий обзор:** 2027-03-01
+
+**Критерий добавления новой SoTA:**
+1. Peer-reviewed journal
+2. Direct relevance to scope
+3. Fills gap or updates existing
+4. Methodology transparent
+
+---
+
+*Map version: 0.2.0 | Updated: 2026-03-01*
