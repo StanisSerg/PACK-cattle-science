@@ -74,11 +74,33 @@
 
 **Material:** A daily herd Markov-chain model to study the reproductive and economic impact of reproductive programs
 
-**Authors:** Giordano et al.
+**Authors:** Giordano, J.O., et al.
 
 **Year:** 2012
 
+**Source Type:** Peer-reviewed research (simulation model)
+
+**Date Ingested:** 2026-03-01
+
+**Relevance:** 
+- Concurrent development with Cabrera 2012 (similar methodology)
+- Daily (vs monthly) Markov chain granularity
+- Herd-level reproductive impact assessment
+- Core CS domain (reproduction, economics, modeling)
+
+**Relevance Test:**
+- [x] Within bounded context? YES (reproduction, herd dynamics)
+- [x] Relates to identified entities? YES (herd structure, reproduction)
+- [x] Can be analyzed through distinctions? YES (D.004 Individual/Herd, D.007 Model/Reality)
+
 **Status:** pending-analysis
+
+**Initial Notes:**
+- Daily Markov chain (higher granularity than Cabrera)
+- Focus on herd-level reproductive programs impact
+- Concurrent with Cabrera 2012 (both 2012, both Markov)
+- Complementary: Cabrera = individual cow, Giordano = herd dynamics
+- Cited in Lauber 2025
 
 ---
 
