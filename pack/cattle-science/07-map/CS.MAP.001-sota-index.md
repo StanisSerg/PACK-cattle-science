@@ -17,6 +17,7 @@
 | CS.SOTA.007 | Carvalho 2019 | 2019 | Trial | Манипуляция P4, снижение двойняшности | Current |
 | CS.SOTA.008 | De Vries 2017 | 2017 | Review | Генетический прогресс vs долголетие | Current |
 | CS.SOTA.009 | Hansson 2025 | 2025 | Trial | VWP 140 дней vs 50 дней | Current |
+| CS.SOTA.010 | NASEM 2021 | 2021 | Book | Нормы питания молочного скота | Current |
 
 ---
 
@@ -115,6 +116,6 @@ CS.SOTA.004 (Bruinjé 2024) ──→ biological mechanisms
 
 ---
 
-*Map version: 0.3.0 | Updated: 2026-03-02*
+*Map version: 0.4.0 | Updated: 2026-03-02*
 
 *Перевод на русский: 2026-03-02*

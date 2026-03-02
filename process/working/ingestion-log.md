@@ -176,4 +176,26 @@
 
 ---
 
+---
+
+## Entry 009: NASEM (2021)
+
+**Material:** Nutrient Requirements of Dairy Cattle, Eighth Revised Edition
+
+**Authors:** Committee on Nutrient Requirements of Dairy Cattle
+
+**Year:** 2021
+
+**Source Type:** Book / Consensus Study Report
+
+**Publisher:** The National Academies Press
+
+**Pages:** 505
+
+**Date Ingested:** 2026-03-02
+
+**Status:** analyzed → SoTA CS.SOTA.010 created
+
+---
+
 *Ingestion log maintained during Stage 05. Cleared after Stage 06 completion.*
