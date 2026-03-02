@@ -31,7 +31,19 @@ tags: [nutrition, requirements, standards, NASEM, dairy-cattle, feeding, index]
 
 ---
 
-## Структура глав
+## Структура глав — Статус
+
+### ✅ Созданные SoTA
+
+| SoTA ID | Глава | Статус | Ключевое содержание |
+|---------|-------|--------|---------------------|
+| **010-04** | 4 — Energy | ✅ Готово | NEL, NEM, NEg, DMI прогнозирование |
+| **010-05** | 5 — Protein | ✅ Готово | MP, RUP/RDP, аминокислоты, MUN |
+| **010-06** | 6 — Minerals | ✅ Готово | Ca, P, Mg, DCAD, микро, взаимодействия |
+| **010-07** | 7 — Vitamins | ✅ Готово | A, D, E, K, B-группа, синтез микробиомом |
+| **010-10** | 10 — Models | ✅ Готово | CNCPS, AMTS, валидация, примеры рационов |
+| **010-13** | 13 — Transition | ✅ Готово | DCAD протоколы, метаболические, мониторинг |
+| **010-14** | 14 — Reserves | ✅ Готово | BCS, NEFA, BHBA, мобилизация, репродукция |
 
 ### Главы 1-2: Введение и История
 **Статус:** ⚪ Не требуют отдельного SoTA
@@ -339,19 +351,24 @@ tags: [nutrition, requirements, standards, NASEM, dairy-cattle, feeding, index]
 
 ## Приоритеты создания SoTA
 
-### Фаза 1: Критично (неделя 1)
-1. CS.SOTA.010-04 — Energy ⏱️ 2-3 часа
-2. CS.SOTA.010-05 — Protein ⏱️ 2-3 часа
-3. CS.SOTA.010-06 — Minerals ⏱️ 2-3 часа
-4. CS.SOTA.010-13 — Transition ⏱️ 2-3 часа
+### ✅ Фаза 1: Критично — ВЫПОЛНЕНО
+- [x] CS.SOTA.010-04 — Energy
+- [x] CS.SOTA.010-05 — Protein
+- [x] CS.SOTA.010-06 — Minerals
+- [x] CS.SOTA.010-13 — Transition
 
-### Фаза 2: Важно (неделя 2)
-5. CS.SOTA.010-14 — Reserves
-6. CS.SOTA.010-10 — Models
-7. CS.SOTA.010-07 — Vitamins
+### ✅ Фаза 2: Важно — ВЫПОЛНЕНО
+- [x] CS.SOTA.010-14 — Reserves
+- [x] CS.SOTA.010-10 — Models
+- [x] CS.SOTA.010-07 — Vitamins
 
-### Фаза 3: Опционально
-8-14. Остальные главы по необходимости
+### Фаза 3: Опционально (по необходимости)
+- [ ] CS.SOTA.010-03 — Digestive Physiology
+- [ ] CS.SOTA.010-08 — Water
+- [ ] CS.SOTA.010-09 — Feed Composition
+- [ ] CS.SOTA.010-11 — Reproduction
+- [ ] CS.SOTA.010-12 — Growth
+- [ ] CS.SOTA.010-15-20 — Специальные темы
 
 ---
 
