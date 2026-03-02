@@ -2,183 +2,185 @@
 
 ---
 
-## Article Metadata
+## Метаданные статьи
 
-| Field | Value |
+| Поле | Значение |
 |-------|-------|
-| **Authors** | Lauber, M.R., Cabrera, V.E., & Fricke, P.M. |
-| **Year** | 2025 |
-| **Title** | An economic simulation model to assess the effect of the 21-day pregnancy rate, semen type, and heifer survival rate on the optimal insemination eligibility period for lactating dairy cows |
-| **Journal** | Journal of Dairy Science |
+| **Авторы** | Lauber, M.R., Cabrera, V.E., & Fricke, P.M. |
+| **Год** | 2025 |
+| **Название** | An economic simulation model to assess the effect of the 21-day pregnancy rate, semen type, and heifer survival rate on the optimal insemination eligibility period for lactating dairy cows |
+| **Журнал** | Journal of Dairy Science |
 | **DOI** | https://doi.org/10.3168/jds.2025-27021 |
-| **Type** | Simulation study |
+| **Тип** | Исследование методом моделирования |
 
 ---
 
-## SoTA Status
+## Статус SoTA
 
-| Aspect | Status | Date |
+| Аспект | Статус | Дата |
 |--------|--------|------|
-| **Currency** | Current | 2026-03-01 |
-| **Evidence Level** | Medium-High | Simulation based on validated models |
-| **Relevance** | High | Directly applicable to modern dairy operations |
-| **Confidence** | Medium-High | Extensive scenario testing (5×2×4×multiple) |
+| **Актуальность** | Текущая | 2026-03-01 |
+| **Уровень доказательств** | Средне-высокий | Моделирование на основе валидированных моделей |
+| **Актуальность** | Высокая | Прямое применение к современным молочным операциям |
+| **Уверенность** | Средне-высокая | Обширное тестирование сценариев (5×2×4×multiple) |
 
-**Overall Status:** Current (with simulation caveat)
+**Общий статус:** Текущий (с оговоркой о моделировании)
 
 ---
 
-## Key Claims
+## Ключевые утверждения
 
-### Claim 1: Optimal IEP is Herd-Specific
+### Утверждение 1: Оптимальный IEP специфичен для стада
 > "The optimal IEP depends on the 21-d PR, semen type, and HSR, making it herd specific."
 
-**Evidence:** Simulation across 5 PR levels × 2 semen types × 4 HSR levels × multiple IEPs
+**Доказательства:** Моделирование по 5 уровням PR × 2 типа спермы × 4 уровня HSR × multiple IEP
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** No universal "best" IEP; must calculate for each herd's specific parameters.
+**Практическое следствие:** Нет универсального "лучшего" IEP; необходимо рассчитывать для конкретных параметров каждого стада.
 
 ---
 
-### Claim 2: Sexed+Beef Semen Strategy is Economically Superior
+### Утверждение 2: Стратегия сортированной+мясной спермы экономически превосходна
 > "For a 170-d IEP... the base NR (20% 21-d PR) was $51 greater per cow/yr for sexed+beef semen than for conventional semen herd scenarios."
 
-**Evidence:** Direct comparison at baseline scenario
+**Доказательства:** Прямое сравнение в базовом сценарии
 
-**Confidence:** Medium-High (simulation result)
+**Уверенность:** Средне-высокая (результат моделирования)
 
-**Practical Implication:** Despite higher semen costs, strategic use of sexed+beef generates significant economic advantage.
+**Практическое следствие:** Несмотря на более высокую стоимость спермы, стратегическое использование сортированной+мясной спермы даёт значительное экономическое преимущество.
 
-**Value:** $51/cow/year at 20% 21-d PR; varies with PR level and market conditions.
+**Ценность:** $51/корова/год при 20% 21-d PR; варьируется в зависимости от уровня PR и рыночных условий.
 
 ---
 
-### Claim 3: Improving 21-d PR Has Strong Economic Return
+### Утверждение 3: Улучшение 21-d PR имеет сильный экономический эффект
 > "The increase in NR ranged from $3 to $6 and from $2 to $7 per 1-percentage-point increase in the 21-d PR for conventional and sexed+beef semen herd scenarios with a 170 d IEP, respectively."
 
-**Evidence:** Sensitivity analysis across PR range
+**Доказательства:** Анализ чувствительности по диапазону PR
 
-**Confidence:** Medium
+**Уверенность:** Средняя
 
-**Practical Implication:** Investment in reproductive improvement (AI training, synchronization protocols, heat detection) has quantifiable ROI.
+**Практическое следствие:** Инвестиции в улучшение репродукции (обучение AI, протоколы синхронизации, обнаружение охоты) имеют измеримую ROI.
 
-**Value:** $2-7/cow/year per 1% PR improvement
+**Ценность:** $2-7/корова/год на каждый процентный пункт улучшения PR
 
 ---
 
-### Claim 4: Low PR Herds Face Replacement Constraints
+### Утверждение 4: Стада с низким PR сталкиваются с ограничениями замены
 > "The optimal IEP for conventional semen herd scenarios ranged from 80 to 170 d for high to low 21-d PR herds, respectively, but was 200 d for sexed+beef semen herd scenarios regardless of the 21-d PR... low 21-d PR herds with a 75% HSR had insufficient replacements."
 
-**Evidence:** Model output showing replacement shortage at specific parameter combinations
+**Доказательства:** Вывод модели, показывающий нехватку замены при определённых комбинациях параметров
 
-**Confidence:** Medium (model-dependent)
+**Уверенность:** Средняя (зависит от модели)
 
-**Practical Implication:** Herds with poor reproduction AND poor heifer survival cannot fully implement optimal IEP strategies due to replacement constraints.
+**Практическое следствие:** Стада с плохой репродукцией И плохой выживаемостью тёлок не могут полностью реализовать оптимальные стратегии IEP из-за ограничений замены.
 
-**Threshold:** HSR ≥80% recommended for sexed+beef strategy
+**Порог:** HSR ≥80% рекомендуется для стратегии сортированной+мясной спермы
 
 ---
 
-### Claim 5: Beef Calf Market Value Significantly Affects Decisions
+### Утверждение 5: Рыночная ценность мясных телят значительно влияет на решения
 > "Increasing beef calf market values increased NR as expected."
 
-**Evidence:** Sensitivity analysis ($385-1,125 range tested)
+**Доказательства:** Анализ чувствительности (тестирован диапазон $385-1,125)
 
-**Confidence:** High (directional, expected result)
+**Уверенность:** Высокая (направленный, ожидаемый результат)
 
-**Practical Implication:** Semen strategy should be reviewed when beef calf prices change significantly.
-
----
-
-## Methodology Assessment
-
-### Approach
-- **Type:** Discrete, monthly Markov-chain model
-- **Herd size:** 1,000 cows (baseline)
-- **Scenarios:** 5 PR × 2 semen × 4 HSR × multiple IEP × price levels
-- **Time step:** Monthly transitions
-
-### Strengths
-1. Based on validated Markov models (Cabrera 2012, Giordano 2012)
-2. Extensive scenario testing
-3. Includes multiple economic factors (semen, calf value, replacement)
-4. Accounts for herd dynamics (replacement sufficiency)
-
-### Limitations
-1. **Simulation, not field trial:** Results are model predictions, not observed outcomes
-2. **Markov assumption:** Monthly transitions assumed independent
-3. **Fixed lactation curves:** May not capture individual cow variation
-4. **Input parameter sensitivity:** Results depend on accurate estimation of 21-d PR
-5. **Static model:** Does not capture year-to-year variation or trends
-
-### Validation Status
-- Model structure: Validated (based on prior published models)
-- Parameters: Industry-standard values used
-- **Field validation:** Not yet performed (opportunity for future research)
+**Практическое следствие:** Стратегия спермы должна пересматриваться при значительном изменении цен на мясных телят.
 
 ---
 
-## Revision Criterion
+## Оценка методологии
 
-**Trigger for review:**
-- Field validation study with >50 commercial farms showing substantially different results
-- Major change in semen pricing structure
-- New reproductive technologies altering pregnancy rate dynamics
+### Подход
+- **Тип:** Дискретная ежемесячная модель цепей Маркова
+- **Размер стада:** 1,000 коров (базовый)
+- **Сценарии:** 5 PR × 2 типа спермы × 4 HSR × multiple IEP × уровни цен
+- **Шаг времени:** Ежемесячные переходы
 
-**Review date:** 2027-03-01 (annual) or earlier if trigger event
+### Сильные стороны
+1. Основана на валидированных моделях Маркова (Cabrera 2012, Giordano 2012)
+2. Обширное тестирование сценариев
+3. Включает множество экономических факторов (сперма, ценность телята, замена)
+4. Учитывает динамику стада (достаточность замены)
+
+### Ограничения
+1. **Моделирование, не полевое исследование:** Результаты — прогнозы модели, а не наблюдаемые результаты
+2. **Допущение Маркова:** Предполагается независимость ежемесячных переходов
+3. **Фиксированные кривые лактации:** Могут не учитывать индивидуальную вариацию коров
+4. **Чувствительность к входным параметрам:** Результаты зависят от точной оценки 21-d PR
+5. **Статическая модель:** Не учитывает годовую вариацию или тренды
+
+### Статус валидации
+- Структура модели: Валидирована (основана на ранее опубликованных моделях)
+- Параметры: Использованы отраслевые стандарты
+- **Полевая валидация:** Ещё не проведена (возможность для будущих исследований)
 
 ---
 
-## Related SoTA Entries
+## Критерий пересмотра
 
-| Entry | Relationship |
+**Триггер для пересмотра:**
+- Полевое валидационное исследование с >50 коммерческими фермами, показывающее существенно другие результаты
+- Существенное изменение структуры цен на сперму
+- Новые репродуктивные технологии, изменяющие динамику плодовитости
+
+**Дата пересмотра:** 2027-03-01 (ежегодно) или ранее при триггерном событии
+
+---
+
+## Связанные записи SoTA
+
+| Запись | Связь |
 |-------|--------------|
-| CS.SOTA.002 (Cabrera 2012) | Foundational model this study builds upon |
-| CS.SOTA.003 (Giordano 2012) | Foundational Markov model |
+| CS.SOTA.002 (Cabrera 2012) | Базовая модель, на которой строится это исследование |
+| CS.SOTA.003 (Giordano 2012) | Базовая модель Маркова |
 
 ---
 
-## Application Notes
+## Примечания по применению
 
-### When to Use This Source
-- Evaluating semen type strategy decisions
-- Determining optimal IEP for specific herd parameters
-- Quantifying economic value of reproductive improvement
-- Sensitivity analysis for reproductive decisions
+### Когда использовать этот источник
+- Оценка решений по стратегии типа спермы
+- Определение оптимального IEP для конкретных параметров стада
+- Количественная оценка экономической ценности улучшения репродукции
+- Анализ чувствительности для репродуктивных решений
 
-### When to Supplement
-- Field data from similar herds (validation)
-- Current market prices (beef calves, semen, milk)
-- Herd-specific reproductive performance data
+### Когда дополнять
+- Полевые данные от аналогичных стад (валидация)
+- Текущие рыночные цены (мясные телята, сперма, молоко)
+- Данные о репродуктивной продуктивности, специфичные для стада
 
-### When to Be Cautious
-- Herds with parameters outside tested ranges (e.g., 21-d PR <15% or >45%)
-- Extreme market conditions (prices outside $385-1,125 beef calf range)
-- Farms with significant management differences from modeled assumptions
+### Когда быть осторожным
+- Стада с параметрами вне тестированных диапазонов (например, 21-d PR <15% или >45%)
+- Экстремальные рыночные условия (цены вне диапазона $385-1,125 за мясного телёнка)
+- Фермы со значительными отличиями в управлении от смоделированных допущений
 
 ---
 
-## Distinctions Applied
+## Применённые различия
 
-| Distinction | Application |
+| Различие | Применение |
 |-------------|-------------|
-| D.003 Input vs. Output | 21-d PR (input) → Net Return (output) |
-| D.005 Biological vs. Economic | Biological potential vs. economic optimum in IEP selection |
-| D.007 Model vs. Reality | Simulation estimates require field validation |
+| D.003 Вход vs. Выход | 21-d PR (вход) → Чистая прибыль (выход) |
+| D.005 Биологическое vs. Экономическое | Биологический потенциал vs. экономический оптимум при выборе IEP |
+| D.007 Модель vs. Реальность | Оценки моделирования требуют полевой валидации |
 
 ---
 
-## Pack Integration
+## Интеграция в пакет
 
-| Element | Integration |
+| Элемент | Интеграция |
 |---------|-------------|
-| Method | CS.METHOD.003-reproductive-economics (primary source) |
-| Work Product | CS.WP.003-reproduction-economic-report (application) |
-| Entity | CS.ENTITY.001-21d-pregnancy-rate (definition and significance) |
+| Метод | CS.METHOD.003-reproductive-economics (основной источник) |
+| Рабочий продукт | CS.WP.003-reproduction-economic-report (применение) |
+| Сущность | CS.ENTITY.001-21d-pregnancy-rate (определение и значение) |
 
 ---
 
-*SoTA annotation created: 2026-03-01*  
-*Analyst: Claude (AI assistant)*  
-*Next review: 2027-03-01 or upon field validation*
+*Аннотация SoTA создана: 2026-03-01*  
+*Аналитик: Claude (AI assistant)*  
+*Следующий пересмотр: 2027-03-01 или при полевой валидации*
+
+*Перевод на русский: 2026-03-02*

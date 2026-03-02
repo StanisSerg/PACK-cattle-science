@@ -1,6 +1,6 @@
 # State of the Art: Giordano et al. (2012)
 
-## Metadata
+## Метаданные
 ```yaml
 type: sota
 domain: cattle-science
@@ -16,215 +16,217 @@ created: 2026-03-01
 
 ---
 
-## Article Summary
+## Резюме статьи
 
-**Citation:** Giordano, J.O., Kalantari, A.S., Fricke, P.M., Wiltbank, M.C., & Cabrera, V.E. (2012). A daily herd Markov-chain model to study the reproductive and economic impact of reproductive programs combining timed artificial insemination and estrus detection. *Journal of Dairy Science*, 95(10), 5442-5460.
+**Цитирование:** Giordano, J.O., Kalantari, A.S., Fricke, P.M., Wiltbank, M.C., & Cabrera, V.E. (2012). A daily herd Markov-chain model to study the reproductive and economic impact of reproductive programs combining timed artificial insemination and estrus detection. *Journal of Dairy Science*, 95(10), 5442-5460.
 
-**Research Question:** How do different combinations of TAI and estrus detection (ED) programs affect herd reproductive performance and economic outcomes?
+**Исследовательский вопрос:** Как различные комбинации программ TAI и обнаружения охоты (ED) влияют на репродуктивную продуктивность и экономические результаты стада?
 
-**Key Innovation:** Daily Markov chain model with ~600,000 cow states enabling detailed herd-level simulation of 19 reproductive programs.
+**Ключевая инновация:** Ежедневная модель цепей Маркова с ~600,000 состояниями коров, позволяющая детально моделировать на уровне стада 19 репродуктивных программ.
 
 ---
 
-## Core Contributions
+## Основные вклады
 
-### 1. Methodological: Daily Markov Chain Herd Model
+### 1. Методологический: Ежедневная модель стада методом цепей Маркова
 
-| Aspect | Contribution |
+| Аспект | Вклад |
 |--------|--------------|
-| Granularity | Daily time steps (vs monthly in prior work) |
-| State space | ~600,000 combinations (parity × DIM × pregnancy) |
-| Scale | Full herd simulation with replacement dynamics |
-| Solution | Steady-state iterative approach |
+| Детализация | Ежедневные шаги (vs помесячно в предыдущих работах) |
+| Пространство состояний | ~600,000 комбинаций (паритет × DIM × беременность) |
+| Масштаб | Полное моделирование стада с динамикой замены |
+| Решение | Подход итераций установившегося состояния |
 
-**Significance:** Higher temporal resolution enables more precise modeling of reproductive events and economic flows.
+**Значение:** Более высокое временное разрешение позволяет более точно моделировать репродуктивные события и экономические потоки.
 
-### 2. Program Comparison Framework
+### 2. Фреймворк сравнения программ
 
-**19 programs evaluated:**
-- 100% TAI (baseline)
-- TAI + ED combinations with varying:
-  - ED proportion: 30%, 50%, 80%
-  - ED conception rate: 25%, 30%, 35%
+**Оценено 19 программ:**
+- 100% TAI (базовый)
+- Комбинации TAI + ED с варьирующимися:
+  - Доля ED: 30%, 50%, 80%
+  - Плодовитость ED: 25%, 30%, 35%
 
-**Key finding:** Combined TAI+ED with 35% ED CR had greatest net value at all ED proportions.
+**Ключевой вывод:** Комбинированная TAI+ED с 35% CR ED имела наибольшую чистую ценность при всех долях ED.
 
-### 3. CR Trade-off Discovery
+### 3. Открытие компромисса CR
 
-> "As the proportion of cows receiving AI after ED increased, the CR of cows receiving TAI decreased"
+> "По мере увеличения доли коров, получающих AI после ED, плодовитость коров, получающих TAI, снижалась"
 
-**Implication:** Resource allocation optimization required; maximum ED not optimal.
+**Следствие:** Требуется оптимизация распределения ресурсов; максимальный ED не оптимален.
 
 ---
 
-## Key Results
+## Ключевые результаты
 
-### Economic Drivers (Ranked by Impact)
+### Экономические драйверы (ранжированные по влиянию)
 
-| Rank | Factor | Relative Contribution |
+| Ранг | Фактор | Относительный вклад |
 |------|--------|----------------------|
-| 1 | Income over feed cost | Greatest |
-| 2 | Replacement costs | Moderate |
-| 3 | Reproductive costs | Smallest |
+| 1 | Доход сверх стоимости корма | Наибольший |
+| 2 | Затраты на замену | Умеренный |
+| 3 | Репродуктивные затраты | Наименьший |
 
-### Optimal Program Characteristics
+### Характеристики оптимальной программы
 
-| ED CR | Optimal ED % | NV Performance |
+| CR ED | Оптимальная доля ED | Производительность NV |
 |-------|--------------|----------------|
-| 25% | Low/none | Decrease or no change |
-| 30% | Moderate | Improved |
-| 35% | High | Best |
+| 25% | Низкая/отсутствует | Снижение или без изменений |
+| 30% | Умеренная | Улучшение |
+| 35% | Высокая | Наилучшая |
 
-### Heifer Supply Integration
+### Интеграция с поставкой тёлок
 
-- Adjusting DIM cutoff to match replacement supply improves NV
-- Benefit applies to programs with heifer surplus
-- Exception: 25% CR programs (no improvement)
+- Корректировка порога DIM для согласования с поставкой замены улучшает NV
+- Выгода применима к программам с избытком тёлок
+- Исключение: программы с 25% CR (нет улучшения)
 
 ---
 
-## Strengths
+## Сильные стороны
 
-| Strength | Evidence |
+| Сильная сторона | Доказательство |
 |----------|----------|
-| High resolution | Daily transitions vs monthly |
-| Comprehensive | ~600,000 states capture complexity |
-| Practical | 19 programs directly comparable |
-| Integrated | Includes replacement herd dynamics |
-| Validated | Consistent with prior literature |
+| Высокое разрешение | Ежедневные переходы vs помесячно |
+| Комплексность | ~600,000 состояний отражают сложность |
+| Практичность | 19 программ прямо сопоставимы |
+| Интегрированность | Включает динамику стада замены |
+| Валидированность | Согласуется с предыдущей литературой |
 
 ---
 
-## Limitations
+## Ограничения
 
-| Limitation | Description |
+| Ограничение | Описание |
 |------------|-------------|
-| Simulation only | No field validation of specific programs |
-| Steady-state | Long-term equilibrium, not transitional |
-| Fixed parameters | CR values assumed constant |
-| Predefined policies | Comparison, not optimization |
+| Только моделирование | Нет полевой валидации конкретных программ |
+| Установившееся состояние | Долгосрочное равновесие, не переходное |
+| Фиксированные параметры | Значения CR предполагаются постоянными |
+| Предопределённые политики | Сравнение, не оптимизация |
 
 ---
 
-## Currency Assessment
+## Оценка актуальности
 
-| Aspect | Status | Rationale |
+| Аспект | Статус | Обоснование |
 |--------|--------|-----------|
-| **Methodology** | Current | Daily Markov approach still valid |
-| **Economic values** | Superseded | Updated in Lauber 2025 |
-| **Program rankings** | Context-dependent | Depend on current prices/CR |
-| **Key insights** | Enduring | CR trade-off, economic drivers |
+| **Методология** | Текущая | Подход ежедневных цепей Маркова всё ещё валиден |
+| **Экономические значения** | Устаревшие | Обновлены в Lauber 2025 |
+| **Ранжирование программ** | Контекстно-зависимое | Зависит от текущих цен/CR |
+| **Ключевые инсайты** | Устойчивые | Компромисс CR, экономические драйверы |
 
-**Overall:** Foundational methodological reference; update economics with current data.
+**В целом:** Базовая методологическая ссылка; обновлять экономику текущими данными.
 
 ---
 
-## Relationship to Other SoTA
+## Связь с другими SoTA
 
-### Predecessors
+### Предшественники
 
-| Work | Relationship |
+| Работа | Связь |
 |------|--------------|
-| Cabrera (2012) | Extended monthly model to daily; expanded individual to herd |
-| Kalantari et al. (2008) | Built on parameter estimation methods |
+| Cabrera (2012) | Расширение помесячной модели до ежедневной; расширение отдельной коровы до стада |
+| Kalantari et al. (2008) | Основан на методах оценки параметров |
 
-### Successors
+### Преемники
 
-| Work | Relationship |
+| Работа | Связь |
 |------|--------------|
-| Lauber (2025) | Updated economics; similar Markov foundation |
-| Current research | Daily Markov standard for herd simulation |
+| Lauber (2025) | Обновление экономики; схожая основа Маркова |
+| Текущие исследования | Ежедневные цепи Маркова — стандарт для моделирования стада |
 
 ---
 
-## Practical Implications
+## Практические следствия
 
-### For Farm Managers
+### Для управляющих фермами
 
-1. **Invest in ED accuracy before ED proportion**
-   - 35% ED CR enables high ED proportion
-   - 25% ED CR: focus on TAI
+1. **Инвестируйте в точность ED прежде доли ED**
+   - 35% CR ED позволяет высокую долю ED
+   - 25% CR ED: сосредоточьтесь на TAI
 
-2. **Match reproductive program to heifer supply**
-   - Surplus: extend DIM cutoff
-   - Deficit: tighten culling
+2. **Согласуйте репродуктивную программу с поставкой тёлок**
+   - Избыток: увеличьте порог DIM
+   - Дефицит: ужесточите выбраковку
 
-3. **Focus on feed efficiency**
-   - Income over feed cost drives economic outcomes
-   - Reproduction is secondary economic factor
+3. **Сосредоточьтесь на эффективности кормления**
+   - Доход сверх стоимости корма определяет экономические результаты
+   - Репродукция — вторичный экономический фактор
 
-### For Researchers
+### Для исследователей
 
-1. **Methodology template**
-   - Daily Markov chain for reproductive modeling
-   - ~600,000 states as benchmark complexity
+1. **Шаблон методологии**
+   - Ежедневные цепи Маркова для репродуктивного моделирования
+   - ~600,000 состояний как эталон сложности
 
-2. **Research gaps**
-   - Field validation of program rankings
-   - Transitional dynamics modeling
-   - Individual cow heterogeneity in CR
+2. **Пробелы исследований**
+   - Полевая валидация ранжирования программ
+   - Моделирование переходной динамики
+   - Индивидуальная гетерогенность в CR
 
 ---
 
-## Confidence Assessment
+## Оценка уверенности
 
-| Dimension | Level | Justification |
+| Измерение | Уровень | Обоснование |
 |-----------|-------|---------------|
-| **Internal validity** | High | Well-structured Markov model |
-| **External validity** | Medium | Simulation, limited field validation |
-| **Relevance** | High | Cited in 2025 research |
-| **Currency** | Foundational | Method current, economics dated |
+| **Внутренняя валидность** | Высокая | Хорошо структурированная модель Маркова |
+| **Внешняя валидность** | Средняя | Моделирование, ограниченная полевая валидация |
+| **Актуальность** | Высокая | Цитируется в исследованиях 2025 года |
+| **Актуальность** | Базовая | Метод текущий, экономика устаревшая |
 
-**Overall confidence:** High for methodology, Medium for specific values
+**Общая уверенность:** Высокая для методологии, Средняя для конкретных значений
 
 ---
 
-## Citation in Current Research
+## Цитирование в текущих исследованиях
 
-**Lauber 2025 reference:**
+**Ссылка Lauber 2025:**
 > "Giordano et al. (2012) demonstrated that combined TAI and ED programs can be economically advantageous..."
 
-**Status:** Foundational citation for program comparison methodology
+**Статус:** Базовая ссылка для методологии сравнения программ
 
 ---
 
-## Pack Integration
+## Интеграция в пакет
 
-### Related Files
+### Связанные файлы
 
-| File | Relationship |
+| Файл | Связь |
 |------|--------------|
-| CS.METHOD.005 | Methodology specification |
-| CS.WP.005 | Program comparison template |
-| CS.SOTA.001 (Lauber 2025) | Economic update |
-| CS.SOTA.002 (Cabrera 2012) | Predecessor model |
+| CS.METHOD.005 | Спецификация методологии |
+| CS.WP.005 | Шаблон сравнения программ |
+| CS.SOTA.001 (Lauber 2025) | Экономическое обновление |
+| CS.SOTA.002 (Cabrera 2012) | Предшествующая модель |
 
-### Queries
+### Запросы
 
-| Query | Purpose |
-|-------|---------|
-| Q.005 | What is optimal ED proportion for given CR? |
-| Q.006 | How does CR trade-off affect program selection? |
+| Запрос | Назначение |
+|-------|--------|
+| Q.005 | Какова оптимальная доля ED для данного CR? |
+| Q.006 | Как компромисс CR влияет на выбор программы? |
 
 ---
 
-## Update Triggers
+## Триггеры обновления
 
-| Trigger | Action |
+| Триггер | Действие |
 |--------|--------|
-| New simulation study with field validation | Update external validity |
-| Major change in reproductive economics | Update economic conclusions |
-| New program types (e.g., sexed semen in TAI) | Extend program comparison |
+| Новое исследование моделирования с полевой валидацией | Обновить внешнюю валидность |
+| Существенное изменение в репродуктивной экономике | Обновить экономические выводы |
+| Новые типы программ (например, сортированная сперма в TAI) | Расширить сравнение программ |
 
 ---
 
-## Change Log
+## Журнал изменений
 
-| Version | Date | Changes |
+| Версия | Дата | Изменения |
 |---------|------|---------|
-| 1.0 | 2026-03-01 | Initial creation |
+| 1.0 | 2026-03-01 | Первоначальное создание |
 
 ---
 
-*Part of PACK-cattle-science*  
-*Repository: https://github.com/StanisSerg/PACK-cattle-science*
+*Часть PACK-cattle-science*  
+*Репозиторий: https://github.com/StanisSerg/PACK-cattle-science*
+
+*Перевод на русский: 2026-03-02*

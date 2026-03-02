@@ -2,180 +2,182 @@
 
 ---
 
-## Article Metadata
+## Метаданные статьи
 
-| Field | Value |
+| Поле | Значение |
 |-------|-------|
-| **Authors** | Galvão, K.N., Federico, P., De Vries, A., Schuenemann, G.M. |
-| **Year** | 2013 |
-| **Title** | Economic comparison of reproductive programs for dairy herds using estrus detection, timed artificial insemination, or a combination |
-| **Journal** | Journal of Dairy Science, 96:2681-2693 |
+| **Авторы** | Galvão, K.N., Federico, P., De Vries, A., Schuenemann, G.M. |
+| **Год** | 2013 |
+| **Название** | Economic comparison of reproductive programs for dairy herds using estrus detection, timed artificial insemination, or a combination |
+| **Журнал** | Journal of Dairy Science, 96:2681-2693 |
 | **DOI** | https://doi.org/10.3168/jds.2012-5982 |
-| **Type** | Economic simulation (stochastic dynamic Monte-Carlo) |
+| **Тип** | Экономическое моделирование (стохастическое динамическое Монте-Карло) |
 
 ---
 
-## SoTA Status
+## Статус SoTA
 
-| Aspect | Status | Date |
+| Аспект | Статус | Дата |
 |--------|--------|------|
-| **Currency** | Current | 2026-03-01 |
-| **Evidence Level** | Medium-High | Validated simulation, extensive scenarios |
-| **Relevance** | High | Core decision for reproductive management |
-| **Confidence** | Medium-High | Model-based, not field trial |
+| **Актуальность** | Текущая | 2026-03-01 |
+| **Уровень доказательств** | Средне-высокий | Валидированное моделирование, обширные сценарии |
+| **Актуальность** | Высокая | Ключевое решение для репродуктивного управления |
+| **Уверенность** | Средне-высокая | На основе модели, не полевое исследование |
 
-**Overall Status:** Current (with simulation caveat)
+**Общий статус:** Текущий (с оговоркой о моделировании)
 
 ---
 
-## Key Claims
+## Ключевые утверждения
 
-### Claim 1: Combining TAI and ED Increases Profits vs. Either Alone
+### Утверждение 1: Сочетание TAI и ED увеличивает прибыль по сравнению с каждым по отдельности
 > "Adding TAI to ED would increase overall profit/cow per year by $46.8 to $74.7 with 40% ED, and by $8.9 to $30.5 with 60% ED. Adding ED to TAI would increase profit/cow per year by $64.2 to $99.4 with 85% compliance and by $31.8 to $59.7 with 95% compliance."
 
-**Evidence:** Monte-Carlo simulation, 1,000 cow herd, steady-state analysis (3,000d + 2,000d)
+**Доказательства:** Моделирование Монте-Карло, стадо 1,000 коров, анализ установившегося состояния (3,000д + 2,000д)
 
-**Confidence:** Medium-High (model-dependent)
+**Уверенность:** Средне-высокая (зависит от модели)
 
-**Practical Implication:** Synergistic effect of combining both approaches — not either/or decision
+**Практическое следствие:** Синергетический эффект от сочетания обоих подходов — решение не "или-или"
 
-**Value Range:** +$8.9 to +$99.4/cow/year depending on baseline performance
+**Диапазон значений:** +$8.9 до +$99.4/корова/год в зависимости от базовой продуктивности
 
 ---
 
-### Claim 2: High-Performance Single Systems Match Combined Systems
+### Утверждение 2: Высокопроизводительные единичные системы соответствуют комбинированным
 > "ED60 with 95% accuracy or TAI with 95% compliance were as profitable as or more profitable than TAI-ED with low ED, accuracy, or compliance."
 
-**Evidence:** Scenario comparison across ED rates (40%, 60%), accuracy (85%, 95%), compliance (85%, 95%)
+**Доказательства:** Сравнение сценариев по диапазону ED (40%, 60%), точности (85%, 95%), соблюдения (85%, 95%)
 
-**Confidence:** High (within model assumptions)
+**Уверенность:** Высокая (в рамках допущений модели)
 
-**Practical Implication:** If you can execute one system excellently, don't add complexity of second system
+**Практическое следствие:** Если вы можете отлично выполнять одну систему, не добавляйте сложность второй системы
 
-**Threshold:** ED ≥60% with ≥95% accuracy OR TAI with ≥95% compliance
+**Порог:** ED ≥60% с ≥95% точностью ИЛИ TAI с ≥95% соблюдением
 
 ---
 
-### Claim 3: ED40 Outperforms Low-Compliance TAI
+### Утверждение 3: ED40 превосходит TAI с низким соблюдением
 > "The ED40 models resulted in greater profits than the TAI-85 model but lower profits than the TAI-95 model."
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Poor compliance with TAI is worse than moderate ED
+**Практическое следствие:** Плохое соблюдение TAI хуже, чем умеренное ED
 
-**Implication for management:** TAI investment requires compliance commitment
+**Следствие для управления:** Инвестиции в TAI требуют обязательства по соблюдению
 
 ---
 
-### Claim 4: ED60 Outperforms Even High-Compliance TAI
+### Утверждение 4: ED60 превосходит даже TAI с высоким соблюдением
 > "Both ED60 models resulted in greater profits than the TAI-95 model."
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Excellent estrus detection remains gold standard economically
+**Практическое следствие:** Отличное обнаружение охоты остаётся экономическим золотым стандартом
 
-**Caveat:** ED60 with 95% accuracy is difficult to achieve in practice
-
----
-
-## Methodology Assessment
-
-### Approach
-- **Type:** Stochastic dynamic Monte-Carlo simulation
-- **Herd size:** 1,000 cows (maintained constant)
-- **Time horizon:** 3,000d to steady state + 2,000d analysis
-- **Scenarios evaluated:**
-  - ED only: 40% or 60% detection rate, 85% or 95% accuracy
-  - TAI only: Presynch-Ovsynch first AI, Ovsynch resync at 32d; 85% or 95% compliance
-  - TAI-ED combined: Presynch-Ovsynch first AI, then ED; resync open cows at 32d
-- **Economic factors:** Milk price ($0.33 vs $0.44/kg), all incomes and costs included
-- **Biological parameters:** CR 33.9% first service, -2.6% per subsequent; abortion 11.3%; no AI after 366 DIM; cull open at 450 DIM
-
-### Strengths
-1. Comprehensive economic modeling (all costs and incomes)
-2. Extensive sensitivity analysis (ED rate, accuracy, compliance, milk price)
-3. Validated simulation approach (used in prior studies)
-4. Practical scenario range (40-60% ED achievable; 85-95% compliance realistic)
-
-### Limitations
-1. **Simulation, not field trial:** Results are model predictions
-2. **Fixed parameters:** CR, abortion rate static (not herd-specific)
-3. **Immediate replacement:** Assumes no replacement cost/lag
-4. **No health interactions:** Transition health not modeled
-5. **Static prices:** No year-to-year variation
-
-### Validation Status
-- Model structure: Based on established dairy simulation models
-- Parameters: Industry-standard values (USDA 2009, etc.)
-- **Field validation:** Not performed; use as decision support, not prediction
+**Оговорка:** ED60 с 95% точностью сложно достичь на практике
 
 ---
 
-## Revision Criterion
+## Оценка методологии
 
-**Trigger for review:**
-- Field trial with >20 herds comparing these programs with different results
-- Major technology shift (automated ED systems, sexed semen cost reduction)
-- Significant change in milk/beef price ratios
-- New synchronization protocols with different compliance profiles
+### Подход
+- **Тип:** Стохастическое динамическое моделирование Монте-Карло
+- **Размер стада:** 1,000 коров (поддерживается постоянным)
+- **Горизонт времени:** 3,000д до установившегося состояния + 2,000д анализ
+- **Оценённые сценарии:**
+  - Только ED: 40% или 60% обнаружение, 85% или 95% точность
+  - Только TAI: Presynch-Ovsynch первое AI, Ovsynch ресинхронизация на 32д; 85% или 95% соблюдение
+  - Комбинированный TAI-ED: Presynch-Ovsynch первое AI, затем ED; ресинхронизация неосеменённых на 32д
+- **Экономические факторы:** Цена молока ($0.33 vs $0.44/кг), все доходы и затраты включены
+- **Биологические параметры:** CR 33.9% первое осеменение, -2.6% на последующее; аборт 11.3%; нет AI после 366 DIM; выбраковка неосеменённых на 450 DIM
 
-**Review date:** 2027-03-01 (annual) or earlier if trigger event
+### Сильные стороны
+1. Комплексное экономическое моделирование (все затраты и доходы)
+2. Обширный анализ чувствительности (уровень ED, точность, соблюдение, цена молока)
+3. Валидированный подход моделирования (использован в предыдущих исследованиях)
+4. Практичный диапазон сценариев (40-60% ED достижимо; 85-95% соблюдение реалистично)
+
+### Ограничения
+1. **Моделирование, не полевое исследование:** Результаты — прогнозы модели
+2. **Фиксированные параметры:** CR, процент аборта статичны (не специфичны для стада)
+3. **Немедленная замена:** Предполагается отсутствие затрат/задержки замены
+4. **Нет взаимодействий здоровья:** Здоровье переходного периода не смоделировано
+5. **Статичные цены:** Нет годовой вариации
+
+### Статус валидации
+- Структура модели: Основана на установленных моделях молочного производства
+- Параметры: Отраслевые стандарты (USDA 2009 и др.)
+- **Полевая валидация:** Не проведена; использовать как поддержку решений, не предсказание
 
 ---
 
-## Related SoTA Entries
+## Критерий пересмотра
 
-| Entry | Relationship |
+**Триггер для пересмотра:**
+- Полевое исследование с >20 стадами, сравнивающее эти программы с другими результатами
+- Существенный технологический сдвиг (автоматизированные системы ED, снижение стоимости сортированной спермы)
+- Значительное изменение соотношения цен молоко/мясо
+- Новые протоколы синхронизации с разными профилями соблюдения
+
+**Дата пересмотра:** 2027-03-01 (ежегодно) или ранее при триггерном событии
+
+---
+
+## Связанные записи SoTA
+
+| Запись | Связь |
 |-------|--------------|
-| CS.SOTA.001 (Lauber 2025) | Builds on this model; adds semen type and IEP optimization |
-| CS.SOTA.004 (Bruinjé 2024) | Health factors affecting reproductive performance (not in this model) |
+| CS.SOTA.001 (Lauber 2025) | Основана на этой модели; добавляет тип спермы и оптимизацию IEP |
+| CS.SOTA.004 (Bruinjé 2024) | Факторы здоровья, влияющие на репродуктивную продуктивность (не в этой модели) |
 
 ---
 
-## Application Notes
+## Примечания по применению
 
-### When to Use This Source
-- Deciding between ED, TAI, or combined approach
-- Justifying investment in ED training or synchronization protocols
-- Setting performance targets (ED rate, accuracy, compliance)
-- Evaluating current program against benchmarks
+### Когда использовать этот источник
+- Принятие решения между ED, TAI или комбинированным подходом
+- Обоснование инвестиций в обучение ED или протоколы синхронизации
+- Установление целевых показателей (уровень ED, точность, соблюдение)
+- Оценка текущей программы по сравнению с бенчмарками
 
-### When to Supplement
-- Herd-specific economics (use current prices, costs)
-- Health-challenged herds (Bruinjé 2024)
-- Sexed/beef semen strategies (Lauber 2025)
-- Genetic considerations (not addressed)
+### Когда дополнять
+- Экономика, специфичная для стада (использовать текущие цены, затраты)
+- Стада с проблемами здоровья (Bruinjé 2024)
+- Стратегии сортированной/мясной спермы (Lauber 2025)
+- Генетические соображения (не рассмотрены)
 
-### When to Be Cautious
-- Herds with ED <40% or accuracy <85% (outside tested range)
-- TAI compliance <85% (worse than any modeled scenario)
-- Grazing or seasonal systems (model assumptions may not hold)
-- Very large or small herds (1,000 cow baseline)
+### Когда быть осторожным
+- Стада с ED <40% или точностью <85% (вне тестированного диапазона)
+- Соблюдение TAI <85% (хуже любого смоделированного сценария)
+- Выпасные или сезонные системы (допущения модели могут не выполняться)
+- Очень большие или малые стада (базовый уровень 1,000 коров)
 
 ---
 
-## Distinctions Applied
+## Применённые различия
 
-| Distinction | Application |
+| Различие | Применение |
 |-------------|-------------|
-| D.003 Input vs. Output | Program choice (input) → Profit (output) |
-| D.005 Biological vs. Economic | Biological parameters fixed; economic optimization |
-| D.007 Model vs. Reality | Simulation estimates; validate with herd data |
-| D.008 Strategy vs. Tactics | Strategic program choice; tactical execution (accuracy, compliance) |
+| D.003 Вход vs. Выход | Выбор программы (вход) → Прибыль (выход) |
+| D.005 Биологическое vs. Экономическое | Биологические параметры фиксированы; экономическая оптимизация |
+| D.007 Модель vs. Реальность | Оценки моделирования; валидировать данными стада |
+| D.008 Стратегия vs. Тактика | Стратегический выбор программы; тактическое исполнение (точность, соблюдение) |
 
 ---
 
-## Pack Integration
+## Интеграция в пакет
 
-| Element | Integration |
+| Элемент | Интеграция |
 |---------|-------------|
-| Method | CS.METHOD.006-reproductive-program-selection |
-| Work Product | CS.WP.006-reproductive-program-economic-analysis |
-| Entity | CS.ENTITY.003-reproductive-program-efficiency |
-| Thresholds | ED≥60% + accuracy≥95% OR TAI compliance≥95% |
+| Метод | CS.METHOD.006-reproductive-program-selection |
+| Рабочий продукт | CS.WP.006-reproductive-program-economic-analysis |
+| Сущность | CS.ENTITY.003-reproductive-program-efficiency |
+| Пороги | ED≥60% + точность≥95% ИЛИ соблюдение TAI≥95% |
 
 ---
 
-*SoTA annotation created: 2026-03-01*  
-*Analyst: Claude (AI assistant)*  
-*Next review: 2027-03-01*
+*Аннотация SoTA создана: 2026-03-01*  
+*Аналитик: Claude (AI assistant)*  
+*Следующий пересмотр: 2027-03-01*
+
+*Перевод на русский: 2026-03-02*

@@ -1,192 +1,192 @@
-# CS.METHOD.003: Economic Evaluation of Reproductive Programs
+---
+id: CS.METHOD.003
+type: method
+domain: cattle-science
+area: economics, reproduction
+status: active
+sota: 2025-03-01
+sources: [Lauber-2025, Cabrera-2012, Giordano-2012]
+language: ru
+created: 2026-03-01
+updated: 2026-03-02
+---
 
-> Method for determining optimal insemination eligibility period (IEP) and evaluating economic impact of reproductive decisions.
+# CS.METHOD.003: Экономическая оценка репродуктивных программ
+
+> Метод определения оптимального периода допуска к осеменению (IEP) и оценки экономического эффекта репродуктивных решений.
 
 ---
 
-## Metadata
+## Назначение
 
-| Field | Value |
-|-------|-------|
-| **ID** | CS.METHOD.003 |
-| **Domain** | cattle-science |
-| **Area** | economics, reproduction |
-| **Type** | Decision support method |
-| **Status** | draft |
-| **SoTA** | 2025-03-01 |
-| **Sources** | [Lauber-2025], [Cabrera-2012], [Giordano-2012] |
+Оценка экономической эффективности репродуктивных стратегий молочного стада для определения:
+
+1. Оптимального периода допуска к осеменению (IEP — Insemination Eligibility Period)
+2. Наиболее прибыльной стратегии использования спермы
+3. Экономической ценности улучшения 21-дневной нетельности (21-d PR)
 
 ---
 
-## Purpose
+## Ключевые параметры
 
-Evaluate economic performance of dairy herd reproductive strategies to determine:
-1. Optimal insemination eligibility period (IEP)
-2. Most profitable semen type strategy
-3. Economic value of improving 21-day pregnancy rate
+### Входные параметры (управляемые)
 
----
+| Параметр | Обозначение | Диапазон | Единица | Измерение |
+|----------|-------------|----------|---------|-----------|
+| 21-дневная нетельность | 21-d PR | 20-40 | % | (SR × P/AI) × 100 |
+| Период допуска к осеменению | IEP | 50-260 | дней | С конца VWP |
+| Тип спермы | — | Conv / Sexed+Beef | категория | Стратегический выбор |
+| Выживаемость телок | HSR | 75-90 | % | До первого отёла |
+| Рыночная цена мясных телят | — | 385-1 125 | $/телёнок | Рыночная цена |
 
-## Key Parameters
+### Выходные параметры (результаты)
 
-### Input Parameters (Controllable)
+| Параметр | Обозначение | Единица | Интерпретация |
+|----------|-------------|---------|---------------|
+| Чистая прибыль | NR | $/корова/год | Экономическая эффективность |
+| Оптимальный IEP | — | дней | IEP с максимальной NR |
+| Темповый коэффициент стада | — | %/год | Норма выбытия |
+| Достаточность замены | — | да/нет | Можно ли поддерживать размер стада? |
 
-| Parameter | Symbol | Range | Unit | Measurement |
-|-----------|--------|-------|------|-------------|
-| 21-day pregnancy rate | 21-d PR | 20-40 | % | (Service rate × P/AI) × 100 |
-| Insemination eligibility period | IEP | 50-260 | days | From end of VWP |
-| Semen type | — | Conv / Sexed+Beef | category | Strategic choice |
-| Heifer survival rate | HSR | 75-90 | % | To first calving |
-| Beef calf market value | — | 385-1,125 | $/calf | Market price |
+### Референсные значения: 21-дневная нетельность (21-d PR)
 
-### Output Parameters (Results)
-
-| Parameter | Symbol | Unit | Interpretation |
-|-----------|--------|------|----------------|
-| Net return | NR | $/cow/year | Economic performance |
-| Optimal IEP | — | days | IEP with maximum NR |
-| Herd turnover rate | — | %/year | Replacement rate |
-| Replacement sufficiency | — | yes/no | Can maintain herd size? |
-
-### Reference Values: 21-day Pregnancy Rate
-
-| Classification | 21-d PR | Interpretation |
-|----------------|---------|----------------|
-| Low | 20% | Poor performance, requires intervention |
-| Below average | 25% | Below industry benchmark |
-| Average | 30% | Industry standard (2020 US Holstein) |
-| Above average | 35% | Good performance |
-| High | 40% | Excellent performance |
+| Классификация | 21-d PR | Интерпретация |
+|---------------|---------|---------------|
+| Низкая | 20% | Плохая результативность, требует вмешательства |
+| Ниже среднего | 25% | Ниже отраслевого бенчмарка |
+| Средняя | 30% | Отраслевой стандарт (US Holstein 2020) |
+| Выше среднего | 35% | Хорошая результативность |
+| Высокая | 40% | Отличная результативность |
 
 ---
 
-## Method Steps
+## Этапы метода
 
-### Step 1: Assess Current Status
+### Этап 1: Оценка текущего состояния
 
-Measure or estimate current herd parameters:
-- [ ] Calculate current 21-d PR from herd records
-- [ ] Determine current semen usage (% conventional, % sexed, % beef)
-- [ ] Estimate heifer survival rate
-- [ ] Record current IEP policy
+Измерить или оценить текущие параметры стада:
+- [ ] Рассчитать текущую 21-d PR по данным стада
+- [ ] Определить текущее использование спермы (% Conv, % Sexed, % Beef)
+- [ ] Оценить HSR (Heifer Survival Rate)
+- [ ] Зафиксировать текущую политику IEP
 
-### Step 2: Define Scenarios
+### Этап 2: Определение сценариев
 
-Define comparison scenarios:
+Определить сценарии для сравнения:
 
-**Scenario A: Conventional semen**
-- All inseminations with conventional dairy semen
-- Vary IEP: 80-170 days based on 21-d PR
+**Сценарий А: Обычная сперма (Conv)**
+- Все осеменения обычной молочной спермой
+- Варьировать IEP: 80-170 дней в зависимости от 21-d PR
 
-**Scenario B: Sexed+Beef semen strategy**
-- Nulliparous heifers: 75% sexed semen
-- Primiparous/secondiparous: Sexed for 1st-2nd AI
-- Remaining: Beef semen
-- IEP: 200 days (typical optimal)
+**Сценарий Б: Стратегия Sexed+Beef**
+- Неплодные телки: 75% Sexed semen
+- Первородки/второродки: Sexed для 1-2 AI
+- Остальные: Beef semen
+- IEP: 200 дней (типичный оптимум)
 
-### Step 3: Calculate Economic Outcomes
+### Этап 3: Расчёт экономических показателей
 
-For each scenario, calculate:
+Для каждого сценария рассчитать:
 
 ```
-Net Return ($/cow/year) = 
-    Milk Income
-  + Calf Income (conventional or beef×dairy)
-  - Semen Costs
-  - Replacement Costs
-  - Other Variable Costs
+NR ($/корова/год) = 
+    Доход от молока
+  + Доход от телят (Conv или Beef×Dairy)
+  − Затраты на сперму
+  − Затраты на замену
+  − Прочие переменные затраты
 ```
 
-**Reference values (Lauber 2025):**
-- Base NR (20% 21-d PR, conventional): baseline
-- NR improvement (sexed+beef vs conventional): +$51/cow/year
-- NR gain per 1% 21-d PR improvement: $2-7/cow/year
+**Референсные значения (Lauber 2025):**
+- Базовая NR (20% 21-d PR, Conv): базовый уровень
+- Улучшение NR (Sexed+Beef vs Conv): +$51/корова/год
+- Прирост NR на 1% улучшения 21-d PR: $2-7/корова/год
 
-### Step 4: Determine Optimal IEP
+### Этап 4: Определение оптимального IEP
 
-Find IEP that maximizes NR while maintaining sufficient replacements:
+Найти IEP, максимизирующий NR при достаточности замены:
 
-| 21-d PR | Conventional Optimal IEP | Sexed+Beef Optimal IEP |
-|---------|-------------------------|------------------------|
-| 20% (Low) | 170 days | 200 days* |
-| 25% (Below avg) | 150 days | 200 days* |
-| 30% (Average) | 130 days | 200 days |
-| 35% (Above avg) | 100 days | 200 days |
-| 40% (High) | 80 days | 200 days |
+| 21-d PR | Оптимальный IEP (Conv) | Оптимальный IEP (Sexed+Beef) |
+|---------|------------------------|------------------------------|
+| 20% (Низкая) | 170 дней | 200 дней* |
+| 25% (Ниже среднего) | 150 дней | 200 дней* |
+| 30% (Средняя) | 130 дней | 200 дней |
+| 35% (Выше среднего) | 100 дней | 200 дней |
+| 40% (Высокая) | 80 дней | 200 дней |
 
-*May require HSR ≥80% for sufficient replacements
+*Требуется HSR ≥80% для достаточности замены
 
-### Step 5: Sensitivity Analysis
+### Этап 5: Анализ чувствительности
 
-Test robustness of recommendation:
-- [ ] Vary beef calf price (±$200)
-- [ ] Vary heifer survival rate (±5%)
-- [ ] Vary milk price (±10%)
+Проверить устойчивость рекомендации:
+- [ ] Варьировать цену мясного телёнка (±$200)
+- [ ] Варьировать HSR (±5%)
+- [ ] Варьировать цену молока (±10%)
 
-### Step 6: Decision
+### Этап 6: Решение
 
-Select strategy based on:
-1. Maximum NR
-2. Sufficient replacement availability
-3. Risk tolerance (sensitivity results)
+Выбрать стратегию на основе:
+1. Максимальной NR
+2. Достаточности замены
+3. Толерантности к риску (результаты чувствительности)
 
 ---
 
-## Decision Algorithm
+## Алгоритм принятия решения
 
 ```
-IF 21-d PR < 25% AND HSR < 80%:
-    → Priority: Improve reproduction first
-    → Consider conventional semen, longer IEP
+ЕСЛИ 21-d PR < 25% И HSR < 80%:
+    → Приоритет: Сначала улучшить воспроизводство
+    → Рассмотреть Conv semen, длинный IEP
     
-ELSE IF 21-d PR ≥ 25% AND market conditions favorable:
-    → Evaluate sexed+beef strategy
-    → Optimal IEP = 200 days
-    → Expected gain: $30-60/cow/year
+ИНАЧЕ ЕСЛИ 21-d PR ≥ 25% И рыночные условия благоприятные:
+    → Оценить стратегию Sexed+Beef
+    → Оптимальный IEP = 200 дней
+    → Ожидаемый прирост: $30-60/корова/год
     
-ELSE IF maximizing genetic progress priority:
-    → Use sexed semen for heifers and young cows
-    → Beef semen for later lactations
+ИНАЧЕ ЕСЛИ приоритет — максимизация генетического прогресса:
+    → Использовать Sexed semen для телок и молодых коров
+    → Beef semen для поздних лактаций
     
-ELSE:
-    → Conservative: Conventional semen
-    → Adjust IEP based on 21-d PR (80-170 days)
+ИНАЧЕ:
+    → Консервативно: Conv semen
+    → Корректировать IEP в зависимости от 21-d PR (80-170 дней)
 ```
 
 ---
 
-## Work Products
+## Рабочие продукты
 
-| Product | ID | Description |
+| Продукт | ID | Описание |
 |---------|-----|-------------|
-| Reproduction Economic Assessment Report | CS.WP.003 | Full analysis with scenarios |
-| IEP Recommendation Brief | CS.WP.003a | One-page decision support |
-| Sensitivity Analysis Table | CS.WP.003b | Robustness testing results |
+| Отчёт об экономической оценке воспроизводства | CS.WP.003 | Полный анализ со сценариями |
+| Краткая рекомендация по IEP | CS.WP.003a | Одностраничная поддержка решения |
+| Таблица анализа чувствительности | CS.WP.003b | Результаты тестирования устойчивости |
 
 ---
 
-## Related Methods
+## Связанные методы
 
-| Method | Relationship |
-|--------|--------------|
-| CS.METHOD.001 | Protein norm calculation (feeding) |
-| CS.METHOD.002 | Energy requirement assessment (feeding) |
-| CS.METHOD.004 | Transition cow management (health) |
-
----
-
-## Failure Modes
-
-| Mode | Detection | Prevention |
-|------|-----------|------------|
-| Overestimating 21-d PR | Compare calculated vs. actual | Use 3-month rolling average |
-| Ignoring replacement constraints | Monitor heifer inventory | Check HSR sufficiency |
-| Static decision in dynamic market | Quarterly review | Update calf price assumptions |
-| One-size-fits-all IEP | Herd-specific analysis | Calculate optimal, don't copy |
+| Метод | Связь |
+|-------|-------|
+| CS.METHOD.001 | Расчёт нормы протеина (кормление) |
+| CS.METHOD.002 | Оценка энергетических потребностей (кормление) |
+| CS.METHOD.004 | Управление переходным периодом (здоровье) |
 
 ---
 
-## References
+## Режимы отказа
+
+| Режим | Обнаружение | Предотвращение |
+|-------|-------------|----------------|
+| Завышение 21-d PR | Сравнить рассчитанное с фактическим | Использовать скользящее среднее за 3 месяца |
+| Игнорирование ограничений замены | Мониторить инвентарь телок | Проверять достаточность HSR |
+| Статичное решение при динамичном рынке | Ежеквартальный пересмотр | Обновлять ценовые предпосылки |
+| Универсальный IEP для всех | Стадо-специфический анализ | Рассчитывать оптимум, не копировать |
+
+---
+
+## Литература
 
 1. Lauber, M.R., Cabrera, V.E., & Fricke, P.M. (2025). An economic simulation model to assess the effect of the 21-day pregnancy rate, semen type, and heifer survival rate on the optimal insemination eligibility period for lactating dairy cows. *Journal of Dairy Science*. https://doi.org/10.3168/jds.2025-27021
 
@@ -196,6 +196,7 @@ ELSE:
 
 ---
 
-*Method created: 2026-03-01*  
-*Based on: Lauber et al. (2025) analysis*  
-*Review cycle: Annual or when major market changes occur*
+*Метод создан: 2026-03-01*  
+*На основе: Lauber et al. (2025)*  
+*Цикл пересмотра: Ежегодно или при значительных изменениях рынка*  
+*Перевод на русский: 2026-03-02*

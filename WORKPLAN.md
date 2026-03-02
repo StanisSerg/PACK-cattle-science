@@ -1,6 +1,6 @@
 ---
 type: workplan
-updated: 2026-03-01
+updated: 2026-03-02
 ---
 
 # WORKPLAN: PACK-cattle-science
@@ -68,7 +68,7 @@ updated: 2026-03-01
 
 | Проект | Зависимость | Статус |
 |--------|-------------|--------|
-| Курс по кормлению коров | PACK-cattle-science → downstream | Запланирован |
+| DS-cattle-course | PACK-cattle-science → downstream | Module 1 в работе |
 | PACK-personal (Phase A) | Независимый | В работе |
 
 ---

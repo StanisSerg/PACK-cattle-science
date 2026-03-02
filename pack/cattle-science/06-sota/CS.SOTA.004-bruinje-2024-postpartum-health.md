@@ -2,204 +2,206 @@
 
 ---
 
-## Article Metadata
+## Метаданные статьи
 
-| Field | Value |
+| Поле | Значение |
 |-------|-------|
-| **Authors** | Bruinjé, T.C., Morrison, E.I., Ribeiro, E.S., Renaud, D.L., LeBlanc, S.J. |
-| **Year** | 2024 |
-| **Title** | Associations of postpartum health with progesterone after insemination and endocrine signaling during the luteal phase in dairy cows |
-| **Journal** | Journal of Dairy Science |
+| **Авторы** | Bruinjé, T.C., Morrison, E.I., Ribeiro, E.S., Renaud, D.L., LeBlanc, S.J. |
+| **Год** | 2024 |
+| **Название** | Associations of postpartum health with progesterone after insemination and endocrine signaling during the luteal phase in dairy cows |
+| **Журнал** | Journal of Dairy Science |
 | **DOI** | https://doi.org/10.3168/jds.2023-24068 |
-| **Type** | Observational study |
+| **Тип** | Наблюдательное исследование |
 
 ---
 
-## SoTA Status
+## Статус SoTA
 
-| Aspect | Status | Date |
+| Аспект | Статус | Дата |
 |--------|--------|------|
-| **Currency** | Current | 2026-03-01 |
-| **Evidence Level** | High | Field study, 475 cows |
-| **Relevance** | High | Direct link health → fertility mechanisms |
-| **Confidence** | High | Large sample, controlled analysis |
+| **Актуальность** | Текущая | 2026-03-01 |
+| **Уровень доказательств** | Высокий | Полевое исследование, 475 коров |
+| **Актуальность** | Высокая | Прямая связь здоровье → механизмы плодовитости |
+| **Уверенность** | Высокая | Большая выборка, контролируемый анализ |
 
-**Overall Status:** Current
+**Общий статус:** Текущий
 
 ---
 
-## Key Claims
+## Ключевые утверждения
 
-### Claim 1: Hypocalcemia Reduces Progesterone at D8 After AI
+### Утверждение 1: Гипокальциемия снижает прогестерон на D8 после AI
 > "Serum P4 concentrations were lesser at d 8 after AI in cows that had total Ca ≤2.09 mM (3.6 vs. 4.0 ± 0.2 ng/mL) at 2 DIM"
 
-**Evidence:** Linear regression, n=475, controlled for season, milk yield, AI method, DIM
+**Доказательства:** Линейная регрессия, n=475, контроль сезона, удоя, метода AI, DIM
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Subclinical hypocalcemia has measurable impact on luteal function even before AI
+**Практическое следствие:** Субклиническая гипокальциемия оказывает измеримое влияние на лютеальную функцию даже до AI
 
-**Value:** -0.4 ng/mL P4 at critical timing for embryo development
+**Ценность:** -0.4 нг/мл P4 в критический период для развития эмбриона
 
 ---
 
-### Claim 2: Clinical Disease Impairs Luteal Function
+### Утверждение 2: Клиническое заболевание нарушает лютеальную функцию
 > "P4 was lesser at d 8 in cows that had... a clinical disease (3.7 vs. 4.0 ± 0.2 mg/mL)"
 
-**Evidence:** Multivariable model with health variables categorized by ROC analysis
+**Доказательства:** Многомерная модель с переменными здоровья, категоризированными по ROC-анализу
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Any clinical disease in fresh period → compromised progesterone production
+**Практическое следствие:** Любое клиническое заболевание в послеродовой период → нарушение продукции прогестерона
 
 ---
 
-### Claim 3: Uterine Disease (PVD) Reduces Progesterone
+### Утверждение 3: Маточное заболевание (PVD) снижает прогестерон
 > "P4 tended to be lesser at d 8 in cows that had PVD (3.6 vs. 4.0 ± 0.2 ng/mL) or any uterine disease (3.7 vs. 4.1 ± 0.2 ng/mL)"
 
-**Evidence:** Diagnosed at 35 DIM, PVD + endometritis by cytology
+**Доказательства:** Диагностировано на 35 DIM, PVD + эндометрит по цитологии
 
-**Confidence:** Medium-High (tendency for PVD)
+**Уверенность:** Средне-высокая (тенденция для PVD)
 
-**Practical Implication:** Reproductive tract disease has lasting effect on luteal function beyond resolution
+**Практическое следствие:** Заболевание репродуктивного тракта оказывает длительное влияние на лютеальную функцию после выздоровления
 
 ---
 
-### Claim 4: Lameness Increases ISG15 Expression (Altered Maternal Recognition)
+### Утверждение 4: Хромота увеличивает экспрессию ISG15 (изменённое материнское распознавание)
 > "Among cows pregnant at d 29, relative ISG15 expression (fold change) at d 19 was greater in cows that had lameness [5.10 (4.18 to 6.18) vs. 3.14 (3.10 to 3.19)]"
 
-**Evidence:** ISG15 and RTP4 measured at d 19 in blood leukocytes
+**Доказательства:** ISG15 и RTP4 измерены на d 19 в лейкоцитах крови
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Lameness → altered interferon signaling → potential embryo-maternal communication disruption
+**Практическое следствие:** Хромота → изменённый интерфероновый сигналинг → потенциальное нарушение эмбрионально-материнской коммуникации
 
-**Note:** Higher ISG may indicate inflammatory state, not necessarily better pregnancy recognition
+**Примечание:** Повышенный ISG может указывать на воспалительное состояние, не обязательно на лучшее распознавание беременности
 
 ---
 
-### Claim 5: Endometritis Reduces ISG15 Expression
+### Утверждение 5: Эндометрит снижает экспрессию ISG15
 > "ISG15... tended to be lesser in cows that had endometritis [3.20 (2.89 to 3.54) vs. 4.29 (4.20 to 4.35)]"
 
-**Confidence:** Medium (tendency)
+**Уверенность:** Средняя (тенденция)
 
-**Practical Implication:** Uterine disease → compromised pregnancy recognition signaling
+**Практическое следствие:** Маточное заболевание → нарушенный сигнальный путь распознавания беременности
 
 ---
 
-### Claim 6: Elevated NEFA Reduces Pregnancy-Associated Glycoprotein (PAG)
+### Утверждение 6: Повышенные NEFA снижают беременность-ассоциированный гликопротеин (PAG)
 > "Serum PAG was lesser at d 29 [3.8 vs. 4.2 ± 0.2 S:P] in cows that had NEFA ≥0.73 mM at 6 DIM"
 
-**Evidence:** NEFA threshold by ROC analysis, PAG measured at d 29, 33, 40
+**Доказательства:** Порог NEFA по ROC-анализу, PAG измерен на d 29, 33, 40
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Negative energy balance early postpartum → impaired placental development/function
+**Практическое следствие:** Отрицательный энергетический баланс рано после отёла → нарушенное развитие/функция плаценты
 
 ---
 
-### Claim 7: High BCS Prepartum Reduces PAG
+### Утверждение 7: Высокий BCS предродовой снижает PAG
 > "PAG was lesser at d 33 (3.9 vs. 4.5 ± 0.2 S:P) and 40 (3.1 vs. 3.7 ± 0.2 S:P) in cows that had prepartum BCS ≥3.75"
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Overconditioning → placental dysfunction, independent of NEFA
-
----
-
-## Methodology Assessment
-
-### Approach
-- **Type:** Prospective observational cohort
-- **Sample:** n=475 Holstein cows, 2 commercial herds
-- **Timeline:** Enrollment at 3 wk prepartum → through d 40 of pregnancy
-- **Measurements:**
-  - Metabolic: Ca (2, 6 DIM), NEFA (6 DIM), BHB (4, 8, 11, 15 DIM), haptoglobin
-  - Health: Metritis, PVD (35 DIM), endometritis (35 DIM), lameness
-  - Reproductive: P4 (d 8, 12 after AI), ISG15/RTP4 (d 19), PAG (d 29, 33, 40)
-
-### Strengths
-1. Large sample size with comprehensive phenotyping
-2. Multiple timepoints for metabolic and health variables
-3. Multiple endocrine endpoints (P4, ISG, PAG)
-4. Controlled for confounders (season, milk yield, AI method, DIM)
-5. ROC-based categorization of continuous variables
-
-### Limitations
-1. Observational — cannot establish causation
-2. Two herds only — may not generalize
-3. Single breed (Holstein)
-4. No randomization of health disorders
-
-### Validation Status
-- Consistent with prior mechanistic studies
-- Effect sizes clinically relevant
-- Biological plausibility supported
+**Практическое следствие:** Переупитанность → дисфункция плаценты, независимо от NEFA
 
 ---
 
-## Revision Criterion
+## Оценка методологии
 
-**Trigger for review:**
-- Intervention study showing reversal of these associations with health management
-- Larger multi-herd study with contradictory results
-- New biomarkers replacing PAG/ISG for pregnancy monitoring
+### Подход
+- **Тип:** Проспективное наблюдательное когортное исследование
+- **Выборка:** n=475 голштинок, 2 коммерческих стада
+- **Хронология:** Зачисление за 3 недели до отёла → до d 40 беременности
+- **Измерения:**
+  - Метаболические: Ca (2, 6 DIM), NEFA (6 DIM), BHB (4, 8, 11, 15 DIM), гаптоглобин
+  - Здоровье: Метрит, PVD (35 DIM), эндометрит (35 DIM), хромота
+  - Репродуктивные: P4 (d 8, 12 после AI), ISG15/RTP4 (d 19), PAG (d 29, 33, 40)
 
-**Review date:** 2027-03-01 (annual)
+### Сильные стороны
+1. Большой размер выборки с комплексным фенотипированием
+2. Множественные временные точки для метаболических переменных и здоровья
+3. Множественные эндокринные эндпоинты (P4, ISG, PAG)
+4. Контроль конфаундеров (сезон, удой, метод AI, DIM)
+5. ROC-базированная категоризация непрерывных переменных
+
+### Ограничения
+1. Наблюдательное — невозможно установить причинно-следственную связь
+2. Только два стада — может не обобщаться
+3. Одна порода (голштин)
+4. Нет рандомизации нарушений здоровья
+
+### Статус валидации
+- Согласуется с предыдущими механистическими исследованиями
+- Размеры эффектов клинически значимы
+- Биологическая правдоподобность подтверждена
 
 ---
 
-## Related SoTA Entries
+## Критерий пересмотра
 
-| Entry | Relationship |
+**Триггер для пересмотра:**
+- Интервенционное исследование, показывающее обратимость этих ассоциаций с управлением здоровьем
+- Большее многостадное исследование с противоречивыми результатами
+- Новые биомаркеры, заменяющие PAG/ISG для мониторинга беременности
+
+**Дата пересмотра:** 2027-03-01 (ежегодно)
+
+---
+
+## Связанные записи SoTA
+
+| Запись | Связь |
 |-------|--------------|
-| CS.SOTA.001 (Lauber 2025) | Economic consequences of reproductive failure |
-| CS.SOTA.005 (Galvão 2013) | Reproductive program optimization |
+| CS.SOTA.001 (Lauber 2025) | Экономические последствия репродуктивной недостаточности |
+| CS.SOTA.005 (Galvão 2013) | Оптимизация репродуктивных программ |
 
 ---
 
-## Application Notes
+## Примечания по применению
 
-### When to Use This Source
-- Justifying transition cow health investments
-- Explaining health-fertility links to producers
-- Designing monitoring programs (what to measure when)
-- Setting thresholds for intervention
+### Когда использовать этот источник
+- Обоснование инвестиций в здоровье коров переходного периода
+- Объяснение связей здоровье-плодовитость производителям
+- Проектирование программ мониторинга (что измерять и когда)
+- Установление порогов для вмешательства
 
-### When to Supplement
-- Specific disease protocols (need therapeutic guidelines)
-- Economic analysis (use Lauber 2025)
-- Genetic factors (not addressed)
+### Когда дополнять
+- Специфические протоколы заболеваний (требуются терапевтические рекомендации)
+- Экономический анализ (использовать Lauber 2025)
+- Генетические факторы (не рассмотрены)
 
-### When to Be Cautious
-- Applying thresholds across different breeds/management
-- Inferring causation from these associations
-- Extrapolating to grazing or low-input systems
+### Когда быть осторожным
+- Применение порогов к разным породам/управлению
+- Установление причинно-следственной связи из этих ассоциаций
+- Экстраполяция на выпасные или low-input системы
 
 ---
 
-## Distinctions Applied
+## Применённые различия
 
-| Distinction | Application |
+| Различие | Применение |
 |-------------|-------------|
-| D.003 Input vs. Output | Health disorders (input) → Endocrine markers (output) |
-| D.005 Biological vs. Economic | Biological mechanisms here; economic value in Lauber |
-| D.007 Model vs. Reality | Field observations, not simulation |
-| D.010 Association vs. Causation | Explicitly observational — associations only |
+| D.003 Вход vs. Выход | Нарушения здоровья (вход) → Эндокринные маркеры (выход) |
+| D.005 Биологическое vs. Экономическое | Биологические механизмы здесь; экономическая ценность в Lauber |
+| D.007 Модель vs. Реальность | Полевые наблюдения, не моделирование |
+| D.010 Ассоциация vs. Причинность | Явно наблюдательное — только ассоциации |
 
 ---
 
-## Pack Integration
+## Интеграция в пакет
 
-| Element | Integration |
+| Элемент | Интеграция |
 |---------|-------------|
-| Method | CS.METHOD.005-transition-health-monitoring |
-| Work Product | CS.WP.005-health-fertility-risk-assessment |
-| Entity | CS.ENTITY.002-postpartum-health-syndrome |
-| Threshold | NEFA ≥0.73 mM, Ca ≤2.09 mM, BCS ≥3.75 |
+| Метод | CS.METHOD.005-transition-health-monitoring |
+| Рабочий продукт | CS.WP.005-health-fertility-risk-assessment |
+| Сущность | CS.ENTITY.002-postpartum-health-syndrome |
+| Порог | NEFA ≥0.73 mM, Ca ≤2.09 mM, BCS ≥3.75 |
 
 ---
 
-*SoTA annotation created: 2026-03-01*  
-*Analyst: Claude (AI assistant)*  
-*Next review: 2027-03-01*
+*Аннотация SoTA создана: 2026-03-01*  
+*Аналитик: Claude (AI assistant)*  
+*Следующий пересмотр: 2027-03-01*
+
+*Перевод на русский: 2026-03-02*

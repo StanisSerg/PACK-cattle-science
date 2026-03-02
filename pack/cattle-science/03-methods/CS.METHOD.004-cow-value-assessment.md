@@ -1,12 +1,12 @@
 # CS.METHOD.004: Economic Cow Value Assessment
 
-> Simplified Markov-chain method for calculating economic value of individual cows.
+> Упрощённый метод на основе цепей Маркова для расчёта экономической ценности отдельных коров.
 
 ---
 
-## Metadata
+## Метаданные
 
-| Field | Value |
+| Поле | Значение |
 |-------|-------|
 | **ID** | CS.METHOD.004 |
 | **Domain** | cattle-science |
@@ -18,216 +18,216 @@
 
 ---
 
-## Purpose
+## Назначение
 
-Calculate economic value of individual cows to support replacement decisions:
-1. Should this cow be kept or culled?
-2. What is the value of a new pregnancy?
-3. What is the cost of a pregnancy loss?
+Расчёт экономической ценности отдельных коров для поддержки решений о замене:
+1. Следует ли оставить эту корову или выбраковать?
+2. Какова ценность новой беременности?
+3. Какова стоимость потери беременности?
 
 ---
 
-## Key Parameters
+## Ключевые параметры
 
-### Input Parameters
+### Входные параметры
 
-| Parameter | Symbol | Unit | How to Determine |
+| Параметр | Символ | Единица | Как определить |
 |-----------|--------|------|------------------|
-| Month in milk | MIM | months | Days since calving ÷ 30.4 |
-| Pregnancy status | PREG | yes/no | Pregnancy check records |
-| Month of pregnancy | MOP | months | If pregnant, gestation month |
-| Expected production | EP | % of herd avg | Historical data, lactation curves |
-| Genetic gain of replacement | GG | % | Sire selection, breeding goals |
+| Месяц лактации | MIM | месяцы | Дни после отёла ÷ 30.4 |
+| Статус беременности | PREG | да/нет | Записи о проверке беременности |
+| Месяц беременности | MOP | месяцы | Если беременна, месяц гестации |
+| Ожидаемая продуктивность | EP | % от среднего по стаду | Исторические данные, кривые лактации |
+| Генетический прогресс замены | GG | % | Подбор быков, цели селекции |
 
-### Output Parameters
+### Выходные параметры
 
-| Parameter | Symbol | Unit | Interpretation |
+| Параметр | Символ | Единица | Интерпретация |
 |-----------|--------|------|----------------|
-| Cow value | CV | $/cow | Economic value if kept |
-| Pregnancy value | PV | $/pregnancy | Additional value from pregnancy |
-| Pregnancy loss cost | PLC | $/loss | Economic cost of abortion |
+| Ценность коровы | CV | $/корова | Экономическая ценность при сохранении |
+| Ценность беременности | PV | $/беременность | Дополнительная ценность от беременности |
+| Стоимость потери беременности | PLC | $/потеря | Экономический ущерб от аборта |
 
 ---
 
-## Method Steps
+## Этапы метода
 
-### Step 1: Gather Cow Data
+### Шаг 1: Сбор данных о корове
 
-Collect for target cow:
-- [ ] Current MIM
-- [ ] Pregnancy status (yes/no)
-- [ ] If pregnant: month of pregnancy (1-9)
-- [ ] Expected production (% of herd average)
-- [ ] Parity (lactation number)
+Собрать для целевой коровы:
+- [ ] Текущий MIM
+- [ ] Статус беременности (да/нет)
+- [ ] Если беременна: месяц беременности (1-9)
+- [ ] Ожидаемая продуктивность (% от среднего по стаду)
+- [ ] Паритет (номер лактации)
 
-### Step 2: Calculate Base Cow Value
+### Шаг 2: Расчёт базовой ценности коровы
 
-**Reference values (update for current economics):**
+**Референсные значения (обновить для текущей экономики):**
 
-| Scenario | MIM | Status | Base CV (2012$) | Adjustment Method |
+| Сценарий | MIM | Статус | Базовая CV (2012$) | Метод корректировки |
 |----------|-----|--------|-----------------|-------------------|
-| Open | 1 | Nonpregnant | $897 | Scale to current milk price |
-| Open | 8 | Nonpregnant | $68 | Scale to current milk price |
-| Pregnant | 3 | Pregnant | $889 | Scale to current milk price |
-| Pregnant | 8 | Pregnant | $298 | Scale to current milk price |
+| Неосеменённая | 1 | Небеременная | $897 | Масштабирование по текущей цене молока |
+| Неосеменённая | 8 | Небеременная | $68 | Масштабирование по текущей цене молока |
+| Беременная | 3 | Беременная | $889 | Масштабирование по текущей цене молока |
+| Беременная | 8 | Беременная | $298 | Масштабирование по текущей цене молока |
 
-**Scaling formula:**
+**Формула масштабирования:**
 ```
-Current CV = Base CV × (Current milk price / $18 per cwt) × (Current replacement cost / $1200)
+Текущая CV = Базовая CV × (Текущая цена молока / $18 за цwt) × (Текущая стоимость замены / $1200)
 ```
 
-*(Note: $18/cwt and $1200 are approximate 2012 reference values)*
+*(Примечание: $18/цwt и $1200 — приблизительные референсные значения 2012 года)*
 
-### Step 3: Adjust for Expected Production
+### Шаг 3: Корректировка на ожидаемую продуктивность
 
-| Expected Production | Multiplier | Example |
+| Ожидаемая продуктивность | Множитель | Пример |
 |---------------------|------------|---------|
-| 80% (poor) | 0.5-0.8 | Below-average cow |
-| 100% (average) | 1.0 | Baseline |
-| 120% (good) | 1.5-6.5 | High producer |
+| 80% (низкая) | 0.5-0.8 | Корова ниже среднего |
+| 100% (средняя) | 1.0 | Базовый уровень |
+| 120% (высокая) | 1.5-6.5 | Высокопродуктивная |
 
-**Formula:**
+**Формула:**
 ```
-Adjusted CV = Base CV × Production Multiplier
-```
-
-*Higher multipliers for pregnant cows in later lactations*
-
-### Step 4: Adjust for Genetic Gain
-
-```
-GG Adjustment = -$211 × (GG% / 1%)
-
-Where:
-- GG% = Expected genetic improvement of replacement (%)
-- $211 = 2012 value (scale to current)
+Скорректированная CV = Базовая CV × Множитель продуктивности
 ```
 
-**Current scaling:**
-```
-Current GG Adjustment = -$211 × (Current replacement cost / $1200) × (GG% / 1%)
-```
+*Более высокие множители для беременных коров в поздних лактациях*
 
-### Step 5: Calculate Final Cow Value
+### Шаг 4: Корректировка на генетический прогресс
 
 ```
-CV = (Base CV × Production Multiplier) + GG Adjustment
+Корректировка GG = -$211 × (GG% / 1%)
+
+Где:
+- GG% = Ожидаемое генетическое улучшение замены (%)
+- $211 = значение 2012 года (масштабировать к текущему)
 ```
 
-### Step 6: Calculate Pregnancy Value (if open)
+**Текущее масштабирование:**
+```
+Текущая корректировка GG = -$211 × (Текущая стоимость замены / $1200) × (GG% / 1%)
+```
 
-Compare CV(pregnant) - CV(open) at same MIM:
+### Шаг 5: Расчёт итоговой ценности коровы
 
-| MIM | Pregnancy Value (2012$) | Current$ Estimate |
+```
+CV = (Базовая CV × Множитель продуктивности) + Корректировка GG
+```
+
+### Шаг 6: Расчёт ценности беременности (если неосеменённая)
+
+Сравнить CV(беременная) - CV(неосеменённая) при одинаковом MIM:
+
+| MIM | Ценность беременности (2012$) | Оценка в текущих $ |
 |-----|------------------------|-------------------|
-| 3 | $889 - $897 ≈ -$8 | Near zero early |
-| Later | Increasing | Higher value |
+| 3 | $889 - $897 ≈ -$8 | Близка к нулю на раннем сроке |
+| Позднее | Увеличивается | Более высокая ценность |
 
-**Rule of thumb:** Pregnancy adds $200-800 depending on timing
+**Правило большого пальца:** Беременность добавляет $200-800 в зависимости от срока
 
-### Step 7: Calculate Pregnancy Loss Cost (if pregnant)
+### Шаг 7: Расчёт стоимости потери беременности (если беременная)
 
-| Loss Timing | PLC (2012$) | Interpretation |
+| Срок потери | PLC (2012$) | Интерпретация |
 |-------------|-------------|----------------|
-| Month 1 | $221 | Early loss |
-| Month 9 | $897 | Late loss (≈ cow value) |
+| Месяц 1 | $221 | Ранняя потеря |
+| Месяц 9 | $897 | Поздняя потеря (≈ ценность коровы) |
 
-**Current scaling:**
+**Текущее масштабирование:**
 ```
-Current PLC = PLC(2012) × (Current replacement cost / $1200)
+Текущая PLC = PLC(2012) × (Текущая стоимость замены / $1200)
 ```
 
-### Step 8: Decision
+### Шаг 8: Принятие решения
 
-| Comparison | Decision |
+| Сравнение | Решение |
 |------------|----------|
-| CV(cow) > Replacement cost | Keep cow |
-| CV(cow) < Replacement cost | Cull cow |
-| Pregnant cow | Default = keep (higher value) |
+| CV(корова) > Стоимость замены | Оставить корову |
+| CV(корова) < Стоимость замены | Выбраковать корову |
+| Беременная корова | По умолчанию = оставить (более высокая ценность) |
 
 ---
 
-## Decision Rules
+## Правила принятия решений
 
-### Rule 1: Pregnant Cows
+### Правило 1: Беременные коровы
 ```
-IF pregnant:
-    → Default decision = KEEP
-    → Exception: Very late lactation + very low production + high genetic gain
-```
-
-### Rule 2: Open Cows
-```
-IF MIM < 5 AND EP > 100%:
-    → Breed and keep
-    
-ELSE IF MIM 5-7 AND EP > 110%:
-    → Breed and keep
-    
-ELSE IF MIM > 7 AND open:
-    → Strong cull candidate
-    → Calculate CV vs. replacement cost
-    
-ELSE IF EP < 80%:
-    → Cull candidate regardless of MIM
+ЕСЛИ беременна:
+    → Решение по умолчанию = ОСТАВИТЬ
+    → Исключение: Очень поздняя лактация + очень низкая продуктивность + высокий генетический прогресс
 ```
 
-### Rule 3: High Genetic Gain Context
+### Правило 2: Неосеменённые коровы
 ```
-IF GG > 2% per year:
-    → Increase cull pressure on low producers
-    → CV decreases by ~$400+ per cow
+ЕСЛИ MIM < 5 И EP > 100%:
+    → Осеменить и оставить
+    
+ИНАЧЕ ЕСЛИ MIM 5-7 И EP > 110%:
+    → Осеменить и оставить
+    
+ИНАЧЕ ЕСЛИ MIM > 7 И неосеменённая:
+    → Сильный кандидат на выбраковку
+    → Рассчитать CV по сравнению со стоимостью замены
+    
+ИНАЧЕ ЕСЛИ EP < 80%:
+    → Кандидат на выбраковку независимо от MIM
+```
+
+### Правило 3: Контекст высокого генетического прогресса
+```
+ЕСЛИ GG > 2% в год:
+    → Увеличить давление на выбраковку низкопродуктивных
+    → CV снижается на ~$400+ на корову
 ```
 
 ---
 
-## Work Products
+## Рабочие продукты
 
-| Product | ID | Description |
+| Продукт | ID | Описание |
 |---------|-----|-------------|
-| Individual Cow Value Report | CS.WP.004 | Per-cow assessment |
-| Cull/Keep Recommendation List | CS.WP.004a | Herd-level decisions |
-| Pregnancy Loss Risk Assessment | CS.WP.004b | Protect high-value pregnancies |
+| Отчёт о ценности отдельной коровы | CS.WP.004 | Оценка по коровам |
+| Список рекомендаций выбраковка/оставить | CS.WP.004a | Решения на уровне стада |
+| Оценка риска потери беременности | CS.WP.004b | Защита высокоценных беременностей |
 
 ---
 
-## Related Methods
+## Связанные методы
 
-| Method | Relationship |
+| Метод | Связь |
 |--------|--------------|
-| CS.METHOD.003 | Extension to herd-level optimization |
-| CS.METHOD.005 | Transition cow management (affects EP) |
+| CS.METHOD.003 | Расширение до оптимизации на уровне стада |
+| CS.METHOD.005 | Управление переходным периодом (влияет на EP) |
 
 ---
 
-## Historical Context
+## Исторический контекст
 
-### 2012 Reference Economics
-| Parameter | Value | Current Update Needed |
+### Референсная экономика 2012 года
+| Параметр | Значение | Требуется обновление |
 |-----------|-------|----------------------|
-| Milk price | ~$18/cwt | Update to current |
-| Replacement cost | ~$1,200 | Update to current |
-| Cow values | 2012$ | Scale by inflation |
+| Цена молока | ~$18/цwt | Обновить до текущей |
+| Стоимость замены | ~$1,200 | Обновить до текущей |
+| Ценности коров | 2012$ | Масштабировать по инфляции |
 
-### Validation
-- Results consistent with dynamic programming (Groenendaal et al. 2004)
-- Widely adopted in research (Lauber 2025, Giordano 2012)
-- Foundation for later herd-level models
+### Валидация
+- Результаты согласуются с динамическим программированием (Groenendaal et al. 2004)
+- Широко применяется в исследованиях (Lauber 2025, Giordano 2012)
+- Основа для последующих моделей на уровне стада
 
 ---
 
-## Failure Modes
+## Режимы отказа
 
-| Mode | Detection | Prevention |
+| Режим | Обнаружение | Предотвращение |
 |------|-----------|------------|
-| Outdated economics | CV seems unrealistic | Update prices quarterly |
-| Overestimating EP | Actual < expected | Use 3-lactation average |
-| Ignoring genetic gain | Slow genetic progress | Include GG in calculation |
-| Static decision | Not recalculating | Review monthly for open cows |
+| Устаревшая экономика | CV кажется нереалистичной | Обновлять цены ежеквартально |
+| Завышение EP | Фактическая < ожидаемой | Использовать среднее за 3 лактации |
+| Игнорирование генетического прогресса | Медленный генетический прогресс | Включать GG в расчёт |
+| Статичное решение | Отсутствие пересчёта | Пересматривать ежемесячно для неосеменённых |
 
 ---
 
-## References
+## Ссылки
 
 1. Cabrera, V.E. (2012). A simple formulation and solution to the replacement problem. *Journal of Dairy Science*, 95(8), 4683-4698.
 
@@ -235,6 +235,8 @@ IF GG > 2% per year:
 
 ---
 
-*Method created: 2026-03-01*  
-*Based on: Cabrera (2012)*  
-*Note: Economic parameters require regular updating*
+*Метод создан: 2026-03-01*  
+*На основе: Cabrera (2012)*  
+*Примечание: Экономические параметры требуют регулярного обновления*
+
+*Перевод на русский: 2026-03-02*

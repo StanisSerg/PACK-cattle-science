@@ -104,4 +104,76 @@
 
 ---
 
+---
+
+## Entry 004: Cabrera (2015)
+
+**Material:** Economic evaluation of reproductive performance
+
+**Author:** Victor E. Cabrera
+
+**Year:** 2015
+
+**Source Type:** Review article / Decision support tool
+
+**Date Ingested:** 2026-03-02
+
+**Status:** analyzed → SoTA CS.SOTA.006 created
+
+---
+
+## Entry 005: Carvalho et al. (2019)
+
+**Material:** Effect of manipulating progesterone before timed artificial insemination on reproductive and endocrine outcomes
+
+**Authors:** P.D. Carvalho, V.G. Santos, H.P. Fricke, L.L. Hernandez, P.M. Fricke
+
+**Year:** 2019
+
+**Source Type:** Peer-reviewed research (field trial)
+
+**DOI:** 10.3168/jds.2019-16536
+
+**Date Ingested:** 2026-03-02
+
+**Status:** analyzed → SoTA CS.SOTA.007 created
+
+---
+
+## Entry 006: De Vries (2017)
+
+**Material:** Economic trade-offs between genetic improvement and longevity in dairy cattle
+
+**Author:** A. De Vries
+
+**Year:** 2017
+
+**Source Type:** Peer-reviewed research (review/analysis)
+
+**DOI:** 10.3168/jds.2016-11847
+
+**Date Ingested:** 2026-03-02
+
+**Status:** analyzed → SoTA CS.SOTA.008 created
+
+---
+
+## Entry 007: Hansson et al. (2025)
+
+**Material:** Effect of voluntary waiting period length on milk yield, fertility, and culling in high-yielding, second-parity cows
+
+**Authors:** A. Hansson, K. Holtenius, R. Båge, M. Lindberg, C. Kronqvist
+
+**Year:** 2025
+
+**Source Type:** Peer-reviewed research (field trial)
+
+**DOI:** 10.3168/jds.2025-26348
+
+**Date Ingested:** 2026-03-02
+
+**Status:** analyzed → SoTA CS.SOTA.009 created
+
+---
+
 *Ingestion log maintained during Stage 05. Cleared after Stage 06 completion.*

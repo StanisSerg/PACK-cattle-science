@@ -13,6 +13,10 @@
 | CS.SOTA.003 | Giordano 2012 | 2012 | Model | Markov herd model | Current |
 | CS.SOTA.004 | Bruinjé 2024 | 2024 | Observational | Здоровье → эндокринная функция | Current |
 | CS.SOTA.005 | Galvão 2013 | 2013 | Simulation | Сравнение программ ВОС | Current |
+| CS.SOTA.006 | Cabrera 2015 | 2015 | Review | Обзор экономики воспроизводства, DSS | Current |
+| CS.SOTA.007 | Carvalho 2019 | 2019 | Trial | Манипуляция P4, снижение двойняшности | Current |
+| CS.SOTA.008 | De Vries 2017 | 2017 | Review | Генетический прогресс vs долголетие | Current |
+| CS.SOTA.009 | Hansson 2025 | 2025 | Trial | VWP 140 дней vs 50 дней | Current |
 
 ---
 
@@ -45,10 +49,10 @@
 
 | Модель | Источник | Применение |
 |--------|----------|------------|
-| Markov chain (cow level) | CS.SOTA.002 | Economic value of reproductive decisions |
-| Markov chain (herd level) | CS.SOTA.003 | Herd dynamics, replacement optimization |
-| Discrete monthly Markov | CS.SOTA.001 | IEP optimization, semen economics |
-| Monte-Carlo simulation | CS.SOTA.005 | Program comparison under uncertainty |
+| Markov chain (cow level) | CS.SOTA.002 | Экономическая ценность репродуктивных решений |
+| Markov chain (herd level) | CS.SOTA.003 | Динамика стада, оптимизация замены |
+| Discrete monthly Markov | CS.SOTA.001 | Оптимизация IEP, экономика спермы |
+| Monte-Carlo simulation | CS.SOTA.005 | Сравнение программ при неопределённости |
 
 ---
 
@@ -99,7 +103,7 @@ CS.SOTA.004 (Bruinjé 2024) ──→ biological mechanisms
 
 ## Обновление
 
-**Последнее добавление:** CS.SOTA.004, CS.SOTA.005 (2026-03-01)
+**Последнее добавление:** CS.SOTA.006-009 (2026-03-02)
 
 **Следующий обзор:** 2027-03-01
 
@@ -111,4 +115,6 @@ CS.SOTA.004 (Bruinjé 2024) ──→ biological mechanisms
 
 ---
 
-*Map version: 0.2.0 | Updated: 2026-03-01*
+*Map version: 0.3.0 | Updated: 2026-03-02*
+
+*Перевод на русский: 2026-03-02*

@@ -1,181 +1,181 @@
 # CS.ENTITY.001: 21-Day Pregnancy Rate
 
-> Core reproductive metric linking biological performance to economic outcomes.
+> Ключевая репродуктивная метрика, связывающая биологическую продуктивность с экономическими результатами.
 
 ---
 
-## Definition
+## Определение
 
-**21-day pregnancy rate (21-d PR)** is the percentage of eligible non-pregnant cows that become pregnant over a 21-day period.
+**21-дневная плодовитость (21-d PR)** — это процент подходящих небеременных коров, которые становятся беременными за 21-дневный период.
 
-**Formula:**
+**Формула:**
 ```
 21-d PR = Service Rate × Conception Rate (P/AI) × 100
 
-Where:
-- Service Rate = % of eligible cows receiving AI in 21 days
-- Conception Rate (P/AI) = % of inseminated cows becoming pregnant
+Где:
+- Service Rate = % подходящих коров, получивших AI за 21 день
+- Conception Rate (P/AI) = % осеменённых коров, ставших беременными
 ```
 
 ---
 
-## Significance
+## Значение
 
-### Biological Significance
-- Measures efficiency of reproductive process
-- Combines heat detection accuracy (service rate) and fertility (conception)
-- Independent of voluntary waiting period (VWP)
+### Биологическое значение
+- Измеряет эффективность репродуктивного процесса
+- Сочетает точность обнаружения охоты (service rate) и плодовитость (conception)
+- Независима от периода добровольного ожидания (VWP)
 
-### Economic Significance
-- Primary driver of reproductive economic performance
-- Each 1% improvement = $2-7/cow/year additional net return
-- Determines optimal insemination eligibility period (IEP)
+### Экономическое значение
+- Основной драйвер репродуктивной экономической эффективности
+- Каждое улучшение на 1% = $2-7/корова/год дополнительной чистой прибыли
+- Определяет оптимальный период допустимости осеменения (IEP)
 
-### Herd Structure Significance
-- Determines calving interval
-- Affects replacement rate
-- Influences proportion of cows in each reproductive state
+### Значение для структуры стада
+- Определяет интервал между отёлами
+- Влияет на норму замены
+- Влияет на долю коров в каждом репродуктивном состоянии
 
 ---
 
-## Classification Scale
+## Шкала классификации
 
-| Category | 21-d PR | Interpretation | Action Required |
+| Категория | 21-d PR | Интерпретация | Требуемые действия |
 |----------|---------|----------------|-----------------|
-| **Low** | <20% | Poor performance | Immediate intervention |
-| **Below average** | 20-24% | Below benchmark | Improvement needed |
-| **Average** | 25-29% | Industry standard | Maintain with monitoring |
-| **Above average** | 30-34% | Good performance | Maintain |
-| **High** | ≥35% | Excellent performance | Benchmark for others |
+| **Низкая** | <20% | Низкая продуктивность | Немедленное вмешательство |
+| **Ниже среднего** | 20-24% | Ниже эталона | Требуется улучшение |
+| **Средняя** | 25-29% | Отраслевой стандарт | Поддерживать с мониторингом |
+| **Выше среднего** | 30-34% | Хорошая продуктивность | Поддерживать |
+| **Высокая** | ≥35% | Отличная продуктивность | Эталон для других |
 
-### Historical Context (US Holstein herds)
+### Исторический контекст (стада голштинов США)
 
-| Period | Average 21-d PR | Top 25% | Top 10% |
+| Период | Средняя 21-d PR | Топ 25% | Топ 10% |
 |--------|-----------------|---------|---------|
 | 2012 | 16% | 20% | 20% |
 | 2016 | 18% | 24% | 26% |
 | 2020 | 20% | 28% | 30% |
 
-*Source: DRMS, 2024*
+*Источник: DRMS, 2024*
 
 ---
 
-## Measurement
+## Измерение
 
-### Data Requirements
+### Требования к данным
 
-| Parameter | Source | Frequency |
+| Параметр | Источник | Частота |
 |-----------|--------|-----------|
-| Insemination dates | Breeding records | Real-time |
-| Pregnancy check results | Vet records | 28-42 days post-AI |
-| Eligible cow inventory | Herd software | Daily |
+| Даты осеменения | Записи о случках | В реальном времени |
+| Результаты проверки беременности | Ветеринарные записи | 28-42 дней после AI |
+| Инвентарь подходящих коров | Программное обеспечение стада | Ежедневно |
 
-### Calculation Method
+### Метод расчёта
 
-**Step 1: Define eligible cows**
-- Cows past VWP (typically 50-70 DIM)
-- Non-pregnant
-- Not marked as "do not breed"
+**Шаг 1: Определение подходящих коров**
+- Коровы после VWP (обычно 50-70 DIM)
+- Небеременные
+- Не отмеченные как "не осеменять"
 
-**Step 2: Track over 21-day periods**
-- Rolling or fixed periods
-- Account for seasonality
+**Шаг 2: Отслеживание за 21-дневные периоды**
+- Скользящие или фиксированные периоды
+- Учёт сезонности
 
-**Step 3: Calculate**
+**Шаг 3: Расчёт**
 ```
-For each 21-day period:
-  Eligible cows at start = E
-  Cows receiving AI = A
-  Cows becoming pregnant = P
+Для каждого 21-дневного периода:
+  Подходящие коровы в начале = E
+  Коровы, получившие AI = A
+  Коровы, ставшие беременными = P
   
   Service Rate = A / E × 100
   Conception Rate = P / A × 100
   21-d PR = P / E × 100
 ```
 
-### Reporting
+### Отчётность
 
-**Recommended:** 3-month rolling average  
-**Minimum:** Monthly calculation  
-**Presentation:** Percentage with trend arrow (▲ ▼ →)
+**Рекомендуется:** 3-месячное скользящее среднее  
+**Минимум:** Помесячный расчёт  
+**Представление:** Процент со стрелкой тренда (▲ ▼ →)
 
 ---
 
-## Influencing Factors
+## Факторы влияния
 
-### Management Factors (Controllable)
+### Факторы управления (контролируемые)
 
-| Factor | Impact on 21-d PR | Improvement Strategy |
+| Фактор | Влияние на 21-d PR | Стратегия улучшения |
 |--------|-------------------|---------------------|
-| Heat detection efficiency | Direct on Service Rate | Training, aids, activity monitors |
-| AI technician skill | Direct on Conception Rate | Certification, supervision |
-| Synchronization protocols | Direct on Service Rate | Systematic implementation |
-| Semen handling | Direct on Conception Rate | Quality control, training |
-| Transition cow management | Indirect via fertility | Metabolic monitoring |
+| Эффективность обнаружения охоты | Прямое на Service Rate | Обучение, средства, мониторы активности |
+| Квалификация техника AI | Прямое на Conception Rate | Сертификация, надзор |
+| Протоколы синхронизации | Прямое на Service Rate | Систематическая реализация |
+| Обращение со спермой | Прямое на Conception Rate | Контроль качества, обучение |
+| Управление переходным периодом | Косвенное через плодовитость | Мониторинг метаболизма |
 
-### Biological Factors (Partially Controllable)
+### Биологические факторы (частично контролируемые)
 
-| Factor | Impact | Management Response |
+| Фактор | Влияние | Управленческий ответ |
 |--------|--------|---------------------|
-| Days in milk | Peak fertility 60-100 DIM | Optimize timing |
-| Lactation number | 1st lactation lower fertility | Extra attention to heifers |
-| Season/heat stress | Summer decline | Cooling, timing |
-| Body condition score | BCS 3.0-3.5 optimal | Nutritional management |
-| Metabolic disorders | Ketosis, mastitis reduce fertility | Prevention protocols |
+| Дни лактации | Пик плодовитости 60-100 DIM | Оптимизация сроков |
+| Номер лактации | 1-я лактация — ниже плодовитость | Дополнительное внимание тёлкам |
+| Сезон/тепловой стресс | Летний спад | Охлаждение, сроки |
+| Оценка упитанности | ОУС 3.0-3.5 оптимально | Управление питанием |
+| Метаболические расстройства | Кетоз, мастит снижают плодовитость | Протоколы профилактики |
 
-### Genetic Factors (Selectable)
+### Генетические факторы (селекционируемые)
 
-- Daughter pregnancy rate (DPR) in sire selection
-- Fertility index inclusion in breeding decisions
+- Daughter pregnancy rate (DPR) при подборе быков
+- Включение индекса плодовитости в решения о случке
 
 ---
 
-## Economic Value
+## Экономическая ценность
 
-### Direct Value
+### Прямая ценность
 
-| 21-d PR Level | Economic Status | Opportunity |
+| Уровень 21-d PR | Экономический статус | Возможность |
 |---------------|-----------------|-------------|
-| <20% | Significant loss | $50-100/cow/year potential gain |
-| 20-24% | Below potential | $30-50/cow/year potential gain |
-| 25-29% | Near optimal | $10-20/cow/year potential gain |
-| 30-34% | Good | Maintain, benchmark |
-| ≥35% | Excellent | Share practices |
+| <20% | Значительные потери | $50-100/корова/год потенциальный прирост |
+| 20-24% | Ниже потенциала | $30-50/корова/год потенциальный прирост |
+| 25-29% | Близко к оптимуму | $10-20/корова/год потенциальный прирост |
+| 30-34% | Хорошо | Поддерживать, использовать как эталон |
+| ≥35% | Отлично | Делиться практиками |
 
-### Value of Improvement
+### Ценность улучшения
 
-**Marginal value:** $2-7/cow/year per 1-percentage-point increase
+**Предельная ценность:** $2-7/корова/год на каждый процентный пункт увеличения
 
-**Example:**
-- 500-cow herd
-- Improving from 22% to 28% (6 points)
-- Value: 500 × 6 × $5 = $15,000/year
+**Пример:**
+- Стадо 500 коров
+- Улучшение с 22% до 28% (6 пунктов)
+- Ценность: 500 × 6 × $5 = $15,000/год
 
 ---
 
-## Related Concepts
+## Связанные концепции
 
-| Concept | Relationship | Reference |
+| Концепция | Связь | Ссылка |
 |---------|--------------|-----------|
-| Days open | Outcome of 21-d PR | Lower 21-d PR → Higher days open |
-| Calving interval | Outcome of 21-d PR | Target: 12.5-13.5 months |
-| Insemination eligibility period | Optimized based on 21-d PR | CS.METHOD.003 |
-| Semen type strategy | Decision depends on 21-d PR | CS.METHOD.003 |
+| Дни открытой | Результат 21-d PR | Более низкая 21-d PR → Больше дней открытой |
+| Интервал между отёлами | Результат 21-d PR | Цель: 12.5-13.5 месяцев |
+| Период допустимости осеменения | Оптимизируется на основе 21-d PR | CS.METHOD.003 |
+| Стратегия типа спермы | Решение зависит от 21-d PR | CS.METHOD.003 |
 
 ---
 
-## Failure Modes
+## Режимы отказа
 
-| Mode | Detection | Prevention |
+| Режим | Обнаружение | Предотвращение |
 |------|-----------|------------|
-| Overestimation | Compare calculated vs. actual calvings | Use confirmed pregnancies only |
-| Seasonal blindness | Annual average masks variation | Report by season/quarter |
-| Small sample error | High variability in small herds | Use 3-month rolling average |
-| Eligibility errors | Cows counted incorrectly | Automated eligibility tracking |
+| Завышение | Сравнение рассчитанной vs фактических отёлов | Использовать только подтверждённые беременности |
+| Сезонная слепота | Годовое среднее маскирует вариации | Отчётность по сезонам/кварталам |
+| Ошибка малой выборки | Высокая изменчивость в малых стадах | Использовать 3-месячное скользящее среднее |
+| Ошибки допустимости | Коровы учтены некорректно | Автоматизированное отслеживание допустимости |
 
 ---
 
-## References
+## Ссылки
 
 1. Ferguson, J.D., & Galligan, D.T. (1993). Reproductive performance in dairy herds. *Veterinary Clinics of North America: Food Animal Practice*, 9(2), 333-354.
 
@@ -185,13 +185,15 @@ For each 21-day period:
 
 ---
 
-## Distinctions Applied
+## Применённые различия
 
-- **D.003 Input vs. Output:** 21-d PR is input parameter; days open, calving interval are outputs
-- **D.005 Biological vs. Economic:** Biological metric with direct economic translation
+- **D.003 Вход vs. Выход:** 21-d PR — входной параметр; дни открытой, интервал между отёлами — выходы
+- **D.005 Биологическое vs. Экономическое:** Биологическая метрика с прямым экономическим переводом
 
 ---
 
-*Entity defined: 2026-03-01*  
-*Status: Active*  
-*Review cycle: Annual*
+*Сущность определена: 2026-03-01*  
+*Статус: Активна*  
+*Цикл пересмотра: Ежегодно*
+
+*Перевод на русский: 2026-03-02*

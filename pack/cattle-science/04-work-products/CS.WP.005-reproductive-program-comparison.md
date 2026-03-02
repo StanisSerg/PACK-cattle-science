@@ -1,6 +1,6 @@
 # Reproductive Program Comparison Report
 
-## Metadata
+## Метаданные
 ```yaml
 type: work_product
 domain: cattle-science
@@ -16,204 +16,206 @@ purpose: "Compare economic outcomes of TAI and ED reproductive programs"
 
 ---
 
-## Purpose
+## Назначение
 
-Structured comparison of reproductive program alternatives to support farm management decisions on TAI vs estrus detection strategies.
-
----
-
-## When to Use
-
-- Evaluating current reproductive program performance
-- Considering transition to TAI, ED, or combined approach
-- Benchmarking against industry standards
-- Justifying reproductive technology investments
+Структурированное сравнение альтернатив репродуктивных программ для поддержки решений управления фермой по стратегиям TAI vs обнаружения охоты.
 
 ---
 
-## Required Inputs
+## Когда использовать
 
-### Farm-Specific Data
+- Оценка продуктивности текущей репродуктивной программы
+- Рассмотрение перехода на TAI, ED или комбинированный подход
+- Бенчмаркинг по отраслевым стандартам
+- Обоснование инвестиций в репродуктивные технологии
 
-| Data Category | Specific Items | Source |
+---
+
+## Требуемые входные данные
+
+### Данные, специфичные для фермы
+
+| Категория данных | Конкретные пункты | Источник |
 |---------------|----------------|--------|
-| Current program | TAI %, ED %, protocols used | Farm records |
-| Conception rates | TAI CR, ED CR by parity/lactation | DairyComp/DC305 |
-| Estrus detection | Detection rate, accuracy | Activity monitors/visual |
-| Economics | Milk price, feed cost, semen cost | Accounting records |
-| Herd structure | Parity distribution, cull rate | Management software |
+| Текущая программа | % TAI, % ED, используемые протоколы | Фермерские записи |
+| Плодовитость | CR TAI, CR ED по паритету/лактации | DairyComp/DC305 |
+| Обнаружение охоты | Процент обнаружения, точность | Мониторы активности/визуально |
+| Экономика | Цена молока, стоимость корма, стоимость спермы | Бухгалтерские записи |
+| Структура стада | Распределение по паритетам, процент выбраковки | Управленческое ПО |
 
-### Benchmark Data
+### Бенчмарк-данные
 
-| Benchmark | Typical Range | Source |
+| Бенчмарк | Типичный диапазон | Источник |
 |-----------|---------------|--------|
-| TAI CR (first) | 40-45% | Industry standard |
-| TAI CR (second+) | 28-35% | Industry standard |
-| ED CR | 25-35% | Farm-specific |
-| ED rate | 40-60% | Activity monitors |
+| CR TAI (первая) | 40-45% | Отраслевой стандарт |
+| CR TAI (вторая+) | 28-35% | Отраслевой стандарт |
+| CR ED | 25-35% | Специфично для фермы |
+| Процент ED | 40-60% | Мониторы активности |
 
 ---
 
-## Report Structure
+## Структура отчёта
 
-### Section 1: Executive Summary
+### Раздел 1: Резюме
 
 ```markdown
-## Executive Summary
+## Резюме
 
-**Farm:** [Name]
-**Date:** [Date]
-**Analyst:** [Name]
+**Ферма:** [Название]
+**Дата:** [Дата]
+**Аналитик:** [Имя]
 
-### Current Program
-- Type: [100% TAI / TAI+ED / ED-only]
-- Performance: [21-d PR: X%]
-- Economics: [NV: $X/cow/year]
+### Текущая программа
+- Тип: [100% TAI / TAI+ED / только ED]
+- Продуктивность: [21-d PR: X%]
+- Экономика: [NV: $X/корова/год]
 
-### Key Finding
-[One-sentence conclusion: e.g., "Transitioning to 50% ED with 30% CR would increase NV by $X/cow/year"]
+### Ключевой вывод
+[Вывод в одно предложение: например, "Переход на 50% ED с 30% CR увеличит NV на $X/корова/год"]
 
-### Recommendation
-[Specific actionable recommendation]
+### Рекомендация
+[Конкретная практическая рекомендация]
 ```
 
-### Section 2: Program Definitions
+### Раздел 2: Определения программ
 
-| Program ID | Description | TAI CR1 | TAI CR2+ | ED CR | ED % |
+| ID программы | Описание | CR TAI1 | CR TAI2+ | CR ED | ED % |
 |------------|-------------|---------|----------|-------|------|
 | P1 | 100% TAI | 42% | 30% | - | 0% |
-| P2 | TAI + low ED | 40% | 28% | 25% | 30% |
-| P3 | TAI + med ED | 38% | 26% | 30% | 50% |
-| P4 | TAI + high ED | 35% | 24% | 35% | 80% |
-| P5 | [Custom] | [%] | [%] | [%] | [%] |
+| P2 | TAI + низкий ED | 40% | 28% | 25% | 30% |
+| P3 | TAI + средний ED | 38% | 26% | 30% | 50% |
+| P4 | TAI + высокий ED | 35% | 24% | 35% | 80% |
+| P5 | [Пользовательская] | [%] | [%] | [%] | [%] |
 
-### Section 3: Economic Comparison
+### Раздел 3: Экономическое сравнение
 
-#### Net Value Results
+#### Результаты чистой ценности
 
-| Program | NV ($/cow/yr) | vs P1 Δ | Rank |
+| Программа | NV ($/кор/год) | vs P1 Δ | Ранг |
 |---------|---------------|---------|------|
-| P1 (100% TAI) | $[value] | - | [rank] |
-| P2 (TAI+low ED) | $[value] | $[Δ] | [rank] |
-| P3 (TAI+med ED) | $[value] | $[Δ] | [rank] |
-| P4 (TAI+high ED) | $[value] | $[Δ] | [rank] |
+| P1 (100% TAI) | $[значение] | - | [ранг] |
+| P2 (TAI+низкий ED) | $[значение] | $[Δ] | [ранг] |
+| P3 (TAI+средний ED) | $[значение] | $[Δ] | [ранг] |
+| P4 (TAI+высокий ED) | $[значение] | $[Δ] | [ранг] |
 
-#### Component Breakdown
+#### Разбивка по компонентам
 
-| Program | IOFC | Repro Cost | Replace Cost | Net |
+| Программа | IOFC | Затраты на репродукцию | Затраты на замену | Чисто |
 |---------|------|------------|--------------|-----|
 | P1 | $[X] | $[Y] | $[Z] | $[NV] |
 | P2 | $[X] | $[Y] | $[Z] | $[NV] |
 | P3 | $[X] | $[Y] | $[Z] | $[NV] |
 | P4 | $[X] | $[Y] | $[Z] | $[NV] |
 
-*IOFC = Income Over Feed Cost*
+*IOFC = Доход сверх стоимости корма*
 
-### Section 4: Reproductive Performance
+### Раздел 4: Репродуктивная продуктивность
 
-| Program | 21-d PR | Days Open | Services/Conception | Cull Rate |
+| Программа | 21-d PR | Дни открытой | Случки/осеменение | Процент выбраковки |
 |---------|---------|-----------|---------------------|-----------|
-| P1 | [%] | [days] | [X] | [%] |
-| P2 | [%] | [days] | [X] | [%] |
-| P3 | [%] | [days] | [X] | [%] |
-| P4 | [%] | [days] | [X] | [%] |
+| P1 | [%] | [дни] | [X] | [%] |
+| P2 | [%] | [дни] | [X] | [%] |
+| P3 | [%] | [дни] | [X] | [%] |
+| P4 | [%] | [дни] | [X] | [%] |
 
-### Section 5: Sensitivity Analysis
+### Раздел 5: Анализ чувствительности
 
-#### Key Sensitivities
+#### Ключевые чувствительности
 
-| Parameter | Base Value | Low (-20%) | High (+20%) | Impact on Recommendation |
+| Параметр | Базовое значение | Низкое (-20%) | Высокое (+20%) | Влияние на рекомендацию |
 |-----------|------------|------------|-------------|--------------------------|
-| TAI CR | [%] | [%] | [%] | [Stable/Changes] |
-| ED CR | [%] | [%] | [%] | [Stable/Changes] |
-| Milk price | $[X] | $[Y] | $[Z] | [Stable/Changes] |
-| Semen cost | $[X] | $[Y] | $[Z] | [Stable/Changes] |
+| CR TAI | [%] | [%] | [%] | [Стабильно/Меняется] |
+| CR ED | [%] | [%] | [%] | [Стабильно/Меняется] |
+| Цена молока | $[X] | $[Y] | $[Z] | [Стабильно/Меняется] |
+| Стоимость спермы | $[X] | $[Y] | $[Z] | [Стабильно/Меняется] |
 
-### Section 6: CR Trade-off Analysis
+### Раздел 6: Анализ компромисса CR
 
-> "As ED proportion increases, TAI CR decreases"
+> "По мере увеличения доли ED плодовитость TAI снижается"
 
-| ED % | Expected TAI CR Impact | Net Effect on NV |
+| ED % | Ожидаемое влияние на CR TAI | Чистый эффект на NV |
 |------|------------------------|------------------|
-| 30% | -2% first, -2% second+ | [Positive/Negative] |
-| 50% | -4% first, -4% second+ | [Positive/Negative] |
-| 80% | -7% first, -6% second+ | [Positive/Negative] |
+| 30% | -2% первая, -2% вторая+ | [Положительный/Отрицательный] |
+| 50% | -4% первая, -4% вторая+ | [Положительный/Отрицательный] |
+| 80% | -7% первая, -6% вторая+ | [Положительный/Отрицательный] |
 
-### Section 7: Heifer Supply Integration
+### Раздел 7: Интеграция с поставкой тёлок
 
-| Scenario | Current | With Adjustment | NV Impact |
+| Сценарий | Текущий | С корректировкой | Влияние на NV |
 |----------|---------|-----------------|-----------|
-| Heifer surplus | [DIM cutoff] | [Adjusted] | $[Δ] |
-| Heifer deficit | [DIM cutoff] | [Adjusted] | $[Δ] |
-| Balanced | [DIM cutoff] | [No change] | $[Δ] |
+| Избыток тёлок | [DIM порог] | [Скорректирован] | $[Δ] |
+| Дефицит тёлок | [DIM порог] | [Скорректирован] | $[Δ] |
+| Сбалансировано | [DIM порог] | [Без изменений] | $[Δ] |
 
-### Section 8: Recommendations
+### Раздел 8: Рекомендации
 
-#### Primary Recommendation
+#### Основная рекомендация
 
-**Program:** [P1/P2/P3/P4/Custom]
-**Expected NV:** $[X]/cow/year
-**Implementation:** [Steps]
+**Программа:** [P1/P2/P3/P4/Пользовательская]
+**Ожидаемая NV:** $[X]/корова/год
+**Внедрение:** [Шаги]
 
-#### Implementation Timeline
+#### График внедрения
 
-| Phase | Action | Timeline | Responsible |
+| Фаза | Действие | Срок | Ответственный |
 |-------|--------|----------|-------------|
-| 1 | [Action] | [Weeks] | [Role] |
-| 2 | [Action] | [Weeks] | [Role] |
-| 3 | [Action] | [Weeks] | [Role] |
+| 1 | [Действие] | [Недели] | [Роль] |
+| 2 | [Действие] | [Недели] | [Роль] |
+| 3 | [Действие] | [Недели] | [Роль] |
 
-#### Risk Mitigation
+#### Снижение рисков
 
-| Risk | Likelihood | Impact | Mitigation |
+| Риск | Вероятность | Влияние | Митигация |
 |------|------------|--------|------------|
-| [Risk 1] | [L/M/H] | [L/M/H] | [Action] |
-| [Risk 2] | [L/M/H] | [L/M/H] | [Action] |
+| [Риск 1] | [Н/С/В] | [Н/С/В] | [Действие] |
+| [Риск 2] | [Н/С/В] | [Н/С/В] | [Действие] |
 
 ---
 
-## Quality Checklist
+## Контрольный чек-лист
 
-- [ ] All 4+ programs compared
-- [ ] Farm-specific data used (not just defaults)
-- [ ] Sensitivity analysis completed
-- [ ] CR trade-off considered
-- [ ] Heifer supply integrated
-- [ ] Implementation plan provided
-- [ ] Risks identified
+- [ ] Сравнены 4+ программы
+- [ ] Использованы данные, специфичные для фермы (не только значения по умолчанию)
+- [ ] Выполнен анализ чувствительности
+- [ ] Учтён компромисс CR
+- [ ] Интегрирована поставка тёлок
+- [ ] Предоставлен план внедрения
+- [ ] Выявлены риски
 
 ---
 
-## Example: Giordano 2012 Reference Results
+## Пример: Референсные результаты Giordano 2012
 
-| Program | ED CR | ED % | NV Rank | Key Insight |
+| Программа | CR ED | ED % | Ранг NV | Ключевой вывод |
 |---------|-------|------|---------|-------------|
-| 100% TAI | - | 0% | Lower | Baseline |
-| TAI+ED | 25% | 30% | Lowest | Low ED CR not viable |
-| TAI+ED | 30% | 50% | Moderate | Balanced approach |
-| TAI+ED | 35% | 80% | **Highest** | High ED CR enables high ED % |
+| 100% TAI | - | 0% | Ниже | Базовый уровень |
+| TAI+ED | 25% | 30% | Наинизший | Низкий CR ED не жизнеспособен |
+| TAI+ED | 30% | 50% | Средний | Сбалансированный подход |
+| TAI+ED | 35% | 80% | **Наивысший** | Высокий CR ED позволяет высокий ED % |
 
-**Reference:** Giordano et al. (2012), Journal of Dairy Science 95:5442-5460
+**Ссылка:** Giordano et al. (2012), Journal of Dairy Science 95:5442-5460
 
 ---
 
-## Related Work Products
+## Связанные рабочие продукты
 
-| WP | Relationship | When to Use Together |
+| WP | Связь | Когда использовать вместе |
 |----|--------------|---------------------|
-| CS.WP.003 | Economic evaluation | Compare methods |
-| CS.WP.004 | Cow value assessment | Individual decisions |
-| CS.WP.005 | This template | Program comparison |
+| CS.WP.003 | Экономическая оценка | Сравнение методов |
+| CS.WP.004 | Оценка ценности коровы | Индивидуальные решения |
+| CS.WP.005 | Этот шаблон | Сравнение программ |
 
 ---
 
-## Change Log
+## Журнал изменений
 
-| Version | Date | Changes |
+| Версия | Дата | Изменения |
 |---------|------|---------|
-| 1.0 | 2026-03-01 | Initial template from Giordano 2012 |
+| 1.0 | 2026-03-01 | Первоначальный шаблон из Giordano 2012 |
 
 ---
 
-*Part of PACK-cattle-science*  
-*Repository: https://github.com/StanisSerg/PACK-cattle-science*
+*Часть PACK-cattle-science*  
+*Репозиторий: https://github.com/StanisSerg/PACK-cattle-science*
+
+*Перевод на русский: 2026-03-02*

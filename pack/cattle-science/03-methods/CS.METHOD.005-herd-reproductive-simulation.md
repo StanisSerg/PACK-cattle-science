@@ -1,6 +1,6 @@
 # Herd-Level Reproductive Program Simulation
 
-## Metadata
+## Метаданные
 ```yaml
 type: method
 domain: cattle-science
@@ -16,236 +16,238 @@ author: "Giordano et al. (2012)"
 
 ---
 
-## Purpose
+## Назначение
 
-Simulate and compare economic outcomes of different reproductive programs combining timed artificial insemination (TAI) and estrus detection (ED) at herd level using daily Markov chain methodology.
-
----
-
-## When to Use
-
-- **Decision context:** Choosing between TAI-only, ED-only, or combined programs
-- **Data availability:** Conception rates for TAI and ED, estrus detection rates
-- **Scale:** Herd-level economic comparison
-- **Time horizon:** Long-term steady-state projections
+Моделирование и сравнение экономических результатов различных репродуктивных программ, сочетающих синхронизированное осеменение (TAI) и обнаружение охоты (ED) на уровне стада с использованием методологии цепей Маркова с ежедневным шагом.
 
 ---
 
-## Required Inputs
+## Когда использовать
 
-### Program Parameters
+- **Контекст решения:** Выбор между программами только TAI, только ED или комбинированными
+- **Доступность данных:** Плодовитость при TAI и ED, процент обнаружения охоты
+- **Масштаб:** Экономическое сравнение на уровне стада
+- **Горизонт планирования:** Долгосрочные проекции установившегося состояния
 
-| Parameter | Symbol | Unit | Typical Range | Source |
+---
+
+## Требуемые входные данные
+
+### Параметры программы
+
+| Параметр | Символ | Единица | Типичный диапазон | Источник |
 |-----------|--------|------|---------------|--------|
-| TAI conception rate (first service) | CR_TAI1 | % | 35-45 | Farm records / literature |
-| TAI conception rate (second+) | CR_TAI2+ | % | 25-35 | Farm records / literature |
-| ED conception rate | CR_ED | % | 25-35 | Farm records / literature |
-| ED proportion | P_ED | % | 0-80 | Management decision |
-| Voluntary waiting period | VWP | days | 50-70 | Management decision |
+| Плодовитость TAI (первая осеменение) | CR_TAI1 | % | 35-45 | Фермерские записи / литература |
+| Плодовитость TAI (вторая и далее) | CR_TAI2+ | % | 25-35 | Фермерские записи / литература |
+| Плодовитость ED | CR_ED | % | 25-35 | Фермерские записи / литература |
+| Доля ED | P_ED | % | 0-80 | Решение управления |
+| Период добровольного ожидания | VWP | дни | 50-70 | Решение управления |
 
-### Economic Parameters
+### Экономические параметры
 
-| Parameter | Symbol | Unit | Notes |
+| Параметр | Символ | Единица | Примечания |
 |-----------|--------|------|-------|
-| Milk price | P_milk | $/kg | Market rate |
-| Feed cost | C_feed | $/cow/day | Lactation stage dependent |
-| Semen cost | C_semen | $/dose | TAI vs conventional |
-| Hormone cost | C_hormone | $/protocol | Ovsynch costs |
-| Cull cow value | V_cull | $ | Market dependent |
-| Heifer cost | C_heifer | $ | Replacement cost |
+| Цена молока | P_milk | $/кг | Рыночный курс |
+| Стоимость корма | C_feed | $/корова/день | Зависит от стадии лактации |
+| Стоимость спермы | C_semen | $/доза | TAI vs обычная |
+| Стоимость гормонов | C_hormone | $/протокол | Затраты на Ovsynch |
+| Ценность выбракованной коровы | V_cull | $ | Зависит от рынка |
+| Стоимость тёлки | C_heifer | $ | Стоимость замены |
 
-### Herd Parameters
+### Параметры стада
 
-| Parameter | Symbol | Unit | Typical Value |
+| Параметр | Символ | Единица | Типичное значение |
 |-----------|--------|------|---------------|
-| Herd size | N | cows | 100-1000+ |
-| Average parity | - | lactation | 2.5 |
-| Baseline cull rate | - | %/year | 25-35 |
+| Размер стада | N | коровы | 100-1000+ |
+| Средний паритет | - | лактация | 2.5 |
+| Базовый процент выбраковки | - | %/год | 25-35 |
 
 ---
 
-## Methodology
+## Методология
 
-### Step 1: Define Cow States
+### Шаг 1: Определение состояний коровы
 
-Each cow is characterized by:
-- **Parity:** 1, 2, 3+ (or specific lactation number)
-- **DIM:** Days in milk (1 to 999)
-- **Pregnancy status:** Open, pregnant (by DIM of conception), or dry
-- **Reproductive program:** TAI or ED eligible
+Каждая корова характеризуется:
+- **Паритет:** 1, 2, 3+ (или конкретный номер лактации)
+- **DIM:** Дни лактации (1 до 999)
+- **Статус беременности:** Неосеменённая, беременная (по DIM осеменения), или сухостойная
+- **Репродуктивная программа:** Допустимая для TAI или ED
 
-**Total states:** ~600,000 combinations (Giordano 2012)
+**Всего состояний:** ~600,000 комбинаций (Giordano 2012)
 
-### Step 2: Define Transition Probabilities
+### Шаг 2: Определение вероятностей перехода
 
-**Daily transitions for open cows:**
+**Ежедневные переходы для неосеменённых коров:**
 
-| From State | To State | Probability | Condition |
+| Из состояния | В состояние | Вероятность | Условие |
 |------------|----------|-------------|-----------|
-| Open, DIM < VWP | Open, DIM+1 | 1.0 | Waiting period |
-| Open, DIM ≥ VWP, TAI | Pregnant | CR_TAI / 100 | Insemination day |
-| Open, DIM ≥ VWP, TAI | Open, DIM+1 | 1 - CR_TAI/100 | Not pregnant |
-| Open, DIM ≥ VWP, ED | Pregnant | P_ED × CR_ED/100 | Detected & conceived |
-| Open, DIM ≥ VWP, ED | Open, DIM+1 | 1 - above | Not pregnant or not detected |
+| Неосеменённая, DIM < VWP | Неосеменённая, DIM+1 | 1.0 | Период ожидания |
+| Неосеменённая, DIM ≥ VWP, TAI | Беременная | CR_TAI / 100 | День осеменения |
+| Неосеменённая, DIM ≥ VWP, TAI | Неосеменённая, DIM+1 | 1 - CR_TAI/100 | Не беременная |
+| Неосеменённая, DIM ≥ VWP, ED | Беременная | P_ED × CR_ED/100 | Обнаружена и осеменена |
+| Неосеменённая, DIM ≥ VWP, ED | Неосеменённая, DIM+1 | 1 - выше | Не беременная или не обнаружена |
 
-### Step 3: Define Replacement Rules
+### Шаг 3: Определение правил замены
 
-**Mandatory culling:**
-- DIM > cutoff (e.g., 400-500 days open)
-- Low milk production (< threshold)
-- Death/illness (fixed probability)
+**Обязательная выбраковка:**
+- DIM > порог (например, 400-500 дней открытой)
+- Низкая удойность (< порога)
+- Смерть/болезнь (фиксированная вероятность)
 
-**Voluntary culling:**
-- Based on economic threshold (optional)
+**Добровольная выбраковка:**
+- На основе экономического порога (опционально)
 
-### Step 4: Simulate Replacement Herd
+### Шаг 4: Моделирование стада замены
 
-- Track heifer inventory
-- Match supply to demand
-- Adjust culling policy if surplus/deficit
+- Отслеживание инвентаря тёлок
+- Согласование предложения со спросом
+- Корректировка политики выбраковки при избытке/дефиците
 
-### Step 5: Calculate Steady-State Distribution
+### Шаг 5: Расчёт распределения установившегося состояния
 
-**Iterative solution:**
-1. Initialize herd distribution
-2. Apply daily transitions for all cows
-3. Add replacements for culled cows
-4. Repeat until distribution stabilizes
-5. Calculate annual averages
+**Итеративное решение:**
+1. Инициализация распределения стада
+2. Применение ежедневных переходов для всех коров
+3. Добавление замен для выбракованных коров
+4. Повторение до стабилизации распределения
+5. Расчёт годовых средних
 
-### Step 6: Calculate Net Value
+### Шаг 6: Расчёт чистой ценности
 
 ```
-NV = Income_over_feed_cost - Reproductive_costs - Replacement_costs
+NV = Доход_сверх_стоимости_корма - Репродуктивные_затраты - Затраты_на_замену
 
-Where:
-- Income_over_feed_cost = Σ(Milk_revenue - Feed_cost) for all cows
-- Reproductive_costs = Semen + Hormones + Labor
-- Replacement_costs = Heifer_cost - Cull_value
+Где:
+- Доход_сверх_стоимости_корма = Σ(Выручка_от_молока - Затраты_на_корм) для всех коров
+- Репродуктивные_затраты = Сперма + Гормоны + Работа
+- Затраты_на_замену = Стоимость_тёлки - Ценность_выбракованной
 ```
 
 ---
 
-## Key Relationships
+## Ключевые взаимосвязи
 
-### CR Trade-off
+### Компромисс CR
 
-> "As the proportion of cows receiving AI after ED increased, the CR of cows receiving TAI decreased"
+> "По мере увеличения доли коров, получающих AI после ED, плодовитость коров, получающих TAI, снижалась"
 
-**Interpretation:** Resource competition or management attention effect
+**Интерпретация:** Конкуренция за ресурсы или эффект внимания менеджмента
 
-| ED Proportion | Expected TAI CR Impact |
+| Доля ED | Ожидаемое влияние на CR TAI |
 |---------------|------------------------|
-| 0% (100% TAI) | Baseline (42% first, 30% second+) |
-| 30% | Slight decrease |
-| 50% | Moderate decrease |
-| 80% | Significant decrease |
+| 0% (100% TAI) | Базовый уровень (42% первая, 30% вторая+) |
+| 30% | Незначительное снижение |
+| 50% | Умеренное снижение |
+| 80% | Значительное снижение |
 
-### Optimal Program Selection
+### Выбор оптимальной программы
 
-| ED CR | Recommended ED Proportion | Expected NV Rank |
+| CR ED | Рекомендуемая доля ED | Ожидаемый ранг NV |
 |-------|---------------------------|------------------|
-| 25% | Low (≤30%) or none | Lower |
-| 30% | Moderate (30-50%) | Moderate |
-| 35% | High (50-80%) | Highest |
+| 25% | Низкая (≤30%) или отсутствует | Ниже |
+| 30% | Умеренная (30-50%) | Средний |
+| 35% | Высокая (50-80%) | Наивысший |
 
 ---
 
-## Outputs
+## Выходные данные
 
-### Primary Output
+### Основной выход
 
-| Metric | Description | Use |
+| Метрика | Описание | Использование |
 |--------|-------------|-----|
-| Net Value (NV) | $/cow/year | Program comparison |
+| Чистая ценность (NV) | $/корова/год | Сравнение программ |
 
-### Secondary Outputs
+### Вторичные выходы
 
-| Metric | Description |
+| Метрика | Описание |
 |--------|-------------|
-| 21-day pregnancy rate | Herd-level reproductive efficiency |
-| Days open | Average interval |
-| Cull rate | Annual replacement rate |
-| Heifer surplus/deficit | Inventory balance |
-| Program cost | $/cow/year reproductive expenses |
+| 21-дневная плодовитость | Репродуктивная эффективность на уровне стада |
+| Дни открытой | Средний интервал |
+| Процент выбраковки | Годовая норма замены |
+| Избыток/дефицит тёлок | Баланс инвентаря |
+| Стоимость программы | $/корова/год репродуктивные расходы |
 
-### Comparison Table Format
+### Формат таблицы сравнения
 
-| Program | TAI CR | ED CR | ED % | NV ($/cow/yr) | 21-d PR | Rank |
+| Программа | CR TAI | CR ED | ED % | NV ($/кор/год) | 21-дн PR | Ранг |
 |---------|--------|-------|------|---------------|---------|------|
-| 100% TAI | 42/30 | - | 0% | [value] | [value] | [rank] |
-| TAI+ED low | 40/28 | 25% | 30% | [value] | [value] | [rank] |
-| TAI+ED med | 38/26 | 30% | 50% | [value] | [value] | [rank] |
-| TAI+ED high | 35/24 | 35% | 80% | [value] | [value] | [rank] |
+| 100% TAI | 42/30 | - | 0% | [значение] | [значение] | [ранг] |
+| TAI+ED низкая | 40/28 | 25% | 30% | [значение] | [значение] | [ранг] |
+| TAI+ED средняя | 38/26 | 30% | 50% | [значение] | [значение] | [ранг] |
+| TAI+ED высокая | 35/24 | 35% | 80% | [значение] | [значение] | [ранг] |
 
 ---
 
-## Validation
+## Валидация
 
-### Internal Consistency Checks
+### Проверки внутренней согласованности
 
-| Check | Expected Result |
+| Проверка | Ожидаемый результат |
 |-------|-----------------|
-| Total probability | Sum of transitions from any state = 1.0 |
-| Herd size | Stable at target N |
-| Cull rate | Matches replacement rate |
-| Pregnancy rate | Consistent with CR and service rate |
+| Суммарная вероятность | Сумма переходов из любого состояния = 1.0 |
+| Размер стада | Стабильный на целевом N |
+| Процент выбраковки | Соответствует норме замены |
+| Плодовитость | Согласуется с CR и частотой осеменения |
 
-### External Validation
+### Внешняя валидация
 
-| Source | Comparison |
+| Источник | Сравнение |
 |--------|------------|
-| Field data | Compare simulated vs actual 21-d PR |
-| Literature | Compare NV to other studies |
-| Expert opinion | Review program rankings |
+| Полевые данные | Сравнение смоделированной vs фактической 21-дн PR |
+| Литература | Сравнение NV с другими исследованиями |
+| Экспертное мнение | Рассмотрение ранжирования программ |
 
 ---
 
-## Limitations and Considerations
+## Ограничения и соображения
 
-### Model Limitations
+### Ограничения модели
 
-| Limitation | Impact | Mitigation |
+| Ограничение | Влияние | Митигация |
 |------------|--------|------------|
-| Steady-state assumption | Ignores transitional dynamics | Use for long-term planning only |
-| Fixed CR values | Ignores individual variation | Sensitivity analysis on CR |
-| Predefined policies | Not true optimization | Compare wide range of programs |
-| Computational complexity | ~600,000 states | Efficient matrix operations |
+| Допущение установившегося состояния | Игнорирует переходную динамику | Использовать только для долгосрочного планирования |
+| Фиксированные значения CR | Игнорирует индивидуальную вариацию | Анализ чувствительности по CR |
+| Предопределённые политики | Не истинная оптимизация | Сравнивать широкий диапазон программ |
+| Вычислительная сложность | ~600,000 состояний | Эффективные матричные операции |
 
-### Practical Considerations
+### Практические соображения
 
-| Factor | Recommendation |
+| Фактор | Рекомендация |
 |--------|----------------|
-| ED accuracy | Invest in training before increasing ED proportion |
-| Resource allocation | Balance ED effort vs TAI protocol compliance |
-| Heifer supply | Adjust culling policy to match replacement availability |
-| Economic update | Update prices/costs annually |
+| Точность ED | Инвестировать в обучение перед увеличением доли ED |
+| Распределение ресурсов | Баланс между усилиями ED и соблюдением протокола TAI |
+| Поставка тёлок | Корректировать политику выбраковки под доступность замены |
+| Экономическое обновление | Обновлять цены/затраты ежегодно |
 
 ---
 
-## Related Methods
+## Связанные методы
 
-| Method | Relationship | When to Use |
+| Метод | Связь | Когда использовать |
 |--------|--------------|-------------|
-| CS.METHOD.004 (Cabrera 2012) | Simpler, monthly | Quick individual cow assessment |
-| CS.METHOD.003 (Lauber 2025) | Economic update | Current economic conditions |
-| CS.METHOD.005 (this) | Higher granularity | Detailed program comparison |
+| CS.METHOD.004 (Cabrera 2012) | Более простой, помесячный | Быстрая оценка отдельной коровы |
+| CS.METHOD.003 (Lauber 2025) | Экономическое обновление | Текущие экономические условия |
+| CS.METHOD.005 (этот) | Более высокая детализация | Детальное сравнение программ |
 
 ---
 
-## References
+## Ссылки
 
 1. Giordano, J.O., Kalantari, A.S., Fricke, P.M., Wiltbank, M.C., & Cabrera, V.E. (2012). A daily herd Markov-chain model to study the reproductive and economic impact of reproductive programs combining timed artificial insemination and estrus detection. *Journal of Dairy Science*, 95(10), 5442-5460.
 
 ---
 
-## Change Log
+## Журнал изменений
 
-| Version | Date | Changes |
+| Версия | Дата | Изменения |
 |---------|------|---------|
-| 1.0 | 2026-03-01 | Initial creation from Giordano 2012 analysis |
+| 1.0 | 2026-03-01 | Первоначальное создание на основе анализа Giordano 2012 |
 
 ---
 
-*Part of PACK-cattle-science*  
-*Repository: https://github.com/StanisSerg/PACK-cattle-science*
+*Часть PACK-cattle-science*  
+*Репозиторий: https://github.com/StanisSerg/PACK-cattle-science*
+
+*Перевод на русский: 2026-03-02*

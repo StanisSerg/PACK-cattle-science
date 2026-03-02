@@ -2,201 +2,203 @@
 
 ---
 
-## Article Metadata
+## Метаданные статьи
 
-| Field | Value |
+| Поле | Значение |
 |-------|-------|
-| **Author** | Cabrera, V.E. |
-| **Year** | 2012 |
-| **Title** | A simple formulation and solution to the replacement problem: A practical tool to assess the economic cow value, the value of a new pregnancy, and the cost of a pregnancy loss |
-| **Journal** | Journal of Dairy Science |
-| **Volume/Issue** | 95(8) |
-| **Pages** | 4683-4698 |
+| **Автор** | Cabrera, V.E. |
+| **Год** | 2012 |
+| **Название** | A simple formulation and solution to the replacement problem: A practical tool to assess the economic cow value, the value of a new pregnancy, and the cost of a pregnancy loss |
+| **Журнал** | Journal of Dairy Science |
+| **Том/Выпуск** | 95(8) |
+| **Страницы** | 4683-4698 |
 | **DOI** | http://dx.doi.org/10.3168/jds.2011-5214 |
-| **Type** | Methodological / Decision support tool |
+| **Тип** | Методологический / Инструмент поддержки решений |
 
 ---
 
-## SoTA Status
+## Статус SoTA
 
-| Aspect | Status | Date |
+| Аспект | Статус | Дата |
 |--------|--------|------|
-| **Currency** | Foundational / Classic | 2026-03-01 |
-| **Evidence Level** | High (methodological) | Validated approach |
-| **Relevance** | High | Still cited and used |
-| **Confidence** | High | Widely adopted |
+| **Актуальность** | Базовый / Классический | 2026-03-01 |
+| **Уровень доказательств** | Высокий (методологический) | Валидированный подход |
+| **Актуальность** | Высокая | Продолжает цитироваться и использоваться |
+| **Уверенность** | Высокая | Широко принят |
 
-**Overall Status:** Foundational (Classic)
+**Общий статус:** Базовый (Классический)
 
-**Note:** Method remains valid; specific economic values require updating.
+**Примечание:** Метод остаётся валидным; конкретные экономические значения требуют обновления.
 
 ---
 
-## Key Claims
+## Ключевые утверждения
 
-### Claim 1: Simplified Markov Chain Can Replace Complex Dynamic Programming
+### Утверждение 1: Упрощённая цепь Маркова может заменить сложное динамическое программирование
 > "The proven hypothesis of this study was that all the above requirements could be achieved by using a Markov chain algorithm."
 
-**Evidence:** Results consistent with prior DP studies (Groenendaal et al. 2004)
+**Доказательства:** Результаты согласуются с предыдущими исследованиями DP (Groenendaal et al. 2004)
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Farmers can use practical tools without complex optimization software.
+**Практическое следствие:** Фермеры могут использовать практичные инструменты без сложного ПО для оптимизации.
 
 ---
 
-### Claim 2: Pregnant Cows Have Higher Economic Value
+### Утверждение 2: Беременные коровы имеют более высокую экономическую ценность
 > "The cow value indicated pregnant cows should be kept."
 
-**Evidence:** Comparative values at same MIM (pregnant vs. open)
+**Доказательства:** Сравнительные ценности при одинаковом MIM (беременная vs. неосеменённая)
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Default replacement policy = keep pregnant cows.
-
----
-
-### Claim 3: Open Cow Value Declines Dramatically in Late Lactation
-> Nonpregnant cow: $897 (MIM=1) → $68 (MIM=8)
-
-**Evidence:** Direct calculation
-
-**Confidence:** High
-
-**Practical Implication:** Late open cows are strong cull candidates.
-
-**Value:** 93% value loss by MIM=8 if not pregnant (2012$)
+**Практическое следствие:** Политика замены по умолчанию = оставлять беременных коров.
 
 ---
 
-### Claim 4: Pregnancy Loss Cost Increases with Gestation
-> Early loss (month 1): $221; Late loss (month 9): $897
+### Утверждение 3: Ценность неосеменённой коровы резко снижается в поздней лактации
+> Неосеменённая корова: $897 (MIM=1) → $68 (MIM=8)
 
-**Evidence:** Stage-dependent valuation
+**Доказательства:** Прямой расчёт
 
-**Confidence:** High
+**Уверенность:** Высокая
 
-**Practical Implication:** Protect pregnant cows, especially late-term; late abortion costs ≈ cow value.
+**Практическое следствие:** Поздние неосеменённые коровы — сильные кандидаты на выбраковку.
+
+**Ценность:** 93% потери ценности к MIM=8 при отсутствии беременности (2012$)
 
 ---
 
-### Claim 5: Expected Production and Genetic Gain Significantly Affect Value
+### Утверждение 4: Стоимость потери беременности увеличивается с гестационным сроком
+> Ранняя потеря (месяц 1): $221; Поздняя потеря (месяц 9): $897
+
+**Доказательства:** Оценка в зависимости от стадии
+
+**Уверенность:** Высокая
+
+**Практическое следствие:** Защищать беременных коров, особенно в поздние сроки; поздний аборт стоит ≈ ценность коровы.
+
+---
+
+### Утверждение 5: Ожидаемая продуктивность и генетический прогресс значительно влияют на ценность
 > "A 120% expected milk production... determined between 1.52 and 6.48 times the cow value"
 > "The cow value decreased by $211 for every 1 percentage point of expected genetic gain of the replacement"
 
-**Evidence:** Sensitivity analysis
+**Доказательства:** Анализ чувствительности
 
-**Confidence:** Medium-High
+**Уверенность:** Средне-высокая
 
-**Practical Implication:** Individual cow assessment must include production potential and genetic context.
-
----
-
-## Methodology Assessment
-
-### Approach
-- **Type:** Markov chain algorithm
-- **Innovation:** Simplification of complex DP models
-- **Calculation:** Forward expected value
-
-### Strengths
-1. User-friendly (practical adoption)
-2. Single model for replacement policies AND herd statistics
-3. Includes farmer assessment of expected performance
-4. Includes genetic gain consideration
-5. Results consistent with complex DP
-
-### Limitations
-1. **Predefined policy:** Markov simulates, doesn't optimize
-2. **Simplification:** Less theoretically "optimal" than DP
-3. **Requires estimates:** Future production, genetic gain
-4. **Static:** Point-in-time calculation
-
-### Validation
-- Consistent with Groenendaal et al. (2004) DP results
-- Widely cited and adopted
-- Foundation for Lauber (2025) and Giordano (2012)
+**Практическое следствие:** Индивидуальная оценка коровы должна включать производственный потенциал и генетический контекст.
 
 ---
 
-## Historical Significance
+## Оценка методологии
 
-### Context (2012)
-- Problem: DP models too complex for practical use
-- Solution: Simplified Markov approach
-- Impact: Enabled practical decision support tools
+### Подход
+- **Тип:** Алгоритм цепей Маркова
+- **Инновация:** Упрощение сложных моделей DP
+- **Расчёт:** Прямая ожидаемая ценность
 
-### Legacy
-- Cited in 2025 research (Lauber)
-- Foundation for herd-level models
-- Still used in Extension programs
+### Сильные стороны
+1. Удобство для пользователя (практическое применение)
+2. Единая модель для политик замены И статистики стада
+3. Включает оценку фермером ожидаемой продуктивности
+4. Включает учёт генетического прогресса
+5. Результаты согласуются со сложным DP
 
-### Current Applicability
-| Aspect | Status | Action Needed |
+### Ограничения
+1. **Предопределённая политика:** Марков моделирует, не оптимизирует
+2. **Упрощение:** Менее теоретически "оптимально", чем DP
+3. **Требует оценок:** Будущая продуктивность, генетический прогресс
+4. **Статичность:** Расчёт на конкретный момент времени
+
+### Валидация
+- Согласуется с результатами DP Groenendaal et al. (2004)
+- Широко цитируется и применяется
+- Основа для Lauber (2025) и Giordano (2012)
+
+---
+
+## Историческое значение
+
+### Контекст (2012)
+- Проблема: Модели DP слишком сложны для практического применения
+- Решение: Упрощённый подход Маркова
+- Влияние: Возможность создания практичных инструментов поддержки решений
+
+### Наследие
+- Цитируется в исследованиях 2025 года (Lauber)
+- Основа для моделей на уровне стада
+- Продолжает использоваться в программах Extension
+
+### Текущая применимость
+| Аспект | Статус | Требуемое действие |
 |--------|--------|---------------|
-| Method | Valid | None |
-| Economic values | Outdated | Update to current prices |
-| Software tools | Superseded | Use modern implementations |
+| Метод | Валидный | Нет |
+| Экономические значения | Устарели | Обновить до текущих цен |
+| Программные инструменты | Устарели | Использовать современные реализации |
 
 ---
 
-## Revision Criterion
+## Критерий пересмотра
 
-**Trigger for review:**
-- New methodology demonstrating significant improvement over Markov approach
-- Substantial change in dairy economics structure
+**Триггер для пересмотра:**
+- Новая методология, демонстрирующая значительное улучшение по сравнению с подходом Маркова
+- Существенное изменение структуры экономики молочного производства
 
-**Note:** As foundational work, unlikely to be "revised" but may be superseded by extensions.
+**Примечание:** Как базовая работа, вряд ли будет "пересмотрена", но может быть заменена расширениями.
 
 ---
 
-## Related SoTA Entries
+## Связанные записи SoTA
 
-| Entry | Relationship |
+| Запись | Связь |
 |-------|--------------|
-| CS.SOTA.001 (Lauber 2025) | Extension to herd-level optimization |
-| CS.SOTA.003 (Giordano 2012) | Concurrent Markov model development |
+| CS.SOTA.001 (Lauber 2025) | Расширение до оптимизации на уровне стада |
+| CS.SOTA.003 (Giordano 2012) | Параллельная разработка модели Маркова |
 
 ---
 
-## Application Notes
+## Примечания по применению
 
-### When to Use This Source
-- Understanding cow value fundamentals
-- Developing simple decision support tools
-- Teaching replacement economics
-- Historical context for modern methods
+### Когда использовать этот источник
+- Понимание основ ценности коровы
+- Разработка простых инструментов поддержки решений
+- Обучение экономике замены
+- Исторический контекст для современных методов
 
-### When to Supplement
-- Current economic parameters (update required)
-- Herd-level optimization (see Lauber 2025)
-- Individual farm data for calibration
+### Когда дополнять
+- Текущие экономические параметры (требуется обновление)
+- Оптимизация на уровне стада (см. Lauber 2025)
+- Данные конкретной фермы для калибровки
 
-### When to Be Cautious
-- Using 2012 economic values without updating
-- Applying to very different production systems
-- Ignoring later methodological improvements
-
----
-
-## Distinctions Applied
-
-- **D.003 Input vs. Output:** MIM, pregnancy, production (inputs) → Cow value (output)
-- **D.005 Biological vs. Economic:** Production potential vs. economic value
-- **D.007 Model vs. Reality:** Markov simulation vs. actual farm decisions
+### Когда быть осторожным
+- Использование экономических значений 2012 года без обновления
+- Применение к сильно отличающимся системам производства
+- Игнорирование последующих методологических улучшений
 
 ---
 
-## Pack Integration
+## Применённые различия
 
-| Element | Integration |
+- **D.003 Вход vs. Выход:** MIM, беременность, продуктивность (входы) → Ценность коровы (выход)
+- **D.005 Биологическое vs. Экономическое:** Производственный потенциал vs. экономическая ценность
+- **D.007 Модель vs. Реальность:** Моделирование Маркова vs. фактические решения на ферме
+
+---
+
+## Интеграция в пакет
+
+| Элемент | Интеграция |
 |---------|-------------|
-| Method | CS.METHOD.004-cow-value-assessment (primary source) |
-| Work Product | CS.WP.004-cow-value-report (application) |
-| Foundation for | CS.METHOD.003 (Lauber 2025 extension) |
+| Метод | CS.METHOD.004-cow-value-assessment (основной источник) |
+| Рабочий продукт | CS.WP.004-cow-value-report (применение) |
+| Основа для | CS.METHOD.003 (расширение Lauber 2025) |
 
 ---
 
-*SoTA annotation created: 2026-03-01*  
-*Status: Foundational (Classic)*  
-*Next review: Upon significant methodological advancement*
+*Аннотация SoTA создана: 2026-03-01*  
+*Статус: Базовый (Классический)*  
+*Следующий пересмотр: При значительном методологическом продвижении*
+
+*Перевод на русский: 2026-03-02*
