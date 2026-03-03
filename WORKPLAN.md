@@ -44,6 +44,10 @@ updated: 2026-03-02
 
 ## Бэклог
 
+### Infrastructure
+- [ ] **Тест автоматической классификации SoTA** — проверить на 3-5 статьях, отладить правила
+- [ ] Документировать процесс ingestion для новых источников
+
 ### Methods
 - [ ] CS.METHOD.001: Protein norm calculation
 - [ ] CS.METHOD.002: Energy requirement assessment
