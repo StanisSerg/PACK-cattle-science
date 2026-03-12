@@ -9,6 +9,11 @@
 ### Шаг 1: Определить тему по ключевым словам
 
 ```
+ЕСЛИ type == "core":
+    → папка core/
+    # Фундаментальные сущности: cow, milk, rumen, metabolism, 
+    # reproductive-system, immunity и т.д.
+
 ЕСЛИ keywords СОДЕРЖИТ (репродукция OR осеменение OR стельность OR нетель OR 
                        сперма OR IEP OR VWP OR 21-d PR OR pregnancy):
     → папка reproduction/
@@ -28,11 +33,14 @@
 
 ### Шаг 2: Определить ID
 
-| Папка | Диапазон ID | Правило нумерации |
-|-------|-------------|-------------------|
-| reproduction/ | 001-099 | Следующий свободный |
-| feeding/ | 010-XXX | NASEM: 010-YY, остальные: 011-099 |
-| health/ | 100-199 | Следующий свободный |
+| Папка | Диапазон ID | Правило нумерации | Тип YAML |
+|-------|-------------|-------------------|----------|
+| core/ | CORE.001-099 | Фундаментальные сущности | `type: core` |
+| methods/ | METHOD.001-099 | Расчётные и практические методы | `type: method` |
+| applications/ | APP.001-099 | Протоколы и шаблоны | `type: application` |
+| reproduction/ | 001-099 | SoTA по репродукции | `type: sota` |
+| feeding/ | 010-XXX | NASEM: 010-YY, остальные: 011-099 | `type: sota` |
+| health/ | 100-199 | SoTA по здоровью | `type: sota` |
 
 ### Шаг 3: Проверить необходимость новой папки
 
@@ -45,6 +53,26 @@
 ---
 
 ## Ключевые слова по папкам
+
+### core/
+- **Type:** `type: core` в YAML frontmatter
+- **Сущности:** cow, milk, rumen, metabolism, reproductive-system, immunity
+- **Характеристики:** Фундаментальные концепции, на которые ссылаются другие SoTA
+- **ID format:** `CS.CORE.XXX`
+
+### methods/
+- **Type:** `type: method` в YAML frontmatter
+- **Содержание:** Расчётные методы, SOP, алгоритмы, чек-листы
+- **Связь:** Реализуют SoTA в практические инструкции
+- **ID format:** `CS.METHOD.XXX`
+- **Примеры:** calculate-nel, calculate-mp, assess-bcs, detect-heat
+
+### applications/
+- **Type:** `type: application` в YAML frontmatter
+- **Содержание:** Готовые протоколы, шаблоны рационов, программы
+- **Связь:** Используют methods для конкретных ситуаций
+- **ID format:** `CS.APP.XXX`
+- **Примеры:** early-lactation-ration, transition-protocol, ketosis-prevention
 
 ### reproduction/
 - **Primary:** reproduction, insemination, pregnancy, conception, estrus, heat detection
@@ -114,9 +142,18 @@
 
 ```
 06-sota/
-├── reproduction/     # 9 файлов
-├── feeding/          # 17 файлов
-├── health/           # 0 файлов (резерв)
+├── core/             # фундаментальные сущности (6 файлов)
+│   └── CS.CORE.XXX.md
+├── methods/          # методы и алгоритмы (SOP)
+│   └── CS.METHOD.XXX.md
+├── applications/     # практическое применение (протоколы)
+│   └── CS.APP.XXX.md
+├── reproduction/     # репродукция (14 файлов)
+│   └── CS.SOTA.XXX.md
+├── feeding/          # питание (6 файлов)
+│   └── CS.SOTA.XXX.md
+├── health/           # здоровье (резерв)
+│   └── CS.SOTA.XXX.md
 ├── genetics/         # будущее: GWAS, genomic selection
 ├── welfare/          # будущее: behavior, housing, stress
 └── precision-farming/# будущее: sensors, AI, automation

@@ -35,9 +35,9 @@ updated: 2026-03-02
 
 | # | РП | Бюджет | Приоритет |
 |---|-----|--------|-----------|
-| 5 | CS.METHOD.003: Reproductive program evaluation | 4h | High |
+| 5 | CS.METHOD.003: Reproductive program evaluation | 4h | ✅ Done |
 | 6 | CS.METHOD.005: Transition health monitoring | 4h | High |
-| 7 | CS.WP.003: Reproduction economic report (template) | 3h | Medium |
+| 7 | CS.WP.003: Reproduction economic report (template) | 3h | ✅ Done |
 | 8 | CS.WP.005: Health-fertility risk assessment (template) | 3h | Medium |
 
 ---

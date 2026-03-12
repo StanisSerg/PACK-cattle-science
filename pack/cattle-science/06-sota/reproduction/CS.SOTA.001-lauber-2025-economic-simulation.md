@@ -1,6 +1,8 @@
 # CS.SOTA.001: Lauber et al. (2025) - Economic Simulation of Reproductive Programs
 
 ---
+category: simulation
+---
 
 ## Метаданные статьи
 
