@@ -1,0 +1,340 @@
+# TEMPLATE: SoTA (State of the Art)
+
+> **Версия шаблона:** 1.4 (Flat Structure)  
+> **Базируется на:** CS.SOTA.001-005 (WP-75)  
+> **Применение:** Все SoTA в PACK-cattle-science  
+> **Обновлено:** 2026-03-14
+
+---
+
+## Структура файловой системы
+
+### Новая плоская структура (рекомендуется):
+
+```
+PACK-cattle-science/pack/cattle-science/06-sota/
+├── reproduction/
+│   ├── CS.SOTA.001-crowe-2018.md
+│   ├── CS.SOTA.002-fricke-2023.md
+│   ├── CS.SOTA.003-chebel-2016.md
+│   └── ...
+├── feeding/
+│   ├── CS.SOTA.020-smith-2024.md
+│   └── ...
+├── health/
+│   ├── CS.SOTA.030-johnson-2023.md
+│   └── ...
+└── management/
+    ├── CS.SOTA.040-brown-2022.md
+    └── ...
+```
+
+### Именование файлов:
+
+```
+CS.SOTA.XXX-author-year.md
+
+Примеры:
+- CS.SOTA.001-crowe-2018.md
+- CS.SOTA.002-fricke-2023.md
+- CS.SOTA.003-chebel-2016.md
+```
+
+### Устаревшая структура (НЕ использовать):
+
+```
+❌ НЕ ПРАВИЛЬНО:
+reproduction/
+└── CS.SOTA.001-crowe-2018/
+    └── CS.SOTA.001.md
+
+✅ ПРАВИЛЬНО:
+reproduction/
+└── CS.SOTA.001-crowe-2018.md
+```
+
+---
+
+## Структура файла SoTA
+
+```markdown
+---
+# 1. YAML FRONTMATTER (обязательно)
+id: CS.SOTA.XXX
+type: sota
+domain: cattle-science
+area: [reproduction|feeding|health|genetics|management]
+subarea: [уточнение]
+subarea2: [уточнение]
+category: [simulation|meta-analysis|field-study|review]
+year: YYYY
+authors: "Author1, A.A., Author2, B.B."
+title: "Полное название статьи"
+journal: "Journal Name"
+volume: "XX"
+issue: "X"
+pages: "XXXX-XXXX"
+doi: "10.XXXX/xxxx"
+publisher: "Publisher Name"
+open_access: [true|false]
+license: "CC BY|CC BY-NC|etc"
+language: ru
+tags:
+  - tag1
+  - tag2
+  - tag3
+related:
+  - id: CS.SOTA.XXX
+    type: [compares_programs|economic_analysis|foundational|etc]
+    note: "Описание связи"
+    relevance: [high|medium|low]
+---
+
+# 2. РЕЗЮМЕ (Abstract)
+[Контекст-Цель-Методы-Результаты-Выводы, 5-7 предложений]
+
+# 3. ВВЕДЕНИЕ (Introduction)
+## 3.1. Полный текст введения [перевод]
+[Перевод Background, Objective, Hypotheses]
+
+## 3.2. Ключевые аргументы автора
+[Структурированное резюме]
+
+# 4. МАТЕРИАЛЫ И МЕТОДЫ (Materials and Methods)
+## 4.1. Общее описание
+[Тип исследования, дизайн, выборка]
+
+## 4.2. Ключевые параметры
+[Основные переменные, измерения]
+
+## 4.3. Медиа-инвентарь (для скриншотов)
+[Описание каждого графика/таблицы для лекций]
+
+# 5. РЕЗУЛЬТАТЫ (Results)
+## 5.1. [Название результата]
+[Описание визуала, ключевые цифры, комментарий лектора]
+
+# 6. ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ
+## 6.1. Алгоритм/рекомендации
+## 6.2. Калькулятор/инструменты
+
+# 7. МАТЕРИАЛЫ ДЛЯ ЛЕКЦИЙ
+## 7.1. Чек-лист скриншотов
+## 7.2. Структура лекции
+
+# 8. ВЫВОДЫ (Conclusions)
+## 8.1. Полный текст выводов [перевод]
+## 8.2. Ключевые выводы (структурировано)
+## 8.3. Ключевые сообщения для лекции
+
+# 9. КРИТИЧЕСКИЙ АНАЛИЗ
+## 9.1. Сильные стороны
+## 9.2. Ограничения и критика
+## 9.3. Сравнение с другими исследованиями
+## 9.4. Применимость к российским условиям
+
+# 10. FAQ
+[Q&A — 5-7 типичных вопросов]
+
+# 11. ИНСТРУМЕНТЫ И ШАБЛОНЫ
+## 11.1. Excel-калькулятор
+## 11.2. Чек-лист внедрения
+## 11.3. Онлайн-ресурсы
+
+# 12. ИСТОЧНИКИ
+
+# 13. ЖУРНАЛ ОБРАБОТКИ
+```
+
+---
+
+## Чек-лист создания SoTA
+
+### Phase 1: Подготовка (10 мин)
+- [ ] Найти оригинальную статью (PubMed, Google Scholar)
+- [ ] Проверить open access
+- [ ] Скачать PDF
+- [ ] Определить тип: simulation | meta-analysis | field-study | review
+
+### Phase 2: Метаданные (5 мин)
+- [ ] Заполнить YAML frontmatter
+- [ ] Присвоить id: CS.SOTA.XXX (по порядку)
+- [ ] Добавить 5-10 тегов
+- [ ] Найти 3-5 связанных SoTA, добавить related:
+
+### Phase 3: Контент (60-90 мин)
+- [ ] Скопировать Abstract, перевести
+- [ ] Скопировать Introduction, перевести
+- [ ] Скопировать Materials & Methods, структурировать
+- [ ] Описать каждый график/таблицу (медиа-инвентарь)
+- [ ] Скопировать Results, структурировать
+- [ ] Скопировать Conclusions, перевести
+
+### Phase 4: Анализ (30 мин)
+- [ ] Написать критический анализ (сильные/слабые стороны)
+- [ ] Сравнить с 2-3 другими исследованиями
+- [ ] Оценить применимость к России
+
+### Phase 5: Практика (20 мин)
+- [ ] Составить алгоритм применения
+- [ ] Написать 5-7 FAQ
+- [ ] Создать структуру Excel-калькулятора
+- [ ] Написать чек-лист внедрения
+
+### Phase 6: Лекции (20 мин)
+- [ ] Описать каждый график для скриншотов
+- [ ] Написать дословные комментарии лектора
+- [ ] Составить структуру лекции с таймингом
+
+### Phase 7: Финал (10 мин)
+- [ ] Заполнить журнал обработки
+- [ ] Обновить CS.MAP.001-sota-index.md
+- [ ] Проверить по ArchGate (должно быть ≥8)
+- [ ] Закоммитить в git
+
+---
+
+## ⚠️ ВАЖНО: ТОЛЬКО РЕЖИМ "ГЛУБОКО"
+
+> **Правило:** Все SoTA создаются ТОЛЬКО в режиме ГЛУБОКО (полная проработка).
+> 
+> **Запрещено:** Упрощённый/быстрый режим.
+> 
+> **Причина:** Качество > количество. Лучше 5 полноценных SoTA, чем 10 поверхностных.
+
+## Тайминг (WP-75: 1 статья = 3.5-4 часа ГЛУБОКО)
+
+| Фаза | Время | Что делать |
+|------|-------|------------|
+| 1-2 | 15 мин | Метаданные, YAML |
+| 3 | 90 мин | Контент (Abstract → Conclusions) |
+| 4 | 30 мин | Критический анализ |
+| 5 | 20 мин | FAQ, инструменты |
+| 6 | 20 мин | Материалы для лекций |
+| 7 | 10 мин | Журнал, индекс, git |
+| **Итого** | **~3.5-4 часа** | **1 полноценный SoTA ГЛУБОКО** |
+
+**Целевое количество за сессию WP-75 (4 часа):** 1 SoTA
+
+**Альтернатива:** Расширенная сессия 8 часов = 2 SoTA ГЛУБОКО
+
+---
+
+## Примеры типов связей (related)
+
+```yaml
+related:
+  - id: CS.SOTA.XXX
+    type: compares_programs        # Сравнение программ
+  - id: CS.SOTA.XXX
+    type: economic_analysis        # Экономический анализ
+  - id: CS.SOTA.XXX
+    type: optimal_vwp              # Оптимальный VWP/IEP
+  - id: CS.SOTA.XXX
+    type: simulation_methodology   # Методология симуляции
+  - id: CS.SOTA.XXX
+    type: foundational             # Базовые основы
+  - id: CS.SOTA.XXX
+    type: extends                  # Расширяет исследование
+  - id: CS.SOTA.XXX
+    type: contradicts              # Противоречит результатам
+```
+
+---
+
+## Примеры тегов
+
+```yaml
+tags:
+  # Методология
+  - simulation-model
+  - meta-analysis
+  - field-study
+  - review
+  
+  # Тематика
+  - economic-optimization
+  - reproductive-management
+  - feeding-strategy
+  - herd-health
+  - genetic-selection
+  
+  # Технологии
+  - sexed-semen
+  - beef-semen
+  - embryo-transfer
+  - precision-dairy
+  
+  # Выходные данные
+  - milk-yield
+  - fertility
+  - longevity
+  - animal-welfare
+```
+
+---
+
+## ArchGate: Минимальный порог
+
+| Критерий | Минимум | Цель |
+|----------|---------|------|
+| Структура | 6+ разделов | 10+ разделов |
+| Метаданные | Базовые YAML | YAML + теги + связи |
+| Содержание | Abstract + Results + Conclusions | + M&M + Analysis + FAQ |
+| Практика | Нет | Алгоритм + калькулятор |
+| Лекции | Нет | Медиа-инвентарь |
+
+**Проходной балл: ≥8/10**
+
+---
+
+## Скрипт быстрого создания SoTA
+
+```bash
+#!/bin/bash
+# create-sota.sh
+
+ID=$1
+AUTHOR=$2
+YEAR=$3
+AREA=$4
+
+FILENAME="CS.SOTA.${ID}-${AUTHOR}-${YEAR}.md"
+FOLDER="PACK-cattle-science/pack/cattle-science/06-sota/${AREA}"
+
+# Создать файл из шаблона
+sed "s/CS.SOTA.XXX/CS.SOTA.${ID}/g; s/YYYY/${YEAR}/g" \
+  TEMPLATES/SOTA-TEMPLATE.md > "${FOLDER}/${FILENAME}"
+
+echo "Created: ${FOLDER}/${FILENAME}"
+```
+
+---
+
+## Связанные файлы
+
+- `CS.SOTA.001-crowe-2018.md` — Reference SoTA (review)
+- `CS.SOTA.002-fricke-2023.md` — Reference SoTA (HFC concept)
+- `CS.SOTA.003-chebel-2016.md` — Reference SoTA (systems comparison)
+- `CS.SOTA.004-albaaj-2023.md` — Reference SoTA (meta-analysis)
+- `CS.SOTA.005-mwangi-2025.md` — Reference SoTA (field study)
+- `CS.MAP.001-sota-index.md` — Индекс всех SoTA
+- `PROTOCOLS/WP-75-sota-ingestion.md` — Протокол сессий
+
+---
+
+## История версий шаблона
+
+| Версия | Дата | Изменения |
+|--------|------|-----------|
+| 1.0 | 2026-03-14 | Базовый шаблон |
+| 1.1 | 2026-03-14 | Добавлены связи related |
+| 1.2 | 2026-03-14 | Добавлены теги |
+| 1.3 | 2026-03-14 | Полная структура 13 разделов |
+| 1.4 | 2026-03-14 | **Плоская структура файлов** |
+
+---
+
+*Шаблон версии 1.4*  
+*PACK-cattle-science*  
+*Exocortex-V2*
