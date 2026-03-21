@@ -101,6 +101,11 @@ class SoTAValidator:
         "ЖУРНАЛ ОБРАБОТКИ": r"## \d*\.?\s*ЖУРНАЛ ОБРАБОТКИ"
     }
     
+    # Обязательные подсекции
+    REQUIRED_SUBSECTIONS = {
+        "Медиа-инвентарь": r"### \d*\.?\d*\.?\s*Медиа-инвентарь|Медиа-инвентарь"
+    }
+    
     def __init__(self, verbose: bool = False):
         self.verbose = verbose
         self.errors: List[ValidationError] = []
@@ -128,6 +133,9 @@ class SoTAValidator:
         
         # Проверка секций
         sections_found, sections_missing = self._validate_sections(content, filepath)
+        
+        # Проверка подсекций
+        self._validate_subsections(content, filepath)
         
         # Проверка структуры утверждений
         self._validate_claims(content, filepath)
@@ -216,6 +224,17 @@ class SoTAValidator:
                 ))
         
         return sections_found, sections_missing
+    
+    def _validate_subsections(self, content: str, filepath: Path):
+        """Проверка обязательных подсекций"""
+        for subsection, pattern in self.REQUIRED_SUBSECTIONS.items():
+            if not re.search(pattern, content, re.MULTILINE):
+                self.warnings.append(ValidationError(
+                    file=str(filepath),
+                    section="Подсекции",
+                    severity="warning",
+                    message=f"Отсутствует подсекция: {subsection}"
+                ))
     
     def _validate_claims(self, content: str, filepath: Path):
         """Проверка структуры ключевых утверждений"""
