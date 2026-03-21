@@ -1,0 +1,45 @@
+animals
+Article
+Inﬂuence of Subclinical Ketosis in Dairy Cows on
+Ingestive-Related Behaviours Registered with a
+Real-Time System
+Ram¯unas Antanaitis 1,*
+, Vida Juozaitien˙e 2, Mindaugas Televiˇcius 1, Dovil˙e Malašauskien˙e 1,
+Mingaudas Urbutis 1 and Walter Baumgartner 3
+1
+Large Animal Clinic, Veterinary Academy, Lithuanian University of Health Sciences, Tilž˙es str 18,
+LT-47181 Kaunas, Lithuania; mindaugas.televicius@lsmuni.lt (M.T.); dovile.malasauskiene@lsmuni.lt (D.M.);
+mingaudas.urbutis@lsmuni.lt (M.U.)
+2
+Department of Animal Breeding, Veterinary Academy, Lithuanian University of Health Sciences,
+Tilž˙es str 18, LT-47181 Kaunas, Lithuania; vida.juozaitiene@lsmuni.lt
+3
+University Clinic for Ruminants, University of Veterinary Medicine, Veterinaerplatz 1,
+A-1210 Vienna, Austria; walter.baumgartner@vetmeduni.ac.at
+*
+Correspondence: ramunas.antanaitis@lsmuni.lt; Tel.: +37-067-349-064
+Received: 9 October 2020; Accepted: 14 November 2020; Published: 3 December 2020
+
+
+Simple Summary: Earlier disease detection may beneﬁt cows by improving responses to treatment.
+We expected that changes in rumination before evident clinical signs of subclinical ketosis would
+result in the earlier identiﬁcation of disease. Cows with subclinical ketosis showed lesser average
+values for the following parameters: rumination time and rumination chews (1.48 and 1.68 times
+respectively; p < 0.001), drinking time (1.50 times; p < 0.001), chews per minute, bolus and chews
+per bolus (1.12, 1.45 and 1.51 times; p < 0.001). From the 15th day before the diagnosis of ketosis,
+rumination time in the healthy group was greater than that in subclinical ketosis cows from −0.96%
+(−17 day) to 187.79% (0 days, p < 0.001). Eating time at the beginning of the experiment in healthy
+cows was 48.92% and at the end of the period was −91.97% lesser compared to subclinical ketosis
+(p < 0.001).
+Abstract: According to the literature, rumination time can be used as biomarker in the diagnosis of
+subclinical ketosis (SCK). We hypothesized that SCK in cows inﬂuences ingestive-related behaviours
+registered with the real-time system. The aim of the current study was to determine the inﬂuence of SCK
+on dairy cows’ ingestive-related behaviours registered with a real-time system. Twenty Lithuanian
+Black and White breed dairy cows were selected based on the following criteria: First day after
+calving, having two or more lactations (on average 3.0 ± 0.13 lactations), and being clinically healthy.
+The experiment lasted 18 days. Cows were tested 24 h a day for 17.5 days. On the day of diagnosis
+(day 0), data were recorded for 12 h. During the experimental period, one cow was studied for
+a total of 420 h. For the registration of rumination behaviour, the RumiWatch system (RWS) was
+used. It was found that cows with SCK showed lesser average values for the following parameters:
+rumination time and rumination chews (1.48 and 1.68 times respectively; p < 0.001), drinking time
+(1.50 times; p < 0.001)
