@@ -3,26 +3,19 @@
     "total_files": 1,
     "valid_files": 1,
     "total_errors": 0,
-    "total_warnings": 2
+    "total_warnings": 1
   },
   "results": [
     {
-      "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.030-cadorniga-valino-1997.md",
+      "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.035-mann-2022.md",
       "is_valid": true,
       "errors": [],
       "warnings": [
         {
-          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.030-cadorniga-valino-1997.md",
+          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.035-mann-2022.md",
           "section": "Медиа-инвентарь",
           "severity": "warning",
           "message": "Медиа-инвентарь неполный: найдено 0 элементов, рекомендуется минимум 2",
-          "line": null
-        },
-        {
-          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.030-cadorniga-valino-1997.md",
-          "section": "general",
-          "severity": "warning",
-          "message": "Имя файла 'CS.SOTA.030-cadorniga-valino-1997.md' не соответствует шаблону CS.SOTA.XXX-author-year.md",
           "line": null
         }
       ],
