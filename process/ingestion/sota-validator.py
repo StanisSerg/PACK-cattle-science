@@ -250,14 +250,37 @@ class SoTAValidator:
             ))
         
         # Проверка наличия комментариев лектора
-        lecturer_comments = re.findall(r'\*\*Комментарий лектора:\*\*', content)
-        if len(lecturer_comments) < len(media_items):
+        lecturer_comments_media = re.findall(r'\*\*Комментарий лектора:\*\*', content)
+        if len(lecturer_comments_media) < len(media_items):
             self.warnings.append(ValidationError(
                 file=str(filepath),
                 section="Медиа-инвентарь",
                 severity="warning",
-                message=f"Не все медиа-элементы имеют комментарии лектора: {len(lecturer_comments)}/{len(media_items)}"
+                message=f"Не все медиа-элементы имеют комментарии лектора: {len(lecturer_comments_media)}/{len(media_items)}"
             ))
+        
+        # Проверка соответствия медиа-инвентаря и результатов
+        # Ищем ссылки типа "**Соответствует:** Figure X" в разделе Результаты
+        results_section = re.search(
+            r'## \d*\.?\s*РЕЗУЛЬТАТЫ.*?(?=## \d*\.?\s*ПРАКТИЧЕСКОЕ|\Z)',
+            content,
+            re.DOTALL
+        )
+        if results_section:
+            results_content = results_section.group(0)
+            # Подсчитываем сколько медиа-элементов упомянуто в результатах
+            media_referenced = 0
+            for i in range(1, len(media_items) + 1):
+                if re.search(rf'Figure {i}|Table {i}|\[СКРИНШОТ\].*?{i}', results_content):
+                    media_referenced += 1
+            
+            if media_referenced < len(media_items):
+                self.warnings.append(ValidationError(
+                    file=str(filepath),
+                    section="РЕЗУЛЬТАТЫ",
+                    severity="warning",
+                    message=f"Не все медиа-элементы описаны в разделе Результаты: {media_referenced}/{len(media_items)}"
+                ))
     
     def _validate_claims(self, content: str, filepath: Path):
         """Проверка структуры ключевых утверждений"""
