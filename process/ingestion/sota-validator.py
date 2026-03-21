@@ -106,6 +106,9 @@ class SoTAValidator:
         "Медиа-инвентарь": r"### \d*\.?\d*\.?\s*Медиа-инвентарь|Медиа-инвентарь"
     }
     
+    # Минимальное количество медиа-элементов
+    MIN_MEDIA_ITEMS = 2
+    
     def __init__(self, verbose: bool = False):
         self.verbose = verbose
         self.errors: List[ValidationError] = []
@@ -235,6 +238,26 @@ class SoTAValidator:
                     severity="warning",
                     message=f"Отсутствует подсекция: {subsection}"
                 ))
+        
+        # Проверка количества медиа-элементов
+        media_items = re.findall(r'\*\*\[СКРИНШОТ\]\*\*', content)
+        if len(media_items) < self.MIN_MEDIA_ITEMS:
+            self.warnings.append(ValidationError(
+                file=str(filepath),
+                section="Медиа-инвентарь",
+                severity="warning",
+                message=f"Медиа-инвентарь неполный: найдено {len(media_items)} элементов, рекомендуется минимум {self.MIN_MEDIA_ITEMS}"
+            ))
+        
+        # Проверка наличия комментариев лектора
+        lecturer_comments = re.findall(r'\*\*Комментарий лектора:\*\*', content)
+        if len(lecturer_comments) < len(media_items):
+            self.warnings.append(ValidationError(
+                file=str(filepath),
+                section="Медиа-инвентарь",
+                severity="warning",
+                message=f"Не все медиа-элементы имеют комментарии лектора: {len(lecturer_comments)}/{len(media_items)}"
+            ))
     
     def _validate_claims(self, content: str, filepath: Path):
         """Проверка структуры ключевых утверждений"""
