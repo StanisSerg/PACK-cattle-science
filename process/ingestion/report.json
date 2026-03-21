@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "total_files": 1,
+    "valid_files": 0,
+    "total_errors": 5,
+    "total_warnings": 0
+  },
+  "results": [
+    {
+      "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.026-aiello-1984.md",
+      "is_valid": false,
+      "errors": [
+        {
+          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.026-aiello-1984.md",
+          "section": "YAML FRONTMATTER",
+          "severity": "error",
+          "message": "Отсутствует обязательная секция: YAML FRONTMATTER",
+          "line": null
+        },
+        {
+          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.026-aiello-1984.md",
+          "section": "FAQ",
+          "severity": "error",
+          "message": "Отсутствует обязательная секция: FAQ",
+          "line": null
+        },
+        {
+          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.026-aiello-1984.md",
+          "section": "ИНСТРУМЕНТЫ И ШАБЛОНЫ",
+          "severity": "error",
+          "message": "Отсутствует обязательная секция: ИНСТРУМЕНТЫ И ШАБЛОНЫ",
+          "line": null
+        },
+        {
+          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.026-aiello-1984.md",
+          "section": "ИСТОЧНИКИ",
+          "severity": "error",
+          "message": "Отсутствует обязательная секция: ИСТОЧНИКИ",
+          "line": null
+        },
+        {
+          "file": "..\\..\\pack\\cattle-science\\06-sota\\health\\CS.SOTA.026-aiello-1984.md",
+          "section": "ЖУРНАЛ ОБРАБОТКИ",
+          "severity": "error",
+          "message": "Отсутствует обязательная секция: ЖУРНАЛ ОБРАБОТКИ",
+          "line": null
+        }
+      ],
+      "warnings": [],
+      "sections_found": [
+        "Резюме (Abstract)",
+        "КЛЮЧЕВЫЕ УТВЕРЖДЕНИЯ",
+        "ВВЕДЕНИЕ",
+        "МАТЕРИАЛЫ И МЕТОДЫ",
+        "РЕЗУЛЬТАТЫ",
+        "ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ",
+        "ВЫВОДЫ",
+        "КРИТИЧЕСКИЙ АНАЛИЗ"
+      ],
+      "sections_missing": [
+        "YAML FRONTMATTER",
+        "FAQ",
+        "ИНСТРУМЕНТЫ И ШАБЛОНЫ",
+        "ИСТОЧНИКИ",
+        "ЖУРНАЛ ОБРАБОТКИ"
+      ]
+    }
+  ]
+}
