@@ -3,6 +3,8 @@
 > Карта научно-обоснованных знаний в PACK-cattle-science
 > 
 > **Быстрый поиск:** Ctrl+F → тег, автор, год или тема
+> 
+> **⚠️ ArchGate Status:** 47/70 (6.7/10) — [Подробнее → CS.MAP.002](./CS.MAP.002-archgate-assessment.md)
 
 ---
 
