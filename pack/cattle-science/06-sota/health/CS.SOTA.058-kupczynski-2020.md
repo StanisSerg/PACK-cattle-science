@@ -1,5 +1,5 @@
 ---
-id: CS.SOTA.034
+id: CS.SOTA.058
 type: sota
 domain: cattle-science
 area: health
@@ -38,7 +38,7 @@ related:
     relevance: medium
 ---
 
-# CS.SOTA.034: Kupczyński et al. (2020) — Глицерол при кетозе: обзор
+# CS.SOTA.058: Kupczyński et al. (2020) — Глицерол при кетозе: обзор
 
 > **Уровень:** Прикладной (M2/M3)  
 > **Формат:** Обзорная статья  
@@ -447,3 +447,5 @@ https://doi.org/10.3390/ani10081379
 *Версия: 1.0 (full)*  
 *Время создания: ~40 минут*  
 *Обработано в рамках: WP-75 (SoTA Ingestion)*
+
+

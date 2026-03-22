@@ -42,7 +42,7 @@ related:
     relevance: medium
 ---
 
-# CS.SOTA.034: Litherland et al. (2025) — Пренатальное питание и глюконеогенез
+# CS.SOTA.058: Litherland et al. (2025) — Пренатальное питание и глюконеогенез
 
 > **Уровень:** Продвинутый (M3/M4)  
 > **Формат:** Полевое исследование + in vitro  
@@ -322,3 +322,5 @@ Journal of Dairy Science.
 *SoTA создан: 2026-03-21*  
 *Версия: 1.0 (full)*  
 *Обработано в рамках: WP-75 (SoTA Ingestion)*
+
+
