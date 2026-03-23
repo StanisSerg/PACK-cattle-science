@@ -1,0 +1,738 @@
+--- Page 1 ---
+J. Dairy Sci. 90:4707–4717
+doi:10.3168/jds.2007-0295
+© American Dairy Science Association, 2007.
+Ruminal and Intermediary Metabolism of Propylene Glycol
+in Lactating Holstein Cows
+N. B. Kristensen1 and B. M. L. Raun
+DepartmentofAnimalHealth,WelfareandNutrition,FacultyofAgriculturalSciences,UniversityofAarhus,DK-8830Tjele,Denmark
+ABSTRACT affectsmetabolismofthecowsby2modesofaction:1)
+increasedsupplyofL-lactateandpropionatetoglucone-
+FourlactatingHolsteincowsfittedwithruminalcan-
+ogenesisand2)insulinresistanceofperipheraltissues
+nulasandpermanentindwellingcathetersinthemes-
+inducedbyincreasedconcentrationsofPGandpropanol
+entericartery,mesentericvein,hepaticportalvein,and
+as well as a decreased ratio of ketogenic to glucogenic
+hepatic vein were used in a cross-over design to study
+metabolites in arterial blood plasma.
+the metabolism of propylene glycol (PG). Each cow re-
+Key words: alcohol, dairy cow, metabolism, propyl-
+ceived2 treatments:control (noinfusion) andinfusion
+ene glycol
+of650gofPGintotherumenatthetimeofthemorning
+feeding. Propylene glycol was infused on the day of
+INTRODUCTION
+samplingonly.Samplesofarterial,portal,andhepatic
+blood as well as ruminal fluid were obtained at 0.5 h It has been recognized for decades that propylene
+before feeding and at 0.5, 1.5, 2.5, 3.5, 5, 7, 9, and 11 glycol (PG)has glucogeniceffects inruminants (John-
+h after feeding. Infusion of PG did not affect ruminal son, 1954). Today, PG is commonly administered to
+pH or the total concentration of ruminal volatile fatty dairycowsinearlylactationtodecreaseconcentrations
+acids,butdiddecreasethemolarproportionofruminal ofNEFAandBHBAinperipheralblood(forreviewsee
+acetate. The ruminal concentrations of PG, propanol, Nielsen and Ingvartsen, 2004; Overton and Waldron,
+andpropanalaswellasthemolarproportionofpropio- 2004). Early data on PG metabolism suggested that
+nateincreasedwithPGinfusion.Theplasmaconcentra- PG was mainly absorbed intact from the rumen and
+tions of PG, ethanol, propanol, propanal, glucose, L- metabolized in the liver and, to a lesser extent, fer-
+lactate,propionate,andinsulinincreasedwithPGand mentedintopropionatebeforeabsorption(Emeryetal.,
+theplasmaconcentrationsofacetateandβ-hydroxybu-
+1967).However,workfromourlaboratoryshowedthat
+tyrate decreased. The net portal flux of PG, propanol, the rate of PG metabolism was greatly decreased in
+and propanal increased with PG. The hepatic uptake dairycowsunderwashedrumenconditions(Kristensen
+ofPGwasequivalentto19%oftheintraruminaldose. etal.,2002)andonlyalowhepaticextractionratio(8%)
+WhencowsweredosedwithPG,thehepaticextraction ofPGwasobservedinsteersintravenouslyinfusedwith
+ofPGwasbetween0and10%dependingontheplasma PG (Raun et al., 2004). These observations along with
+concentration of PG, explaining the slow decrease in the consistent ruminal propionate response to PG in-
+arterialPG.TheincreasednethepaticfluxofL-lactate take (e.g., Cozzi et al., 1996; Christensen et al., 1997)
+withPGcouldaccountfortheentirehepaticuptakeof indicatethatruminalfermentationmightbeofconsid-
+PG, which suggests that the primary hepatic pathway erable importance in cattle. In vitro incubations of ru-
+for PG is oxidation to L-lactate. The hepatic uptake of minalmicrobeswithPGindicatedthatpropanal(propi-
+propanolincreasedwithPG,butnoeffectsofPGonthe onaldehyde)andpropanolmightbeimportantproducts
+net hepatic and net splanchnic flux of glucose were or intermediates in ruminal PG fermentation (Czer-
+observed.DespitenoeffectofPGonnetportalfluxand kawski and Breckenbridge, 1973; Czerkawski et al.,
+net hepatic flux of propionate, the net splanchnic flux 1984); these observations are supported by similar
+ofpropionateincreasedandthedatasuggestthatpropi- findingsinotherecosystemsthatdegradePG;forexam-
+onateproducedfromhepaticmetabolismofpropanolis ple, soil (Veltman et al., 1998) and silage (Driehuis et
+partlyreleasedtotheblood.ThedatasuggestthatPG al.,1999).Furthermore,wehaveconsistentlyobserved
+a sweet odor resembling that of propanal from cows
+dosedintraruminallywithPGthatcannotbeexplained
+byincreasingappearanceofpropionateorbytheweak
+ReceivedApril20,2007.
+odorofPGitself.Wehypothesizedthatintraruminally
+AcceptedJune14,2007.
+1Correspondingauthor:nbk@agrsci.dk dosedPG wouldbe extensivelyfermented intovolatile
+4707
+
+--- Page 2 ---
+4708 KRISTENSENANDRAUN
+components other than VFA and that these volatiles claved.ForthePGtreatment,650gofpropyleneglycol
+might be of major importance for understanding PG (BieandBerntsen,Rødovre,Denmark)dissolvedin10
+metabolismindairycows.Theaimofthepresentstudy L of warm tap water was dosed into the ventral sac of
+wastoinvestigatethemetabolismandmetaboliceffects the rumen at 0700 h using a funnel connected to an
+of PG dosed intraruminally in lactating dairy cows. oro-ruminalprobe(Geishauser,1993).Theoro-ruminal
+probewasintroducedviatheruminalcannulaandinfu-
+sion wascompleted within 3 to5 min. Cowswere only
+MATERIALS AND METHODS
+infused with PG on the day of sampling and cows in
+The present experiment complied with the Danish thecontrolgroupdidnotreceive infusions.Tensetsof
+Ministry of Justice Law no. 382 (June 10, 1987), Act ruminal and blood samples were obtained at 0.5 h be-
+no. 726 (September 9, 1993) concerning experiments fore feeding and at 0.5, 1.5, 2.5, 3.5, 5, 7, 9, and 11 h
+with animals and care of experimental animals. after feeding. Blood was sampled by simultaneously
+drawingbloodfromtheartery,hepaticportalvein,and
+Animals and Feeding hepatic vein into 20-mL syringes and immediately
+transferring it to sodium heparin vacuettes (Greiner
+Four lactating (21 ± 1 kg of milk/d) Danish Holstein BioOneGmbH,Kremsmuenster,Austria).Plasmawas
+cows(615±21kgofBW)fittedwithruminalcannulas harvestedbycentrifugationat3,000×gfor20minand
+(#1C, Bar Diamond, Parma, ID) and permanent in- storedat−20°Cuntilanalysis.Separatebloodsamples
+dwelling catheters in the mesenteric artery (n = 4), were obtained in 1-mL heparinized syringes for blood-
+mesentericvein(n=4),hepaticportalvein(n=4),and gasmeasurementsimmediatelybeforecollectionofthe
+hepatic vein (n = 3; patency of one hepatic catheter main blood samples. Ruminal fluid was sampled from
+was lost before samplings in the present study were the ventral ruminal sac using a suction strainer (Bar
+initiated) were used in the study. Surgery was done Diamond)anda50-mLsyringe.RuminalfluidpHwas
+according to the procedures described by Huntington measuredimmediatelyaftersampling(IQ150pHme-
+et al. (1989) with slight modifications of the catheters ter; IQ Scientific Instruments Inc., Carlsbad, CA). Im-
+aspreviouslydescribed(Kristensenetal.,2007).Cows mediately after reading pH, a subsample of ruminal
+underwentsurgeryat255±11DIM,andfirstsamplings
+fluidwasstabilizedwith5%meta-phosphoricacidand
+inthe presentstudywere 70± 21dafter surgery.The frozen at −20°C.
+experimental treatments (control = no infusion; PG
+treatment = intraruminal infusion of 650 g of PG at
+Analytical Procedures
+time of feeding at 0700 h) were arranged in a cross-
+over design and separated by at least 14 d. Blood sampled in 1-mL syringes was immediately
+Thefeedwasofferedatalevelofapproximately85% taken for blood gas and oximetry analysis (ABL 520,
+of ad libitum intake to ensure similar feed intake be- Radiometer A/S, Copenhagen, Denmark). Hematocrit
+tween sampling days. The ration contained (% of DM) wasdeterminedonheparin-stabilizedarterialsamples
+corn silage, 54.4; grass hay, 18.1; rapeseed cake, 12.4; by centrifugation of capillary tubes at 13,000 × g for
+driedsugar beetpulp, 12.1;urea, 1.4;mineral premix, 6 min.
+1.0;sodiumchloride,0.2;sodiumsulfate,0.2;andvita- Propylene glycol in plasma and ruminal fluid was
+min premix, 0.2. The mineral and vitamin premixes determined according to the method originally de-
+have been described previously (Kristensen et al., scribedbyNeedhametal.(1982)withmodificationsas
+2007). The nutrient composition of the ration was (g/ described by Raun et al. (2004). Plasma was analyzed
+kg of DM): OM, 939; NDF, 382; CP, 168; starch, 160; for glucose (D-glucose oxidase) and L-lactate (L-lactate
+andetherextract,43.Thedailyrationwasdividedinto oxidase; YSI 7100, YSI Inc., Yellow Springs, OH).
+2 equal-size meals offered at 0700 and 1900 h. Cows Plasmaconcentrationsofpropanal,ethanol,andpropa-
+were milked at 0600 and 1600 h. nolweredeterminedbyheadspaceGC/MSaspreviously
+described (Kristensen et al., 2007). Plasma concentra-
+tions of pAH were determined using the method de-
+Experimental Samplings
+scribedbyHarveyandBrothers(1962),modifiedtorun
+On sampling days, continuous infusion of p-amino- on a Cobas Mira autoanalyzer (Triolab A/S, Brøndby,
+hippuricacid(pAH;30± 1mmol/h)intothemesenteric Denmark). D-3-Hydroxybutyrate (BHBA) was deter-
+vein was initiated at 0530 h. The pAH infusate was a minedinplasmausingaCobasMiraautoanalyzerand
+250 mM solution of pAH (4-aminohippuric acid 99%, a kit based on D-3-hydroxybutyrate dehydrogenase
+Acros,Geel,Belgium)adjustedtopH7.4,filtered(Vacu (McMurray et al., 1984; Ranbut; Randox Laboratories
+Cap 0.8/0.2 (cid:2)m, Pall Corp., Ann Arbor, MI), and auto- Ltd., Crumlin, UK).
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 3 ---
+METABOLISMOFPROPYLENEGLYCOL 4709
+Volatile fatty acids in ruminal fluid were analyzed
+by GC(Kristensen etal., 1996).Alcohols andesters in
+ruminal fluid were determined using headspace GC/
+MS(seeabove).GlucoseandL-lactateweredetermined
+in ruminal fluid using the YSI analyzer as described
+above. Feed samples were analyzed as previously de-
+scribed (Kristensen et al., 2007).
+Calculations and Statistical Procedures
+Calculations of net portal flux, net hepatic flux, net
+splanchnicflux,andhepaticextractionratio(efficiency
+oftheliverinremovingmetabolitesfromhepaticinflow
+viathehepaticportalveinandthehepaticartery)were
+performed as previously described (Kristensen et al.,
+2007).
+Figure1.Ruminalconcentrationofpropyleneglycolat0.5hbefore
+Data for ruminal variables, arterial variables, and
+feeding, and at 0.5, 1.5, 2.5, 3.5, 5, 7, 9, and 11 h after feeding in
+blood and plasma fluxes were considered as repeated cowsreceivinganintraruminalinfusionof650gofpropyleneglycol
+measuresandanalyzedusingtheautoregressiveorder
+in10Lofwateratthetimeoffeeding((cid:2))ornoinfusion((cid:3)).Effects
+inthemodelincludedfixedeffectsoftreatment(P<0.01),sampling
+1 structure in PROC MIXED of SAS (SAS Institute, time(P<0.01),andinteractionbetweentreatmentandsamplingtime
+2001). The model included fixed effects of treatment, (P < 0.01) as well as the random effect of cow. Each data point is
+samplingtime, andsampling timeby treatmentinter-
+themeanof4observations±SE.
+action as well as the random effect of cow. Data for
+dailyDM intakeand milkyield wereanalyzed byone-
+way ANOVA using PROC GLM of SAS. The data set PG infusion were delayed 2.5 to 6.5 h, and the largest
+was complete except for one cow missing the hepatic numerical differences between treatments were ob-
+catheter. Significance was declaredat P < 0.05, with a served 5 to 8 h after dosing. Ruminal pH and total
+tendency at 0.05 ≤ P < 0.10. Data are presented as concentration of ruminal VFA as well as the ruminal
+means ± SE. concentration of ethanol, ethyl acetate, and glucose
+werenotaffectedbytreatment.Theruminalconcentra-
+RESULTS
+Drymatterintakedidnotdifferbetweenthe2treat-
+ments (16.2 ± 0.5 kg/d; P = 0.30). Milk yield did not
+differ between treatments (21 ± 1 kg/d; P = 0.23).
+Ruminal Variables
+All ruminal variables except ruminal glucose were
+affected(P=0.04toP<0.01)bysamplingtime.Treat-
+mentbytimeinteractions(P<0.01)wereobservedfor
+ruminalconcentrationsofPG,propanol,andpropanal,
+reflecting increased ruminal concentrations of these
+compoundsfollowingintraruminalinfusionofPG(Fig-
+ures 1, 2, and 3). Treatment by time interactions (P =
+0.04toP<0.01)wereobservedformolarproportionsof
+acetate,propionate,isovalerate,valerate,andcaproate
+(Table 1). The profiles of molar proportions of acetate
+and propionate in the rumen were similar although Figure2.Ruminalconcentrationofpropanalat0.5hbeforefeed-
+ing,andat0.5,1.5,2.5,3.5,5,7,9,and11hafterfeedingincows
+reciprocal with nadir and zenith observed 5 h after
+receivinganintraruminalinfusionof650gofpropyleneglycolin10
+infusion of PG and apparent separation of treatments L of water atthe time of feeding ((cid:2)) orno infusion ((cid:3)). Effects in
+immediatelyafterPGinfusion(Figure4showsthepro- the model included fixed effects of treatment (P < 0.01), sampling
+time (P < 0.01), and interaction between treatment and sampling
+file for propionate). In contrast, the increased molar
+time(P<0.01)aswellastherandomeffectofcow.Eachdatapoint
+proportionsof isovalerate,valerate, andcaproate with isthemeanof4observations±SE.
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 4 ---
+4710 KRISTENSENANDRAUN
+Figure4.Molarproportionofpropionateat0.5hbeforefeeding
+Figure3.Ruminalconcentrationofpropanolat0.5hbeforefeed- andat0.5,1.5,2.5,3.5,5,7,9,and11hafterfeedingincowsreceiving
+ing,andat0.5,1.5,2.5,3.5,5,7,9,and11hafterfeedingincows anintraruminalinfusionof650gofpropyleneglycolin10Lofwater
+receivinganintraruminalinfusionof650gofpropyleneglycolin10 at the time of feeding ((cid:2)) or no infusion ((cid:3)). Effects in the model
+L of water atthe time of feeding ((cid:2)) orno infusion ((cid:3)). Effects in included fixed effects of treatment (P < 0.01), sampling time (P <
+the model included fixed effects of treatment (P < 0.01), sampling 0.01), and interaction between treatment and sampling time (P <
+time (P < 0.01), and interaction between treatment and sampling 0.01)aswellastherandomeffectofcow.Eachdatapointisthemean
+time(P<0.01)aswellastherandomeffectofcow.Eachdatapoint of4observations±SE.
+isthemeanof4observations±SE.
+fectsofsamplingtimewereobservedforarterialblood
+tion of L-lactate tended to decrease with PG infusion pH,hematocrit,andCO
+2
+concentration(P=0.14toP=
+(P = 0.05). 0.55). Arterial concentration of O tended to decrease
+2
+afterfeeding(P=0.06).Treatmentbytimeinteractions
+wereobserved(P=0.04toP<0.01)forarterialplasma
+Arterial Variables
+concentrationsofPG,ethanol,propanol,propanal,glu-
+Arterial blood pH increased with PG (P < 0.01), but cose, acetate, propionate, isovalerate, and insulin (Ta-
+hematocritandconcentrationsofO andCO inarterial ble2),reflectingincreasedconcentrationsafterPGinfu-
+2 2
+blood were not affected by treatment (Table 2). No ef- sion except for the concentration of acetate that de-
+Table1.Ruminalvariables
+Treatment1 P-value2
+Item Control PG SEM Trt Time Trt×Time
+RuminalpH 6.60 6.63 0.07 0.67 <0.01 0.59
+Propyleneglycol,mM — 10.6 1.0 <0.01 <0.01 <0.01
+Ethanol,mM 1.45 1.16 0.64 0.37 <0.01 0.22
+Propanol,mM 0.24 3.03 0.55 <0.01 <0.01 <0.01
+Ethylacetate,mM 0.25 0.21 0.12 0.34 <0.01 0.13
+Propanal <0.01 0.35 0.04 <0.01 <0.01 <0.01
+TotalVFA,mM 97 93 3 0.34 <0.01 0.62
+Acetate,mol/100mol 65.1 61.6 0.5 0.02 <0.01 <0.01
+Propionate,mol/100mol 21.5 24.9 0.5 <0.01 <0.01 <0.01
+Isobutyrate,mol/100mol 0.7 0.8 <0.1 0.41 <0.01 0.64
+Butyrate,mol/100mol 9.6 9.1 0.3 0.25 0.04 0.97
+Isovalerate,mol/100mol 1.4 1.4 0.1 0.78 <0.01 <0.01
+Valerate,mol/100mol 1.2 1.5 <0.1 0.01 <0.01 0.04
+Caproate,mol/100mol 0.5 0.7 <0.1 <0.01 <0.01 <0.01
+Glucose,mM 0.03 0.04 0.01 0.88 0.20 0.36
+L-Lactate,mM 0.45 0.20 0.20 0.11 0.01 0.05
+1Treatmentswerenoinfusion(control)orintraruminalinfusionof650gofpropyleneglycol(PG)in10
+Lofwarmtapwateratthetimeofmorningfeeding.
+2Probability for no effect of treatment (Trt), sampling time (Time), and interaction between treatment
+andsampling(Trt×Time).
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 5 ---
+METABOLISMOFPROPYLENEGLYCOL 4711
+Table2.Arterialvariablesinwholebloodandplasma
+Treatment1 P-value2
+Item Control PG SEM Trt Time Trt×Time
+Wholeblood
+pH 7.44 7.46 0.01 <0.01 0.55 0.71
+Hematocrit,% 27.2 26.2 1.0 0.29 0.14 0.85
+O ,mM 5.40 5.15 0.27 0.10 0.06 0.18
+2
+CO ,mM 25.8 27.1 1.2 0.17 0.22 0.94
+2
+Bloodplasma
+Propyleneglycol,mM <0.01 3.61 0.20 <0.01 <0.01 <0.01
+Ethanol,mM 0.025 0.164 0.028 0.01 <0.01 0.01
+Propanol,mM 0.001 0.490 0.126 0.01 <0.01 <0.01
+Propanal,mM 0.0005 0.0026 0.0002 <0.01 <0.01 0.02
+Glucose,mM 3.953 4.300 0.100 0.04 <0.01 <0.01
+L-Lactate,mM 0.611 0.815 0.051 0.02 <0.01 0.14
+BHBA,mM 0.502 0.443 0.055 0.05 <0.01 0.33
+Acetate,mM 1.729 1.313 0.088 <0.01 <0.01 0.02
+Propionate,mM 0.045 0.091 0.013 <0.01 <0.01 0.01
+Isobutyrate,mM 0.004 0.003 0.001 0.67 <0.01 0.85
+Butyrate,mM 0.021 0.015 0.003 0.08 <0.01 0.27
+Isovalerate,mM 0.004 0.005 0.001 0.34 0.01 0.04
+Valerate,mM 0.001 0.001 0.001 0.68 0.23 0.32
+Caproate,mM <0.001 <0.001 0.001 0.30 0.57 0.94
+Insulin,pM 78 136 13 <0.01 <0.01 <0.01
+1Treatmentswerenoinfusion(control)orintraruminalinfusionof650gofpropyleneglycol(PG)in10
+Lofwarmtapwaterattimeoffeedinginthemorning.
+2Probability for no effect of treatment (Trt), sampling time (Time), and interaction between treatment
+andsampling(Trt×Time).
+creasedwithPG.ThearterialconcentrationofL-lactate decrease of the concentration in arterial blood plasma
+increased(P=0.02)withPGinfusion.Thearterialcon- after the infusion.
+centration profile of PG (Figure 5) was different from
+the ruminal profile (Figure 1) with a relatively slow
+Blood Flow and Net Portal Flux
+Noeffects(P=0.23toP=0.72)oftreatmentortime
+wereobservedforportalandhepaticarterialbloodflow
+(Table 3). The hepatic vein blood flow increased with
+PG(P=0.04).ThenetportalfluxofO wasnotaffected
+2
+by time or treatment, and the tendency (P = 0.09) ob-
+servedforatreatmentbytimeeffectonnetportalflux
+of CO did not reflect any obvious systematic pattern
+2
+in thedata. Treatmentby timeeffects (P =0.04 toP <
+0.01)wereobservedfornetportalfluxesofPG,ethanol,
+propanol, propanal, and insulin reflecting increased
+flux with the PG treatment except for the net portal
+fluxof ethanolthatwas lowerwithPG comparedwith
+control.ThenetportalfluxofPGwasapparentlybipha-
+sic with a positive net portal flux 0.5 to 2.5 h after PG
+infusion and an apparent negative net portal flux 3.5
+to 9.5 h after PG infusion (Figure 6). The net portal
+flux of glucose and L-lactate were not affected by time
+Figure5.Arterialbloodplasmaconcentrationofpropyleneglycol or treatment (P = 0.12 to P = 0.74). Net portal fluxes
+at 0.5 h before feeding and at 0.5, 1.5, 2.5, 3.5, 5, 7, 9, and 11 h
+ofBHBAandallVFAwereaffectedbytimeofsampling
+afterfeedingincowsreceivinganintraruminalinfusionof650gof
+propylene glycol in 10 L of water at the time of feeding ((cid:2)) or no (P = 0.02 to P < 0.01). The net portal flux of acetate
+infusion((cid:3)).Effectsinthemodelincludedfixedeffectsoftreatment was lower (P = 0.02) with PG compared with control;
+(P<0.01),samplingtime(P<0.01),andinteractionbetweentreat-
+however, no effects of treatment (P = 0.16 to P = 0.57)
+mentandsamplingtime(P<0.01)aswellastherandomeffectof
+cow.Eachdatapointisthemeanof4observations±SE. were observed for the other VFA and BHBA.
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 6 ---
+4712 KRISTENSENANDRAUN
+Table3.Bloodplasmaflowinhepaticartery,portalvein,andhepaticveinandnetportalflux,nethepatic
+flux,andnetsplanchnicfluxofO ,CO ,metabolites,andinsulin
+2 2
+Treatment1 P-value2
+Item Control PG SEM Trt Time Trt×Time
+Bloodplasmaflows
+Hepaticartery,L/h 639 788 299 0.28 0.29 0.72
+Portalvein,L/h 1,011 1,070 131 0.41 0.23 0.67
+Hepaticvein,L/h 1,647 1,874 125 0.04 0.11 0.59
+Netportalwholebloodflux
+O,mmol/h −1,580 −1,492 111 0.25 0.19 0.27
+2
+CO,mmol/h 918 1,338 131 0.10 0.03 0.09
+2
+Netportalbloodplasmaflux
+PG,mmol/h 0 109 48 <0.01 <0.01 <0.01
+Ethanol,mmol/h 59 49 21 0.15 <0.01 0.03
+Propanol,mmol/h 18 177 36 <0.01 <0.01 0.04
+Propanal,mmol/h 0.2 4.7 1.8 0.08 <0.01 <0.01
+Glucose,mmol/h −40 −43 13 0.95 0.81 0.12
+L-Lactate,mmol/h 125 123 23 0.97 0.53 0.74
+BHBA,mmol/h 148 144 24 0.46 0.02 0.99
+Acetate,mmol/h 1,916 1,564 358 0.02 <0.01 0.27
+Propionate,mmol/h 638 712 127 0.31 <0.01 0.74
+Isobutyrate,mmol/h 20 15 4 0.11 <0.01 0.64
+Butyrate,mmol/h 102 80 21 0.23 <0.01 0.16
+Isovalerate,mmol/h 10 8 2 0.38 <0.01 0.39
+Valerate,mmol/h 22 22 5 0.88 <0.01 0.37
+Caproate,mmol/h 20 21 5 0.72 <0.01 0.57
+Insulin,nmol/h 42 60 7 0.01 0.02 <0.01
+Nethepaticwholebloodflux
+O,mmol/h −2,625 −3,151 607 0.01 <0.01 0.43
+2
+CO,mmol/h 1,403 2,025 523 0.38 0.22 0.76
+2
+Nethepaticbloodplasmaflux
+PG,mmol/h 0 −133 57 0.48 0.04 0.04
+Ethanol,mmol/h −53 −31 27 0.36 0.01 0.32
+Propanol,mmol/h −12 −198 64 0.03 0.09 0.14
+Propanal,mmol/h −0.3 −5.5 2.3 0.17 0.10 0.09
+Glucose,mmol/h 738 785 117 0.36 0.25 0.39
+L-Lactate,mmol/h −90 41 65 0.01 0.65 0.64
+BHBA,mmol/h 243 220 74 0.20 0.17 0.93
+Acetate,mmol/h 1,199 975 696 0.37 0.05 0.44
+Propionate,mmol/h −545 −544 168 0.89 0.03 0.97
+Isobutyrate,mmol/h −15 −12 5 0.74 0.28 0.96
+Butyrate,mmol/h −56 −50 26 0.68 0.14 0.98
+Isovalerate,mmol/h −6 −5 3 0.35 0.11 0.91
+Valerate,mmol/h −20 −20 7 0.96 <0.01 0.57
+Caproate,mmol/h −18 −21 9 0.69 <0.01 0.28
+Insulin,nmol/h −12 −14 1 0.47 0.89 0.70
+Netsplanchnicwholebloodflux
+O ,mmol/h −4,169 −4,602 554 <0.01 <0.01 0.46
+2
+CO,mmol/h 2,238 3,389 579 <0.01 0.08 0.43
+2
+Netsplanchnicbloodplasmaflux
+PG,mmol/h 0 −71 58 0.87 <0.01 <0.01
+Ethanol,mmol/h −10 −1 9 0.56 0.54 0.26
+Propanol,mmol/h 0 −34 16 0.54 <0.01 <0.01
+Propanal,mmol/h −0.1 −0.5 0.6 0.74 0.11 0.22
+Glucose,mmol/h 691 751 110 0.31 0.80 0.50
+L-Lactate,mmol/h 27 150 68 0.11 0.99 0.53
+BHBA,mmol/h 377 357 28 0.09 0.04 0.57
+Acetate,mmol/h 3,006 2,480 327 0.03 <0.01 0.12
+Propionate,mmol/h 77 131 17 0.03 <0.01 0.02
+Isobutyrate,mmol/h 4.1 2.1 0.9 0.28 0.01 0.72
+Butyrate,mmol/h 41 28 8 0.04 <0.01 0.13
+Isovalerate,mmol/h 4.7 4.4 0.4 0.42 <0.01 0.06
+Valerate,mmol/h 0.6 1.1 0.5 0.34 0.05 0.08
+Caproate,mmol/h 0.3 −1.5 2 0.39 0.60 0.64
+Insulin,nmol/h 32 45 9 0.09 0.04 <0.01
+1Treatmentswerenoinfusion(control)orintraruminalinfusionof650gofpropyleneglycol(PG)in10L
+ofwarmtapwaterattimeofmorningfeeding.
+2Probabilityfornoeffectoftreatment(Trt),samplingtime(Time),andinteractionbetweentreatmentand
+sampling(Trt×Time).
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 7 ---
+METABOLISMOFPROPYLENEGLYCOL 4713
+to P < 0.01) of sampling time were observed for the
+netsplanchnicfluxofBHBA,acetate,isobutyrate,and
+butyrate, reflecting increased splanchnic output after
+feeding.
+Hepatic Extraction Ratio
+ThehepaticextractionratioforPGwas,onaverage,
+3±1%withthePGtreatment(Table4).Figure7shows
+thehepaticextractionratioforPGacrossthesampling
+window, which indicates that the hepatic extraction
+ratio was very low (numerically negative) during the
+first samplings and increased to approximately 10%
+duringthesecondhalfofthesamplingwindow.Treat-
+Figure6.Netportalfluxofpropyleneglycolat0.5hbeforefeeding, ment by time interactions were observed (P < 0.01)
+andat0.5,1.5,2.5,3.5,5,7,9,and11hafterfeedingincowsreceiving for the hepatic extraction of propanol and propionate,
+anintraruminalinfusionof650gofpropyleneglycolin10Lofwater reflecting decreased hepatic extraction from 1.5 to 5 h
+at the time of feeding ((cid:2)) or no infusion ((cid:3)). Effects in the model
+included fixed effects of treatment (P < 0.01), sampling time (P < after PG dosing. The lowest hepatic extraction ratios
+0.01), and interaction between treatment and sampling time (P < observedforpropionateandpropanolafterPGinfusion
+0.01)aswellastherandomeffectofcow.Eachdatapointisthemean were46±8and0±5%,respectively.Thehepaticextrac-
+of4observations±SE.
+tion of ethanol was decreased (P = 0.02) with PG com-
+pared with control.
+Net Hepatic Flux
+DISCUSSION
+The net hepatic uptake of O increased (P = 0.01)
+2 Microbial Metabolism of PG
+with PG; however, the hepatic CO output was not af-
+2
+fected(P=0.38)bytreatment.Nethepaticfluxeswere StudiesfromvariousecosystemscontainingPG,such
+characterized by relatively large standard errors and asinvitrorumenfermentation(CzerkawskiandBreck-
+there were only 3 observations. A treatment by time enbridge, 1973), silage inoculated with Lactobacillus
+effect (P = 0.04) was observed for the net hepatic flux buchneri(Driehuisetal.,2001;Kroonemanetal.,2002),
+of PG, and a tendency (P = 0.09) for a treatment by and wastewater digesters (Veltman et al., 1998), all
+time effect was observed for the net hepatic flux of pointtothesameoverallpathwayofmicrobialPGdeg-
+propanal,bothreflectingincreasedhepaticuptakewith radation. The first step in the pathway is dehydration
+PG infusion. Treatment effects (P = 0.03 to P = 0.01) ofPGthatleadstoformationofpropanal(propionalde-
+wereobservedfornethepaticfluxesofpropanolandL- hyde).AdehydrasewithrelativelyhighaffinityforPG
+lactate, reflecting increased uptake of propanol and a (K =0.7mmol/L)hasbeenisolatedfromLactobacillus
+m
+shift from net uptake to net output for L-lactate. The brevis(RadlerandZorg,1986),andinvolvementofthe
+nethepaticfluxesofethanol,propionate,valerate,and samestepintherumenisinagreementwiththetran-
+caproatewereaffected(P=0.03toP=0.04)bysampling sientpresenceofpropanalafterinfusionofPGinprevi-
+time, reflecting increased hepatic uptake after feeding ous in vitro studies (Czerkawski and Breckenbridge,
+except for acetate, for which increased output was ob- 1973) and in the present study. It has been suggested
+served after feeding. thatdecompositionofPGinwastewaterdigestersleads
+toproductionofequalamountsofpropanolandpropio-
+nate using half the propanal as electron donor (i.e.,
+Net Splanchnic Flux
+oxidized to propionate) and half the propanal as elec-
+ThenetsplanchnicuptakeofO 2 andthenetsplanch- tron acceptor (i.e., reduced to propanol) and coupling
+nic output of CO increased (P < 0.01) with PG. Treat- ofpropionateproductiontoATPsynthesis(Veltmanet
+2
+mentbytimeeffects(P=0.02toP<0.01)wereobserved
+al., 1998). Data from the present study indicated that
+for PG, propanol, propionate, and insulin, reflecting the increase in net portal flux of propanol (treatment
+increased splanchnic output of propionate and insulin difference:159mmol/h)wasconsiderablegreatercom-
+withthePG treatment.ForPGand propanol,thepat- paredwiththeincreaseinnetportalfluxofpropionate
+terns were biphasic indicating net splanchnic output (numerical treatment difference: 74 mmol/h), which
+at the first samplings and net splanchnic uptake from could indicatethat a larger fractionof propanal might
+approximately3.5hafterPGinfusion.Effects(P=0.04 bedivertedtopropanolandtherebyusedasanelectron
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 8 ---
+4714 KRISTENSENANDRAUN
+Table4.Hepaticextractionratiosforvariableswithpositivevalues
+Treatment1 P-value2
+Item Control PG SEM Trt Time Trt×Time
+Oxygen 0.34 0.38 0.04 0.14 0.11 0.78
+Propyleneglycol — 0.03 0.01 — — —
+Ethanol 0.40 0.02 0.11 0.02 0.08 0.83
+Propanol 0.46 0.38 0.06 0.14 <0.01 <0.01
+Propanal 0.70 0.30 0.50 0.72 0.38 0.44
+Propionate 0.75 0.66 0.05 <0.01 <0.01 0.04
+Isobutyrate 0.57 0.45 0.12 0.53 0.14 0.72
+Butyrate 0.42 0.41 0.12 0.80 0.11 0.27
+Isovalerate 0.38 0.20 0.17 0.28 0.85 0.52
+Valerate 0.74 0.72 0.16 0.99 <0.01 0.55
+Caproate 0.96 1.50 0.58 0.49 0.86 0.35
+Insulin 0.08 0.05 0.04 0.39 0.32 0.09
+1Treatmentswerenoinfusion(control)orintraruminalinfusionof650gofpropyleneglycol(PG)in10
+Lofwarmtapwaterattimeofmorningfeeding.
+2Probability for no effect of treatment (Trt), sampling time (Time), and interaction between treatment
+andsampling(Trt×Time).
+sinkintherumen.However,studiesonportalrecovery portalfluxofpropanolpluspropionateor2×increased
+ofpropionateinfusedintotherumenindicatethatexog- net portal flux of propanol. The increased net portal
+enous supply of propionate decreases ruminal produc- fluxofpropanalaccountedonlyforapproximately0.6%
+tion, leading to portal absorption of only 50 to 60% of of the PG dose.
+the infused propionate (Kristensen, 2005). Studies on SlowintermediarymetabolismofPGenabledthecow
+portalrecoveryoffeedalcoholsindicatecompleteportal tofunctionasareservoirforPG.Eventhoughtheinitial
+recovery of ingested alcohols (Kristensen et al., 2007). ruminaldisappearancerateforPGwasfoundtobehigh
+It is therefore likely that the ruminal metabolism of inthepresentstudyasinpreviousstudies(Clapperton
+propanalleadstoproductionofequalamountsofpropio- andCzerkawski,1972;Giesecke,1974),theintermedi-
+nateandpropanolasobservedinotherecosystems.The ary metabolism of PG cannot be estimated from the
+amount of the PG dose accounted for by metabolites initialruminaldisappearanceratebecausePGdiffuses
+producedintherumencanbeestimatedasbetween33 back into the rumen. Accumulation of PG in buffers
+and 45% using either the numerical increase in net incubatedinthewashedrumenofsteersreceivingcon-
+tinuous jugular infusions of PG showed that portal-
+drained visceral uptake of arterial PG at least partly
+representstransferofPGtothelumenofthegastroin-
+testinaltract(Raunetal.,2004).Inthepresentexperi-
+ment, the ruminal concentration of PG returned to
+baseline approximately 3.5 h after the intraruminal
+infusion;atthistime,thenetportalfluxofPGbecame
+negativeindicatingthatruminalmicrobesmetabolized
+part of the PG that initially escaped ruminal fermen-
+tation.
+Hepatic Metabolism of PG
+In the present study hepatic uptake of PG could ac-
+countforapproximately19%ofintraruminallyinfused
+PG(100×12-hsamplingwindow×133mmol/hofdiffer-
+ence in net hepatic uptake of PG/8,543 mmol of PG
+infused=19%recovery).Therelativelylowhepaticex-
+Figure 7.Hepatic extractionof propyleneglycol at0.5 hbefore
+feeding, and at 0.5, 1.5, 2.5, 3.5, 5, 7, 9, and 11 h after feeding in tractionofPGexplainswhythebloodconcentrationof
+cowsreceivinganintraruminalinfusionof650gofpropyleneglycol PG remained at a high level for hours after infusion.
+in 10 L of water at the time of feeding ((cid:2)). No meaningful values
+LowhepaticextractionofPGisinagreementwithpre-
+were observed with the control treatment. Each data point is the
+meanof3observations±SE. vious studies from our laboratory showing that dairy
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 9 ---
+METABOLISMOFPROPYLENEGLYCOL 4715
+cowsinfusedwithPGunderwashedrumenconditions Glucose Metabolism
+metabolizePGveryslowly(Kristensenetal.,2002)and
+DrenchingwithPGhaslongbeenknowntoincrease
+that the hepatic extraction ratio of PG in steers was
+plasmaglucoseindairycows(Johnson,1954;Palmquist
+only approximately 8% (Raun et al., 2004). L-Lactate,
+andBrunengraber,1997)andthiswasobservedinthe
+and not glucose, appeared to be the main product of
+presentstudy.However,similarlytothestudyofPalm-
+hepaticmetabolismofPG,whichpointstoPGmetabo-
+quist and Brunengraber (1997), we did not detect any
+lism by alcohol and aldehyde dehydrogenases as the
+increase in glucose production measured as increased
+primaryhepaticpathway.Thisissupportedbytheob-
+nethepaticfluxorincreasednetsplanchnicfluxofglu-
+serveddecreaseinthehepaticextractionratioofetha-
+cose. This indicates that the increased plasma level
+nol and propanol, which are assumed to be competing
+of glucose was caused primarily by decreased glucose
+for the same pathway in the liver. Studies in rats
+demandbyperipheraltissues,despiteanincreasedin-
+showed that PG-induced hyperlactatemia could be in-
+sulin level. Numerous changes in the supply of both
+hibitedbypyrazole,aknowninhibitorofalcoholdehy-
+ketogenicandglucogenicmetabolitesmightbeaffecting
+drogenase(Morshedetal.,1989).MetabolismofPGby
+thedemandforglucosebymuscleandotherperipheral
+alcoholdehydrogenasecouldleadtoreleaseoflactalde-
+tissues.StudiesinratsindicatedthatdiolssuchasPG
+hyde into peripheral circulation and it could be specu- and2,3-butanediolcouldbedirectlyinvolvedininduc-
+lated that this explains the side effects of PG feeding inginsulinresistanceinmuscleandadiposetissue,and
+reported in the literature (Nielsen and Ingvartsen, that these effects were observed at one-tenth of the
+2004).Involvementofalcoholandaldehydedehydroge- average plasma concentration of PG in the present
+nasesmightalsoleadtoaconcernwhendosingketotic study(Lomeoetal.,1988;Xuetal.,1998).Thepotential
+cowswithPG.Theassumedcloseequilibriumbetween PG-inducedinsulinresistanceisnotassumedtobespe-
+the ratios of NADH:NAD+ and alcohol:aldehydes:car- cifictoPG,butratherrepresentingamoregeneraleffect
+boxylic acid in the cytosol (Krebs, 1969) could lead to ofalcohols. Thepotency ofindividual alcoholsis likely
+thehypothesisthathepaticmetabolismofPGmightbe relatedtotheirabilitytointerferewiththemicroenvi-
+decreased in ketotic animals because of the increased ronment of the cell membrane (Xu et al., 1998). In the
+hepatic NADH:NAD+ ratio (Zammit, 1990). A conse- present study, we observed a pronounced response in
+quence could be that peripheral tissues are exposed the arterial concentration of propanol to PG infusion,
+to increased concentrations of alcohols and aldehydes and propanol might be involved in the insulin resis-
+originatingfrombothruminalandhepaticmetabolism tanceinducedbyruminalPGdosing.Dataaregenerally
+of PG. lackingonplasmalevelsofPGandpropanolinprevious
+studies on PG drenching and feeding to dairy cows.
+However, it could be speculated that one of the major
+Hepatic Metabolism of Propanol and Propionate
+differences among trials as well as the difference in
+effect with method of delivery of PG (Christensen et
+Despite indications of ruminal production of propio-
+al., 1997) is related to the ability to reach plasma con-
+nate from PG, infusion of PG was not followed by in-
+centrationsofPGandpropanolthatinduceinsulinre-
+creased net portal absorption of propionate. Further-
+sistance in the cows.
+more,thehepaticuptakeofpropionatedidnotchange.
+Glucose uptake by peripheral tissues could also be
+However, both the arterial concentration and the
+affectedbydecreasedsplanchnicreleaseofacetate,bu-
+splanchnic output of propionate were approximately
+tyrate, and 3-hydroxybutyrate, which decreases the
+doubled and the hepatic extraction of propionate de-
+availabilityofsubstratesfordenovofattyacidsynthe-
+creasedwithPG.Itseems,therefore,asiftheadditional
+sisinthemammaryglandandadiposetissuefollowed
+propionatereleasedintoperipheralbloodwasprimarily by a decreased need for generation of NADPH from
+produced in the liver. It is very likely that propanol glucose.Simultaneously,thearterialconcentrationsof
+takenupbytheliverisoxidizedtopropionateandthat L-lactate, propanol, and propionate increased, which
+thisendogenouslyproducedpropionateiseithermetab- also might decrease glucose uptake in peripheral tis-
+olized further within the liver or released to hepatic sues. Furthermore, we cannot exclude the possibility
+blood.Theincreasedsplanchnicfluxofpropionatecould that the marked response of plasma propionate to PG
+accountforapproximately29%oftheincreasedhepatic infusion could be involved in the hyperinsulinemic ef-
+uptake of propanol, indicating that the largest part of fect of PG (Sano et al., 1993; Leuvenink et al., 1997).
+propionate potentially produced from propanol is me- Itseems,therefore,thatthemarkedimprovementin
+tabolizedwithintheliveranddirectlyavailableforglu- glucogenicstatusinducedbydosingPGislesslikelyto
+coneogenesis. be because of an actual increase in glucose supply of
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 10 ---
+4716 KRISTENSENANDRAUN
+the cows, but rather to decreased glucose demand by increased portal absorption of propanol and propanal.
+peripheral tissues.Several metabolic factorsmight af- Propyleneglycolabsorbedtothebloodwasmetabolized
+fectperipheralglucosedemandbut,atpresent,wecan- toL-lactateintheliverordiffusedbackintotherumen
+notseparatetheeffectsofadecreasedratioofketogenic after microbial metabolism had lowered the ruminal
+toglucogenicmetabolitesinplasmafromtheeffectsof PGleveltofavorblood-to-lumenflux.Intotal,approxi-
+increasing blood levels of PG and propanol. mately 46% of the ruminally infused PG could be ac-
+counted for by increased hepatic uptake of PG, propa-
+Metabolism of BHBA nol, and propanal. Propylene glycol infusion did not
+affect hepatic or splanchnic glucose output and it is
+Inthepresentstudy,weobserveddecreasedplasma
+concluded that the hyperglycemic and hyperinsuli-
+concentrations of BHBA after ruminal PG infusion, in
+nemic effects of PG most likely are caused by insulin
+agreementwithpreviousstudiesshowingdecreasedke-
+resistance induced by increased concentrations of PG
+toneandNEFAlevelswithPG(e.g.,Saueretal.,1973;
+andpropanolandadecreasedratioofketogenictoglu-
+Studer et al., 1993; Pickett et al., 2003). The hypoke-
+cogenic metabolites in arterial blood plasma.
+tonemic effect of PG was the very reason for its initial
+use in treatment of ketosis (Johnson, 1954). Insulin is
+a key hormone in regulation of lipolysis in adipocytes ACKNOWLEDGMENTS
+(Vernon,2005),anddecreasedplasmalevelsofketones
+We gratefully acknowledge Birgit H. Løth for her
+and NEFA point to decreasing lipolysis in adipocytes
+skilfultechnicalassistanceandthestaffoftheintensive
+induced by the increasing insulin level.
+care unit at the Faculty of Agricultural Sciences, Uni-
+versity of Aarhus, for taking care of the cows during
+Mode of Action for PG
+the study.
+Datafromthepresentstudytogetherwithliterature
+data suggest that metabolic effects of PG involve 2 REFERENCES
+modes of action. First, supply of glucogenic substrates
+Christensen,J.O.,R.R.Grummer,F.E.Rasmussen,andS.J.Bertics.
+by increasing absorption of PG as well as propanol,
+1997.Effectofmethodofdeliveryofpropyleneglycolonplasma
+propionate,andpropanaloriginatingfromruminalme- metabolitesoffeed-restrictedcattle.J.DairySci.80:563–568.
+tabolism of PG makes PG glucogenic in the classical Clapperton,J. L.,and J.W.Czerkawski. 1972.Metabolism ofpro-
+sense(Krebs,1963).Second,insulinresistanceinduced pane-1,2-diol infused into the rumen of sheep. Br. J. Nutr.
+27:553–560.
+by increased circulating levels of PG and propanol or
+Cozzi, G., P. Berzaghi, F. Gottardo, G. Gabai, and I. Andrighetto.
+inducedbyadecreaseintheratioofketogenictogluco- 1996. Effects of feeding propylene glycol to mid-lactating dairy
+genic metabolites in plasma will decrease the demand cows.Anim.FeedSci.Technol.64:43–51.
+Czerkawski,J.W.,andG.Breckenbridge.1973.Dissimilationof1,2-
+for glucose by peripheral tissues and increase insulin
+propanediolbyrumenmicro-organisms.Br.J.Nutr.29:317–330.
+andglucoselevels,which,inturn,willdecreaselipolysis Czerkawski,J.W.,M.Piatkova,andG.Breckenbridge.1984.Micro-
+and have hypolipidemic and hypoketonemic effects. bialmetabolismof1,2-propanediolstudiedbytherumensimula-
+tiontechnique(Rusitec).J.Appl.Bacteriol.56:81–94.
+RecognitionofthedifferentmodesofactionofPGmight
+Driehuis,F.,S.J. H.W.OudeElferink,andS. F.Spoelstra.1999.
+be key to explaining some of the peculiarities related Anaerobiclacticaciddegradationduringensilageofwholecrop
+to using PG as a feed additive. One example is the maize inoculated with Lactobacillus buchneri inhibits yeast
+growth and improves aerobic stability. J. Appl. Microbiol.
+variableresponsetodifferentwaysofdeliveringPGas
+87:583–594.
+previouslyshownbyChristensenetal.(1997),inwhich Driehuis, F., S. J. W. H. Oude Elferink,and P. G. Van Wikselaar.
+greatermetaboliceffectswereobservedfollowingdeliv- 2001.Fermentationcharacteristicsandaerobicstabilityofgrass
+silage inoculated with Lactobacillus buchneri, with or without
+eryofPGasadrenchorinconcentratecomparedwith
+homofermentative lactic acid bacteria. Grass Forage Sci.
+feedingPGinaTMR.Itislikelythatrapiddeliveryof 56:330–343.
+PGtotherumengivesagreaterplasmaconcentration Emery,R.S.,R.E.Brown,andA.L.Black.1967.MetabolismofDL-
+ofPGbecauseofthecompetitionbetweenintraruminal
+1,2-propanediol-2-14Cinalactatingcow.J.Nutr.92:348–356.
+Geishauser, T. 1993. An instrument for collection and transfer of
+metabolism and absorption. When PG has first been
+ruminal fluid and for administration of water-soluble drugs in
+absorbed, slow intermediary metabolism means that adultcattle.BovinePract.27:38–42.
+high plasma levels will be maintained for a long time, Giesecke, D.1974. Metabolickinetics ofthe anti-ketoticcompound
+1,2-propanediol in the rumen. Arch. Int. Physiol. Biochim.
+maintaining the insulin resistance responsible for the
+82:645–649.
+hypoketonemic and hypolipidemic effects. Harvey, R. B., and A. J. Brothers. 1962. Renal extraction of para-
+aminohippurateandcreatininemeasuredbycontinuousinvivo
+samplingof arterialand renal-veinblood. Ann.N.Y. Acad.Sci.
+CONCLUSIONS
+102:46–54.
+Huntington,G.B.,C.K.Reynolds,andB.H.Stroud.1989.Techniques
+Propylene glycol infused as a single ruminal dose
+formeasuringbloodflowinsplanchnictissuesofcattle.J.Dairy
+was extensively metabolized in the rumen leading to Sci.72:1583–1595.
+JournalofDairyScienceVol.90No.10,2007
+
+--- Page 11 ---
+METABOLISMOFPROPYLENEGLYCOL 4717
+Johnson, R. B. 1954. The treatment of ketosis with glycerol and Overton,T.R.,andM.R.Waldron.2004.Nutritionalmanagement
+propyleneglycol.CornellVet.44:6–21. oftransitiondairycows:Strategiestooptimizemetabolichealth.
+Krebs, H. A. 1963. Renal gluconeogenesis. Adv. Enzyme Regul. J.DairySci.87(ESuppl.):E105–E119.
+1:385–400. Palmquist,D.L.,andH.Brunengraber.1997.Roleof1,2propanediol
+Krebs,H.A.1969.Theroleofequilibriaintheregulationofmetabo- inruminantglucosemetabolism.Pages115–118inEnergyMe-
+lism.Curr.Top.Cell.Regul.1:45–55. tabolism of Farm Animals. K. J. McCracken, E. F. Unsworth,
+Kristensen,N.B.2005.Splanchnicmetabolismofvolatilefattyacids andA.R.G.Wylie,ed.CABInternational,Wallingford,UK.
+inthedairycow.Anim.Sci.80:3–10. Pickett,M.M.,M.S.Piepenbrink,andT.R.Overton.2003.Effects
+Kristensen, N. B., A. Danfær, B. A. Røjen, B.-M. L. Raun, M. R. of propylene glycol or fat drench on plasma metabolites, liver
+Weisbjerg, and T. Hvelplund. 2002. Metabolism of propionate composition,andproductionofdairycowsduringtheperipartur-
+and1,2-propanediolabsorbedfromthewashedreticulorumenof ientperiod.J.DairySci.86:2113–2121.
+lactatingcows.J.Anim.Sci.80:2168–2175. Radler,F.,andJ.Zorg.1986.Characterizationoftheenzymeinvolved
+Kristensen, N. B., A. Danfær, V. Tetens, and N. Agergaard. 1996. informationof2-butanolfrommeso-2,3-butanediolbylacticacid
+Portalrecoveryofintraruminallyinfusedshort-chainfattyacids bacteria.Am.J.Enol.Vitic.37:206–210.
+insheep.ActaAgric.Scand.A46:26–38. Raun,B.-M.L.,N.B.Kristensen,andD.L.Harmon.2004.Splanchnic
+Kristensen,N.B.,A.Storm,B.M.L.Raun,B.A.Røjen,andD.L. metabolism ofpropylene glycol infusedinto the jugularvein of
+Harmon.2007.Metabolism ofsilagealcoholsin lactatingdairy
+steers under washed rumen conditions. J. Anim. Feed Sci.
+cows.J.DairySci.90:1364–1377.
+13(Suppl.1):331–334.
+Krooneman,J.,F.Faber,A.C.Alderkamp,S.J.H.W.OudeElferink,
+Sano, H., N. Hattori, Y. Todome, J. Tsuruoka, H. Takahashi, and
+F. Driehuis, I. Cleenwerck, J. Swings, J. C. Gottschal, and M.
+Y.Terashima. 1993.Plasmainsulin andglucagon responsesto
+Vancanneyt.2002.Lactobacillusdiolivoranssp.nov.,a1,2-pro-
+intravenousinfusionofpropionate andtheirautonomiccontrol
+panediol-degrading bacterium isolated from aerobically stable
+insheep.J.Anim.Sci.71:3414–3422.
+maizesilage.Int.J.Syst.Environ.Microbiol.52:639–646.
+SAS Institute. 2001. SAS System for Windows. Release 8.2 (TS
+Leuvenink,H.G.D.,E.J.B.Bleumer,L.J.G.M.Bongers,J.Van
+02MO).SASInstituteInc.,Cary,NC.
+Bruchem,andD.VanderHeide.1997.Effectofshort-termpropio-
+Sauer,F.D.,J.D.Erfle,andL.J.Fisher.1973.Propyleneglycoland
+nateinfusiononfeedintakeandbloodparametersinsheep.Am.
+glycerolasafeedadditiveforlactatingdairycows:Anevaluation
+J.Physiol.272:E997–E1001.
+ofbloodmetaboliteparameters.Can.J.Anim.Sci.53:265–271.
+Lomeo,F.,M.A.Khokher,and P.Dandona.1988.Ethanolandits
+Studer, V. A., R. R. Grummer, S. J. Bertics, and C. K. Reynolds.
+novelmetabolitesinhibitinsulinactiononadipocytes.Diabetes
+1993. Effect of prepartum propylene glycol administration on
+37:912–915.
+periparturient fatty liver in dairy cows. J. Dairy Sci. 76:2931–
+McMurray, C. H., W. J. Blanchflower, and D. A. Rice. 1984. Auto-
+matedkineticmethodforD-3-hydroxybutyrateinplasmaorse- 2939.
+rum.Clin.Chem.30:421–425. Veltman,S.,T.Schoenberg,andM.S.Switzenbaum.1998.Alcohol
+Morshed,K.M.,J.P.Nagpaul,S.Majumdar,andM.K.P.Amma. andacidformationduringtheanaerobicdecompositionofpropyl-
+1989.Kineticsoforalpropyleneglycol-inducedacutehyperlacta- ene glycol under methanogenic conditions. Biodegradation
+temia.Biochem.Med.Metab.Biol.42:87–94. 9:113–118.
+Needham,L.L.,R.H.Jr.Hill,D.L.Orti,M.E.Felver,andJ.A.Liddle. Vernon,R.G.2005.Lipidmetabolismduringlactation:areviewof
+1982. Electron-capture, capillary column gas chromatographic adipose tissue-liver interactions and the development of fatty
+determinationoflow-molecular-weightdiolsinserum.J.Chro- liver.J.DairyRes.72:460–469.
+matogr.233:9–17. Xu,D.,A.S.Dhillon,A.Abelmann,K.Croft,T.J.Peters,andT.N.
+Nielsen,N.I.,andK.L.Ingvartsen.2004.Propyleneglycolfordairy Palmer.1998.Alcohol-relateddiolscauseacuteinsulinresistance
+cows: A review of the metabolism of propylene glycol and its invivo.Metabolism47:1180–1186.
+effectsonphysiologicalparameters,feedintake,milkproduction Zammit,V.A.1990.Ketogenesisintheliverofruminants–Adapta-
+andriskofketosis.Anim.FeedSci.Technol.115:191–213. tionstoachallenge.J.Agric.Sci.(Camb.)115:155–162.
+JournalofDairyScienceVol.90No.10,2007
