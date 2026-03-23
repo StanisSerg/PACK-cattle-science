@@ -1,0 +1,562 @@
+--- Page 1 ---
+J. Dairy Sci. 104:2185–2194
+https://doi.org/10.3168/jds.2020-19111
+© 2021 American Dairy Science Association®. Published by Elsevier Inc. and Fass Inc. All rights reserved.
+A randomized controlled trial to evaluate propylene glycol alone
+or in combination with dextrose as a treatment
+for hyperketonemia in dairy cows
+M. B. Capel,1 K. D. Bach,2 S. Mann,2 and J. A. A. McArt2*
+1Perry Veterinary Clinic, Perry, NY 14530
+2Department of Population Medicine and Diagnostic Sciences, College of Veterinary Medicine, Cornell University, Ithaca, NY 14853
+ABSTRACT 60 DIM was 9.4% (n = 35). We found no effect of treat-
+ment on risk of post-treatment HYK resolution at wk
+Our objective was to investigate the effect of i.v.
+1 (PG3 56.9%, PG3D1 45.0%, PG3D3 50.0%) or wk 2
+dextrose as an adjunct therapy to oral propylene gly-
+(PG3 60.0%, PG3D1 52.1%, PG3D3 59.5%) following
+col on the resolution of hyperketonemia (HYK; blood
+initial diagnosis, or for risk of adverse event occurrence
+β-hydroxybutyrate ≥1.2 mmol/L), disease incidence,
+(PG3 7.4%, PG3D1 8.0%, PG3D3 12.6%). Average
+and early lactation milk yield. Cows (n = 1,249) be-
+daily milk yield (mean ± SE) was similar between
+tween 3 and 16 d in milk (DIM) from 4 New York dairy
+treatment groups (PG3: 42.7 ± 0.6 kg/d, PG3D1: 42.4
+farms were screened once weekly for HYK for 2 wk.
+± 0.6 kg/d, PG3D3: 42.6 ± 0.6 kg/d). The addition
+Those with HYK and no previous history of retained
+of dextrose for 1 or 3 d provided no improvement in
+placenta, metritis, or HYK were randomly assigned to
+resolution of ketosis assessed once weekly, reduction in
+1 of 3 treatment groups: 300 mL of oral 100% propylene
+adverse events during the first 60 d of lactation, or a
+glycol for 3 d (PG3); 300 mL of oral 100% propylene
+difference in average daily milk yield during the first 10
+glycol for 3 d plus 500 mL i.v. 50% dextrose on d 1
+wk of lactation.
+(PG3D1); or 300 mL of oral 100% propylene glycol for
+Key words: dairy cow, ketosis, treatment, dextrose,
+3 d plus 500 mL i.v. 50% dextrose on all 3 d (PG3D3).
+propylene glycol
+Cows with a blood β-hydroxybutyrate <1.2 mmol/L
+at initial screening were re-screened the following week
+INTRODUCTION
+and randomly assigned to the above treatment groups
+if blood β-hydroxybutyrate was ≥1.2 mmol/L. Cows
+Dairy cows experience a period of nutrient deficit
+were assessed for post-treatment HYK resolution 1 and
+during early lactation as their rapidly increasing milk
+2 wk after initial HYK diagnosis. We collected farm-
+production outpaces their ability to increase DMI (Bau-
+diagnosed occurrence of adverse events (sold, died,
+man and Currie, 1980; Baird, 1982; Herdt, 2000). As
+metritis, displaced abomasum, or ketosis) during the
+part of the homeorhetic adaptation to lactation, cows
+first 60 DIM and milk yield data from the first 10 wk
+respond to this deficit by mobilizing adipose tissue
+of lactation from herd management software. We used
+through lipolysis. The associated increase in circulating
+mixed-effects multivariable Poisson regression models
+fatty acid concentrations can overload the oxidative ca-
+to assess the risk of post-treatment HYK resolution
+pacity of the liver, resulting in the formation of ketone
+at 1 and 2 wk following initial HYK diagnosis and
+bodies (e.g., BHB). Although ketones are an important
+adverse event occurrence among treated cows. We
+energy source in the dairy cow (Herdt, 2000), excessive
+used repeated-measures ANOVA to assess differences
+ketone body formation can result in hyperketonemia
+in average daily milk yield between treatments. The
+(HYK). Defined as a blood BHB concentration ≥1.2
+overall HYK incidence was 30.1% (n = 373). Sixty-four
+mmol/L, HYK is of significant concern to dairy farms
+percent of cows (n = 237) were assigned to a treatment
+as a result of its herd-level incidence in North America
+group in the first week (3 to 9 DIM), and 36% (n =
+of 40% (Duffield, 2000; McArt et al., 2012a), negative
+136) assigned the second week (10 to 16 DIM). The
+effect on cow health and production, and cost to the
+incidence of 1 or more adverse events during the first
+producer (McArt et al., 2015).
+Providing producers with effective, safe, and practical
+treatment protocols for HYK remains crucial, because
+the use of nutritional and management strategies for
+ketosis prevention is not always effective. Early work
+2185
+Received June 17, 2020.
+Accepted September 15, 2020.
+*Corresponding author: jmcart@ cornell .edu
+
+--- Page 2 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2186
+on ketosis therapy suggests that the key principles of hypothesis was that the addition of dextrose to a treat-
+treatment should include stimulating gluconeogenesis, ment course of 3 d of oral PG would improve recovery,
+increasing utilization of blood glucose, and reducing clinical outcomes, and production in early lactation.
+plasma ketones and free fatty acids (Cote, 1971). A
+recent systematic review of ketosis therapy performed
+MATERIALS AND METHODS
+by Gordon et al. (2013) reiterated these principles. The
+authors, however, also cited the lack of well-designed
+Study Population, Study Design, and Data Collection
+ketosis treatment trials and identified oral administra-
+tion of propylene glycol (PG) as the only HYK therapy We conducted a prospective, randomized controlled
+for which adequately designed studies were available. trial in Holstein dairy cows on 4 farms (A, B, C, and
+Recent studies have evaluated a variety of HYK treat- D) located in central and western New York State from
+ment strategies with minimal effects on health, includ- May to September 2019. All farms selected for partici-
+ing dexamethasone as an adjunct therapy to PG; a pation in the trial had to meet the following enrollment
+butaphosphan and cyanocobalamin product and insulin criteria: milk at least 1,000 cows; have headlocks in
+in addition to PG; and daily injections of B compared fresh cow pens; use farm management software (Dairy-
+12
+with a negative control (Tatone et al., 2016; Gordon et Comp 305, Valley Agricultural Software, Tulare, CA);
+al., 2017a; Weerathilake et al., 2019). However, Gordon and be willing to agree to the proposed testing and
+et al. (2017b) did observe a milk yield of 3.1 kg/d more treatment protocol. Approval for all animal procedures
+[95% confidence interval (CI) 1.3 to 5.0 kg/d] for cows was granted by the Cornell University Institutional
+with a blood glucose concentration <2.2 mmol/L at Animal Care and Use Committee (protocol 2019–0054).
+enrollment when treated with butaphosphan and cya- All farms were asked to sign a consent form agreeing to
+nocobalamin. In another trial, researchers found that the proposed testing and treatment protocol.
+treatment with PG plus l-carnitine and methionine During the study period, farm A milked 2,100 cows
+improved the resolution of HYK and increased milk and averaged 40 kg/d of milk per cow; farm B milked
+yield but had no effect on postpartum health or re- 1,000 cows and averaged 40 kg/d; farm C milked 2,500
+productive performance compared with PG treatment cows and averaged 38 kg/d; and farm D milked 1,550
+alone (Jeong et al., 2018). As a result of this gap in cows and averaged 40 kg/d. A controlled energy strat-
+knowledge related to the effectiveness of adjunct thera- egy was used in all 4 herds, and anionic salts were fed
+pies, daily administration of i.v. dextrose and oral PG to achieve a negative DCAD. All herds milked cows
+(alone or in combination) remain commonly used treat- 3 times daily. Cows were uniquely identified using
+ments for HYK. electronic identification, and milk production was mea-
+Recently, however, a study comparing PG alone sured by on farm milk meters at each milking. Fresh
+or in combination with i.v. dextrose for treatment of cows were housed in freestall barns with free choice
+HYK found that cows treated with both i.v. dextrose access to water and a farm-specific TMR.
+and oral PG had an improved short-term metabolic Enrollment occurred once weekly for each herd.
+response compared with either PG or i.v. dextrose Farms A and B enrolled cows on Mondays, farm C
+treatment alone, as determined by an increase in in- on Wednesdays, and farm D on Tuesdays. All animals
+sulin concentrations and a decrease in BHB and fatty between 3 and 16 DIM with a previous gestation length
+acid concentrations (Mann et al., 2017). These findings of >260 d and no history of retained placenta, metritis,
+were promising in their support of a combination of or HYK for the current lactation were eligible for en-
+PG and i.v. dextrose as a therapy for HYK, but this rollment. Cows were screened for enrollment by study
+study was small in scale and not designed to evalu- personnel immediately following the morning milking
+ate disease and production outcomes. Accordingly, the (between 0600 and 0900 h, depending on the farm).
+authors concluded that additional work was required to Blood samples were obtained from the coccygeal vessels
+fully evaluate i.v. dextrose (500 mL of a 50% solution) using a 1-mL syringe with a 25-gauge, 1.6-cm needle
+as an adjunct therapy to oral PG (300 mL of a 100% and were immediately tested for HYK classification
+solution) to treat HYK. using a hand-held ketone meter (Nova Vet Ketone/
+Our objective was to compare the effects of 3 treat- Glucose Meter; Nova Biomedical, Waltham, MA).
+ment strategies (oral 100% PG once daily for 3 d; oral Hyperketonemia was defined as a blood BHB con-
+100% PG once daily for 3 d plus i.v. 50% dextrose on centration ≥1.2 mmol/L, and all HYK-positive animals
+the first day of therapy; and oral 100% PG once daily were assigned to 1 of 3 treatment groups following a
+for 3 d plus i.v. 50% dextrose once daily for 3 d) on randomized block design: (1) 300 mL of a 100% PG so-
+resolution of HYK, risk of adverse events during the lution (100% propylene glycol, USP/EP; Dow, Midland,
+first 60 DIM, and milk yield in early lactation. Our MI) administered orally once daily for 3 d (PG3, n =
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 3 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2187
+121); (2) 300 mL of a 100% PG solution administered and type II error probabilities of 5 and 20%, respective-
+orally once daily for 3 d plus 500 mL of a 50% dextrose ly. The initial sample size calculation estimated that
+solution (dextrose 50% injection, VetOne, Boise, ID) approximately 120 hyperketonemic cows were required
+administered i.v. on d 1 only (PG3D1, n = 125); or in each of the 3 treatment groups, for a total of 1,320
+(3) 300 mL of a 100% PG solution administered orally cows needed for enrollment to account for a potential
+once daily for 3 d plus 500 mL of a 50% dextrose solu- 10% loss to follow-up. Allocation to treatments within
+tion administered i.v. once daily from d 1 through d 3 blocks of 3 cows on each farm was performed following
+(PG3D3, n = 127). All treatments were administered a sequence obtained from a random number genera-
+by study personnel. Propylene glycol was administered tor (Research Randomizer v.4.0, Urbaniak and Plous,
+as a drench using a manual drenching gun (Neogen, 2013). Randomization sheets were generated and used
+Lexington, KY). Cows between 3 and 9 DIM with a by study personnel at the time of treatment allocation.
+BHB concentration <1.2 mmol/L were screened a sec- Farm staff and any personnel making subjective assess-
+ond time the following week (10–16 DIM) and were ments were blinded to treatment group.
+eligible for treatment assignment as long as they still Our manuscript was written following the REFLECT
+met the aforementioned enrollment criteria. reporting guidelines for randomized controlled trials in
+Following treatment, all cows were re-evaluated for livestock and food safety.
+post-treatment resolution of HYK (BHB concentration
+<1.2 mmol/L) 1 wk (7 d) and 2 wk (14 d) after initial
+Statistical Analysis
+HYK diagnosis. This trial had no negative control group
+because of previous work citing the positive benefits of All statistical analyses were performed in SAS ver-
+treating for HYK (McArt et al., 2011, 2012b). sion 9.4 (SAS Institute Inc., Cary, NC). Graphs were
+Disease and production data were extracted by study created using Microsoft Excel (2018; Microsoft Corp.,
+personnel from farm computer records on a weekly Redmond, WA) and GraphPad Prism version 8.2
+basis. Case definitions for the diseases of interest were (GraphPad, San Diego, CA).
+established by the herd veterinarians and reviewed with Differences in BHB concentration at initial HYK
+farm staff at each site before the beginning of the study diagnosis between treatment groups were analyzed
+to ensure consistency across all study farms. Metritis using univariable linear regression (PROC MIXED).
+was diagnosed by farm staff upon the presence of fetid, To improve the normality and homoscedasticity of
+watery vaginal discharge and hyperthermia (rectal residuals for blood BHB, we performed natural log-
+temperature ≥39.5°C). Displaced abomasum was di- transformation. All geometric least squares means and
+agnosed by a veterinarian after eliciting a tympanic 95% CI for blood BHB presented hereafter represent
+resonance following auscultation and simultaneous the back-transformed values.
+percussion of the intercostal spaces between the 8th To assess the association of treatment group with risk
+and 13th ribs along a diagonal line extending from the of post-treatment HYK resolution 1 and 2 wk following
+olecranon to the tuber coxae of each side of the cow. initial HYK diagnosis and risk of adverse event dur-
+Farm-diagnosed ketosis was identified by farm person- ing the first 60 DIM, we developed explanatory models
+nel using the following criteria: milk deviations based using fixed-effect multivariable Poisson regression via
+on farm computer software algorithm (farms B and D), PROC GENMOD (Ospina et al., 2012). Cows experi-
+no significant findings on physical examination (i.e., encing 1 or more of the following before re-evaluation
+displaced abomasum or metritis), and a blood BHB for post-treatment resolution of HYK at either 1 or
+concentration ≥1.2 mmol/L (farm C) or a positive 2 wk were not included in the analysis: sold, died, or
+urine KetoCheck test (Animal Health, St. Joseph, MO; diagnosed by farm staff with metritis, displaced ab-
+farm A). Daily milk weights were averaged on a weekly omasum, or ketosis. Cows were categorized as having
+basis to estimate average milk yield (kg/d) over the an adverse event if 1 or more of the following occurred
+first 10 wk of lactation. on or after the final day of treatment and within the
+Sample size estimation was performed using the Uni- first 60 DIM: sold, died, or diagnosed by farm staff with
+versity of British Columbia Department of Statistics metritis, displaced abomasum, or ketosis. Additional
+online sample size calculator (www .stat .ubc .ca) via controlling variables forced into each model regardless
+an inference for proportions, comparing 2 indepen- of P-value were herd, parity, BHB concentration at
+dent samples. We based our calculations for a 1-sided initial HYK diagnosis, and study week at initial HYK
+hypothesis on the following assumptions: a herd-level diagnosis. Biologically plausible pairwise interactions
+HYK prevalence of 30%; an improvement in HYK reso- between treatment group and controlling variables
+lution at 1 wk post-treatment of i.v. dextrose (PG3D1 were explored if at least 10% of cows were within each
+or PG3D3) over PG alone of 25%; and desired type I level of the contingency table between both variables in
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 4 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2188
+the pairwise interaction; interactions were removed via scriptive statistics for treatment groups by herd and
+backward stepwise elimination if P > 0.05. parity are shown in Table 1. A histogram of BHB con-
+To assess the average daily milk yield during the first centrations at initial HYK diagnosis by treatment group
+10 wk of lactation, we used repeated-measures ANOVA is shown in Figure 1. The geometric least squares means
+(PROC MIXED) with week specified in the REPEAT- of BHB concentration at initial HYK diagnosis were 1.6
+ED statement. We tested 7 covariance structures (first mmol/L (95% CI 1.5–1.7 mmol/L), 1.7 mmol/L (95%
+order autoregressive, compound symmetry, Toeplitz, the CI 1.6–1.8 mmol/L), and 1.7 mmol/L (95% CI 1.6–1.8
+heterogeneous form for the aforementioned, as well as mmol/L) for PG3, PG3D1, and PG3D3, respectively
+unstructured), and we selected unstructured covariance (P = 0.2). The distribution of BHB concentrations at
+because it yielded the lowest Akaike information crite- initial HYK diagnosis, 1 wk, and 2 wk following initial
+rion. Cows missing milk data for >2 wk were excluded HYK diagnosis for each treatment group are shown in
+from analysis (n = 9) unless they had been removed Figure 2.
+because they died or were sold. Additional controlling
+variables forced into all models regardless of P-value
+Risk of Hyperketonemia Resolution
+were herd, parity, BHB concentration at initial HYK
+1 and 2 wk After Initial Diagnosis
+diagnosis, and study week at initial HYK diagnosis. We
+investigated the interaction of treatment group by week Sixteen cows experienced an adverse event before
+of lactation using a test of simple effects (Winer, 1971), re-evaluation for post-treatment BHB concentration/
+and the interaction was considered important only if HYK resolution at 1 wk following initial HYK diagnosis
+all slices were P ≤ 0.05; no slices met this criteria. We (PG3, n = 5; PG3D1, n = 2; PG3D3, n = 9), with an
+tested other biologically plausible pairwise interactions additional 4 experiencing an adverse event before 2 wk
+between treatment group and controlling variables if (PG3, n = 6; PG3D1, n = 4; PG3D3, n = 10). These
+at least 10% of cows were within each level of the con- cows were excluded from subsequent analyses.
+tingency table between both variables in the pairwise Post-treatment hyperketonemia resolution following
+interaction and removed via backward stepwise elimi- initial HYK diagnosis for the 3 treatment groups was
+nation if P > 0.05. as follows: at 1 wk, PG3 56.9% (n = 66), PG3D1 45.0%
+For all models, herd was treated as a fixed effect (n = 54), PG3D3 50.0% (n = 59); at 2 wk, PG3 60.0%
+to account for differences in HYK incidences between (n = 69), PG3D1 52.1% (n = 61), PG3D3 59.5% (n =
+the 4 farms, and a Tukey–Kramer adjustment was used 66). We found no effect of treatment group on the risk
+when controlling for multiple comparisons unless oth- of HYK resolution 1 or 2 wk following initial HYK di-
+erwise specified. agnosis, when controlling for the effect of herd, parity,
+BHB concentration at initial HYK diagnosis, or week
+at initial HYK diagnosis (both P = 0.3; Table 2). The
+RESULTS
+effects of controlling variables at 1 wk following initial
+HYK diagnosis were as follows: herd, P = 0.01; parity,
+Descriptive Statistics
+P = 0.01; BHB concentration at initial HYK diagnosis,
+In total, 1,249 cows were screened, and 376 cows P < 0.001; week at initial HYK diagnosis, P = 0.06.
+(30.1%) were randomly assigned to a treatment group. The effects of controlling variables at 2 wk following
+Incidence of HYK for the 4 herds was as follows: herd initial HYK diagnosis were as follows: herd, P = 0.001;
+A 32.4% (n = 99); herd B 30.5% (n = 67); herd C parity, P = 0.001; BHB concentration at initial HYK
+20.3% (n = 100); and herd D 47.6% (n = 110). Three diagnosis, P < 0.001; week at initial HYK diagnosis, P
+cows were excluded from analysis for not receiving all = 0.1.
+3 d of their respective treatment, resulting in 373 cows
+eligible for analysis (PG3, n = 121; PG3D1, n = 125;
+Risk of Adverse Events
+PG3D3, n = 127).
+Of the cows eligible for analysis, 64% (n = 237) were Five cows experienced an adverse event before the
+assigned to a treatment group during the first week final day of treatment (PG3 n = 2, PG3D1 n = 0,
+of screening, and the remaining 36% (n = 136) were PG3D3 n = 3) and were excluded from analysis. The
+assigned during the second week. Week at initial HYK overall incidence of diagnosis with 1 or more adverse
+diagnosis was not different between herds (P = 0.3) or events during the first 60 DIM was 9.2% (n = 34).
+treatment groups (P = 0.8). The median DIM at enroll- The incidence of adverse events within the first 60 DIM
+ment were 9 (range 3–16), 7 (range 3–16), and 8 (range: for the 3 treatment groups was as follows: PG3 7.6%
+3–15) for PG3, PG3D1, and PG3D3, respectively. De- (n = 9), PG3D1 8.0% (n = 10), PG3D3 12.1% (n =
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 5 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2189
+Table 1. Distribution of treatment groups by herd, parity, and adverse event diagnosis1
+Treatment group
+Variable PG3 PG3D1 PG3D3
+Herd and week at diagnosis,2 n (% of group)
+A 33 (27.3) 33 (26.4) 33 (26.0)
+Wk 1 20 (16.5) 26 (20.8) 21 (16.5)
+Wk 2 13 (10.7) 7 (5.6) 12 (9.5)
+B 20 (16.5) 23 (18.4) 22 (17.3)
+Wk 1 12 (9.9) 13 (10.4) 14 (11.0)
+Wk 2 8 (6.6) 10 (8.0) 8 (6.3)
+C 32 (26.4) 32 (25.6) 35 (27.6)
+Wk 1 25 (20.7) 19 (15.2) 24 (18.9)
+Wk 2 7 (5.8) 13 (10.4) 11 (8.7)
+D 36 (29.8) 37 (29.6) 37 (29.1)
+Wk 1 17 (14.1) 24 (19.2) 22 (17.3)
+Wk 2 19 (15.7) 13 (10.4) 15 (11.8)
+Parity, n (% of total)
+1 16 (4.3) 21 (5.6) 19 (5.1)
+2 32 (8.6) 33 (8.9) 32 (8.6)
+≥3 73 (19.6) 71 (19.0) 76 (20.4)
+Adverse event,3 n (% of group)
+One or more4 9 (7.6) 10 (8.0) 15 (12.1)
+Metritis 4 (3.4) 2 (1.6) 4 (3.2)
+Displaced abomasum 2 (1.7) 3 (2.4) 2 (1.6)
+Farm-diagnosed ketosis 0 (0.0) 2 (1.6) 3 (2.4)
+Sold or died 4 (3.4) 7 (5.6) 9 (7.3)
+1For 373 Holstein cows administered 300 mL of oral 100% propylene glycol solution for 3 d alone (PG3, n =
+121) or in combination with 1 d (PG3D1, n = 125) or 3 d (PG3D3, n = 127) of 500 mL i.v. 50% dextrose for
+treatment of hyperketonemia on 4 dairy herds in New York State.
+2Wk 1 = 3 to 9 DIM. Wk 2 = 10 to 16 DIM.
+3Occurring on or after the final day of treatment and within the first 60 DIM (PG3, n = 119; PG3D1, n =
+125; PG3D3, n = 124).
+4Eight cows experienced more than 1 event: 2 cows experienced both metritis and a displaced abomasum, and
+6 cows experienced an adverse event before sale or death (metritis, n = 1; displaced abomasum, n = 2; farm-
+diagnosed ketosis, n = 3).
+15). Incidence of metritis, displaced abomasum, farm- Milk Production
+diagnosis ketosis, sale, or death can be found in Table
+Average daily milk yield (mean ± SE) during the
+1. A total of 8 cows experienced more than 1 event: 2
+first 10 wk of lactation was similar between the 3 treat-
+cows experienced both metritis and a displaced aboma-
+ment groups (PG3 42.7 ± 0.6 kg/d, PG3D1 42.4 ±
+sum, and 6 cows experienced an adverse event before
+0.6 kg/d, PG3D3 42.6 ± 0.6 kg/d; P = 0.9; Figure 3).
+sale or death (metritis n = 1, displaced abomasum n
+The effect of controlling variables were as follows: week
+= 2, farm-diagnosed ketosis n = 3). Incidence by herd
+in lactation, P < 0.001; herd, P < 0.001; parity, P <
+was 6.1, 9.2, 17.0, and 5.5% for herds A, B, C, and D,
+0.001; BHB concentration at initial HYK diagnosis, P
+respectively.
+= 0.002; and week at initial HYK diagnosis, P = 0.3).
+We found no effect of treatment group on the risk of
+adverse events during the first 60 DIM when control-
+ling for the effect of herd, parity, BHB concentration at
+DISCUSSION
+initial HYK diagnosis, or week at initial HYK diagnosis
+(P = 0.6; Table 3). The effects of controlling variables Oral PG once daily for 3 d has been well established
+were as follows: herd, P = 0.4; parity, P = 0.007; BHB as a beneficial treatment for HYK (McArt et al., 2011;
+concentration at initial HYK diagnosis, P = 0.08; week McArt et al., 2012b; Gordon et al., 2013). With recent
+at initial HYK diagnosis, P = 0.1. All diagnoses of dis- evidence from Mann et al. (2017) demonstrating a
+placed abomasum were left-sided. greater decline in BHB concentrations for hyperketone-
+No negative incidents associated with oral PG or i.v. mic cows treated with both PG and dextrose compared
+dextrose administration were reported by the study to those treated with PG alone, we hypothesized that
+farms. the addition of dextrose to a treatment course of 3 d
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 6 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2190
+of oral PG would improve HYK recovery, clinical out- diagnosis and demonstrated decreased milk production.
+comes, and production in early lactation. However, our Resolution of HYK was also negatively affected by BHB
+study found no difference across treatment groups in concentration at the time of initial diagnosis. However,
+the resolution of HYK 1 or 2 wk following initial HYK we observed no interaction between BHB concentra-
+diagnosis, development of adverse events during the tion at initial diagnosis and any outcome of interest in
+first 60 DIM (sale, death, or diagnosed by farm staff our analysis. It is important to note that these finding
+with metritis, displaced abomasum, or ketosis) or on must be interpreted with caution for cows with BHB
+milk yield during the first 10 wk of lactation. Further- concentrations ≥3.0 mmol/L, because <10% of cows in
+more, BHB concentrations remained similar over time each treatment group had BHB concentrations within
+regardless of treatment. this range at initial diagnosis (Figure 1). Given that
+The lack of treatment effect in our study was sur- dextrose is commonly recommended in treatment pro-
+prising, because findings by Mann et al. (2017) clearly tocols for cows with BHB concentrations ≥3.0 mmol/L,
+demonstrated a more rapid and sustained reduction in additional research is advised to determine whether it
+BHB concentrations in the first 3 d following initial truly is advantageous to this population of hyperketo-
+diagnosis for cows administered PG in combination nemic cows.
+with dextrose. However, similar to our study, when Herd incidence of HYK also did not influence the
+Mann et al. (2017) evaluated BHB concentrations at lack of treatment effect. The overall incidence of HYK
+d 7 to 11, they observed no difference between groups. in this study was 30.1%, but herd incidences ranged
+Because we did not sample before 7 d following the from 20.3 to 47.6%. Previous reports of HYK incidence
+initial diagnosis, we cannot know whether the cows in in North American cite rates upwards of 40 to 60%
+our study also experienced differing BHB dynamics be- (Duffield et al., 1998; McArt et al., 2012b), meaning
+tween treatment groups. Furthermore, because Mann that our herds represented low and average incidences.
+et al. (2017) did not evaluate health and production Nevertheless, we observed no treatment × herd interac-
+parameters, we cannot know whether the treatment ef- tion, suggesting that our findings may be relevant to
+fect they observed would have translated to clinically herds with a wide range of HYK incidences.
+important outcomes. Of all cows randomly assigned to a treatment in this
+Interestingly, the lack of treatment effect in our study study, 64% were first diagnosed with HYK during the
+appeared to be consistent regardless of BHB concentra- first week of screening (3–9 DIM) and 36% during the
+tion at initial HYK diagnosis. Similar to previous re- second week (10–16 DIM). This was in line with previ-
+search (McArt et al., 2012a; Tatone et al., 2016), cows ous reports that showed peak incidence of HYK at 5
+with higher BHB concentrations at initial HYK diag- DIM (McArt et al., 2012a). However, week of diagnosis
+nosis tended to have an increased risk of adverse event did not appear to affect any of our outcomes of interest.
+Figure 1. Histogram showing BHB concentrations at initial hyperketonemia diagnosis by treatment group for 373 cows administered 300
+mL of a 100% oral propylene glycol solution for 3 d alone (PG3; orange bars) or in combination with 1 d (PG3D1; purple bars) or 3 d (PG3D3;
+light blue bars) of 500 mL i.v. 50% dextrose for treatment of hyperketonemia.
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 7 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2191
+Table 2. Final Poisson regression model outcomes evaluating the association of treatment group with resolution of hyperketonemia at 1 and 2
+wk following initial hyperketonemia diagnosis1,2
+Time and treatment group n (%)3 Estimate SE P-value4 Relative risk 95% CI4
+1 wk post-diagnosis5
+PG3 66 (56.9) Referent — — — —
+PG3D1 54 (45.0) −0.19 0.13 0.3 0.8 0.6–1.1
+PG3D3 59 (50.0) −0.07 0.13 0.9 0.9 0.7–1.3
+2 wk post-diagnosis6
+PG3 69 (60.0) Referent — — — —
+PG3D1 61 (52.1) −0.12 0.12 0.5 0.9 0.7–1.2
+PG3D3 66 (59.5) 0.06 0.11 0.8 1.1 0.8–1.4
+1For 373 Holstein cows administered 300 mL of oral 100% propylene glycol solution for 3 d alone (PG3) or in combination with 1 d (PG3D1) or
+3 d (PG3D3) of 500 mL i.v. 50% dextrose for treatment of hyperketonemia on 4 dairy herds in New York State.
+2Hyperketonemia resolution defined as treated cows with BHB concentration <1.2 mmol/L.
+3For resolution within group.
+4P-value and 95% CI reported for Tukey’s comparison.
+5Total n = 354 (PG3, n = 116; PG3D1, n = 120; PG3D3, n = 118). Variables included in the model: treatment group (P = 0.3), herd (P = 0.01),
+parity (P = 0.01), BHB concentration at initial hyperketonemia diagnosis (P < 0.001), week at initial hyperketonemia diagnosis (P = 0.06).
+6Total n = 343 (PG3, n = 115; PG3D1, n = 117; PG3D3, n = 111). Variables included in the model: treatment group (P = 0.3), herd (P =
+0.001), parity (P = 0.001), BHB concentration at initial hyperketonemia diagnosis (P < 0.001), week at initial hyperketonemia diagnosis (P =
+0.1).
+Because our study was not designed to examine this The proportion of animals experiencing HYK reso-
+relationship, it is most likely that power limited our lution in this study ranged from 45.9 to 59.7% at 1
+ability to elucidate this. wk following initial HYK diagnosis, and 53.7 to 61.2%
+Figure 2. Distribution of BHB concentrations for each treatment group at initial hyperketonemia diagnosis (Dx), and 1 and 2 wk following
+initial hyperketonemia diagnosis, for 373 cows administered 300 mL of oral 100% propylene glycol solution for 3 d alone (PG3: n = 121; orange
+bars) or in combination with 1 d (PG3D1: n = 125; purple bars) or 3 d (PG3D3: n = 127; light blue bars) of 500 mL i.v. 50% dextrose for treat-
+ment of hyperketonemia. The box and whiskers represent the median and interquartile range, and the minimum and maximum observations,
+respectively.
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 8 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2192
+Table 3. Final Poisson regression model outcomes evaluating the association of treatment group with occurrence of adverse event diagnosis
+within the first 60 DIM1,2
+Treatment group3 n (%)4 Estimate SE P-value5 Relative risk 95% CI5
+PG3 9 (7.6) Referent — — — —
+PG3D1 10 (8.0) 0.18 0.45 0.9 1.2 0.4 to 3.5
+PG3D3 15 (12.1) 0.40 0.42 0.6 1.5 0.6 to 4.0
+1For 373 Holstein cows administered 300 mL of oral 100% propylene glycol solution for 3 d alone (PG3) or in combination with 1 d (PG3D1) or
+3 d (PG3D3) of 500 mL i.v. 50% dextrose for treatment of hyperketonemia on 4 dairy herds in New York State.
+2Cows were categorized as having an adverse event if one or more of the following occurred on or after the day of sampling and within the first
+60 DIM: sold, died, or diagnosed by farm staff with metritis, displaced abomasum, or ketosis. Eight cows experienced more than 1 event: 2 cows
+experienced both metritis and a displaced abomasum, and 6 cows experienced an adverse event before being sold or dying (metritis, n = 1;
+displaced abomasum, n = 2; farm-diagnosed ketosis, n = 3).
+3Total n = 368 (PG3, n = 119; PG3D1, n = 125; PG3D3, n = 124). Variables included in the model: treatment group (P = 0.6), herd (P =
+0.4), parity (P = 0.007), BHB concentration at initial hyperketonemia diagnosis (P = 0.08), week at initial hyperketonemia diagnosis (P = 0.1).
+4For adverse event diagnosis within group.
+5P-value and 95% CI reported for Tukey’s comparison.
+at 2 wk. These findings were consistent with previ- high BHB category, suggesting that time does not fully
+ous research on the resolution of HYK 1 wk following explain the lack of resolution. Continued work in un-
+treatment, which demonstrated approximately 60% derstanding this non-resolved population is needed to
+resolution (McArt et al., 2011; Gordon et al., 2013). determine whether additional treatment is warranted
+We theorize that resolution may not have been greater or whether this is a subpopulation of cows that may be
+at 2 wk following initial HYK diagnosis in part because efficient at mobilizing and using BHB to support higher
+of the range of BHB concentrations observed: some milk production (Duffield et al., 2009).
+cows experienced BHB concentrations upwards of 6.5 We cannot ignore the potential that our findings could
+mmol/L. Cows with high concentrations need time for be a result of a type II error. Initial sample size calcula-
+levels to drop to < 1.2 mmol/L, and 2 wk may not tions included a suspected increase in HYK resolution
+have been sufficient. However, as previously mentioned, at 1 wk following initial HYK diagnosis for either of the
+<10% of cows in each treatment group fell into this dextrose-treated groups of 25% over those treated with
+Figure 3. Average daily milk yield during the first 10 wk of lactation for 364 cows administered 300 mL of oral 100% propylene glycol solu-
+tion for 3 d alone (PG3: n = 121; orange triangles) or in combination with 1 d (PG3D1: n = 125; purple circles) or 3 d (PG3D3: n = 127; light
+blue squares) of 500 mL i.v. 50% dextrose for treatment of hyperketonemia. Error bars represent 95% confidence intervals.
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 9 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2193
+PG alone. Therefore, our sample size should have been Isabella Knecht, Katherine Koebel, Kaitlyn McGar-
+sufficient to elucidate a large difference in HYK resolu- vey, Julia Brigandi, Rachel Murphy, Gabrielle Merry,
+tion between treatment groups if one truly existed, but Tawny Chandler, and Claira Seely (Ithaca, NY) for
+it may not have been great enough to reveal a small their assistance with sample collection and treatment
+difference. Nonetheless, it can be argued that small dif- administration. Student funding for Isabella Knecht
+ferences are biologically inconsequential, because the and Katherine Koebel was provided by an institutional
+added labor and cost of i.v. dextrose administration National Institution of Health training grant T3 5OD
+might outweigh the minimal benefit. Furthermore, the 010941. We also thank the owners of the collaborating
+fact that the lack of a treatment effect was consistent dairies for allowing us access to their cows and facilities
+across all BHB concentrations at diagnosis and across on which to conduct this research, and the herd vet-
+all 4 herds (i.e., we found no treatment interaction ef- erinarians for collaboration on this study. The authors
+fect for any of our models), suggests that this lack of ef- state no conflict of interest.
+fect may be real, at least in the case of HYK resolution.
+Unfortunately, our study was likely underpowered to
+draw a definitive conclusion regarding a difference in REFERENCES
+adverse events or milk production between treatment
+Baird, G. D. 1982. Primary ketosis in the high-producing dairy cow:
+groups. One limitation of our study was the relatively
+Clinical and subclinical disorders, treatment, prevention, and
+low incidence of adverse events compared with other outlook. J. Dairy Sci. 65:1–10. https: / / doi .org/ 10 .3168/ jds .S0022
+published data (McArt et al., 2012a; Ribeiro et al., -0302(82)82146 -2.
+Bauman, D. E., and W. B. Currie. 1980. Partitioning of nutrients dur-
+2013). However, incidence of adverse events did vary
+ing pregnancy and lactation: A review of mechanisms involving
+among herds included in this study (5.5 to 17.0%). As- homeostasis and homeorhesis. J. Dairy Sci. 63:1514–1529. https: / /
+suming an adverse event incidence for hyperketonemic doi .org/ 10 .3168/ jds .S0022 -0302(80)83111 -0.
+Chow, S.-C., J. Shao, H. Wang, and Y. Lokhnygina. 2017. Sample
+cows of 15%, at our initial sample size and power, we
+Size Calculations in Clinical Research. 3rd ed. Chapman and Hall/
+would be able to identify a difference only between CRC, London, UK.
+groups of ≥10% points. Likewise, assuming a mean Cote, J. F. 1971. Bovine ketosis: Principles of therapy. Can. Vet. J.
+12:19–20.
+milk production of 40 kg/d (SD = 6 kg/d), differences
+Duffield, T. 2000. Subclinical ketosis in lactating dairy cattle. Vet.
+in milk production would have to be ≥2 kg/d to be Clin. North Am. Food Anim. Pract. 16:231–253. https: / / doi .org/
+detected. 10 .1016/ s0749 -0720(15)30103 -1.
+Duffield, T. F., K. D. Lissemore, B. W. McBride, and K. E. Leslie.
+2009. Impact of hyperketonemia in early lactation dairy cows on
+CONCLUSIONS health and production. J. Dairy Sci. 92:571–580. https: / / doi .org/
+10 .3168/ jds .2008 -1507.
+Duffield, T. F., D. Sandals, K. E. Leslie, K. Lissemore, B. W. McBride,
+Hyperketonemia continues to be a significant disease,
+J. H. Lumsden, P. Dick, and R. Bagg. 1998. Efficacy of monensin
+both in prevalence and cost. Providing dairies with val- for the prevention of subclinical ketosis in lactating dairy cows.
+id, labor efficient, and cost-effective strategies for treat- J. Dairy Sci. 81:2866–2873. https: / / doi .org/ 10 .3168/ jds .S0022
+-0302(98)75846 -1.
+ing this disease is important. Our study demonstrates
+Gordon, J. L., T. F. Duffield, T. H. Herdt, D. F. Kelton, L. Neuder,
+that the addition of i.v. dextrose as an adjunct therapy and S. J. LeBlanc. 2017a. Effects of a combination butaphosphan
+to oral PG provided no improvement in resolution of and cyanocobalamin product and insulin on ketosis resolution and
+milk production. J. Dairy Sci. 100:2954–2966. https: / / doi .org/ 10
+HYK, no reduction in adverse events, and no increase
+.3168/ jds .2016 -11925.
+in average daily milk yield over treatment with PG Gordon, J. L., S. J. LeBlanc, and T. F. Duffield. 2013. Evaluation of
+alone. Administering dextrose i.v. is labor intensive and accuracy of an electronic beta-hydroxybutyrate meter using fresh
+and stored whole blood and serum from dairy cows. J. Dairy Sci.
+has the potential side effect of jugular thrombophlebitis
+96:55–56.
+from extravascular administration. Because our study Gordon, J. L., S. J. LeBlanc, D. F. Kelton, T. H. Herdt, L. Neuder,
+demonstrates no advantage of the addition of dextrose and T. F. Duffield. 2017b. Randomized clinical field trial on the ef-
+fects of butaphosphan-cyanocobalamin and propylene glycol on ke-
+to PG therapy for the treatment of HYK, discontinuing
+tosis resolution and milk production. J. Dairy Sci. 100:3912–3921.
+its use as an adjunct therapy to oral PG might allow for https: / / doi .org/ 10 .3168/ jds .2016 -11926.
+investigation of a less invasive treatment option with no Herdt, T.H. 2000. Ruminant adaptation to negative energy balance.
+Influences on the etiology of ketosis and fatty liver. Vet. Clin.
+negative effect on treatment success.
+North Am. Food Anim. Pract. 16:215–230. https: / / doi .org/ 10
+.1016/ S0749 -0720(15)30102 -X.
+Jeong, J. K., I. S. Choi, S. H. Moon, S. C. Lee, H. G. Kang, Y. H.
+ACKNOWLEDGMENTS
+Jung, S. B. Park, and I. H. Kim. 2018. Effect of two treatment
+protocols for ketosis on the resolution, postpartum health, milk
+Our study funding was provided by research spon- yield, and reproductive outcomes of dairy cows. Theriogenology
+sorship from the Cornell Ambulatory and Production 106:53–59. https: / / doi .org/ 10 .1016/ j .theriogenology .2017 .09 .030.
+Mann, S., F. A. Leal Yepes, E. Behling-Kelly, and J. A. A. McArt.
+Medicine Clinic. The authors thank Nova Biomedical
+2017. The effect of different treatments for early-lactation hyper-
+(Waltham, MA) for providing BHB meters and strips, ketonemia on blood β-hydroxybutyrate, plasma nonesterified fatty
+Journal of Dairy Science Vol. 104 No. 2, 2021
+
+--- Page 10 ---
+Capel et al.: KETOSIS TREATMENT WITH PROPYLENE GLYCOL AND DEXTROSE 2194
+acids, glucose, insulin, and glucagon in dairy cattle. J. Dairy Sci. cows supplemented with concentrates. J. Dairy Sci. 96:5682–5697.
+100:6470–6482. https: / / doi .org/ 10 .3168/ jds .2016 -12532. https: / / doi .org/ 10 .3168/ jds .2012 -6335.
+McArt, J. A. A., D. V. Nydam, and G. R. Oetzel. 2012a. Epidemiology Tatone, E. H., T. F. Duffield, M. B. Capel, T. J. DeVries, S. J. LeB-
+of subclinical ketosis in early lactation dairy cattle. J. Dairy Sci. lanc, and J. L. Gordon. 2016. A randomized controlled trial of
+95:5056–5066. https: / / doi .org/ 10 .3168/ jds .2012 -5443. dexamethasone as an adjunctive therapy to propylene glycol for
+McArt, J. A. A., D. V. Nydam, and G. R. Oetzel. 2012b. A field trial treatment of hyperketonemia in postpartum dairy cattle. J. Dairy
+on the effect of propylene glycol on displaced abomasum, removal Sci. 99:8991–9000. https: / / doi .org/ 10 .3168/ jds .2016 -11358.
+from herd, and reproduction in fresh cows diagnosed with subclini- Urbaniak, G. C., and S. Plous. 2013. Research Randomizer (Version
+cal ketosis. J. Dairy Sci. 95:2505–2512. https: / / doi .org/ 10 .3168/ 4.0) Computer Software. Accessed May 23, 2019. http: / / www
+jds .2011 -4908. .randomizer .org.
+McArt, J. A. A., D. V. Nydam, P. A. Ospina, and G. R. Oetzel. 2011. Weerathilake, W. A. D. V., A. H. Brassington, S. J. Williams, W. Y.
+A field trial on the effect of propylene glycol on milk yield and Kwong, L. A. Sinclair, and K. D. Sinclair. 2019. Added dietary
+resolution of ketosis in fresh cows diagnosed with subclinical keto- cobalt or vitamin B12, or injecting vitamin B12 does not improve
+sis. J. Dairy Sci. 94:6011–6020. https: / / doi .org/ 10 .3168/ jds .2011 performance or indicators of ketosis in pre- and post-partum Hol-
+-4463. stein-Friesian dairy cows. Animal 13:750–759. https: / / doi .org/ 10
+McArt, J. A. A. A., D. V. V. Nydam, and M. W. W. Overton. 2015. .1017/ S175173111800232X.
+Hyperketonemia in early lactation dairy cattle: A deterministic es- Winer, B. J. 1971. Statistical Principles in Experimental Design. 2d
+timate of component and total cost per case. J. Dairy Sci. 98:2043– Ed. McGraw-Hill, New York, NY.
+2054. https: / / doi .org/ 10 .3168/ jds .2014 -8740.
+Ospina, P. A., D. V. Nydam, and T. J. DiCiccio. 2012. Technical
+note: The risk ratio, an alternative to the odds ratio for estimating ORCIDS
+the association between multiple risk factors and a dichotomous
+outcome. J. Dairy Sci. 95:2576–2584. https: / / doi .org/ 10 .3168/ jds M. B. Capel https: / / orcid .org/ 0000 -0003 -2188 -5680
+.2011 -4515. K. D. Bach https: / / orcid .org/ 0000 -0003 -2770 -2574
+Ribeiro, E. S., F. S. Lima, L. F. Greco, R. S. Bisinotto, A. P. A. Mon- S. Mann https: / / orcid .org/ 0000 -0003 -1806 -1154
+teiro, M. Favoreto, H. Ayres, R. S. Marsola, N. Martinez, W. W.
+J. A. A. McArt https: / / orcid .org/ 0000 -0001 -5654 -9172
+Thatcher, and J. E. P. Santos. 2013. Prevalence of periparturient
+diseases and effects on fertility of seasonally calving grazing dairy
+Journal of Dairy Science Vol. 104 No. 2, 2021

@@ -1,0 +1,732 @@
+--- Page 1 ---
+J. Dairy Sci. 95 :2397–2408
+http://dx.doi.org/ 1 0.3168/jds.2011-4535
+© American Dairy Science Association®, 2012 .
+Supplemental feeding with glycerol or propylene glycol of dairy cows
+in early lactation—Effects on metabolic status,
+body condition, and milk yield
+H. Lomander ,*1 J. Frössling, * K. L. Ingvartsen ,† H. Gustafsson ,‡ and C. Svensson §
+* Department of Animal Environment and Health, Swedish University of Agricultural Sciences, PO Box 234, SE-532 23 Skara, Sweden
+† Department of Animal Science, Aarhus University, PO Box 50, DK-8830 Tjele, Denmark
+‡ Swedish Dairy Association and Department of Clinical Sciences, Swedish University of Agricultural Sciences, PO Box 7054,
+SE-750 07 Uppsala, Sweden
+§ Växa Sverige, Regional Dairy Association, PO Box 814, SE-391 28 Kalmar, Sweden
+ABSTRACT seen between the groups. In conclusion, supplementa-
+tion with GLY in early lactation did increase milk yield
+The objective of this field study was to evaluate the
+without a subsequent decrease of metabolic status, and
+effect of supplemental feeding with glycerol or propyl-
+supplementation with PG tended to do the same.
+ene glycol to dairy cows in early lactation on meta-
+Key words: negative energy balance , randomized
+bolic status, body condition and milk yield. In total,
+field study , ketosis , variance decomposition
+673 newly calved cows from 12 commercial Swedish
+dairy herds were randomized to daily supplementation
+with 450 g of glycerol (GLY), 300 g of propylene glycol INTRODUCTION
+(PG), or nothing (control, CON). Supplements were
+fed twice daily from 0 to 21 d in milk (DIM) as a top During the transition period, the dairy cow experi-
+dress on concentrates. For each cow, data on parity, ences a dramatically increased demand for nutrients for
+breed, calving date, monthly test-day milk yield, and the growing fetus and the initiation of lactation. To in-
+cases of diseases were collected. Blood samples were crease and maintain lactation, homeorhetic regulation
+taken at approximately 2, 5, and 8 wk postpartum (pp) supports adaptation and changes nutrient partitioning.
+and analyzed for glucose, β-hydroxybutyrate (BHBA), The changed nutrient partitioning involves decreased li-
+nonesterified fatty acids (NEFA), and insulin. Samples pogenesis and increased lipolysis, and results in a state
+taken within 3 wk pp were also analyzed for insulin-like of negative energy balance (NEB) and a depressed DMI
+growth factor 1 (IGF-1). Measurements of body condi- in spite of the increased nutrient needs (Ingvartsen and
+tion score (BCS) and heart girth (HG) were obtained Andersen, 2000). The shift in the rate of lipogenesis
+at approximately 2 and 5 wk pp and at time of first and lipolysis causes increased concentration of NEFA in
+insemination. The effects of supplemental feeding with the blood. The NEFA could be completely oxidized to
+GLY or PG on the plasma concentrations of glucose, carbon dioxide, partly oxidized to ketone bodies (e.g.,
+NEFA, BHBA, insulin, and IGF-1, and BCS, HG, and BHBA) or be stored in the liver as triglycerides. In turn,
+occurrence of disease were analyzed. No differences in ketone bodies may be used by muscles as an alternative
+BCS or HG or in plasma concentrations of glucose, source of energy to spare glucose for milk production.
+BHBA, NEFA, or IGF-1 were found between the con- When the plasma concentration of NEFA is high, the
+trol group and any of the treatment groups. Cows in oxidative capacity of the liver may be exceeded, which
+the GLY group had lower plasma insulin concentrations leads to an increase of BHBA in plasma (Drackley et
+during DIM 0 to 63 compared with group CON, but no al., 2005; Ingvartsen, 2006).
+difference in insulin was found between the PG group Although mobilization of body fat tissue is a physi-
+and the CON group. Cows supplemented with GLY ological adaptation in the high-yielding dairy cow in
+had a higher milk yield (kg of milk and kg of energy- NEB, this can have a negative effect on health and
+corrected milk) during the first 90 DIM. Cows in the productivity. In early lactation, cows with metabolic
+PG group tended to yield more milk during the same profiles indicating a severe NEB; for example, high con-
+period. No differences in the occurrence of diseases were centrations of NEFA, have an increased risk of diseases
+such as clinical ketosis, displaced abomasum, metritis,
+or retained placenta (Ingvartsen, 2006; Ospina et al.,
+2010a). Increased concentrations of BHBA and NEFA
+in cows after calving are also associated with decreased
+2397
+Received May 16, 2011.
+Accepted December 29, 2011.
+1 Corresponding author: Hanna.Lomander@slu.se
+
+--- Page 2 ---
+2398 LOMANDER ET AL.
+milk production (Ospina et al., 2010b) and increased feeding with PG or GLY during the first 21 DIM affects
+risk of mastitis (Suriyasathaporn et al., 2000). A severe the metabolic status, BCS, heart girth (HG) measure-
+NEB could also decrease the fertility of the cow (Frig- ment, or milk yield in Swedish dairy cows.
+gens, 2003; Ingvartsen 2006; Ospina et al., 2010b).
+Glycerol (GLY) and propylene glycol (PG) have long
+MATERIALSANDMETHODS
+been used as treatment or prophylaxis against ketosis
+(Johnson, 1954; Fisher et al., 1973). After ingestion,
+Herdsand Animals
+GLY is mainly fermented to VFA by rumen microbes
+(Rémond et al., 1993), absorbed and entered in the The study was performed in 12 commercial dairy
+glucogenic pathway. However, VFA pattern results herds in southwest Sweden from October 1, 2007, until
+are inconsistent between studies (Donkin and Doane, February 28, 2009. Conventional herds located in the
+2007). Propylene glycol provides substrates for gluco- vicinity of the Swedish University of Agricultural Sci-
+neogenesis and induces insulin resistance in peripheral ences in Skara that were affiliated with the Swedish
+tissues to spare glucose for the udder (Kristensen and official milk recording scheme (SOMRS) and had tie-
+Raun, 2007). Experimental studies have shown that an stalls and more than 45 calving cows per year (n = 138)
+oral drench of GLY or PG can be effective in increasing were asked to participate in the study. Twelve farmers
+glucose and decreasing NEFA and BHBA (Goff and volunteered to participate. These 12 herds had, on av-
+Horst, 2001; Linke et al., 2004; Nielsen and Ingvartsen, erage, 60 cows (range 45−105), were milked twice daily,
+2004; Osman et al., 2008; Rizos et al., 2008). However, and produced between 9,100 and 11,500 kg of ECM
+drenching all newly calved cows on a routine basis is per cow and year (365 d). An individual diet of grass
+labor intensive and could be questionable from an ani- silage and concentrate, according to the monthly milk
+mal welfare perspective. The effects of GLY and PG production and BCS of the cow (National Research
+when they are fed mixed or top dressed in concentrates Council, 2001), was fed in all herds. On 5 farms, grass
+or a TMR have been investigated, but most of these hay (1 kg per cow and day) was fed as a complement.
+studies were carried out on experimental stations and During summer, the cows in all herds were on pasture
+on a limited number of animals. Previous studies on the (cultivated pasture or semi-natural grassland) for at
+effect of GLY on milk yield are contradictory and, to least 6 h/d for 3 mo. The breeds represented in this
+our knowledge, no studies have found a significant posi- study were Swedish Holstein (SH), Swedish Red cattle
+tive effect of PG on milk yield. Nevertheless, products (SR), and cross breed or other breed (other). The dis-
+based on these substances are often claimed to increase tribution of breeds among herds differed and no herd
+milk production. had only one breed. Detailed information on number of
+The aim of the present study was to investigate, animals in each treatment group, farm, breed, parity,
+under practical farm conditions, whether supplemental and calving season is presented in Table 1.
+Table 1. Number of cows per treatment group, breed, parity, calving season, and herd, respectively, fed supplements with glycerol (GLY),
+propylene glycol (PG), or nothing (controls, CON) in early lactation in a Swedish field study (2007–2009)
+Treatment Breed1 Parity Calving season2
+Farm GLY PG CON SR SH Other 1 2 ≥3 Summer Winter
+A 14 16 16 42 3 1 18 11 17 21 25
+B 18 15 16 19 29 1 16 12 21 25 26
+C 17 16 17 7 40 3 14 14 22 27 23
+D 26 25 25 11 26 39 35 20 21 8 68
+E 20 19 20 10 40 9 26 12 21 20 39
+F 21 21 20 35 17 10 15 30 17 31 31
+G 21 20 22 58 17 10 21 16 26 27 36
+H 23 24 25 69 0 1 28 13 29 37 33
+I 15 15 17 41 6 0 18 12 17 19 28
+J 14 14 14 41 1 0 16 15 11 27 15
+K 20 22 21 19 34 10 24 18 21 30 33
+L 15 15 16 44 1 1 12 17 17 25 21
+Total no. of cows 224 222 227 336 214 85 243 190 240 297 388
+1SR = Swedish Red; SH = Swedish Holstein; Other = crossbreed or other breed.
+2Summer = cows calving between April 1 and September 30; winter = cows calving between October 1 and March 31.
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 3 ---
+GLYCEROLAND PROPYLENEGLYCOL TO DAIRY COWS 2399
+Study Design and Collection of Data system (Olsson et al., 2001). Information about breed,
+parity, and monthly milk yield (kg) and milk composi-
+At calving, the individual cows (n = 673) within tion (kg of fat and protein) were collected from SOMRS.
+each herd were randomized to 1 of 3 treatment groups: Milk data from the monthly test-days within 90 DIM
+refined glycerol (purity 99.5%, GLY), propylene glycol were used, except for the first 5 DIM. Yield of ECM
+(PG), or control (CON; Table 1). For the first 21 DIM, (kg) was calculated using the formula 0.25 × kg of milk
+cows in the GLY group received 450 g of liquid GLY + 12.2 × kg of fat + 7.7 × kg of protein (Swedish Dairy
+daily, whereas those in the PG group received 300 g of Association, 2004).
+liquid PG daily. The supplements were poured on top Sixteen cows were lost to follow up because the farm-
+of the concentrate twice daily. The CON group received er decided to stop the supplemental feeding of these
+no supplement. The cows were not grouped in the barns animals before 21 DIM, due to severe illness (n = 6),
+according to supplemental group. Before distribution to death (n = 4), severely decreased appetite (n = 4), or
+the farms, the GLY and PG were diluted with water to unknown reason (n = 2). Of these cows, 9 were from
+make doses correspond to equal volumes. The supple- the GLY group and 7 from the PG group. One herd left
+ments, which were colorless, odorless, and viscous, were the study halfway through the study period because of
+delivered to the farms in color-coded bottles to blind personnel reasons (herd D; see Table 1). Cows from this
+the farmers to treatment. The intended doses of GLY herd were included in the statistical analyses if they
+and PG used in this study were calculated based on had completed 21 d of supplemental feeding.
+amount of carbon equivalents, where 300 g of PG cor- The use of animals as research objects in this study
+responded to 450 g of crude GLY. However, due to a was approved by the regional animal ethics committee,
+mistake discovered after the study was conducted, a Gothenburg, Sweden.
+dose of 450 g of refined GLY was used instead of crude
+GLY, and thus the doses were not equivalent.
+Laboratory Investigations
+During the study period, the farms were visited every
+third week at approximately the same time of day for Plasma samples showing evident hemolysis (n =
+collection of blood samples. The focus of the sampling 33) were excluded from the study. Remaining samples
+protocol chosen was to detect any long-term effects, (1,779 in total) were analyzed for glucose, NEFA,
+rather than immediate effects, on the metabolic status BHBA, and insulin. Samples taken from 0 to 23 DIM (n
+following supplemental feeding. From each cow, 3 blood = 547) were also analyzed for IGF-1. All analyses were
+samples were taken at 3-wk intervals within 5 to 63 performed at the laboratory of Department of Animal
+DIM [i.e., 1 to 3, 4 to 6, and 7 to 9 wk postpartum (pp)] Health and Bioscience, Aarhus University (Foulum,
+via puncture of the coccygeal vein or artery, using a Denmark).
+vacuum tube coated with Na-heparin (BD Vacutainer, The analyses of blood metabolites (i.e., glucose,
+Plymouth, UK). Tubes were immediately placed on ice NEFA, and BHBA) were performed by using an auto
+and centrifuged at 2,000 × g for 20 min within 1 h after analyzer (ADVIA 1650 Chemistry System, Siemens
+sampling. The plasma was transferred to plastic tubes Medical Solutions, Tarrytown, NY). Intraassay preci-
+and kept on ice during transport from the farm. It was sion was <2% (CV) and interassay precision was <3%
+then stored at −18°C until analysis. Furthermore, the (CV) for all 3 parameters. Glucose was determined
+BCS of cows in the treatment groups was assessed ac- according to a standard enzymatic and colorimetric
+cording to Edmonson and coworkers (1989) and HG method (Siemens Diagnostics Clinical Methods for
+was measured. For each individual cow, BCS and HG ADVIA 1650). Concentration of NEFA was determined
+were measured on 3 occasions; at first visit after calving using the Wako NEFA C ACS-ACOD (Wako Chemi-
+(1 to 3 wk pp), at 4 to 6 wk pp, and at the time of first cals GmbH, Neuss, Germany) assay method, and that
+insemination (if <63 DIM). Body condition scoring of BHBA was determined as an increase in absorbance
+was made by the same veterinarian (the corresponding at 340 nm due to the production of NADH at slightly
+author) throughout the study, except for 3 wk during alkaline pH in the presence of β-hydroxybutyrate de-
+summer 2008 when farm visits were carried out by hydrogenase. The method involved oxamic acid in the
+another veterinarian. The veterinarians were trained medium to inhibit lactate dehydrogenase, as proposed
+together to obtain similar scoring. by Harano et al. (1985).
+Records of each cow’s treatment group, calving date, Insulin and IGF-1 were determined using noncom-
+and cases of diseases not treated by a veterinarian were petitive time-resolved immunofluorometric assays as
+kept by the farmers using standardized protocols. Cases described by Løvendahl and Purup (2002). The time-
+of diseases treated and reported by a veterinarian were resolved fluorescence from europium was read follow-
+obtained from the Swedish national disease recording ing chelation with an enhanced solution (Wallac Oy,
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 4 ---
+2400 LOMANDER ET AL.
+Turku, Finland). For insulin, intra- and interassay CV Table 2. The number of observations and cows included in 9 statistical
+were <4.9% and <5.1%, respectively (n = 14 assays, models of the effect of glycerol or propylene glycol supplements in
+early lactation in 673 dairy cows in 12 Swedish herds (2007–2009)
+n = 3 controls; 12.0, 51.7, and 220 pmol/L). For IGF-
+1, intra- and interassay CV were <9.0% and <5.1%, Outcome Observations Cows
+respectively (n = 9 assays, n = 2 controls; 110 and 295 Glucose1 1,726 672
+ng/mL). BHBA1 1,726 672
+NEFA1 1,725 672
+Insulin1 1,724 672
+Statistical Analyses Insulin-like growth factor 11 547 547
+BCS 1,329 667
+Statistical modeling was performed using Stata (re- Heart girth 1,359 666
+Milk yield 1,820 673
+lease 11, StataCorp LP, College Station, TX). Effects
+Milk yield ECM 1,820 673
+of supplemental feeding with GLY or PG on plasma
+1Plasma concentrations.
+concentrations of glucose, NEFA, BHBA, and insulin
+and on BCS, HG, and milk yield (measured as kg of liq-
+uid milk or kg of ECM) were investigated using random regression. The initial full model was defined by the
+intercept regression models for repeated measurements equation
+data (Rabe-Hesketh and Skrondal, 2005). Comparisons
+were made using group CON as baseline, which means Y = β + μ + β GROUP1 + β GROUP2
+ik 0 k G1 ik G2 ik
+that comparisons were made between GLY and CON or
++ β PAR1 + β PAR2 + β BREED1
+between PG and CON, respectively. Categorical vari- P1 ik P2 ik B1 ik
+ables included in the initial full models as fixed effects + β BREED2 + β SEASON1 + e ,
+B2 ik S1 ik ik
+were treatment group (GLY, PG, CON), breed (SR,
+SH, or cross breed/other), parity (1, 2, or ≥3), and where Y = the response in cow i (i = 1,…,N ) in
+ik k
+calving season (April through September or October herd k (k = 1,…, K); β terms = the intercept (β ) and
+0
+through March). Day of sampling in relation to calving regression coefficients expressing included fixed effects;
+was included as the continuous variable DIM. Farm was GROUP , PAR , BREED , and SEASON = indicator
+ik ik ik ik
+included as a random effect in all models. Cow was variables as described above; μ = the random intercept
+k
+included as a random effect in all models except in of farm k; and e = the idiosyncratic error term.
+ik
+the IGF-1 model, because IGF-1 was measured only The number of observations and number of cows
+once per cow. The role of milk yield as an explanatory included in each model are shown in Table 2. Plasma
+variable was investigated, but was finally left out from concentrations of NEFA, BHBA, insulin, and IGF-1
+the full model. The initial full models were defined by were transformed using the natural logarithm to better
+the equation reach a normal distribution.
+All models were built using backward stepwise elimi-
+Y = β + β DIM + β GROUP1 + β GROUP2 nation. Covariates with a Wald value ≥0.1 were exclud-
+ijk 0 D ijk G1 ik G2 ik
+ed from the preliminary models. However, treatment
++ β PAR1 + β PAR2 + β BREED1
+P1 ik P2 ik B1 ik group was kept in all models. When the reduced models
++ β BREED2 + β SEASON1 + μ + μ + e , were found for glucose, NEFA, insulin, BCS, HG, and
+B2 ik S1 ik k ik ijk
+milk yield, the relationship between all outcomes and
+where Y = the response of cow i (i = 1,…, N ) at oc- the continuous predictors, adjusted for other significant
+ijk k
+casion j (j = 1,…, T) in herd k (k = 1,…, K); β terms covariates, were investigated using a test for first-degree
+= the intercept (β ) and regression coefficients express- fractional polynomials. Based on the test for best fit
+0
+ing included fixed effects; DIM = time of sampling and on visual inspection of plots, a polynomial of DIM
+ijk
+after calving; GROUP = an indicator for treatment was used in milk yield models. Interactions between
+ik
+group; PAR = an indicator for parity; BREED = an group and DIM, breed, parity, and calving season were
+ik ik
+indicator for breed; SEASON = an indicator for calv- investigated. However, no interactions were included in
+ik
+ing season; μ = the random intercept for herd k; μ the final models due to highly nonsignificant results or
+k ik
+= the random intercept for cow i in herd k; and e = lack of biological relevance.
+ijk
+the idiosyncratic error term. The superscripts indicate The fit of the models was assessed by visual inspec-
+that a dummy variable was formed from an indicator tion of plots of the standardized residuals against the
+variable. predicted value at cow level and of normal probabil-
+Effect of GLY or PG supplementation on plasma ity plots in which residuals at cow level were plotted
+concentration of IGF-1 was analyzed using mixed linear against the quartiles. Outliers were detected by visual
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 5 ---
+GLYCEROLAND PROPYLENEGLYCOL TO DAIRY COWS 2401
+inspection of plots of leverage, obtained from regression cm during wk 7 to 9 pp. Body condition score (P =
+models against normalized squared residuals. The fit 0.78) and HG (P = 0.87) did not differ between the
+of the final models were considered satisfactory. Values cows in group CON and either of the treatment groups.
+of metabolites and insulin were predicted based on the Milk yield, measured as the mean milk yield in ki-
+final models and plotted against DIM to obtain graphs lograms at monthly test-days during the first 90 DIM,
+of differences between treatment groups. was 37.2 ± 0.32 in GLY, 36.7 ± 0.34 in PG, and 32.6
+The sources of variation in the final models regarding ± 0.36 in CON. As indicated in Figure 2A, milk yield
+metabolites, insulin, IGF-1, BCS, HG, and milk yield increased in all treatment groups during the first 40
+were evaluated. The proportions of variance explained DIM, followed by a plateau phase at the end of the
+by the random effects in the final models, correspond- study period (P < 0.0001). For this outcome, treatment
+ing to the hierarchical structure of the data (i.e., farm, group was significant (P = 0.03) and cows in the GLY
+cow, and residual) were calculated by comparing the group produced 1.24 kg (95% CI = 0.28–2.20) more
+final models with a model containing only a constant. milk per day compared with cows in CON. A tendency
+Diseases were defined in 4 categories: ketosis (keto- (P = 0.06) was observed for cows in the PG group
+sis, feed depression or displacement of the abomasum), to have a higher daily milk yield compared with CON
+mastitis (acute mastitis or fever caused by other infec- cows (0.94 kg, 95% CI = −0.03–1.91)
+tion), paresis (puerperal paresis or hypomagnesemia), Yield of ECM followed the same pattern as milk yield
+or other disease. Differences in occurrence of the dis- and tended to differ between the groups (P = 0.10,
+ease categories during 0 to 90 DIM, as reported by Figure 2B). Cows in the GLY group produced 0.95 kg
+the farmer or a veterinarian, were tested by comparing more ECM (95% CI = 0.03–1.86, P = 0.04) per day
+the number of cases and noncases (excluding cases of during the first 90 DIM compared with cows in CON.
+recurrence) in the CON group with the correspond- No differences were seen between the PG group and the
+ing numbers in the GLY or PG group, respectively CON group (P = 0.11). Estimated effects from random
+(Fisher’s exact test). Tests were carried out separately coefficient models of milk yield are shown in Table 5.
+for the different categories of diseases. Cows that were The proportions of variance at each level of hierarchy
+excluded from the period of supplemental feeding were in the models of the different outcomes are presented in
+not included in these analyses. Table 6. Overall, the variation in all models was lowest
+at the level of herd and highest at the levels of cow and
+residual. For hormones and metabolites, between 47
+RESULTS
+and 59% of the variation was unexplained error. Of the
+We observed a marked increase in plasma concentra- remaining random variation, explained variation at the
+tion of glucose (P < 0.0001) in all treatment groups cow level was in general more than twice the variation
+during the first 9 wk in lactation (Figure 1A), whereas explained at the herd level.
+NEFA decreased (P < 0.0001) in all 3 groups during Definitions of disease diagnoses and descriptive sta-
+the same period (Figure 1B). No differences were found tistics of disease occurrence from 0 to 90 DIM in the
+between CON and either of the treatment groups in cows that fulfilled the period of supplemental feeding
+glucose (P = 0.47) or NEFA (P = 0.47). Within cow, is presented in Table 7. No observations were further
+BHBA did not change over time (P = 0.48, Figure 1C) excluded from the statistical modeling due to disease.
+and no differences (P = 0.33) were seen between any Of all cows in the GLY, PG, and CON groups, 50,
+of the treatment groups and the control group. How- 48, and 53 cows, respectively, were diagnosed with one
+ever, insulin, which in general increased over time (P < or more of the defined diseases on one or more occa-
+0.0001, Figure 1C), had lower values in the GLY group sions between 0 and 90 DIM. However, no significant
+(compared with CON, P = 0.01), whereas cows in the differences were found between control cows and cows
+PG group did not differ (P = 0.13) compared with treated with GLY (0.58 < P < 1) or PG (0.21 < P <
+CON (Figure 1D). Finally, no differences were seen in 0.59) for any of the diagnoses.
+IGF-1 between the GLY or PG group and the CON
+group (P = 0.32). Estimated effects from models of glu-
+DISCUSSION
+cose, NEFA, BHBA, insulin, and IGF-1 are compiled in
+Tables 3 and 4. In this field study with 673 dairy cows from 12 com-
+Body condition score across treatment groups and mercial herds, cows supplemented with GLY in early
+adjusted for other covariates were 2.9 ± 0.04 during lactation had increased milk yield (both kg of milk and
+the first 3 wk pp and 2.5 ± 0.04 during wk 7 to 9 pp. kg of ECM) during the first 3 mo of lactation, com-
+Corresponding measurements of HG across groups were pared with cows in the control group. Previous studies
+198 ± 0.41 cm during the first 3 wk pp and 194 ± 0.45 of supplementation with GLY in early lactation have
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 6 ---
+2402 LOMANDER ET AL.
+found unaffected milk yield (Wang et al., 2009) or a
+tendency toward lower milk yield (DeFrain et al., 2004)
+compared with unsupplemented controls. On the other
+hand, Bodarski and coworkers (2005) reported that
+cows supplemented with GLY in a TMR had a higher
+daily milk yield during the first 10 wk of lactation com-
+pared with controls. Several studies report increased
+glucose levels during treatment with glycerol (DeFrain
+et al., 2004; Osman et al., 2008; Wang et al., 2009).
+Because of the homeostatic regulation of glucose, its
+value as an indicator of metabolic status is question-
+able, whereas NEFA and BHBA are considered more
+reliable as indicators (Ingvartsen et al., 2003; LeBlanc,
+2010). In present study, the increased milk yield with-
+out a subsequent increase in NEFA and BHBA might
+indicate that the metabolic status of cows was improved
+due to supplementation with GLY.
+Cows supplemented with PG in early lactation
+tended to have a higher yield of milk compared with
+control cows. This difference in milk yield was not
+found in analyses of ECM, which might indicate that
+PG induced a deprivation of milk protein or fat, as
+previously reported by Liu et al. (2009). Our result is in
+accordance with other studies, where milk yield in cows
+supplemented with PG in early lactation was unchanged
+or showed a tendency toward an increase (Hoedemaker
+et al., 2004; Juchem et al., 2004; Chung et al., 2009a).
+In addition, we did not find any improvements in the
+metabolic status of cows supplemented with PG. As
+reviewed by Nielsen and Ingvartsen (2004), supplemen-
+tation with PG generally increases glucose and insulin
+and decreases BHBA and NEFA. However, Chibisa and
+coworkers (2008) found that when PG was fed in a
+higher dose and for a longer period (600 mL daily for 7
+d prepartum until 45 DIM) than in the present study,
+NEFA, BHBA, and insulin remained unaffected.
+When comparing different studies regarding effects of
+GLY and PG, several factors need to be considered—
+method of administration, time of sampling in relation
+to time of administration or time of calving, dose, and
+physiologic status of the animal (Nielsen and Ingvartsen,
+2004). The effect of GLY or PG seems to be dependent
+upon rapid delivery, as indicated in studies compar-
+ing either of the substances given as oral drenches or
+mixed with concentrates or in a TMR (Christensen et
+al., 1997; Linke et al., 2004; Chung et al., 2009b). The
+insulin resistance–inducing properties of PG depend on
+rapid delivery (Kristensen and Raun, 2007). It is pos-
+sible, therefore, that the cows in the present study had
+lower peak values of glucose and insulin because the
+supplements were fed instead of administer as a drench.
+Figure 1. Predicted plasma concentrations of (A) glucose, (B)
+Nevertheless, the actual purpose of this study was to
+NEFA, (C) BHBA, and (D) insulin across 672 dairy cows receiving
+supplemental feeding with glycerol (____), propylene glycol (– – –), or investigate the effects of these supplements under prac-
+control (….) from 0 to 21 DIM. tical conditions with an allocation method that does
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 7 ---
+Journal
+of
+Dairy
+Science
+Vol.
+95
+No.
+5,
+2012
+GLYCEROLAND
+PROPYLENEGLYCOL
+TO
+DAIRY
+COWS
+2403
+Table 3. Final mixed linear regression models of plasma concentrations of glucose, NEFA, and BHBA from 0 to 63 DIM in 672 dairy cows across 12 commercial Swedish herds
+supplemented with glycerol (GLY), propylene glycol (PG), or nothing (control, CON) in early lactation (2007–2009)
+Glucose (mM) Ln NEFA (μEq/L) Ln BHBA (mM)
+Variable Class Est.1 P-value 95% CI Est. P-value 95% CI Est. P-value 95% CI
+Intercept 2.90 <0.0001 2.76; 3.05 5.92 <0.0001 5.76; 6.09 −0.30 <0.0001 −0.14; 0.45
+Treatment2 GLY −0.006 0.87 −0.07; 0.06 0.05 0.22 −0.03; 0.13 0.009 0.83 −0.06; 0.08
+PG 0.03 0.37 −0.04; 0.10 0.03 0.51 −0.06; 0.11 −0.04 0.24 −0.12; 0.03
+CON Ref.3 Ref. Ref.
+Breed4 SR −0.16 0.005 −0.27; 0.05 0.08 0.22 −0.05; 0.21 0.12 0.05 0.002; 0.24
+SH 0.03 0.63 −0.08; 0.13 −0.06 0.42 −0.18; 0.08 −0.12 0.04 −0.23; −0.003
+Other Ref. Ref. Ref.
+Parity 1 0.42 <0.0001 0.35; 0.49 −0.32 <0.0001 −0.40; −0.23 −0.30 <0.0001 −0.37; −0.23
+2 0.09 0.01 0.02; 0.16 −0.31 <0.0001 −0.39; −0.22 −0.15 <0.0001 −0.22; −0.07
+≥3 Ref. Ref. Ref.
+Calving season5 Summer 0.15 <0.0001 0.09; 0.21 —6 — — −0.07 0.03 −0.13; −0.008
+Winter Ref. — — — Ref.
+DIM7 0.006 <0.0001 0.004; 0.007 −0.02 <0.0001 −0.02; −0.02
+1Est. = estimate.
+2Effect of treatment was forced into all models regardless of significance.
+3Ref. = reference.
+4SR = Swedish Red breed; SH = Swedish Holstein breed; Other = crossbreed or other breed.
+5Summer = cows calved between April 1 and September 30; winter = cows calving between October 1 and March 31.
+6— = effect was not significant (P > 0.05) and excluded from the model.
+7DIM = DIM when blood sampling occurred.
+
+--- Page 8 ---
+2404 LOMANDER ET AL.
+Table 4. Final mixed linear regression models of plasma concentrations of insulin from 0 to 63 DIM and IGF-1 from 0 to 23 DIM in 672 dairy
+cows across 12 commercial Swedish herds supplemented with glycerol (GLY), propylene glycol (PG), or nothing (control; CON) in early lactation
+(2007–2009)
+Log insulin (ng/mL) Log IGF-1 (ng/mL)
+Variable Class Est.1 P-value 95% CI Est. P-value 95% CI
+Intercept −2.09 <0.0001 −2.22; −1.95 3.74 <0.0001 3.54; 3.94
+Treatment2 GLY −0.14 0.009 −0.24; −0.03 −0.02 0.66 −0.12; 0.08
+PG −0.08 0.13 −0.18; 0.02 0.05 0.31 −0.05; 0.15
+CON Ref.3 Ref.
+Breed4 SR —5 — — 0.20 0.008 0.05; 0.34
+SH — — — 0.03 0.66 −0.11; 0.18
+Other — — — Ref.
+Parity 1 0.29 <0.0001 0.19; 0.39 0.47 <0.0001 0.37; 0.56
+2 0.14 0.008 0.04; 0.25 0.27 <0.0001 0.17; 0.37
+≥3 Ref. Ref.
+Calving season6 Summer — — — — — —
+Winter — — — — — —
+DIM7 0.02 <0.0001 0.01; 0.02 0.03 <0.0001 0.02; 0.04
+1Est. = estimate.
+2Effect of treatment was forced into all models regardless of significance.
+3Ref. = reference.
+4SR = Swedish Red breed; SH = Swedish Holstein breed; Other = crossbreed or other breed.
+5— = effect was not significant (P > 0.05) and excluded from the model.
+6Summer = cows calved between April 1 and September 30; winter = cows calving between October 1 and March 31.
+7DIM = DIM when blood sampling occurred.
+not stress the animal and that is less labor intensive for study. However, cows from all treatment groups within
+the farmer to use. one farm were sampled at the same time of day and
+In our study, the BHBA profile was surprisingly flat. therefore the bias due to differential misclassification
+It is unlikely, however, that the BHBA concentration would be reduced.
+on average did not change during the first 63 DIM. In The doses of GLY and PG in this study were not
+general, BHBA concentrations are increased during the glucogenically equivalent, although this was originally
+first 6 wk pp (Ingvartsen et al., 2003) and it is therefore intended. In fact, cows given GLY received 20% more
+reasonable to believe that the BHBA curve would have glucogenic substance than cows given PG. To deal with
+looked different if samples had been taken more often this error, comparisons of the treatment effect were not
+during the early postpartum period. However, the sam- made between GLY and PG, but between CON and
+pling protocol in the present study (i.e., 3 samples per GLY or PG, respectively.
+cow 3 wk apart) was focused on detection of long-term Ingvartsen (2006) argued that the cows at risk of
+effects and was chosen as a compromise to allow the disease are those in physiological imbalance and that
+data to be further used in a study of the effect of GLY such cows may be identified based on plasma metabo-
+or PG on fertility. lites and hormones. Interestingly, in this study, herd
+As well as time of sampling in relation to calving explained only a small proportion of the variation in
+and sampling interval, time of sampling in relation to metabolites and hormone (generally <19%) whereas
+administration of substances might affect the outcome. cows explained more than twice that explained by herd.
+In our field study, cows were given the supplements One may speculate that cows in physiological imbalance
+during the morning and evening feedings. The samples (e.g., high concentrations of NEFA and BHBA and low
+were mainly taken during late morning, although some concentrations of glucose) may respond differently to
+farms, for practical reasons, were visited during the the treatments used in this study. It was not possible
+afternoon. After drenching with PG, an increase in to analyze the data with regard to this because plasma
+insulin and glucose concentrations was seen after 90 samples were confounded by treatment.
+min (Miyoshi et al., 2001; Butler et al., 2006; Rizos In addition to metabolic parameters, disease inci-
+et al., 2008). It is likely that cows sampled at midday dence could be used to evaluate the severity of NEB. Of
+or in the afternoon had lower plasma concentrations the 673 cows that fulfilled the period of supplemental
+of glucose and insulin than cows sampled at a morn- feeding, 151 cows had any of the defined diseases at
+ing visit, which might have affected the results of this least once during the first 90 DIM. This corresponds
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 9 ---
+GLYCEROLAND PROPYLENEGLYCOL TO DAIRY COWS 2405
+and veterinary treatment data could be under-reported,
+as indicated in a recent Swedish study (Mörk et al.,
+2009). Furthermore, the health data provide important
+background information and are presented for descrip-
+tive purposes.
+Theoretically, cows provided glucogenic substances
+could use these to generate more milk, to improve their
+metabolic status, or both. In other words, it was ex-
+pected that a cow’s general level of production could
+influence the outcomes measured in this study. In the
+statistical models, it would therefore be advantageous
+to control for the amount of extra milk each cow poten-
+tially produced because of the GLY or PG treatment.
+In exploratory univariate analyses, the associations
+between milk yield and other explanatory variables, as
+well as the different outcomes, were investigated and
+found to be significant (results not shown). However,
+when multivariable regression was applied, milk yield
+was not found to be significant in any of the models
+except for the NEFA model. Because the causal re-
+lationship between milk yield and other variables in
+the analyses was unknown, we decided not to include
+milk yield as an explanatory variable in any of the final
+models.
+In general, NEB starts before calving (Ingvartsen,
+2006), indicating that it would be beneficial to start ac-
+tions that aim to improve metabolic status even before
+calving. However, because of the field conditions of this
+study, it was impossible to start the supplemental feed-
+Figure 2. Predicted yields of (A) milk and (B) ECM across 673
+ing during the prepartum period.
+dairy cows receiving supplemental feeding with glycerol (____), propyl-
+ene glycol (– – –), or control (….) from 0 to 21 DIM. This field study was randomized but not completely
+blinded. In other words, the control cows were known
+because they were not given any placebo. It is also pos-
+roughly to a disease incidence rate of 90 cases per 100 sible that some of the farmers recognized PG by its typ-
+cow-years and is in accordance with recent data from ical unpleasant taste, compared with the sweet-tasting
+177 randomly selected Swedish dairy herds, in which GLY. It can be expected that the extra attention given
+the disease incidence rate of the same maladies was ap- to the treated cows would strengthen the apparent
+proximately 70 per 100 cow-years (Mörk et al., 2009). positive effect of the supplement given. Nevertheless,
+It would have been interesting to select herds with such a difference was not demonstrated.
+a high incidence rate of production diseases in order This study did not use any positive control and
+to evaluate the effect of the supplemental feeding in the study cannot therefore rule out that a glucogenic
+herds with potential severe NEB. However, this would equivalent amount of barley or other grain would give
+have severely affected the willingness of the farmers to the same effect on milk yield as GLY and PG. However,
+participate in the study and decreased the study popu- the field design of this study made an arrangement with
+lation. Also, the aim of this study was to investigate a positive control less applicable.
+the effect of these substances in average herds under Propylene glycol is considered unpalatable and gener-
+normal conditions. ally does not stimulate feed intake (Nielsen and Ingvar-
+No differences in cases of veterinary-treated or farm- tsen, 2004), even if no effect on DMI is seen when PG
+er-recorded diseases were found in this study. However, was given as oral drench, mixed with concentrate, or
+this finding should be interpreted with caution because mixed in TMR (Christensen et al., 1997). Glycerol, on
+the study was not designed to investigate the effects of the other hand, is sweet tasting, and barley with 10%
+treatments on the occurrence of disease and the total glycerol was consumed willingly by heifers in a pref-
+number of disease cases was low. Detailed information erence study (Spörndly and Åsberg, 2006). However,
+about disease severity and duration was not available DeFrain et al. (2004) saw a decrease of DMI prepartum,
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 10 ---
+2406 LOMANDER ET AL.
+Table 5. Final mixed linear regression models of milk yield measured as kilograms of milk and ECM from 673 dairy cows across 12 commercial
+Swedish herds supplemented with glycerol (GLY), propylene glycol (PG), or nothing (control; CON) in early lactation (2007–2009)
+Milk (kg) ECM (kg)
+Variable Class Est.1 P-value 95% CI Est. P-value 95% CI
+Intercept 43.26 <0.0001 41.39; 45.12 41.43 <0.0001 39.70; 43.15
+Treatment2 GLY 1.24 0.01 0.28; 2.21 0.95 0.04 0.03; 1.86
+PG 0.94 0.06 −0.03; 1.91 0.75 0.11 −0.17; 1.67
+CON Ref.3 Ref.
+Breed4 SR −1.94 0.01 −3.48; −0.41 −1.06 0.15 −2.51; 0.39
+SH 1.06 0.17 −0.44; 2.56 0.24 0.74 −1.18; 1.66
+Other Ref. Ref.
+Parity 1 −11.29 <0.0001 −12.24; −10.35 −10.68 <0.0001 −11.58; −9.78
+2 −2.27 <0.0001 −3.28; −1.26 −2.58 <0.0001 −3.54; −1.62
+≥3 Ref. Ref.
+Calving season5 Summer −1.89 <0.0001 −2.72; −1.06 −2.41 <0.0001 −3.20; −1.62
+Winter Ref. Ref.
+DIM6 −6.537 <0.0001 −7.07; −6.00 −1.298 <0.0001 −1.61; −0.98
+1Est. = estimate.
+2Effect of treatment was forced into all models regardless of significance.
+3Ref. = reference.
+4SR = Swedish Red breed; SH = Swedish Holstein breed; Other = crossbreed or other breed.
+5Summer = cows calved between April 1 and September 30; winter = cows calving between October 1 and March 31.
+6DIM = DIM of test milking.
+7DIM−1.
+8DIM−2.
+but not postpartum, in cows fed glycerol top dressed BCS at d 50 after feeding PG daily before calving fol-
+in TMR starting 14 d before calving. In our study, it lowed by drenching 4 times every third day. Propylene
+was not possible to monitor DMI. It should be noted glycol fed as a top dress from 7 d prepartum until 45
+that, although no apparent decrease of feed intake for DIM did not affect BW or body fat mobilization (Chi-
+any treatment group was reported by the farmers, an bisa et al., 2008). Due to the high dose (600 mL/d)
+undetected decrease in DMI of PG-supplemented cows used in the latter experiment, an effect might have been
+might have contributed to the lack of beneficial effects expected.
+of PG. This field study of supplemental feeding with GLY
+Body weight of dairy cows is correlated with HG or PG to dairy cows in early lactation indicates that
+(Mäntysaari and Mäntysaari, 2008) and BCS (Roche plasma concentrations of certain hormones and me-
+et al., 2009). The present study did not show any dif- tabolites were not increased. In contrast, plasma insulin
+ferences in HG or BCS between any of the treatment concentration was decreased in cows fed GLY. Yields
+groups. Formigoni et al. (1996) reported an unaffected of milk and ECM during the first 3 mo of lactation
+increased by approximately 1 kg per cow and day in
+Table 6. Summary of proportion of variance in dependent variables
+explained at each level of the model hierarchy1
+Table 7. Cases of veterinary-treated or farmer-recorded diseases from
+Source of variation 0 to 90 d in milk in a field study in which 673 Swedish dairy cows
+across 12 herds were fed supplements with glycerol (GLY; n = 224),
+Item Farm Cow Residual propylene glycol (PG; n = 222), and control (CON; n = 227) in early
+lactation (2007–2009)
+Glucose (mM) 0.17 0.33 0.49
+Ln2 NEFA (μEq/L) 0.13 0.33 0.54 Disease GLY PG CON
+Ln BHBA (mM) 0.19 0.34 0.47
+Ln insulin (ng/mL) 0.12 0.28 0.59 Ketosis1 5 4 8
+Ln IGF-1 (ng/mL) 0.16 NA3 0.84 Mastitis2 21 15 19
+BCS 0.15 0.46 0.38 Paresis3 11 9 13
+Heart girth (cm) 0.10 0.64 0.26 Other4 13 20 13
+Milk (kg) 0.16 0.45 0.39 Total 50 48 53
+ECM (kg) 0.14 0.45 0.41 1Ketosis, feed depression, or displacement of the abomasum.
+1Results are derived from models presented in Tables 3, 4, and 5. 2Acute mastitis or fever caused by other infectious disease.
+2Natural logarithm. 3Puerperal paresis or hypomagnesemia.
+3Not applicable. 4Other disease treated by a veterinarian or reported by the farmer.
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 11 ---
+GLYCEROLAND PROPYLENEGLYCOL TO DAIRY COWS 2407
+cows supplemented with GLY. Altogether, this might Butler, S. T., S. H. Pelton, and W. R. Butler. 2006. Energy balance,
+indicate that the metabolic status of cows supplement- metabolic status, and the first postpartum ovarian follicle wave in
+cows administered propylene glycol. J. Dairy Sci. 89:2938–2951.
+ed with GLY was improved. Supplemental feeding with
+Chibisa, G. E., G. N. Gozho, A. G. V. Kessel, A. A. Olkowski, and T.
+PG may increase milk yield by approximately 1 kg/d, Mutsvangwa. 2008. Effects of peripartum propylene glycol supple-
+but without the subsequent increase in ECM. Glycerol mentation on nitrogen metabolism, body composition, and gene
+expression for the major protein degradation pathways in skeletal
+is a byproduct of biodiesel, and the cost of this sub-
+muscle in dairy cows. J. Dairy Sci. 91:3512–3527.
+stance, compared with PG, has decreased during the Christensen, J. O., R. R. Grummer, F. E. Rasmussen, and S. J. Ber-
+last decade. To give supplemental feeds seems to be less tics. 1997. Effect of method of delivery of propylene glycol on plas-
+ma metabolites of feed-restricted cattle. J. Dairy Sci. 80:563–568.
+labor consuming compared with administering GLY or
+Chung, Y. H., I. D. Girard, and G. A. Varga. 2009a. Effects of feeding
+PG as an oral drench. The benefit of feeding GLY to dry propylene glycol to early postpartum Holstein dairy cows on
+increase milk yield needs to be investigated from an production and blood parameters. Animal 3:1368–1377.
+Chung, Y. H., C. M. Martinez, N. E. Brown, T. W. Cassidy, and G.
+economic point of view. Studies investigating the effect
+A. Varga. 2009b. Ruminal and blood responses to propylene glycol
+of supplemental feeding of GLY and PG on fertility are during frequent feeding. J. Dairy Sci. 92:4555–4564.
+also needed. DeFrain, J. M., A. R. Hippen, K. F. Kalscheur, and P. W. Jardon.
+2004. Feeding glycerol to transition dairy cows: Effects on blood
+metabolites and lactation performance. J. Dairy Sci. 87:4195–
+CONCLUSIONS 4206.
+Donkin, S., and P. Doane. 2007. Glycerol as a feed ingredient for dairy
+The results of this study indicate that supplementa- cows. Pages 97–103 in Proc. Tri-state Dairy Nutrition Conference,
+Fort Wayne, IN.
+tion with GLY during the first 3 wk in lactation could
+Drackley, J. K., H. M. Dann, G. N. Douglas, N. A. J. Guretzky, N. B.
+increase milk and ECM yield during the first 90 DIM Litherland, J. P. Underwood, and J. J. Loor. 2005. Physiological
+without a subsequent decrease of metabolic status, and pathological adaptations in dairy cows that may increase sus-
+ceptibility to periparturient diseases and disorders. Ital. J. Anim.
+measured as plasma levels of metabolites and hor-
+Sci. 4:323–344.
+mones, BCS, and heart girth width. Our results further Edmonson, A. J., I. J. Lean, L. D. Weaver, T. Farver, and G. Webster.
+show that supplemental feeding with PG could increase 1989. A body condition scoring chart for Holstein dairy cows. J.
+Dairy Sci. 72:68–78.
+milk yield without a subsequent decrease in metabolic
+Fisher, L. J., J. D. Erfle, G. A. Lodge, and F. D. Sauer. 1973. Effects
+status. of propylene glycol or glycerol supplementation of the diet of dairy
+cows on feed intake, milk yield and composition, and incidence of
+ketosis. Can. J. Anim. Sci. 53:289–296.
+ACKNOWLEDGMENTS
+Formigoni, A., M.-C. Cornil, A. Prandi, A. Mordenti, A. Rossi, D. Por-
+tetelle, and R. Renaville. 1996. Effect of propylene glycol supple-
+This study was financially supported by the Swed- mentation around parturition on milk yield, reproduction perfom-
+ish University of Agricultural Sciences (SLU) and rance and some hormonal changes and metabolic characteristics in
+dairy cows. J. Dairy Res. 63:11–24.
+Skaraborgs läns nötkreatursförsäkringsbolag (Skara,
+Friggens, N. C. 2003. Body lipid reserves and the reproductive cycle:
+Sweden). The glycerol and propylene glycol used in Towards a better understanding. Livest. Prod. Sci. 83:219–236.
+this study were provided by Lantmännen Lantbruk Goff, J. P., and R. L. Horst. 2001. Oral glycerol as an aid in the
+treatment of ketosis/fatty liver complex. J. Dairy Sci. 84(Suppl.
+(Malmö, Sweden). We thank Torben Larsen and staff
+1):153. (Abstr.)
+at the laboratory at the Department of Animal Health Harano, Y., M. Ohtsuki, M. Ida, H. Kojima, M. Harade, T. Okanishi,
+and Biosciences, University of Aarhus (Foulum, Den- A. Kashiwagi, Y. Ochi, S. Uno, and Y. Shigeta. 1985. Direct au-
+tomated assay method for serum or urine levels of ketone bodies.
+mark) for efficient handling of samples. We also thank
+Clin. Chim. Acta 151:177–183.
+Anneli Axelsson and Gunilla Jakobsson (SLU, Skara, Hoedemaker, M., D. Prange, H. Zerbe, J. Frank, A. Daxenberger, and
+Sweden) for assisting in sampling and data manage- H. H. D. Meyer. 2004. Peripartal propylene glycol supplementation
+and metabolism, animal health, fertility, and production in dairy
+ment. Johan Lyhagen (Uppsala University, Uppsala,
+cows. J. Dairy Sci. 87:2136–2145.
+Sweden), Jan Hultgren (SLU, Skara, Sweden), Marie Ingvartsen, K. L. 2006. Feeding- and management-related diseases
+Mörk (SLU and Swedish Dairy Association, Uppsala, in the transition cow. Physiological adaptations around calving
+and strategies to reduce feeding-related diseases. Anim. Feed Sci.
+Sweden), and Ulf Emanuelson (SLU, Uppsala, Sweden)
+Technol. 126:175–213.
+are acknowledged for discussions on statistical matters Ingvartsen, K. L., and J. B. Andersen. 2000. Integration of metabo-
+and Stefan Gunnarsson (SLU, Skara, Sweden) for com- lism and intake regulation: A review focusing on periparturient
+animals. J. Dairy Sci. 83:1573–1597.
+ments on the manuscript. Finally, we are most grateful
+Ingvartsen, K. L., R. J. Dewhurst, and N. C. Friggens. 2003. On the re-
+to the farmers participating in this study. lationship between lactational performance and health: Is it yield
+or metabolic imbalance that cause production diseases in dairy
+cattle? A position paper. Livest. Prod. Sci. 83:277–308.
+REFERENCES Johnson, R. B. 1954. The treatment of ketosis with glycerol and pro-
+pylene glycol. Cornell Vet. 44:6–21.
+Bodarski, R., T. Wertelecki, F. Bommer, and S. Gosiewski. 2005. The Juchem, S. O., F. A. P. Santos, H. Imaizumi, A. V. Pires, and E. C.
+changes of metabolic status and lactation performance in dairy Barnabe. 2004. Production and blood parameters of Holstein cows
+cows under feeding TMR with glycerin (glycerol) supplement at treated prepartum with sodium monensin or propylene glycol. J.
+periparturient period. Electron. J. Polish Agric. Univ. 8:22–30. Dairy Sci. 87:680–689.
+Journal of Dairy Science Vol. 95 No. 5, 2012
+
+--- Page 12 ---
+2408 LOMANDER ET AL.
+Kristensen, N. B., and B. M. L. Raun. 2007. Ruminal and intermedi- postpartal dairy cows to subcutaneous glucagon injections, oral
+ary metabolism of propylene glycol in lactating Holstein cows. J. glycerol or both. J. Dairy Sci. 91:3311–3322.
+Dairy Sci. 90:4707–4717. Ospina, P. A., D. V. Nydam, T. Stokol, and T. R. Overton. 2010a.
+LeBlanc, S. 2010. Monitoring metabolic health of dairy cattle in the Evaluation of nonesterified fatty acids and β-hydroxybutyrate in
+transition period. J. Reprod. Dev. 56(Suppl.):S29–S35. transition dairy cattle in the northeastern United States: Criti-
+Linke, P. L., J. M. DeFrain, A. R. Hippen, and P. W. Jardon. 2004. cal thresholds for prediction of clinical diseases. J. Dairy Sci.
+Ruminal and plasma responses in dairy cows to drenching or feed- 93:546–554.
+ing glycerol. J. Dairy Sci. 87(Suppl. 1):383. (Abstr.) Ospina, P. A., D. V. Nydam, T. Stokol, and T. R. Overton.
+Liu, Q., C. Wang, W. Z. Yang, W. W. Zhang, X. M. Yang, D. C. He, 2010b. Associations of elevated nonesterified fatty acids and
+K. H. Dong, and Y. X. Huang. 2009. Effects of feeding propylene β-hydroxybutyrate concentrations with early lactation reproduc-
+glycol on dry matter intake, lactation performance, energy bal- tive performance and milk production in transition dairy cattle
+ance and blood metabolites in early lactation dairy cows. Animal in the northeastern United States. J. Dairy Sci. 93:1596–1603.
+3:1420–1427. Rabe-Hesketh, S., and A. Skrondal. 2005. Multilevel and Longitudinal
+Løvendahl, P., and H. M. Purup. 2002. Technical note: Time-resolved Modeling using Stata. 2nd ed. Stata Press, College Station, TX.
+fluoro-immunometric assay for intact insulin in livestock species. Rémond, B., E. Souday, and J. P. Jouany. 1993. In vitro and in vivo
+J. Anim. Sci. 80:191–195. fermentation of glycerol by rumen microbes. Anim. Feed Sci.
+Mäntysaari, P., and E. A. Mäntysaari. 2008. Relationship of body Technol. 41:121–132.
+measurements and body condition score to body weight in modern Rizos, D., D. A. Kenny, W. Griffin, K. M. Quinn, P. Duffy, F. J. Mulli-
+Finnish Ayrshire cows. Acta Agric. Scand. A Anim. Sci. 58:170– gan, J. F. Roche, M. P. Boland, and P. Lonergan. 2008. The effect
+178. of feeding propylene glycol to dairy cows during the early postpar-
+Miyoshi, S., J. L. Pate, and D. L. Palmqquist. 2001. Effects of propyl- tum period on follicular dynamics and on metabolic parameters
+ene glycol drenching on energy balance, plasma glucose, plasma related to fertility. Theriogenology 69:688–699.
+insulin, ovarian function and conception in dairy cows. Anim. Roche, J. R., N. C. Friggens, J. K. Kay, M. W. Fisher, K. J. Stafford,
+Reprod. Sci. 68:29–43. and D. P. Berry. 2009. Invited review: Body condition score and
+Mörk, M., A. Lindberg, S. Alenius, I. Vågsholm, and A. Egenvall. its association with dairy cow productivity, health, and welfare. J.
+2009. Comparison between dairy cow disease incidence in data Dairy Sci. 92:5769–5801.
+registered by farmers and in data from a disease-recording system Spörndly, E., and T. Åsberg. 2006. Eating rate and preference of dif-
+based on veterinary reporting. Prev. Vet. Med. 88:298–307. ferent concentrate components for cattle. J. Dairy Sci. 89:2188–
+National Research Council. 2001. Nutrient Requirements of Dairy 2199.
+Cattle. 7th rev. ed. Natl. Acad. Sci., Washington, DC. Suriyasathaporn, W., C. Heuer, E. N. Noordhuizen-Stassen, and Y.
+Nielsen, N. I., and K. L. Ingvartsen. 2004. Propylene glycol for dairy H. Schukken. 2000. Hyperketonemia and the impairment of udder
+cows. A review of the metabolism of propylene glycol and its ef- defense: A review. Vet. Res. 31:397–412.
+fects on physiological parameters, feed intake, milk production and Swedish Dairy Association. 2004. Handledning. Utdata för Kokontrol-
+risk of ketosis. Anim. Feed Sci. Technol. 115:191–213. len, Stockholm, Sweden. (In Swedish)
+Olsson, S. O., P. Baekbo, S. Å. Hansson, H. Rautala, and O. Österås. Wang, C., Q. Liu, W. Z. Yang, W. J. Huo, K. H. Dong, Y. X. Huang,
+2001. Disease recording systems and herd health schemes for pro- X. M. Yang, and D. C. He. 2009. Effects of glycerol on lactation
+duction diseases. Acta Vet. Scand. Suppl. 94:51–60. performance, energy balance and metabolites in early lactation
+Osman, M. A., P. S. Allen, N. A. Mehyar, G. Bobe, J. F. Coetzee, K. Holstein dairy cows. Anim. Feed Sci. Technol. 151:12–20.
+J. Koehler, and D. C. Beitz. 2008. Acute metabolic responses of
+Journal of Dairy Science Vol. 95 No. 5, 2012

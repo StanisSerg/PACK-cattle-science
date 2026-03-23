@@ -1,0 +1,1666 @@
+--- Page 1 ---
+J. Dairy Sci. 98:8581–8596
+http://dx.doi.org/10.3168/jds.2014-8606
+© American Dairy Science Association®, 2015.
+Effect of propylene glycol on adipose tissue mobilization
+in postpartum over-conditioned Holstein cows
+V. Bjerre-Harpøth,*1 A. C. Storm,* M. Eslamizad,†2 B. Kuhla,† and M. Larsen*3
+*Department of Animal Science, Aarhus University, Foulum, Blichers Allé 20, DK-8830 Tjele, Denmark
+†Institute of Nutritional Physiology “Oskar Kellner,” Leibniz Institute for Farm Animal Biology (FBN), Wilhelm-Stahl-Allee 2,
+18196 Dummerstorf, Germany
+ABSTRACT rent and showed that a 4-wk postpartum PG allocation
+had limited effect on adipose tissue mobilization. The
+Our objective was to investigate the quantitative and
+main effect was an enhanced glucogenic status with
+qualitative effects of propylene glycol (PG) allocation
+PG. No carry-over effect of PG allocation was recorded
+on postpartum adipose tissue mobilization in over-
+for production or plasma metabolites, and, hence, a
+conditioned Holstein cows. Nine ruminally cannulated
+new period of metabolic adaption to lactation seemed
+and arterially catheterized cows were, at parturition,
+to occur with PG treatment after ceasing PG alloca-
+randomly assigned to a ruminal pulse dose of either 500
+tion. Thus, PG seemed to induce a 2-step adaption to
+g of tap water (n = 4) or 500 g of PG (n = 5) once a
+lactation, reducing the immediate postpartum nadir
+day. The PG was given with the morning feeding for 4
+and peak of plasma concentration of glucose and BHB,
+wk postpartum (treatment period), followed by a 4-wk
+respectively; which is beneficial for postpartum cows at
+follow-up period. All cows were fed the same prepartum
+high risk of lipid-related metabolic diseases.
+and postpartum diets. At –16 (±3), 4 (±0), 15 (±1)
+Key words: dairy cow, propylene glycol, body
+and 29 (±2) days in milk (DIM), body composition was
+composition, proteomics
+determined using the deuterium oxide dilution tech-
+nique, liver and subcutaneous adipose tissue biopsies
+INTRODUCTION
+were collected, and mammary gland nutrient uptake
+was measured. Weekly blood samples were obtained
+The highest occurrence of disease in dairy cows is
+during the experiment and daily blood samples were
+observed within the first few weeks of lactation (In-
+taken from –7 to 7 DIM. Postpartum feed intake and
+gvartsen, 2006). A prerequisite for cows to stay healthy
+milk yield was not affected by PG allocation. The body
+through this period is that the interaction between hor-
+content of lipid was not affected by treatment, but
+monal regulation, feed intake, milk yield, and physical
+tended to decrease from 4 to 29 DIM with both treat-
+condition of the cows is balanced. After parturition,
+ments. Except for the first week postpartum, no differ-
+cows have a natural genetic drive to mobilize adipose
+ence in plasma nonesterified fatty acids concentration
+tissue, increasing with increasing BCS (Garnsworthy
+was noted between treatments in the treatment period.
+and Topps, 1982; Friggens et al., 2007). Thus, cows that
+Yet, PG allocation resulted in decreased plasma con-
+are over-conditioned at parturition will be at greater
+centrations of β-hydroxybutyrate (BHB) and increased
+risk for excessive mobilization of adipose tissue after
+plasma concentrations of glucose. In the follow-up pe-
+parturition. Excessive mobilization of adipose tissue
+riod, plasma concentrations of nonesterified fatty acids,
+in cows has been revealed to be problematic and may
+glucose, and BHB did not differ between treatments.
+result in hepatic lipidosis and ketosis (Grummer 1993;
+Additionally, the change in abundance of proteins in
+Ingvartsen, 2006). Hence, it is of particular interest
+adipose tissue biopsies from prepartum to 4 DIM was
+to monitor postpartum adipose tissue mobilization in
+not affected by treatment. In conclusion, the different
+over-conditioned cows and prevent excessive mobiliza-
+variables to assess body fat mobilization were concur-
+tion.
+Acute treatment and prophylactic treatment of keto-
+sis by oral dosing with propylene glycol (PG) has been
+used since the 1950s (Nielsen and Ingvartsen, 2004).
+The administration method seems to be of major
+importance for the metabolic response of PG within
+the cow, as typically no metabolic responses have been
+observed when mixing PG into a TMR (Chibisa et al.,
+8581
+Received July 11, 2014.
+Accepted August 18, 2015.
+1 Current address: Danish Veterinary and Feed Administration,
+Sønderskovvej 5, DK-8520 Lystrup, Denmark.
+2 Current Address: Department of Animal Science, Campus of
+Agriculture and Natural Resources, University of Tehran, Karaj, Iran.
+3 Corresponding author: Mogens.Larsen@anis.au.dk
+
+--- Page 2 ---
+8582 BJERRE-HARPØTH ET AL.
+2008; Lomander et al., 2012); whereas responses have taneous adipose tissue) effects of PG on adipose tissue
+been observed when allocating PG as an oral drench or mobilization, and to delineate the metabolic effect of
+in separately fed concentrate (Pickett et al., 2003; Lien prophylactic use of PG in cows at high risk of lipid-
+et al., 2010). This suggests that the metabolic effects of related metabolic diseases.
+PG is established by a fast ruminal uptake of the PG
+dose that causes a prompt increase in plasma concen-
+MATERIALS AND METHODS
+trations of PG and ruminally formed PG metabolites
+(Christensen et al., 1997; Kristensen and Raun, 2007). All procedures involving animals were evaluated and
+Results from periparturient cows dosed with PG show approved by the Danish Animal Experiments Inspec-
+an increase in the glucogenic status during the alloca- torate and complied with the Danish laws concerning
+tion period, concurrent with a decrease in the plasma animal experimentation and care of experimental ani-
+concentrations of BHB and NEFA (e.g., Formigoni et mals.
+al., 1996; Butler et al., 2006; Lien et al., 2010). The
+reduction in plasma NEFA concentrations suggests a
+Animals, Diets, and Experimental Design
+decreased adipose tissue mobilization. Despite the nu-
+merous PG studies in dairy cows, only a few studies Ten ruminally cannulated and arterially catheterized
+have measured changes in fat mobilization. With PG over-conditioned Danish Holstein cows were used in a
+allocation in TMR to periparturient dairy cows, Chi- complete randomized design with repeated measure-
+bisa et al. (2008) did not observe effects of PG on body ments. The experiment was subdivided into 3 periods:
+composition and blood metabolites. (1) prepartum, last 4 wk before expected calving, (2)
+Studying the abundance of proteins by proteome treatment, wk 1 to 4 postpartum, and (3) follow-up, wk
+analysis might be useful to elucidate cellular mecha- 5 to 8 postpartum (Figure 1A). Measurement of body
+nisms balancing adipose tissue mobilization and fat composition and mammary gland nutrient uptake were
+accretion. Proteome studies on subcutaneous adipose conducted prepartum (–16 ± 3 d; mean ± SD), 4, 15,
+tissue of beef cattle have been related to fat accretion and 29 DIM. Cows were randomly assigned to ruminal
+(e.g., Zhao et al., 2010; Romao et al., 2014), demon- infusion of either 500 g of tap water (CON; n = 5; 4
+strating differences in expression of proteins in animals entering second and 1 entering third lactation), or 500
+with different subcutaneous fat thickness. Most re- g of PG (PPG; Propylenglycol pcow aroma, Brenntag
+cently, Zachut (2015) identified 143 adipose tissue pro- Nordic A/S, Hellerup, Denmark; n = 5; 4 entering sec-
+teins of multiparous dairy cows that were differentially ond and 1 entering third lactation). Treatments were
+expressed between d 17 prepartum and d 4 postpartum, initiated at the day of calving (designated as 1 DIM)
+and 3 of them were related to the process of lipolysis. and were provided once a day during morning feeding
+Thus, proteome analysis seems to be suitable approach (0800 h) until 29 DIM. Treatments were allocated using
+to study the influence of PG allocation adipose tissue a ruminal cannula infusion device ending in the area
+protein abundance. between atrium and the ventral rumen sack at the sight
+Carry-over effects on adipose tissue mobilization and of the cranial pillar, and regulated by a timer-controlled
+metabolism have been indicated with allocation of PG peristaltic pump (infusion rate: 3,000 g/h; Type 115/
+in the first 2 or 3 d after parturition (Stokes and Goff, G42 with L-channels; Ole Dich Instrumentmakers ApS,
+2001; Pickett et al., 2003). Yet, PG is often allocated Hvidovre, Denmark). The ruminal infusion device was
+for several weeks postpartum in dairy livestock with made by drilling a hole in the cannula stopper in which
+automatic milking systems, and investigations of the a 24-cm long semifirm tube (internal diameter 14 mm;
+carry-over effects on metabolism in cows allocated with outer diameter: 24 mm) was attached. Within the tube,
+PG for a longer period are lacking. the infusion line (Silicone tube, 60 shore A, internal
+The hypothesis of the present experiment was that diameter: 6.0 mm; outer diameter: 9.0 mm, Ole Dich
+a daily intraruminal allocation of PG to over-condi- Instrumentmakers ApS) was secured. In case of calving
+tioned postpartum cows would decrease mobilization between 0800 and 1700 h, a dose of water or PG was
+of adipose tissue, thereby reducing the risk of ketosis allocated manually just after calving. From 30 to 32
+and hepatic lipidosis, and that the decrease in mobiliza- DIM, cows were gradually ceased from treatments (250
+tion would be reflected by altered protein abundance and 125 g of PG on d 30 and 31–32, respectively). Cows
+in adipose tissues. The objectives were to investigate were subsequently followed until 57 DIM and slaugh-
+both quantitative (whole-body pools of fat and protein, tered 17 to 19 wk postpartum.
+and net mammary nutrient uptake) and qualitative The 10 over-conditioned cows used were selected
+(plasma concentrations of metabolites and hormones, from a group of 16 cows conditioned in the last 14 wk
+liver content of lipids, and protein abundance in subcu- of the preceding lactation following the conditioning
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 3 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8583
+procedure previously described by Bjerre-Harpøth et 2009). On days of measurements of body composition
+al. (2014). A priori selection criteria at dry off were a and mammary gland uptakes, a temporary catheter
+BCS greater than 3.5 and a minimum increase of 0.5 was placed in one of the vena subcutanea abdominis.
+BCS during the conditioning period. Body condition From dry off, cows were housed in tiestalls bedded
+score was evaluated once a week from late lactation un- with rubber mats and wood shavings. For parturition
+til 8 wk postpartum using a 5-point scale with 0.25 in- cows were moved to an individual, straw-bedded ma-
+tervals (Ferguson et al., 1994). Dry off was commenced ternity pen. All cows were offered the same prepartum
+the same day for all cows resulting in a dry period of or postpartum TMR diets (Table 1) and fed 3 times
+60 to 75 d (mean = 67 d). Ruminal cannulas (10 cm, a day (0800, 1600, and 2400 h). Orts were registered
+Bar Diamond Inc., Parma, ID) were implanted 10 d and removed once a day before the morning feeding.
+after dry off, followed by surgical catheterization of an The diets were allocated ad libitum (10% orts), except
+intercostal artery 3 wk later (Larsen and Kristensen, from the first 24 h postpartum (3 × 10.7 kg of lactation
+Figure 1. Experimental overview: (A) overall timeline for the experiment showing data collection and definition of time in statistical analy-
+ses; (B) within-day timeline for sampling days –16, 4, 15, and 29 DIM with measurement of body composition, mammary nutrient uptake, and
+tissue biopsy collections. *Only DMI (not milk yield) from d 1 to 28.
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 4 ---
+8584 BJERRE-HARPØTH ET AL.
+Table 1. Ingredients and nutrient composition of the prepartum and ette, Greiner Bio-One GmbH, Kremsmünster, Austria).
+postpartum total mixed diets (g/kg of DM, unless otherwise noted) Additionally, daily blood samples were obtained from
+Item Prepartum Postpartum the arterial catheter from –7 until 7 DIM. Two times
+the catheter volume was discarded before blood was
+Ingredient
+obtained with new 20-mL syringes and stabilized
+Corn silage 455 350
+Grass-clover silage 178 200 in K EDTA and Na-heparin vacutainers (Vacuette,
+3
+Barley, rolled 185 Greiner Bio-One GmbH). Samples were kept on ice
+Barley straw 122
+until centrifugation (2,000 × g for 20 min at 4°C) and
+Wheat, ground 119
+Soybean meal, 54% CP 99 85 harvested plasma was stored at –20°C until analysis.
+Rapeseed meal 85 At 0900 h, on days of quantitative measurement
+Sugar beet pulp, dried 50
+Vegetable fat1 10 15 of body composition and mammary nutrient uptakes
+Sodium bicarbonate 12.5 (Figure 1B), cows were given an intravenous (vena sub-
+Mineral/vitamin premix 122 7.53 cutanea abdominis) injection of 453.6 g 10% deuterium
+Sodium chloride 5
+oxide (D O; 99.9%; Sigma-Aldrich Co., St. Louis, MO)
+Limestone 5 2
+Titanium(IV) oxide 2.5 and saline solution. The D O injection was followed
+2
+Suplex d-alfa E-50000 1.5 by an intraruminal dose of 442.4 g of CrEDTA [60.6
+Magnesium sulfate 1
+mmol/L of chromium (III) chloride hexahydrate 99.5%,
+Nutrient
+DM (g/kg) 398 430 Alfa Aesar GmbH & Co, Karlsruhe, Germany; EDTA,
+Ash 59 70 J. T. Baker Chemicals, Deventer, the Netherlands;
+CP 138 165
+Binnerts et al., 1968]. Thirteen sets of arterial blood
+NDF 422 343
+Starch 202 238 and ventral rumen fluid samples were obtained at –1.5,
+MP4 75 98 –0.5, 0.25, 0.5, 0.75, 1.0, 1.5, 2.5, 3.5, 4.5, 5.5, 24, and
+MP (% of MP) 6.80 6.74
+Lys 36 h (exact times recorded) relative to D O injection.
+MP Met (% of MP) 2.21 2.22 2
+NE (MJ/kg of DM) 6.55 6.41 Eight hourly mammary venous blood samples were
+L
+1Palm oil FA distillate. obtained beginning –1.5 h relative to D 2 O injection.
+2Komix Gold d-alfa Bio org. Selen (Vitfoss A/S, Gråsten, Denmark) Blood samples were collected using the same procedure
+containing per kg: Ca, 20 g; P, 40 g; Mg, 192 g; Na, 36 g; S, 83 g; as described above. Additionally, arterial and venous
+vitamin A, 1,091 kIU; vitamin D, 182 kIU; vitamin E, 18,182 mg;
+3 blood was sampled with isotonic heparinized 2-mL
+biotin, 91 mg; Mn, 5455 mg; Cu, 1455 mg; Co, 35 mg; Zn, 7,270 mg;
+I, 227 mg; Se, 25 mg. gas syringes (PICO50, Radiometer A/S, Copenhagen,
+3VM2 (Vitfoss A/S) containing per kg: Ca, 160 g; P, 50 g; Mg, 65g; Denmark). Ventral ruminal fluid was obtained by a
+Na, 90g; S, 2g; vitamin A, 600 kIU; vitamin D 3 , 190 kIU; vitamin E, 50-mL syringe attached to a suction strainer (#RT ru-
+4,000 mg; Mn, 4,000 mg; Cu, 1,500 mg; Co, 25 mg; Zn, 4,500 mg; I,
+men fluid sampler tube, Bar Diamond Inc.) placed into
+225 mg; Se, 50 mg.
+4Calculated using the NorFor system (Volden, 2011). the ventral rumen through the cannula. Arterial and
+venous blood samples were kept on ice and plasma was
+harvested after centrifugation (3,000 × g for 20 min at
+diet). The cows were milked 3 times a day at 0515, 4°C). Samples of rumen fluid and plasma were stored at
+1315, and 2115 h. –20°C until analysis. Liver biopsies were obtained after
+the 5.5-h sample following the procedure described by
+Bjerre-Harpøth et al. (2014), snap frozen in liquid ni-
+Data Collection
+trogen, and stored at –80°C until analysis. Subcutane-
+Feed intake was recorded daily. Diets were sampled ous adipose tissue biopsies were further taken from the
+daily for DM determination, and the dried samples incision for liver biopsies. The incision was prolonged
+were pooled within diet and week for later chemical and a piece of adipose tissue was positioned with a
+analyses. At every milking, milk yield was recorded us- forceps, cut off with a scissor, snap frozen in liquid
+ing continuous flow sampling (TruTest HI, Tru-Test nitrogen, and stored at –80°C until analysis. Cows were
+Scandinavia, Præstø, Denmark). Two days per week, weighed after obtaining biopsies. At slaughter, oma-
+milk was subsampled at each milking from the con- sal and gastrointestinal (GI) contents were collected,
+tinuous flow sample into tubes precoated with bronopol weighed, and representative samples were obtained.
+(Eurofins Steins Laboratorium A/S, Vejen, Denmark),
+and refrigerated (~4°C) until analyzed.
+Analytical Procedures
+During the 3 periods (prepartum, treatment, and fol-
+low-up), weekly blood samples were obtained between Dry matter content in diets and digesta (omasum
+1000 and 1100 h from the coccygeal vein by venipunc- and GI tract) were determined by forced-air oven dry-
+ture into K EDTA and Na-heparin vacutainers (Vacu- ing at 60°C for 48 h. The pooled diet samples were
+3
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 5 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8585
+analyzed for ash, CP, NDF, and starch as described 0.1 cm). Proteins were stained with colloidal Rotiblue
+by Kristensen et al. (2007). Concentrations of fat, CP, (Roth, Karlsruhe, Germany) and scanned to quantify
+and lactose monohydrate in milk were analyzed using the abundance of individual protein spots. Spots which
+a CombiFoss 4000 (Foss Electric A/S, Hillerød, Den- significantly differed between by P < 0.05 were iden-
+mark). tified on a 5800 MALDI TOF/TOF (matrix-assisted
+The weekly and daily plasma samples were analyzed laser desorption/ionization tandem time-of-flight)
+for glucose, NEFA, BHB, and l-lactate as described Analyzer (Applied Biosystems, Thermo Fisher Scien-
+by Bjerre-Harpøth et al. (2014). Insulin and glucagon tific, Waltham, MA) and a subsequent database search
+concentrations were determined in all daily and the against NCBInr (http://www.ncbi.nlm.nih.gov/), as
+postpartum weekly samples using an AutoDELFIA described earlier (Schäff et al., 2012).
+Insulin kit (B080–101, PerkinElmer Inc., Waltham,
+MA; Løvendahl and Purup, 2002) and a glucagon RIA
+Calculations and Statistical Procedures
+kit (GL-32K, Millipore, St. Charles, MO), respectively.
+The interassay coefficient of variation for insulin was Equations used for calculating body composition
+3.2%, and for glucagon the intra- and interassay coef- are displayed in Table 2. The calculation of body
+ficients of variation were 6.6 and 1.5%, respectively. composition originates from the ability to determine
+Arterial plasma samples from –0.5 h and 0.5 until the amount of empty body water and was calculated
+5.5 h relative to injections were analyzed for D O by as the dilution space of D O (total body water) cor-
+2 2
+isotope ratio MS as described by Storm et al. (2011), rected for water content in forestomach and GI tract,
+and ruminal samples from –0.5, 2.5 until 5.5, 24, and fetal fluid, plasma, and milk yield at afternoon (1315
+36 h relative to injections were analyzed for CrEDTA h) milking. Water content in the reticulo-rumen was
+by atom absorption spectrometry as described by Wil- determined by dilution of CrEDTA. Water content in
+liams et al. (1962). The hourly sets of arterial and omasum and GI tract was determined from slaughter
+venous blood samples were analyzed for hematocrit, data. Equilibration of D O and CrEDTA was defined
+2
+O , and CO , and the hourly sets of plasma samples as a one-compartment model, assuming mass action
+2 2
+were analyzed for glucose, l-lactate, BHB, and AA dilution. For one cow, omasal and GI content of water
+as described by Larsen et al. (2014a). Arterial plasma and DM was estimated from weight adjusted averages
+samples obtained 1 h after D O injection were analyzed of the other cows, as the cow had to be euthanized 8 wk
+2
+for leptin concentrations using a Bovine Leptin ELISA postpartum due to lameness.
+kit (MBS743525, MyBioSource, San Diego, CA) ac- Milk CP content was calculated using 6.38 as the
+cording to standard procedures. Intraassay coefficient nitrogen conversion factor. Mammary plasma flow was
+of variation was 16.3%. calculated described by Lapierre et al. (2012) using Phe
+Liver biopsies were extracted and analyzed for con- + Tyr as internal markers and correcting for 5% NPN
+centration of glucose, glycogen, triglyceride (TAG), and 3.37% blood-borne proteins in milk CP. Mammary
+and phospholipid as described by Bjerre-Harpøth et whole blood flow was calculated by relating plasma
+al. (2012). Adipose tissue biopsies were extracted for flow to hematocrit. The net mammary flux of nutrients
+total protein in 200 μL of 8 M urea, 50 mM Tris, 2% was calculated as the arterial-venous concentration
+3-[(3-cholamidopropyl)dimethylammonio]-1-propane- difference multiplied by the appropriate mammary
+sulfonate (CHAPS), 40 mM dithiothreitol (DTT), plasma or blood flow. Milk secretion of Phe and Tyr
+and 0.5% immobilized pH gradient (IPG) buffer (GE was calculated using an average AA composition of
+Healthcare, Buckinghamshire, UK) as described by milk true protein (Lapierre et al., 2012). The mammary
+Schäff et al. (2012). A sample of 500 μg of protein was uptake-to-output ratio in milk lactose of glucose was
+added to 320 μL of rehydration buffer (8 M urea, 2% calculated by dividing mammary net flux by secretion
+CHAPS, 0.8% IPG buffer, and 18 mM DTT) and sub- in milk lactose assuming use of 2 glucose molecules for
+sequently loaded to an 18-cm IPG strip (pH 3–10; GE synthesis of one lactose molecule.
+Healthcare). Isoelectric focusing at 50 V for 12 h was Data were subjected to ANOVA using the MIXED
+followed by 500 V for 1 h, 1,000 V for 1 h, and 8,000 procedure in SAS (version 9.3, release TS1M0, SAS
+V for 4 h and 20 min using an Ettan IPGphor3 device Institute Inc., Cary, NC). Data for DMI, milk yields,
+(GE Healthcare). The IPG strips were equilibrated first milk composition, and weekly and daily plasma were
+with a buffer containing 50 mM Tris (pH 8.8), 30% analyzed using a model including the fixed effects of
+glycerol, 6 M urea, 2% SDS, and 1% DTT, and subse- treatment (Trt), period (Per; prepartum, treatment,
+quently with the same buffer except DTT was replaced and follow-up), time, and all interactions. Cow was
+with 2.5% iodoacetamide, each for 15 min. The IPG considered as a random effect and time within cow and
+were transferred to 12.5% SDS-PAGE gels (20 × 20 × period was considered as a repeated measurement, al-
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 6 ---
+8586 BJERRE-HARPØTH ET AL.
+Table 2. Equations for calculation of body composition
+Body composition parameter Equation No.
+Empty body water (EBW), kg Total body water (TBW; kg) – [water content in forestomach + [1]
+gastrointestinal tract (kg)] – fetal fluid (kg) – milk (kg) at 1315 h
+milking – plasma (kg)
+Empty body protein (EBP), kg Prepartum: EBW/3.501; 4 DIM: EBW/3.362; 15 DIM: EBW/3.472; [2]
+29 DIM: EBW/3.392
+Empty body ash (EBA), kg Prepartum: EBW/12.81; 4 DIM: EBW/12.72; 15 DIM: EBW/13.42; [3]
+29 DIM: EBW/12.12
+Empty body lipid (EBL), kg BW (kg) – TBW (kg) – EBP (kg) – EBA (kg) – [forestomach + [4]
+gastrointestinal DM (kg)] – fetal DM (kg)
+Preceding equations
+TBW was calculated as the DO dilution space,3 kg DO infused/(DO concentration at time 0 – DO concentration of [5]
+2 2 2 2
+plasma background)
+Water content in forestomach + gastrointestinal-tract, kg Reticulo-rumen water (calculated from CrEDTA dilution of the [6]
+reticulo-rumen; kg) + omasum water (slaughter data; kg) + gastric
+and intestine water (slaughter data; kg)
+Fetal fluid,4 kg −28.885 + 0.182 × gestation day [7]
+Plasma volume,5 kg Prepartum: 60 mL/kg of BW; 4 DIM 40 mL/kg of BW; 15 and 29 [8]
+DIM: 50 mL/kg of BW
+Forestomach + gastrointestinal DM, kg Reticulo-rumen DM6 (kg) + omasum DM (slaughter data; kg) + [9]
+gastric and intestine DM (slaughter data; kg)
+Reticulo-rumen DM, kg [Reticulo-rumen water (kg) /(100 – DM % in reticulo-rumen)] × [10]
+DM % in reticulo-rumen
+Fetal DM,1 kg Fetus (kg) × 0.241 [11]
+Fetus,4 kg 0.00138 × e(0.06801 − 0.00011 × gestation day) × gestation day [12]
+1Andrew et al. (1995).
+2Gibb et al. (1992).
+3DO concentration at time 0 was estimated as the intercept assuming mass action dilution of DO into the total body water pool. DO concen-
+2 2 2
+tration of plasma background equals the concentration at first sample before the DO infusion. Based on the equality between medial rumen fluid
+2
+and plasma for DO, the equilibration time for DO was set to 2.5 h. Data used in the first order kinetic model were DO plasma concentration
+2 2 2
+between 2.5 and 5.5 h after the DO infusion.
+2
+4House and Bell (1993).
+5Larsen et al. (2014b).
+6A. C. Storm (unpublished data). Dry matter content in reticulo-rumen: 127.5 g/kg in the dry period and 147.5 g/kg in the early lactation
+period.
+lowing the covariance to vary by period and thereby from the experiment due to severe ketosis and diarrhea
+accounting for eventual heterogeneity among periods. at 5 DIM. Significance was declared at P ≤ 0.05 and
+Within each period, time was defined as d 1 to 28 for tendencies were considered at 0.05 < P ≤ 0.10.
+DMI and milk yields, sample 1 to 8 for milk composi-
+tion, wk 1 to 4 for weekly plasma samples, and d 1
+RESULTS
+to 7 for daily plasma samples (Figure 1A). Data for
+body composition, liver and adipose biopsies, BW, No calving problems were observed and only few ill-
+BCS, and mammary gland nutrient uptake postpartum nesses occurred in the 8-wk postpartum period (Table
+were analyzed using a mixed model with fixed effects 3). One cow with CON suffered from both mastitis and
+of Trt, DIM, and the interaction where DIM within lameness, and one cow with PPG suffered from both
+cow was considered as a repeated measurement. The metritis and mastitis.
+prepartum observations were subsequently included to
+test the prepartum to 4 DIM difference × treatment
+Feed Intake and Milk Production
+interaction (P ) using Fisher’s LSD test.
+Transition × Trt
+Treatment means within period or DIM were separated The DMI was not affected by treatment in the 2
+using protected Fisher’s LSD test. periods after parturition, but was greater for CON in
+Covariance structures used were autoregressive order the prepartum period compared with PPG (P <
+Trt × Per
+1 or heterogeneous autoregressive order 1 depending 0.01; Table 4). Milk yield was not affected by treatment
+on Akaike’s information criteria. Denominator degrees (P = 0.59) and averaged 44.9 ± 2.3 and 43.1 ± 2.1
+Trt
+of freedom were calculated using the Kenward-Roger kg/d (±SE) with CON and PPG, respectively, dur-
+method. Least significant means are presented due to ing the entire postpartum period. However, milk yield
+missing observations: one cow with CON was excluded increased as lactation progressed (P < 0.01) with
+Per
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 7 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8587
+Table 3. Body weight and BCS of cows at dry off, calf birth weights both treatments. The milk fat content showed different
+(mean ± SD), and treated illness during the experiment profiles for PPG compared with CON during the treat-
+Treatment1 ment and follow-up periods (P
+Trt × Per × Time
+= 0.04).
+Milk protein content was greater for CON compared
+Item CON PPG with PPG in the first week postpartum, after which
+No. of animals 4 5 milk protein content did not differ between treatments
+BW at dry off (kg) 685 ± 72 678 ± 44 (P = 0.03).
+BCS at dry off 2 (1–5 scale) 3.9 ± 0.4 3.8 ± 0.3 Trt × Per
+Calf birth weights (kg) 43.6 ± 3.3 45.5 ± 3.8
+Treated illnesses3 (n) Metabolic Status
+Calving problems 0 0
+Metritis 0 1
+The weekly and daily plasma concentrations of
+Mastitis 3 2
+Lameness 1 0 measured metabolites and hormones did not differ be-
+1Treatments were ruminal infusion of 500 g of tap water (CON) or tween treatments in the prepartum period (Table 4).
+500 g of propylene glycol (PPG) at each morning feeding from 1 to Postpartum, plasma glucose concentrations decreased
+29 DIM. more for CON in the treatment period compared with
+2Ferguson et al. (1994). PPG; however, the difference between treatments dis-
+3Definitions: calving problems = help provided by barn staff or vet-
+appeared during the follow-up period, as the plasma
+erinarian; metritis = foul smell and discharge from vagina, enlarged
+uterus, and fever; mastitis = change in normal milk appearance veri- glucose concentration decreased with PPG after cease
+fied by a California Mastits Test (Bovivet, Kruuse A/S, Langeskov, of PG allocation (P < 0.01; Table 4; Figure 2).
+Trt × Per
+Denmark), and fever; lameness = difficulty when standing up, discom-
+The concentration of plasma BHB showed an inverse
+fort when standing, swelling around joints, and fever.
+pattern of the plasma glucose concentrations. Com-
+pared with the prepartum period, the plasma BHB con-
+Table 4. Dry matter intake, milk production, and plasma concentration of metabolites and hormones1
+Postpartum Postpartum
+Prepartum treatment follow-up P-value2
+Trt Trt × Per
+Item CON PPG CON PPG CON PPG SEM Trt Per × Per × Time
+DMI (kg/d) 12.8 10.6 19.0 17.7 22.1 22.9 1.2 0.58 <0.01 <0.01 0.81
+Milk yield (kg/d)
+Milk — — 42.5 40.3 47.4 45.9 2.3 0.59 <0.01 0.42 0.94
+Fat — — 1.98 1.62 1.98 1.87 0.16 0.31 0.03 0.03 0.19
+Protein — — 1.50 1.34 1.39 1.35 0.06 0.26 0.23 0.09 0.78
+Lactose — — 1.97 1.91 2.22 2.19 0.11 0.77 <0.01 0.55 0.69
+Milk composition (%)
+Fat — — 4.63 4.11 4.18 4.07 0.24 0.37 0.02 0.01 0.04
+Protein — — 3.58 3.44 2.94 2.96 0.06 0.48 <0.01 0.03 0.88
+Lactose — — 4.66 4.81 4.70 4.79 0.05 0.12 0.91 0.36 0.77
+Plasma weekly
+Glucose (mM) 3.87 3.90 2.58 3.57* 2.91 3.11 0.09 <0.01 <0.01 <0.01 0.28
+BHB3 (mM) 0.53 0.55 2.07 0.47* 1.44 1.25 0.21 <0.01 <0.01 <0.01 0.05
+NEFA (μM) 59 106 351 277 231 250 41 0.95 <0.01 0.41 0.94
+l-Lactate3 (mM) 0.42 0.53 0.25 0.37† 0.30 0.34 0.06 0.25 0.05 0.15 0.95
+Insulin (pM) — — 16 24 29 23 3.1 0.83 0.09 0.04 0.31
+Glucagon (pg/mL) — — 102 85 119 101 12 0.35 <0.01 0.90 0.64
+Plasma daily
+Glucose (mM) 3.94 3.93 2.93 3.55* — — 0.08 0.01 <0.01 <0.01 0.15
+BHB3 (mM) 0.73 0.64 1.12 0.57* — — 0.04 <0.01 0.02 <0.01 0.02
+NEFA3 (μM) 143 187 499 321* — — 56 0.92 <0.01 <0.01 0.95
+l-Lactate (mM) 0.29 0.29 0.31 0.44* — — 0.02 0.01 <0.01 0.02 0.28
+Insulin3 (pM) 61 51 12 17 — — 7.8 0.66 <0.01 0.14 0.86
+Glucagon (pg/mL) 58 59 76 63 — — 7.9 0.54 <0.01 0.02 0.02
+1Treatments (Trt) were ruminal infusion of 500 g of tap water (CON) or 500 g of propylene glycol (PPG) at each morning feeding in the first
+4 wk after calving. The prepartum period (Per) represent wk –4 to –1, postpartum treatment period wk +1 to +4, and postpartum follow-up
+period wk +5 to +8.
+2Fixed effects of treatment (Trt), period (Per), and time where time represent d 1–28 for DMI and milk yields, sample 1–8 for milk composition,
+wk 1–4 for weekly plasma variables, and d 1–7 for daily plasma variables (see Figure 1A).
+3P-values are from ln-transformed data.
+*P ≤ 0.05, †P ≤ 0.10; symbols signify difference between LS means within period and rows.
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 8 ---
+8588 BJERRE-HARPØTH ET AL.
+centration increased for CON in the treatment period, Liver Biopsies
+whereas it was unchanged with PPG. The difference
+between treatments disappeared during the follow-up The liver tissue content of glucose tended to decrease
+period, as the plasma BHB concentration increased with both treatments as lactation progressed (P =
+DIM
+with PPG after cease of PG allocation (P 0.08; Table 5). The liver content of glycogen decreased
+Trt × Per × Time
+= 0.05). Plasma NEFA concentrations were lower in less from prepartum to 4 DIM for PPG compared with
+the prepartum period compared with the 2 postpartum CON (P < 0.01). Postpartum, the liver gly-
+Transition × Trt
+periods (P < 0.01), but were not affected by treat- cogen content was higher for PPG compared with CON
+Per
+ment (P = 0.95). No difference in plasma l-lactate (P = 0.01) and increased from 4 to 29 DIM with both
+Trt Trt
+concentration was noted between treatments (P = treatments (P < 0.01). From prepartum to 4 DIM,
+Trt DIM
+0.25). Concentrations of glucose, BHB, NEFA, and the liver phospholipid content decreased with PPG
+lactate in daily plasma samples reflected largely the but did not change with CON (P = 0.05).
+Transition × Trt
+patterns observed in weekly samples; however, in the Postpartum, the liver content of phospholipids were
+first week postpartum a greater increase in plasma not affected by treatment or DIM. The liver content
+NEFA concentration was observed for CON compared of TAG tended to be affected by treatment and DIM
+with PPG (P < 0.01; Table 4 and Figure 2). (P = 0.10). However the large standard error
+Trt × Per Trt × DIM
+The plasma l-lactate concentration was greater for for this variable showed large variation between cows
+PPG compared with CON first week after parturition at the different days of measurements.
+(P = 0.02).
+Trt × Per
+The daily plasma concentration of insulin decreased
+Adipose Tissue Biopsies
+for both treatments from the last week prepartum
+to the first week postpartum (P < 0.01; Figure 3).
+Per Out of 807 adipose tissue proteins detected on the
+From the treatment period until the follow-up period,
+two-dimensional gel, spots where the abundance sig-
+the plasma insulin concentration increased with CON
+nificantly differed by P < 0.05 (n = 52) were selected.
+but did not increase with PPG (P = 0.04). The
+Trt × Per From these, 16 different annotated proteins were identi-
+daily plasma concentration of glucagon did not differ
+fied by mass spectrometry and database search (Table
+between treatments in the last week prepartum. In the
+6). Besides 8 extracellular proteins, also known to be
+first week postpartum, plasma glucagon concentrations
+part of blood, 8 cellular proteins are considered of
+increased for CON, whereas they did not change for
+depot-specific origin. Among these, the abundance of
+PPG (P = 0.02; Figure 3); hereafter, the
+Trt × Per × Time collagen, cytokeratin, annexin A2, UMP-CMP kinase,
+concentrations did not differ between treatments (P
+Trt glutathione S-transferase, zinc finger protein 34, and
+= 0.35). In both treatments, the plasma glucagon in-
+acetyl-Coenzyme A acetyltransferase 2 (ACAT2) dif-
+creased postpartum (P < 0.01).
+Per fered between PPG and CON groups (P < 0.05);
+Trt
+however, significant changes attributable the PG ef-
+Body Fat Status fect in the postpartum period could not be observed
+(P ≥ 0.24). Moreover, the abundance of
+For BW and BCS, the change from prepartum to 4 Transition × Trt
+collagen, annexin A5, and ACAT2 changed with DIM
+DIM was not affected by treatment (P ≥
+Transition × Trt (P < 0.01).
+0.17; Table 5). The BW was unaffected for PPG after DIM
+parturition, whereas BW decreased from 4 to 29 DIM
+for CON (P = 0.05). The BCS was not affected Mammary Gland Fluxes
+Trt × DIM
+by treatment (P = 0.49) and tended to decrease
+Trt
+with progressing lactation for both treatments (P = Mammary plasma flow was not affected by treatment
+DIM
+0.06). The whole-body lipid content was not affected by or DIM (P = 0.85; Table 5); however, when related to
+Trt
+treatment (P = 0.61), but tended to decrease from milk yield, mammary plasma flow decreased from 619
+Trt
+4 to 29 DIM with both treatments (P = 0.06). The to 453 ± 47 L/h/kg milk (±SE; P < 0.01) between
+DIM DIM
+body protein content was not affected by treatment 4 and 29 DIM, respectively. The net mammary uptake
+(P = 0.78), but was greater at 4 DIM compared with of BHB was greater for CON compared with PPG (P
+Trt Trt
+15 and 29 DIM for both treatments (P < 0.01). The = 0.05), whereas net uptake of glucose and l-lactate
+DIM
+decrease in plasma leptin concentration from prepartum was not affected by treatment (P ≥ 0.21). Mammary
+Trt
+to 4 DIM was not affected by treatment (P net uptake of glucose, l-lactate, and BHB increased
+Transition × Trt
+= 0.82). Postpartum, plasma leptin was not affected by from 4 to 29 DIM (P < 0.01). The mammary uptake
+DIM
+treatment (P = 0.48) but increased from 4 to 29 DIM to output ratio of glucose equivalents was numerically
+Trt
+with both treatments (P = 0.01). greater for PPG compared with CON (P = 0.14).
+DIM Trt
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 9 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8589
+Figure 2. Weekly and daily plasma concentrations of glucose, BHB, and NEFA in periparturient dairy cows ruminally infused with either
+500 g of tap water (CON, (cid:7); n = 4) or 500 g of propylene glycol (PPG, (cid:8); n = 5) from 1 to 29 DIM. Each data point is the mean ± SE and
+dashed lines indicate separation of experimental periods.
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 10 ---
+8590 BJERRE-HARPØTH ET AL.
+Figure 3. Daily and weekly plasma concentrations of insulin and glucagon in periparturient dairy cows ruminally infused with either 500 g
+of tap water (CON, (cid:7); n = 4) or 500 g of propylene glycol (PPG, (cid:8); n = 5) from 1 to 29 DIM. Each data point is the mean ± SE and dashed
+lines indicate separation of experimental periods.
+DISCUSSION relatively high-energy density diet was chosen to ensure
+a high BCS at parturition and to avoid priming the
+Traditionally, effects of PG treatment on subacute or
+liver for high postpartum metabolism of NEFA (Frig-
+acute ketosis have been explained by reduced adipose
+gens et al., 2004; Bjerre-Harpøth et al., 2014). Plasma
+tissue mobilization leading to less presence of NEFA in
+concentrations of glucose, BHB, and NEFA in the pre-
+the liver, leading to reduced formation of ketone bodies
+partum period did not differ between treatment groups
+(Nielsen and Ingvartsen, 2004). However, the current
+indicating limited metabolic effect of the greater DMI
+experiment showed a distinctly decreased concentration
+with CON. Therefore, it was assumed that cows had
+of plasma BHB with PG allocation despite limited ef-
+not been primed for postpartum metabolism of NEFA
+fects on mobilization of adipose tissue. Additionally,
+during the prepartum period.
+plasma concentrations of glucose were markedly greater
+with PG allocation, indication that glucogenic status
+Effect on Body Fat Mobilization
+played the largest role in regulating the ketogenesis.
+The ad libitum feed allocation in the prepartum pe- The BCS, which gives a rough evaluation of adipose
+riod resulted in greater DMI for CON compared with tissue depots, was not affected by the PG allocation,
+PPG. The ad libitum prepartum feed allocation of a and the more refined D O technique for determination
+2
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 11 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8591
+Journal of Dairy Science Vol. 98 No. 12, 2015
+1sekatpu
+ten
+dna
+,wolf
+amsalp
+dnalg
+yrammam
+,selbairav
+revil
+,sutats
+taf
+ydoB
+.5 elbaT
+3eulav-P
+2eulav-P
+MID
+92
+MID
+51
+MID
+4
+mutraperP
+trT
+noitisnarT
+×
+trT
+×
+MID
+MID
+trT
+MES
+GPP
+NOC
+GPP
+NOC
+GPP
+NOC
+GPP
+NOC
+metI
+26.0
+36.0
+10.0<
+43.0
+3.1
+4.02
+9.02
+3.71
+9.81
+1.41
+8.61
+5.01
+3.21
+)d/gk( IMD
+—
+06.0
+10.0<
+65.0
+5.2
+8.54
+4.64
+3.24
+4.34
+4.33
+1.73
+—
+—
+)d/gk(
+dleiy kliM sutats ydoB
+71.0
+50.0
+10.0<
+53.0
+92
+906
+026
+706
+256
+526
+196
+986
+327
+)gk( WB
+13.0
+24.0
+60.0
+94.0
+2.0
+1.3
+3.3
+3.3
+3.3
+5.3
+8.3
+8.3
+8.3
+4SCB
+09.0
+72.0
+60.0
+89.0
+41
+57
+28
+011
+39
+19
+401
+901
+911
+)gk(
+loop dipiL
+50.0
+70.0
+10.0<
+82.0
+4
+97
+08
+37
+48
+98
+79
+88
+98
+)gk(
+loop nietorP
+09.0
+32.0
+60.0
+26.0
+4.1
+5.86
+9.76
+4.46
+2.76
+6.56
+7.56
+0.56
+8.46
+)%( WB/loop
+retaW
+97.0
+52.0
+60.0
+16.0
+8.1
+3.21
+0.31
+0.81
+3.41
+6.41
+6.41
+7.51
+2.61
+)%( WB/loop
+dipiL
+64.0
+54.0
+10.0<
+87.0
+4.0
+0.31
+8.21
+2.21
+9.21
+2.41
+1.41
+8.21
+3.21
+)%(
+WB/loop
+nietorP
+28.0
+95.0
+10.0
+84.0
+1.4
+1.01
+7.61
+4.9
+1.21
+0.4
+5.6
+9.71
+8.81
+)Lm/gn(
+nitpeL reviL
+96.0
+28.0
+80.0
+79.0
+3.2
+2.61
+9.51
+5.11
+3.31
+0.91
+8.71
+5.92
+9.52
+)g/lomμ(
+esoculG
+10.0<
+56.0
+10.0<
+10.0
+21
+*351
+201
+*321
+46
+†611
+36
+981
+132
+)g/lomμ(
+negocylG
+50.0
+82.0
+98.0
+61.0
+1.1
+8.81
+7.71
+1.71
+7.81
+†4.61
+8.02
+8.22
+2.22
+)g/lomμ(
+dipilohpsohP
+61.0
+01.0
+13.0
+65.0
+33
+501
+86
+46
+521
+69
+42
+6.6
+7.5
+)g/lomμ(
+5GAT
+dnalg
+yrammaM
+—
+37.0
+19.0
+58.0
+59
+609
+168
+559
+588
+378
+149
+—
+—
+)h/L(
+wolf
+amsalp
+yrammaM
+—
+88.0
+10.0<
+77.0
+9.0
+0.72
+9.62
+5.82
+1.82
+8.13
+2.13
+—
+—
+)%(
+tircotameH
+xulf
+amsalp
+yrammam
+teN
+—
+51.0
+10.0<
+50.0
+43
+462
+233
+*532
+763
+921
+902
+—
+—
+)h/lomm(
+BHB
+—
+42.0
+10.0<
+12.0
+34
+957
+796
+†127
+506
+035
+205
+—
+—
+)h/lomm(
+esoculG
+—
+81.0
+98.0
+41.0
+80.0
+44.1
+73.1
+15.1
+82.1
+25.1
+23.1
+—
+—
+fo
+oitar
+tuptuo
+ot ekatpU esoculg
+—
+13.0
+10.0<
+97.0
+21
+24
+13
+72
+83
+0.8
+4.2−
+—
+—
+)h/lomm(
+etatcaL-l
+xulf
+doolb
+yrammam
+teN
+—
+86.0
+22.0
+69.0
+281
+041,2
+261,2
+411,2
+899,1
+997,1
+029,1
+—
+—
+)h/lomm(
+negyxO
+—
+45.0
+09.0
+09.0
+482
+618,2−
+509,2−
+778,2−
+906,2−
+406,2−
+588,2−
+—
+—
+)h/lomm(
+edixoid
+nobraC
+.MID
+92
+ot
+1
+morf
+gnideef
+gninrom
+hcae
+ta
+)GPP(
+locylg
+enelyporp
+fo
+g
+005
+ro
+)NOC(
+retaw
+pat
+fo
+g
+005
+fo
+noisufni
+lanimur
+erew
+)trT(
+stnemtaerT1
+.tes
+atad
+morf
+dedulcxe
+era
+snoitavresbo
+mutraperp
+nehw
+stceffe dexiF2
+.MID
+4
+dna
+mutraperp
+neewteb
+ecnereffid
+no
+tceffe
+tnemtaert
+rof tset
+DSL s’rehsiF3
+.sesylana
+eht
+ni
+desu
+saw
+MID
+fo
+etad
+eht
+ot
+tsesolc
+dedrocer
+SCB ehT4
+.atad
+demrofsnart-nl
+morf
+era seulav-P5
+.swor
+dna
+MID
+nihtiw
+snaem
+SL
+neewteb
+ecnereffid
+yfingis
+slobmys
+;01.0 ≤
+P† ,50.0 ≤
+P*
+
+--- Page 12 ---
+8592 BJERRE-HARPØTH ET AL.
+Journal of Dairy Science Vol. 98 No. 12, 2015
+1spuorg
+neewteb
+ro
+emit
+htiw
+desserpxe
+yllaitnereffid
+snietorp
+deifitnedi
+fo
+ecnadnuba
+evitaleR
+.6
+elbaT
+4eulav-P
+3eulav-P
+MID
+92
+MID
+51
+MID
+4
+mutraperP
+noitisnarT
+trT
+trT
+×
+MID
+×
+MID
+trT
+MES
+GPP
+NOC
+GPP
+NOC
+GPP
+NOC
+GPP
+NOC
+2nietorP
+ralullecartxE
+23.0
+53.0
+50.0
+52.0
+821.0
+135.2
+886.2
+208.2
+641.2
+970.2
+393.1
+928.1
+152.1
+I-A
+nietorpopilopA
+86.0
+27.0
+10.0
+29.0
+020.0
+263.0
+643.0
+383.0
+254.0
+692.0
+222.0
+281.0
+671.0
+VI-A
+nietorpopilopA
+97.0
+70.0
+10.0<
+55.0
+300.0
+030.0
+730.0
+640.0
+440.0
+260.0
+070.0
+930.0
+030.0
+nietorp
+GGF
+52.0
+21.0
+96.0
+10.0
+140.0
+233.0
+360.1
+954.0
+346.0
+504.0
+975.0
+635.0
+445.0
+niahc
+β ,negonirbiF
+76.0
+27.0
+10.0<
+27.0
+200.0
+310.0
+130.0
+600.0
+120.0
+320.0
+810.0
+710.0
+420.0
+nilubolgorcam-2-ahplA
+89.0
+77.0
+25.0
+50.0
+100.0
+410.0
+400.0
+210.0
+500.0
+210.0
+300.0
+700.0
+100.0
+nimubla
+mureS
+97.0
+13.0
+90.0
+50.0
+300.0
+810.0
+400.0
+040.0
+820.0
+820.0
+600.0
+410.0
+600.0
+α tinubus
+,nibolgomeH
+99.0
+49.0
+01.0
+20.0
+500.0
+050.0
+810.0
+730.0
+610.0
+350.0
+030.0
+940.0
+510.0
+β tinubus
+,nibolgomeH
+ralulleC
+53.0
+20.0
+10.0<
+10.0<
+200.0
+110.0
+040.0
+800.0
+020.0
+700.0
+310.0
+600.0
+620.0
+niahc
+)I(1-α
+negalloC
+76.0
+41.0
+51.0
+40.0
+300.0
+400.0
+000.0
+740.0
+610.0
+620.0
+330.0
+050.0
+800.0
+II
+epyt
+,nitareK
+57.0
+21.0
+88.0
+10.0
+400.0
+320.0
+650.0
+520.0
+630.0
+720.0
+530.0
+410.0
+540.0
+2A
+nixennA
+92.0
+30.0
+50.0
+05.0
+600.0
+470.0
+530.0
+610.0
+410.0
+110.0
+320.0
+830.0
+240.0
+5A
+nixennA
+42.0
+61.0
+84.0
+10.0
+000.0
+300.0
+500.0
+300.0
+810.0
+400.0
+300.0
+200.0
+500.0
+esanik
+PMC-PMU
+34.0
+52.0
+86.0
+30.0
+400.0
+310.0
+810.0
+500.0
+140.0
+810.0
+610.0
+310.0
+630.0
+esarefsnart-S
+enoihtatulG
+43.0
+13.0
+44.0
+20.0
+100.0
+600.0
+210.0
+600.0
+610.0
+600.0
+020.0
+210.0
+510.0
+43 nietorp
+regnif
+cniZ
+94.0
+10.0<
+10.0<
+10.0
+100.0
+700.0
+130.0
+600.0
+410.0
+300.0
+700.0
+200.0
+210.0
+2
+esarefsnartlyteca
+A emyzneoC-lytecA
+.MID
+92
+ot
+1
+morf
+gnideef
+gninrom
+hcae
+ta
+)GPP(
+locylg
+enelyporp
+fo
+g
+005
+ro
+)NOC(
+retaw
+pat
+fo
+g
+005
+fo
+noisufni
+lanimur
+erew )trT(
+stnemtaerT1
+.elbat
+siht
+ni
+detsil
+ton
+era
+dna
+snietorp
+deziretcarahcnu
+sa
+deifitnedi
+erew
+snietorp
+tnereffid
+thgiE2
+.tes
+atad
+morf
+dedulcxe
+era
+snoitavresbo
+mutraperp
+nehw
+stceffe
+dexiF3
+.MID
+4
+dna
+mutraperp
+neewteb
+ecnereffid
+no
+tceffe
+tnemtaert
+rof tset
+DSL
+s’rehsiF4
+
+--- Page 13 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8593
+of whole body lipid content revealed corresponding re- the periparturient period. Moreover, ACAT2, which is
+sults. The extent of postpartum body fat mobilization involved in β-oxidation, and thus in the degradation of
+determined in the current experiment was similar to long-chain acyl-CoA, was increasingly expressed dur-
+previous determinations when expressed in both abso- ing the progression of lactation in both groups. The
+lute terms (Chilliard et al., 1984; Chibisa et al., 2008) resulting intensified degradation of long-chain acyl-
+and changes in relative body composition (Andrew et CoA during early lactation would ultimately reduce
+al., 1995). In the present experiment, the body lipid acyl-CoA-mediated inhibition of triglyceride lipase and
+loss averaged (±SE) 18.9 ± 8.7 kg from 4 to 29 DIM. thus contribute to support lipolysis (Nagy et al., 2014).
+Chilliard et al. (1984) observed that cows lost 15 to However, we did not observe alterations in the abun-
+40 kg adipose tissue from wk 1 to 8 postpartum, and dance of triglyceride lipase or any other lipase such as
+Chibisa et al. (2008) observed the body lipid pool to hormone-sensitive lipase, which is differentially phos-
+decrease by 19 kg from –14 to 38 DIM. Andrew et al. phorylated in periparturient cows (Locher et al., 2011).
+(1995) observed the body lipid content to 15.4% at 7 d The activity of hormone-sensitive lipase is likely de-
+prepartum and to 8.5% at 63 DIM. termined by its phosphorylation status rather than by
+In PG studies with demonstrated differences in its mere abundance. However, periparturient changes in
+plasma NEFA concentrations in early lactation, PG the abundance of hormone-sensitive lipase can only be
+had been allocated periparturient (Formigoni et al., observed in cows with insulin-resistant but not insulin-
+1996; Butler et al., 2006; Lien et al., 2010) and exclu- sensitive adipose tissue (Zachut, 2015). Nevertheless,
+sively postpartum (Sauer et al., 1973; Pickett et al., our proteome results highlight new candidate proteins
+2003). Studer et al. (1993) showed that PG allocation earlier known to be involved in the regulation of lipid
+exclusively prepartum tended to affect the postpartum degradation, exocytosis, and lipolysis to play a role in
+plasma NEFA concentration. However, in the present adipose tissue metabolism during the transition period
+experiment the concentration of plasma NEFA com- of dairy cows.
+plied with the described limited PG influence on lipid The concentration of leptin was initially expected to
+metabolism. As a consequence, the plasma NEFA con- be higher for PPG compared with CON due to expected
+centrations only differed between treatments in the first lower mobilization of adipose tissue in PPG (Delavaud
+week after parturition. et al., 2002) and due to expected higher plasma insulin
+The proteome analysis further supports the limited concentrations in PPG (Leury et al., 2003; Thorn et
+influence of postpartum PG allocation on adipose tis- al., 2008). Still, neither of the previously mentioned
+sue mobilization. Although 7 adipose tissue-specific body fat variables nor the plasma insulin concentra-
+proteins were differentially expressed between PPG tions showed differences between treatments. As a
+and CON animals, these differences were not evident consequence, the concentration of leptin in plasma was
+when evaluated for the allocation period only. However, not different between groups, but the observed peripar-
+annexin A5, collagen, and ACAT2 differed with DIM. turient pattern concurred with previous observations
+The expression changes with DIM might be attributed (Block et al., 2001).
+to changes in back fat thickness. Recent proteome stud- Overall, the present quantitative observations of
+ies reported that the expression of annexin 1 is closely body composition in combination with the qualitative
+linked to fat accretion, back fat thickness, and adipos- observations of plasma metabolites and hormones, as
+ity in bovine species (Zhao et al., 2010; Romao et al., well as abundance of adipose tissue proteins, indicate
+2014; Zachut, 2015). Proteins of the annexin family act that postpartum allocation of PG had limited effect on
+as phospholipase inhibitors, regulators of exocytosis, the extent of postpartum adipose tissue mobilization,
+and linkage of membrane-associated complexes to the despite large influences on glucose and BHB plasma
+cytoskeleton. In annexin A1-null mice, it was recently concentrations. These results underline the strength of
+shown that annexin A1 alters the sensitivity of adipose the genetic drive of lactating dairy cows to mobilize
+tissue toward lipolytic stimuli, such as catecholamines adipose tissue after parturition (Friggens et al., 2007;
+and glucocorticoids, and that annexin A1 modulates Roche et al., 2009).
+lipolysis and adipose tissue mass accretion (Warne et
+al., 2006). In periparturient cows, the expression of an-
+Effect on Metabolism
+nexin A1 in adipose tissue was also lowered postpartum
+as compared with prepartum (Zachut, 2015). Thus, the Even though the mode of action of PG is not fully
+altered abundance of annexin A1 with increasing DIM described, it is generally accepted that PG has a gluco-
+indicates its potential involvement in the regulation of genic effect (Grummer et al., 1994; Nielsen and Ingvar-
+exocytosis, lipolysis, and fat accretion (Warne et al., tsen, 2004; Chung et al., 2009). The glucogenic status
+2006; Zhao et al., 2010; Romao et al., 2014) during of the cow has an influence on the liver metabolism of
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 14 ---
+8594 BJERRE-HARPØTH ET AL.
+NEFA and, thereby, of the regulation of ketogenesis. PG is spilt during allocation, as may happen with oral
+Adequate glucose availability causes an increase in the drenching; yet, the allocation method ensured the PG
+concentration of malonyl-CoA in the liver. Malonyl- dose was delivered in the ruminal water phase, thereby
+CoA suppresses the carnitine palmityl transferase I ac- securing fast absorption of PG.
+tivity, which leads to a decrease transport of NEFA into The large effect of postpartum PG allocation on
+the mitochondria (Heitmann et al., 1987; Herdt, 2000). circulating levels of glucose and BHB was reflected in
+Thus, the low glucose availability seen in postpartum mammary uptake and metabolism, as BHB uptake was
+dairy cows results in an increased amount of NEFA (in greater with CON when BHB plasma concentrations
+form of acetyl-CoA) within the mitochondria available were greater. Though mammary glucose uptake was
+for oxidation. The partitioning of formed acetyl-CoA unaffected by the greater plasma glucose concentration
+between the Krebs cycle and ketogenesis is not fully with PPG, the numerically greater uptake-to-output
+understood; however, a relatively high NADH-to-NAD ratio of glucose equivalents indicate that the greater
+ratio within ruminant mitochondria may promote keto- glucogenic status increased the intramammary utiliza-
+genesis (Zammit, 1990). tion of glucose for energetic purposes.
+The influence of the glucogenic status of the cows In studies with prepartum (Studer et al., 1993) or 2
+on liver metabolism was demonstrated in the present to 3 d postpartum allocation of PG (Stokes and Goff,
+experiment, as cows with PPG had a significantly lower 2001; Pickett et al., 2003), carry-over effects in plasma
+plasma BHB concentration compared with cows with NEFA concentrations were observed; no carry-over ef-
+CON. In addition, it seems as though the higher plasma fect on plasma concentrations of glucose and BHB were
+glucose concentration for PPG had a parsimonious ef- noted, however. In the current experiment, the cessa-
+fect on the liver glycogen storage in the beginning of tion of PG allocation caused a rapid decrease in plasma
+lactation compared with CON. Despite the metabolic glucose concentration coinciding with increasing plasma
+changes caused by the differences in glucogenic status, BHB, whereas the plasma concentration of glucose and
+liver TAG concentration was unaffected by PG. Even BHB for PPG did not differ from CON from the second
+though the liver TAG concentrations in CON were in week of the follow-up period. Therefore, the present
+agreement with the general knowledge of liver TAG experiment suggests that longer postpartum allocation
+profiles in early lactation (Drackley et al., 2005), with of PG does not induce a carry-over effect. Meaning PG
+the largest concentration of liver TAG at 15 DIM, the allocation can be used to obtain a 2-step adaptation to
+relatively high variation observed for this variable indi- lactation in cows with high risk of lipid-related meta-
+cates that the TAG results should be interpreted with bolic disease (e.g., over-conditioned at parturition).
+caution. This implies that the first step of adaptation occurs
+The effect of PG on plasma insulin concentration at parturition and the second step of adaptation can
+seems to be dependent on physiological stage of the be imposed upon cows when the largest increments in
+cows, as no effect of treatment on plasma insulin con- milk yield and feed intake have occurred (e.g., around
+centration was seen in the current experiment, despite 3 wk postpartum). As seen with PPG, this will reduce
+the difference in plasma glucose concentrations. Similar the nadir and peak in plasma concentration of glucose
+trends were seen in other studies with periparturient and BHB, respectively; however, this needs further in-
+cows (Butler et al., 2006; Lien et al., 2010), whereas vestigation.
+studies with cows in other stages of lactation have shown
+increased plasma insulin concentrations in response to
+CONCLUSIONS
+PG allocation (Grummer et al. 1994; Christensen et
+al. 1997; Kristensen and Raun, 2007). These results The traditional explanation of the effect of PG, re-
+showing different effects of PG on insulin depending lated to decreased mobilization of adipose tissue, was
+on stage of lactation may suggest that insulin in the not clearly observed in the present experiment. The
+periparturient period largely plays a homeorhetic role, different variables to measure body fat and its mobi-
+over time changing to homeostatic control. lization (body composition, plasma NEFA, liver TAG,
+Regardless of the state of the cow, PG studies and adipose protein abundance) were concurrent and
+generally suggest that the metabolic effects of PG is showed that PG had limited influence on mobiliza-
+established when the PG dose undergoes a fast ru- tion from adipose tissue in the first few weeks after
+minal uptake that results in a prompt increase in the parturition. Thus, the risk of hepatic liposis in over-
+concentrations of PG and the ruminally formed PG conditioned postpartum cows was likely even between
+metabolites within the blood (Christensen et al., 1997; treatments. Rather, the main effect of PG was related
+Kristensen and Raun, 2007). In the present experiment, to glucose metabolism, increasing the glucogenic status
+intraruminal allocation was chosen to ensure that no in the PG-allocated cows. As a consequence, the con-
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 15 ---
+PROPYLENE GLYCOL TO POSTPARTUM COWS 8595
+centration of plasma BHB was lowered with PPG and Chilliard, Y., J. Robelin, and B. Remond. 1984. In vivo estimation of
+these cows had a decreased risk of developing ketosis. body lipid mobilization and reconstitution in dairy-cattle. Can. J.
+Anim. Sci. 64:236–237.
+The experiment showed no carry-over effects of PG al-
+Christensen, J. O., R. R. Grummer, F. E. Rasmussen, and S. J. Ber-
+location in postpartum dairy cows identified to be at tics. 1997. Effect of method of delivery of propylene glycol on plas-
+risk of lipid-related metabolic diseases, thus indicating ma metabolites of feed-restricted cattle. J. Dairy Sci. 80:563–568.
+Chung, Y. H., I. D. Girard, and G. A. Varga. 2009. Effects of feeding
+a possibility to induce a 2-step adaption to lactation
+dry propylene glycol to early postpartum Holstein dairy cows on
+with PG; this needs further investigation, however. production and blood parameters. Animal 3:1368–1377.
+Delavaud, C., A. Ferlay, Y. Faulconnier, F. Bocquier, G. Kann, and
+Y. Chilliard. 2002. Plasma leptin concentration in adult cattle: Ef-
+ACKNOWLEDGMENTS fects of breed, adiposity, feeding level, and meal intake. J. Anim.
+Sci. 80:1317–1328.
+We acknowledge Anne Krustrup, Torkild N. Jakob- Drackley, J. K., H. M. Dann, G. N. Douglas, N. A. J. Guretzky, N. B.
+Litherland, J. P. Underwood, and J. J. Loor. 2005. Physiological
+sen, Jens B. Clausen, Martin Bjerring, Ole H. Olsen,
+and pathological adaptations in dairy cows that may increase sus-
+Carsten Berthelsen, Birgit H. Løth, Jim Christensen, ceptibility to periparturient diseases and disorders. Ital. J. Anim.
+Kasper B. Poulsen, and the barn staff at Department Sci. 4:323–344.
+Ferguson, J. D., D. T. Galligan, and N. Thomsen. 1994. Principal
+of Animal Science, Faculty of Science and Technology,
+descriptors of body condition score in Holstein cows. J. Dairy Sci.
+Aarhus University (Tjele, Denmark), for skillful and 77:2695–2703.
+dedicated technical assistance. We thank Erik Jørgensen Formigoni, A., M. C. Cornil, A. Prandi, A. Mordenti, A. Rossi, D. Por-
+tetelle, and R. Renaville. 1996. Effect of propylene glycol supple-
+(Faculty of Science and Technology, Aarhus University)
+mentation around parturition on milk yield, reproduction perfor-
+for statistical counseling. Funding was provided by mance and some hormonal and metabolic characteristics in dairy
+The Danish AgriFish Agency (Copenhagen, Denmark; cows. J. Dairy Res. 63:11–24.
+Friggens, N. C., J. B. Andersen, T. Larsen, O. Aaes, and R. J. De-
+no.3412-10-02814), the Danish Cattle Federation (Aar-
+whurst. 2004. Priming the dairy cow for lactation: A review of dry
+hus, Denmark), and the Ministry of Food, Agriculture, cow feeding strategies. Anim. Res. 53:453–473.
+and Fisheries (Copenhagen, Denmark). V. Bjerre- Friggens, N. C., P. Berg, P. Theilgaard, I. R. Korsgaard, K. L. Ingvar-
+tsen, P. Lovendahl, and J. Jensen. 2007. Breed and parity effects
+Harpøth’s PhD Scholarship was co-financed by the
+on energy balance profiles through lactation: Evidence of geneti-
+Faculty of Science and Technology, Aarhus University cally driven body energy change. J. Dairy Sci. 90:5291–5305.
+(Aarhus, Denmark). We further thank Marlies Althaus, Garnsworthy, P. C., and J. H. Topps. 1982. The effect of body condi-
+tion of dairy-cows at calving on their food-intake and performance
+(FBN Dummerstorf) and Dirk Albrecht (Institute of
+when given complete diets. Anim. Prod. 35:113–119.
+Microbiology, University of Greifswald, Germany) for Gibb, M. J., W. E. Irvings, M. S. Dhanoa, and J. D. Sutton. 1992.
+their assistance in 2D-GE and MALDI-TOF analyses, Changes in body components of autumn-calving Holstein-Friesian
+cows over the first 29 weeks of lactation. Anim. Prod. 55:339–360.
+respectively.
+Grummer, R. R. 1993. Etiology of lipid-related metabolic disorders in
+periparturient dairy cows. J. Dairy Sci. 76:3882–3896.
+Grummer, R. R., J. C. Winkler, S. J. Bertics, and V. A. Studer. 1994.
+REFERENCES Effect of propylene glycol dosage during feed restriction on me-
+tabolites in blood of prepartum Holstein heifers. J. Dairy Sci.
+Andrew, S. M., R. A. Erdman, and D. R. Waldo. 1995. Prediction 77:3618–3623.
+of body-composition of dairy cows at 3 physiological stages from Heitmann, R. N., D. J. Dawes, and S. C. Sensenig. 1987. Hepatic ke-
+deuterium-oxide and urea dilution. J. Dairy Sci. 78:1083–1095. togenesis and peripheral ketone body utilization in the ruminant.
+Binnerts, W. T., A. T. Van ‘t Klooster, and A. M. Frens. 1968. Soluble J. Nutr. 117:1174–1180.
+chromium indicator measured by atomic absorption in digestion Herdt, T. H. 2000. Ruminant adaptation to negative energy balance—
+experiments. Vet. Rec. 82:470. Influences on the etiology of ketosis and fatty liver. Vet. Clin.
+Bjerre-Harpøth, V., N. C. Friggens, V. M. Thorup, T. Larsen, B. M. North Am. Food Anim. Pract. 16:215–230.
+Damgaard, K. L. Ingvartsen, and K. M. Moyes. 2012. Metabolic House, W. A., and A. W. Bell. 1993. Mineral accretion in the fetus
+and production profiles of dairy cows in response to decreased and adnexa during late-gestation in Holstein cows. J. Dairy Sci.
+nutrient density to increase physiological imbalance at different 76:2999–3010.
+stages of lactation. J. Dairy Sci. 95:2362–2380. Ingvartsen, K. L. 2006. Feeding and management-related diseases in
+Bjerre-Harpøth, V., M. Larsen, N. C. Friggens, T. Larsen, M. R. Weis- the transition cow—Physiological adaptations around calving and
+bjerg, and B. M. Damgaard. 2014. Effect of dietary energy supply strategies to reduce feeding-related diseases. Anim. Feed Sci. Tech-
+to dry Holstein cows with high or low body condition score at dry nol. 126:175–213.
+off on production and metabolism in early lactation. Livest. Sci. Kristensen, N. B., and B. M. L. Raun. 2007. Ruminal and intermedi-
+168:60–75. ary metabolism of propylene glycol in lactating Holstein cows. J.
+Block, S. S., W. R. Butler, R. A. Ehrhardt, A. W. Bell, M. E. Van Dairy Sci. 90:4707–4717.
+Amburgh, and Y. R. Boisclair. 2001. Decreased concentration of Kristensen, N. B., A. C. Storm, B. M. L. Raun, B. A. Røjen, and D.
+plasma leptin in periparturient dairy cows is caused by negative L. Harmon. 2007. Metabolism of silage alcohols in lactating dairy
+energy balance. J. Endocrinol. 171:339–348. cows. J. Dairy Sci. 90:1364–1377.
+Butler, S. T., S. H. Pelton, and W. R. Butler. 2006. Energy balance, Lapierre, H., G. E. Lobley, L. Doepel, G. Raggio, H. Rulquin, and S.
+metabolic status, and the first postpartum ovarian follicle wave in Lemosquet. 2012. Triennial Lactation Symposium: Mammary me-
+cows administered propylene glycol. J. Dairy Sci. 89:2938–2951. tabolism of amino acids in dairy cows. J. Anim. Sci. 90:1708–1721.
+Chibisa, G. E., G. N. Gozho, A. G. Van Kessel, A. A. Olkowski, and T. Larsen, M., and N. B. Kristensen. 2009. Effect of abomasal glucose
+Mutsvangwa. 2008. Effects of peripartum propylene glycol supple- infusion on splanchnic and whole-body glucose metabolism in pe-
+mentation on nitrogen metabolism, body composition, and gene riparturient dairy cows. J. Dairy Sci. 92:1071–1083.
+expression for the major protein degradation pathways in skeletal
+muscle in dairy cows. J. Dairy Sci. 91:3512–3527.
+Journal of Dairy Science Vol. 98 No. 12, 2015
+
+--- Page 16 ---
+8596 BJERRE-HARPØTH ET AL.
+Larsen, M., H. Lapierre, and N. B. Kristensen. 2014a. Abomasal pro- of physiological variations during beef cattle growth. J. Anim. Sci.
+tein infusion in postpartum transition dairy cows: effect on per- 92:3316–3327.
+formance and mammary metabolism. J. Dairy Sci. 97:5608–5622. Sauer, F. D., J. D. Erfle, and L. J. Fisher. 1973. Propylene-glycol and
+Larsen, M., H. Lapierre, and N. B. Kristensen. 2014b. Effect of post- glycerol as a feed additive for lactating dairy-cows—Evaluation of
+partum protein deficiency in dairy cows on synthesis of plasma blood metabolite parameters. Can. J. Anim. Sci. 53:265–271.
+total protein and albumin. Anim. Prod. Aust. 30:294. Schäff, C., S. Börner, S. Hacke, U. Kautzsch, H. M. Hammon, M.
+Leury, B. J., L. H. Baumgard, S. S. Block, N. Segoale, R. A. Ehrhardt, Röntgen, and B. Kuhla. 2012. Increased anaplerosis, TCA cycling
+R. P. Rhoads, D. E. Bauman, A. W. Bell, and Y. R. Boisclair. and oxidative phosphorylation in the liver of dairy cows with in-
+2003. Effect of insulin and growth hormone on plasma leptin in tensive body fat mobilization during early lactation. J. Proteome
+periparturient dairy cows. Am. J. Physiol. Regul. Integr. Comp. Res. 11:5503–5514.
+Physiol. 285:R1107–R1115. Stokes, S. R., and J. P. Goff. 2001. Evaluation of calcium propionate
+Lien, T. F., L. B. Chang, Y. M. Horng, and C. P. Wu. 2010. Effects and propylene glycol administered into the esophagus at calving.
+of propylene glycol on milk production, serum metabolites and re- Prof. Anim. Sci. 17:115–122.
+productive performance during the transition period of dairy cows. Storm, A. C., M. D. Hanigan, and N. B. Kristensen. 2011. Effects of
+Asian-Australas. J. Anim. Sci. 23:372–378. ruminal ammonia and butyrate concentrations on reticuloruminal
+Locher, L. F., N. Meyer, E. M. Weber, J. Rehage, U. Meyer, S. Dän- epithelial blood flow and volatile fatty acid absorption kinetics
+icke, and K. Huber. 2011. Hormone-sensitive lipase protein expres- under washed reticulorumen conditions in lactating dairy cows. J.
+sion and extent of phosphorylation in subcutaneous and retroperi- Dairy Sci. 94:3980–3994.
+toneal adipose tissues in the periparturient dairy cow. J. Dairy Sci. Studer, V. A., R. R. Grummer, S. J. Bertics, and C. K. Reynolds.
+94:4514–4523. 1993. Effect of prepartum propylene glycol administration on pe-
+Lomander, H., J. Frossling, K. L. Ingvartsen, H. Gustafsson, and C. riparturient fatty liver in dairy cows. J. Dairy Sci. 76:2931–2939.
+Svensson. 2012. Supplemental feeding with glycerol or propylene Thorn, S. R., R. A. Ehrhardt, W. R. Butler, S. M. Quirk, and Y. R.
+glycol of dairy cows in early lactation—Effects on metabolic sta- Boisclair. 2008. Insulin regulates hepatic leptin receptor expression
+tus, body condition, and milk yield. J. Dairy Sci. 95:2397–2408. in early lactating dairy cows. Am. J. Physiol. Regul. Integr. Comp.
+Løvendahl, P., and H. M. Purup. 2002. Technical note: Time-resolved Physiol. 295:R1455–R1462.
+fluro-immunometric assay for intact insulin in livestock species. J. Volden, H., ed. 2011. NorFor—The Nordic Feed Evaluation System.
+Anim. Sci. 80:191–195. EAAP Publ. No. 130. Wageningen Academic Publishers, Wagenin-
+Nagy, H. M., M. Paar, C. Heier, T. Moustafa, P. Hofer, G. Haem- gen, the Netherlands.
+merle, A. Lass, R. Zechner, M. Oberer, and R. Zimmermann. 2014. Warne, J. P., C. D. John, H. C. Christian, J. F. Morris, R. J. Flower,
+Adipose triglyceride lipase activity is inhibited by long-chain acyl- D. Sugden, E. Solito, G. E. Gillies, and J. C. Buckingham. 2006.
+coenzyme A. Biochim. Biophys. Acta 1841:588–594. Gene deletion reveals roles for annexin A1 in the regulation of
+Nielsen, N. I., and K. L. Ingvartsen. 2004. Propylene glycol for dairy lipolysis and IL-6 release in epididymal adipose tissue. Am. J.
+cows—A review of the metabolism of propylene glycol and its ef- Physiol. Endocrinol. Metab. 291:E1264–E1273.
+fects on physiological parameters, feed intake, milk production and Williams, C. H., D. J. David, and O. Iismaa. 1962. The determination
+risk of ketosis. Anim. Feed Sci. Technol. 115:191–213. of chromic oxide in faeces samples by atomic absorption spectro-
+Pickett, M. M., M. S. Piepenbrink, and T. R. Overton. 2003. Effects photometry. J. Agric. Sci. 59:381–385.
+of propylene glycol or fat drench on plasma metabolites, liver com- Zachut, M. 2015. Defining the adipose tissue proteome of dairy cows
+position, and production of dairy cows during the periparturient to reveal biomarkers related to peripartum insulin resistance and
+period. J. Dairy Sci. 86:2113–2121. metabolic status. J. Proteome Res. 14:2863–2871.
+Roche, J. R., N. C. Friggens, J. K. Kay, M. W. Fisher, K. J. Stafford, Zammit, V. A. 1990. Ketogenesis in the liver of ruminants—Adaption
+and D. P. Berry. 2009. Invited review: Body condition score and to a challenge. J. Agric. Sci. 115:155–162.
+its association with dairy cow productivity, health, and welfare. J. Zhao, Y. M., U. Basu, M. V. Dodson, J. A. Basarb, and L. L. Guan.
+Dairy Sci. 92:5769–5801. 2010. Proteome differences associated with fat accumulation in
+Romao, J. M., M. L. He, T. McAllister, and L. L. Guan. 2014. Effect of bovine subcutaneous adipose tissues. Proteome Sci. 8:14.
+age on bovine subcutaneous fat proteome: Molecular mechanisms
+Journal of Dairy Science Vol. 98 No. 12, 2015
