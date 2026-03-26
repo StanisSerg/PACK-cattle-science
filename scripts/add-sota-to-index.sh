@@ -105,12 +105,16 @@ FIRST_TAG=$(grep -A 20 "^tags:" "$SOTA_FILE" | grep "^- " | head -1 | sed 's/^- 
 # Краткое название (первые 3-4 слова из title)
 SHORT_TITLE=$(echo "$TITLE" | cut -d' ' -f1-4 | sed 's/ $//')
 
-# Строка для полного списка
-FULL_LIST_ROW="| $ID | $FIRST_AUTHOR | $YEAR | $CATEGORY | \`#$FIRST_TAG\` | $SHORT_TITLE... |"
+# Имя файла для формирования путей
+FILENAME=$(basename "$SOTA_FILE")
+
+# Строка для полного списка (с кликабельной ссылкой)
+# Формируем относительный путь от 07-map к файлу SoTA
+RELATIVE_PATH="../06-sota/$FOLDER/$FILENAME"
+FULL_LIST_ROW="| [$ID]($RELATIVE_PATH) | $FIRST_AUTHOR | $YEAR | $CATEGORY | \`#$FIRST_TAG\` | $SHORT_TITLE... |"
 
 # 2. Для "По структуре папок"
 # Формат: | CS.SOTA.XXX-author-year.md | XXX | Description |
-FILENAME=$(basename "$SOTA_FILE")
 DESCRIPTION=$(echo "$SHORT_TITLE" | sed 's/"//g')
 FOLDER_ROW="| $FILENAME | ${ID##*.} | $DESCRIPTION |"
 
