@@ -26,92 +26,92 @@
 
 | ID | Статья | Год | Тип | Теги | Ключевой результат |
 |----|--------|-----|-----|------|-------------------|
-| [CS.SOTA.001](../06-sota/reproduction/CS.SOTA.001-crowe-2018.md) | Crowe et al. | 2018 | Review | `#будущее` `#TAI` `#мониторы` `#геномика` | Интеграция технологий → 21-d PR 30%+ |
-| [CS.SOTA.002](../06-sota/reproduction/CS.SOTA.002-fricke-2023.md) | Fricke et al. | 2023 | Mini-review | `#high-fertility-cycle` `#BCS` `#фертильность` | ΔBCS >0.75 → P/AI 25%; прирост BCS → P/AI 83% |
-| [CS.SOTA.003](../06-sota/reproduction/CS.SOTA.003-chebel-ribeiro-2016.md) | Chebel & Ribeiro | 2016 | Review | `#репродуктивные-системы` `#TAI` `#синхронизация` | ED+TAI комбинация оптимальна |
-| [CS.SOTA.004](../06-sota/reproduction/CS.SOTA.004-albaaj-2023.md) | Albaaj et al. | 2023 | Meta-analysis | `#потери-беременности` `#аборты` `#стадии` | Потери: 27% → 13% → 7% → 2% |
-| [CS.SOTA.005](../06-sota/reproduction/CS.SOTA.005-mwangi-2025.md) | Mwangi et al. | 2025 | Field-study | `#гестация` `#дистоция` `#перинатальная-смертность` | Оптимум 280-282 дня; экстремумы → риск ×2 |
-| [CS.SOTA.006](../06-sota/reproduction/CS.SOTA.006-caraviello-2006.md) | Caraviello et al. | 2006 | Survey | `#менеджмент` `#практики` `#опрос` | Охват ИО 85%, ВОС 14.5% |
-| [CS.SOTA.007](../06-sota/reproduction/CS.SOTA.007-de-bruijn-2023.md) | De Bruijn et al. | 2023 | Field-study | `#кормовое-поведение` `#переходный-период` `#RFID` | TFT <4ч → риск кетоза ×2.3, задержка овуляции +14 дней |
-| [CS.SOTA.014](../06-sota/reproduction/CS.SOTA.014-senger-2002.md) | Senger | 2002 | Review | `#факторы-плодовитости` `#менеджмент` `#обнаружение-охоты` | Обнаружение охоты #1, техника ИО #2, переходный период #3 |
-| [CS.SOTA.019](../06-sota/reproduction/CS.SOTA.019-lauber-2025.md) | Lauber et al. | 2025 | Simulation | `#экономика` `#21-дневная-стельность` `#sexed-сперма` | Оптимальный IEP 80-200 дней, sexed+beef +$51/корова |
-| [CS.SOTA.023](../06-sota/reproduction/CS.SOTA.023-carvalho-2019.md) | Carvalho et al. | 2019 | Research | `#прогестерон` `#двойняшность` `#TAI` | CIDR снижает двойню с 29% до 0% |
-| [CS.SOTA.025](../06-sota/reproduction/CS.SOTA.025-hansson-vwp.md) | Hansson et al. | 2025 | Research | `#VWP` `#140-дней` `#сезонное-отел` | VWP 140 дней улучшает фертильность без потери молока |
+| [CS.SOTA.001](./06-sota/reproduction/CS.SOTA.001-crowe-2018.md) | Crowe et al. | 2018 | Review | `#будущее` `#TAI` `#мониторы` `#геномика` | Интеграция технологий → 21-d PR 30%+ |
+| [CS.SOTA.002](./06-sota/reproduction/CS.SOTA.002-fricke-2023.md) | Fricke et al. | 2023 | Mini-review | `#high-fertility-cycle` `#BCS` `#фертильность` | ΔBCS >0.75 → P/AI 25%; прирост BCS → P/AI 83% |
+| [CS.SOTA.003](./06-sota/reproduction/CS.SOTA.003-chebel-ribeiro-2016.md) | Chebel & Ribeiro | 2016 | Review | `#репродуктивные-системы` `#TAI` `#синхронизация` | ED+TAI комбинация оптимальна |
+| [CS.SOTA.004](./06-sota/reproduction/CS.SOTA.004-albaaj-2023.md) | Albaaj et al. | 2023 | Meta-analysis | `#потери-беременности` `#аборты` `#стадии` | Потери: 27% → 13% → 7% → 2% |
+| [CS.SOTA.005](./06-sota/reproduction/CS.SOTA.005-mwangi-2025.md) | Mwangi et al. | 2025 | Field-study | `#гестация` `#дистоция` `#перинатальная-смертность` | Оптимум 280-282 дня; экстремумы → риск ×2 |
+| [CS.SOTA.006](./06-sota/reproduction/CS.SOTA.006-caraviello-2006.md) | Caraviello et al. | 2006 | Survey | `#менеджмент` `#практики` `#опрос` | Охват ИО 85%, ВОС 14.5% |
+| [CS.SOTA.007](./06-sota/reproduction/CS.SOTA.007-de-bruijn-2023.md) | De Bruijn et al. | 2023 | Field-study | `#кормовое-поведение` `#переходный-период` `#RFID` | TFT <4ч → риск кетоза ×2.3, задержка овуляции +14 дней |
+| [CS.SOTA.014](./06-sota/reproduction/CS.SOTA.014-senger-2002.md) | Senger | 2002 | Review | `#факторы-плодовитости` `#менеджмент` `#обнаружение-охоты` | Обнаружение охоты #1, техника ИО #2, переходный период #3 |
+| [CS.SOTA.019](./06-sota/reproduction/CS.SOTA.019-lauber-2025.md) | Lauber et al. | 2025 | Simulation | `#экономика` `#21-дневная-стельность` `#sexed-сперма` | Оптимальный IEP 80-200 дней, sexed+beef +$51/корова |
+| [CS.SOTA.023](./06-sota/reproduction/CS.SOTA.023-carvalho-2019.md) | Carvalho et al. | 2019 | Research | `#прогестерон` `#двойняшность` `#TAI` | CIDR снижает двойню с 29% до 0% |
+| [CS.SOTA.025](./06-sota/reproduction/CS.SOTA.025-hansson-vwp.md) | Hansson et al. | 2025 | Research | `#VWP` `#140-дней` `#сезонное-отел` | VWP 140 дней улучшает фертильность без потери молока |
 
 ### Кормление и метаболизм (13)
 
 | ID | Статья | Год | Тип | Теги | Ключевой результат |
 |----|--------|-----|-----|------|-------------------|
-| [CS.SOTA.064](../06-sota/feeding/CS.SOTA.064-bruner-2025.md) | Bruner et al. | 2025 | Experimental | `#анионные-соли` `#DCAD` `#предпочтение` `#потребление` | Микроинкапсулированные анионные соли — высокое потребление |
-| [CS.SOTA.012](../06-sota/feeding/CS.SOTA.012-drackley-1991.md) | Drackley et al. | 1991 | Experimental | `#liver-metabolism` `#carnitine` `#propionate` `#ketogenesis` | Карнитин увеличивает окисление ЖК 2-4x |
-| [CS.SOTA.013](../06-sota/feeding/CS.SOTA.013-raboisson-2017.md) | Raboisson et al. | 2017 | Meta-analysis | `#мочевина` `#беременность` `#питание` `#порог` | Мочевина >5.0 ммоль/л снижает плодовитость |
-| [CS.SOTA.015](../06-sota/feeding/CS.SOTA.015-schuler-2013.md) | Schuler et al. | 2013 | Experimental | `#пропионат` `#инфузия-рубца` `#кормовое-поведение` | Пропионат снижает DMI дозозависимо |
-| [CS.SOTA.016](../06-sota/feeding/CS.SOTA.016-albornoz-2018.md) | Albornoz & Allen | 2018 | Experimental | `#крахмал` `#ферментируемость` `#HMC` `#DGC` | HMC снижает DMI сильнее DGC (краткая версия) |
-| [CS.SOTA.017](../06-sota/feeding/CS.SOTA.017-underwood-2022.md) | Underwood et al. | 2022 | Experimental | `#метаболизируемый-протеин` `#фолликулы` `#до-отела` | Высокий MP увеличивает число фолликулов |
-| [CS.SOTA.018](../06-sota/feeding/CS.SOTA.018-huntington-1990.md) | Huntington | 1990 | Review | `#энергетический-метаболизм` `#PDV` `#печень` | PDV + печень = 7-13% массы, 40-50% O2 |
-| [CS.SOTA.029](../06-sota/health/CS.SOTA.029-aschenbach-2010.md) | Aschenbach et al. | 2010 | Review | `#глюконеогенез` `#пропионат` `#печень` | IUBMB Life версия обзора глюконеогенеза (health) |
-| [CS.SOTA.057](../06-sota/feeding/CS.SOTA.057-aschenbach-2010.md) | Aschenbach et al. | 2010 | Review | `#глюконеогенез` `#пропионат` `#печень` | JDS версия обзора глюконеогенеза (feeding) |
-| [CS.SOTA.031](../06-sota/feeding/CS.SOTA.031-dann-2006.md) | Dann et al. | 2006 | Field-study | `#сухостойный-период` `#переходный-период` `#энергетический-баланс` | Рационы far-off/close-up влияют на метаболизм |
-| [CS.SOTA.033](../06-sota/feeding/CS.SOTA.033-kupczynski-2020.md) | Kupczyński et al. | 2020 | Review | `#глицерол` `#кетоз` `#лечение` | Глицерол как лечение кетоза (Animals 1396) → **переименован в 058** |
-| [CS.SOTA.034](../06-sota/feeding/CS.SOTA.034-litherland-2025.md) | Litherland et al. | 2025 | Field-study | `#дотоеловый-период` `#глюконеогенез` `#печень` | Питание до отёла меняет глюконеогенез (feeding) |
-| [CS.SOTA.048](../06-sota/feeding/CS.SOTA.048-maldini-2019.md) | Maldini & Allen | 2019 | Experimental | `#пропионат` `#поведение-при-кормлении` `#гепатическая-окисление` | HI пропионат снижает СВС на 36%, скорость не важна |
-| [CS.SOTA.058](../06-sota/health/CS.SOTA.058-kupczynski-2020.md) | Kupczyński et al. | 2020 | Review | `#глицерол` `#кетоз` `#лечение` | Глицерол как лечение кетоза (Animals 1396) (health) |
-| [CS.SOTA.049](../06-sota/feeding/CS.SOTA.049-albornoz-2018.md) | Albornoz & Allen | 2018 | Experimental | `#крахмал` `#ферментируемость` `#HMC` `#carryover` | HMC снижает СВС на 3.9 кг при высоком крахмале, carryover 72 дня |
-| [CS.SOTA.059](../06-sota/feeding/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | `#пропиленгликоль` `#метаболизм` `#кетоз` `#рубец` `#печень` | Метаболизм PG: гепатический захват 19%, два механизма действия |
+| [CS.SOTA.064](./06-sota/feeding/CS.SOTA.064-bruner-2025.md) | Bruner et al. | 2025 | Experimental | `#анионные-соли` `#DCAD` `#предпочтение` `#потребление` | Микроинкапсулированные анионные соли — высокое потребление |
+| [CS.SOTA.012](./06-sota/feeding/CS.SOTA.012-drackley-1991.md) | Drackley et al. | 1991 | Experimental | `#liver-metabolism` `#carnitine` `#propionate` `#ketogenesis` | Карнитин увеличивает окисление ЖК 2-4x |
+| [CS.SOTA.013](./06-sota/feeding/CS.SOTA.013-raboisson-2017.md) | Raboisson et al. | 2017 | Meta-analysis | `#мочевина` `#беременность` `#питание` `#порог` | Мочевина >5.0 ммоль/л снижает плодовитость |
+| [CS.SOTA.015](./06-sota/feeding/CS.SOTA.015-schuler-2013.md) | Schuler et al. | 2013 | Experimental | `#пропионат` `#инфузия-рубца` `#кормовое-поведение` | Пропионат снижает DMI дозозависимо |
+| [CS.SOTA.016](./06-sota/feeding/CS.SOTA.016-albornoz-2018.md) | Albornoz & Allen | 2018 | Experimental | `#крахмал` `#ферментируемость` `#HMC` `#DGC` | HMC снижает DMI сильнее DGC (краткая версия) |
+| [CS.SOTA.017](./06-sota/feeding/CS.SOTA.017-underwood-2022.md) | Underwood et al. | 2022 | Experimental | `#метаболизируемый-протеин` `#фолликулы` `#до-отела` | Высокий MP увеличивает число фолликулов |
+| [CS.SOTA.018](./06-sota/feeding/CS.SOTA.018-huntington-1990.md) | Huntington | 1990 | Review | `#энергетический-метаболизм` `#PDV` `#печень` | PDV + печень = 7-13% массы, 40-50% O2 |
+| [CS.SOTA.029](./06-sota/health/CS.SOTA.029-aschenbach-2010.md) | Aschenbach et al. | 2010 | Review | `#глюконеогенез` `#пропионат` `#печень` | IUBMB Life версия обзора глюконеогенеза (health) |
+| [CS.SOTA.057](./06-sota/feeding/CS.SOTA.057-aschenbach-2010.md) | Aschenbach et al. | 2010 | Review | `#глюконеогенез` `#пропионат` `#печень` | JDS версия обзора глюконеогенеза (feeding) |
+| [CS.SOTA.031](./06-sota/feeding/CS.SOTA.031-dann-2006.md) | Dann et al. | 2006 | Field-study | `#сухостойный-период` `#переходный-период` `#энергетический-баланс` | Рационы far-off/close-up влияют на метаболизм |
+| [CS.SOTA.033](./06-sota/feeding/CS.SOTA.033-kupczynski-2020.md) | Kupczyński et al. | 2020 | Review | `#глицерол` `#кетоз` `#лечение` | Глицерол как лечение кетоза (Animals 1396) → **переименован в 058** |
+| [CS.SOTA.034](./06-sota/feeding/CS.SOTA.034-litherland-2025.md) | Litherland et al. | 2025 | Field-study | `#дотоеловый-период` `#глюконеогенез` `#печень` | Питание до отёла меняет глюконеогенез (feeding) |
+| [CS.SOTA.048](./06-sota/feeding/CS.SOTA.048-maldini-2019.md) | Maldini & Allen | 2019 | Experimental | `#пропионат` `#поведение-при-кормлении` `#гепатическая-окисление` | HI пропионат снижает СВС на 36%, скорость не важна |
+| [CS.SOTA.058](./06-sota/health/CS.SOTA.058-kupczynski-2020.md) | Kupczyński et al. | 2020 | Review | `#глицерол` `#кетоз` `#лечение` | Глицерол как лечение кетоза (Animals 1396) (health) |
+| [CS.SOTA.049](./06-sota/feeding/CS.SOTA.049-albornoz-2018.md) | Albornoz & Allen | 2018 | Experimental | `#крахмал` `#ферментируемость` `#HMC` `#carryover` | HMC снижает СВС на 3.9 кг при высоком крахмале, carryover 72 дня |
+| [CS.SOTA.059](./06-sota/feeding/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | `#пропиленгликоль` `#метаболизм` `#кетоз` `#рубец` `#печень` | Метаболизм PG: гепатический захват 19%, два механизма действия |
 
 ### Здоровье и метаболизм (36)
 
 | ID | Статья | Год | Тип | Теги | Ключевой результат |
 |----|--------|-----|-----|------|-------------------|
-| [CS.SOTA.065](../06-sota/health/CS.SOTA.065-ghaffari-2024.md) | Ghaffari et al. | 2024 | Experimental | `#метаболомика` `#печень` `#ацилкарнитины` `#митохондрии` | Неполное β-окисление ЖК в ранней лактации — ключевой механизм |
-| [CS.SOTA.066](../06-sota/health/CS.SOTA.066-graef-2025.md) | Graef et al. | 2025 | Field-study | `#гипокальциемия` `#воспаление` `#SAA` `#TNFα` | 4 фенотипа SCH с разными профилями воспаления |
-| [CS.SOTA.067](../06-sota/health/CS.SOTA.067-lin-2025.md) | Lin et al. | 2025 | ML-study | `#FTIR` `#machine-learning` `#предсказание` `#ранняя-лактация` | PLS-DA предсказывает заболевания за 7 дней (AUROC 0.71) |
-| [CS.SOTA.068](../06-sota/health/CS.SOTA.068-caixeta-2021.md) | Caixeta & Omontese | 2021 | Review | `#мониторинг` `#менеджмент` `#переходный-период` | Комплексный подход к метаболическому здоровью |
-| [CS.SOTA.008](../06-sota/health/CS.SOTA.008-eppe-2021.md) | Eppe et al. | 2021 | Survey | `#ЗПП` `#задержка-последа` `#факторы-риска` | OR: дистоция 4.2×, двойня 3.8×, гипокальция 2.7× |
-| [CS.SOTA.009](../06-sota/health/CS.SOTA.009-hansen-2018.md) | Hansen | 2018 | Review | `#иммунитет` `#репродукция` `#воспаление` `#цитокины` | Иммунная функция критична для фертильности |
-| [CS.SOTA.020](../06-sota/health/CS.SOTA.020-bruinje-2024.md) | Bruinjé et al. | 2024 | Observational | `#послеродовое-здоровье` `#прогестерон` `#PAG` | Гипокальция снижает P4, риск аборта ×2.3 |
-| [CS.SOTA.026](../06-sota/health/CS.SOTA.026-aiello-1984.md) | Aiello et al. | 1984 | Experimental | `#глюконеогенез` `#кетогенез` `#печень` `#метаболизм` | Гепатические взаимосвязи глюконеогенеза и кетогенеза |
-| [CS.SOTA.027](../06-sota/health/CS.SOTA.027-antanaitis-2020.md) | Antanaitis et al. | 2020 | Field-study | `#субклинический-кетоз` `#руминация` `#мониторинг` | СК влияет на поведение при кормлении (RumiWatch) |
-| [CS.SOTA.028](../06-sota/health/CS.SOTA.028-arshad-2022.md) | Arshad & Santos | 2022 | Meta-analysis | `#жировой-гепатоз` `#триацилглицеролы` `#метаболизм` | Связь печёночных ТАГ с продуктивностью и здоровьем |
-| [CS.SOTA.030](../06-sota/health/CS.SOTA.030-cadorniga-1997.md) | Cadórniga-Valiño et al. | 1997 | Experimental | `#жировой-гепатоз` `#гепатоциты` `#инсулин` | Жирные кислоты и гормоны влияют на метаболизм печени |
-| [CS.SOTA.032](../06-sota/health/CS.SOTA.032-kowalski-2021.md) | Kowalski et al. | 2021 | Field-study | `#кетолактия` `#молочные-кетоны` `#ранняя-лактация` | Характеристика кетолактии в ранней лактации |
-| [CS.SOTA.035](../06-sota/health/CS.SOTA.035-mann-2022.md) | Mann | 2022 | Review | `#жировая-ткань` `#УСЖ` `#липолиз` `#воспаление` | Роль жировой ткани в переходный период |
-| [CS.SOTA.036](../06-sota/health/CS.SOTA.036-litherland-2025.md) | Litherland et al. | 2025 | Field-study | `#дотоеловый-период` `#глюконеогенез` `#печень` | Питание до отёла меняет глюконеогенез (дубль?) |
-| [CS.SOTA.037](../06-sota/health/CS.SOTA.037-marutsova-2015.md) | Marutsova et al. | 2015 | Field-study | `#кетоз` `#гематология` `#BHBA` | Сравнительное исследование клинического и субклинического кетоза |
-| [CS.SOTA.038](../06-sota/health/CS.SOTA.038-mccarthy-2015.md) | McCarthy et al. | 2015 | Field-study | `#метаболизм` `#крахмал` `#монензин` `#ранняя-лактация` | Влияние крахмала и монензина на метаболизм |
-| [CS.SOTA.039](../06-sota/health/CS.SOTA.039-mcfadden-2017.md) | McFadden | 2017 | Review | `#липидомика` `#церамиды` `#фосфатидилхолин` `#инсулинорезистентность` | Роль липидомики в метаболических заболеваниях |
-| [CS.SOTA.040](../06-sota/health/CS.SOTA.040-mellado-2018.md) | Mellado et al. | 2018 | Field-study | `#кетоз` `#факторы-риска` `#тепловой-стресс` | Факторы риска клинического кетоза в жарком климате |
-| [CS.SOTA.041](../06-sota/health/CS.SOTA.041-mills-1986.md) | Mills et al. | 1986 | Experimental | `#кетоз` `#метаболизм-печени` `#глюконеогенез` | Нарушение метаболизма в печени при индуцированном кетозе |
-| [CS.SOTA.042](../06-sota/health/CS.SOTA.042-piepenbrink-2003.md) | Piepenbrink & Overton | 2003 | Field-study | `#холин` `#румен-протект` `#жировой-гепатоз` | Холин в перипартуриентный период |
-| [CS.SOTA.043](../06-sota/health/CS.SOTA.043-rico-2024.md) | Rico & Barrientos-Blanco | 2024 | Review | `#кетоз` `#кетоновые-тела` `#BHB` `#парадигма` | Меняющаяся парадигма кетонов и кетоза |
-| [CS.SOTA.044](../06-sota/health/CS.SOTA.044-rukkwamsuk-1999.md) | Rukkwamsuk et al. | 1999 | Field-study | `#жировой-гепатоз` `#глюконеогенез` `#печень` | Влияние жирового гепатоза на глюконеогенез |
-| [CS.SOTA.045](../06-sota/health/CS.SOTA.045-seal-1993.md) | Seal & Reynolds | 1993 | Review | `#спланхнический-метаболизм` `#ЖКТ` `#печень` `#ЖКК` | Метаболизм ЖКТ и печени у жвачных |
-| [CS.SOTA.046](../06-sota/health/CS.SOTA.046-veenhuizen-1991.md) | Veenhuizen et al. | 1991 | Field-study | `#кетоз` `#жировой-гепатоз` `#метаболизм` `#NEFA` | Метаболические изменения при экспериментальном кетозе |
-| [CS.SOTA.047](../06-sota/health/CS.SOTA.047-young-1977.md) | Young | 1977 | Review | `#глюконеогенез` `#пропионат` `#глюкоза` `#методология` | Значение и методология глюконеогенеза |
-| [CS.SOTA.053](../06-sota/health/CS.SOTA.053-bradford-2015.md) | Bradford | 2015 | Review | `#иммунитет` `#воспаление` `#переходный-период` `#NSAID` | Иммуносупрессия + воспаление = проблемы; NSAID +10-21% молока |
-| [CS.SOTA.054](../06-sota/health/CS.SOTA.054-horst-2021.md) | Horst et al. | 2021 | Review | `#иммуноактивация` `#парадигма` `#гипофагия` `#глюкоза` | Новая парадигма: иммуноактивация → гипофагия → метаболиты |
-| [CS.SOTA.055](../06-sota/health/CS.SOTA.055-drackley-1999.md) | Drackley | 1999 | Review | `#переходный-период` `#липидный-метаболизм` `#печень` `#PPAR` | Фундаментальный обзор биологии transition |
-| [CS.SOTA.056](../06-sota/health/CS.SOTA.056-lean-2006.md) | Lean et al. | 2006 | Meta-analysis | `#гипокальмия` `#DCAD` `#кальций` `#магний` `#meta-analysis` | 137 испытаний, 2,545 отёлов; Mg — сильнейшая защита (OR 0.006) |
-| [CS.SOTA.058](../06-sota/health/CS.SOTA.058-kupczynski-2020.md) | Kupczyński et al. | 2020 | Review | `#глицерол` `#кетоз` `#лечение` | Глицерол как лечение кетоза (Animals 1379) |
-| [CS.SOTA.059](../06-sota/health/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Field-study | `#пропиленгликоль` `#метаболизм` `#кетоз` | Метаболизм PG: гепатический захват 19%, два механизма |
-| [CS.SOTA.060](../06-sota/health/CS.SOTA.060-capel-2021.md) | Capel et al. | 2021 | Field-study | `#пропиленгликоль` `#декстроза` `#гиперкетонемия` | PG ± дексроза для лечения HYK, RCT |
-| [CS.SOTA.061](../06-sota/health/CS.SOTA.061-bjerre-harpoth-2015.md) | Bjerre-Harpøth et al. | 2015 | Experimental | `#пропиленгликоль` `#жировая-ткань` `#липолиз` | PG снижает мобилизацию жировой ткани у перекормленных коров |
-| [CS.SOTA.062](../06-sota/health/CS.SOTA.062-lomander-2012.md) | Lomander et al. | 2012 | Field-study | `#глицерол` `#пропиленгликоль` `#сравнение` | Глицерол vs PG в ранней лактации, Швеция |
-| [CS.SOTA.063](../06-sota/health/CS.SOTA.063-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | `#пропиленгликоль` `#метаболизм` `#рубец` `#печень` | Метаболизм PG: руминальный и гепатический |
+| [CS.SOTA.065](./06-sota/health/CS.SOTA.065-ghaffari-2024.md) | Ghaffari et al. | 2024 | Experimental | `#метаболомика` `#печень` `#ацилкарнитины` `#митохондрии` | Неполное β-окисление ЖК в ранней лактации — ключевой механизм |
+| [CS.SOTA.066](./06-sota/health/CS.SOTA.066-graef-2025.md) | Graef et al. | 2025 | Field-study | `#гипокальциемия` `#воспаление` `#SAA` `#TNFα` | 4 фенотипа SCH с разными профилями воспаления |
+| [CS.SOTA.067](./06-sota/health/CS.SOTA.067-lin-2025.md) | Lin et al. | 2025 | ML-study | `#FTIR` `#machine-learning` `#предсказание` `#ранняя-лактация` | PLS-DA предсказывает заболевания за 7 дней (AUROC 0.71) |
+| [CS.SOTA.068](./06-sota/health/CS.SOTA.068-caixeta-2021.md) | Caixeta & Omontese | 2021 | Review | `#мониторинг` `#менеджмент` `#переходный-период` | Комплексный подход к метаболическому здоровью |
+| [CS.SOTA.008](./06-sota/health/CS.SOTA.008-eppe-2021.md) | Eppe et al. | 2021 | Survey | `#ЗПП` `#задержка-последа` `#факторы-риска` | OR: дистоция 4.2×, двойня 3.8×, гипокальция 2.7× |
+| [CS.SOTA.009](./06-sota/health/CS.SOTA.009-hansen-2018.md) | Hansen | 2018 | Review | `#иммунитет` `#репродукция` `#воспаление` `#цитокины` | Иммунная функция критична для фертильности |
+| [CS.SOTA.020](./06-sota/health/CS.SOTA.020-bruinje-2024.md) | Bruinjé et al. | 2024 | Observational | `#послеродовое-здоровье` `#прогестерон` `#PAG` | Гипокальция снижает P4, риск аборта ×2.3 |
+| [CS.SOTA.026](./06-sota/health/CS.SOTA.026-aiello-1984.md) | Aiello et al. | 1984 | Experimental | `#глюконеогенез` `#кетогенез` `#печень` `#метаболизм` | Гепатические взаимосвязи глюконеогенеза и кетогенеза |
+| [CS.SOTA.027](./06-sota/health/CS.SOTA.027-antanaitis-2020.md) | Antanaitis et al. | 2020 | Field-study | `#субклинический-кетоз` `#руминация` `#мониторинг` | СК влияет на поведение при кормлении (RumiWatch) |
+| [CS.SOTA.028](./06-sota/health/CS.SOTA.028-arshad-2022.md) | Arshad & Santos | 2022 | Meta-analysis | `#жировой-гепатоз` `#триацилглицеролы` `#метаболизм` | Связь печёночных ТАГ с продуктивностью и здоровьем |
+| [CS.SOTA.030](./06-sota/health/CS.SOTA.030-cadorniga-1997.md) | Cadórniga-Valiño et al. | 1997 | Experimental | `#жировой-гепатоз` `#гепатоциты` `#инсулин` | Жирные кислоты и гормоны влияют на метаболизм печени |
+| [CS.SOTA.032](./06-sota/health/CS.SOTA.032-kowalski-2021.md) | Kowalski et al. | 2021 | Field-study | `#кетолактия` `#молочные-кетоны` `#ранняя-лактация` | Характеристика кетолактии в ранней лактации |
+| [CS.SOTA.035](./06-sota/health/CS.SOTA.035-mann-2022.md) | Mann | 2022 | Review | `#жировая-ткань` `#УСЖ` `#липолиз` `#воспаление` | Роль жировой ткани в переходный период |
+| [CS.SOTA.036](./06-sota/health/CS.SOTA.036-litherland-2025.md) | Litherland et al. | 2025 | Field-study | `#дотоеловый-период` `#глюконеогенез` `#печень` | Питание до отёла меняет глюконеогенез (дубль?) |
+| [CS.SOTA.037](./06-sota/health/CS.SOTA.037-marutsova-2015.md) | Marutsova et al. | 2015 | Field-study | `#кетоз` `#гематология` `#BHBA` | Сравнительное исследование клинического и субклинического кетоза |
+| [CS.SOTA.038](./06-sota/health/CS.SOTA.038-mccarthy-2015.md) | McCarthy et al. | 2015 | Field-study | `#метаболизм` `#крахмал` `#монензин` `#ранняя-лактация` | Влияние крахмала и монензина на метаболизм |
+| [CS.SOTA.039](./06-sota/health/CS.SOTA.039-mcfadden-2017.md) | McFadden | 2017 | Review | `#липидомика` `#церамиды` `#фосфатидилхолин` `#инсулинорезистентность` | Роль липидомики в метаболических заболеваниях |
+| [CS.SOTA.040](./06-sota/health/CS.SOTA.040-mellado-2018.md) | Mellado et al. | 2018 | Field-study | `#кетоз` `#факторы-риска` `#тепловой-стресс` | Факторы риска клинического кетоза в жарком климате |
+| [CS.SOTA.041](./06-sota/health/CS.SOTA.041-mills-1986.md) | Mills et al. | 1986 | Experimental | `#кетоз` `#метаболизм-печени` `#глюконеогенез` | Нарушение метаболизма в печени при индуцированном кетозе |
+| [CS.SOTA.042](./06-sota/health/CS.SOTA.042-piepenbrink-2003.md) | Piepenbrink & Overton | 2003 | Field-study | `#холин` `#румен-протект` `#жировой-гепатоз` | Холин в перипартуриентный период |
+| [CS.SOTA.043](./06-sota/health/CS.SOTA.043-rico-2024.md) | Rico & Barrientos-Blanco | 2024 | Review | `#кетоз` `#кетоновые-тела` `#BHB` `#парадигма` | Меняющаяся парадигма кетонов и кетоза |
+| [CS.SOTA.044](./06-sota/health/CS.SOTA.044-rukkwamsuk-1999.md) | Rukkwamsuk et al. | 1999 | Field-study | `#жировой-гепатоз` `#глюконеогенез` `#печень` | Влияние жирового гепатоза на глюконеогенез |
+| [CS.SOTA.045](./06-sota/health/CS.SOTA.045-seal-1993.md) | Seal & Reynolds | 1993 | Review | `#спланхнический-метаболизм` `#ЖКТ` `#печень` `#ЖКК` | Метаболизм ЖКТ и печени у жвачных |
+| [CS.SOTA.046](./06-sota/health/CS.SOTA.046-veenhuizen-1991.md) | Veenhuizen et al. | 1991 | Field-study | `#кетоз` `#жировой-гепатоз` `#метаболизм` `#NEFA` | Метаболические изменения при экспериментальном кетозе |
+| [CS.SOTA.047](./06-sota/health/CS.SOTA.047-young-1977.md) | Young | 1977 | Review | `#глюконеогенез` `#пропионат` `#глюкоза` `#методология` | Значение и методология глюконеогенеза |
+| [CS.SOTA.053](./06-sota/health/CS.SOTA.053-bradford-2015.md) | Bradford | 2015 | Review | `#иммунитет` `#воспаление` `#переходный-период` `#NSAID` | Иммуносупрессия + воспаление = проблемы; NSAID +10-21% молока |
+| [CS.SOTA.054](./06-sota/health/CS.SOTA.054-horst-2021.md) | Horst et al. | 2021 | Review | `#иммуноактивация` `#парадигма` `#гипофагия` `#глюкоза` | Новая парадигма: иммуноактивация → гипофагия → метаболиты |
+| [CS.SOTA.055](./06-sota/health/CS.SOTA.055-drackley-1999.md) | Drackley | 1999 | Review | `#переходный-период` `#липидный-метаболизм` `#печень` `#PPAR` | Фундаментальный обзор биологии transition |
+| [CS.SOTA.056](./06-sota/health/CS.SOTA.056-lean-2006.md) | Lean et al. | 2006 | Meta-analysis | `#гипокальмия` `#DCAD` `#кальций` `#магний` `#meta-analysis` | 137 испытаний, 2,545 отёлов; Mg — сильнейшая защита (OR 0.006) |
+| [CS.SOTA.058](./06-sota/health/CS.SOTA.058-kupczynski-2020.md) | Kupczyński et al. | 2020 | Review | `#глицерол` `#кетоз` `#лечение` | Глицерол как лечение кетоза (Animals 1379) |
+| [CS.SOTA.059](./06-sota/health/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Field-study | `#пропиленгликоль` `#метаболизм` `#кетоз` | Метаболизм PG: гепатический захват 19%, два механизма |
+| [CS.SOTA.060](./06-sota/health/CS.SOTA.060-capel-2021.md) | Capel et al. | 2021 | Field-study | `#пропиленгликоль` `#декстроза` `#гиперкетонемия` | PG ± дексроза для лечения HYK, RCT |
+| [CS.SOTA.061](./06-sota/health/CS.SOTA.061-bjerre-harpoth-2015.md) | Bjerre-Harpøth et al. | 2015 | Experimental | `#пропиленгликоль` `#жировая-ткань` `#липолиз` | PG снижает мобилизацию жировой ткани у перекормленных коров |
+| [CS.SOTA.062](./06-sota/health/CS.SOTA.062-lomander-2012.md) | Lomander et al. | 2012 | Field-study | `#глицерол` `#пропиленгликоль` `#сравнение` | Глицерол vs PG в ранней лактации, Швеция |
+| [CS.SOTA.063](./06-sota/health/CS.SOTA.063-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | `#пропиленгликоль` `#метаболизм` `#рубец` `#печень` | Метаболизм PG: руминальный и гепатический |
 
 ### Экономика (3)
 
 | ID | Статья | Год | Тип | Теги | Ключевой результат |
 |----|--------|-----|-----|------|-------------------|
-| [CS.SOTA.021](../06-sota/economics/CS.SOTA.021-cabrera-2012.md) | Cabrera | 2012 | Model | `#экономика` `#оценка-коровы` `#цепь-маркова` | Economic value of cow, Markov модель 2,320 состояний |
-| [CS.SOTA.022](../06-sota/economics/CS.SOTA.022-galvao-2013.md) | Galvão et al. | 2013 | Simulation | `#репродукция` `#программы` `#ED` `#TAI` | ED≥60%+TAI оптимально, комбинация лучше TAI-only |
-| [CS.SOTA.024](../06-sota/economics/CS.SOTA.024-devries-2017.md) | De Vries | 2017 | Review | `#генетика` `#долголетие` `#компромисс` | Генетический прогресс vs выживаемость, оптимум 25-27% выбытия |
+| [CS.SOTA.021](./06-sota/economics/CS.SOTA.021-cabrera-2012.md) | Cabrera | 2012 | Model | `#экономика` `#оценка-коровы` `#цепь-маркова` | Economic value of cow, Markov модель 2,320 состояний |
+| [CS.SOTA.022](./06-sota/economics/CS.SOTA.022-galvao-2013.md) | Galvão et al. | 2013 | Simulation | `#репродукция` `#программы` `#ED` `#TAI` | ED≥60%+TAI оптимально, комбинация лучше TAI-only |
+| [CS.SOTA.024](./06-sota/economics/CS.SOTA.024-devries-2017.md) | De Vries | 2017 | Review | `#генетика` `#долголетие` `#компромисс` | Генетический прогресс vs выживаемость, оптимум 25-27% выбытия |
 
 ### Менеджмент (1)
 
 | ID | Статья | Год | Тип | Теги | Ключевой результат |
 |----|--------|-----|-----|------|-------------------|
-| [CS.SOTA.026](../06-sota/management/CS.SOTA.026-reproductive-assessment-algorithm.md) | Various | 2025 | Framework | `#репродуктивная-оценка` `#алгоритм` `#21-дневная-стельность` | Алгоритм оценки воспроизводства |
+| [CS.SOTA.026](./06-sota/management/CS.SOTA.026-reproductive-assessment-algorithm.md) | Various | 2025 | Framework | `#репродуктивная-оценка` `#алгоритм` `#21-дневная-стельность` | Алгоритм оценки воспроизводства |
 
 ---
 
