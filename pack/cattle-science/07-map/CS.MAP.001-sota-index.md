@@ -167,7 +167,7 @@
 | CS.SOTA.023-carvalho-2019.md | 023 | Прогестерон и двойняшность |
 | CS.SOTA.025-hansson-vwp.md | 025 | Оптимальный VWP 140 дней |
 
-### `feeding/` — Кормление и метаболизм (12 файлов)
+### `feeding/` — Кормление и метаболизм (13 файлов)
 
 | Файл | ID | Описание |
 |------|-----|----------|
@@ -182,9 +182,10 @@
 | CS.SOTA.033-kupczynski-2020.md | 033 | Глицерол и кетоз (Animals 1396) |
 | CS.SOTA.034-litherland-2025.md | 034 | Питание до отёла и глюконеогенез |
 | CS.SOTA.048-maldini-2019.md | 048 | Пропионат и поведение при кормлении |
+| CS.SOTA.064-bruner-2025.md | 064 | Микроинкапсулированные анионные соли |
 | CS.SOTA.049-albornoz-2018.md | 049 | Ферментируемость крахмала и carryover |
 
-### `health/` — Здоровье и метаболизм (32 файла)
+### `health/` — Здоровье и метаболизм (36 файлов)
 
 | Файл | ID | Описание |
 |------|-----|----------|
@@ -221,6 +222,10 @@
 | CS.SOTA.061-bjerre-harpoth-2015.md | 061 | PG и мобилизация жировой ткани |
 | CS.SOTA.062-lomander-2012.md | 062 | Глицерол vs пропиленгликоль |
 | CS.SOTA.063-kristensen-raun-2007.md | 063 | Метаболизм пропиленгликоля (cross-over) |
+| CS.SOTA.065-ghaffari-2024.md | 065 | Метаболомика печени в переходный период |
+| CS.SOTA.066-graef-2025.md | 066 | Динамика кальция и воспаление |
+| CS.SOTA.067-lin-2025.md | 067 | Предсказание заболеваний по молочным спектрам |
+| CS.SOTA.068-caixeta-2021.md | 068 | Мониторинг метаболического здоровья (обзор) |
 
 ### `economics/` — Экономика (3 файла)
 
@@ -240,7 +245,7 @@
 
 ## По типу источника
 
-### Review (15)
+### Review (16)
 - CS.SOTA.001 — Crowe 2018
 - CS.SOTA.003 — Chebel 2016
 - CS.SOTA.009 — Hansen 2018
@@ -256,8 +261,9 @@
 - CS.SOTA.053 — Bradford 2015
 - CS.SOTA.054 — Horst 2021
 - CS.SOTA.055 — Drackley 1999
+- CS.SOTA.068 — Caixeta 2021
 
-### Research/Trial/Experimental (28)
+### Research/Trial/Experimental (32)
 - CS.SOTA.005 — Mwangi 2025
 - CS.SOTA.007 — De Bruijn 2023
 - CS.SOTA.012 — Drackley 1991
@@ -288,6 +294,10 @@
 - CS.SOTA.061 — Bjerre-Harpøth 2015 (PG & adipose)
 - CS.SOTA.062 — Lomander 2012 (glycerol vs PG)
 - CS.SOTA.063 — Kristensen & Raun 2007 (metabolism)
+- CS.SOTA.064 — Bruner 2025 (anionic salts)
+- CS.SOTA.065 — Ghaffari 2024 (liver metabolomics)
+- CS.SOTA.066 — Graef 2025 (calcium dynamics)
+- CS.SOTA.067 — Lin 2025 (milk spectra ML)
 
 ### Meta-analysis (5)
 - CS.SOTA.004 — Albaaj 2023
@@ -341,11 +351,11 @@
 | 2018 | SOTA.001, 009, 016, 040, 049 | Crowe, Hansen, Albornoz (×2), Mellado |
 | 2019 | SOTA.023, 048 | Carvalho, Maldini — пропионат и репродукция |
 | 2020 | SOTA.008, 027, 032, 033, 051 | Eppe, Antanaitis, Kowalski, Kupczyński (×2) |
-| 2021 | SOTA.008 | Eppe — ЗПП |
+| 2021 | SOTA.008, 068 | Eppe — ЗПП, Caixeta — мониторинг |
 | 2022 | SOTA.017, 028, 035 | Underwood, Arshad, Mann |
 | 2023 | SOTA.002, 004, 007 | Fricke, Albaaj, De Bruijn |
-| 2024 | SOTA.020, 043 | Bruinjé, Rico |
-| 2025 | SOTA.005, 019, 025, 034, 036 | Mwangi, Lauber, Hansson, Litherland (×2) |
+| 2024 | SOTA.020, 043, 065 | Bruinjé, Rico, Ghaffari — метаболомика |
+| 2025 | SOTA.005, 019, 025, 034, 036, 064, 066, 067 | Mwangi, Lauber, Hansson, Litherland (×2), Bruner, Graef, Lin |
 
 ---
 
@@ -434,7 +444,7 @@ CS.SOTA.025 (Hansson 2025) ──VWP──→
 **Всего SoTA:** 59 файлов
 - `reproduction/` — 11 файлов
 - `feeding/` — 12 файлов  
-- `health/` — 32 файла
+- `health/` — 36 файлов
 - `economics/` — 3 файла
 - `management/` — 1 файл
 
