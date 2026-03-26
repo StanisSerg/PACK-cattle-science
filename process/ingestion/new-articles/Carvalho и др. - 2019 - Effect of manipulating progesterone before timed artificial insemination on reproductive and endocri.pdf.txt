@@ -1,0 +1,66 @@
+7509J. Dairy Sci. 102:7509–7521
+https://doi.org/10.3168/jds.2019-16536
+© American Dairy Science Association®, 2019.
+ABSTRACT
+Our objective was to evaluate the effect of manipu-
+lating progesterone (P4) concentrations before timed 
+artificial insemination (TAI) on reproductive and endo-crine outcomes in high-producing Holstein cows. Mul-tiparous lactating Holstein cows (n = 80) were synchro-nized for first TAI using a Double-Ovsynch protocol and were randomly assigned to receive 25 mg of PGF
+2α 
+1 d after the first GnRH treatment of the Breeding-Ovsynch protocol that included a once-used P4 insert (low-P4 group) or to receive 2 new P4 inserts during the Breeding-Ovsynch protocol (high-P4 group). Blood samples were collected thrice weekly from −10 to 32 d relative to TAI for all cows and from 32 to 67 d after TAI for pregnant cows and were analyzed for P4 and pregnancy-specific protein B (PSPB) concentrations. Expression of IFNτ-stimulated gene 15 (ISG15) was assessed in blood leukocytes 18 and 20 d after TAI. As expected, P4 concentrations were greater for high-P4 cows than for low-P4 cows from 3 to 8 d before TAI. Incidence of double ovulation was 3-fold greater for low-P4 cows than for high-P4 cows (33 vs. 10%), which resulted in more twin pregnancies 32 d after TAI for low-P4 cows than for high-P4 cows (29 vs. 0%). Low-P4 cows had larger preovulatory follicles at the last GnRH treatment of the Double-Ovsynch protocol and greater P4 concentrations than high-P4 cows after TAI. Rela-tive expression of ISG15 mRNA 18 and 20 d after TAI was greater for low-P4 cows than for high-P4 cows and for pregnant cows than for nonpregnant cows. Overall, PSPB concentrations tended to be greater for low-P4 cows than for high-P4 cows, and pregnant cows had greater P4 concentrations than nonpregnant cows. In summary, cows with low P4 before TAI had increased preovulatory follicle diameter, PSPB concentrations, relative expression of ISG15 mRNA 18 and 20 d after TAI, double ovulations, and twinning compared with cows with high P4 before TAI. Increasing P4 before TAI may effectively decrease double ovulation and twinning in high-producing multiparous Holstein cows.Key words: progesterone, double ovulation, twinning, dairy cow
+INTRODUCTION
+Modern high-producing dairy cows experience sev-
+eral reproductive problems, including a high incidence of double ovulation (Wiltbank et al., 2000; Lopez et al., 2005a), increased twinning over time (Silva del Río et al., 2007), and increased pregnancy loss (Santos et al., 2004; Wiltbank et al., 2016). A possible physiologic mechanism that could explain these problems is that high-producing dairy cows experience increased hepatic metabolism of progesterone (P4) due to high feed in-take, resulting in decreased circulating P4 concentra-tions (Sangsritavong et al., 2002; Vasconcelos et al., 2003). Circulating P4 concentrations in dairy cows at the onset of a fertility protocol have profound effects on fertility to timed AI (TAI ) in which cows with low P4 
+at the first GnRH treatment or at the PGF
+2α treatment 
+of an Ovsynch protocol have lower fertility than cows with high P4 (Fricke et al., 2003; Bisinotto et al., 2010; Carvalho et al., 2014). More recently, high-producing Holstein cows manipulated to have low P4 concentra-tions at the first GnRH treatment of an Ovsynch pro-tocol that included a second PGF
+2α treatment given 
+24 h after the first to complete luteal regression had a dramatically increased incidence of double ovulation and subsequent pregnancy loss (Martins et al., 2018). To further complicate matters, cows with double ovula-tions initially have increased fertility to TAI compared with cows with single ovulations (Fricke and Wiltbank, 1999), but cows that conceive twins, particularly unilateral twins, have a 3-fold increase in subsequent pregnancy losses compared with cows that conceive singletons (López-Gatius and Hunter, 2005; Silva del Río et al., 2009).Effect of manipulating progesterone before timed artificial insemination on reproductive and endocrine outcomes in high-producing multiparous Holstein cows
+P. D. Carvalho, V. G. Santos, H. P. Fricke, L. L. Hernandez, and P. M. Fricke*
+Department of Dairy Science, University of Wisconsin–Madison, Madison 53706
+ 
+Received February 23, 2019.
+Accepted April 3, 2019.*Corresponding author: pmfricke@
+ wisc .edu
+7510 CARVALHO ET AL.
+Journal of Dairy Science Vol. 102 No. 8, 2019With these effects of P4 on reproduction in mind, 
+an experiment was conducted in which primiparous 
+and multiparous Holstein-Friesian cows managed in a seasonal-calving pasture-based dairy system in Ireland were manipulated to have either high or low P4 con-centrations during growth of a synchronized follicular wave during an Ovsynch protocol (Fricke et al., 2016). In that experiment, the effect of manipulating P4 be-fore TAI on early embryo development was assessed by measuring circulating P4, 4 different IFN-stimulated genes (ISG), and plasma pregnancy-associated glyco-protein (PAG ) concentrations. Low-P4 cows had larger 
+ovulatory follicles and more P4 after TAI than high-P4 cows; however, this effect was manifested primarily for a subgroup of low-P4 cows that expressed estrus approximately 16 h before TAI, likely due to the low P4 concentrations near the end of the protocol as a consequence of the low-P4 treatment. In contrast to the stated hypothesis in that study, there was no effect of treatment on early embryo development based on plas-ma PAG concentrations and pregnancy outcomes based on transrectal ultrasonography or on the incidence of double ovulation, twinning, or pregnancy loss (Fricke et al., 2016). We speculated that Holstein-Friesian cows managed in a seasonal-calving pasture-based system with moderate milk production (i.e., <25 kg/d near peak production) may not present problems associated with hepatic P4 metabolism similar to high-producing Holsteins housed in confinement-based systems (Fricke et al., 2016).
+The objective of this experiment, therefore, was to 
+use an experimental model similar to that used by Fricke et al. (2016) to hormonally manipulate high-producing Holstein cows typical of confinement-based dairy systems in North America into either a high-P4 or a low-P4 environment during growth of a synchronized follicular wave during an Ovsynch protocol to assess the effect of P4 before TAI on the incidence of double ovulation and twinning as well as on IFN-stimulated gene 15 (ISG15) mRNA expression 18 and 20 d after TAI and serum pregnancy-specific protein B (PSPB) and P4 concentrations after TAI. Our hypotheses were that cows with low P4 during growth of a synchro-nized follicular wave would (1) ovulate larger follicles, (2) have increased ISG15 mRNA expression and PSPB concentrations after TAI, and (3) have more double ovulations and twinning than cows with high P4.
+MATERIALS AND METHODS
+All animal handling and experimental procedures 
+were approved by the Animal Care and Use Committee of the College of Agriculture and Life Sciences at the University of Wisconsin–Madison.Cows, Housing, and Feeding
+This study was conducted at the University of Wis-
+consin–Madison Emmons Blaine Dairy Cattle Research Center located near Arlington, Wisconsin, from April to October 2017. Lactating Holstein cows (n = 80) were milked twice daily at approximately 12-h intervals and were fed a TMR once daily consisting of corn and alfalfa silage as forage with corn and soybean meal-based concentrate formulated to meet or exceed the minimum nutritional requirements for high-producing dairy cows (NRC, 2001). Cows were housed in freestall barns bedded with sand and had ad libitum access to feed and water. Only multiparous cows were enrolled in this experiment to minimize variation among cows and to study a uniform group of cows with high milk production without the confounding effects of parity (primiparous vs. multiparous). The rolling herd average was 13,880 kg and average daily milk production was 41.6 kg/cow per day with 3.8% fat and 3.2% protein for the herd during this experiment.
+Treatments
+All cows were submitted to a Double-Ovsynch pro-
+tocol for first TAI (Figure 1) as described by Souza et al. (2008) and modified by Brusveen et al. (2009). The GnRH (100 µg/dose of gonadorelin hydrochloride, Fac-trel), PGF
+2α (25 mg/dose of dinoprost tromethamine, 
+Lutalyse), and controlled internal drug release (CIDR) inserts (1.38 g of P4/insert) were manufactured by Zoetis (Madison, NJ). Briefly, cows received the first GnRH treatment of the Pre-Ovsynch portion of the Double-Ovsynch protocol starting at 53 ± 3 DIM, fol-lowed by treatment with PGF
+2α 7 d later and treatment 
+with GnRH 72 h after treatment with PGF 2α. Seven 
+days later, cows began the Breeding-Ovsynch portion of the Double-Ovsynch protocol in which cows received a GnRH treatment (G1) followed by 2 PGF
+2α treat-
+ments administered 7 and 8 d later and the last GnRH treatment (G2) administered 56 h after the first PGF
+2α 
+treatment followed by TAI 16 to 20 h after G2. One day after G1, cows were randomly assigned to 1 of 2 treatments: 2 new CIDR inserts for 7 d (referred to as the high-P4 group; n = 40) or 25 mg of PGF
+2α and a 
+once-used CIDR insert for 7 d (referred to as the low-P4 group; n = 40; Figure 1). To create once-used CIDR inserts, CIDR inserts were inserted into multiparous lactating Holstein cows at G1 of a Double-Ovsynch protocol and were removed at the first PGF
+2α treat-
+ment (i.e., 7 d later) of the Breeding-Ovsynch portion of a Double-Ovsynch protocol. Once-used CIDR inserts were then scrubbed with a mild disinfectant diluted in hot water (Nolvasan Solution, Zoetis, Madison, NJ) 
+Journal of Dairy Science Vol. 102 No. 8, 2019MANIPULATION OF PROGESTERONE BEFORE TIMED ARTIFICIAL INSEMINATION 7511
+and allowed to air dry. After drying, CIDR inserts were 
+autoclaved and stored in plastic bags in the dark until used in the present experiment. Multiple sires with high genetic merit and proven fertility were used for TAI, and sires were equally balanced between treatments.
+Transrectal Ultrasonography
+Number of corpus luteum (CL) was evaluated at 
+the time of the first PGF 2α treatment of the Breeding-
+Ovsynch portion of the Double-Ovsynch protocol (Fig-ure 1) by transrectal ultrasonography using a portable scanner (Ibex Pro, E. I. Medical Imaging, Loveland, CO) equipped with a 7.5-MHz linear-array transducer to determine response to the treatment protocols. On the day of G2, number and size of follicles ≥10 mm in diameter were also recorded. Ovulation was confirmed by disappearance of 1 (single ovulation) or 2 (double ovulation) follicles ≥10 mm in diameter and appear-ance of 1 or more CL in the same locations as the preovulatory follicles 6 d after TAI (Figure 1).
+Pregnancy diagnosis and measurement of embryonic 
+crown–rump length were performed using a portable scanner (Ibex Pro, E. I. Medical Imaging) equipped with a 7.5-MHz linear-array transducer. A positive pregnancy diagnosis was based on visualization of a CL on the ovary ipsilateral to the uterine horn contain-ing an embryo with a heartbeat. Pregnancy status for cows diagnosed pregnant 32 d after TAI was recon-firmed weekly until 67 d after TAI. Any cow diagnosed pregnant and subsequently diagnosed not pregnant at a pregnancy confirmation was considered to have un-dergone pregnancy loss. Images were frozen when the crown–rump length was determined visually to be at its maximal size, and the length was then measured using the built-in digital calipers of the ultrasound machine.
+Blood Sample Collection
+Blood samples to assess P4 and PSPB concentra-
+tions were collected via puncture of the median caudal veins or arteries into 8-mL evacuated serum collection tubes (Vacuette, Greiner Bio-One North America Inc., Monroe, NC) thrice weekly beginning at G1 (i.e., im-mediately before GnRH treatment) until 32 d after TAI for all cows and then weekly until 67 d for cows diagnosed pregnant 32 d after TAI (Figure 1). Blood samples were immediately placed on ice after collection 
+Figure 1. Schematic diagram of the treatment protocols used to manipulate lactating multiparous Holstein cows into a high-progesterone 
+(high-P4) versus a low-progesterone (low-P4) environment before timed AI (TAI) and timing of blood sampling after TAI to assess serum pro-
+gesterone (P4) concentration, IFN-stimulated gene 15 (ISG15) mRNA expression in blood leukocytes, and serum pregnancy-specific protein B (PSPB) concentration. G1 = first GnRH treatment of the Breeding-Ovsynch portion of the Double-Ovsynch protocol; G2 = last GnRH treat-ment of the Breeding-Ovsynch portion of the Double-Ovsynch protocol; CIDR = controlled internal drug release; US = ultrasound.

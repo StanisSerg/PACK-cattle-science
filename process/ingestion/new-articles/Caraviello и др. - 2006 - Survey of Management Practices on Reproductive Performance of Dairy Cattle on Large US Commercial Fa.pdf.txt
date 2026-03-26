@@ -1,0 +1,150 @@
+J. Dairy Sci. 89:4723–4735
+©American Dairy Science Association, 2006.
+Survey of Management Practices on Reproductive Performance
+of Dairy Cattle on Large US Commercial Farms
+D. Z. Caraviello,* K. A. Weigel,*1P. M. Fricke,* M. C. Wiltbank,* M. J. Florent,* N. B. Cook,†
+K. V. Nordlund,† N. R. Zwald,‡ and C. L. Rawson‡
+*Department of Dairy Science, and
+†School of Veterinary Medicine, University of Wisconsin, Madison 53706
+‡Alta Genetics, Inc., Watertown, WI 53094
+ABSTRACT
+A survey regarding general management, sire selec-
+tion, reproductive management, inseminator training
+and technique, heat abatement, body condition scor-ing, facility design and grouping, nutrition, employeetraining and management, and animal health and bio-security was carried out from March to September of2004 in 153 herds in the Alta Genetics (Watertown,WI) Advantage Progeny Testing Program. A total of103 herds (67.3%) completed the survey. Herd size was613 ±46 cows, with herds located in Wisconsin (26),
+California (12), New York (11), Minnesota (10), Michi-gan (7), Washington (6), Pennsylvania (6), Iowa (5),Idaho (5), Texas (4), Ohio (4), and other states (7).These farms sold 34.5 ±0.3 kg of milk/d per cow, with
+an annual culling rate of 34 ±1% and a calving interval
+of 13.8 ±0.1 mo. Cows were observed for estrus 2.8 ±
+0.3 times/d, for a duration of 27 ±4 min, but 78% of
+the respondents admitted that detection of estrus wasnot the employee’s sole responsibility at that time.Managers tried to achieve pregnancy until 8.8 ±0.9
+failed inseminations, 300 ±26 d postpartum, or milk
+yield <17.7 ±0.5 kg/d. Nonpregnant cows were culled
+at 326 ±36 d postpartum or milk yield <16.4 ±0.3 kg/
+d. Mean durations of the voluntary waiting period were52±1.3 and 53 ±1.4 d for primiparous and multiparous
+cows, respectively. Hormonal synchronization or timedartiﬁcial insemination programs were used in 87% ofthe herds, with 86% synchronizing ﬁrst services, 77%
+resynchronizing repeat services, and 59% treating cys-tic, anestrous, or anovular cows. Finding good employ-
+ees was identiﬁed as the greatest labor challenge, fol-
+lowed by training and supervising employees. Mastitis
+and hairy heel warts were noted as the greatest animal
+health concerns, followed by lameness, abortions, anddeath losses, whereas the greatest reproductive chal-
+lenges were artiﬁcial insemination service rate, con-
+Received May 30, 2006.
+Accepted July 21, 2006.
+1Corresponding author: kweigel@wisc.edu
+4723ception rate, twinning, and retained placenta or metri-
+tis. Results of this study can provide a useful bench-mark or reference with regard to commonly usedmanagement practices on large commercial US dairyfarms at the present time.Key words: reproduction, fertility, herd manage-
+ment, survey
+INTRODUCTION
+The reproductive performance of high-producing
+dairy cows on modern commercial farms is inﬂuenced
+by a multitude of factors (Westwood et al., 2002; Cara-
+viello et al., 2006). Numerous variables related to en-ergy balance (Veerkamp et al., 2000), BCS (Moreira etal., 2000), milk yield (Veerkamp et al., 2000), disease(Windig et al., 2005), hormonal synchronization (Pur-sley et al., 1995), and reproductive management (San-tos et al., 2004; Moore and Thatcher, 2006) have beenassociated with differences in reproductive perfor-mance in previous studies.
+In a series of papers, Bewley et al. (2001a,b,c) and
+Weigel et al. (2003) presented results of a detailedmanagement survey involving 302 Wisconsin farmsthat expanded their milking herds signiﬁcantly be-tween 1994 and 1998. All aspects of these operations,including biosecurity, employee management, hous-
+ing, bedding, feed delivery, manure removal, stocking
+density, animal restraint, heat abatement, and freshcow management, were evaluated as predictors of ani-mal health, milk production, reproductive efﬁciency,culling rate, labor efﬁciency, and overall owner satis-faction. Although these studies provided a wealth ofinformation, the survey was limited to herds in Wis-consin, and details regarding speciﬁc aspects of repro-ductive management were not considered.
+Therefore, the objective of the present study was
+to examine current management practices on largecommercial dairy farms, paying particular attention tofactors that could inﬂuence reproductive performance,via an extensive survey of managers of herds that par-
+CARAVIELLO ET AL. 4724
+ticipated in the Alta Genetics (Watertown, WI) Advan-
+tage Progeny Testing Program.
+MATERIALS AND METHODS
+A comprehensive survey was developed that in-
+cluded questions regarding 10 aspects of each dairyoperation, including general management issues, sireselection, reproductive management, inseminatortraining and techniques, heat abatement devices, bodycondition scoring, facility design and pen movement,nutrition, employee training and management, andanimal health and biosecurity. Between March andSeptember 2004, this survey was delivered to each of153 large commercial dairy farms that participated inthe Alta Genetics Advantage Program, a program forconcentrated progeny testing of elite young Holsteinsires in large herds, by an Advantage Program consul-tant, who assisted the herd manager in completing thesurvey. These herds were located in Wisconsin (26),California (12), New York (11), Minnesota (10), Michi-gan (7), Washington (6), Pennsylvania (6), Iowa (5),Idaho (5), Texas (4), Ohio (4), and other states (7).
+Means and corresponding standard errors were com-puted for continuous and ordinal variables, whereas
+frequencies were tabulated for binary and categori-cal variables.
+RESULTS AND DISCUSSION
+A total of 103 of the 153 herds receiving a survey
+responded, resulting in a 67.3% response rate. Theresponse rate was relatively high, because most ofthese herds have a long-standing relationship withAlta Genetics and, more important, because Advan-tage Program consultants assisted herd managers in
+completing the survey. Mean herd size of respondentswas 613 ±46 lactating cows.
+Table 1 provides a summary of information regard-
+ing labor, herd size, milk production, calving interval,culling, management of nonpregnant cows, and use
+of Posilac (recombinant bST, rBST) on these farms.
+Managers anticipated continued expansion, because
+the mean 5-yr goal for herd size of 942 ±94 cows (rang-
+ing from 150 to 7,000 cows) represented a 54% increasefrom the current mean of 613 ±46 cows. Approximately
+73% of labor was provided by nonfamily employees,
+with most of these employees working full-time. Based
+on a 50-h work week, the average number of cows per
+full-time equivalent employee in the dairy operationwas 84, which was greater than that reported for re-
+cently expanded Wisconsin herds surveyed by Bewley
+et al. (2001c). The most frequent employee beneﬁts
+were paid vacation time and housing, which were of-
+Journal of Dairy Science Vol. 89 No. 12, 2006fered on a greater percentage of farms than reported
+by Bewley et al. (2001b). Roughly one-half of the farmsprovided health insurance, but few offered proﬁt shar-ing. Managers identiﬁed ﬁnding good employees asthe greatest labor management challenge, followed bytraining and supervising employees, whereas em-ployee absences and employee retention were not con-sidered problematic. Respondents to the survey ofBewley et al. (2001b) also identiﬁed ﬁnding good em-ployees as the top labor management challenge, fol-lowed by training employees, although employee re-tention was considered more problematic than in thepresent study.
+Mean daily milk yield, expressed as the amount of
+milk sold per cow per day, was 34.5 ±0.3 kg (with SD
+of 3.0 kg), whereas means for annual culling rate andcalving interval were 34 ±1% (with SD of 7.4%) and
+13.8 ±0.1 mo (with SD of 0.6 mo), respectively. Mean
+culling rate and calving interval in 1998 in recentlyexpanded Wisconsin herds surveyed by Bewley et al.(2001b) were similar, at 33.2 ±0.7% and 13.8 ±0.1 mo,
+respectively. All of these herds used predominantly AIsires, which was expected given that heavy usage ofyoung sire semen was a key requirement of the Advan-tage Progeny Testing Program. A total of 44 herds useda clean-up bull, and nonpregnant cows were moved tothe clean-up pen after 6.6 ±0.6 failed inseminations or
+232 d ±9 d postpartum. Interestingly, these managers
+kept trying to achieve pregnancy until cows reached8.8±0.9 failed inseminations, 300 ±26 d postpartum,
+or when milk yield dropped below 17.7 ±0.5 kg/d. Cull-
+ing of nonpregnant cows occurred shortly thereafter,at 326 ±36 d postpartum, or when milk yield was less
+than 16.4 ±0.3 kg/d. By comparison, de Vries and
+Risco (2005) reported a mean of 415 d until cullingof nonpregnant cows in Florida and Georgia, with acorresponding minimum milk yield of nonpregnantcows of 12.3 kg/d. Posilac (rBST) was used in 71 herds,with 41% of cows in these herds receiving Posilac everyother week from 97 ±6 d postpartum through the end
+of lactation, regardless of pregnancy status. However,usage may have been reduced because of limited avail-ability of Posilac at the time of this survey. Managersindicated that a slightly lower proportion of herds andcows would use Posilac in the future, but that Posilactreatment would begin earlier in lactation than atpresent.
+Table 2 provides a summary of responses regarding
+detection of estrus, hormonal synchronization, and useof a voluntary waiting period (VWP) to determine theminimum number of days to ﬁrst insemination. Mostherds used on-farm labor for detection of estrus, andcows were observed 2.8 ±0.3 times on weekdays and
+2.5±0.2 times on weekends, for an average duration of
+REPRODUCTIVE MANAGEMENT SURVEY 4725
+Table 1. Summary of responses by herd managers (n = 103) to questions related to labor, herd size, milk production, calving interval,
+culling, management of nonpregnant cows, and use of Posilac (rBST), along with corresponding means ±SE (continuous variables) or counts
+(binary or categorical variables)
+Question Response (number)
+How many people are involved in the management
+and work of your operation?
+Full-time family 1.9 ±0.1 (89 ±9 h/wk)
+Part-time family 9 0 ±0.1 (9 ±1 h/wk)
+Full-time nonfamily 6.7 ±0.6 (244 ±31 h/wk)
+Part-time nonfamily 1.5 ±0.2 (23 ±4 h/wk)
+What beneﬁts do you offer full-time employees? Paid vacation time (77)Housing (60)
+Health insurance (49)
+Milk or meat (42)
+Employee-owned cows (8)
+Proﬁt-sharing (4)
+Share of calves born (1)
+Other (17)
+Please describe the following aspects of employee management
+on your operation (1 = not a problem to 5 = major problem)
+Finding good employees 2.94 ±0.12
+Training employees 2.69 ±0.09
+Supervising employees 2.69 ±0.10
+Keeping good employees 2.39 ±0.10
+Employee absences 1.74 ±0.09
+What is your 5-yr goal for herd size? 942 ±94 cows
+Do you have any breeds other than Holstein in your herd? Yes (52)
+No (51)
+How much milk do you ship per cow per day? 34.5 ±0.3 kg/d
+What is the average calving interval in your herd? 13.8 ±0.1 mo
+What percentage of your cows left the herd last year? 34±1%
+When do you decide to cull nonpregnant cows?
+Failed inseminations 8.8 ±0.9
+Days postpartum 300 ±26 d
+Milk production <17.7 ±0.5 kg/d
+When do you cull nonpregnant cows?
+Days postpartum 326 ±36 d
+Milk production <16.4 ±0.3 kg/d
+What is the extent of AI use in your herd? AI only (58)
+AI with clean-up bull (44)
+When do you move cows to the clean-up bull pen?
+Failed inseminations 6.6 ±0.6
+Days postpartum 232 ±9d
+Do you use male fertility data when selecting AI sires? Yes (37)
+No (54)
+Do you use female fertility data when selecting AI sires? Yes (14)
+No (78)
+Current Future
+Response (number) Response (number)
+Do you use Posilac (rBST)? Yes (71) Yes (67)
+No (30) No (33)
+What percentage of cows receive Posilac? 41±3% 36±3%
+When do you start giving Posilac? 97±6 d postpartum 78±4 d postpartum
+What injection interval do you use? 13.9 ±0.1 d 13.5 ±0.2 d
+Do nonpregnant cows receive Posilac? Yes (66) Yes (66)
+No (4) No (4)
+observation of 27 ±4 min and 25 ±4 min, respectively.
+Interestingly, 78 herds admitted that detection of es-
+trus was not the employee’s sole responsibility duringthis period, so “multitasking” appears to be a wide-spread and limiting factor with respect to estrus detec-tion efﬁciency. Among estrus detection aids, tail chalkwas most commonly used, with few herds using pedom-
+Journal of Dairy Science Vol. 89 No. 12, 2006eters or pressure-activated rump-mounted patches.Nearly all herds used a VWP, with a mean durationof 52 ±1.3 d for primiparous cows and 53 ±1.4 d for
+multiparous cows. About one-quarter of herds indi-cated that the duration of the VWP for an individualcow depended on milk yield, BCS, or other factors. Ina recent study, Stevenson and Phatak (2005) noted

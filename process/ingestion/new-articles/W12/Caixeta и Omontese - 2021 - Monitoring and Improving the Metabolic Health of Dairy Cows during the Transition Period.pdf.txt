@@ -1,0 +1,271 @@
+animals
+Review
+Monitoring and Improving the Metabolic Health of Dairy Cows
+during the Transition Period
+Luciano S. Caixeta1,*and Bobwealth O. Omontese2
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045/gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Citation: Caixeta, L.S.; Omontese,
+B.O. Monitoring and Improving the
+Metabolic Health of Dairy Cows
+during the Transition Period. Animals
+2021 ,11, 352. https://doi.org/
+10.3390/ani11020352
+Academic Editor: David S. Beggs
+Received: 30 November 2020
+Accepted: 27 January 2021
+Published: 31 January 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).1Department of Veterinary Population Medicine, College of Veterinary Medicine, University of Minnesota,
+Saint Paul, MN 55108, USA
+2Department of Food and Animal Sciences, College of Agricultural, Life and Natural Sciences,
+Alabama A&M University, Normal, AL 35811, USA; bobwealth.omontese@aamu.edu
+*Correspondence: lcaixeta@umn.edu; Tel.: +1-612-625-3130
+Simple Summary: The transition from late gestation to early lactation is a challenging period for
+dairy cows. A successful transition period depends on metabolic adaptation to the new physiological
+state in early lactation and proper management in order to support the cow’s requirements. This
+review paper will discuss various aspects of routine and consistent approaches to collect and analyze
+herd records, to detect unintended disruptions in performance. In addition, we discuss how to
+incorporate methods to assess health, production, nutrition, and welfare information to monitor cows
+during the transition period. Lastly, we discuss management strategies that can be implemented to
+improve the metabolic health and performance of transition dairy cows.
+Abstract: The peripartum period of a dairy cow is characterized by several physiological and
+behavioral changes in response to a rapid increase in nutrient demands, to support the ﬁnal stages
+of fetal growth and the production of colostrum and milk. Traditionally, the transition period is
+deﬁned as the period 3 weeks before and 3 weeks after parturition. However, several researchers
+have argued that the transition period begins at the time of dry-off (~60–50 days prior to calving)
+and extends beyond the ﬁrst month post-calving in high producing dairy cows. Independent of the
+deﬁnition used, adequate adaptation to the physiological demands of this period is paramount for a
+successful lactation. Nonetheless, not all cows are successful in transitioning from late gestation to
+early lactation, leading to approximately one third of dairy cows having at least one clinical disease
+(metabolic and/or infectious) and more than half of the cows having at least one subclinical case
+of disease within the ﬁrst 90 days of lactation. Thus, monitoring dairy cows during this period is
+essential to detect early disease signs, diagnose clinical and subclinical diseases, and initiate targeted
+health management to avoid health and production impairment. In this review, we discuss different
+strategies to monitor dairy cows to detected unintended disruptions in performance and management
+strategies that can be implemented to improve the metabolic health and performance of dairy cows
+during the transition period.
+Keywords: dairy cow management; dairy nutrition; hyperketonemia; hypocalcemia; performance;
+early lactation
+1. Introduction
+The transition period has traditionally been deﬁned as the period 3 weeks before and
+3 weeks after parturition [ 1]. Nevertheless, metabolic changes can start earlier during
+the dry period and have long-term carryover effects post-calving. More importantly, an
+efﬁcient transition into lactation is essential to ensure the success of dairy cows in current
+production systems [ 2]. Despite this, ineffective adaptation to the new physiological
+state remains common. The transition from late gestation to early lactation is the most
+challenging period for the dairy cow because of the rapid increase in nutrient demands to
+Animals 2021 ,11, 352. https://doi.org/10.3390/ani11020352 https://www.mdpi.com/journal/animals
+Animals 2021 ,11, 352 2 of 17
+support fetal growth and colostrum and milk production [ 3,4]. In early lactation, energy
+demands increase by about 300%, and calcium requirements are increased more than 65%
+to support lactogenesis [ 2–5]. At the same time, voluntary feed intake decreases to a level
+that is insufﬁcient to cover the nutrient requirements of the cow, leading to a period of
+deﬁcit in terms of both energy and major minerals [ 6]. Thus, homeorhetic and homeostatic
+adaptations are essential to coordinate the mobilization of lipid and mineral reserves during
+the transition period [ 7]. The pursuit of a more efﬁcient production system has led the
+dairy industry to prioritize selection for milk yield over other traits, exacerbating those
+metabolic problems faced by dairy cows [ 8,9]. Therefore, dairy cows are at the greatest risk
+of developing disease(s) and involuntary culling during the periparturient period [ 10–13].
+The routine and systematic collection and evaluation of information collected on-farm
+can identify deviations from expected performance. Thus, monitoring can be used to detect
+unintended disruptions in performance under the existing management conditions or to
+measure the impact of an implemented intervention or change in management. When used
+correctly, monitoring methods are extremely important to support management decisions
+and can help motivate management or employee behavioral change on a dairy farm [ 14].
+Many approaches exist to monitor the transition dairy cow, and these approaches vary
+depending on the general goals of the farm. Therefore, choosing monitoring methods that
+are practical and useful to address the problem(s) at hand is important.
+The ideal monitoring methods, independent of the problems at hand, must: (1) have a
+minimum delay between causes and effect (lag); (2) not mask recent changes when using
+historical data (momentum); (3) detect differences across the population (variation); and (4)
+not contain misleading information (bias) [ 14]. Unfortunately, it is not possible to achieve
+all these features using a single monitor, and a combination of monitoring methods is
+often used to analyze the performance of transition dairy cows. In order to monitor the
+transition period, the following broad areas can be used as a guideline: dairy herd general
+information (e.g., stocking density, cow comfort, body condition scoring), milk production
+during early lactation, fresh cow health, and events (e.g., disease incidence and prevalence,
+death, and culling), and feeds and feeding (i.e., feeding management).
+Considering the multifactorial nature of the pathogenesis of transition period diseases
+and the delays in diagnosis and recording, herd-level monitoring and prevention strategies
+relying solely on the occurrence of a single disease as a standalone morbidity are practically
+impossible and are of little signiﬁcance to veterinarians, consultants, and dairy produc-
+ers [ 15]. Thus, carefully monitoring the transition dairy cow while considering all factors
+affecting health and performance enables prompt intervention to address rising problems
+and enhances cow health, well-being, and productivity in a timely manner.
+Considering the importance of the transition period for the success of dairy cows in
+intensive systems, this review article aims to describe the adaptations occurring during the
+periparturient period and highlight strategies to improve cow performance and welfare
+during the transition period. In addition, we aim to summarize management and treatment
+strategies to prevent the occurrence of metabolic diseases, potentially decreasing the
+economic cost of these diseases and improving cattle welfare.
+2. Monitoring the Transition Dairy Cow
+2.1. Dairy Herd General Information
+Appropriate stocking density—dependent on breed, parity, and lactation stage or dry
+period—is important to prevent negative effects on health and milk production in early
+lactation. The stocking density during the far-off period should not exceed 100% of the
+total number of stall beds in free-stall housing systems. On the other hand, during the
+close-up period, ideal stocking density varies according to breed. In a ﬁeld trial evaluating
+dry-cow feed additives, Holstein primiparous cows produced 0.72 kg per day less milk for
+every 10% unit increase in stocking densities (based on headlocks) above 80% during the
+close-up period [ 16]. Alternatively, 100% stocking density (based on headlocks) was not
+detrimental in Jersey cattle. When comparing 80% versus 100% stocking densities, Silva
+Animals 2021 ,11, 352 3 of 17
+and colleagues [ 17] reported no difference in the percentages of Jersey cows developing
+diseases (48% vs. 45%, for 80% and 100% stocking densities, respectively) or being removed
+from the herd before 60 days in milk (8% for both groups). Non-signiﬁcant differences were
+also reported when investigating the innate immune response, body condition score (BCS),
+milk production, and reproductive performance [ 17]. Animals in the 80% stocking density
+group, however, spent more time lying down near to parturition and were displaced from
+the feed bunk less often than cows in the 100% stocking density group [ 18]. Interestingly,
+cows in the higher stocking density group were less likely to start feeding within 5 min of
+feed delivery when compared to the cows in low stocking density pens [ 19]. In addition
+to behavioral changes, an increase in stocking density (9.7 m2versus 19.3 m2per cow)
+in the prepartum period was associated with lower hygiene scores [ 20]. Considering the
+published literature to date, there is enough evidence to advise against overstocking dairy
+cows during the transition period.
+In addition to appropriate stocking density, adequate heat abatement and comfortable,
+clean, dry, and appropriately designed stalls are essential to minimize stress during the
+transition period. Adequate heat abatement during the dry period and after calving is
+important to minimize the effects of heat stress on milk production, reproductive perfor-
+mance, and the health of dairy cows [ 21–23]. For example, actively cooled nulliparous and
+multiparous cows produce an extra 4 kg/d and 9 kg/d of milk, respectively, compared to
+their non-cooled counterparts [ 21,24], likely because of the deleterious effect of heat stress
+on the mammary gland turnover during the dry period [ 25]. Moreover, heat stress during
+the dry period impairs the lifetime performance of dairy cows exposed to heat stress in
+uterus, with late gestation heat stress alone costing USD 371 million per year to the dairy
+industry in the United States [ 26].
+Appropriate stall design and bedding management improve cow use of the bed,
+improve lying time (up to 80 extra minutes in barns with the cleanest stalls) [ 27,28], decrease
+lameness and hock lesions [ 29], and consequently improve milk production [ 30]. In a large
+trial in free-stall farms in Canada, a 10 kg increase in milk production was associated with
+each one-point percentage increment in the proportion of dry stalls [ 31]. Comfortable
+and clean stalls are also important to keep dairy cows clean, decreasing the likelihood of
+metritis because of poor hygiene [ 32]. In general, the easiest method to assess cow comfort
+is simply to evaluate the cows’ behavior, their distribution pattern in the pen, and the use
+of the stalls [ 28,33,34]. When monitoring cow comfort, the “cows will tell us” the answers.
+Recommendations for management practices during the transition period are presented
+in Table 1.
+Body condition scoring is a simple, effective, and inexpensive monitoring parameter to
+assess the nutritional status of dairy cows throughout lactation. Various BCS systems have
+been described in different parts of the world using different scales [ 35,36]. Regardless
+of scale, lower scores reﬂect thinner cows and higher scores reﬂect over-conditioned
+cows. During early lactation, a loss of BCS is expected as dairy cows are mobilizing
+their body reserves to support the increased nutrient demands of milk production. Live
+body weight varies from 17 kg to 41 kg for each unit of BCS lost in primiparous and
+multiparous Holstein-Friesian dairy cows, respectively [ 37,38]. As reviewed by Roche and
+colleagues [ 39], changes in the body condition score in the transition period are expected
+and can be used as a proxy to determine how dairy cows mobilize their body reserves to
+support the increased nutrient demands of the transition period. Ideally, BCS would be
+assessed at dry-off, calving, peak milk production (approximately 70 to 90 days in milk),
+and, when possible, once more during mid-lactation in order to monitor BCS dynamics
+throughout lactation, with an emphasis on the BCS dynamics in the transition period
+(dry-off, calving, and peak milk). Targeting a BCS at calving of 3.0 to 3.25 (on a ﬁve-point
+scale) will maximize milk production, while decreasing the risk of metabolic and infectious
+diseases [ 40]. It is common for cows to lose between 0.5 to 1 point between calving and peak
+lactation. Losses of more than one point have been associated with impaired reproductive
+performance and should be avoided [ 41,42]. Cows that gained or maintained BCS during
+Animals 2021 ,11, 352 4 of 17
+the dry period [ 42] or between 21d before and 21d after calving [ 43] also had fewer health
+disorders and improved performance compared to cows that lost BCS during the same
+period. As soon as cows enter a period of positive nutrient balance (~9 weeks postpartum),
+they will replenish the body reserves depleted in the ﬁrst third of their lactation. As a rule
+of thumb, the BCS at dry-off (~12 months after calving) would be similar to the BCS at
+calving, and, thus, cows should not lose or, likewise, gain much BCS during the dry period.
+Although we do not expect cows to gain excessive BCS during this period, dairy cows can
+increase their BCS by 0.25 to 0.5-points during the dry period. As a result, best-practice
+would dictate that a target BCS for cows at dry-off is set, and that this score is maintained
+or only increased fractionally during the dry period to avoid obesity at calving [ 38,44].
+Target BCSs for the different stages of lactation are presented in Table 1. By consistently
+monitoring BCS, dairy producers, veterinarians, and nutritionists are able to determine
+if transition period nutritional management is optimal. This routine monitoring enables
+the identiﬁcation of unexpected changes to BCS at different stages of lactation, in a timely
+manner. If excessive loss or gain of BCS is observed, nutritional interventions can be
+adopted to address this ﬁnding.
+Table 1. Recommended feeding, bunk management, and management practices during the transi-
+tion period.
+Management Practice Goal
+Removal of old feed from bunk Daily
+Availability of feed >23 h/day
+Feed push-up Every 4 h
+Feed refusal 3–5%
+Eating space >61cm/head (24 inches/head)
+Water availability >10 linear cm/head (4 linear inches/head)
+Stocking density1
+Far-off dry cows 100%
+Close-up dry cows280–100%
+Fresh cow 80%
+Prepartum dry matter intake
+Primiparous >10 kg/day (22 pounds/day)
+Multiparous >12 kg/day (26 pounds/day)
+Postpartum dry matter intake
+Primiparuos >15.5 kg/day (34 pounds/day)
+Multiparous >19 kg/day (42 pounds/day)
+Social grouping Separate parity groups
+Additional cow comfort parameters
+Hock scoring >80% of cows without hock lesions
+Body condition score
+Calving 3.0–3.25
+Peak milk production (~70–90 DIM3) 2.5–3.0
+Mid-lactation (~150 DIM3) 3.0–3.25
+Dry-off 3.0–3.25
+Cow behavior >60% of lying cows chewing their cud 2 h after feeding
+1Stocking density calculated based on headlocks.2Recommended close-up dry cows sticking density varies
+depending on breed and demographics of the pen. A lower stocking density (i.e., 80%) is beneﬁcial for Holstein
+cattle and in herds where multiparous and primiparous animals are housed together. Higher stocking density
+(i.e., 100%) can be used in Jersey cattle herds without negative effects on health and performance postpartum.
+3DIM = days in milk
+2.2. Milk Production in Early Lactation
+Monitoring milk production and milk composition during the ﬁrst 2 to 3 months of
+lactation can be a useful tool to assess transition cow performance. Each dairy farm can
+establish its own goal for peak milk production for an ideal cow that calved normally,
+received adequate diets, and did not develop any disease during the transition period,
+depending on her parity and breed. Unfortunately, monitoring milk production has many
+Animals 2021 ,11, 352 5 of 17
+limitations, including a considerable lag between calving and peak milk production. The
+50 to 90 days between measuring the outcome (peak milk production) and fresh cow events
+is too long to enable prompt interventions to enhance a cow’s health and performance.
+Therefore, peak milk production should not be used as a standalone trait when monitoring
+milk production, even though monitoring milk production during early lactation can
+help identify problems with cows during early lactation (i.e., less than expected milk
+production between 50 and 120 days in milk). In addition, this information can be used
+to monitor whether peak milk production matches management expectations (Figure 1).
+Daily milk yield is a readily available and useful measure when monitoring transition
+dairy cows, allowing for prompt changes to be made to address the problem(s) at hand [ 45].
+Early lactation milk production can be used as a proxy for the overall health of early
+lactation dairy cows and, combined with other information gathered during monthly Dairy
+Herd Improvement Association (DHIA) testing (i.e., parity, breed, previous 305-day milk,
+prior lactation length, month of calving, days dry, etc.), have been used to identify cows
+with transition problems [ 45,46]. Decreased milk production in early lactation is strongly
+associated with disease development and culling by the 100 days in milk (DIM) [ 46,47].
+At the herd level, higher milk production in early lactation is associated with decreased
+culling by the 60 DIM, when compared to herds with lower milk production in the same
+period [ 12]. Unfortunately, the majority of dairy herds do not have equipment to measure
+daily milk yield and rely on monthly testing.
+events is too long to enable prompt interventions to enhance a cow’s health and perfor-
+ 
+Figure 1. Milk production (kg; vertical axis) by days in milk (DIM; horizontal axis) for different
+parity groups. The upper blue square highlights peak milk production between 60 and 120 DIM.
+The lower red rectangle highlights problem cows (outliers characterized by low milk production,
+compared with the rest of the herd between 50 and 120 DIM). Parity 1 (lactation = 1; blue dots),
+Parity 2 (lactation = 2; red dots), Parity 3 (lactation > 3; green dots). Continuous lines represent the
+average milk production for each parity group by days in milk.
+2.3. Fresh Cow Health and Events
+The periparturient health of dairy cows is critical for their performance throughout
+their lactation [ 48,49]. More than 35% of all dairy cows, however, have at least one clinical
+disease (metabolic and/or infectious), and approximately 60% have at least one subclinical
+disease event during the ﬁrst 90 DIM [ 50,51]. Hence, daily screening of fresh cows during
+the ﬁrst 2 weeks of lactation, when possible, is recommended to identify cows presenting
+signs of sickness. Monitoring disease events during the ﬁrst few weeks of lactation provides
+useful insights into how effectively transition period management supports cows during
+this challenging period. In addition, the type of disease provides us with information about

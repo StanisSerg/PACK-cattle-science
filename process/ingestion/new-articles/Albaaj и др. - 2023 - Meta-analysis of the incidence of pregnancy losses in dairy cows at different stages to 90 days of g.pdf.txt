@@ -1,0 +1,128 @@
+1Département de pathologie et microbiologie, Faculté de médecine vétérinaire, Université de Montréal, C. P . 5000, Saint-Hyacinthe, QC, Canada, J2S 7C6, 
+2Lactanet, 555, boul. Des Anciens-Combattants, Ste-Anne-de-Bellevue, Québec, Canada, H9X 3R4, 3Department of Population Medicine, University of 
+Guelph, Guelph, ON, Canada, N1G 2W1. *Corresponding author: ahmad.albaaj@  umontreal  .ca. © 2023, The Authors. Published by Elsevier Inc. and Fass Inc. 
+on behalf of the American Dairy Science Association®. This is an open access article under the CC BY license (http:  / / creativecommons  .org/  licenses/  by/ 4 .0/ ). 
+Received June 14, 2022. Accepted September 11, 2022.JDS
+Communications®
+2023; 4:144–148• AMERICAN DAIRY SCIENCE ASSOCIATION •®https:  / / doi .org/  10 .3168/  jdsc  .2022  -0278
+Short Communication
+Physiology
+Meta-analysis of the incidence of pregnancy losses in 
+dairy cows at different stages to 90 days of gestation
+A. Albaaj,1* J. Durocher,2 S. J. LeBlanc,3 and S. Dufour1 
+ Graphical Abstract
+Summary
+A meta-analysis was performed on a total of 19,723 diagnostic records of pregnancy loss from 46 studies on 
+dairy cows. Pregnancy losses averaged 27%, 13%, 7%, and 2% in the early embryonic (19 to 32 days), late embryonic (30 to 45 days), early fetal (45 to 60 days), and later fetal (60 to 90 days) stages. These results provide a formal synthesis of the incidence of pregnancy losses in dairy cows.
+Highlights
+• A meta-analysis was conducted on 19,723 pregnancy diagnosis records in dairy cows.
+• Four periods were defined due to the embryonic development up to 90 days of gestation.
+• Transrectal ultrasound is the dominant method of pregnancy diagnosis.
+• Pregnancy losses ranged from 27% in early embryonic to 2% in later fetal stages.
+
+1Département de pathologie et microbiologie, Faculté de médecine vétérinaire, Université de Montréal, C. P . 5000, Saint-Hyacinthe, QC, Canada, J2S 7C6, 
+2Lactanet, 555, boul. Des Anciens-Combattants, Ste-Anne-de-Bellevue, Québec, Canada, H9X 3R4, 3Department of Population Medicine, University of 
+Guelph, Guelph, ON, Canada, N1G 2W1. *Corresponding author: ahmad.albaaj@  umontreal  .ca. © 2023, T
+he Authors. Published by Elsevier Inc. and Fass Inc. 
+on behalf of the American Dairy Science Association®. This is an open access article under the CC BY license (http:  / / creativec
+ommons  .org/  licenses/  by/ 4 .0/ ). 
+Received June 14, 2022. A
+ccepted September 11, 2022.JDS
+Communications®
+2023; 4:144–148• AMERICAN DAIRY SCIENCE ASSOCIATION •®https:  / / doi .org/  10 .3168/  jdsc  .2022  -0278
+Short C
+ommunication
+Physiology
+Abstract: Pregnancy losses are a biological challenge and economically important in dairy herds. A meta-analysis was conducted to 
+quantify losses in 4 periods from 19 to 90 d of pregnancy corresponding to the physiological development of gestation in dairy cows. A total of 19,723 diagnostic records from 46 studies were included. Pregnancy losses averaged 27%, 13%, 7%, and 2% in the early embryonic (19 to 32 d), late embryonic (30 to 45 d), early fetal (45 to 60 d), and later fetal (60 to 90 d) stages. These results provide a formal synthesis of the incidence of pregnancy losses in dairy cows.
+Reproductive efficiency is an important determinant of dairy herds’ profitability because of its direct link to an optimal milk 
+production cycle and culling. A combination of management prac-tices that achieve a high insemination rate and probability of preg-nancy per insemination is critical for reproductive performance (LeBlanc, 2007). This includes prompt and accurate identification of open cows following insemination. However, as fertility and reproductive performance improve through management and ge-netics, pregnancy and calving rates may be limited by substantial pregnancy losses (PL) (Wiltbank et al., 2016; Ealy and Seekford, 2019). Numerous studies have reported PL at different stages of gestation, documenting greater apparent losses in the first month after practical diagnosis of pregnancy (i.e., from approximately 28 d), with reduced rates of loss later (Santos et al., 2004c). The periods investigated vary among studies, leading to inconsistency in the apparent PL. Pregnancy loss before d 24 is classified as early embryonic loss and those between d 24 and 42 to 50 as late embryonic losses, whereas those detected after d 50 are considered fetal losses (Santos et al., 2004c). Several techniques exist to detect PL including direct (transrectal ultrasonography or palpation) and indirect (measures of pregnancy-specific glycoproteins or proges-terone) methods (Romano et al., 2006). Because PL is common, cows correctly diagnosed pregnant between approximately 25 and 60 d of gestation must undergo one or more confirmation tests to confirm the pregnancy status and to identify cows experiencing PL for timely rebreeding. Accordingly, it is important to provide valid benchmark data for farmers, veterinarians, and advisors to identify and investigate elevated rates of PL. Two narrative review articles (Santos et al., 2004c; Wiltbank et al., 2016) summarized a variety of studies that addressed PL in dairy cows. The objective of the present meta-analysis is to further characterize PL in dairy cows by providing an updated and newly quantitative summary estimate of PL during specific periods of gestation in dairy cattle.
+We conducted a meta-analysis. We began with data from the 
+review articles (Santos et al., 2004c; Wiltbank et al., 2016), in-cluding only studies on dairy cows. All published trials were re-examined to confirm the reported PL values and risk periods used. We searched for subsequent publication of the cited unpublished data in the reviews. If not published, estimated PL values were kept as reported in the review paper. We used the PubMed (https:
+ / 
+/ pubmed  .ncbi  .nlm .nih .gov/  ) and CAB (https:  / / www  .cabdirect  .org/ 
+cabdirect ) search engines in July 2022 using “pregnancy OR fetal 
+OR embryonic AND loss OR death” 
+and “dairy AND cattle OR 
+cow OR bos taurus OR bovine” in the title and abstract for PubMed and in the title for CAB to identify additional data sources as indi-cated in Table 1. We set 4 risk periods for PL: early (19 to 32 d) and late (30 to 45 d) embryonic periods and early (45 to 60 d) and late (60 to 90 d) fetal periods. These periods were based on the reported data for first and second pregnancy diagnoses, which explains the small overlap between the first 2 risk periods. After eliminating duplicate articles and studies included in the 2 above-mentioned review articles, the literature search returned a total of 142 original research and review articles. Articles with no experimental data on PL or pregnancy diagnoses (n = 58) or in which pregnancy diagno-ses spanned 2 or more periods of interest without subdivided data (n = 56) were excluded. Data from trials reporting induced or spe-cifically disease-associated PL were also excluded (n = 14) except when data for control groups were available, in which case only the control group data were used. The complete list of the search re-sults with the reason of exclusion or inclusion in the meta-analysis is available at https:
+ / / doi .org/ 10 .5683/  SP3/  4NAUFI. When one of 
+the pregnancy diagnoses occurred within ± 3 d of a defined period the 
+data were attributed to the most relevant subgroup. A list of the 
+studies included in the meta-analysis is in Table 1.
+A meta-analysis was conducted to calculate the summary per -
+centage of PL through the effect sizes estimated by each trial using the Meta package (Balduzzi et al., 2019) of R (version 4.2.1; R Foundation for Statistical Computing). A fixed and random effects model for meta-analysis of single proportions was built to calculate the pooled effect size using the number of lost pregnancies (events) and the number of pregnant cows at first diagnosis (total), using the inverse variance method. The inconsistency of results among tri-als was quantified using both Cochran’s Q test and the I
+2 statistic. 
+Greater I2 values denote variation in true effect sizes and indicate Meta-analysis of the incidence of pregnancy losses in 
+dairy cows at different stages to 90 days of gestation
+A. Albaaj,1* J. Durocher,2 S. J. LeBlanc,3 and S. Dufour1 
+ 
+JDS Communications 2023; 4: 144–148heterogeneity in the data (Higgins et al., 2003). A forest plot was 
+used to display the pooled risks of PL and their 95% CI within each period of interest and for the whole period (19 to 90 d). Funnel and influential case diagnostics were conducted at the subgroup level to analyze publication bias to assess balance between results of large and small studies (results not shown). These analyses were conducted on previously collected data and do not contain any experiments with animal subjects, so did not require IACUC approval.
+The data included 46 data sets derived from 2 review articles 
+supplemented with 14 additional publications. Transrectal ultra -
+sound was the dominant method of pregnancy diagnosis, whereas 145 Albaaj et al. | Meta-analysis of pregnancy losses in dairy cows
+Table 1. Sources of data included in a meta-analysis on the risk of pregnancy loss in lactating dairy cows
+StudyRisk period 
+subgroupFirst pregnancy diagnosis
+ Pregnanc
+y 
+confirmation
+Pregnant 
+cowsPregnancy 
+loss  SourceDa
+ys post- 
+breeding TestDays post- 
+breeding Test
+Baez et al. unpublished 19–32 19 ISG-15127 PAG2116 0.22 Wiltbank et al. (2016)
+Baez et al. unpublished 19–32 19 ISG-15 32 US3163 0.41 Wiltbank et al. (2016)
+Han et al. (2006) 19–32 19 ISG-15 32 US 51 0.33 Wiltbank et al. (2016)
+Humblot (2001) 19–32 23 Progesterone 35 PSPB41,870 0.23 Literature search (2022)
+Monteiro et al. (2014) 19–32 19 ISG-15 32 US 113 0.27 Wiltbank et al. (2016)
+Toledo et al. unpublished 19–32 19 ISG-15 27 PAG 172 0.20 Wiltbank et al. (2016)
+Toledo et al. unpublished 19–32 19 ISG-15 32 US 172 0.25 Wiltbank et al. (2016)
+Alnimer and Lubbadeh (2008)530–45 28 US 45 RP691 0.33 Literature search (2022)
+Bartolome et al. (2005)730–45 28 US 45 RP 66 0.20 Literature search (2022)
+Cartmill et al. (2001)730–45 28 US 45 RP 110 0.43 Literature search (2022)
+Cerri et al. (2003) 30–45 30 US 44 US 261 0.13 Santos et al. (2004c)
+Chebel et al. (2003a) 30–45 28 US 42 US 195 0.18 Santos et al. (2004c)
+Chebel et al. (2003b) 30–45 31 US 45 US 74 0.11 Santos et al. (2004c)
+Chebel et al. (2004) 30–45 31 US 45 US 1,465 0.13 Santos et al. (2004c)
+Fischer-Tenhagen et al. (2010)530–45 27 US 39 RP 160 0.22 Literature search (2022)
+Fricke et al. (2016) 30–45 29 US 39 US 1,080 0.08 Literature search (2022)
+Galvão et al. (2004) 30–45 27 US 41 US 382 0.18 Santos et al. (2004c)
+Juchem et al. (2002) 30–45 28 US 39 US 139 0.11 Santos et al. (2004c)
+Kelley et al. (2017) 30–45 34 US 46 RP 122 0.05 Literature search (2022)
+López-Gatius et al. (2007) 30–45 35 US 42 US 98 0.05 Literature search (2022)
+Middleton and Pursley (2019) 30–45 24 PAG 34 US 104 0.06 Literature search (2022)
+Moore et al. (2005) 30–45 28 US 39 RP 381 0.18 Literature search (2022)
+Moreira et al. (2001) 30–45 27 US 45 US 139 0.21 Santos et al. (2004c)
+Romano et al. (2007) 30–45 30 US 45 US 520 0.10 Literature search (2022)
+Romano and Fahning (2013) 30–45 29 US 45 US 347 0.10 Wiltbank et al. (2016)
+Romano and Larson (2010) 30–45 28 US 35 US 114 0.07 Literature search (2022)
+Santos et al. (2001) 30–45 28 US 45 US 172 0.09 Santos et al. (2004c)
+Santos et al. (2004a) 30–45 31 US 45 US 372 0.11 Santos et al. (2004c)
+Santos et al. (2004b) 30–45 27 US 41 US 215 0.10 Santos et al. (2004c)
+Silke et al. (2002) 30–45 28 US 42 US 705 0.03 Santos et al. (2004c)
+Szelényi et al. (2018) 30–45 32 US 46 US 89 0.28 Literature search (2022)
+Toledo et al. unpublished 30–45 27 PAG 32 US 172 0.07 Wiltbank et al. (2016)
+Vasconcelos et al. (1997) 30–45 28 US 42 US 488 0.11 Santos et al. (2004c)
+Zobel et al. (2011) 30–45 32 US 42 US 165 0.18 Literature search (2022)
+López-Gatius et al. (2007) 45–60 42 US 63 US 93 0.14 Literature search (2022)
+Romano and Fahning (2013) 45–60 46 US 60 US 314 0.03 Wiltbank et al. (2016)
+Romano et al. (2007) 45–60 46 US 60 RP 468 0.04 Literatur e search (2022)
+Vasconcelos et al. (1997) 45–60 42 US 56 US 393 0.06 Santos et al. (2004c)
+Zobel et al. (2011) 45–60 43 US 53 US 175 0.12 Literature search (2022)
+Forar et al. (1996) 60–90 56 RP 80 RP 4,183 0.01 Wiltbank et al. (2016)
+Kelley et al. (2017) 60–90 56 US 74 RP 116 0.04 Literature search (2022)
+López-Gatius et al. (2004) 60–90 68 US 90 US 1,332 0.02 Wiltbank et al. (2016)
+Ricci et al. (2015) 60–90 60 US 90 PAG 48 0.00 Wiltbank et al. (2016)
+Romano and Fahning (2013) 60–90 60 US 90 US 306 0.01 Wiltbank et al. (2016)
+Silke et al. (2002) 60–90 57 US 84 US 1,661 0.02 Wiltbank et al. (2016)
+Vasconcelos et al. (1997) 60–90 56 US 98 US 393 0.03 Wiltbank et al. (2016)
+1ISG-15 = interferon-stimulated gene.
+2PAG = pregnancy-associated glycoproteins.
+3US = ultrasonography.
+4PSPB = pregnancy-specific protein B.
+5Only data from control groups were included.
+6RP = rectal palpation.
+7Not identified in the search but cited by a paper found in the search and met the inclusion criteria.
