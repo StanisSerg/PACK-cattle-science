@@ -441,9 +441,9 @@ CS.SOTA.025 (Hansson 2025) ──VWP──→
 
 ## Обновление
 
-**Всего SoTA:** 59 файлов
+**Всего SoTA:** 64 файла
 - `reproduction/` — 11 файлов
-- `feeding/` — 12 файлов  
+- `feeding/` — 13 файлов  
 - `health/` — 36 файлов
 - `economics/` — 3 файла
 - `management/` — 1 файл
