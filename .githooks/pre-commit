@@ -1,0 +1,51 @@
+#!/bin/bash
+# pre-commit hook — проверка индекса SoTA перед коммитом
+#
+# Установка:
+#   git config core.hooksPath .githooks
+#   chmod +x .githooks/pre-commit
+
+echo "=== Pre-commit проверка ==="
+
+# Проверяем, есть ли новые SoTA-файлы в staged
+STAGED_SOTA=$(git diff --cached --name-only | grep "pack/cattle-science/06-sota/CS.SOTA.*\.md" || true)
+
+if [ -n "$STAGED_SOTA" ]; then
+    echo "Найдены новые SoTA-файлы в коммите:"
+    echo "$STAGED_SOTA"
+    echo ""
+    
+    # Проверяем, обновлён ли индекс
+    if git diff --cached --name-only | grep -q "pack/cattle-science/07-map/CS.MAP.001-sota-index.md"; then
+        echo "✅ Индекс CS.MAP.001 обновлён в коммите"
+    else
+        echo "⚠️  Внимание: Индекс CS.MAP.001 НЕ обновлён!"
+        echo ""
+        echo "Рекомендуется обновить индекс перед коммитом:"
+        for file in $STAGED_SOTA; do
+            echo "  bash scripts/add-sota-to-index.sh $file"
+        done
+        echo ""
+        echo "Продолжить коммит без обновления индекса? (y/N)"
+        read -r response
+        if [[ ! "$response" =~ ^[Yy]$ ]]; then
+            echo "Коммит отменён. Обновите индекс и попробуйте снова."
+            exit 1
+        fi
+    fi
+fi
+
+# Запускаем verify-sota-index.sh
+if [ -f "scripts/verify-sota-index.sh" ]; then
+    echo ""
+    echo "Проверка целостности индекса..."
+    if bash scripts/verify-sota-index.sh; then
+        echo "✅ Проверка индекса пройдена"
+    else
+        echo "⚠️  Предупреждение: обнаружены расхождения в индексе"
+        echo "Запустите: bash scripts/verify-sota-index.sh"
+    fi
+fi
+
+echo ""
+exit 0

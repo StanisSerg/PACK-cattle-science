@@ -73,7 +73,8 @@ pack/cattle-science/
 5. **Указать Revision Criterion** — когда пересматривать
 6. **Связать с существующими** — related SoTA entries
 7. **Интегрировать в Pack** — methods, entities, work products
-8. **Обновить CS.MAP.001** — добавить в индекс
+8. **Закоммитить** — индекс обновится автоматически (через git hooks)
+   - Проверить: `bash scripts/verify-sota-index.sh`
 
 ### Формат имени файла
 ```
@@ -244,6 +245,9 @@ related:
 2. **Pack ≠ Raw data** — интегрированные знания, не копии статей
 3. **Source-of-truth** — все downstream ссылаются сюда
 4. **SoTA обязательна** — каждое утверждение требует источника
+5. **Индекс-автоматизация** — индекс обновляется автоматически при коммите
+   - Настройка: `git config core.hooksPath .githooks`
+   - Проверка: `bash scripts/verify-sota-index.sh`
 
 ---
 

@@ -1,0 +1,32 @@
+#!/bin/bash
+# post-commit hook — автоматическое обновление индекса SoTA
+#
+# Установка:
+#   git config core.hooksPath .githooks
+#   chmod +x .githooks/post-commit
+
+# Получаем список добавленных SoTA-файлов в последнем коммите
+NEW_SOTA_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep "pack/cattle-science/06-sota/CS.SOTA.*\.md" || true)
+
+if [ -n "$NEW_SOTA_FILES" ]; then
+    echo ""
+    echo "=== Автоматическое обновление индекса SoTA ==="
+    
+    for file in $NEW_SOTA_FILES; do
+        if [ -f "$file" ]; then
+            echo "Найдена новая SoTA: $file"
+            bash scripts/add-sota-to-index.sh "$file"
+        fi
+    done
+    
+    # Проверяем, есть ли изменения в индексе
+    if git diff --quiet HEAD -- pack/cattle-science/07-map/CS.MAP.001-sota-index.md; then
+        echo "Индекс не требует обновления (SoTA уже в индексе)"
+    else
+        echo ""
+        echo "Индекс обновлён. Добавление в коммит..."
+        git add pack/cattle-science/07-map/CS.MAP.001-sota-index.md
+        git commit --amend --no-edit --quiet
+        echo "✅ Индекс автоматически добавлен в коммит"
+    fi
+fi
