@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.048
 type: sota
+priority: P2
 domain: cattle-science
 area: feeding
 subarea: intake-regulation

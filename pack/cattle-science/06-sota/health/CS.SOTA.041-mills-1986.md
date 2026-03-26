@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.041
 type: sota
+priority: P2
 domain: cattle-science
 area: health
 subarea: metabolic-disorders

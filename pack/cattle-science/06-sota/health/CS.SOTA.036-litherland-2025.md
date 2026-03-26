@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.036
 type: sota
+priority: P1
 domain: cattle-science
 area: nutrition
 subarea: prepartum

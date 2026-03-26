@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.021
 type: sota
+priority: P2
 domain: cattle-science
 area: economics
 subarea: replacement-policy

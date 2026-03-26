@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.033
 type: sota
+priority: P1
 domain: cattle-science
 area: feeding
 subarea: additives

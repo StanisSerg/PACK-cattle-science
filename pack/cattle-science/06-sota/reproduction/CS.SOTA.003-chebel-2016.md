@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.003
 type: sota
+priority: P1
 domain: cattle-science
 area: reproduction
 subarea: reproductive-programs

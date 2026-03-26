@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.006
 type: sota
+priority: P2
 domain: cattle-science
 area: reproduction
 subarea: management-practices

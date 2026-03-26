@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.061
 type: sota
+priority: P2
 domain: cattle-science
 area: health
 subarea: ketosis

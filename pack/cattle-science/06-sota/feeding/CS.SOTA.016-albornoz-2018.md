@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.016
 type: sota
+priority: P2
 domain: cattle-science
 area: feeding
 subarea: starch-fermentability

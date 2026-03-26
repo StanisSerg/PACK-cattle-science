@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.054
 type: sota
+priority: P1
 domain: cattle-science
 area: health
 subarea: inflammation

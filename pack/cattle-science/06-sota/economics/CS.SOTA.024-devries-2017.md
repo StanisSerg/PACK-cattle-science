@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.024
 type: sota
+priority: P1
 domain: cattle-science
 area: economics
 subarea: genetic-improvement

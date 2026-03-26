@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.018
 type: sota
+priority: P0
 domain: cattle-science
 area: feeding
 subarea: energy-metabolism

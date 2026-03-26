@@ -2,6 +2,7 @@
 # 1. YAML FRONTMATTER
 id: CS.SOTA.044
 type: sota
+priority: P2
 domain: cattle-science
 area: health
 subarea: fatty-liver

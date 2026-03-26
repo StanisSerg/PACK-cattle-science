@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.014
 type: sota
+priority: P0
 domain: cattle-science
 area: reproduction
 subarea: fertility-factors

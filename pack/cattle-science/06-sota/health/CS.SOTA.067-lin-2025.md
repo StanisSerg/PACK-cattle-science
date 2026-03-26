@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.067
 type: sota
+priority: P2
 domain: cattle-science
 area: health
 subarea: transition-period

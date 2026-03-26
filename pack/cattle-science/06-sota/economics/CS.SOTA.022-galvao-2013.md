@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.022
 type: sota
+priority: P2
 domain: cattle-science
 area: economics
 subarea: reproductive-programs

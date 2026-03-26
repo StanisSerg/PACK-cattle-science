@@ -1,6 +1,7 @@
 ---
 id: CS.SOTA.026
 type: sota
+priority: P2
 domain: cattle-science
 area: management
 subarea: reproductive-assessment

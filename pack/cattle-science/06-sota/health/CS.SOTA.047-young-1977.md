@@ -2,6 +2,7 @@
 # 1. YAML FRONTMATTER (обязательно)
 id: CS.SOTA.047
 type: sota
+priority: P0
 domain: cattle-science
 area: health
 subarea: metabolism

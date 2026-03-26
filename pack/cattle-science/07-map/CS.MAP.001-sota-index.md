@@ -24,9 +24,9 @@
 
 ### Репродуктивный менеджмент (11)
 
-| ID | Статья | Год | Тип | Теги | Ключевой результат |
-|----|--------|-----|-----|------|-------------------|
-| [CS.SOTA.001](../06-sota/reproduction/CS.SOTA.001-crowe-2018.md) | Crowe et al. | 2018 | Review | `#будущее` `#TAI` `#мониторы` `#геномика` | Интеграция технологий → 21-d PR 30%+ |
+| ID | Статья | Год | Приоритет | Тип | Теги | Ключевой результат |
+|----|--------|-----|-----------|-----|------|-------------------|
+| [CS.SOTA.001](../06-sota/reproduction/CS.SOTA.001-crowe-2018.md) | Crowe et al. | 2018 | P1 | Review | `#будущее` `#TAI` `#мониторы` `#геномика` | Интеграция технологий → 21-d PR 30%+ |
 | [CS.SOTA.002](../06-sota/reproduction/CS.SOTA.002-fricke-2023.md) | Fricke et al. | 2023 | Mini-review | `#high-fertility-cycle` `#BCS` `#фертильность` | ΔBCS >0.75 → P/AI 25%; прирост BCS → P/AI 83% |
 | [CS.SOTA.003](../06-sota/reproduction/CS.SOTA.003-chebel-ribeiro-2016.md) | Chebel & Ribeiro | 2016 | Review | `#репродуктивные-системы` `#TAI` `#синхронизация` | ED+TAI комбинация оптимальна |
 | [CS.SOTA.004](../06-sota/reproduction/CS.SOTA.004-albaaj-2023.md) | Albaaj et al. | 2023 | Meta-analysis | `#потери-беременности` `#аборты` `#стадии` | Потери: 27% → 13% → 7% → 2% |
@@ -146,6 +146,67 @@
 | Как работает метаболизм печени? | CS.SOTA.012, 018, 026 | Печень модифицирует питательные вещества, карнитин важен |
 | Как лечить кетоз? | CS.SOTA.058, 059, 060, 061, 062, 063 | Глицерол и пропиленгликоль: механизмы и сравнение |
 | Как мониторить кетоз? | CS.SOTA.027, 032, 037 | Поведение, молочные кетоны, BHBA |
+
+---
+
+## По приоритету важности
+
+> Приоритет определяется по типу статьи и её роли в дисциплине (FPF G.2 - SoTA Harvester)
+
+### P0 — Фундаментальные (5)
+
+Определяют парадигму, фундаментальные обзоры
+
+| ID | Статья | Год | Область | Почему фундаментальная |
+|----|--------|-----|---------|------------------------|
+| [CS.SOTA.014](../06-sota/reproduction/CS.SOTA.014-senger-2002.md) | Senger | 2002 | reproduction | Факторы плодовитости — классика |
+| [CS.SOTA.018](../06-sota/feeding/CS.SOTA.018-huntington-1990.md) | Huntington | 1990 | feeding | Энергетический метаболизм — основа |
+| [CS.SOTA.045](../06-sota/health/CS.SOTA.045-seal-1993.md) | Seal | 1993 | health | Сplanchnic metabolism — фундамент |
+| [CS.SOTA.047](../06-sota/health/CS.SOTA.047-young-1977.md) | Young | 1977 | health | Глюконеогенез — методология |
+| [CS.SOTA.055](../06-sota/health/CS.SOTA.055-drackley-1999.md) | Drackley | 1999 | health | Биология переходного периода — библия |
+
+### P1 — Критически важные (30)
+
+Meta-analysis, крупные обзоры, высокоцитируемые
+
+| ID | Статья | Год | Область | Тип |
+|----|--------|-----|---------|-----|
+| [CS.SOTA.001](../06-sota/reproduction/CS.SOTA.001-crowe-2018.md) | Crowe | 2018 | reproduction | Review |
+| [CS.SOTA.003](../06-sota/reproduction/CS.SOTA.003-chebel-ribeiro-2016.md) | Chebel | 2016 | reproduction | Review |
+| [CS.SOTA.004](../06-sota/reproduction/CS.SOTA.004-albaaj-2023.md) | Albaaj | 2023 | reproduction | Meta-analysis |
+| [CS.SOTA.008](../06-sota/health/CS.SOTA.008-eppe-2021.md) | Eppe | 2021 | health | Survey |
+| [CS.SOTA.009](../06-sota/health/CS.SOTA.009-hansen-2018.md) | Hansen | 2018 | health | Review |
+| [CS.SOTA.013](../06-sota/feeding/CS.SOTA.013-raboisson-2017.md) | Raboisson | 2017 | feeding | Meta-analysis |
+| [CS.SOTA.028](../06-sota/health/CS.SOTA.028-arshad-2022.md) | Arshad | 2022 | health | Meta-analysis |
+| [CS.SOTA.035](../06-sota/health/CS.SOTA.035-mann-2022.md) | Mann | 2022 | health | Review |
+| [CS.SOTA.039](../06-sota/health/CS.SOTA.039-mcfadden-2017.md) | McFadden | 2017 | health | Review |
+| [CS.SOTA.043](../06-sota/health/CS.SOTA.043-rico-2024.md) | Rico | 2024 | health | Review |
+| [CS.SOTA.053](../06-sota/health/CS.SOTA.053-bradford-2015.md) | Bradford | 2015 | health | Review |
+| [CS.SOTA.054](../06-sota/health/CS.SOTA.054-horst-2021.md) | Horst | 2021 | health | Review |
+| [CS.SOTA.056](../06-sota/health/CS.SOTA.056-lean-2006.md) | Lean | 2006 | health | Meta-analysis |
+| [CS.SOTA.068](../06-sota/health/CS.SOTA.068-caixeta-2021.md) | Caixeta | 2021 | health | Review |
+
+*(и другие — см. полный список в таблицах выше)*
+
+### P2 — Важные (29)
+
+Хорошие эксперименты, подтверждающие/уточняющие
+
+| ID | Статья | Год | Область | Тип |
+|----|--------|-----|---------|-----|
+| [CS.SOTA.005](../06-sota/reproduction/CS.SOTA.005-mwangi-2025.md) | Mwangi | 2025 | reproduction | Field-study |
+| [CS.SOTA.007](../06-sota/reproduction/CS.SOTA.007-de-bruijn-2023.md) | De Bruijn | 2023 | reproduction | Field-study |
+| [CS.SOTA.012](../06-sota/feeding/CS.SOTA.012-drackley-1991.md) | Drackley | 1991 | feeding | Experimental |
+| [CS.SOTA.015](../06-sota/feeding/CS.SOTA.015-schuler-2013.md) | Schuler | 2013 | feeding | Experimental |
+| [CS.SOTA.065](../06-sota/health/CS.SOTA.065-ghaffari-2024.md) | Ghaffari | 2024 | health | Experimental |
+| [CS.SOTA.066](../06-sota/health/CS.SOTA.066-graef-2025.md) | Graef | 2025 | health | Field-study |
+| [CS.SOTA.067](../06-sota/health/CS.SOTA.067-lin-2025.md) | Lin | 2025 | health | ML-study |
+
+*(и другие — см. полный список в таблицах выше)*
+
+### P3 — Специфические (0)
+
+Узкие исследования, локальные данные — в текущем PACK отсутствуют
 
 ---
 
