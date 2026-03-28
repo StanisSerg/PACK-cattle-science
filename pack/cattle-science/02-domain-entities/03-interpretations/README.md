@@ -20,8 +20,10 @@
 | [02B8-periods.md](./02B8-interpretations-periods.md) | Периоды/фазы | 4 | 4 (100%) | 🟢 Заполнено |
 | [02B9-cross-sota-matrix.md](./02B9-cross-sota-matrix.md) | **Cross-SoTA матрица** | — | — | 🟢 Создана |
 | [02B10-entity-graph.md](./02B10-entity-graph.md) | **Визуализация графа** | — | — | 🟢 Создана |
-| [02B11-methods-ketosis.md](./02B11-methods-ketosis.md) | **Методы: Кетоз** | — | — | 🟢 Создано |
-| [02B12-methods-hypocalcemia.md](./02B12-methods-hypocalcemia.md) | **Методы: Гипокальцемия** | — | — | 🟢 Создано |
+
+**Методы** (в папке `03-methods/`):
+| [CS.METHOD.001-ketosis-diagnosis-treatment.md](../03-methods/CS.METHOD.001-ketosis-diagnosis-treatment.md) | **Кетоз** | — | — | 🟢 Создано |
+| [CS.METHOD.002-hypocalcemia-diagnosis-treatment.md](../03-methods/CS.METHOD.002-hypocalcemia-diagnosis-treatment.md) | **Гипокальцемия** | — | — | 🟢 Создано |
 
 ---
 
