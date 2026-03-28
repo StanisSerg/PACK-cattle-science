@@ -5,39 +5,40 @@ fpf_type: U.System
 domain: cattle-science
 area: reproduction
 subarea: production
-name_ru: "Молоко"
-name_en: "Milk"
-abbreviation: "Milk"
+name_ru: Молоко
+name_en: Milk
+abbreviation: Milk
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.002
-  - CS.SOTA.005
-  - CS.SOTA.006
-  - CS.SOTA.007
-  - CS.SOTA.017
-  - CS.SOTA.019
-  - CS.SOTA.023
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.058
-  - CS.SOTA.067
+- CS.SOTA.001
+- CS.SOTA.002
+- CS.SOTA.005
+- CS.SOTA.006
+- CS.SOTA.007
+- CS.SOTA.017
+- CS.SOTA.019
+- CS.SOTA.023
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.058
+- CS.SOTA.067
+- CS.SOTA.069
 related_entities:
-  - CS.ENTITY.001
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.005
+- CS.ENTITY.001
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.005
 tags:
-  - milk
-  - milk-yield
-  - milk-composition
-  - lactose
-  - milk-fat
-  - milk-protein
-  - somatic-cells
-  - production
+- milk
+- milk-yield
+- milk-composition
+- lactose
+- milk-fat
+- milk-protein
+- somatic-cells
+- production
 ---
 
 # CS.ENTITY.006: Молоко
