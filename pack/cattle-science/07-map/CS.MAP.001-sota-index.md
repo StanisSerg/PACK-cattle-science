@@ -3,7 +3,7 @@
 > Карта научно-обоснованных знаний в PACK-cattle-science
 > 
 > **Версия:** 2.0 (Sharded)  
-> **Всего SoTA:** 64  
+> **Всего SoTA:** 65  
 > **Последнее обновление:** 2026-03-28
 
 ---
@@ -15,7 +15,7 @@
 | 🧬 **reproduction** | 11 | [Перейти →](./sota-index/CS.MAP.001-reproduction.md) | Репродуктивный менеджмент, TAI, синхронизация |
 | 🌾 **feeding** | 13 | [Перейти →](./sota-index/CS.MAP.001-feeding.md) | Кормление, метаболизм, переходный период |
 | 🏥 **health** | 36 | [Перейти →](./sota-index/CS.MAP.001-health.md) | Здоровье, кетоз, иммунитет, печень |
-| 💰 **economics** | 3 | [Перейти →](./sota-index/CS.MAP.001-economics.md) | Экономика, моделирование, оптимизация |
+| 💰 **economics** | 4 | [Перейти →](./sota-index/CS.MAP.001-economics.md) | Экономика, моделирование, оптимизация |
 | 📊 **management** | 1 | [Перейти →](./sota-index/CS.MAP.001-management.md) | Менеджмент, алгоритмы, оценка |
 
 ---
@@ -75,8 +75,8 @@
 ### Health (36)
 `CS.SOTA.008` `CS.SOTA.009` `CS.SOTA.020` `CS.SOTA.026` `CS.SOTA.027` `CS.SOTA.028` `CS.SOTA.029` `CS.SOTA.030` `CS.SOTA.032` `CS.SOTA.035` `CS.SOTA.036` `CS.SOTA.037` `CS.SOTA.038` `CS.SOTA.039` `CS.SOTA.040` `CS.SOTA.041` `CS.SOTA.042` `CS.SOTA.043` `CS.SOTA.044` `CS.SOTA.045` `CS.SOTA.046` `CS.SOTA.047` `CS.SOTA.053` `CS.SOTA.054` `CS.SOTA.055` `CS.SOTA.056` `CS.SOTA.058` `CS.SOTA.059` `CS.SOTA.060` `CS.SOTA.061` `CS.SOTA.062` `CS.SOTA.063` `CS.SOTA.065` `CS.SOTA.066` `CS.SOTA.067` `CS.SOTA.068`
 
-### Economics (3)
-`CS.SOTA.021` `CS.SOTA.022` `CS.SOTA.024`
+### Economics (4)
+`CS.SOTA.021` `CS.SOTA.022` `CS.SOTA.024` `CS.SOTA.069`
 
 ### Management (1)
 `CS.SOTA.026`
