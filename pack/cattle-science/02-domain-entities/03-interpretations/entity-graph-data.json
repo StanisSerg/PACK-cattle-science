@@ -399,28 +399,28 @@
       "id": "metabolic_stress",
       "name": "Metabolic Stress",
       "entities": ["CS.ENTITY.007", "CS.ENTITY.008", "CS.ENTITY.018", "CS.ENTITY.002", "CS.ENTITY.003", "CS.ENTITY.036"],
-      "color": "#4ecdc4",
+      "color": "#e3f2fd",
       "description": "Core metabolic stress pathway involving ketosis, liver, and lipid metabolism"
     },
     {
       "id": "inflammation",
       "name": "Inflammation",
       "entities": ["CS.ENTITY.103", "CS.ENTITY.041", "CS.ENTITY.098", "CS.ENTITY.099", "CS.ENTITY.100", "CS.ENTITY.101"],
-      "color": "#ff6b6b",
+      "color": "#ffebee",
       "description": "Inflammatory markers associated with hypocalcemia phenotypes"
     },
     {
       "id": "predictive_analytics",
       "name": "Predictive Analytics",
       "entities": ["CS.ENTITY.053", "CS.ENTITY.018", "CS.ENTITY.002", "CS.ENTITY.103", "CS.ENTITY.028", "CS.ENTITY.021", "CS.ENTITY.022"],
-      "color": "#a8e6cf",
+      "color": "#e8f5e9",
       "description": "Machine learning prediction of transition diseases"
     },
     {
       "id": "liver_metabolomics",
       "name": "Liver Metabolomics",
       "entities": ["CS.ENTITY.003", "CS.ENTITY.067", "CS.ENTITY.068", "CS.ENTITY.069", "CS.ENTITY.070"],
-      "color": "#ffd3b6",
+      "color": "#fff3e0",
       "description": "Liver metabolome changes during transition period"
     }
   ],

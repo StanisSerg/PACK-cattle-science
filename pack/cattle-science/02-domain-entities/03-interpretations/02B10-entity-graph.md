@@ -55,11 +55,11 @@ graph TB
     ML ---|S067| MAST[Mastitis]
     ML ---|S067| METR[Metritis]
     
-    %% Стиль
-    classDef metabolite fill:#e1f5fe
-    classDef disease fill:#ffebee
-    classDef system fill:#f3e5f5
-    classDef method fill:#e8f5e9
+    %% Стиль — светлые пастельные цвета
+    classDef metabolite fill:#e3f2fd,stroke:#1976d2,color:#0d47a1
+    classDef disease fill:#ffebee,stroke:#c2185b,color:#880e4f
+    classDef system fill:#f3e5f5,stroke:#7b1fa2,color:#4a148c
+    classDef method fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
     
     class BHB,NEFA,GLU,ACYL,PC,SM,BA metabolite
     class KET,SCK,SCH,DAb,MAST,METR disease
@@ -83,9 +83,9 @@ graph LR
     TRANS[Transition Period] -->|НЭБ| NEFA
     TRANS -->|Метаболический<br/>стресс| KET
     
-    style KET fill:#ff6b6b
-    style BHB fill:#4ecdc4
-    style LIVER fill:#95e1d3
+    style KET fill:#ffebee,stroke:#c2185b,color:#880e4f
+    style BHB fill:#e3f2fd,stroke:#1976d2,color:#0d47a1
+    style LIVER fill:#f3e5f5,stroke:#7b1fa2,color:#4a148c
 ```
 
 ---
@@ -108,10 +108,10 @@ graph TB
     
     PROTECT --> IL10[IL-10]
     
-    style SCH fill:#ffd93d
-    style ACUTE fill:#ff6b6b
-    style CHRONIC fill:#ee5a6f
-    style PROTECT fill:#6bcb77
+    style SCH fill:#fff8e1,stroke:#f9a825,color:#f57f17
+    style ACUTE fill:#ffebee,stroke:#c2185b,color:#880e4f
+    style CHRONIC fill:#fce4ec,stroke:#c2185b,color:#880e4f
+    style PROTECT fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
 ```
 
 ---
@@ -133,8 +133,8 @@ graph LR
     NEFA -.->|В спектрах| FTIR
     GLU[Glucose] -.->|В спектрах| FTIR
     
-    style ML fill:#a8e6cf
-    style FTIR fill:#dcedc1
+    style ML fill:#e8f5e9,stroke:#388e3c,color:#1b5e20
+    style FTIR fill:#f1f8e9,stroke:#7cb342,color:#33691e
 ```
 
 ---
@@ -157,8 +157,8 @@ graph TB
     
     TRANS[Transition Period] -->|Индуцирует| LIVER
     
-    style LIVER fill:#ffd3b6
-    style METAB fill:#ffaaa5
+    style LIVER fill:#fff3e0,stroke:#f9a825,color:#f57f17
+    style METAB fill:#ffecb3,stroke:#ffa000,color:#e65100
 ```
 
 ---
@@ -270,23 +270,102 @@ graph TB
 ## 8. Эволюция графа по времени
 
 ```mermaid
-timeline
-    title Эволюция понимания Ketosis
-    1999 : Drackley
-         : Болезнь/патология
-         : BHB ←→ NEFA ←→ Liver
-    2020 : Antanaitis
-         : Поведенческий маркер
-         : SCK ←→ Rumination Time
-    2024 : Ghaffari
-         : Метаболомика
-         : Liver ←→ [ACYL, PC, SM, BA]
-    2025 : Graef
-         : Воспаление
-         : SCH ←→ [Hp, SAA, TNF, IL-10]
-    2025 : Lin
-         : ML-предикция
-         : ML ←→ [Ketosis, SCK, SCH, DAb]
+flowchart TB
+    subgraph ERA1["🕐 1999 — Drackley — Болезнь/патология"]
+        direction TB
+        E1_BHB[BHB]
+        E1_NEFA[NEFA]
+        E1_LIVER[Liver]
+        E1_KET[Ketosis]
+        E1_BHB <---> E1_NEFA
+        E1_NEFA <---> E1_LIVER
+        E1_BHB --> E1_KET
+    end
+    
+    subgraph ERA2["🕐 2020 — Antanaitis — Поведенческий маркер"]
+        direction TB
+        E2_SCK[SCK]
+        E2_RUM[Rumination Time]
+        E2_SCK --> E2_RUM
+    end
+    
+    subgraph ERA3["🕐 2024 — Ghaffari — Метаболомика"]
+        direction TB
+        E3_LIVER[Liver]
+        E3_ACYL[Acylcarnitines]
+        E3_PC[Phosphatidylcholines]
+        E3_SM[Sphingomyelins]
+        E3_BA[Bile Acids]
+        E3_LIVER --> E3_ACYL
+        E3_LIVER --> E3_PC
+        E3_LIVER --> E3_SM
+        E3_LIVER --> E3_BA
+    end
+    
+    subgraph ERA4["🕐 2025 — Graef — Воспаление"]
+        direction TB
+        E4_SCH[SCH]
+        E4_HP[Haptoglobin]
+        E4_SAA[Serum Amyloid A]
+        E4_TNF[TNF-α]
+        E4_IL10[IL-10]
+        E4_SCH --> E4_HP
+        E4_SCH --> E4_SAA
+        E4_SCH --> E4_TNF
+        E4_SCH --> E4_IL10
+    end
+    
+    subgraph ERA5["🕐 2025 — Lin — ML-предикция"]
+        direction TB
+        E5_ML[Machine Learning]
+        E5_KET[Ketosis]
+        E5_SCK[SCK]
+        E5_SCH[SCH]
+        E5_DAb[Displaced Abomasum]
+        E5_ML --> E5_KET
+        E5_ML --> E5_SCK
+        E5_ML --> E5_SCH
+        E5_ML --> E5_DAb
+    end
+    
+    %% Связи между эпохами
+    E1_KET -.->|наследует| E2_SCK
+    E1_LIVER -.->|расширяет| E3_LIVER
+    E2_SCK -.->|эволюционирует| E4_SCH
+    E3_LIVER -.->|информирует| E5_ML
+    E4_SCH -.->|предсказывается| E5_ML
+    
+    %% Стили — светлые пастельные цвета
+    style ERA1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    style ERA2 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+    style ERA3 fill:#fff8e1,stroke:#f9a825,stroke-width:2px,color:#f57f17
+    style ERA4 fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#880e4f
+    style ERA5 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c
+```
+
+### Легенда эволюции
+
+| Эпоха | Год | Автор | Парадигма | Ключевой сдвиг |
+|-------|-----|-------|-----------|----------------|
+| 🔵 | 1999 | Drackley | **Болезнь** | Ketosis как патология |
+| 🟢 | 2020 | Antanaitis | **Поведение** | Раннее выявление через жвачку |
+| 🟡 | 2024 | Ghaffari | **Метаболомика** | Ливер-центричный подход |
+| 🔴 | 2025 | Graef | **Воспаление** | Иммуно-метаболический интерфейс |
+| 🟣 | 2025 | Lin | **Предикция** | ML-предиктивная медицина |
+
+### Траектория эволюции
+
+```
+Патология ──→ Раннее выявление ──→ Механизмы ──→ Интеграция ──→ Предикция
+ (1999)         (2020)              (2024)         (2025)         (2025)
+   │               │                  │              │              │
+   ▼               ▼                  ▼              ▼              ▼
+BHB/NEFA      Rumination Time    Acylcarnitines   Cytokines     FTIR + ML
+   │               │                  │              │              │
+   └───────────────┴──────────────────┴──────────────┴──────────────┘
+                           ↓
+                  Современный подход:
+         Интегративная предиктивная ветеринария
 ```
 
 ---
