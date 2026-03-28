@@ -8,25 +8,40 @@
 
 ## Структура
 
-| Файл | Категория | Сущностей | Статус |
-|------|-----------|-----------|--------|
-| [02B1-interpretations-metabolites.md](./02B1-interpretations-metabolites.md) | Метаболиты/биомаркеры | 36 | 🟡 В процессе (5) |
-| [02B2-interpretations-diseases.md](./02B2-interpretations-diseases.md) | Заболевания/состояния | 17 | 🟡 В процессе (4) |
-| [02B3-interpretations-systems.md](./02B3-interpretations-systems.md) | Биологические системы | 19 | 🟡 В процессе (3) |
-| [02B4-interpretations-hormones.md](./02B4-interpretations-hormones.md) | Гормоны/рецепторы | 11 | 🟡 В процессе (3) |
-| [02B5-interpretations-methods.md](./02B5-interpretations-methods.md) | Методы/технологии | 13 | 🟡 В процессе (5) |
-| [02B6-interpretations-metrics.md](./02B6-interpretations-metrics.md) | Метрики/показатели | 18 | 🟡 В процессе (4) |
-| [02B7-interpretations-molecular.md](./02B7-interpretations-molecular.md) | Молекулярные сущности | 37 | 🟡 В процессе (3) |
-| [02B8-interpretations-periods.md](./02B8-interpretations-periods.md) | Периоды/фазы | 4 | 🟡 В процессе (4) |
+| Файл | Категория | Сущностей | Заполнено | Статус |
+|------|-----------|-----------|-----------|--------|
+| [02B1-metabolites.md](./02B1-interpretations-metabolites.md) | Метаболиты/биомаркеры | 36 | 9 (25%) | 🟡 В процессе |
+| [02B2-diseases.md](./02B2-interpretations-diseases.md) | Заболевания/состояния | 17 | 7 (41%) | 🟡 В процессе |
+| [02B3-systems.md](./02B3-interpretations-systems.md) | Биологические системы | 19 | 3 (16%) | 🟡 В процессе |
+| [02B4-hormones.md](./02B4-interpretations-hormones.md) | Гормоны/рецепторы | 11 | 3 (27%) | 🟡 В процессе |
+| [02B5-methods.md](./02B5-interpretations-methods.md) | Методы/технологии | 13 | 5 (38%) | 🟡 В процессе |
+| [02B6-metrics.md](./02B6-interpretations-metrics.md) | Метрики/показатели | 18 | 4 (22%) | 🟡 В процессе |
+| [02B7-molecular.md](./02B7-interpretations-molecular.md) | Молекулярные сущности | 37 | 7 (19%) | 🟡 В процессе |
+| [02B8-periods.md](./02B8-interpretations-periods.md) | Периоды/фазы | 4 | 4 (100%) | 🟢 Заполнено |
 
 ---
 
 ## Прогресс
 
-- **Всего сущностей:** 155
-- **С заполненными интерпретациями:** 27 (17%)
-- **С частичным заполнением:** 12
-- **Ожидают заполнения:** 116
+| Метрика | Значение |
+|---------|----------|
+| **Всего сущностей** | 155 |
+| **С интерпретациями** | 42 (27%) |
+| **Частично заполнено** | 8 |
+| **Ожидают** | 105 |
+
+---
+
+## Ключевые SoTA-источники
+
+| SoTA ID | Автор/Год | Ключевые сущности |
+|---------|-----------|-------------------|
+| 027 | Antanaitis 2020 | BHB, SCK, Rumination Time |
+| 055 | Drackley 1999 | BHB, NEFA, Liver, Transition Period, PPAR |
+| 058 | Kupczyński 2020 | BHB, Glucose, Glycerol, Propionate |
+| 065 | Ghaffari 2024 | BHB, NEFA, Glucose, Acylcarnitines, PC, SM, BA, Liver |
+| 066 | Graef 2025 | BHB, NEFA, Hp, SAA, TNF-α, IL-6, IL-10, IFN-γ, SCH |
+| 067 | Lin 2025 | BHB, NEFA, Glucose, ML, Ketosis, SCH, DAb, Mastitis, Metritis |
 
 ---
 
@@ -55,4 +70,5 @@
 
 ---
 
-*Создан: 2026-03-28*
+*Создан: 2026-03-28*  
+*Обновлено: 2026-03-28*
