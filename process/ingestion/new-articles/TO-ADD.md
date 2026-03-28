@@ -1,81 +1,48 @@
-# Статьи для добавления в SoTA
+# Статьи для добавления в SoTA — ИТОГОВЫЙ СТАТУС
 
 **Дата:** 2026-03-28  
-**Следующий ID:** CS.SOTA.069
+**Проверено:** 79 файлов
 
 ---
 
-## Приоритет 1: Критически важные
+## ✅ Добавлено
 
-### 1. "How Much are You Losing from Extra Days Open"
-- **Статус:** Не в SoTA
-- **Тема:** Экономика открытого периода
-- **Почему важно:** Экономическая оценка ключевого показателя
-- **Рекомендуемый ID:** CS.SOTA.069
-- **Область:** economics
-- **Приоритет:** P1
+| SoTA ID | Статья | Дата добавления |
+|---------|--------|-----------------|
+| CS.SOTA.069 | Dolecheck & Bewley 2015 — Days Open Cost | 2026-03-28 |
 
 ---
 
-## Приоритет 2: Важные (дополнения к существующим)
+## ❌ Дубликаты (уже в SoTA)
 
-### 2. "Effects of rate and amount of propionic acid infused into the rumen..."
-- **Статус:** Возможно связано с CS.SOTA.015 (Schuler 2013)
-- **Тема:** Пропионат и поведение при кормлении
-- **Действие:** Проверить — если новое, добавить как CS.SOTA.070
-- **Область:** feeding
-- **Приоритет:** P2
-
-### 3. "Highly fermentable starch at different diet starch concentrations..."
-- **Статус:** Возможно связано с CS.SOTA.016 (Albornoz 2018)
-- **Тема:** Крахмал в постпартум
-- **Действие:** Проверить — если новое, добавить как CS.SOTA.071
-- **Область:** feeding
-- **Приоритет:** P2
-
-### 4. "A randomized controlled trial to evaluate propylene glycol alone" (W13)
-- **Статус:** Возможно связано с CS.SOTA.060 (Capel 2021)
-- **Тема:** PG ± дексроза
-- **Действие:** Проверить — если новое исследование, добавить
-- **Область:** health
-- **Приоритет:** P2
-
-### 5. "Effect of propylene glycol on adipose tissue mobilization" (W13)
-- **Статус:** Возможно связано с CS.SOTA.061 (Bjerre-Harpøth 2015)
-- **Тема:** PG и жировая ткань
-- **Действие:** Проверить — если новое, добавить
-- **Область:** health
-- **Приоритет:** P2
+| Файл | Автор | Год | Существующий SoTA |
+|------|-------|-----|-------------------|
+| "Effects of rate and amount of propionic acid..." | Maldini | 2019 | CS.SOTA.048 |
+| "Highly fermentable starch..." | Albornoz | 2018 | CS.SOTA.016/049 |
+| "A randomized controlled trial..." (W13) | Capel | 2020 | CS.SOTA.060 |
+| "Effect of propylene glycol on adipose..." (W13) | Bjerre-Harpøth | 2015 | CS.SOTA.061 |
+| "Ruminal and Intermediary Metabolism..." (W13) | Kristensen | 2007 | CS.SOTA.059/063 |
+| "Supplemental feeding with glycerol..." (W13) | Lomander | 2012 | CS.SOTA.062 |
 
 ---
 
-## Проверить содержимое
+## 📊 Итог проверки new-articles
 
-Для точной идентификации нужно извлечь метаданные:
-
-```bash
-# Приоритет 1 — проверить первым
-cd process/ingestion/new-articles
-pdftotext "How Much are You Losing from Extra Days Open.pdf" - | head -100
-
-# Приоритет 2 — проверить авторов и год
-pdftotext "Effects of rate and amount of propionic acid..." - | head -50
-pdftotext "Highly fermentable starch..." - | head -50
-pdftotext "W13/A randomized controlled trial..." - | head -50
-pdftotext "W13/Effect of propylene glycol..." - | head -50
-```
+| Категория | Количество |
+|-----------|------------|
+| Всего файлов | 79 |
+| Уже в SoTA | 78 |
+| **Добавлено** | **1** |
+| Дубликатов | 6 |
 
 ---
 
-## Резюме
+## Вывод
 
-| Приоритет | Количество | Действие |
-|-----------|------------|----------|
-| P1 | 1 | Добавить как CS.SOTA.069 |
-| P2 | 4 | Проверить и добавить при необходимости |
-| **Итого** | **5** | **На рассмотрении** |
+Все значимые статьи из `new-articles` уже интегрированы в SoTA. Директория `new-articles` может быть очищена или архивирована.
+
+**Следующий ID:** CS.SOTA.070 (готов к новым статьям)
 
 ---
 
-*Список создан на основе анализа 79 файлов в new-articles*  
-*~74 файла уже в SoTA, 5 требуют проверки*
+*Проверка завершена*
