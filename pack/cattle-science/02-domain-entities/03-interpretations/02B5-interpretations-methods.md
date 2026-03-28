@@ -218,13 +218,13 @@
 | Embryo Transfer | P1 | 1 | ⚠️ Частично |
 | Metabolomics | P1 | 1 | ⚠️ Частично |
 | Machine Learning | P1 | 2 | ✅ Заполнено |
-| Heat Detection | P0 | 0 | ⏳ Ожидает |
-| CIDR Protocol | P0 | 0 | ⏳ Ожидает |
-| Prostaglandin Injection | P1 | 0 | ⏳ Ожидает |
-| GnRH | P1 | 0 | ⏳ Ожидает |
-| Ovarian Ultrasonography | P1 | 0 | ⏳ Ожидает |
-| Pregnancy Test | P1 | 0 | ⏳ Ожидает |
-| FTIR Spectroscopy | P1 | 0 | ⏳ Ожидает |
+| Heat Detection | P0 | 2 | ✅ Заполнено |
+| CIDR Protocol | P0 | 2 | ✅ Заполнено |
+| Prostaglandin Injection | P1 | 1 | ✅ Заполнено |
+| GnRH | P1 | 1 | ✅ Заполнено |
+| Ovarian Ultrasonography | P1 | 1 | ✅ Заполнено |
+| Pregnancy Test | P1 | 1 | ✅ Заполнено |
+| FTIR Spectroscopy | P1 | 2 | ✅ Заполнено |
 | Lipidomics | P1 | 1 | ✅ Заполнено |
 | Precision Dairy Farming | P1 | 2 | ✅ Заполнено |
 | Genetic Selection | P1 | 1 | ✅ Заполнено |

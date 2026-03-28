@@ -345,19 +345,19 @@
 | BCS | P0 | 1 | ⚠️ Частично |
 | Rumination Time | P1 | 1 | ⚠️ Частично |
 | Body Temperature | P1 | 1 | ⚠️ Частично |
-| DMI | P0 | 0 | ⏳ Ожидает |
-| Milk Yield | P0 | 0 | ⏳ Ожидает |
-| Milk Fat | P0 | 0 | ⏳ Ожидает |
-| Milk Protein | P0 | 0 | ⏳ Ожидает |
-| Days Open | P1 | 0 | ⏳ Ожидает |
-| Calving Interval | P1 | 0 | ⏳ Ожидает |
-| Gestation Length | P1 | 0 | ⏳ Ожидает |
-| Activity | P1 | 0 | ⏳ Ожидает |
-| Feeding Time | P1 | 0 | ⏳ Ожидает |
-| Lying Time | P1 | 0 | ⏳ Ожидает |
-| Insemination Eligibility Period | P1 | 0 | ⏳ Ожидает |
-| Voluntary Waiting Period | P1 | 0 | ⏳ Ожидает |
-| Herd Turnover Rate | P1 | 0 | ⏳ Ожидает |
+| DMI | P0 | 1 | ✅ Заполнено |
+| Milk Yield | P0 | 2 | ✅ Заполнено |
+| Milk Fat | P0 | 1 | ✅ Заполнено |
+| Milk Protein | P0 | 1 | ✅ Заполнено |
+| Days Open | P1 | 1 | ✅ Заполнено |
+| Calving Interval | P1 | 1 | ✅ Заполнено |
+| Gestation Length | P1 | 1 | ✅ Заполнено |
+| Activity | P1 | 1 | ✅ Заполнено |
+| Feeding Time | P1 | 1 | ✅ Заполнено |
+| Lying Time | P1 | 1 | ✅ Заполнено |
+| Insemination Eligibility Period | P1 | 1 | ✅ Заполнено |
+| Voluntary Waiting Period | P1 | 1 | ✅ Заполнено |
+| Herd Turnover Rate | P1 | 2 | ✅ Заполнено |
 | Replacement Rate | P1 | 2 | ✅ Заполнено |
 | Longevity | P1 | 1 | ✅ Заполнено |
 | Milk Urea Nitrogen | P1 | 1 | ✅ Заполнено |

@@ -159,12 +159,12 @@
 | Insulin | P0 | 1 | ⚠️ Частично |
 | Cortisol | P0 | 1 | ⚠️ Частично |
 | Progesterone | P0 | 1 | ⚠️ Частично |
-| Glucagon | P0 | 0 | ⏳ Ожидает |
-| Prolactin | P1 | 0 | ⏳ Ожидает |
-| Growth Hormone | P1 | 0 | ⏳ Ожидает |
-| Leptin | P1 | 0 | ⏳ Ожидает |
-| Ghrelin | P1 | 0 | ⏳ Ожидает |
-| IGF-1 | P1 | 0 | ⏳ Ожидает |
+| Glucagon | P0 | 1 | ✅ Заполнено |
+| Prolactin | P1 | 1 | ✅ Заполнено |
+| Growth Hormone | P1 | 1 | ✅ Заполнено |
+| Leptin | P1 | 1 | ✅ Заполнено |
+| Ghrelin | P1 | 1 | ✅ Заполнено |
+| IGF-1 | P1 | 1 | ✅ Заполнено |
 | Thyroid Hormones | P1 | 2 | ✅ Заполнено |
 | PPAR Receptors | P1 | 2 | ✅ Заполнено |
 
