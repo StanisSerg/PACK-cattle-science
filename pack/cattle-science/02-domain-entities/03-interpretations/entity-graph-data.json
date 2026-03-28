@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "created": "2026-03-28",
+    "version": "1.0",
+    "total_entities": 42,
+    "total_sota": 9,
+    "total_relationships": 24
+  },
+  "entities": [
+    {
+      "id": "CS.ENTITY.007",
+      "name": "Beta-hydroxybutyrate",
+      "short_name": "BHB",
+      "category": "metabolite",
+      "priority": "P0",
+      "mentions_count": 6,
+      "sota_ids": ["027", "055", "058", "065", "066", "067"],
+      "centrality": 0.16
+    },
+    {
+      "id": "CS.ENTITY.008",
+      "name": "Non-esterified fatty acids",
+      "short_name": "NEFA",
+      "category": "metabolite",
+      "priority": "P0",
+      "mentions_count": 4,
+      "sota_ids": ["055", "065", "066", "067"],
+      "centrality": 0.10
+    },
+    {
+      "id": "CS.ENTITY.009",
+      "name": "Glucose",
+      "short_name": "Glucose",
+      "category": "metabolite",
+      "priority": "P0",
+      "mentions_count": 3,
+      "sota_ids": ["058", "065", "067"],
+      "centrality": 0.08
+    },
+    {
+      "id": "CS.ENTITY.010",
+      "name": "Propionate",
+      "short_name": "Propionate",
+      "category": "metabolite",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["058", "065"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.078",
+      "name": "Glycerol",
+      "short_name": "Glycerol",
+      "category": "metabolite",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["058"],
+      "centrality": 0.03
+    },
+    {
+      "id": "CS.ENTITY.067",
+      "name": "Acylcarnitines",
+      "short_name": "Acylcarnitines",
+      "category": "metabolite",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["065"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.068",
+      "name": "Phosphatidylcholines",
+      "short_name": "PC",
+      "category": "metabolite",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["065"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.069",
+      "name": "Sphingomyelins",
+      "short_name": "SM",
+      "category": "metabolite",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["065"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.070",
+      "name": "Bile Acids",
+      "short_name": "BA",
+      "category": "metabolite",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["065"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.018",
+      "name": "Ketosis",
+      "short_name": "Ketosis",
+      "category": "disease",
+      "priority": "P0",
+      "mentions_count": 7,
+      "sota_ids": ["027", "032", "055", "058", "065", "066", "067"],
+      "centrality": 0.18
+    },
+    {
+      "id": "CS.ENTITY.002",
+      "name": "Subclinical Ketosis",
+      "short_name": "SCK",
+      "category": "disease",
+      "priority": "P0",
+      "mentions_count": 4,
+      "sota_ids": ["027", "032", "066", "067"],
+      "centrality": 0.12
+    },
+    {
+      "id": "CS.ENTITY.103",
+      "name": "Subclinical Hypocalcemia",
+      "short_name": "SCH",
+      "category": "disease",
+      "priority": "P1",
+      "mentions_count": 2,
+      "sota_ids": ["066", "067"],
+      "centrality": 0.09
+    },
+    {
+      "id": "CS.ENTITY.104",
+      "name": "Clinical Hypocalcemia",
+      "short_name": "Clinical SCH",
+      "category": "disease",
+      "priority": "P1",
+      "mentions_count": 2,
+      "sota_ids": ["066", "067"],
+      "centrality": 0.06
+    },
+    {
+      "id": "CS.ENTITY.028",
+      "name": "Displaced Abomasum",
+      "short_name": "DAb",
+      "category": "disease",
+      "priority": "P0",
+      "mentions_count": 1,
+      "sota_ids": ["067"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.021",
+      "name": "Mastitis",
+      "short_name": "Mastitis",
+      "category": "disease",
+      "priority": "P0",
+      "mentions_count": 1,
+      "sota_ids": ["067"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.022",
+      "name": "Metritis",
+      "short_name": "Metritis",
+      "category": "disease",
+      "priority": "P0",
+      "mentions_count": 1,
+      "sota_ids": ["067"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.003",
+      "name": "Liver",
+      "short_name": "Liver",
+      "category": "system",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["055", "065"],
+      "centrality": 0.14
+    },
+    {
+      "id": "CS.ENTITY.004",
+      "name": "Rumen",
+      "short_name": "Rumen",
+      "category": "system",
+      "priority": "P0",
+      "mentions_count": 1,
+      "sota_ids": ["065"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.036",
+      "name": "Transition Period",
+      "short_name": "Transition",
+      "category": "period",
+      "priority": "P0",
+      "mentions_count": 5,
+      "sota_ids": ["055", "058", "065", "066", "067"],
+      "centrality": 0.15
+    },
+    {
+      "id": "CS.ENTITY.037",
+      "name": "Dry Period",
+      "short_name": "Dry Period",
+      "category": "period",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["055", "065"],
+      "centrality": 0.07
+    },
+    {
+      "id": "CS.ENTITY.038",
+      "name": "Early Lactation",
+      "short_name": "Early Lactation",
+      "category": "period",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["055", "067"],
+      "centrality": 0.07
+    },
+    {
+      "id": "CS.ENTITY.039",
+      "name": "Periparturient Period",
+      "short_name": "Periparturient",
+      "category": "period",
+      "priority": "P0",
+      "mentions_count": 1,
+      "sota_ids": ["055"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.053",
+      "name": "Machine Learning",
+      "short_name": "ML",
+      "category": "method",
+      "priority": "P1",
+      "mentions_count": 2,
+      "sota_ids": ["066", "067"],
+      "centrality": 0.12
+    },
+    {
+      "id": "CS.ENTITY.024",
+      "name": "Artificial Insemination",
+      "short_name": "AI",
+      "category": "method",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["001", "002"],
+      "centrality": 0.06
+    },
+    {
+      "id": "CS.ENTITY.025",
+      "name": "Timed AI",
+      "short_name": "TAI",
+      "category": "method",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["001", "002"],
+      "centrality": 0.06
+    },
+    {
+      "id": "CS.ENTITY.121",
+      "name": "Metabolomics",
+      "short_name": "Metabolomics",
+      "category": "method",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["065"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.115",
+      "name": "Rumination Time",
+      "short_name": "Rumination",
+      "category": "metric",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["027"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.001",
+      "name": "21-day Pregnancy Rate",
+      "short_name": "21d PR",
+      "category": "metric",
+      "priority": "P0",
+      "mentions_count": 2,
+      "sota_ids": ["001", "002"],
+      "centrality": 0.06
+    },
+    {
+      "id": "CS.ENTITY.029",
+      "name": "Body Condition Score",
+      "short_name": "BCS",
+      "category": "metric",
+      "priority": "P0",
+      "mentions_count": 1,
+      "sota_ids": ["055"],
+      "centrality": 0.04
+    },
+    {
+      "id": "CS.ENTITY.041",
+      "name": "Haptoglobin",
+      "short_name": "Hp",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["066"],
+      "centrality": 0.06
+    },
+    {
+      "id": "CS.ENTITY.098",
+      "name": "Serum Amyloid A",
+      "short_name": "SAA",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["066"],
+      "centrality": 0.06
+    },
+    {
+      "id": "CS.ENTITY.099",
+      "name": "TNF-alpha",
+      "short_name": "TNF-α",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 2,
+      "sota_ids": ["009", "066"],
+      "centrality": 0.07
+    },
+    {
+      "id": "CS.ENTITY.100",
+      "name": "IL-6",
+      "short_name": "IL-6",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["066"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.101",
+      "name": "IL-10",
+      "short_name": "IL-10",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["066"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.102",
+      "name": "IFN-gamma",
+      "short_name": "IFN-γ",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["066"],
+      "centrality": 0.05
+    },
+    {
+      "id": "CS.ENTITY.097",
+      "name": "PPAR Receptors",
+      "short_name": "PPAR",
+      "category": "molecular",
+      "priority": "P1",
+      "mentions_count": 1,
+      "sota_ids": ["055"],
+      "centrality": 0.04
+    }
+  ],
+  "relationships": [
+    {"source": "CS.ENTITY.008", "target": "CS.ENTITY.007", "type": "metabolic", "sota": "055", "weight": 1.0},
+    {"source": "CS.ENTITY.007", "target": "CS.ENTITY.018", "type": "diagnostic", "sota": "027", "weight": 1.0},
+    {"source": "CS.ENTITY.003", "target": "CS.ENTITY.007", "type": "synthesis", "sota": "065", "weight": 0.8},
+    {"source": "CS.ENTITY.003", "target": "CS.ENTITY.008", "type": "uptake", "sota": "065", "weight": 0.8},
+    {"source": "CS.ENTITY.036", "target": "CS.ENTITY.008", "type": "induces", "sota": "055", "weight": 0.9},
+    {"source": "CS.ENTITY.036", "target": "CS.ENTITY.018", "type": "induces", "sota": "055", "weight": 0.9},
+    {"source": "CS.ENTITY.002", "target": "CS.ENTITY.115", "type": "biomarker", "sota": "027", "weight": 0.7},
+    {"source": "CS.ENTITY.103", "target": "CS.ENTITY.041", "type": "marker", "sota": "066", "weight": 0.8},
+    {"source": "CS.ENTITY.103", "target": "CS.ENTITY.098", "type": "marker", "sota": "066", "weight": 0.8},
+    {"source": "CS.ENTITY.103", "target": "CS.ENTITY.099", "type": "marker", "sota": "066", "weight": 0.8},
+    {"source": "CS.ENTITY.007", "target": "CS.ENTITY.053", "type": "predictor", "sota": "066", "weight": 0.6},
+    {"source": "CS.ENTITY.007", "target": "CS.ENTITY.053", "type": "predictor", "sota": "067", "weight": 0.7},
+    {"source": "CS.ENTITY.008", "target": "CS.ENTITY.053", "type": "predictor", "sota": "066", "weight": 0.6},
+    {"source": "CS.ENTITY.053", "target": "CS.ENTITY.018", "type": "predicts", "sota": "067", "weight": 0.8},
+    {"source": "CS.ENTITY.053", "target": "CS.ENTITY.002", "type": "predicts", "sota": "067", "weight": 0.8},
+    {"source": "CS.ENTITY.053", "target": "CS.ENTITY.103", "type": "predicts", "sota": "067", "weight": 0.7},
+    {"source": "CS.ENTITY.053", "target": "CS.ENTITY.028", "type": "predicts", "sota": "067", "weight": 0.7},
+    {"source": "CS.ENTITY.053", "target": "CS.ENTITY.021", "type": "predicts", "sota": "067", "weight": 0.7},
+    {"source": "CS.ENTITY.053", "target": "CS.ENTITY.022", "type": "predicts", "sota": "067", "weight": 0.7},
+    {"source": "CS.ENTITY.003", "target": "CS.ENTITY.067", "type": "produces", "sota": "065", "weight": 0.7},
+    {"source": "CS.ENTITY.003", "target": "CS.ENTITY.068", "type": "produces", "sota": "065", "weight": 0.7},
+    {"source": "CS.ENTITY.003", "target": "CS.ENTITY.069", "type": "produces", "sota": "065", "weight": 0.7},
+    {"source": "CS.ENTITY.003", "target": "CS.ENTITY.070", "type": "produces", "sota": "065", "weight": 0.7},
+    {"source": "CS.ENTITY.036", "target": "CS.ENTITY.003", "type": "affects", "sota": "065", "weight": 0.9}
+  ],
+  "clusters": [
+    {
+      "id": "metabolic_stress",
+      "name": "Metabolic Stress",
+      "entities": ["CS.ENTITY.007", "CS.ENTITY.008", "CS.ENTITY.018", "CS.ENTITY.002", "CS.ENTITY.003", "CS.ENTITY.036"],
+      "color": "#4ecdc4",
+      "description": "Core metabolic stress pathway involving ketosis, liver, and lipid metabolism"
+    },
+    {
+      "id": "inflammation",
+      "name": "Inflammation",
+      "entities": ["CS.ENTITY.103", "CS.ENTITY.041", "CS.ENTITY.098", "CS.ENTITY.099", "CS.ENTITY.100", "CS.ENTITY.101"],
+      "color": "#ff6b6b",
+      "description": "Inflammatory markers associated with hypocalcemia phenotypes"
+    },
+    {
+      "id": "predictive_analytics",
+      "name": "Predictive Analytics",
+      "entities": ["CS.ENTITY.053", "CS.ENTITY.018", "CS.ENTITY.002", "CS.ENTITY.103", "CS.ENTITY.028", "CS.ENTITY.021", "CS.ENTITY.022"],
+      "color": "#a8e6cf",
+      "description": "Machine learning prediction of transition diseases"
+    },
+    {
+      "id": "liver_metabolomics",
+      "name": "Liver Metabolomics",
+      "entities": ["CS.ENTITY.003", "CS.ENTITY.067", "CS.ENTITY.068", "CS.ENTITY.069", "CS.ENTITY.070"],
+      "color": "#ffd3b6",
+      "description": "Liver metabolome changes during transition period"
+    }
+  ],
+  "sota_coverage": {
+    "027": {"entities": 3, "category": "health"},
+    "055": {"entities": 8, "category": "health"},
+    "058": {"entities": 4, "category": "health"},
+    "065": {"entities": 7, "category": "health"},
+    "066": {"entities": 9, "category": "health"},
+    "067": {"entities": 8, "category": "health"},
+    "001": {"entities": 3, "category": "reproduction"},
+    "002": {"entities": 3, "category": "reproduction"},
+    "032": {"entities": 2, "category": "health"}
+  }
+}
