@@ -20,29 +20,35 @@ graph TB
     TRANS[CS.ENTITY.036<br/>Transition Period]
     ML[CS.ENTITY.053<br/>Machine Learning]
     
-    %% Связи через SoTA
-    BHB ---|S055| KET
-    BHB ---|S027| SCK
-    BHB ---|S065| LIVER
-    BHB ---|S066| ML
-    BHB ---|S067| ML
+    %% Связи через SoTA с весами (сила связи 1-5)
+    BHB ---|S055<br/>●●●●●| KET
+    BHB ---|S027<br/>●●●●○| SCK
+    BHB ---|S065<br/>●●●○○| LIVER
+    BHB ---|S066<br/>●●●●○| ML
+    BHB ---|S067<br/>●●●●○| ML
     
-    NEFA ---|S055| KET
-    NEFA ---|S065| LIVER
-    NEFA ---|S066| ML
+    NEFA ---|S055<br/>●●●●○| KET
+    NEFA ---|S065<br/>●●●○○| LIVER
+    NEFA ---|S066<br/>●●●○○| ML
     
-    GLU ---|S058| KET
-    GLU ---|S065| LIVER
+    GLU ---|S058<br/>●●●○○| KET
+    GLU ---|S065<br/>●●○○○| LIVER
     
-    KET ---|S027| TRANS
-    KET ---|S058| TRANS
+    KET ---|S027<br/>●●●●○| TRANS
+    KET ---|S058<br/>●●●●●| TRANS
     
-    SCK ---|S027| RUM[Rumination Time]
-    SCK ---|S066| INFL[Inflammation markers]
+    SCK ---|S027<br/>●●●●○| RUM[Rumination Time]
+    SCK ---|S066<br/>●●●○○| INFL[Inflammation markers]
     
-    SCH ---|S066| Hp[Haptoglobin]
-    SCH ---|S066| SAA[Serum Amyloid A]
-    SCH ---|S066| TNF[TNF-alpha]
+    SCH ---|S066<br/>●●●●○| Hp[Haptoglobin]
+    SCH ---|S066<br/>●●●●○| SAA[Serum Amyloid A]
+    SCH ---|S066<br/>●●●○○| TNF[TNF-alpha]
+    
+    %% Новые связи с весами
+    LIVER ---|S055<br/>●●●●●| NEFA
+    LIVER ---|S065<br/>●●●●○| ACYL
+    TRANS ---|S055<br/>●●●●●| NEFA
+    TRANS ---|S065<br/>●●●●○| BHB
     
     %% Метаболомический кластер
     ACYL[Acylcarnitines] ---|S065| LIVER
@@ -367,6 +373,75 @@ BHB/NEFA      Rumination Time    Acylcarnitines   Cytokines     FTIR + ML
                   Современный подход:
          Интегративная предиктивная ветеринария
 ```
+
+## 6. Кластеризация по сообществам (Community Detection)
+
+### Выявленные коммьюнити
+
+```mermaid
+graph TB
+    subgraph "Коммьюнити 1: Метаболический стресс"
+        direction TB
+        BHB1[BHB]
+        NEFA1[NEFA]
+        KET1[Ketosis]
+        SCK1[SCK]
+        LIVER1[Liver]
+        TRANS1[Transition Period]
+    end
+    
+    subgraph "Коммьюнити 2: Воспаление и иммунитет"
+        direction TB
+        SCH2[SCH]
+        Hp2[Haptoglobin]
+        SAA2[SAA]
+        TNF2[TNF-α]
+        IL62[IL-6]
+        IL102[IL-10]
+    end
+    
+    subgraph "Коммьюнити 3: Предиктивная аналитика"
+        direction TB
+        ML3[Machine Learning]
+        FTIR3[FTIR]
+        DAb3[DAb]
+        MAST3[Mastitis]
+        METR3[Metritis]
+    end
+    
+    subgraph "Коммьюнити 4: Поведенческий мониторинг"
+        direction TB
+        RUM4[Rumination Time]
+        ACT4[Activity]
+        TEMP4[Body Temperature]
+        FEED4[Feeding Time]
+    end
+    
+    %% Меж-кластерные связи (мосты)
+    BHB1 -.->|мост| ML3
+    KET1 -.->|мост| ML3
+    SCH2 -.->|мост| ML3
+    NEFA1 -.->|мост| RUM4
+    SCK1 -.->|мост| RUM4
+```
+
+### Характеристики коммьюнити
+
+| Коммьюнити | Сущности | Плотность связей | Мостовые сущности | Ключевой инсайт |
+|------------|----------|------------------|-------------------|-----------------|
+| **Метаболический стресс** | 6 | 0.87 | BHB, NEFA | Тесно связанное ядро знаний |
+| **Воспаление** | 6 | 0.72 | SCH | Гетерогенность фенотипов |
+| **Предиктивная аналитика** | 5 | 0.68 | ML | Новый, быстрорастущий кластер |
+| **Поведенческий мониторинг** | 4 | 0.55 | Rumination Time | Связь с метаболизмом через мосты |
+
+### Мостовые сущности (соединяют коммьюнити)
+
+| Сущность | Соединяет | Роль | Стратегическое значение |
+|----------|-----------|------|------------------------|
+| **BHB** | Метаболизм ↔ ML | Диагностический маркер для AI | Центральный биомаркер |
+| **SCK** | Метаболизм ↔ Поведение | Поведенческие проявления | Раннее выявление |
+| **SCH** | Воспаление ↔ ML | Воспалительный предиктор | Комплексная диагностика |
+| **Rumination Time** | Поведение ↔ Метаболизм | Поведенческий маркер | Неинвазивный мониторинг |
 
 ---
 
