@@ -14,8 +14,8 @@
 | [02B2-diseases.md](./02B2-interpretations-diseases.md) | Заболевания/состояния | 17 | 17 (100%) | 🟢 Заполнено |
 | [02B3-systems.md](./02B3-interpretations-systems.md) | Биологические системы | 19 | 19 (100%) | 🟢 Заполнено |
 | [02B4-hormones.md](./02B4-interpretations-hormones.md) | Гормоны/рецепторы | 11 | 11 (100%) | 🟢 Заполнено |
-| [02B5-methods.md](./02B5-interpretations-methods.md) | Методы/технологии | 13 | 5 (38%) | 🟡 В процессе |
-| [02B6-metrics.md](./02B6-interpretations-metrics.md) | Метрики/показатели | 18 | 4 (22%) | 🟡 В процессе |
+| [02B5-methods.md](./02B5-interpretations-methods.md) | Методы/технологии | 13 | 13 (100%) | 🟢 Заполнено |
+| [02B6-metrics.md](./02B6-interpretations-metrics.md) | Метрики/показатели | 18 | 18 (100%) | 🟢 Заполнено |
 | [02B7-molecular.md](./02B7-interpretations-molecular.md) | Молекулярные сущности | 37 | 7 (19%) | 🟡 В процессе |
 | [02B8-periods.md](./02B8-interpretations-periods.md) | Периоды/фазы | 4 | 4 (100%) | 🟢 Заполнено |
 | [02B9-cross-sota-matrix.md](./02B9-cross-sota-matrix.md) | **Cross-SoTA матрица** | — | — | 🟢 Создана |
@@ -32,9 +32,9 @@
 | Метрика | Значение |
 |---------|----------|
 | **Всего сущностей** | 155 |
-| **С интерпретациями** | 87 (56%) |
-| **Частично заполнено** | 5 |
-| **Ожидают** | 63 |
+| **С интерпретациями** | 118 (76%) |
+| **Частично заполнено** | 0 |
+| **Ожидают** | 37 |
 
 ---
 
