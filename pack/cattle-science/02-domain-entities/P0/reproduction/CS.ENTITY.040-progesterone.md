@@ -5,26 +5,27 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Прогестерон"
-name_en: "Progesterone"
-abbreviation: "P4"
+name_ru: Прогестерон
+name_en: Progesterone
+abbreviation: P4
 related_sota:
-  - CS.SOTA.003
-  - CS.SOTA.004
-  - CS.SOTA.020
-  - CS.SOTA.023
+- CS.SOTA.003
+- CS.SOTA.004
+- CS.SOTA.020
+- CS.SOTA.023
+- CS.SOTA.103
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.107
-  - CS.ENTITY.108
-  - CS.ENTITY.034
+- CS.ENTITY.003
+- CS.ENTITY.107
+- CS.ENTITY.108
+- CS.ENTITY.034
 tags:
-  - progesterone
-  - hormone
-  - reproduction
-  - luteal-phase
-  - pregnancy
-  - synchronization
+- progesterone
+- hormone
+- reproduction
+- luteal-phase
+- pregnancy
+- synchronization
 ---
 
 # CS.ENTITY.040: Прогестерон (Progesterone)
