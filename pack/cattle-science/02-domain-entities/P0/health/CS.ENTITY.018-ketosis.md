@@ -5,51 +5,52 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Кетоз"
-name_en: "Ketosis"
-abbreviation: "KET"
+name_ru: Кетоз
+name_en: Ketosis
+abbreviation: KET
 related_sota:
-  - CS.SOTA.027
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.038
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.041
-  - CS.SOTA.042
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.028
-  - CS.SOTA.029
+- CS.SOTA.027
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.038
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.041
+- CS.SOTA.042
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.028
+- CS.SOTA.029
+- CS.SOTA.070
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.007
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.015
-  - CS.ENTITY.016
-  - CS.ENTITY.017
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.015
+- CS.ENTITY.016
+- CS.ENTITY.017
 tags:
-  - ketosis
-  - metabolic-disorder
-  - transition-period
-  - negative-energy-balance
-  - ketone-bodies
-  - bhb
-  - nefa
-  - liver-metabolism
+- ketosis
+- metabolic-disorder
+- transition-period
+- negative-energy-balance
+- ketone-bodies
+- bhb
+- nefa
+- liver-metabolism
 ---
 
 # CS.ENTITY.018: Кетоз
