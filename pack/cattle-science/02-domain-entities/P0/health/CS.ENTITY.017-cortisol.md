@@ -5,48 +5,49 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: endocrinology
-name_ru: "Кортизол"
-name_en: "Cortisol"
-abbreviation: "CORT"
-unit: "нмоль/л"
-normal_range: "5-30"
-critical_threshold: "> 100"
+name_ru: Кортизол
+name_en: Cortisol
+abbreviation: CORT
+unit: нмоль/л
+normal_range: 5-30
+critical_threshold: '> 100'
 related_sota:
-  - CS.SOTA.007
-  - CS.SOTA.009
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.028
-  - CS.SOTA.039
-  - CS.SOTA.043
-  - CS.SOTA.054
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.063
-  - CS.SOTA.066
+- CS.SOTA.007
+- CS.SOTA.009
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.028
+- CS.SOTA.039
+- CS.SOTA.043
+- CS.SOTA.054
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.063
+- CS.SOTA.066
+- CS.SOTA.092
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.015
-  - CS.ENTITY.016
-  - CS.ENTITY.018
-  - CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.015
+- CS.ENTITY.016
+- CS.ENTITY.018
+- CS.ENTITY.002
 tags:
-  - cortisol
-  - stress-hormone
-  - glucocorticoid
-  - hpa-axis
-  - gluconeogenesis
-  - immunosuppression
-  - transition-period
-  - metabolic-adaptation
+- cortisol
+- stress-hormone
+- glucocorticoid
+- hpa-axis
+- gluconeogenesis
+- immunosuppression
+- transition-period
+- metabolic-adaptation
 ---
 
 # CS.ENTITY.017: Кортизол

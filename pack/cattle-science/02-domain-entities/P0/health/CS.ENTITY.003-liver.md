@@ -5,45 +5,47 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: metabolism
-name_ru: "Печень"
-name_en: "Liver"
-abbreviation: "Hepatic"
+name_ru: Печень
+name_en: Liver
+abbreviation: Hepatic
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.018
-  - CS.SOTA.026
-  - CS.SOTA.028
-  - CS.SOTA.029
-  - CS.SOTA.030
-  - CS.SOTA.031
-  - CS.SOTA.034
-  - CS.SOTA.035
-  - CS.SOTA.036
-  - CS.SOTA.039
-  - CS.SOTA.041
-  - CS.SOTA.044
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.065
+- CS.SOTA.012
+- CS.SOTA.018
+- CS.SOTA.026
+- CS.SOTA.028
+- CS.SOTA.029
+- CS.SOTA.030
+- CS.SOTA.031
+- CS.SOTA.034
+- CS.SOTA.035
+- CS.SOTA.036
+- CS.SOTA.039
+- CS.SOTA.041
+- CS.SOTA.044
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.065
+- CS.SOTA.092
+- CS.SOTA.093
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.004
-  - CS.ENTITY.005
-  - CS.ENTITY.009
-  - CS.ENTITY.010
+- CS.ENTITY.002
+- CS.ENTITY.004
+- CS.ENTITY.005
+- CS.ENTITY.009
+- CS.ENTITY.010
 tags:
-  - liver
-  - metabolism
-  - gluconeogenesis
-  - ketogenesis
-  - fatty-acid-oxidation
-  - transition-period
-  - metabolic-disorders
+- liver
+- metabolism
+- gluconeogenesis
+- ketogenesis
+- fatty-acid-oxidation
+- transition-period
+- metabolic-disorders
 ---
 
 # CS.ENTITY.003: Печень

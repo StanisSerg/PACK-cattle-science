@@ -5,36 +5,37 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: metabolism
-name_ru: "Жировая ткань"
-name_en: "Adipose tissue"
-abbreviation: "AT"
+name_ru: Жировая ткань
+name_en: Adipose tissue
+abbreviation: AT
 related_sota:
-  - CS.SOTA.028
-  - CS.SOTA.030
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.038
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.061
+- CS.SOTA.028
+- CS.SOTA.030
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.038
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.061
+- CS.SOTA.092
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.010
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.010
 tags:
-  - adipose-tissue
-  - body-condition-score
-  - lipolysis
-  - energy-reserve
-  - transition-period
-  - inflammation
-  - adipokines
-  - nefa
+- adipose-tissue
+- body-condition-score
+- lipolysis
+- energy-reserve
+- transition-period
+- inflammation
+- adipokines
+- nefa
 ---
 
 # CS.ENTITY.005: Жировая ткань

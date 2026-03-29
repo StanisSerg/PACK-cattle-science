@@ -5,52 +5,55 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: endocrinology
-name_ru: "Инсулин"
-name_en: "Insulin"
-abbreviation: "INS"
-unit: "мкЕд/мл"
-normal_range: "5-25"
-critical_threshold: "< 5"
+name_ru: Инсулин
+name_en: Insulin
+abbreviation: INS
+unit: мкЕд/мл
+normal_range: 5-25
+critical_threshold: < 5
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.028
-  - CS.SOTA.029
-  - CS.SOTA.030
-  - CS.SOTA.031
-  - CS.SOTA.035
-  - CS.SOTA.038
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.049
-  - CS.SOTA.053
-  - CS.SOTA.054
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.059
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.028
+- CS.SOTA.029
+- CS.SOTA.030
+- CS.SOTA.031
+- CS.SOTA.035
+- CS.SOTA.038
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.049
+- CS.SOTA.053
+- CS.SOTA.054
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.059
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.085
+- CS.SOTA.092
+- CS.SOTA.093
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.016
-  - CS.ENTITY.017
-  - CS.ENTITY.018
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.016
+- CS.ENTITY.017
+- CS.ENTITY.018
 tags:
-  - insulin
-  - hormone
-  - glucose-metabolism
-  - energy-homeostasis
-  - transition-period
-  - metabolic-regulation
-  - lipolysis-inhibition
-  - glucose-uptake
+- insulin
+- hormone
+- glucose-metabolism
+- energy-homeostasis
+- transition-period
+- metabolic-regulation
+- lipolysis-inhibition
+- glucose-uptake
 ---
 
 # CS.ENTITY.015: Инсулин
