@@ -5,46 +5,47 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolism
-name_ru: "Глюкоза"
-name_en: "Glucose"
-abbreviation: "Glc"
-unit: "ммоль/л"
-normal_range: "3.0-4.5"
-critical_threshold: "< 2.5"
+name_ru: Глюкоза
+name_en: Glucose
+abbreviation: Glc
+unit: ммоль/л
+normal_range: 3.0-4.5
+critical_threshold: < 2.5
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.026
-  - CS.SOTA.028
-  - CS.SOTA.030
-  - CS.SOTA.037
-  - CS.SOTA.038
-  - CS.SOTA.039
-  - CS.SOTA.041
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.009
+- CS.SOTA.026
+- CS.SOTA.028
+- CS.SOTA.030
+- CS.SOTA.037
+- CS.SOTA.038
+- CS.SOTA.039
+- CS.SOTA.041
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.071
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.007
-  - CS.ENTITY.008
-  - CS.ENTITY.010
-  - CS.ENTITY.011
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.010
+- CS.ENTITY.011
 tags:
-  - glucose
-  - energy-metabolism
-  - gluconeogenesis
-  - transition-period
-  - metabolic-marker
-  - lactose-synthesis
-  - insulin
+- glucose
+- energy-metabolism
+- gluconeogenesis
+- transition-period
+- metabolic-marker
+- lactose-synthesis
+- insulin
 ---
 
 # CS.ENTITY.009: Глюкоза

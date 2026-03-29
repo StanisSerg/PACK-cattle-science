@@ -5,43 +5,44 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Неэтерифицированные жирные кислоты"
-name_en: "Non-esterified fatty acids"
-abbreviation: "NEFA"
-unit: "мЭкв/л"
-normal_range: "< 0.4"
-critical_threshold: "≥ 0.6"
+name_ru: Неэтерифицированные жирные кислоты
+name_en: Non-esterified fatty acids
+abbreviation: NEFA
+unit: мЭкв/л
+normal_range: < 0.4
+critical_threshold: ≥ 0.6
 related_sota:
-  - CS.SOTA.028
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.038
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.028
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.038
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.071
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.007
-  - CS.ENTITY.009
-  - CS.ENTITY.010
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.007
+- CS.ENTITY.009
+- CS.ENTITY.010
 tags:
-  - fatty-acids
-  - lipolysis
-  - metabolic-marker
-  - transition-period
-  - negative-energy-balance
-  - liver-metabolism
-  - fatty-liver
+- fatty-acids
+- lipolysis
+- metabolic-marker
+- transition-period
+- negative-energy-balance
+- liver-metabolism
+- fatty-liver
 ---
 
 # CS.ENTITY.008: Неэтерифицированные жирные кислоты (NEFA)

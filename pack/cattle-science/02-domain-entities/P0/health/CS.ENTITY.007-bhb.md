@@ -5,42 +5,43 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "β-гидроксибутират"
-name_en: "Beta-hydroxybutyrate"
-abbreviation: "BHB"
-unit: "ммоль/л"
-normal_range: "< 1.0"
-critical_threshold: "≥ 1.2"
+name_ru: β-гидроксибутират
+name_en: Beta-hydroxybutyrate
+abbreviation: BHB
+unit: ммоль/л
+normal_range: < 1.0
+critical_threshold: ≥ 1.2
 related_sota:
-  - CS.SOTA.027
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.041
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.027
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.041
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.071
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.010
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.010
 tags:
-  - ketone-bodies
-  - metabolic-marker
-  - transition-period
-  - ketosis
-  - energy-metabolism
-  - gluconeogenesis
-  - liver-metabolism
+- ketone-bodies
+- metabolic-marker
+- transition-period
+- ketosis
+- energy-metabolism
+- gluconeogenesis
+- liver-metabolism
 ---
 
 # CS.ENTITY.007: β-гидроксибутират (BHB)

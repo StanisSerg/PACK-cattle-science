@@ -32,6 +32,7 @@ related_sota:
 - CS.SOTA.028
 - CS.SOTA.029
 - CS.SOTA.070
+- CS.SOTA.071
 related_entities:
 - CS.ENTITY.002
 - CS.ENTITY.003

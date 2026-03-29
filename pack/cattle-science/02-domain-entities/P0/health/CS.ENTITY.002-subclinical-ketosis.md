@@ -5,27 +5,28 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Субклинический кетоз"
-name_en: "Subclinical ketosis"
-abbreviation: "SCK"
+name_ru: Субклинический кетоз
+name_en: Subclinical ketosis
+abbreviation: SCK
 related_sota:
-  - CS.SOTA.027
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.027
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.071
 related_entities:
-  - CS.ENTITY.001
-  - CS.ENTITY.009
-  - CS.ENTITY.010
+- CS.ENTITY.001
+- CS.ENTITY.009
+- CS.ENTITY.010
 tags:
-  - ketosis
-  - metabolic-disorder
-  - transition-period
-  - bhb
+- ketosis
+- metabolic-disorder
+- transition-period
+- bhb
 ---
 
 # CS.ENTITY.002: Субклинический кетоз
