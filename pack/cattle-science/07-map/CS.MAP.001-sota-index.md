@@ -3,7 +3,7 @@
 > Карта научно-обоснованных знаний в PACK-cattle-science
 > 
 > **Версия:** 2.1 (Sharded)  
-> **Всего SoTA:** 140  
+> **Всего SoTA:** 157  
 > **Последнее обновление:** 2026-04-01
 
 ---
@@ -13,11 +13,11 @@
 | Область | SoTA | Шард | Описание |
 |---------|------|------|----------|
 | 🧬 **reproduction** | 19 | [Перейти →](./sota-index/CS.MAP.001-reproduction.md) | Репродуктивный менеджмент, TAI, синхронизация |
-| 🌾 **feeding** | 61 | [Перейти →](./sota-index/CS.SOTA.feeding.index.md) | Кормление, метаболизм, переходный период |
-| 🏥 **health** | 55 | [Перейти →](./sota-index/CS.MAP.001-health.md) | Здоровье, кетоз, иммунитет, печень |
+| 🌾 **feeding** | 63 | [Перейти →](./sota-index/CS.SOTA.feeding.index.md) | Кормление, метаболизм, переходный период |
+| 🏥 **health** | 56 | [Перейти →](./sota-index/CS.MAP.001-health.md) | Здоровье, кетоз, иммунитет, печень |
 | 💰 **economics** | 5 | [Перейти →](./sota-index/CS.MAP.001-economics.md) | Экономика, моделирование, оптимизация |
 | 📊 **management** | 2 | [Перейти →](./sota-index/CS.MAP.001-management.md) | Менеджмент, алгоритмы, оценка |
-| **ИТОГО** | **137** | | |
+| **ИТОГО** | **140** | | |
 
 ---
 
@@ -25,8 +25,8 @@
 
 ```
 Всего SoTA: 138
-├── feeding:       61 ████████████████████████████████████████ (44%)
-├── health:        50 ██████████████████████████████████████ (36%)
+├── feeding:       63 ████████████████████████████████████████ (45%)
+├── health:        51 ██████████████████████████████████████ (36%)
 ├── reproduction:  19 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░ (14%)
 ├── economics:      5 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (4%)
 └── management:     2 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (1%)
@@ -70,8 +70,8 @@
 ### Reproduction (19)
 `CS.SOTA.001` `CS.SOTA.003` `CS.SOTA.005` `CS.SOTA.006` `CS.SOTA.007` `CS.SOTA.010` `CS.SOTA.014` `CS.SOTA.019` `CS.SOTA.023` `CS.SOTA.025` `CS.SOTA.112` `CS.SOTA.116` `CS.SOTA.117` `CS.SOTA.118` `CS.SOTA.120` `CS.SOTA.124` `CS.SOTA.127` `CS.SOTA.137` `CS.SOTA.138`
 
-### Feeding (61)
-`CS.SOTA.012` `CS.SOTA.013` `CS.SOTA.015` `CS.SOTA.016` `CS.SOTA.017` `CS.SOTA.018` `CS.SOTA.031` `CS.SOTA.033` `CS.SOTA.034` `CS.SOTA.048` `CS.SOTA.049` `CS.SOTA.057` `CS.SOTA.064` `CS.SOTA.070` `CS.SOTA.072` `CS.SOTA.073` `CS.SOTA.074` `CS.SOTA.075` `CS.SOTA.076` `CS.SOTA.077` `CS.SOTA.078` `CS.SOTA.079` `CS.SOTA.080` `CS.SOTA.081` `CS.SOTA.082` `CS.SOTA.083` `CS.SOTA.084` `CS.SOTA.085` `CS.SOTA.086` `CS.SOTA.087` `CS.SOTA.088` `CS.SOTA.089` `CS.SOTA.090` `CS.SOTA.095` `CS.SOTA.096` `CS.SOTA.098` `CS.SOTA.100` `CS.SOTA.101` `CS.SOTA.102` `CS.SOTA.105` `CS.SOTA.106` `CS.SOTA.107` `CS.SOTA.108` `CS.SOTA.109` `CS.SOTA.111` `CS.SOTA.113` `CS.SOTA.114` `CS.SOTA.115` `CS.SOTA.119` `CS.SOTA.123` `CS.SOTA.125` `CS.SOTA.126` `CS.SOTA.128` `CS.SOTA.129` `CS.SOTA.130` `CS.SOTA.131` `CS.SOTA.133` `CS.SOTA.134` `CS.SOTA.135` `CS.SOTA.136`
+### Feeding (63)
+`CS.SOTA.012` `CS.SOTA.013` `CS.SOTA.015` `CS.SOTA.016` `CS.SOTA.017` `CS.SOTA.018` `CS.SOTA.031` `CS.SOTA.033` `CS.SOTA.034` `CS.SOTA.048` `CS.SOTA.049` `CS.SOTA.057` `CS.SOTA.064` `CS.SOTA.070` `CS.SOTA.072` `CS.SOTA.073` `CS.SOTA.074` `CS.SOTA.075` `CS.SOTA.076` `CS.SOTA.077` `CS.SOTA.078` `CS.SOTA.079` `CS.SOTA.080` `CS.SOTA.081` `CS.SOTA.082` `CS.SOTA.083` `CS.SOTA.084` `CS.SOTA.085` `CS.SOTA.086` `CS.SOTA.087` `CS.SOTA.088` `CS.SOTA.089` `CS.SOTA.090` `CS.SOTA.095` `CS.SOTA.096` `CS.SOTA.098` `CS.SOTA.100` `CS.SOTA.101` `CS.SOTA.102` `CS.SOTA.105` `CS.SOTA.106` `CS.SOTA.107` `CS.SOTA.108` `CS.SOTA.109` `CS.SOTA.111` `CS.SOTA.113` `CS.SOTA.114` `CS.SOTA.115` `CS.SOTA.119` `CS.SOTA.123` `CS.SOTA.125` `CS.SOTA.126` `CS.SOTA.128` `CS.SOTA.129` `CS.SOTA.130` `CS.SOTA.131` `CS.SOTA.133` `CS.SOTA.134` `CS.SOTA.135` `CS.SOTA.136` `CS.SOTA.151` `CS.SOTA.152`
 
 ### Health (55)
 `CS.SOTA.008` `CS.SOTA.009` `CS.SOTA.020` `CS.SOTA.026` `CS.SOTA.027` `CS.SOTA.028` `CS.SOTA.029` `CS.SOTA.030` `CS.SOTA.032` `CS.SOTA.035` `CS.SOTA.036` `CS.SOTA.037` `CS.SOTA.038` `CS.SOTA.039` `CS.SOTA.040` `CS.SOTA.041` `CS.SOTA.042` `CS.SOTA.043` `CS.SOTA.044` `CS.SOTA.045` `CS.SOTA.046` `CS.SOTA.047` `CS.SOTA.053` `CS.SOTA.054` `CS.SOTA.055` `CS.SOTA.056` `CS.SOTA.058` `CS.SOTA.059` `CS.SOTA.060` `CS.SOTA.061` `CS.SOTA.062` `CS.SOTA.063` `CS.SOTA.065` `CS.SOTA.066` `CS.SOTA.067` `CS.SOTA.068` `CS.SOTA.071` `CS.SOTA.091` `CS.SOTA.092` `CS.SOTA.093` `CS.SOTA.094` `CS.SOTA.097` `CS.SOTA.103` `CS.SOTA.104` `CS.SOTA.106` `CS.SOTA.107` `CS.SOTA.108` `CS.SOTA.110` `CS.SOTA.121` `CS.SOTA.132` `CS.SOTA.139` `CS.SOTA.140` `CS.SOTA.141`
@@ -89,8 +89,8 @@
 ```
 06-sota/
 ├── reproduction/     # 19 SoTA
-├── feeding/          # 61 SoTA
-├── health/           # 55 SoTA
+├── feeding/          # 63 SoTA
+├── health/           # 56 SoTA
 ├── economics/        # 5 SoTA
 └── management/       # 2 SoTA
 ```
@@ -130,12 +130,12 @@ CS.MAP.001-sota-index.md (мастер)
 | Метрика | Значение |
 |---------|----------|
 | **Цель SoTA** | 400 |
-| **Текущий прогресс** | 140 (35%) |
-| **Осталось** | 260 |
+| **Текущий прогресс** | 143 (36%) |
+| **Осталось** | 257 |
 | **Темп обработки** | ~5 мин/статью |
-| **Оценка времени** | ~25 часов |
+| **Оценка времени** | ~21 час |
 
 ---
 
-*Версия 2.3 — Обновлено: 2026-04-01*  
+*Версия 2.4 — Обновлено: 2026-04-01*  
 *Автоматический подсчёт: 105 SoTA*
