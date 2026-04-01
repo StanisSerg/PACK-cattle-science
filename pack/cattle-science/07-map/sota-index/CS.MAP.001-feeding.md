@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 13 |
+| Всего SoTA | 14 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 2 |
 | P2 (Важные) | 10 |
@@ -36,6 +36,7 @@
 | [CS.SOTA.057](../../06-sota/feeding/CS.SOTA.057-aschenbach-2010.md) | Aschenbach et al. | 2010 | Review | `#глюконеогенез` `#пропионат` `#печень` | JDS версия обзора глюконеогенеза |
 | [CS.SOTA.059](../../06-sota/feeding/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | `#пропиленгликоль` `#метаболизм` `#кетоз` `#рубец` `#печень` | Метаболизм PG: гепатический захват 19% |
 | [CS.SOTA.064](../../06-sota/feeding/CS.SOTA.064-bruner-2025.md) | Bruner et al. | 2025 | Experimental | `#анионные-соли` `#DCAD` `#предпочтение` `#потребление` | Микроинкапсулированные анионные соли |
+| [CS.SOTA.109](../../06-sota/feeding/CS.SOTA.109-broderick-2009.md) | Broderick & Reynal | 2009 | Experimental | `#rdp` `#protein-source` `#microbial-protein` | Источник RDP влияет на аминокислотный профиль рубца |
 
 ---
 

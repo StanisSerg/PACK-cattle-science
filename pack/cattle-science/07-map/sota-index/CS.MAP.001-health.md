@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 48 |
+| Всего SoTA | 52 |
 | P0 (Фундаментальные) | 3 |
 | P1 (Критически важные) | 15 |
 | P2 (Важные) | 22 |
@@ -43,6 +43,7 @@
 | [CS.SOTA.061](../../06-sota/health/CS.SOTA.061-bjerre-harpoth-2015.md) | Bjerre-Harpøth et al. | 2015 | Experimental | PG снижает мобилизацию жировой ткани |
 | [CS.SOTA.062](../../06-sota/health/CS.SOTA.062-lomander-2012.md) | Lomander et al. | 2012 | Field-study | Глицерол vs PG в ранней лактации |
 | [CS.SOTA.063](../../06-sota/health/CS.SOTA.063-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | Метаболизм PG: руминальный и гепатический |
+| [CS.SOTA.071](../../06-sota/health/CS.SOTA.071-chapinal-propylene-glycol.md) | Chapinal et al. | 2011 | Field-study | Связь метаболитов крови с заболеваниями и фертильностью |
 
 ### Глюконеогенез и печень
 
@@ -69,6 +70,7 @@
 | [CS.SOTA.009](../../06-sota/health/CS.SOTA.009-hansen-2018.md) | Hansen | 2018 | Review | Иммунная функция критична для фертильности |
 | [CS.SOTA.053](../../06-sota/health/CS.SOTA.053-bradford-2015.md) | Bradford | 2015 | Review | Иммуносупрессия + воспаление = проблемы |
 | [CS.SOTA.054](../../06-sota/health/CS.SOTA.054-horst-2021.md) | Horst et al. | 2021 | Review | Новая парадигма: иммуноактивация → гипофагия |
+| [CS.SOTA.132](../../06-sota/health/CS.SOTA.132-hogan-1993.md) | Hogan et al. | 1993 | Review | Витамин E и селен усиливают защиту от мастита на 25-40% |
 
 ### Переходный период
 
@@ -88,6 +90,8 @@
 | [CS.SOTA.106](../../06-sota/health/CS.SOTA.106-duffield-leblanc-2009.md) | Duffield & LeBlanc | 2009 | Review | Интерпретация NEFA, BHBA, Ca: групповой подход |
 | [CS.SOTA.107](../../06-sota/health/CS.SOTA.107-venjakob-2017.md) | Venjakob et al. | 2017 | Field-study | 60% коров ≥4-й лактации — субклиническая гипокальциемия |
 | [CS.SOTA.108](../../06-sota/health/CS.SOTA.108-okkema-2023.md) | Okkema et al. | 2023 | Field-study | 96% первотёлок с UE; аверсивное поведение в доильном зале |
+| [CS.SOTA.110](../../06-sota/health/CS.SOTA.110-bruinje-2024.md) | Bruinjé et al. | 2024 | Observational | Постпартумные заболевания снижают прогестерон на 15-25% |
+| [CS.SOTA.121](../../06-sota/health/CS.SOTA.121-eppe-2021.md) | Eppe et al. | 2021 | Survey | 78% ветеринаров назначают антибиотики при RFM необоснованно |
 
 ### Современные методы
 
