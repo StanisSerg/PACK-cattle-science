@@ -39,7 +39,7 @@ related:
     type: contextual
     note: "Caraviello 2006 показывает распространённость практик синхронизации в США"
     relevance: medium
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: extends
     note: "Fricke 2023 развивает концепцию High Fertility Cycle на основе экономических принципов"
     relevance: medium

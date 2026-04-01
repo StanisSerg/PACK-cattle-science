@@ -31,7 +31,7 @@ related:
     type: foundational
     note: Crowe 2018 - builds on these factors
     relevance: high
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: foundational
     note: Fricke 2023 - modern perspective
     relevance: high

@@ -34,11 +34,11 @@ related:
     type: foundational
     note: "de Bruijn 2023 - кормовое поведение и овариальная цикличность"
     relevance: medium
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Albaaj 2023 - потери стельности связаны с метаболическим статусом"
     relevance: high
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: foundational
     note: "Fricke 2023 - высокий цикл плодовитости"
     relevance: medium

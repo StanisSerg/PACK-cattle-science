@@ -33,7 +33,7 @@ related:
     type: extends
     note: "Crowe 2018 предсказывал экономический потенциал sexed/beef semen — Lauber 2025 количественно оценивает"
     relevance: high
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: extends
     note: "Fricke 2023 описывает High Fertility Cycle — Lauber 2025 моделирует экономику разных уровней 21-d PR"
     relevance: high

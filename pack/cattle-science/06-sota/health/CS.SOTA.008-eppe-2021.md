@@ -27,7 +27,7 @@ tags:
   - belgium
   - prudent-antibiotic-use
 related:
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Albaaj 2023 - потери стельности, ЗПП является фактором риска"
     relevance: medium

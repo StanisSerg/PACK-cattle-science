@@ -29,7 +29,7 @@ tags:
   - PSPB
   - embryo-development
 related:
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: extends
     note: "Fricke 2023 развивает концепцию оптимизации фертильности, включая манипуляцию P4"
     relevance: high

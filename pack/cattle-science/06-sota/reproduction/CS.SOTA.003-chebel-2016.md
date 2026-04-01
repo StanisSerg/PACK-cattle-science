@@ -33,11 +33,11 @@ related:
     type: foundational
     note: "Crowe 2018 обобщает концепции, представленные Chebel"
     relevance: high
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: compares_programs
     note: "Fricke 2023 использует программы Chebel в рамках HFC"
     relevance: high
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Потери стельности влияют на выбор системы"
     relevance: medium

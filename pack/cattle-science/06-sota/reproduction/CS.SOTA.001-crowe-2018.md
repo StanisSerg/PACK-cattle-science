@@ -27,7 +27,7 @@ tags:
   - early-pregnancy-diagnosis
   - automated-systems
 related:
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: extends
     note: "Fricke 2023 развивает концепции Crowe 2018"
     relevance: high
@@ -35,7 +35,7 @@ related:
     type: compares_programs
     note: "Chebel 2016 описывает конкретные системы, упомянутые Crowe"
     relevance: medium
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Albaaj 2023 — одна из технологий будущего (предиктивная диагностика)"
     relevance: medium

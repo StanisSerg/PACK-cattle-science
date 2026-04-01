@@ -40,7 +40,7 @@ related:
     type: foundational
     note: "Базовые основы кетоза и метаболических нарушений"
     relevance: high
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: extends
     note: "Расширяет исследование гематологических изменений при кетозе"
     relevance: high

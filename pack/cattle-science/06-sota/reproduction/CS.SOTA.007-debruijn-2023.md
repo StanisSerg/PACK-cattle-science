@@ -28,7 +28,7 @@ tags:
   - transition-period
   - precision-dairy
 related:
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Albaaj 2023 - pregnancy losses related to metabolic status"
     relevance: medium

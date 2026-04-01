@@ -28,7 +28,7 @@ tags:
   - high-yielding-cows
   - controlled-study
 related:
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: extends
     note: "Fricke 2023 — концепция High Fertility Cycle поддерживается данными Hansson"
     relevance: high

@@ -37,7 +37,7 @@ related:
     type: foundational
     note: "Crowe 2018 обсуждает будущее репродуктивного менеджмента, включая синхронизацию"
     relevance: high
-  - id: CS.SOTA.002
+  - id: CS.SOTA.118
     type: foundational
     note: "Fricke 2023 развивает концепцию HFC на основе практик из этого опроса"
     relevance: high

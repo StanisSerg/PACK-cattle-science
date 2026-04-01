@@ -29,7 +29,7 @@ tags:
   - disease
   - g-csf
 related:
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Albaaj 2023 - потери стельности связаны с иммунным статусом"
     relevance: high

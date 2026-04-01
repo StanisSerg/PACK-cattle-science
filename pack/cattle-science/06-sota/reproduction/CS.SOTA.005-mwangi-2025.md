@@ -32,7 +32,7 @@ related:
     type: foundational
     note: "Crowe 2018 упоминает gestation management как перспективу"
     relevance: low
-  - id: CS.SOTA.004
+  - id: CS.SOTA.116
     type: foundational
     note: "Perinatal mortality связана с потерями стельности"
     relevance: medium

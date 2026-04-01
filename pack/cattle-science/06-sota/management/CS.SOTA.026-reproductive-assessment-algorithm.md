@@ -52,7 +52,7 @@ related:
     type: extends
     note: "Lauber 2025 — экономическое моделирование IEP"
     relevance: high
-  - id: CS.SOTA.004
+  - id: CS.SOTA.020
     type: foundational
     note: "Bruinjé 2024 — пороги метаболизма"
     relevance: medium
@@ -156,7 +156,7 @@ related:
 - CS.SOTA.009 (Hansson 2025) — оптимальный VWP
 - CS.SOTA.013 (Crowe 2018) — будущие технологии, Double-Ovsynch
 - CS.SOTA.015 (Fricke 2023) — High Fertility Cycle, влияние BCS
-- CS.SOTA.004 (Bruinjé 2024) — пороги метаболизма
+- CS.SOTA.020 (Bruinjé 2024) — пороги метаболизма
 
 ---
 
@@ -319,8 +319,8 @@ CR = (Стельные / Осеменённые) × 100
 **Метаболические факторы:**
 - BCS при отёле >3.5 (CS.SOTA.015)
 - Потеря BCS >0.75 (CS.SOTA.015)
-- NEFA >0.7 ммоль/л (CS.SOTA.004)
-- Гипокальция (CS.SOTA.004)
+- NEFA >0.7 ммоль/л (CS.SOTA.020)
+- Гипокальция (CS.SOTA.020)
 
 **Решения:** DCAD диета, мониторинг переходного периода, коррекция BCS
 
@@ -342,7 +342,7 @@ CR = (Стельные / Осеменённые) × 100
 | 2 | Double-Ovsynch | 150-200% | Низкая | CS.SOTA.013 |
 | 3 | Мониторы активности | 200-300% | Средняя | CS.SOTA.013 |
 | 4 | Контроль BCS | 100-150% | Высокая | CS.SOTA.015 |
-| 5 | DCAD диета | 80-120% | Средняя | CS.SOTA.004 |
+| 5 | DCAD диета | 80-120% | Средняя | CS.SOTA.020 |
 
 **Алгоритм выбора интервенции:**
 
@@ -765,7 +765,7 @@ ROI = (Экономия - Затраты) / Затраты × 100% = _____%
 
 - Fricke, P.M. et al. (2023). The high fertility cycle. *JDS Communications*, 4, 127-131. (CS.SOTA.015)
 
-- Bruinjé, M.W. et al. (2024). Metabolic thresholds and reproductive performance. *Journal of Dairy Science*. (CS.SOTA.004)
+- Bruinjé, M.W. et al. (2024). Metabolic thresholds and reproductive performance. *Journal of Dairy Science*. (CS.SOTA.020)
 
 ---
 
