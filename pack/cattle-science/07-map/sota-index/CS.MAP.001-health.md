@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 52 |
+| Всего SoTA | 55 |
 | P0 (Фундаментальные) | 3 |
 | P1 (Критически важные) | 15 |
 | P2 (Важные) | 22 |
@@ -99,6 +99,9 @@
 |----|--------|-----|-----|-------------------|
 | [CS.SOTA.065](../../06-sota/health/CS.SOTA.065-ghaffari-2024.md) | Ghaffari et al. | 2024 | Experimental | Неполное β-окисление ЖК — ключевой механизм |
 | [CS.SOTA.067](../../06-sota/health/CS.SOTA.067-lin-2025.md) | Lin et al. | 2025 | ML-study | PLS-DA предсказывает заболевания за 7 дней |
+| [CS.SOTA.139](../../06-sota/health/CS.SOTA.139-perez-baez-2019.md) | Pérez-Báez et al. | 2019 | Field-study | DMI <11 кг препартум → +65% риск кетоза |
+| [CS.SOTA.140](../../06-sota/health/CS.SOTA.140-sammad-2022.md) | Sammad et al. | 2022 | Review | Механизмы НЭБ → репродуктивная дисфункция |
+| [CS.SOTA.141](../../06-sota/health/CS.SOTA.141-mclean-immunity.md) | McLean et al. | 2019 | Review | Иммунная дисрегуляция в переходный период |
 
 ---
 
