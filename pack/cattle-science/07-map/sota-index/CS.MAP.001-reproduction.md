@@ -1,6 +1,6 @@
 # CS.MAP.001-reproduction: SoTA Index — Репродуктивный менеджмент
 
-> Шард индекса: reproduction (11 SoTA)
+> Шард индекса: reproduction (12 SoTA)
 > 
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 11 |
+| Всего SoTA | 12 |
 | P0 (Фундаментальные) | 1 |
-| P1 (Критически важные) | 5 |
+| P1 (Критически важные) | 6 |
 | P2 (Важные) | 5 |
 | Review | 5 |
 | Meta-analysis | 1 |
-| Field-study | 4 |
+| Field-study | 5 |
 | Simulation | 1 |
 
 ---
@@ -32,6 +32,7 @@
 | [CS.SOTA.005](../../06-sota/reproduction/CS.SOTA.005-mwangi-2025.md) | Mwangi et al. | 2025 | P2 | Field-study | `#гестация` `#дистоция` `#перинатальная-смертность` | Оптимум 280-282 дня; экстремумы → риск ×2 |
 | [CS.SOTA.006](../../06-sota/reproduction/CS.SOTA.006-caraviello-2006.md) | Caraviello et al. | 2006 | P2 | Survey | `#менеджмент` `#практики` `#опрос` | Охват ИО 85%, ВОС 14.5% |
 | [CS.SOTA.007](../../06-sota/reproduction/CS.SOTA.007-de-bruijn-2023.md) | De Bruijn et al. | 2023 | P2 | Field-study | `#кормовое-поведение` `#переходный-период` `#RFID` | TFT <4ч → риск кетоза ×2.3, задержка овуляции +14 дней |
+| [CS.SOTA.010](../../06-sota/reproduction/CS.SOTA.010-vercouteren-2015.md) | Vercouteren et al. | 2015 | P1 | Field-study | `#ранняя-цикличность` `#метаболическое-здоровье` `#послеродовой-период` | Ранняя овуляция ≤21 DIM: 38%; предикторы — NEFA, BHBA, здоровье |
 | [CS.SOTA.014](../../06-sota/reproduction/CS.SOTA.014-senger-2002.md) | Senger | 2002 | P0 | Review | `#факторы-плодовитости` `#менеджмент` `#обнаружение-охоты` | Обнаружение охоты #1, техника ИО #2, переходный период #3 |
 | [CS.SOTA.019](../../06-sota/reproduction/CS.SOTA.019-lauber-2025.md) | Lauber et al. | 2025 | P1 | Simulation | `#экономика` `#21-дневная-стельность` `#sexed-сперма` | Оптимальный IEP 80-200 дней, sexed+beef +$51/корова |
 | [CS.SOTA.023](../../06-sota/reproduction/CS.SOTA.023-carvalho-2019.md) | Carvalho et al. | 2019 | P2 | Research | `#прогестерон` `#двойняшность` `#TAI` | CIDR снижает двойню с 29% до 0% |
@@ -49,6 +50,7 @@
 | Какое будущее reproductive management? | CS.SOTA.001 | Геномика, автоматизация, предиктивная аналитика |
 | Как оптимальный VWP? | CS.SOTA.025 | 140 дней для сезонного отела |
 | Какие репродуктивные системы лучше? | CS.SOTA.003 | ED+TAI комбинация оптимальна |
+| Какие факторы влияют на раннюю цикличность? | CS.SOTA.010 | NEFA, BHBA, послеродовые заболевания, эндометрит |
 | Как экономически оптимизировать? | CS.SOTA.019 | Sexed+beef semen, IEP 80-200 дней |
 
 ---
