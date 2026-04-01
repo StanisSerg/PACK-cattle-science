@@ -3,7 +3,7 @@
 > Карта научно-обоснованных знаний в PACK-cattle-science
 > 
 > **Версия:** 2.1 (Sharded)  
-> **Всего SoTA:** 120  
+> **Всего SoTA:** 126  
 > **Последнее обновление:** 2026-04-01
 
 ---
@@ -23,12 +23,12 @@
 ## Статистика по категориям
 
 ```
-Всего SoTA: 105
-├── health:        48 ████████████████████████████████████ (46%)
-├── feeding:       40 ████████████████████████████████░░░░ (38%)
-├── reproduction:  12 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░ (11%)
-├── economics:      4 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (4%)
-└── management:     2 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (2%)
+Всего SoTA: 126
+├── feeding:       52 ██████████████████████████████████████ (41%)
+├── health:        49 ██████████████████████████████████████ (39%)
+├── reproduction:  18 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░ (14%)
+├── economics:      5 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (4%)
+└── management:     2 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ (2%)
 ```
 
 ---
@@ -66,17 +66,17 @@
 
 ## Полный список (компактный)
 
-### Reproduction (16)
-`CS.SOTA.001` `CS.SOTA.002` `CS.SOTA.003` `CS.SOTA.004` `CS.SOTA.005` `CS.SOTA.006` `CS.SOTA.007` `CS.SOTA.010` `CS.SOTA.014` `CS.SOTA.019` `CS.SOTA.023` `CS.SOTA.025` `CS.SOTA.112` `CS.SOTA.116` `CS.SOTA.117` `CS.SOTA.118` `CS.SOTA.120`
+### Reproduction (18)
+`CS.SOTA.001` `CS.SOTA.002` `CS.SOTA.003` `CS.SOTA.004` `CS.SOTA.005` `CS.SOTA.006` `CS.SOTA.007` `CS.SOTA.010` `CS.SOTA.014` `CS.SOTA.019` `CS.SOTA.023` `CS.SOTA.025` `CS.SOTA.112` `CS.SOTA.116` `CS.SOTA.117` `CS.SOTA.118` `CS.SOTA.120` `CS.SOTA.124`
 
-### Feeding (49)
-`CS.SOTA.012` `CS.SOTA.013` `CS.SOTA.015` `CS.SOTA.016` `CS.SOTA.017` `CS.SOTA.018` `CS.SOTA.031` `CS.SOTA.033` `CS.SOTA.034` `CS.SOTA.048` `CS.SOTA.049` `CS.SOTA.057` `CS.SOTA.064` `CS.SOTA.070` `CS.SOTA.072` `CS.SOTA.073` `CS.SOTA.074` `CS.SOTA.075` `CS.SOTA.076` `CS.SOTA.077` `CS.SOTA.078` `CS.SOTA.079` `CS.SOTA.080` `CS.SOTA.081` `CS.SOTA.082` `CS.SOTA.083` `CS.SOTA.084` `CS.SOTA.085` `CS.SOTA.086` `CS.SOTA.087` `CS.SOTA.088` `CS.SOTA.089` `CS.SOTA.090` `CS.SOTA.095` `CS.SOTA.096` `CS.SOTA.098` `CS.SOTA.100` `CS.SOTA.101` `CS.SOTA.102` `CS.SOTA.105` `CS.SOTA.106` `CS.SOTA.107` `CS.SOTA.108` `CS.SOTA.111` `CS.SOTA.113` `CS.SOTA.114` `CS.SOTA.115` `CS.SOTA.119`
+### Feeding (52)
+`CS.SOTA.012` `CS.SOTA.013` `CS.SOTA.015` `CS.SOTA.016` `CS.SOTA.017` `CS.SOTA.018` `CS.SOTA.031` `CS.SOTA.033` `CS.SOTA.034` `CS.SOTA.048` `CS.SOTA.049` `CS.SOTA.057` `CS.SOTA.064` `CS.SOTA.070` `CS.SOTA.072` `CS.SOTA.073` `CS.SOTA.074` `CS.SOTA.075` `CS.SOTA.076` `CS.SOTA.077` `CS.SOTA.078` `CS.SOTA.079` `CS.SOTA.080` `CS.SOTA.081` `CS.SOTA.082` `CS.SOTA.083` `CS.SOTA.084` `CS.SOTA.085` `CS.SOTA.086` `CS.SOTA.087` `CS.SOTA.088` `CS.SOTA.089` `CS.SOTA.090` `CS.SOTA.095` `CS.SOTA.096` `CS.SOTA.098` `CS.SOTA.100` `CS.SOTA.101` `CS.SOTA.102` `CS.SOTA.105` `CS.SOTA.106` `CS.SOTA.107` `CS.SOTA.108` `CS.SOTA.111` `CS.SOTA.113` `CS.SOTA.114` `CS.SOTA.115` `CS.SOTA.119` `CS.SOTA.123` `CS.SOTA.125` `CS.SOTA.126`
 
 ### Health (48)
 `CS.SOTA.008` `CS.SOTA.009` `CS.SOTA.020` `CS.SOTA.026` `CS.SOTA.027` `CS.SOTA.028` `CS.SOTA.029` `CS.SOTA.030` `CS.SOTA.032` `CS.SOTA.035` `CS.SOTA.036` `CS.SOTA.037` `CS.SOTA.038` `CS.SOTA.039` `CS.SOTA.040` `CS.SOTA.041` `CS.SOTA.042` `CS.SOTA.043` `CS.SOTA.044` `CS.SOTA.045` `CS.SOTA.046` `CS.SOTA.047` `CS.SOTA.053` `CS.SOTA.054` `CS.SOTA.055` `CS.SOTA.056` `CS.SOTA.058` `CS.SOTA.059` `CS.SOTA.060` `CS.SOTA.061` `CS.SOTA.062` `CS.SOTA.063` `CS.SOTA.065` `CS.SOTA.066` `CS.SOTA.067` `CS.SOTA.068` `CS.SOTA.091` `CS.SOTA.092` `CS.SOTA.093` `CS.SOTA.094` `CS.SOTA.097` `CS.SOTA.103` `CS.SOTA.104` `CS.SOTA.106` `CS.SOTA.107` `CS.SOTA.108
 
-### Economics (4)
-`CS.SOTA.021` `CS.SOTA.022` `CS.SOTA.024` `CS.SOTA.069`
+### Economics (5)
+`CS.SOTA.021` `CS.SOTA.022` `CS.SOTA.024` `CS.SOTA.069` `CS.SOTA.122`
 
 ### Management (2)
 `CS.SOTA.026` `CS.SOTA.099`
