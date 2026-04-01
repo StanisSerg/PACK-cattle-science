@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 14 |
+| Всего SoTA | 16 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 2 |
 | P2 (Важные) | 10 |
@@ -37,6 +37,8 @@
 | [CS.SOTA.059](../../06-sota/feeding/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen & Raun | 2007 | Experimental | `#пропиленгликоль` `#метаболизм` `#кетоз` `#рубец` `#печень` | Метаболизм PG: гепатический захват 19% |
 | [CS.SOTA.064](../../06-sota/feeding/CS.SOTA.064-bruner-2025.md) | Bruner et al. | 2025 | Experimental | `#анионные-соли` `#DCAD` `#предпочтение` `#потребление` | Микроинкапсулированные анионные соли |
 | [CS.SOTA.109](../../06-sota/feeding/CS.SOTA.109-broderick-2009.md) | Broderick & Reynal | 2009 | Experimental | `#rdp` `#protein-source` `#microbial-protein` | Источник RDP влияет на аминокислотный профиль рубца |
+| [CS.SOTA.151](../../06-sota/feeding/CS.SOTA.151-molano-bvitamin.md) | Molano et al. | 2019 | Experimental | `#b-vitamins` `#choline` `#rumen-protected` | Добавки не нужны при сбалансированном рационе |
+| [CS.SOTA.152](../../06-sota/feeding/CS.SOTA.152-ockenden-2025.md) | Ockenden et al. | 2025 | Field-study | `#early-life-nutrition` `#metabolic-programming` | Нет долгосрочного программирования метаболизма |
 
 ---
 
