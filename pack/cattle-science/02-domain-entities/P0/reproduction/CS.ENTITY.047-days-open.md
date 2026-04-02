@@ -9,7 +9,7 @@ name_ru: "Дни открытой"
 name_en: "Days open"
 abbreviation: "DO"
 related_sota:
-  - CS.SOTA.002
+  - CS.SOTA.118
   - CS.SOTA.019
   - CS.SOTA.022
 related_entities:

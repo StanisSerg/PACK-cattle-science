@@ -10,9 +10,6 @@ name_en: "Milk urea nitrogen"
 abbreviation: "MUN"
 related_sota:
   - CS.SOTA.049
-  - CS.SOTA.050
-  - CS.SOTA.051
-  - CS.SOTA.052
   - CS.SOTA.053
   - CS.SOTA.054
   - CS.SOTA.055

@@ -1,3 +1,29 @@
+---
+id: CS.ENTITY.001
+type: entity
+fpf_type: U.Characteristic
+domain: cattle-science
+area: reproduction
+subarea: metrics
+name_ru: 21-дневная стельность
+name_en: 21-Day Pregnancy Rate
+abbreviation: 21-d PR
+related_sota:
+  - CS.SOTA.001
+  - CS.SOTA.118
+  - CS.SOTA.116
+  - CS.SOTA.019
+related_entities:
+  - CS.ENTITY.047
+  - CS.ENTITY.048
+  - CS.ENTITY.024
+tags:
+  - metric
+  - reproduction
+  - fertility
+  - economics
+---
+
 # CS.ENTITY.001: 21-Day Pregnancy Rate
 
 > Ключевая репродуктивная метрика, связывающая биологическую продуктивность с экономическими результатами.

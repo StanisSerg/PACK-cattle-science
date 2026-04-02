@@ -9,7 +9,6 @@ name_ru: "Нервная система"
 name_en: "Nervous system"
 abbreviation: "NS"
 related_sota:
-  - CS.SOTA.011
   - CS.SOTA.066
 related_entities:
   - CS.ENTITY.020

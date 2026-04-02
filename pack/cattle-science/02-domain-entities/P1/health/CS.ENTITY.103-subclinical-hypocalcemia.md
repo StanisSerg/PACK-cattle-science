@@ -9,7 +9,6 @@ name_ru: "Субклиническая гипокальциемия"
 name_en: "Subclinical hypocalcemia"
 abbreviation: "SCH"
 related_sota:
-  - CS.SOTA.011
   - CS.SOTA.066
 related_entities:
   - CS.ENTITY.020

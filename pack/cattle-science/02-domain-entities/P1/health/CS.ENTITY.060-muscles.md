@@ -9,7 +9,6 @@ name_ru: "Мышцы"
 name_en: "Muscles"
 abbreviation: "MUS"
 related_sota:
-  - CS.SOTA.011
   - CS.SOTA.066
 related_entities:
   - CS.ENTITY.018

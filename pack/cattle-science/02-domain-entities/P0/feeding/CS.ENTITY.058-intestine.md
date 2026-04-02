@@ -9,7 +9,6 @@ name_ru: "Кишечник"
 name_en: "Intestine"
 abbreviation: "INT"
 related_sota:
-  - CS.SOTA.011
   - CS.SOTA.012
   - CS.SOTA.066
 related_entities:

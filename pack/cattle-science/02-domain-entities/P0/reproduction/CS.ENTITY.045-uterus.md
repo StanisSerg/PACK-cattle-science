@@ -9,7 +9,7 @@ name_ru: "Матка"
 name_en: "Uterus"
 abbreviation: "UT"
 related_sota:
-  - CS.SOTA.004
+  - CS.SOTA.116
   - CS.SOTA.008
   - CS.SOTA.020
 related_entities:

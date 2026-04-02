@@ -10,9 +10,9 @@ name_en: "Artificial Insemination"
 abbreviation: "AI"
 related_sota:
   - CS.SOTA.001
-  - CS.SOTA.002
+  - CS.SOTA.118
   - CS.SOTA.003
-  - CS.SOTA.004
+  - CS.SOTA.116
   - CS.SOTA.006
   - CS.SOTA.014
   - CS.SOTA.019

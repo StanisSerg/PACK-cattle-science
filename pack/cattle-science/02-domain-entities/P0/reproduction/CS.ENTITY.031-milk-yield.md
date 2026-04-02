@@ -10,7 +10,7 @@ name_en: "Milk yield"
 abbreviation: "MY"
 related_sota:
   - CS.SOTA.001
-  - CS.SOTA.002
+  - CS.SOTA.118
   - CS.SOTA.005
   - CS.SOTA.006
   - CS.SOTA.007

@@ -1,21 +1,21 @@
 ---
 id: CS.ENTITY.183
 type: entity
+fpf_type: U.Characteristic
 priority: P2
 domain: cattle-science
 area: feeding
 subarea: amino-acid-metabolism
+name_ru: Аланинаминотрансфераза
+name_en: Alanine Aminotransferase
+abbreviation: ALT
 tags: [alt, alanine-aminotransferase, gpt, liver-enzyme, transaminase, diagnostic-marker]
-related:
-  - id: CS.ENTITY.184
-    type: related
-    note: Аспартатаминотрансфераза (сопутствующий маркер)
-  - id: CS.ENTITY.003
-    type: related
-    note: Печень (основной источник)
+related_entities:
+  - CS.ENTITY.184
+  - CS.ENTITY.003
   - CS.ENTITY.185
-    type: related
-    note: Глютаматдегидрогеназа (связанный фермент)
+related_sota:
+  - CS.SOTA.026
 ---
 
 # Аланинаминотрансфераза (ALT)

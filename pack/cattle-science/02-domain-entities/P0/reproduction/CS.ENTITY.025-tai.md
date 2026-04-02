@@ -11,7 +11,7 @@ abbreviation: "TAI"
 related_sota:
   - CS.SOTA.001
   - CS.SOTA.003
-  - CS.SOTA.004
+  - CS.SOTA.116
   - CS.SOTA.014
   - CS.SOTA.019
   - CS.SOTA.022

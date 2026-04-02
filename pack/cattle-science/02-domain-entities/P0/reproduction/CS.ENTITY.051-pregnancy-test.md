@@ -10,7 +10,7 @@ name_en: "Pregnancy test"
 abbreviation: "PT"
 related_sota:
   - CS.SOTA.003
-  - CS.SOTA.004
+  - CS.SOTA.116
   - CS.SOTA.019
 related_entities:
   - CS.ENTITY.090

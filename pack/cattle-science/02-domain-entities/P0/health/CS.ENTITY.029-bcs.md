@@ -9,7 +9,7 @@ name_ru: "Оценка упитанности"
 name_en: "Body condition score"
 abbreviation: "BCS"
 related_sota:
-  - CS.SOTA.002
+  - CS.SOTA.118
   - CS.SOTA.005
   - CS.SOTA.007
   - CS.SOTA.017

@@ -9,7 +9,6 @@ name_ru: "Почки"
 name_en: "Kidneys"
 abbreviation: "KID"
 related_sota:
-  - CS.SOTA.011
   - CS.SOTA.066
 related_entities:
   - CS.ENTITY.020

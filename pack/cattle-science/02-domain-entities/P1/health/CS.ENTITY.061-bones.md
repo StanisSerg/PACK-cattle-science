@@ -9,7 +9,6 @@ name_ru: "Кости"
 name_en: "Bones"
 abbreviation: "BON"
 related_sota:
-  - CS.SOTA.011
   - CS.SOTA.066
 related_entities:
   - CS.ENTITY.020

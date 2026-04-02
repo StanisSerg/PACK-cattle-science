@@ -10,7 +10,7 @@ name_en: "Heat Detection"
 abbreviation: "HD"
 related_sota:
   - CS.SOTA.001
-  - CS.SOTA.002
+  - CS.SOTA.118
   - CS.SOTA.006
   - CS.SOTA.014
   - CS.SOTA.019

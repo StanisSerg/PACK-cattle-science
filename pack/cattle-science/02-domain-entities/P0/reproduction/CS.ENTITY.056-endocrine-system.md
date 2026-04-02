@@ -48,9 +48,6 @@ related_sota:
   - CS.SOTA.047
   - CS.SOTA.048
   - CS.SOTA.049
-  - CS.SOTA.050
-  - CS.SOTA.051
-  - CS.SOTA.052
   - CS.SOTA.053
   - CS.SOTA.054
   - CS.SOTA.055
