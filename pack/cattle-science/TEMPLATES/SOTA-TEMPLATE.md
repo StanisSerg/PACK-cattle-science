@@ -88,6 +88,24 @@ related:
     type: [compares_programs|economic_analysis|foundational|etc]
     note: "Описание связи"
     relevance: [high|medium|low]
+
+# ⚠️ POST-CREATION CHECKLIST (выполнить после создания SoTA)
+# 
+# После заполнения этого файла выполните:
+# 
+# 1. Проверка сущностей:
+#    ./scripts/post-sota-check.sh --last
+# 
+# 2. Обновление связей (если найдены сущности):
+#    python3 scripts/update-entity-links.py CS.SOTA.XXX
+# 
+# 3. Обновление индексов:
+#    python3 scripts/reindex-sota.py
+#    python3 scripts/reindex-entities.py
+# 
+# 4. Git commit:
+#    git add -A
+#    git commit -m "feat(sota): add CS.SOTA.XXX-author-year"
 ---
 
 # 2. РЕЗЮМЕ (Abstract)

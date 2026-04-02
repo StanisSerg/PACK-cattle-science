@@ -1,97 +1,31 @@
 #!/bin/bash
-# post-commit hook — автоматическая валидация и обновление индекса SoTA
 #
-# Установка:
-#   git config core.hooksPath .githooks
-#   chmod +x .githooks/post-commit
+# Post-commit hook для PACK-cattle-science
+# Автоматически запускает проверку сущностей после коммита SoTA
+#
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ROOT_DIR="$(dirname "$SCRIPT_DIR")"
-
-# Цвета
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-BLUE='\033[0;34m'
-NC='\033[0m'
-
-echo ""
-echo -e "${BLUE}=== Git Hook: Post-Commit SoTA Processing ===${NC}"
-
-# Получаем список добавленных SoTA-файлов в последнем коммите
-NEW_SOTA_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD | grep "pack/cattle-science/06-sota/.*CS\.SOTA.*\.md$" || true)
-
-if [ -z "$NEW_SOTA_FILES" ]; then
-    echo "Новых SoTA не обнаружено"
-    exit 0
-fi
-
-echo ""
-echo -e "${BLUE}Обнаружены новые SoTA:${NC}"
-echo "$NEW_SOTA_FILES"
-echo ""
-
-# Phase 1: Валидация по шаблону
-echo -e "${BLUE}=== Phase 1: Валидация по шаблону ===${NC}"
-
-VALIDATION_FAILED=0
-for file in $NEW_SOTA_FILES; do
-    if [ -f "$file" ]; then
-        echo ""
-        echo -e "${BLUE}Валидация: $file${NC}"
-        if ! bash "$ROOT_DIR/scripts/validate-sota-template.sh" "$file"; then
-            echo -e "${RED}❌ Валидация не пройдена: $file${NC}"
-            VALIDATION_FAILED=1
-        else
-            echo -e "${GREEN}✅ Валидация пройдена${NC}"
-        fi
-    fi
-done
-
-if [ $VALIDATION_FAILED -eq 1 ]; then
+# Проверяем, был ли коммит в 06-sota
+if git diff-tree --no-commit-id --name-only -r HEAD | grep -q "06-sota"; then
     echo ""
-    echo -e "${YELLOW}⚠️  Внимание: Некоторые SoTA не прошли валидацию${NC}"
-    echo "Индекс будет обновлён, но рекомендуется исправить ошибки"
+    echo "═══════════════════════════════════════════════════════════════"
+    echo "  📝 Обнаружен новый SoTA"
+    echo "═══════════════════════════════════════════════════════════════"
+    echo ""
+    echo "Запускаю проверку сущностей..."
+    echo ""
+    
+    # Запускаем проверку
+    ./scripts/post-sota-check.sh --last
+    
+    echo ""
+    echo "═══════════════════════════════════════════════════════════════"
+    echo "  💡 Следующие шаги:"
+    echo "═══════════════════════════════════════════════════════════════"
+    echo ""
+    echo "1. Проверьте рекомендации выше"
+    echo "2. Для обновления связей выполните:"
+    echo "   python3 scripts/update-entity-links.py <sota_id>"
+    echo ""
+    echo "3. Затем: git add -A && git commit --amend"
     echo ""
 fi
-
-# Phase 2: Обновление индекса
-echo -e "${BLUE}=== Phase 2: Обновление индекса CS.MAP.001 ===${NC}"
-
-for file in $NEW_SOTA_FILES; do
-    if [ -f "$file" ]; then
-        echo "Добавление в индекс: $file"
-        bash "$ROOT_DIR/scripts/add-sota-to-index.sh" "$file"
-    fi
-done
-
-# Phase 3: Проверка необходимости amend
-echo ""
-echo -e "${BLUE}=== Phase 3: Проверка изменений ===${NC}"
-
-if git diff --quiet HEAD -- pack/cattle-science/07-map/CS.MAP.001-sota-index.md 2>/dev/null; then
-    echo "Индекс не требует обновления (SoTA уже в индексе)"
-else
-    echo "Индекс обновлён. Добавление в коммит..."
-    git add pack/cattle-science/07-map/CS.MAP.001-sota-index.md
-    git commit --amend --no-edit --quiet
-    echo -e "${GREEN}✅ Индекс автоматически добавлен в коммит${NC}"
-fi
-
-# Phase 4: Рекомендации
-echo ""
-echo -e "${BLUE}=== Phase 4: Рекомендации ===${NC}"
-
-# Проверка entity integration
-for file in $NEW_SOTA_FILES; do
-    sota_id=$(basename "$file" | grep -oP 'CS\.SOTA\.\d+')
-    if [ -n "$sota_id" ]; then
-        echo ""
-        echo -e "${YELLOW}Для интеграции сущностей запустите:${NC}"
-        echo "  cd pack/cattle-science/02-domain-entities"
-        echo "  python scripts/wp75-entity-integration.py --sota $sota_id --dry-run"
-    fi
-done
-
-echo ""
-echo -e "${GREEN}=== Post-commit processing complete ===${NC}"
