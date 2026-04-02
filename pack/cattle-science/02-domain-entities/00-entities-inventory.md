@@ -307,8 +307,8 @@
 | **CS.ENTITY.185** | Unknown | Unknown | — | Unknown |
 | **CS.ENTITY.186** | Unknown | Unknown | — | Unknown |
 | **CS.ENTITY.187** | Unknown | Unknown | — | Unknown |
-| **CS.ENTITY.206** | Метод in situ | In Situ Technique | — | U.Method |
-| **CS.ENTITY.207** | Метод in vitro | In Vitro Technique | — | U.Method |
+| **CS.ENTITY.206** | Метод in situ | In Situ Technique | in situ | U.Method |
+| **CS.ENTITY.207** | Метод in vitro | In Vitro Technique | in vitro | U.Method |
 | **CS.ENTITY.210** | Шаблон приёма пищи | Meal Pattern | — | U.Episteme |
 | **CS.ENTITY.211** | Меласса | Molasses | — | U.System |
 | **CS.ENTITY.212** | Физически эффективная NDF | Physically Effective NDF | peNDF | U.Characteristic |
@@ -324,8 +324,18 @@
 | **CS.ENTITY.156** | Unknown | Unknown | LDH | Unknown |
 | **CS.ENTITY.205** | Эндотоксин | Endotoxin | LPS | U.Characteristic |
 | **CS.ENTITY.208** | Липополисахарид | Lipopolysaccharide | LPS | U.Characteristic |
-| **CS.ENTITY.209** | Печёночный абсцесс | Liver Abscess | — | U.Episteme |
+| **CS.ENTITY.209** | Печеночный абсцесс | Liver Abscess | — | U.Episteme |
 
+
+---
+
+## ⚠️ Проблемы
+
+### Ссылки на несуществующие SoTA
+
+| Entity | Несуществующий SoTA |
+|--------|---------------------|
+| CS.ENTITY.206 | CS.SOTA.199 |
 
 ---
 

@@ -13,7 +13,6 @@ related_sota:
   - CS.SOTA.128
   - CS.SOTA.130
   - CS.SOTA.131
-  - CS.SOTA.199
 related_entities:
   - CS.ENTITY.004
   - CS.ENTITY.188
@@ -202,7 +201,7 @@ In situ   In vitro
 | CS.SOTA.128 | Huhtanen 2009 | Стандартизация методики | Мета-анализ in situ |
 | CS.SOTA.130 | Reynal 2005 | Сравнение методов | In situ vs in vitro |
 | CS.SOTA.131 | Soliva 2015 | Применение для РДС | Белковая деградация |
-| CS.SOTA.199 | NDF Digestibility | Оценка клетчатки | Переваримость NDF |
+| CS.ENTITY.199 | NDF Digestibility | Оценка клетчатки | Переваримость NDF |
 
 ---
 
