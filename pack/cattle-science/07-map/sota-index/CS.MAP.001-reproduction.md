@@ -1,6 +1,6 @@
 # CS.MAP.001-reproduction: SoTA Index — Репродуктивный менеджмент
 
-> Шард индекса: reproduction (12 SoTA)
+> Шард индекса: reproduction (13 SoTA)
 > 
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 12 |
+| Всего SoTA | 13 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 6 |
 | P2 (Важные) | 5 |
@@ -37,6 +37,7 @@
 | [CS.SOTA.019](../../06-sota/reproduction/CS.SOTA.019-lauber-2025.md) | Lauber et al. | 2025 | P1 | Simulation | `#экономика` `#21-дневная-стельность` `#sexed-сперма` | Оптимальный IEP 80-200 дней, sexed+beef +$51/корова |
 | [CS.SOTA.023](../../06-sota/reproduction/CS.SOTA.023-carvalho-2019.md) | Carvalho et al. | 2019 | P2 | Research | `#прогестерон` `#двойняшность` `#TAI` | CIDR снижает двойню с 29% до 0% |
 | [CS.SOTA.025](../../06-sota/reproduction/CS.SOTA.025-hansson-vwp.md) | Hansson et al. | 2025 | P2 | Research | `#VWP` `#140-дней` `#сезонное-отел` | VWP 140 дней улучшает фертильность без потери молока |
+| [CS.SOTA.251](../../06-sota/reproduction/CS.SOTA.251-do-2013.md) | Do et al. | 2013 | P2 | Field-study | `#age-at-first-calving` `#calving-interval` `#lifetime-profit` | Оптимум AFC 22.5-23.5 мес; интервал влияет на прибыль (-0.265) |
 
 ---
 

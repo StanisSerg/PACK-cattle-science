@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (28 SoTA)
+> Шард индекса: feeding (29 SoTA)
 > 
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 28 |
+| Всего SoTA | 29 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 2 |
 | P2 (Важные) | 10 |
@@ -56,6 +56,7 @@
 | [CS.SOTA.180](../../06-sota/feeding/CS.SOTA.180-kononoff-2003.md) | Kononoff et al. | 2003 | Field-study | `#corn-silage` `#particle-size` `#psps` `#eating-behavior` `#chewing-activity` | Xgm 7.4-8.8 мм, pH стабилен, сортировка ↓ с уменьшением частиц |
 | [CS.SOTA.181](../../06-sota/feeding/CS.SOTA.181-lock-desouza-2014.md) | Lock & de Souza | 2014 | Review | `#fatty-acids` `#palmitic-acid` `#stearic-acid` `#meta-analysis` | PFAD лучше для жира, PRILLS — для эффективности, талло — не для жира |
 | [CS.SOTA.182](../../06-sota/feeding/CS.SOTA.182-loften-2014.md) | Loften et al. | 2014 | Review | `#palmitic-acid` `#stearic-acid` `#C16:0` `#C18:0` `#milk-fat-synthesis` | C16:0 → молочный жир, C18:0 → энергия + молоко, доминирование C18:0 в рубце |
+| [CS.SOTA.252](../../06-sota/feeding/CS.SOTA.252-van-amburgh-2019.md) | Van Amburgh et al. | 2019 | P1 | Review | `#heifer-nutrition` `#mammary-development` `#postweaning` `#body-composition` | NRC завышает на 30%; развитие молочной железы — функция времени, не питания |
 
 ---
 
