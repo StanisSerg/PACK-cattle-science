@@ -1,9 +1,9 @@
 # Инвентарь сущностей PACK-cattle-science
 
-> Полный каталог entities из всех SoTA (186 файлов)
+> Полный каталог entities из всех SoTA (213 файлов)
 >
 > **Дата создания:** 2026-04-02
-> **Всего сущностей:** 186
+> **Всего сущностей:** 213
 > **Статус:** Активный
 
 ---
@@ -12,27 +12,27 @@
 
 | Категория | Количество | Процент |
 |-----------|-----------|---------|
-| **Всего сущностей** | **186** | 100% |
-| **P0 (Fundamental)** | 57 | 30% |
-| **P1 (Important)** | 92 | 49% |
-| **P2 (Specific)** | 37 | 19% |
+| **Всего сущностей** | **213** | 100% |
+| **P0 (Fundamental)** | 60 | 28% |
+| **P1 (Important)** | 106 | 49% |
+| **P2 (Specific)** | 47 | 22% |
 
 ### По типам FPF
 
 | Тип | Количество | Описание |
 |-----|-----------|----------|
-| **U.Characteristic** | 92 | Измеримые характеристики |
+| **U.Characteristic** | 104 | Измеримые характеристики |
 | **Unknown** | 36 |  |
-| **U.Method** | 22 | Методы/процедуры |
-| **U.System** | 21 | Биологические системы |
-| **U.Episteme** | 15 | Понятия/состояния |
+| **U.Method** | 25 | Методы/процедуры |
+| **U.System** | 25 | Биологические системы |
+| **U.Episteme** | 23 | Понятия/состояния |
 
 ### По областям
 
 | Область | Упоминания |
 |---------|-----------|
-| feeding | 74 |
-| health | 54 |
+| feeding | 96 |
+| health | 59 |
 | reproduction | 40 |
 | economics | 16 |
 | management | 1 |
@@ -40,7 +40,7 @@
 
 ---
 
-## P0 — Fundamental Entities (57 шт)
+## P0 — Fundamental Entities (60 шт)
 
 Встречаются в 5+ SoTA. Критические для понимания дисциплины.
 
@@ -60,6 +60,9 @@
 | **CS.ENTITY.033** | Белок молока | Milk protein | MP | U.Characteristic |
 | **CS.ENTITY.052** | FTIR-спектроскопия | FTIR spectroscopy | FTIR | U.Method |
 | **CS.ENTITY.058** | Кишечник | Intestine | INT | U.System |
+| **CS.ENTITY.188** | Нейтрально-детергентная клетчатка | Neutral Detergent Fiber | NDF | U.Characteristic |
+| **CS.ENTITY.189** | Рубцовое брожение | Rumen Fermentation | — | U.System |
+| **CS.ENTITY.190** | pH рубца | Rumen pH | — | U.Characteristic |
 
 ### Health
 
@@ -124,7 +127,7 @@
 
 ---
 
-## P1 — Important Entities (92 шт)
+## P1 — Important Entities (106 шт)
 
 Расширенные понятия, важные для специализации.
 
@@ -181,6 +184,18 @@
 | **CS.ENTITY.133** | Кормовая эффективность | Feed efficiency | FE | U.Characteristic |
 | **CS.ENTITY.134** | Масса тела | Body weight | BW | U.Characteristic |
 | **CS.ENTITY.135** | Потребление воды | Water intake | WI | U.Characteristic |
+| **CS.ENTITY.191** | Система углеводов и белков Cornell | Cornell Net Carbohydrate and Protein System | CNCPS | U.Method |
+| **CS.ENTITY.192** | Кукурузный силос | Corn Silage | — | U.System |
+| **CS.ENTITY.193** | Сырой протеин | Crude Protein | CP | U.Characteristic |
+| **CS.ENTITY.194** | Распределение энергии | Energy Partitioning | — | U.Episteme |
+| **CS.ENTITY.195** | Кормовое поведение | Feeding Behavior | — | U.Episteme |
+| **CS.ENTITY.197** | Микробный протеин | Microbial Protein | MCP | U.Characteristic |
+| **CS.ENTITY.198** | Депрессия жира молока | Milk Fat Depression | MFD | U.Episteme |
+| **CS.ENTITY.199** | Переваримость NDF | NDF Digestibility | NDFD | U.Characteristic |
+| **CS.ENTITY.200** | Неклетчаточные углеводы | Non-Fiber Carbohydrate | NFC | U.Characteristic |
+| **CS.ENTITY.201** | Азотистый обмен | Nitrogen Metabolism | — | U.System |
+| **CS.ENTITY.202** | Размер частиц | Particle Size | — | U.Characteristic |
+| **CS.ENTITY.203** | Стеариновая кислота | Stearic Acid | C18:0 | U.Characteristic |
 
 ### Genetics
 
@@ -219,6 +234,8 @@
 | **CS.ENTITY.137** | Хромота | Lameness | — | U.Characteristic |
 | **CS.ENTITY.138** | Мастит | Mastitis | — | U.Characteristic |
 | **CS.ENTITY.139** | Счёт соматических клеток | Somatic cell count | SCC | U.Characteristic |
+| **CS.ENTITY.196** | Ламинит | Laminitis | — | U.Episteme |
+| **CS.ENTITY.204** | Субострый руминальный ацидоз | Subacute Ruminal Acidosis | SARA | U.Episteme |
 
 ### Reproduction
 
@@ -248,7 +265,7 @@
 
 ---
 
-## P2 — Specific Entities (37 шт)
+## P2 — Specific Entities (47 шт)
 
 Детальные/молекулярные сущности.
 
@@ -290,6 +307,13 @@
 | **CS.ENTITY.185** | Unknown | Unknown | — | Unknown |
 | **CS.ENTITY.186** | Unknown | Unknown | — | Unknown |
 | **CS.ENTITY.187** | Unknown | Unknown | — | Unknown |
+| **CS.ENTITY.206** | Метод in situ | In Situ Technique | — | U.Method |
+| **CS.ENTITY.207** | Метод in vitro | In Vitro Technique | — | U.Method |
+| **CS.ENTITY.210** | Шаблон приёма пищи | Meal Pattern | — | U.Episteme |
+| **CS.ENTITY.211** | Меласса | Molasses | — | U.System |
+| **CS.ENTITY.212** | Физически эффективная NDF | Physically Effective NDF | peNDF | U.Characteristic |
+| **CS.ENTITY.213** | Сортировка корма | Sorting | — | U.Episteme |
+| **CS.ENTITY.214** | Транс-жирные кислоты | Trans Fatty Acids | TFA | U.Characteristic |
 
 ### Health
 
@@ -298,6 +322,9 @@
 | **CS.ENTITY.152** | Unknown | Unknown | Mito | Unknown |
 | **CS.ENTITY.153** | Unknown | Unknown | PXS | Unknown |
 | **CS.ENTITY.156** | Unknown | Unknown | LDH | Unknown |
+| **CS.ENTITY.205** | Эндотоксин | Endotoxin | LPS | U.Characteristic |
+| **CS.ENTITY.208** | Липополисахарид | Lipopolysaccharide | LPS | U.Characteristic |
+| **CS.ENTITY.209** | Печёночный абсцесс | Liver Abscess | — | U.Episteme |
 
 
 ---
