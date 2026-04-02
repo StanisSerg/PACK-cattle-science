@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (48 SoTA)
+> Шард индекса: health (57 SoTA)
 > 
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 56 |
+| Всего SoTA | 57 |
 | P0 (Фундаментальные) | 3 |
 | P1 (Критически важные) | 15 |
 | P2 (Важные) | 22 |
 | Review | 16 |
 | Meta-analysis | 3 |
-| Field-study | 17 |
+| Field-study | 18 |
 | Experimental | 4 |
 
 ---
@@ -27,6 +27,7 @@
 
 | ID | Статья | Год | Тип | Ключевой результат |
 |----|--------|-----|-----|-------------------|
+| [CS.SOTA.165](../../06-sota/health/CS.SOTA.165-rodriguez-2023.md) | Rodriguez et al. | 2023 | Field-study | Избыток витамина А увеличивает SCC, но не влияет на кетоз |
 | [CS.SOTA.027](../../06-sota/health/CS.SOTA.027-antanaitis-2020.md) | Antanaitis et al. | 2020 | Field-study | СК влияет на поведение при кормлении |
 | [CS.SOTA.032](../../06-sota/health/CS.SOTA.032-kowalski-2021.md) | Kowalski et al. | 2021 | Field-study | Характеристика кетолактии |
 | [CS.SOTA.037](../../06-sota/health/CS.SOTA.037-marutsova-2015.md) | Marutsova et al. | 2015 | Field-study | Сравнение клинического и субклинического кетоза |

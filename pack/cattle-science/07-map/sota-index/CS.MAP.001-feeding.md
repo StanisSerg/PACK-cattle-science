@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (13 SoTA)
+> Шард индекса: feeding (21 SoTA)
 > 
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 16 |
+| Всего SoTA | 21 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 2 |
 | P2 (Важные) | 10 |
-| Review | 4 |
+| Review | 7 |
 | Experimental | 8 |
-| Field-study | 1 |
+| Field-study | 2 |
 
 ---
 
@@ -39,6 +39,11 @@
 | [CS.SOTA.109](../../06-sota/feeding/CS.SOTA.109-broderick-2009.md) | Broderick & Reynal | 2009 | Experimental | `#rdp` `#protein-source` `#microbial-protein` | Источник RDP влияет на аминокислотный профиль рубца |
 | [CS.SOTA.151](../../06-sota/feeding/CS.SOTA.151-molano-bvitamin.md) | Molano et al. | 2019 | Experimental | `#b-vitamins` `#choline` `#rumen-protected` | Добавки не нужны при сбалансированном рационе |
 | [CS.SOTA.152](../../06-sota/feeding/CS.SOTA.152-ockenden-2025.md) | Ockenden et al. | 2025 | Field-study | `#early-life-nutrition` `#metabolic-programming` | Нет долгосрочного программирования метаболизма |
+| [CS.SOTA.160](../../06-sota/feeding/CS.SOTA.160-allen-2023.md) | Allen | 2023 | Review | `#hepatic-oxidation-theory` `#energy-intake` `#grouping` `#maintenance` | Интеграция контроля энергопотребления в формирование рационов |
+| [CS.SOTA.162](../../06-sota/feeding/CS.SOTA.162-lock-2025.md) | Lock et al. | 2025 | Review | `#fatty-acids` `#palmitic-acid` `#oleic-acid` `#digestion` `#energy-partitioning` | 16:0→молочный жир, 18:1→BCS, избегать 18:0 |
+| [CS.SOTA.164](../../06-sota/feeding/CS.SOTA.164-sears-2024.md) | Sears et al. | 2024 | Experimental | `#fatty-acids` `#palmitic-acid` `#stearic-acid` `#oleic-acid` `#NDF-digestibility` `#rumen-microbiome` `#Prevotella` `#Fibrobacter` | PA ↑NDFD 6 п.п., обогащает целлюлитиков |
+| [CS.SOTA.166](../../06-sota/feeding/CS.SOTA.166-cavani-2024.md) | Cavani et al. | 2024 | Field-study | `#dmi` `#consistency` `#heritability` `#resilience` `#feed-efficiency` `#rfi` | h²=0.11-0.14, консистентность ПСВ = индикатор резистентности |
+| [CS.SOTA.168](../../06-sota/feeding/CS.SOTA.168-goff-2018.md) | Goff | 2018 | Review | `#mineral-absorption` `#macrominerals` `#microminerals` `#DCAD` `#chelated-minerals` | Механизмы парацеллюлярной/трансцеллюлярной абсорбции минералов |
 
 ---
 
@@ -52,6 +57,10 @@
 | Как мочевина связана с плодовитостью? | CS.SOTA.013 | Порог 5.0 ммоль/л |
 | Как работает глюконеогенез? | CS.SOTA.057, 018 | Пропионат → глюкоза |
 | Как питание влияет на переходный период? | CS.SOTA.031 | Far-off/close-up рационы критичны |
+| Как интегрировать контроль энергопотребления? | CS.SOTA.160 | Три группы: фреш, ранняя, поддержание |
+| Как жирные кислоты влияют на переваривание клетчатки? | CS.SOTA.164 | PA ↑NDFD через обогащение Prevotella и Fibrobacter |
+| Как консистентность ПСВ связана с резистентностью? | CS.SOTA.166 | log-Var-DMI наследуется, коррелирует с RFI и плодовитостью |
+| Как абсорбируются минералы в ЖКТ? | CS.SOTA.168 | Парацеллюлярная vs трансцеллюлярная, специфика жвачных, DCAD |
 
 ---
 
