@@ -5,6 +5,8 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: amino-acid-metabolism
+name_ru: Глютаматдегидрогеназа
+name_en: Glutamate Dehydrogenase
 tags: [gdh, glutamate-dehydrogenase, ammonia-metabolism, urea-cycle, mitochondrial-enzyme, liver-marker]
 related:
   - id: CS.ENTITY.183

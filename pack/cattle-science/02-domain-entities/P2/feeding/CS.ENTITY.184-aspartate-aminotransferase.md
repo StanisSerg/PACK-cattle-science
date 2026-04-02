@@ -5,6 +5,8 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: amino-acid-metabolism
+name_ru: Аспартатаминотрансфераза
+name_en: Aspartate Aminotransferase
 tags: [ast, aspartate-aminotransferase, got, transaminase, liver-marker, muscle-marker, diagnostic]
 related:
   - id: CS.ENTITY.183

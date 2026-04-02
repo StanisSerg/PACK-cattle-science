@@ -5,6 +5,8 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: systems-biology
+name_ru: Метаболом
+name_en: Metabolome
 tags: [metabolome, metabolomics, systems-biology, omics, metabolic-profile, biomarkers]
 related:
   - id: CS.ENTITY.022

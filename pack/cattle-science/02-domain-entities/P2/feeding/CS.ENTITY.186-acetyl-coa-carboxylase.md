@@ -5,6 +5,8 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: lipid-metabolism
+name_ru: Ацетил-КоА карбоксилаза
+name_en: Acetyl-CoA Carboxylase
 tags: [acc, acetyl-coa-carboxylase, fatty-acid-synthesis, malonyl-coa, lipogenesis, biotin-enzyme]
 related:
   - id: CS.ENTITY.161
