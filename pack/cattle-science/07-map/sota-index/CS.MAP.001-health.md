@@ -27,6 +27,7 @@
 
 | ID | Статья | Год | Тип | Ключевой результат |
 |----|--------|-----|-----|-------------------|
+| [CS.SOTA.174](../../06-sota/health/CS.SOTA.174-dahl-2016.md) | Dahl & Collier | 2016 | Review | Тепловой стресс снижает иммунитет; охлаждение сухостойных критично |
 | [CS.SOTA.165](../../06-sota/health/CS.SOTA.165-rodriguez-2023.md) | Rodriguez et al. | 2023 | Field-study | Избыток витамина А увеличивает SCC, но не влияет на кетоз |
 | [CS.SOTA.027](../../06-sota/health/CS.SOTA.027-antanaitis-2020.md) | Antanaitis et al. | 2020 | Field-study | СК влияет на поведение при кормлении |
 | [CS.SOTA.032](../../06-sota/health/CS.SOTA.032-kowalski-2021.md) | Kowalski et al. | 2021 | Field-study | Характеристика кетолактии |

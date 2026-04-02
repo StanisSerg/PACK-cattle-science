@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (21 SoTA)
+> Шард индекса: feeding (28 SoTA)
 > 
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 21 |
+| Всего SoTA | 28 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 2 |
 | P2 (Важные) | 10 |
@@ -44,6 +44,18 @@
 | [CS.SOTA.164](../../06-sota/feeding/CS.SOTA.164-sears-2024.md) | Sears et al. | 2024 | Experimental | `#fatty-acids` `#palmitic-acid` `#stearic-acid` `#oleic-acid` `#NDF-digestibility` `#rumen-microbiome` `#Prevotella` `#Fibrobacter` | PA ↑NDFD 6 п.п., обогащает целлюлитиков |
 | [CS.SOTA.166](../../06-sota/feeding/CS.SOTA.166-cavani-2024.md) | Cavani et al. | 2024 | Field-study | `#dmi` `#consistency` `#heritability` `#resilience` `#feed-efficiency` `#rfi` | h²=0.11-0.14, консистентность ПСВ = индикатор резистентности |
 | [CS.SOTA.168](../../06-sota/feeding/CS.SOTA.168-goff-2018.md) | Goff | 2018 | Review | `#mineral-absorption` `#macrominerals` `#microminerals` `#DCAD` `#chelated-minerals` | Механизмы парацеллюлярной/трансцеллюлярной абсорбции минералов |
+| [CS.SOTA.169](../../06-sota/feeding/CS.SOTA.169-adeniji-2025.md) | Adeniji et al. | 2025 | Field-study | `#fatty-acid-transfer` `#milk-fat-yield` `#palmitic-acid` `#stearic-acid` | Эффективность передачи 18C ЖК >100% при низкожировой диете |
+| [CS.SOTA.170](../../06-sota/feeding/CS.SOTA.170-barbano-2016.md) | Barbano et al. | 2016 | Field-study | `#milk-fatty-acids` `#infrared-analysis` `#de-novo-synthesis` | De novo ЖК >0.85г/100г = 3.75% жира в молоке |
+| [CS.SOTA.171](../../06-sota/feeding/CS.SOTA.171-batajoo-1994.md) | Batajoo & Shaver | 1994 | Field-study | `#nonfiber-carbohydrate` `#nfc` `#intake` | NFC <30% снижает DMI, оптимум 36-42% |
+| [CS.SOTA.172](../../06-sota/feeding/CS.SOTA.172-weiss-2015.md) | Weiss & Faulkner | 2015 | Review | `#trace-minerals` `#copper` `#manganese` `#chromium` | Mn требует 1.8× NRC; Cr +4кг молока; осторожно с Cu |
+| [CS.SOTA.173](../../06-sota/feeding/CS.SOTA.173-cotanch-2015.md) | Cotanch et al. | 2015 | Review | `#undigested-ndf` `#undf` `#fiber-digestibility` | Оптимум uNDF 0.40-0.48% ЖВ; соотношение рубц/потребление = 1.6 |
+| [CS.SOTA.175](../../06-sota/feeding/CS.SOTA.175-dhiman-2000.md) | Dhiman et al. | 2000 | Field-study | `#corn-silage` `#mechanical-processing` `#kernel-processing` | Эффект обработки минимален при зрелости 1/4-3/4 ML |
+| [CS.SOTA.176](../../06-sota/feeding/CS.SOTA.176-doorenbos-2017.md) | Doorenbos et al. | 2017 | Field-study | `#mRDC` `#rapidly-degradable-carbohydrates` `#rumen-model` `#milk-production` | Оптимум mRDC 181 г/кг СВ, pH не изменяется |
+| [CS.SOTA.177](../../06-sota/feeding/CS.SOTA.177-duplessis-2022.md) | Duplessis et al. | 2022 | Field-study | `#biotin` `#folic-acid` `#vitamin-b12` `#transition-period` `#fatty-acids` | B9B12 +13.5% удоя, +24 кг потеря BW |
+| [CS.SOTA.178](../../06-sota/feeding/CS.SOTA.178-harvatine-mfd.md) | Harvatine | 2011 | Review | `#fatty-acids` `#milk-fat-depression` `#biohydrogenation` `#trans-fatty-acids` | Биогидрогенизационная теория MFD, trans-10,cis-12 CLA |
+| [CS.SOTA.180](../../06-sota/feeding/CS.SOTA.180-kononoff-2003.md) | Kononoff et al. | 2003 | Field-study | `#corn-silage` `#particle-size` `#psps` `#eating-behavior` `#chewing-activity` | Xgm 7.4-8.8 мм, pH стабилен, сортировка ↓ с уменьшением частиц |
+| [CS.SOTA.181](../../06-sota/feeding/CS.SOTA.181-lock-desouza-2014.md) | Lock & de Souza | 2014 | Review | `#fatty-acids` `#palmitic-acid` `#stearic-acid` `#meta-analysis` | PFAD лучше для жира, PRILLS — для эффективности, талло — не для жира |
+| [CS.SOTA.182](../../06-sota/feeding/CS.SOTA.182-loften-2014.md) | Loften et al. | 2014 | Review | `#palmitic-acid` `#stearic-acid` `#C16:0` `#C18:0` `#milk-fat-synthesis` | C16:0 → молочный жир, C18:0 → энергия + молоко, доминирование C18:0 в рубце |
 
 ---
 
@@ -61,6 +73,12 @@
 | Как жирные кислоты влияют на переваривание клетчатки? | CS.SOTA.164 | PA ↑NDFD через обогащение Prevotella и Fibrobacter |
 | Как консистентность ПСВ связана с резистентностью? | CS.SOTA.166 | log-Var-DMI наследуется, коррелирует с RFI и плодовитостью |
 | Как абсорбируются минералы в ЖКТ? | CS.SOTA.168 | Парацеллюлярная vs трансцеллюлярная, специфика жвачных, DCAD |
+| Как mRDC влияет на продуктивность? | CS.SOTA.176 | Оптимум 181 г/кг СВ, без риска для pH |
+| Как B-витамины влияют на переходный период? | CS.SOTA.177 | B9B12 +13.5% удоя, но +24 кг потеря BW |
+| Какие механизмы MFD? | CS.SOTA.178 | Биогидрогенизационная теория, trans-10,cis-12 CLA |
+| Как размер частиц силоса влияет на поведение? | CS.SOTA.180 | Xgm 7-8 мм оптимален, снижает сортировку |
+| Как выбрать жировую добавку? | CS.SOTA.181 | PFAD для жира, PRILLS для эффективности |
+| Как C16:0 и C18:0 метаболизируются? | CS.SOTA.182 | C16:0 → жир молока, C18:0 → энергия |
 
 ---
 
