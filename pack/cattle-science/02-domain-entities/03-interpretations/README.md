@@ -12,11 +12,11 @@
 |------|-----------|-----------|-----------|--------|
 | [02B1-metabolites.md](./02B1-interpretations-metabolites.md) | Метаболиты/биомаркеры | 44 | 44 (100%) | 🟢 Заполнено |
 | [02B2-diseases.md](./02B2-interpretations-diseases.md) | Заболевания/состояния | 21 | 21 (100%) | 🟢 Заполнено |
-| [02B3-systems.md](./02B3-interpretations-systems.md) | Биологические системы | 26 | 26 (100%) | 🟢 Заполнено |
+| [02B3-systems.md](./02B3-interpretations-systems.md) | Биологические системы | 27 | 27 (100%) | 🟢 Заполнено |
 | [02B4-hormones.md](./02B4-interpretations-hormones.md) | Гормоны/рецепторы | 11 | 11 (100%) | 🟢 Заполнено |
 | [02B5-methods.md](./02B5-interpretations-methods.md) | Методы/технологии | 23 | 23 (100%) | 🟢 Заполнено |
 | [02B6-metrics.md](./02B6-interpretations-metrics.md) | Метрики/показатели | 36 | 36 (100%) | 🟢 Заполнено |
-| [02B7-molecular.md](./02B7-interpretations-molecular.md) | Молекулярные сущности | 40 | 40 (100%) | 🟢 Заполнено |
+| [02B7-molecular.md](./02B7-interpretations-molecular.md) | Молекулярные сущности | 66 | 66 (100%) | 🟢 Заполнено |
 | [02B8-periods.md](./02B8-interpretations-periods.md) | Периоды/фазы | 4 | 4 (100%) | 🟢 Заполнено |
 | [02B9-cross-sota-matrix.md](./02B9-cross-sota-matrix.md) | **Cross-SoTA матрица** | — | — | 🟢 Создана |
 | [02B10-entity-graph.md](./02B10-entity-graph.md) | **Визуализация графа** | — | — | 🟢 Создана |
@@ -31,8 +31,8 @@
 
 | Метрика | Значение |
 |---------|----------|
-| **Всего сущностей** | 212 |
-| **С интерпретации** | 212 (100%) |
+| **Всего сущностей** | 239 |
+| **С интерпретациями** | 212 (100%) |
 | **Частично заполнено** | 0 |
 | **Ожидают** | 0 |
 

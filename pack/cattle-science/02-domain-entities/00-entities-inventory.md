@@ -303,10 +303,10 @@
 | **CS.ENTITY.181** | Unknown | Unknown | — | Unknown |
 | **CS.ENTITY.182** | Unknown | Unknown | — | Unknown |
 | **CS.ENTITY.183** | Аланинаминотрансфераза | Alanine Aminotransferase | ALT | U.Characteristic |
-| **CS.ENTITY.184** | Unknown | Unknown | — | Unknown |
-| **CS.ENTITY.185** | Unknown | Unknown | — | Unknown |
-| **CS.ENTITY.186** | Unknown | Unknown | — | Unknown |
-| **CS.ENTITY.187** | Unknown | Unknown | — | Unknown |
+| **CS.ENTITY.184** | Аспартатаминотрансфераза | Aspartate Aminotransferase | — | Unknown |
+| **CS.ENTITY.185** | Глютаматдегидрогеназа | Glutamate Dehydrogenase | — | Unknown |
+| **CS.ENTITY.186** | Ацетил-КоА карбоксилаза | Acetyl-CoA Carboxylase | — | Unknown |
+| **CS.ENTITY.187** | Метаболом | Metabolome | — | Unknown |
 | **CS.ENTITY.206** | Метод in situ | In Situ Technique | in situ | U.Method |
 | **CS.ENTITY.207** | Метод in vitro | In Vitro Technique | in vitro | U.Method |
 | **CS.ENTITY.210** | Шаблон приёма пищи | Meal Pattern | — | U.Episteme |
