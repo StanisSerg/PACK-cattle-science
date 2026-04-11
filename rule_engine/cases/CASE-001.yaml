@@ -33,7 +33,7 @@ decision:
   - sck_confirmed
   - bhb_in_range
   - oral_pg_applicable
-  timestamp: auto-generated
+  timestamp: '2026-04-11T17:01:53.870379+00:00'
 prediction: &id001
   direction:
     bhb: down

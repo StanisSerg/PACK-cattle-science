@@ -14,6 +14,7 @@ Usage:
 from __future__ import annotations
 
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -96,7 +97,7 @@ def merge_decisions(case: dict[str, Any], decision_blocks: list[tuple[str, Any, 
         "primary_rule": primary_rule,
         "action": action,
         "reasoning": final_reasoning,
-        "timestamp": "auto-generated",  # TODO: добавить реальное время
+        "timestamp": datetime.now(timezone.utc).isoformat(),  # TODO: добавить реальное время
     }
     case["prediction"] = prediction
 
