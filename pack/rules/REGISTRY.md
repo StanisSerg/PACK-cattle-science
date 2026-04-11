@@ -15,12 +15,12 @@ description: "Портфель правил крупного рогатого с
 
 ## INVENTORY (Инвентарь правил)
 
-| ID | Название | Категория | Статус | Confidence | Последний Trigger | Trend |
-|----|----------|-----------|--------|------------|-------------------|-------|
-| [RULE-001](RULE-001-ketosis-threshold.md) | Ketosis-Threshold-Invalidation | metabolic | testing | medium | 2026-04-11 | stable |
-| RULE-002 | SCK-BHB-Threshold | metabolic | conceptual | low | — | — |
-| RULE-003 | Propylene-Glycol-Protocol | metabolic | conceptual | low | — | — |
-| RULE-004 | Dry-Period-Nutrition | metabolic | conceptual | low | — | — |
+| ID | Название | Категория | Статус | Confidence | Последний Trigger | Trend | Version |
+|----|----------|-----------|--------|------------|-------------------|-------|---------|
+| [RULE-001](RULE-001-ketosis-threshold.md) | Ketosis-Threshold-Invalidation | metabolic | testing | medium | 2026-04-11 | stable | v4.0 |
+| [RULE-002](RULE-002-sck-bhb-threshold.md) | SCK-BHB-Threshold | metabolic | conceptual | low | — | stable | v4.0 |
+| [RULE-003](RULE-003-propylene-glycol-protocol.md) | Propylene-Glycol-Protocol | metabolic | conceptual | low | — | stable | v4.0 |
+| [RULE-004](RULE-004-dry-period-nutrition.md) | Dry-Period-Nutrition | metabolic | conceptual | low | — | stable | v4.0 |
 
 ---
 

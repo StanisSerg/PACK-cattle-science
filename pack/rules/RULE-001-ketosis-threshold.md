@@ -10,9 +10,9 @@ tags: [ketosis, bhb, threshold, metabolic-deficit, liver-function, dmi, bcs]
 
 # RULE STATE — наблюдаемый объект во времени
 rule_version: "4.0"
-rule_maturity: pilot-ready  # conceptual → pilot-ready → production → deprecated
-status: testing  # testing / stable / degraded / deprecated
-trend: stable   # improving / stable / degrading (по последним 5 кейсам)
+rule_maturity: pilot-active  # conceptual / pilot-ready / pilot-active / production / deprecated
+status: testing  # conceptual / testing / stable / degraded / deprecated
+trend: stable   # improving / stable / degrading
 
 # Временные метки
 last_trigger: 2026-04-11
@@ -22,6 +22,7 @@ next_review: 2026-07-11
 
 # Управляемый актив (managed asset)
 metrics_enabled: false  # Включить при: ≥10 triggers И ≥5 confirmed outcomes
+confidence: medium  # low / medium / high
 
 # Критерии confidence (не руками!)
 confidence_upgrade:
