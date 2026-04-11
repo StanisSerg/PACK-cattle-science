@@ -8,14 +8,20 @@ author: StanisSerg
 category: metabolic
 tags: [ketosis, bhb, threshold, metabolic-deficit, liver-function, dmi, bcs]
 status: active
-confidence: medium  # Основано на 1 кейсе
+confidence: medium  # 1 confirmed case
 rule_version: "3.0"
+confidence_criteria:
+  high: ">=3 independent confirmed cases, no critical conflicts"
+  medium: "1-2 confirmed cases"
+  low: "theoretical or single unconfirmed case"
 ---
 
 # RULE-001: Ketosis-Threshold-Invalidation
 
 > **Тип:** executable decision operator  
-> **Уровень:** Production-ready (10/10)  
+> **Уровень:** executable operator  
+> **Готовность:** pilot-ready  
+> **Production criteria:** 3+ farms, multi-context validation, stable false-positive control  
 > **Источник:** [DL-001](../../DS-cattle-operations/decisions/DL-001-bhb-threshold.md)  
 > **Валидация:** [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)
 
@@ -533,14 +539,15 @@ delta_percentage:
 roi: +164%
 ```
 
-### Required for HIGH Confidence
+### Confidence Escalation Criteria
 
-- [ ] 3+ confirmed cases on different farms
-- [ ] Different breeds (Jersey, Simmental)
-- [ ] Robotic milking systems
-- [ ] Different seasons
-- [ ] BHB 1.0-1.2 range
-- [ ] BHB >2.5 range
+Rule confidence becomes HIGH automatically when:
+- [ ] ≥3 independent confirmed cases (different farms)
+- [ ] No critical conflicts detected
+- [ ] Prediction convergence within acceptable delta
+- [ ] Documented in REGISTRY.md
+
+NOT raised by hand.
 
 ---
 
@@ -595,16 +602,58 @@ roi: +164%
 |--------|------|-----------|-------|
 | 1.0 | 2026-03-25 | Создано на основе DL-001 | StanisSerg |
 | 2.0 | 2026-04-11 | Усилено до исполняемого оператора | StanisSerg |
-| 3.0 | 2026-04-11 | Production-ready:<br>• Разделение hard/soft conditions<br>• Блокирующая ветка clinical_signs<br>• Reasoning array<br>• Economic verdict<br>• Псевдокод production-ready | StanisSerg |
+| 3.0 | 2026-04-11 | Pilot-ready:<br>• Разделение hard/soft conditions<br>• Блокирующая ветка clinical_signs<br>• Reasoning array<br>• Economic verdict<br>• Псевдокод production-ready<br>• Убраны гиперболы, добавлена трезвость | StanisSerg |
+
+---
+
+## ROBUSTNESS ANALYSIS (Критически важно)
+
+### Known Limitations (Известные ограничения)
+
+| Тип | Описание | Вероятность | Влияние | Митигация |
+|-----|----------|-------------|---------|-----------|
+| False Positive | Правило сработало, но стандартная терапия сработала бы | Unknown | Потеря времени на системную коррекцию | Требуется валидация |
+| False Negative | Правило не сработало (BHB 1.1), но дефицит прогрессировал | Unknown | Упущенное лечение | Дополнительное исследование порога |
+| Edge Case | BHB 1.0-1.2 (ниже порога) | Medium | Недолечивание | Дополнительное исследование |
+| Edge Case | BHB >2.5 (тяжёлый SCK) | Medium | Недостаточная агрессия терапии | Дополнительное исследование |
+| Seasonality | Разное поведение летом/зимой | Unknown | Непредсказуемость | Сбор данных по сезонам |
+| Breed | Jersey более чувствительны | Unknown | Пере/недолечивание | Отдельное исследование |
+
+### Acceptable Error Bounds (Допустимые границы ошибок)
+
+**Пока НЕ определены.**
+
+Для production нужно зафиксировать:
+- False Positive Rate: < X% (сколько ложных тревог допустимо)
+- False Negative Rate: < Y% (сколько пропущенных случаев допустимо)
+- Precision: > Z% (точность срабатываний)
+- Recall: > W% (полнота охвата)
+
+### Error Analysis Process (Процесс анализа ошибок)
+
+```
+При каждом кейсе:
+  1. Зафиксировать prediction (правило что сказало)
+  2. Зафиксировать outcome (что получилось)
+  3. Сравнить:
+     - Если prediction ≠ outcome → ERROR
+     - Классифицировать: FP или FN
+     - Проанализировать: почему?
+  4. Обновить statistics
+  5. При накоплении 5+ ошибок → review правила
+```
 
 ---
 
 ## NEXT STEPS
 
-### Для валидации:
+### Phase 1: Validation (Приоритет: КРИТИЧЕСКИЙ)
 1. Применить на 3+ фермах
 2. Создать CASE-002, CASE-003, CASE-004
-3. Повысить rule confidence до HIGH
+3. **Document all outcomes (success AND failure)**
+4. **Calculate FP/FN rates**
+5. **Define acceptable error bounds**
+6. Rule confidence becomes HIGH automatically (не руками!) при ≥3 подтверждённых кейсах
 
 ### Для автоматизации:
 1. Реализовать evaluate_rule_001() на Python
@@ -612,13 +661,31 @@ roi: +164%
 3. Создать dashboard для ветеринаров
 4. Настроить алерты (SMS/app)
 
-### Для ML:
-1. Собрать 50+ кейсов
-2. Обучить classifier на hard/soft conditions
-3. Предсказание риска до появления BHB >1.2
+### Phase 2: Robustness (Приоритет: HIGH)
+1. **Analyze error patterns** (5+ ошибок минимум)
+2. Adjust hard/soft conditions based on data
+3. Test edge cases (BHB 1.0-1.2, BHB >2.5)
+4. **Validate seasonality effects**
+5. **Validate breed differences** (Jersey vs Holstein)
+
+### Phase 3: Automation (Приоритет: MEDIUM)
+1. Реализовать evaluate_rule_001() на Python
+2. Интегрировать с системой мониторинга (BHB авто)
+3. Создать dashboard для ветеринаров
+4. Настроить алерты (SMS/app)
+
+### Phase 4: ML (Приоритет: LOW — только после Phase 2)
+1. Собрать 50+ кейсов с outcomes
+2. **Analyze errors before ML** (критически!)
+3. Feature engineering на основе ошибок
+4. Train classifier
+5. Validate vs rule-based approach
+
+**Критический принцип:** ML только после robustness. Иначе модель на слабой онтологии.
 
 ---
 
-*Формат: CASE → DL → RULE (production-ready)*  
-*Уровень: 10/10 (исполняемый оператор)*  
-*Готовность: Production*
+*Формат: CASE → DL → RULE (executable)*  
+*Уровень: executable operator*  
+*Готовность: pilot-ready*  
+*Production criteria: 3+ farms, multi-context validation, stable false-positive control*
