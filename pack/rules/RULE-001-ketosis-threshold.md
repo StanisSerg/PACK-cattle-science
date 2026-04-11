@@ -9,7 +9,7 @@ category: metabolic
 tags: [ketosis, bhb, threshold, metabolic-deficit, liver-function, dmi, bcs]
 
 # RULE STATE — наблюдаемый объект во времени
-rule_version: "3.3"
+rule_version: "4.0"
 rule_maturity: pilot-ready  # conceptual → pilot-ready → production → deprecated
 status: testing  # testing / stable / degraded / deprecated
 trend: stable   # improving / stable / degrading (по последним 5 кейсам)
@@ -847,6 +847,7 @@ targeted:
 | 3.2 | 2026-04-11 | Evolution-ready:<br>• Review types: scheduled/emergency/targeted<br>• acceptable_noise класс (не чинить биологическую вариативность)<br>• Economic Precision метрика (ROI-based)<br>• Metrics activation: ≥10 triggers И ≥5 outcomes<br>• Temporal issue как future ML input<br>• Root cause priorities (P1/P2/P3) | StanisSerg |
 | 3.3 | 2026-04-11 | Observable asset:<br>• RULE STATE: status/testing/stable/degraded/deprecated<br>• Temporal tracking: last_trigger/error/review<br>• Trend: improving/stable/degrading<br>• Action by Priority: P1/P2/P3 с timeline и owner<br>• Acceptable noise criteria (защита от перетюнинга)<br>• no_p1_unresolved для confidence upgrade | StanisSerg |
 | 3.4 | 2026-04-11 | Execution mode shift:<br>• Phase 1 + Light Automation (сразу)<br>• Structured data capture (notes_raw не для расчётов)<br>• Phase 3.5: Rule Saturation (критический переход)<br>• Precision/Recall trade-off настройка<br>• ML только после saturation | StanisSerg |
+| 4.0 | 2026-04-11 | Execution Framework:<br>• Чистовая структура фаз (1, 2, 3, 3.5, 4)<br>• System Loop: CASE→PREDICTION→DECISION→FACT→ERROR→RULE→UPDATE<br>• Data Policy: structured_only<br>• Review Triggers отдельным блоком<br>• Maturity summary | StanisSerg |
 
 ---
 
@@ -908,109 +909,203 @@ targeted:
 
 ---
 
-## NEXT STEPS
+## Execution Framework: CASE → DL → RULE
 
-### Phase 1: Validation + Light Automation (Приоритет: КРИТИЧЕСКИЙ)
+---
 
-**Принцип:** Сразу фиксируем правильно → потом масштабируем
+### Phase 1: Validation + Light Automation (CRITICAL)
 
-**Light Automation (обязательно сразу):**
+**Принцип:** сразу фиксируем правильно → потом масштабируем
+
+#### Light Automation (обязательно с первого дня)
+
 ```yaml
 structured_capture:
-  - CASE-INPUT: фиксированный шаблон (не свободный текст)
-  - derived_params: dmi_ratio, bcs_loss (авто-расчёт)
-  - PREDICTION: фиксируется В МОМЕНТ решения
-  - DECISION: что было решено
-  - BASIS: на основе каких данных
+  CASE-INPUT:
+    - farm_id
+    - date
+    - bhb
+    - dmi_actual
+    - dmi_norm
+    - bcs_at_calving
+    - bcs_current
+    - dim
+    - clinical_signs
 
-data_policy:
-  structured_only: true
-  notes_raw: "context only, НЕ используется для расчётов"
-  goal: "не автоматизация, а структурированная фиксация реальности"
+  derived_params:
+    - dmi_ratio = dmi_actual / dmi_norm
+    - bcs_loss = bcs_at_calving - bcs_current
+
+  prediction:
+    direction:
+    range:
+    timeframe:
+    confidence:
+
+  decision:
+    verdict:
+    action:
+
+  basis:
+    rule:
+    conditions:
 ```
 
-**Validation Steps:**
+#### Data Policy
+
+```yaml
+structured_only: true
+notes_raw: "context only (НЕ используется для расчётов)"
+goal: "фиксация реальности, не автоматизация"
+```
+
+#### Validation Steps
+
 1. Применить на 3+ фермах
 2. Создать CASE-002, CASE-003, CASE-004 (success AND failure)
-3. **Document all outcomes в DS-cattle-operations** (только structured)
-4. **Calculate FP/FN rates**
-5. **Define acceptable error bounds**:
-   ```
-   Precision/Recall — trade-off:
-   - Если важнее не пропустить → ↑ recall (допустим больше FP)
-   - Если важнее точность → ↑ precision (допустим больше FN)
-   
-   Для RULE-001 (ketosis):
-   - Приоритет: recall > precision (не пропустить метаболический дефицит)
-   - Target: Precision >80%, Recall >85%
-   ```
-6. Confidence upgrade сработает автоматически при достижении критериев
-
-### Phase 2: Robustness (Приоритет: HIGH)
-1. **Analyze error patterns** (5+ ошибок минимум) + root cause analysis
-2. Test edge cases (BHB 1.0-1.2, BHB >2.5)
-3. Validate seasonality effects
-4. Validate breed differences (Jersey vs Holstein)
-5. **Enable rule metrics** (после 10+ triggers)
-
-### Phase 3: Full Automation (Приоритет: MEDIUM — только после Phase 1+2)
-
-**НЕ раньше — требуется стабильная онтология**
+3. Document outcomes (только structured)
+4. Calculate FP / FN
+5. Define error bounds:
 
 ```yaml
-components:
-  - evaluate_rule_001() на Python
-  - интеграция с системой мониторинга (BHB авто)
-  - dashboard с metrics
-  - алерты (SMS/app)
-  
-readiness_criteria:
-  - Phase 1: validation complete
-  - Phase 2: robustness proven
-  - errors_analyzed: true
-  - ontology_stable: true
+precision_recall_tradeoff:
+  principle:
+    - recall ↑ → больше FP
+    - precision ↑ → больше FN
+
+  rule_001_priority:
+    focus: recall > precision
+    target:
+      precision: ">80%"
+      recall: ">85%"
 ```
 
-### Phase 3.5: Rule Saturation (Приоритет: КРИТИЧЕСКИЙ — перед ML)
+6. Confidence обновляется автоматически при достижении критериев
 
-**Критический переход. ML недопустим без saturation.**
+---
+
+### Phase 2: Robustness (HIGH)
 
 ```yaml
-saturation_criteria:
-  rules_stable: ">=3–5 стабильных RULE"
-  zones_defined: "определены зоны применения"
-  conflicts_mapped: "зафиксированы конфликты между правилами"
-  decision_layer_clear: "понятна структура decision layer"
-  
-indicators:
-  - REGISTRY.md заполнен
-  - Cross-rule relationships определены
-  - Conflict resolution tested
-  - Portfolio health metrics > threshold
+actions:
+  - analyze_error_patterns (≥5 ошибок)
+  - root_cause_analysis
+  - test_edge_cases:
+      - BHB 1.0–1.2
+      - BHB >2.5
+  - validate_seasonality
+  - validate_breed_effects
+
+metrics_activation:
+  conditions:
+    - ≥10 triggers
+    - ≥5 outcomes
 ```
 
-**Только после этого допустим ML.**
+#### Review Triggers
 
-### Phase 4: ML (Приоритет: LOW — только после Phase 3.5)
-1. Собрать 50+ кейсов с outcomes (structured)
-2. **Analyze errors before ML** (критически!)
-3. Feature engineering на основе ошибок
-4. Train classifier
-5. Validate vs rule-based approach
-
-**Критический принцип:**
-```
-ML только после Rule Saturation.
-Иначе модель учится на нестабильной онтологии.
-
-Правильный путь:
-  Rule Saturation → понятна структура → ML дополняет, не заменяет
+```yaml
+review_triggers:
+  - total_errors >= 5
+  - same_root_cause >= 2
+  - P1_error >= 1
 ```
 
 ---
 
-*Формат: CASE → DL → RULE (executable, managed)*  
-*Maturity: pilot-ready (v3.4)*  
-*Execution: structured capture from day 1*  
-*Metrics: to be enabled at 10+ triggers*  
-*Confidence upgrade: automatic by criteria*
+### Phase 3: Full Automation (MEDIUM)
+
+Только после Phase 1 + Phase 2
+
+```yaml
+components:
+  - evaluate_rule_001()
+  - monitoring_integration (BHB auto)
+  - dashboard (metrics)
+  - alerts (SMS/app)
+
+readiness_criteria:
+  - validation_complete: true
+  - robustness_proven: true
+  - errors_analyzed: true
+  - ontology_stable: true
+  - prediction_fact_traceable: true
+```
+
+---
+
+### Phase 3.5: Rule Saturation (CRITICAL)
+
+Обязательный этап перед ML
+
+```yaml
+saturation_criteria:
+  rules_stable: ">=3–5"
+  zones_defined: true
+  conflicts_mapped: true
+  decision_layer_clear: true
+
+portfolio_health:
+  - conflicts_resolved_rate
+  - active_rules_stability
+  - scenario_coverage
+
+indicators:
+  - REGISTRY.md populated
+  - cross_rule_links defined
+  - conflict_resolution tested
+```
+
+---
+
+### Phase 4: ML (LOW)
+
+```yaml
+requirements:
+  - ≥50 structured cases
+  - error_patterns understood
+  - ontology stable
+
+steps:
+  - feature_engineering (from errors)
+  - train_model
+  - validate vs rule_engine
+```
+
+---
+
+### Critical Principle
+
+```
+Rule Saturation → понятная структура → ML усиливает
+НЕ:
+ML → попытка заменить неустойчивую систему
+```
+
+---
+
+### System Loop
+
+```
+CASE → PREDICTION → DECISION → FACT → ERROR → RULE → SYSTEM UPDATE
+```
+
+---
+
+---
+
+### Maturity
+
+```yaml
+stage: pilot-ready
+mode: structured validation active
+execution: deterministic capture from day 1
+metrics: enabled at ≥10 triggers
+confidence: auto by criteria
+```
+
+---
+
+*Framework: Execution Framework v4.0*  
+*Format: CASE → DL → RULE (executable, managed)*  
+*System Loop: CASE → PREDICTION → DECISION → FACT → ERROR → RULE → UPDATE*
