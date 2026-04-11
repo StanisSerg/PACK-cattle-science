@@ -21,6 +21,7 @@ description: "Портфель правил крупного рогатого с
 | [RULE-002](RULE-002-sck-bhb-threshold.md) | SCK-BHB-Threshold | metabolic | conceptual | low | — | stable | v4.0 |
 | [RULE-003](RULE-003-propylene-glycol-protocol.md) | Propylene-Glycol-Protocol | metabolic | conceptual | low | — | stable | v4.0 |
 | [RULE-004](RULE-004-dry-period-nutrition.md) | Dry-Period-Nutrition | metabolic | conceptual | low | — | stable | v4.0 |
+| [RULE-005](RULE-005-hypocalcemia-milk-fever.md) | Hypocalcemia-Milk-Fever | metabolic | conceptual | low | — | stable | v1.0 |
 
 ---
 
