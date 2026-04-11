@@ -120,12 +120,46 @@ INITIAL ──► clinical_signs? ──► BLOCKED
         ACTION: Screen for SCK + check inflammation
 ```
 
-**Verdict Types:**
-- `RULE_002_BLOCKED`: Клинические признаки — клинический протокол
-- `RULE_002_NOT_TRIGGERED`: Недостаточно данных для SCK
-- `RULE_002_TRIGGERED_HIGH`: SCK подтверждён (2 soft)
-- `RULE_002_TRIGGERED_MEDIUM`: SCK вероятен (1 soft)
-- `RULE_002_TRIGGERED_LOW`: SCK возможен (0 soft, только hard)
+**Verdict Types (Rule-002 specific language):**
+
+```yaml
+RULE_002_BLOCKED:
+  trigger: "clinical_signs present"
+  meaning: "Not SCK — clinical ketosis"
+  action: "REFER_TO_CLINICAL_KETOSIS_PROTOCOL"
+  confidence: N/A
+
+RULE_002_NOT_TRIGGERED:
+  trigger: "hard conditions not met"
+  meaning: "No SCK detected"
+  action: "CONTINUE_MONITORING"
+  confidence: LOW
+
+RULE_002_GRAY_ZONE:
+  trigger: "BHB 1.0-1.2 mmol/L"
+  meaning: "Uncertain — insufficient confidence"
+  action: "REPEAT_BHB_IN_3_5_DAYS"
+  confidence: LOW
+  note: "Explicit state for uncertainty, not forced binary"
+
+RULE_002_TRIGGERED_LOW:
+  trigger: "hard met, soft = 0"
+  meaning: "SCK possible (BHB≥1.2)"
+  action: "SCREEN_FOR_SCK"
+  confidence: LOW
+
+RULE_002_TRIGGERED_MEDIUM:
+  trigger: "hard met, soft = 1"
+  meaning: "SCK likely"
+  action: "START_SCK_PROTOCOL"
+  confidence: MEDIUM
+
+RULE_002_TRIGGERED_HIGH:
+  trigger: "hard met, soft ≥ 2"
+  meaning: "SCK confirmed"
+  action: "START_SCK_PROTOCOL + CHECK_INFLAMMATION"
+  confidence: HIGH
+```
 
 ---
 
@@ -558,8 +592,8 @@ precision_recall_tradeoff:
     - precision ↑ → больше FN (missed cases)
     
   rule_002_priority:
-    focus: "balanced"
-    reasoning: "Screening should catch most SCK without excessive false alarms"
+    focus: "slightly recall-biased"
+    reasoning: "Screening should catch most SCK; some over-treatment acceptable"
     target:
       precision: ">80%"
       recall: ">85%"
@@ -646,9 +680,19 @@ requirements:
   - ontology stable
 
 potential_improvements:
-  - predict_bhb_trajectory: "Will BHB rise or fall without intervention?"
-  - optimize_pg_duration: "3 vs 5 days based on NEFA, BCS loss"
-  - predict_non_responders: "Who needs alternative therapy?"
+  screening_layer:  # RULE-002 improvements
+    - predict_bhb_trajectory: "Will BHB rise or fall without intervention?"
+    - optimize_screening_timing: "Best DIM for one-time BHB check"
+    - predict_screening_yield: "Which farms/groups benefit most?"
+    
+  decision_layer:  # RULE-001 improvements  
+    - differentiate_adaptation_vs_deficit: "High BHB normal vs pathological"
+    - predict_systemic_correction_response: "Who needs what intensity?"
+    
+  treatment_layer:  # RULE-003 improvements
+    - optimize_pg_duration: "3 vs 5 days based on NEFA, BCS loss"
+    - predict_non_responders: "Who needs alternative therapy?"
+    - personalize_pg_dose: "By weight, BHB level, DIM"
 
 steps:
   - feature_engineering (from errors)
@@ -703,13 +747,23 @@ Flow:
   3. RULE-003 executes PG protocol
 ```
 
-### Conflicts
+### Escalation / Override Logic
 
-| Conflict | Resolution |
-|----------|------------|
-| RULE-002 says SCK, RULE-001 says metabolic deficit | Use RULE-001 (higher specificity) |
-| BHB≥1.2 but clinical signs present | RULE_002_BLOCKED, use clinical protocol |
-| BHB 1.0-1.2 (gray zone) | RULE_002_NOT_TRIGGERED, monitor |
+| Situation | Primary Rule | Logic |
+|-----------|--------------|-------|
+| RULE-002 detects SCK (BHB≥1.2) | RULE-002 | Initial screening — entrance to decision chain |
+| RULE-001 identifies metabolic deficit | RULE-001 | Higher resolution override — RULE-002 is coarse filter |
+| BHB≥1.2 + clinical signs | Clinical Protocol | RULE_002_BLOCKED — escalation to emergency |
+| BHB 1.0-1.2 | RULE_002_GRAY_ZONE | Explicit uncertainty — no forced decision |
+
+**Principle:**
+```
+RULE-002 (coarse screening) ──► RULE-001 (fine discrimination)
+       BHB≥1.2                        Systemic correction needed?
+       "Something wrong"               "What exactly to do"
+```
+
+This is not conflict — it's **hierarchical refinement**.
 
 ---
 
