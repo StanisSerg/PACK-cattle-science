@@ -467,6 +467,49 @@ metrics_to_track:
   - compliance: "% of prescribed doses actually given"
 ```
 
+### Success Criteria & Failure Response
+
+```yaml
+success_criteria:
+  primary:
+    - bhb_normalized: "< 1.2 mmol/L within 3-5 days"
+    - appetite_maintained: "DMI ≥ 80% of norm"
+    - no_progression: "No clinical ketosis developed"
+    
+  secondary:
+    - milk_yield: "Stable or increasing by day 7"
+    - attitude: "Alert, mobile, responsive"
+    
+  economic:
+    - cost_per_case: "< 3500₽"
+    - roi: "> 200%"
+
+failure_response:  # Что делать если PG не сработал
+  trigger: "BHB > 1.4 at day 5 OR clinical ketosis developed"
+  
+  immediate_actions:
+    - extend_protocol: "7 days total (if BHB improving but > 1.2)"
+    - reassess_diagnosis: "Check for underlying disease (metritis, mastitis)"
+    - verify_compliance: "Confirm all doses were given correctly"
+    
+  escalation_path:
+    - step_1: "Review by RULE-001 — is metabolic deficit severe?"
+    - step_2: "Add glycerol OR increase PG to 400 ml/day"
+    - step_3: "Consider IV glucose if oral intake poor"
+    - step_4: "Veterinary intervention if no response"
+    
+  root_cause_analysis:
+    - compliance_check: "Were all 10 doses given?"
+    - timing_check: "Was PG started early enough (DIM 3-14 optimal)?"
+    - underlying_disease: "Concurrent infection/inflammation?"
+    - severity_assessment: "Was it severe SCK (BHB > 2.5) from start?"
+    
+  documentation_required:
+    - classify_as: "FN (False Negative — protocol failed)"
+    - record_root_cause: "For rule improvement"
+    - update_statistics: "Response rate tracking"
+```
+
 ---
 
 ## RULE METRICS
@@ -689,9 +732,12 @@ integration:
 
 ```yaml
 potential_improvements:
-  - predict_non_responders: "Who needs 7 days or alternative?"
-  - optimize_timing: "Best time of day for PG?"
-  - dose_personalization: "By weight, BHB level, DIM"
+  treatment_layer:
+    - optimize_intervention_window:
+        "When to start PG relative to DIM, BHB trajectory, and feed intake for maximum effect"
+    - optimize_pg_duration: "3 vs 5 vs 7 days based on NEFA, BCS loss, initial BHB"
+    - predict_non_responders: "Who needs alternative therapy?"
+    - personalize_pg_dose: "By weight, BHB level, DIM"
 ```
 
 ---
@@ -742,6 +788,37 @@ Sequence:
   2. RULE-003: PG 300ml × 3-5 days
 ```
 
+### Applicability (Явные границы применения)
+
+```yaml
+applicability:
+  requires:  # Что должно быть TRUE
+    - "RULE_002_TRIGGERED (SCK confirmed)"
+    - "BHB 1.2-2.9 mmol/L"
+    - "Animal conscious and can swallow"
+    - "No severe hepatic lipidosis"
+    
+  appropriate_if:  # Когда применение оптимально
+    - "Early detection (DIM 3-14)"
+    - "BHB 1.2-2.0 (moderate SCK)"
+    - "Good compliance expected"
+    
+  blocked_if:  # Что делает применение невозможным
+    - "Clinical ketosis signs present"
+    - "BHB > 2.9 (severe SCK)"
+    - "Complete anorexia >48h"
+    - "Severe hepatic lipidosis (AST>500)"
+    - "Renal failure"
+    
+  escalates_to:  # Куда передаём, если не применимо
+    clinical_ketosis: "Clinical Ketosis Emergency Protocol"
+    severe_sck: "Combined Therapy (PG + IV glucose)"
+    anorexia: "Parenteral Glucose Protocol"
+    hepatic_lipidosis: "Specialized Veterinary Care"
+    
+  priority_rule: "RULE-001 overrides RULE-003 if metabolic deficit severe"
+```
+
 ### Escalation / Applicability Logic
 
 | Situation | Primary Rule | Logic |
@@ -751,6 +828,7 @@ Sequence:
 | Concurrent clinical ketosis | Clinical Protocol | RULE_003_BLOCKED — emergency intervention required |
 | Complete anorexia >48h | Parenteral Therapy | Cannot administer oral PG |
 | Severe hepatic lipidosis | Veterinary Care | Liver cannot metabolize PG |
+| BHB normal, but strong clinical suspicion | Clinical Protocol | RULE-003 does not override clinical judgment |
 
 **Principle:**
 ```
