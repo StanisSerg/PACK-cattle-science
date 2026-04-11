@@ -898,14 +898,15 @@ targeted:
 ```
 
 **Root Cause Categories:**
-| Category | Check | Example |
-|----------|-------|---------|
-| **data_quality** | Данные корректны? | Неправильный замер BHB |
-| **threshold_issue** | Порог адекватен? | BHB 1.1 — пропущен случай |
-| **ontology_issue** | Модель верна? | Не учли породу |
-| **missing_variable** | Все факторы учтены? | Не учли инфекцию |
-| **temporal_issue** | Время корректно? | Задержка в измерениях |
-| **unpredictable** | Это случайность? | Редкая комбинация факторов |
+| Category | Priority | Check | Example |
+|----------|----------|-------|---------|
+| **data_quality** | **P1** | Данные корректны? | Неправильный замер BHB |
+| **threshold_issue** | **P1** | Порог адекватен? | BHB 1.1 — пропущен случай |
+| **ontology_issue** | **P1** | Модель верна? | Не учли породу |
+| **missing_variable** | **P2** | Все факторы учтены? | Не учли инфекцию |
+| **temporal_issue** | **P2** | Время корректно? | Задержка в измерениях |
+| **acceptable_noise** | **P3** | Биологическая вариация? | Нормальные колебания |
+| **unpredictable** | **P3** | Это случайность? | Редкая комбинация факторов |
 
 ---
 
@@ -949,6 +950,11 @@ structured_capture:
   basis:
     rule:
     conditions:
+
+traceability:  # скрытый якорь для связности
+  prediction_id: "PRED-{timestamp}-{cow_id}"
+  case_id: "CASE-{n}"
+  links: "всё связывается без потерь"
 ```
 
 #### Data Policy
@@ -1097,11 +1103,12 @@ CASE → PREDICTION → DECISION → FACT → ERROR → RULE → SYSTEM UPDATE
 ### Maturity
 
 ```yaml
-stage: pilot-ready
-mode: structured validation active
+stage: pilot-active  # pilot-ready → pilot-active (фактическое состояние)
+mode: structured validation in production-like environment
 execution: deterministic capture from day 1
 metrics: enabled at ≥10 triggers
 confidence: auto by criteria
+status: применять, не переписывать
 ```
 
 ---
