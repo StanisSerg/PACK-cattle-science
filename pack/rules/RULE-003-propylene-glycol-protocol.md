@@ -742,13 +742,21 @@ Sequence:
   2. RULE-003: PG 300ml × 3-5 days
 ```
 
-### Conflicts
+### Escalation / Applicability Logic
 
-| Conflict | Resolution |
-|----------|------------|
-| RULE-001 says "systemic correction first" | RULE-001 has priority |
-| BHB >2.9 (severe) | RULE_003_NOT_APPLICABLE, escalate |
-| Concurrent clinical ketosis | RULE_003_BLOCKED |
+| Situation | Primary Rule | Logic |
+|-----------|--------------|-------|
+| RULE-001 says "systemic correction first" | RULE-001 | Priority — address root cause before symptom treatment |
+| BHB >2.9 (severe SCK) | Clinical Protocol | RULE_003 insufficient alone — escalate |
+| Concurrent clinical ketosis | Clinical Protocol | RULE_003_BLOCKED — emergency intervention required |
+| Complete anorexia >48h | Parenteral Therapy | Cannot administer oral PG |
+| Severe hepatic lipidosis | Veterinary Care | Liver cannot metabolize PG |
+
+**Principle:**
+```
+RULE-003 is adjunctive treatment, not primary intervention.
+It works within metabolic stability, not instead of it.
+```
 
 ---
 
