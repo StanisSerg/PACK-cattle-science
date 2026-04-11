@@ -846,6 +846,7 @@ targeted:
 | 3.1 | 2026-04-11 | Managed asset:<br>• State machine для verdict states<br>• Rule metrics (таблица)<br>• Root cause categories<br>• Review schedule (3 типа: scheduled/emergency/targeted)<br>• Confidence upgrade criteria<br>• Убрано дублирование Automation | StanisSerg |
 | 3.2 | 2026-04-11 | Evolution-ready:<br>• Review types: scheduled/emergency/targeted<br>• acceptable_noise класс (не чинить биологическую вариативность)<br>• Economic Precision метрика (ROI-based)<br>• Metrics activation: ≥10 triggers И ≥5 outcomes<br>• Temporal issue как future ML input<br>• Root cause priorities (P1/P2/P3) | StanisSerg |
 | 3.3 | 2026-04-11 | Observable asset:<br>• RULE STATE: status/testing/stable/degraded/deprecated<br>• Temporal tracking: last_trigger/error/review<br>• Trend: improving/stable/degrading<br>• Action by Priority: P1/P2/P3 с timeline и owner<br>• Acceptable noise criteria (защита от перетюнинга)<br>• no_p1_unresolved для confidence upgrade | StanisSerg |
+| 3.4 | 2026-04-11 | Execution mode shift:<br>• Phase 1 + Light Automation (сразу)<br>• Structured data capture (notes_raw не для расчётов)<br>• Phase 3.5: Rule Saturation (критический переход)<br>• Precision/Recall trade-off настройка<br>• ML только после saturation | StanisSerg |
 
 ---
 
@@ -909,12 +910,40 @@ targeted:
 
 ## NEXT STEPS
 
-### Phase 1: Validation (Приоритет: КРИТИЧЕСКИЙ)
+### Phase 1: Validation + Light Automation (Приоритет: КРИТИЧЕСКИЙ)
+
+**Принцип:** Сразу фиксируем правильно → потом масштабируем
+
+**Light Automation (обязательно сразу):**
+```yaml
+structured_capture:
+  - CASE-INPUT: фиксированный шаблон (не свободный текст)
+  - derived_params: dmi_ratio, bcs_loss (авто-расчёт)
+  - PREDICTION: фиксируется В МОМЕНТ решения
+  - DECISION: что было решено
+  - BASIS: на основе каких данных
+
+data_policy:
+  structured_only: true
+  notes_raw: "context only, НЕ используется для расчётов"
+  goal: "не автоматизация, а структурированная фиксация реальности"
+```
+
+**Validation Steps:**
 1. Применить на 3+ фермах
 2. Создать CASE-002, CASE-003, CASE-004 (success AND failure)
-3. **Document all outcomes в DS-cattle-operations**
+3. **Document all outcomes в DS-cattle-operations** (только structured)
 4. **Calculate FP/FN rates**
-5. **Define acceptable error bounds** (Precision >80%, Recall >85%)
+5. **Define acceptable error bounds**:
+   ```
+   Precision/Recall — trade-off:
+   - Если важнее не пропустить → ↑ recall (допустим больше FP)
+   - Если важнее точность → ↑ precision (допустим больше FN)
+   
+   Для RULE-001 (ketosis):
+   - Приоритет: recall > precision (не пропустить метаболический дефицит)
+   - Target: Precision >80%, Recall >85%
+   ```
 6. Confidence upgrade сработает автоматически при достижении критериев
 
 ### Phase 2: Robustness (Приоритет: HIGH)
@@ -924,24 +953,64 @@ targeted:
 4. Validate breed differences (Jersey vs Holstein)
 5. **Enable rule metrics** (после 10+ triggers)
 
-### Phase 3: Automation (Приоритет: MEDIUM)
-1. Реализовать evaluate_rule_001() на Python
-2. Интегрировать с системой мониторинга (BHB авто)
-3. Создать dashboard с metrics
-4. Настроить алерты (SMS/app)
+### Phase 3: Full Automation (Приоритет: MEDIUM — только после Phase 1+2)
 
-### Phase 4: ML (Приоритет: LOW — только после Phase 2)
-1. Собрать 50+ кейсов с outcomes
+**НЕ раньше — требуется стабильная онтология**
+
+```yaml
+components:
+  - evaluate_rule_001() на Python
+  - интеграция с системой мониторинга (BHB авто)
+  - dashboard с metrics
+  - алерты (SMS/app)
+  
+readiness_criteria:
+  - Phase 1: validation complete
+  - Phase 2: robustness proven
+  - errors_analyzed: true
+  - ontology_stable: true
+```
+
+### Phase 3.5: Rule Saturation (Приоритет: КРИТИЧЕСКИЙ — перед ML)
+
+**Критический переход. ML недопустим без saturation.**
+
+```yaml
+saturation_criteria:
+  rules_stable: ">=3–5 стабильных RULE"
+  zones_defined: "определены зоны применения"
+  conflicts_mapped: "зафиксированы конфликты между правилами"
+  decision_layer_clear: "понятна структура decision layer"
+  
+indicators:
+  - REGISTRY.md заполнен
+  - Cross-rule relationships определены
+  - Conflict resolution tested
+  - Portfolio health metrics > threshold
+```
+
+**Только после этого допустим ML.**
+
+### Phase 4: ML (Приоритет: LOW — только после Phase 3.5)
+1. Собрать 50+ кейсов с outcomes (structured)
 2. **Analyze errors before ML** (критически!)
 3. Feature engineering на основе ошибок
 4. Train classifier
 5. Validate vs rule-based approach
 
-**Критический принцип:** ML только после robustness. Иначе модель на слабой онтологии.
+**Критический принцип:**
+```
+ML только после Rule Saturation.
+Иначе модель учится на нестабильной онтологии.
+
+Правильный путь:
+  Rule Saturation → понятна структура → ML дополняет, не заменяет
+```
 
 ---
 
 *Формат: CASE → DL → RULE (executable, managed)*  
-*Maturity: pilot-ready (v3.1)*  
+*Maturity: pilot-ready (v3.4)*  
+*Execution: structured capture from day 1*  
 *Metrics: to be enabled at 10+ triggers*  
 *Confidence upgrade: automatic by criteria*
