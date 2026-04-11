@@ -397,14 +397,15 @@ NOT_APPLICABLE:
     action: "PARENTERAL_GLUCOSE_PROTOCOL"
     
   severe_hepatic_lipidosis:
-    criteria: "AST >500 or bilirubin >50 or hepatic encephalopathy"
+    criteria: "AST >500 (provisional threshold, validate locally) or bilirubin >50 or hepatic encephalopathy"
     reason: "Печень не справится с метаболизмом PG"
     action: "SPECIALIZED_VETERINARY_CARE"
+    note: "AST threshold not locally validated yet"
     
   renal_failure:
-    criteria: "Creatinine >300 μmol/L, anuria"
-    reason: "Нарушена экскреция метаболитов"
-    action: "MODIFIED_PROTOCOL"
+    criteria: "Creatinine >300 μmol/L OR urea >25 mmol/L with oliguria/anuria"
+    reason: "Нарушена экскреция метаболитов PG"
+    action: "MODIFIED_PROTOCOL (reduce dose, monitor)"
     
   rumen_acidosis:
     reason: "PG усугубит ацидоз"
@@ -456,15 +457,14 @@ repeat_treatment:
 minimum_cases: 10
 farms_required: 3
 distribution:
-  success: "≥6 (BHB normalized by day 5)"
-  partial: "≥2 (improved but not normalized)"
-  failure: "≥2 (no response or progression)"
+  goal: "Create ≥10 cases with full outcome capture"
+  types: ["success", "partial_response", "failure"]
   
 metrics_to_track:
-  - response_rate: "% with BHB <1.2 at day 5"
+  - response_rate: "% with BHB <1.2 at day 5 (target: >70%)"
   - time_to_response: "Day when BHB first <1.2"
-  - rebound_rate: "% with BHB rise after stopping PG"
-  - compliance: "% of prescribed doses actually given"
+  - rebound_rate: "% with BHB rise after stopping PG (target: <20%)"
+  - compliance: "% of prescribed doses actually given (target: >85%)"
 ```
 
 ### Success Criteria & Failure Response
