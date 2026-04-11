@@ -397,15 +397,15 @@ NOT_APPLICABLE:
     action: "PARENTERAL_GLUCOSE_PROTOCOL"
     
   severe_hepatic_lipidosis:
-    criteria: "AST >500 (provisional threshold, validate locally) or bilirubin >50 or hepatic encephalopathy"
+    criteria: "AST >500 (provisional, validate locally) OR bilirubin >50 OR hepatic encephalopathy"
     reason: "Печень не справится с метаболизмом PG"
     action: "SPECIALIZED_VETERINARY_CARE"
-    note: "AST threshold not locally validated yet"
+    note: "AST threshold requires local validation"
     
-  renal_failure:
+  suspected_renal_failure:
     criteria: "Creatinine >300 μmol/L OR urea >25 mmol/L with oliguria/anuria"
     reason: "Нарушена экскреция метаболитов PG"
-    action: "MODIFIED_PROTOCOL (reduce dose, monitor)"
+    action: "MODIFIED_PROTOCOL with veterinary supervision"
     
   rumen_acidosis:
     reason: "PG усугубит ацидоз"
@@ -796,7 +796,7 @@ applicability:
     - "RULE_002_TRIGGERED (SCK confirmed)"
     - "BHB 1.2-2.9 mmol/L"
     - "Animal conscious and can swallow"
-    - "No severe hepatic lipidosis"
+    - "No severe hepatic lipidosis (AST <=500, provisional threshold)"
     
   appropriate_if:  # Когда применение оптимально
     - "Early detection (DIM 3-14)"
@@ -807,14 +807,26 @@ applicability:
     - "Clinical ketosis signs present"
     - "BHB > 2.9 (severe SCK)"
     - "Complete anorexia >48h"
-    - "Severe hepatic lipidosis (AST>500)"
-    - "Renal failure"
+    - "Severe hepatic lipidosis (AST >500, provisional)"
+    - "Suspected renal failure (requires veterinary assessment)"
+    
+  success_criteria:  # Что считаем успехом
+    - "BHB <1.2 within 3-5 days"
+    - "No progression to clinical ketosis"
+    - "Appetite maintained or improved"
+    
+  failure_response:  # Что делать при неудаче
+    - "Reassess diagnosis via RULE-002"
+    - "Check compliance (were all doses given?)"
+    - "Screen for concurrent disease (metritis, mastitis)"
+    - "Escalate to combined therapy if needed"
     
   escalates_to:  # Куда передаём, если не применимо
     clinical_ketosis: "Clinical Ketosis Emergency Protocol"
     severe_sck: "Combined Therapy (PG + IV glucose)"
     anorexia: "Parenteral Glucose Protocol"
     hepatic_lipidosis: "Specialized Veterinary Care"
+    renal_failure: "Modified protocol with veterinary supervision"
     
   priority_rule: "RULE-001 overrides RULE-003 if metabolic deficit severe"
 ```
