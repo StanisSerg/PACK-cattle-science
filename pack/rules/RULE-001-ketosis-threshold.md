@@ -9,19 +9,39 @@ category: metabolic
 tags: [ketosis, bhb, threshold, metabolic-deficit, liver-function, dmi, bcs]
 status: active
 confidence: medium  # 1 confirmed case
-rule_version: "3.0"
-confidence_criteria:
-  high: ">=3 independent confirmed cases, no critical conflicts"
-  medium: "1-2 confirmed cases"
-  low: "theoretical or single unconfirmed case"
+rule_version: "3.1"
+rule_maturity: pilot-ready
+
+# Управляемый актив (managed asset)
+metrics_enabled: false  # Включить после 10+ triggers
+last_reviewed: 2026-04-11
+next_review: 2026-07-11
+
+# Критерии confidence (не руками!)
+confidence_upgrade:
+  trigger:
+    farms: ">=3"
+    cases: ">=10"
+    precision: ">80%"  # TP / (TP + FP)
+    recall: ">85%"     # TP / (TP + FN)
+    conflicts: "none critical unresolved"
+  process: automatic  # Не ручное решение
+
+# Критерии production (формальные)
+production_criteria:
+  farms: ">=3 независимых"
+  cases: ">=10 подтверждённых"
+  fp_fn_documented: true
+  error_bounds_defined: true
+  seasonal_stability: true
+  management_variation_stable: true
 ---
 
 # RULE-001: Ketosis-Threshold-Invalidation
 
 > **Тип:** executable decision operator  
-> **Уровень:** executable operator  
-> **Готовность:** pilot-ready  
-> **Production criteria:** 3+ farms, multi-context validation, stable false-positive control  
+> **Maturity:** pilot-ready (v3.1)  
+> **Управление:** metrics to be enabled at 10+ triggers  
 > **Источник:** [DL-001](../../DS-cattle-operations/decisions/DL-001-bhb-threshold.md)  
 > **Валидация:** [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)
 
@@ -596,6 +616,136 @@ NOT raised by hand.
 
 ---
 
+## STATE MACHINE (Состояния вердикта)
+
+### Verdict States
+
+```
+                    ┌─────────────────────────────────────┐
+                    │         INITIAL (начало)            │
+                    └─────────────────┬───────────────────┘
+                                      │
+                    clinical_signs?   │
+                    ┌──────────────┐  │  ┌──────────────┐
+           ДА ─────►│   BLOCKED    │  │  │   EVALUATE   │◄──── НЕТ
+                    │              │  │  │   hard/soft  │
+                    │ Клинический  │  │  │              │
+                    │ протокол     │  │  └──────┬───────┘
+                    └──────────────┘  │         │
+                                       │    hard_met?
+                                       │    ┌──────────┐
+                                       │НЕТ │ NOT_TRIG │
+                                       │    │ GERED    │
+                                       │    └──────────┘
+                                       │
+                         ┌─────────────┼─────────────┐
+                         │             │             │
+                    soft=2│        soft=1│        soft=0│
+                         │             │             │
+                         ▼             ▼             ▼
+                    ┌─────────┐  ┌─────────┐  ┌─────────┐
+                    │ TRIGGERED│  │ TRIGGERED│  │ TRIGGERED│
+                    │  HIGH    │  │  MEDIUM  │  │   LOW    │
+                    └────┬────┘  └────┬────┘  └────┬────┘
+                         │             │             │
+                         └─────────────┴─────────────┘
+                                       │
+                                       ▼
+                         ┌─────────────────────────────┐
+                         │   SYSTEM_CORRECTION         │
+                         │   (обязательное действие)   │
+                         └─────────────────────────────┘
+```
+
+### Переходы между состояниями
+
+| From | To | Trigger | Action Required |
+|------|----|---------|-----------------|
+| INITIAL | BLOCKED | clinical_signs > 0 | Перейти на клинический протокол |
+| INITIAL | NOT_TRIGGERED | hard = false | Мониторинг, сбор данных |
+| INITIAL | TRIGGERED (LOW) | hard = true, soft = 0 | Системная коррекция + усиленный мониторинг |
+| INITIAL | TRIGGERED (MEDIUM) | hard = true, soft = 1 | Системная коррекция в течение 24ч |
+| INITIAL | TRIGGERED (HIGH) | hard = true, soft = 2 | Системная коррекция немедленно |
+
+### Обязательные действия по состоянию
+
+| State | Alert Level | Required Action | Timeline |
+|-------|-------------|-----------------|----------|
+| BLOCKED | CRITICAL | Клинический протокол | Немедленно |
+| NOT_TRIGGERED | INFO | Мониторинг | Обычный |
+| TRIGGERED (LOW) | WARNING | Системная коррекция | 48 часов |
+| TRIGGERED (MEDIUM) | HIGH | Системная коррекция | 24 часа |
+| TRIGGERED (HIGH) | CRITICAL | Системная коррекция | Немедленно |
+
+---
+
+## RULE METRICS (Метрики правила)
+
+> **Включить после 10+ triggers**
+> `metrics_enabled: false` → `true` после 10 triggers
+
+### Текущие метрики (пока не собираются)
+
+| Метрика | Определение | Текущее значение | Целевое значение |
+|---------|-------------|------------------|------------------|
+| **total_triggers** | Сколько раз правило сработало | 1 | — |
+| **true_positives** | Правило сработало + подтвердилось | 1 | — |
+| **false_positives** | Правило сработало + не подтвердилось | 0 | <20% |
+| **false_negatives** | Правило не сработало + был дефицит | Unknown | <15% |
+| **precision** | TP / (TP + FP) | 100% (1/1) | >80% |
+| **recall** | TP / (TP + FN) | Unknown | >85% |
+| **f1_score** | 2 × (Precision × Recall) / (Precision + Recall) | Unknown | >82% |
+
+### Регистрация outcomes
+
+```yaml
+# Структура записи для каждого trigger
+outcome_record:
+  timestamp: "YYYY-MM-DD HH:MM"
+  farm_id: "FARM-001"
+  cow_id: "COW-12345"
+  input_data:
+    bhb: 1.6
+    dim: 18
+    dmi_pct: 79
+    bcs_loss: 0.75
+  prediction:
+    verdict: "TRIGGERED"
+    confidence: "HIGH"
+    action: "SYSTEM_CORRECTION"
+  actual_outcome:
+    bhb_after_7d: 0.4
+    dmi_after_7d: 19.2
+    therapy_applied: "systemic_correction"
+    success: true  # BHB <1.2, DMI >90%
+  classification:
+    type: "TP"  # TP, FP, FN
+    root_cause: null  # если FP/FN
+```
+
+### Root Cause Categories (для ошибок)
+
+| Category | Description | Example |
+|----------|-------------|---------|
+| **data_quality** | Проблемы с данными | Неправильный замер BHB |
+| **threshold_issue** | Порог неверен | BHB 1.1 — пропущен случай |
+| **ontology_issue** | Неправильная онтология | Не учли породу |
+| **missing_variable** | Не хватает переменной | Не учли инфекцию |
+| **temporal_issue** | Проблема времени | Задержка в измерениях |
+| **unpredictable** | Случайность | Редкая комбинация факторов |
+
+### Review Schedule
+
+| Trigger | Action |
+|---------|--------|
+| 10 triggers | Включить метрики, первый review |
+| 25 triggers | Анализ ошибок, возможная корректировка |
+| 50 triggers | Рассмотрение confidence upgrade |
+| Каждые 50 triggers | Регулярный review |
+| При 5+ ошибках подряд | Экстренный review |
+
+---
+
 ## CHANGE LOG
 
 | Версия | Дата | Изменения | Автор |
@@ -603,6 +753,7 @@ NOT raised by hand.
 | 1.0 | 2026-03-25 | Создано на основе DL-001 | StanisSerg |
 | 2.0 | 2026-04-11 | Усилено до исполняемого оператора | StanisSerg |
 | 3.0 | 2026-04-11 | Pilot-ready:<br>• Разделение hard/soft conditions<br>• Блокирующая ветка clinical_signs<br>• Reasoning array<br>• Economic verdict<br>• Псевдокод production-ready<br>• Убраны гиперболы, добавлена трезвость | StanisSerg |
+| 3.1 | 2026-04-11 | Managed asset:<br>• State machine для verdict states<br>• Rule metrics (таблица)<br>• Root cause categories<br>• Review schedule<br>• Confidence upgrade criteria<br>• Убрано дублирование Automation | StanisSerg |
 
 ---
 
@@ -610,14 +761,17 @@ NOT raised by hand.
 
 ### Known Limitations (Известные ограничения)
 
-| Тип | Описание | Вероятность | Влияние | Митигация |
-|-----|----------|-------------|---------|-----------|
-| False Positive | Правило сработало, но стандартная терапия сработала бы | Unknown | Потеря времени на системную коррекцию | Требуется валидация |
-| False Negative | Правило не сработало (BHB 1.1), но дефицит прогрессировал | Unknown | Упущенное лечение | Дополнительное исследование порога |
-| Edge Case | BHB 1.0-1.2 (ниже порога) | Medium | Недолечивание | Дополнительное исследование |
-| Edge Case | BHB >2.5 (тяжёлый SCK) | Medium | Недостаточная агрессия терапии | Дополнительное исследование |
-| Seasonality | Разное поведение летом/зимой | Unknown | Непредсказуемость | Сбор данных по сезонам |
-| Breed | Jersey более чувствительны | Unknown | Пере/недолечивание | Отдельное исследование |
+| Limitation | Evidence Status | Risk Level | Влияние | Митигация |
+|------------|-----------------|------------|---------|-----------|
+| **False Positive** | Unknown (no data) | Medium | Потеря времени на системную коррекцию | Требуется валидация |
+| **False Negative** | Unknown (no data) | High | Упущенное лечение | Дополнительное исследование порога |
+| **Edge Case: BHB 1.0-1.2** | Some evidence (literature) | Medium | Недолечивание | Дополнительное исследование |
+| **Edge Case: BHB >2.5** | Some evidence (literature) | Medium | Недостаточная агрессия | Дополнительное исследование |
+| **Seasonality** | Unknown (no data) | Medium | Непредсказуемость | Сбор данных по сезонам |
+| **Breed: Jersey** | Unknown (no data) | Medium | Пере/недолечивание | Отдельное исследование |
+
+**Evidence Status:** Unknown / Some evidence / Well documented  
+**Risk Level:** Low / Medium / High (по влиянию на outcome)
 
 ### Acceptable Error Bounds (Допустимые границы ошибок)
 
@@ -638,10 +792,26 @@ NOT raised by hand.
   3. Сравнить:
      - Если prediction ≠ outcome → ERROR
      - Классифицировать: FP или FN
-     - Проанализировать: почему?
-  4. Обновить statistics
-  5. При накоплении 5+ ошибок → review правила
+  4. Root Cause Analysis:
+     - data_quality? (проблемы с данными)
+     - threshold_issue? (порог неверен)
+     - ontology_issue? (неправильная онтология)
+     - missing_variable? (не хватает переменной)
+     - temporal_issue? (проблема времени)
+     - unpredictable? (случайность)
+  5. Обновить statistics
+  6. При накоплении 5+ ошибок → review правила
 ```
+
+**Root Cause Categories:**
+| Category | Check | Example |
+|----------|-------|---------|
+| **data_quality** | Данные корректны? | Неправильный замер BHB |
+| **threshold_issue** | Порог адекватен? | BHB 1.1 — пропущен случай |
+| **ontology_issue** | Модель верна? | Не учли породу |
+| **missing_variable** | Все факторы учтены? | Не учли инфекцию |
+| **temporal_issue** | Время корректно? | Задержка в измерениях |
+| **unpredictable** | Это случайность? | Редкая комбинация факторов |
 
 ---
 
@@ -649,29 +819,23 @@ NOT raised by hand.
 
 ### Phase 1: Validation (Приоритет: КРИТИЧЕСКИЙ)
 1. Применить на 3+ фермах
-2. Создать CASE-002, CASE-003, CASE-004
-3. **Document all outcomes (success AND failure)**
+2. Создать CASE-002, CASE-003, CASE-004 (success AND failure)
+3. **Document all outcomes в DS-cattle-operations**
 4. **Calculate FP/FN rates**
-5. **Define acceptable error bounds**
-6. Rule confidence becomes HIGH automatically (не руками!) при ≥3 подтверждённых кейсах
-
-### Для автоматизации:
-1. Реализовать evaluate_rule_001() на Python
-2. Интегрировать с системой мониторинга (BHB авто)
-3. Создать dashboard для ветеринаров
-4. Настроить алерты (SMS/app)
+5. **Define acceptable error bounds** (Precision >80%, Recall >85%)
+6. Confidence upgrade сработает автоматически при достижении критериев
 
 ### Phase 2: Robustness (Приоритет: HIGH)
-1. **Analyze error patterns** (5+ ошибок минимум)
-2. Adjust hard/soft conditions based on data
-3. Test edge cases (BHB 1.0-1.2, BHB >2.5)
-4. **Validate seasonality effects**
-5. **Validate breed differences** (Jersey vs Holstein)
+1. **Analyze error patterns** (5+ ошибок минимум) + root cause analysis
+2. Test edge cases (BHB 1.0-1.2, BHB >2.5)
+3. Validate seasonality effects
+4. Validate breed differences (Jersey vs Holstein)
+5. **Enable rule metrics** (после 10+ triggers)
 
 ### Phase 3: Automation (Приоритет: MEDIUM)
 1. Реализовать evaluate_rule_001() на Python
 2. Интегрировать с системой мониторинга (BHB авто)
-3. Создать dashboard для ветеринаров
+3. Создать dashboard с metrics
 4. Настроить алерты (SMS/app)
 
 ### Phase 4: ML (Приоритет: LOW — только после Phase 2)
@@ -685,7 +849,7 @@ NOT raised by hand.
 
 ---
 
-*Формат: CASE → DL → RULE (executable)*  
-*Уровень: executable operator*  
-*Готовность: pilot-ready*  
-*Production criteria: 3+ farms, multi-context validation, stable false-positive control*
+*Формат: CASE → DL → RULE (executable, managed)*  
+*Maturity: pilot-ready (v3.1)*  
+*Metrics: to be enabled at 10+ triggers*  
+*Confidence upgrade: automatic by criteria*
