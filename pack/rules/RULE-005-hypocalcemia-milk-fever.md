@@ -99,8 +99,10 @@ soft_conditions:  # Risk factors increasing priority
 
 blocking_conditions:
   - condition: "First-lactation heifer"
-    reason: "Negative DCAD may impair reproduction in heifers"
-    action: "USE_POSITIVE_DCAD_OR_STANDARD_DIET"
+    reason: "Low hypocalcemia risk in heifers + negative DCAD may impair reproduction and bone development"
+    risk_assessment: "Heifers have active bone remodeling; milk fever incidence < 2%"
+    cost_benefit: "Prevention costs exceed benefits for this group"
+    action: "USE_POSITIVE_DCAD_OR_STANDARD_DIET (DCAD 0 to +30)"
     
   - condition: "Pre-existing metabolic acidosis"
     reason: "Cannot tolerate additional acid load"
@@ -492,6 +494,25 @@ HOT_CLIMATE:
 LIMITED_FORAGE_OPTIONS:
   description: "Cannot source low-K forages"
   adjustment: "Rely more on anionic salts, increase monitoring"
+```
+
+### System Constraints (Системные ограничения)
+
+```yaml
+DCAD_vs_DMI_constraint:
+  description: "DCAD strategy must not compromise energy intake"
+  rule: "If DMI drops > 10% on DCAD diet → REDUCE acidification"
+  mechanism: "Ketosis risk from low DMI > Milk fever risk from moderate DCAD"
+  coordination_with_RULE-004: "Both rules monitor DMI; whichever detects drop first triggers adjustment"
+  
+  threshold:
+    normal_dmi: "12-14 kg DM/day in close-up"
+    critical_drop: "< 10.8 kg DM/day (10% reduction)"
+    action_if_violated: "Reduce anion supplementation, prioritize energy intake"
+    
+  trade_off_resolution:
+    priority: "DMI preservation > Maximum DCAD negative"
+    reasoning: "Starvation ketosis more dangerous than moderate hypocalcemia risk"
 ```
 
 ---

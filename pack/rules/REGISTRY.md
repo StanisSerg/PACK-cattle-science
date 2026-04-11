@@ -38,14 +38,126 @@ key_variables:
   - NEFA (non-esterified fatty acids)
   - BCS (body condition score)
   - DIM (days in milk)
+  - Ca (total/ionized calcium)
+  - Urine pH (close-up monitoring)
   
-economic_driver: "Prevent ketosis → reduce treatment costs + maintain milk production"
+economic_driver: "Prevent metabolic disorders → reduce treatment costs + maintain production"
 
-rules_in_domain: 4
-  - RULE-004: prevention (prepartum)
+rules_in_domain: 5
+  - RULE-004: prevention (prepartum energy)
+  - RULE-005: prevention (prepartum calcium)
   - RULE-002: detection (postpartum screening)
   - RULE-001: decision (intervention logic)
   - RULE-003: treatment (execution)
+```
+
+### Cow State Model (Модель состояний коровы)
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│              METABOLIC STATES (Состояния коровы)                │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  [DRY] ──► [CLOSE-UP] ──► [FRESH] ──► [EARLY LACTATION]       │
+│    │          │              │               │                 │
+│    │          │              │               │                 │
+│    ▼          ▼              ▼               ▼                 │
+│  ┌─────┐   ┌─────────┐   ┌────────┐     ┌──────────┐         │
+│  │DMI  │   │DMI + Ca │   │DMI +   │     │Production│         │
+│  │focus│   │focus    │   │Ca +    │     │focus     │         │
+│  │     │   │         │   │BHB     │     │          │         │
+│  └─────┘   └─────────┘   └────────┘     └──────────┘         │
+│                                                                 │
+│  AT-RISK STATES (Риск метаболических нарушений):               │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌────────────────┐  │
+│  │ACUTE_CALCIUM    │  │SUBCLINICAL_     │  │MIXED_METABOLIC │  │
+│  │DEFICIT          │  │KETOSIS          │  │(Ca↓ + BHB↑)    │  │
+│  │(Milk fever)     │  │(BHB 1.2-2.9)    │  │                 │  │
+│  └─────────────────┘  └─────────────────┘  └────────────────┘  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+State Definitions:
+──────────────────
+STABLE_DRY:
+  timeframe: DIM -60 to -21
+  focus: BCS management, no intensive monitoring
+  rules_active: [RULE-004]
+  
+AT_RISK_CLOSE_UP:
+  timeframe: DIM -21 to 0
+  focus: Dual prevention (energy + calcium)
+  rules_active: [RULE-004, RULE-005]
+  key_monitoring: [DMI, urine_pH, BCS]
+  
+CRITICAL_TRANSITION:
+  timeframe: DIM 0 to 3
+  focus: Emergency detection
+  rules_active: [RULE-005 emergency mode]
+  key_monitoring: [Clinical signs, Ca levels]
+  
+POSTPARTUM_MONITORING:
+  timeframe: DIM 3 to 14
+  focus: Early detection of metabolic issues
+  rules_active: [RULE-002, RULE-001]
+  key_monitoring: [BHB, DMI, Ca if at risk]
+  
+RECOVERY_OR_TREATMENT:
+  timeframe: As needed
+  focus: Intervention and recovery
+  rules_active: [RULE-001, RULE-003, RULE-005 treatment]
+  exit_condition: "Metrics normalized"
+```
+
+### State Transitions (Переходы между состояниями)
+
+```yaml
+transitions:
+  - from: STABLE_DRY
+    to: AT_RISK_CLOSE_UP
+    trigger: "DIM <= -21 (entering close-up)"
+    action: "Activate dual prevention (RULE-004 + RULE-005)"
+    
+  - from: AT_RISK_CLOSE_UP
+    to: CRITICAL_TRANSITION
+    trigger: "Calving begins"
+    action: "Switch to emergency monitoring mode"
+    
+  - from: CRITICAL_TRANSITION
+    to: ACUTE_CALCIUM_DEFICIT
+    trigger: "Clinical signs + Ca < 1.5 mmol/L"
+    action: "RULE-005 emergency: IV calcium immediately"
+    priority: "OVERRIDE all other rules"
+    
+  - from: CRITICAL_TRANSITION
+    to: POSTPARTUM_MONITORING
+    trigger: "No acute issues within 24h post-calving"
+    action: "Begin routine metabolic screening"
+    
+  - from: POSTPARTUM_MONITORING
+    to: SUBCLINICAL_KETOSIS
+    trigger: "BHB >= 1.2 mmol/L"
+    action: "RULE-002 triggered → RULE-001 evaluation"
+    
+  - from: SUBCLINICAL_KETOSIS
+    to: MIXED_METABOLIC
+    trigger: "BHB >= 1.2 AND Ca < 2.0"
+    action: "Dual therapy (PG + calcium support)"
+    
+  - from: any_at_risk_state
+    to: RECOVERY_OR_TREATMENT
+    trigger: "Intervention initiated"
+    action: "Apply appropriate treatment rule"
+    
+  - from: RECOVERY_OR_TREATMENT
+    to: POSTPARTUM_MONITORING
+    trigger: "Metrics normalized"
+    action: "Return to monitoring"
+    
+  - from: RECOVERY_OR_TREATMENT
+    to: EARLY_LACTATION_STABLE
+    trigger: "DIM >= 14 + all metrics normal"
+    action: "Exit intensive metabolic monitoring"
 ```
 
 ---
