@@ -1,0 +1,114 @@
+case_id: CASE-001
+date_created: '2026-04-11'
+farm_id: FARM-001
+cow_id: COW-12345
+parity: 2
+input:
+  bhb: 1.4
+  dim: 6
+  dmi_actual: 9.5
+  dmi_norm: 16.0
+  bcs_at_calving: 3.5
+  bcs_current: 3.0
+  clinical_signs: []
+  can_swallow: true
+  anorexia_hours: 0
+  severe_hepatic_lipidosis: false
+derived:
+  dmi_ratio: 0.594
+  bcs_loss: 0.5
+decision:
+  triggered_rules:
+  - RULE-002
+  - RULE-003
+  verdicts:
+  - RULE_002_TRIGGERED
+  - RULE_003_APPLICABLE
+  primary_rule: RULE-003
+  action: PG_300ML_X_5_DAYS_2X_DAILY
+  reasoning:
+  - bhb_1.4>=1.2
+  - dim_6_in_3_14
+  - no_clinical_signs
+  - sck_confirmed
+  - bhb_in_range
+  - oral_pg_applicable
+  timestamp: auto-generated
+prediction: &id001
+  direction:
+    bhb: down
+    dmi: up
+  range:
+    bhb_day_7: &id002
+    - 0.6
+    - 0.9
+    dmi_day_7: &id003
+    - 14.0
+    - 18.0
+  timeframe: 7 days
+  confidence: medium
+rule_results:
+- rule: RULE-002
+  decision:
+    triggered_rules:
+    - RULE-002
+    verdicts:
+    - RULE_002_TRIGGERED
+    primary_rule: RULE-002
+    action: ESCALATE_TO_RULE_001_AND_RULE_003_CHECK
+    reasoning:
+    - bhb_1.4>=1.2
+    - dim_6_in_3_14
+    - no_clinical_signs
+    basis:
+      rule: RULE-002
+      conditions:
+        bhb: 1.4
+        dim: 6
+        dmi_ratio: 0.594
+  prediction:
+    direction:
+      bhb: may_increase_without_intervention
+    range:
+      bhb_day_3_7_no_treatment:
+      - 1.2
+      - 2.0
+    timeframe: 3-7 days
+    confidence: medium
+- rule: RULE-003
+  decision:
+    triggered_rules:
+    - RULE-003
+    verdicts:
+    - RULE_003_APPLICABLE
+    primary_rule: RULE-003
+    action: PG_300ML_X_5_DAYS_2X_DAILY
+    reasoning:
+    - sck_confirmed
+    - bhb_in_range
+    - oral_pg_applicable
+    basis:
+      rule: RULE-003
+      conditions:
+        bhb: 1.4
+        dim: 6
+  prediction: *id001
+fact:
+  bhb_day_7: 0.7
+  dmi_day_7: 15.2
+result:
+  status: success
+  delta:
+    bhb_day_7:
+      predicted_range: *id002
+      fact: 0.7
+      within_range: true
+      deviation: -0.05
+    dmi_day_7:
+      predicted_range: *id003
+      fact: 15.2
+      within_range: true
+      deviation: -0.8
+  error_type: null
+  root_cause: null
+  notes: All metrics within predicted ranges
