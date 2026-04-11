@@ -123,6 +123,14 @@ INITIAL ──► clinical_signs? ──► BLOCKED
 **Verdict Types (Rule-002 specific language):**
 
 ```yaml
+verdict_states:
+  - RULE_002_BLOCKED
+  - RULE_002_NOT_TRIGGERED
+  - RULE_002_GRAY_ZONE
+  - RULE_002_TRIGGERED_LOW
+  - RULE_002_TRIGGERED_MEDIUM
+  - RULE_002_TRIGGERED_HIGH
+  
 RULE_002_BLOCKED:
   trigger: "clinical_signs present"
   meaning: "Not SCK — clinical ketosis"
@@ -755,6 +763,7 @@ Flow:
 | RULE-001 identifies metabolic deficit | RULE-001 | Higher resolution override — RULE-002 is coarse filter |
 | BHB≥1.2 + clinical signs | Clinical Protocol | RULE_002_BLOCKED — escalation to emergency |
 | BHB 1.0-1.2 | RULE_002_GRAY_ZONE | Explicit uncertainty — no forced decision |
+| BHB normal, but strong clinical suspicion | Clinical Protocol | RULE-002 does not override clinical judgment |
 
 **Principle:**
 ```
@@ -764,6 +773,28 @@ RULE-002 (coarse screening) ──► RULE-001 (fine discrimination)
 ```
 
 This is not conflict — it's **hierarchical refinement**.
+
+---
+
+### Rule Role (в портфеле)
+
+```yaml
+rule_role:
+  type: screening
+  specificity: coarse
+  layer: entrance
+  handoff_to: RULE-001
+  
+  function: "Initial triage — detects potential SCK and routes to appropriate intervention"
+  
+  position_in_chain:
+    - RULE-004 (prevention, prepartum)
+    - RULE-002 (screening, postpartum) ← THIS RULE
+    - RULE-001 (discrimination, intervention decision)
+    - RULE-003 (treatment, execution)
+    
+  design_principle: "Catch most cases with simple criteria; let downstream rules refine"
+```
 
 ---
 
