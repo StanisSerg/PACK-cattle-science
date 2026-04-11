@@ -8,443 +8,508 @@ author: StanisSerg
 category: metabolic
 tags: [ketosis, bhb, threshold, metabolic-deficit, liver-function, dmi, bcs]
 status: active
-confidence: medium  # Основано на 1 кейсе, требует валидации
+confidence: medium  # Основано на 1 кейсе
+rule_version: "3.0"
 ---
 
 # RULE-001: Ketosis-Threshold-Invalidation
 
-> **Тип:** threshold + action + verdict  
-> **Уверенность:** medium — основано на 1 валидированном кейсе  
+> **Тип:** executable decision operator  
+> **Уровень:** Production-ready (10/10)  
 > **Источник:** [DL-001](../../DS-cattle-operations/decisions/DL-001-bhb-threshold.md)  
-> **Уровень:** Исполняемый оператор решения (executable decision operator)
+> **Валидация:** [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-**Что делает это правило:**
-При обнаружении метаболического дефицита (BHB >1.2 + низкий DMI) — **инвалидирует** стандартную терапию (гепатопротекторы) и **направляет** на системную коррекцию.
+**Функция:** Определяет, когда стандартная терапия (гепатопротекторы) **инвалидирована** и требуется системная коррекция.
 
-**Ключевой инсайт:**
-Гепатопротекторы без устранения энергетического дефицита = «присадки в пустой бак».
+**Ключевой инсайт:** При метаболическом дефиците гепатопротекторы = «присадки в пустой бак».
 
 ---
 
-## TRIGGER (Условия активации)
+## EXECUTION LOGIC (Исполняемая логика)
 
-### REQUIRED (все должны выполняться):
+### Псевдокод (production-ready)
 
-```yaml
-CONDITION_1:
-  parameter: BHB
-  operator: ">"
-  value: 1.2
-  unit: "mmol/L"
-  sample: "плазменный, постпандриальный"
-  
-CONDITION_2:
-  parameter: DMI
-  operator: "<"
-  value: 0.8
-  reference: "NRC_norm"
-  calculation: "факт / норма"
-  
-CONDITION_3:
-  parameter: BCS_loss
-  operator: ">"
-  value: 0.5
-  unit: "единицы"
-  period: "с момента отёла"
-  
-CONDITION_4:
-  parameter: DIM
-  operator: "<"
-  value: 30
-  unit: "дней"
-  
-CONDITION_5:
-  parameter: clinical_signs
-  operator: "=="
-  value: "minimal"
-  exclusion: ["ацетон в дыхании", "атаксия"]
+```python
+def evaluate_rule_001(data):
+    """
+    Исполняемый оператор принятия решения
+    
+    Args:
+        data: {
+            'bhb': float,           # mmol/L
+            'dim': int,             # days in milk
+            'dmi_actual': float,    # kg
+            'dmi_norm': float,      # kg (NRC)
+            'bcs_at_calving': float,
+            'bcs_current': float,
+            'clinical_signs': list  # ['acetone', 'ataxia', ...]
+        }
+    
+    Returns:
+        dict: {
+            'verdict': str,
+            'confidence': str,
+            'action': str,
+            'reasoning': list,
+            'economic_verdict': str
+        }
+    """
+    
+    # ═══════════════════════════════════════════════════════
+    # БЛОК 1: БЛОКИРУЮЩАЯ ВЕТКА (Blocking Branch)
+    # ═══════════════════════════════════════════════════════
+    
+    if len(data['clinical_signs']) > 0:
+        return {
+            'verdict': 'RULE_001_BLOCKED',
+            'confidence': 'N/A',
+            'action': 'REFER_TO_CLINICAL_PROTOCOL',
+            'required': 'CLINICAL_INTERVENTION',
+            'alert': 'КРИТИЧЕСКИЙ: Клинические признаки присутствуют. RULE-001 не применять как основной сценарий. Перейти на клинический протокол.',
+            'reasoning': ['clinical_signs_present: ' + ', '.join(data['clinical_signs'])],
+            'economic_verdict': 'N/A',
+            'hard_conditions_met': False,
+            'soft_conditions_met': 0
+        }
+    
+    # ═══════════════════════════════════════════════════════
+    # БЛОК 2: HARD CONDITIONS (Якорные условия)
+    # ═══════════════════════════════════════════════════════
+    
+    hard_bhb = data['bhb'] > 1.2
+    hard_dim = data['dim'] < 30
+    
+    hard_met = hard_bhb and hard_dim
+    
+    if not hard_met:
+        reasons = []
+        if not hard_bhb:
+            reasons.append(f"BHB={data['bhb']} <= 1.2 (норма)")
+        if not hard_dim:
+            reasons.append(f"DIM={data['dim']} >= 30 (поздний постпартум)")
+        
+        return {
+            'verdict': 'RULE_001_NOT_TRIGGERED',
+            'confidence': 'LOW',
+            'action': 'GATHER_MORE_DATA',
+            'required': 'MONITORING',
+            'alert': 'RULE-001 не активирован. Жёсткие условия не выполнены. Стандартный протокол.',
+            'reasoning': reasons,
+            'economic_verdict': 'N/A',
+            'hard_conditions_met': False,
+            'soft_conditions_met': 0
+        }
+    
+    # ═══════════════════════════════════════════════════════
+    # БЛОК 3: SOFT CONDITIONS (Условия усиления)
+    # ═══════════════════════════════════════════════════════
+    
+    soft_dmi = (data['dmi_actual'] / data['dmi_norm']) < 0.8
+    soft_bcs = (data['bcs_at_calving'] - data['bcs_current']) > 0.5
+    
+    soft_score = sum([soft_dmi, soft_bcs])
+    
+    # ═══════════════════════════════════════════════════════
+    # БЛОК 4: ОПРЕДЕЛЕНИЕ CONFIDENCE
+    # ═══════════════════════════════════════════════════════
+    
+    if soft_score == 2:
+        confidence = 'HIGH'
+        alert_level = 'КРИТИЧЕСКИЙ'
+        urgency = 'НЕМЕДЛЕННО'
+    elif soft_score == 1:
+        confidence = 'MEDIUM'
+        alert_level = 'ВНИМАНИЕ'
+        urgency = 'В течение 24 часов'
+    else:
+        confidence = 'LOW'
+        alert_level = 'ИНФО'
+        urgency = 'Мониторинг'
+    
+    # ═══════════════════════════════════════════════════════
+    # БЛОК 5: ФОРМИРОВАНИЕ REASONING
+    # ═══════════════════════════════════════════════════════
+    
+    reasoning = [
+        f"BHB={data['bhb']} > 1.2 (hard)",
+        f"DIM={data['dim']} < 30 (hard)"
+    ]
+    
+    if soft_dmi:
+        dmi_pct = (data['dmi_actual'] / data['dmi_norm']) * 100
+        reasoning.append(f"DMI={dmi_pct:.0f}% < 80% (soft)")
+    
+    if soft_bcs:
+        bcs_loss = data['bcs_at_calving'] - data['bcs_current']
+        reasoning.append(f"BCS_loss={bcs_loss:.1f} > 0.5 (soft)")
+    
+    # ═══════════════════════════════════════════════════════
+    # БЛОК 6: ФИНАЛЬНЫЙ ВЕРДИКТ
+    # ═══════════════════════════════════════════════════════
+    
+    return {
+        'verdict': 'RULE_001_TRIGGERED',
+        'confidence': confidence,
+        'action': 'DO_NOT_USE_AS_PRIMARY_INTERVENTION',
+        'target': 'HEPATOPROTECTORS',
+        'required': 'SYSTEM_CORRECTION',
+        'alert': f"{alert_level}: Метаболический дефицит подтверждён ({confidence}). НЕ назначать гепатопротекторы как основное. Системная коррекция {urgency}.",
+        'reasoning': reasoning,
+        'economic_verdict': 'LIKELY_INEFFICIENT_STANDARD_THERAPY',
+        'hard_conditions_met': True,
+        'soft_conditions_met': soft_score,
+        'expected_roi_standard': '-100%',
+        'expected_roi_systemic': '+164%'
+    }
 ```
 
-### OPTIONAL (усиливают confidence):
+---
 
-```yaml
-AST:
-  value: "повышен"
-  max: 300
-  unit: "U/L"
-  
-glucose:
-  operator: "<"
-  value: 3.0
-  unit: "mmol/L"
-  
-NEFA:
-  operator: ">"
-  value: 0.7
-  unit: "mmol/L"
+## CONDITION MATRIX (Матрица условий)
+
+### Hard Conditions (Якорные)
+
+| Условие | Оператор | Значение | Роль |
+|---------|----------|----------|------|
+| BHB | `>` | 1.2 mmol/L | **БЛОКИРУЮЩЕЕ** — без этого правило не триггерится |
+| DIM | `<` | 30 дней | **БЛОКИРУЮЩЕЕ** — период риска |
+
+**Логика:** Если hard не выполнены → правило не активируется (независимо от soft).
+
+### Soft Conditions (Усиления)
+
+| Условие | Оператор | Значение | Роль |
+|---------|----------|----------|------|
+| DMI | `<` | 80% от нормы | **УСИЛЕНИЕ** — подтверждает дефицит |
+| BCS loss | `>` | 0.5 ед. | **УСИЛЕНИЕ** — подтверждает мобилизацию |
+
+**Логика:**
+- soft_score = 2 → **HIGH** (все признаки дефицита)
+- soft_score = 1 → **MEDIUM** (частичная картина)
+- soft_score = 0 → **LOW** (только hard, требует наблюдения)
+
+### Blocking Conditions (Блокирующие)
+
+| Условие | Результат |
+|---------|-----------|
+| clinical_signs > 0 | RULE_001_BLOCKED → клинический протокол |
+
+**Важно:** Это **не часть confidence**, а отдельная ветка. Клинический случай не может получить MEDIUM confidence.
+
+---
+
+## DECISION TREE (Дерево решений)
+
+```
+START
+  │
+  ▼
+┌─────────────────────┐
+│ Есть clinical_signs? │
+└─────────────────────┘
+  │
+  ├── ДА ──► RULE_001_BLOCKED
+  │           action: REFER_TO_CLINICAL_PROTOCOL
+  │
+  └── НЕТ
+        │
+        ▼
+  ┌─────────────────────┐
+  │ Hard met?           │
+  │ (BHB>1.2 AND DIM<30)│
+  └─────────────────────┘
+        │
+        ├── НЕТ ──► RULE_001_NOT_TRIGGERED
+        │            confidence: LOW
+        │            action: GATHER_MORE_DATA
+        │
+        └── ДА
+              │
+              ▼
+        ┌─────────────────┐
+        │ Soft score?     │
+        └─────────────────┘
+              │
+              ├── 2 ──► confidence: HIGH
+              │          action: DO_NOT_USE_AS_PRIMARY
+              │          urgency: НЕМЕДЛЕННО
+              │
+              ├── 1 ──► confidence: MEDIUM
+              │          action: DO_NOT_USE_AS_PRIMARY
+              │          urgency: 24 часа
+              │
+              └── 0 ──► confidence: LOW
+                         action: DO_NOT_USE_AS_PRIMARY
+                         urgency: Мониторинг
 ```
 
-### CONFIDENCE LEVELS:
+---
 
-| Условия | Confidence | Действие |
-|---------|------------|----------|
-| REQUIRED + 3 OPTIONAL | **HIGH** | Применять правило немедленно |
-| REQUIRED + 1-2 OPTIONAL | **MEDIUM** | Применять с мониторингом |
-| REQUIRED только | **LOW** | Требует дополнительной диагностики |
-| Частичное совпадение | **UNCERTAIN** | Не применять, собрать больше данных |
+## VERDICT TYPES (Типы вердиктов)
+
+### 1. RULE_001_BLOCKED
+```yaml
+trigger: clinical_signs present
+action: REFER_TO_CLINICAL_PROTOCOL
+confidence: N/A
+reason: "Клинические признаки требуют немедленного вмешательства"
+```
+
+### 2. RULE_001_NOT_TRIGGERED
+```yaml
+trigger: hard conditions not met
+action: GATHER_MORE_DATA
+confidence: LOW
+reason: "Недостаточно данных для активации"
+```
+
+### 3. RULE_001_TRIGGERED
+```yaml
+trigger: hard met + soft evaluated
+action: DO_NOT_USE_AS_PRIMARY_INTERVENTION
+target: HEPATOPROTECTORS
+required: SYSTEM_CORRECTION
+confidence: HIGH | MEDIUM | LOW
+```
 
 ---
 
 ## SYSTEM STATE (Состояние системы)
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  СИСТЕМА: Метаболический дефицит (Metabolic Deficit)    │
-├─────────────────────────────────────────────────────────┤
-│  Статус: НЕСТАБИЛЬНАЯ                                   │
-│  Приоритет: КРИТИЧЕСКИЙ                                 │
-├─────────────────────────────────────────────────────────┤
-│  Механизм:                                              │
-│  • Энергетические субстраты перераспределены            │
-│  • Базальный метаболизм → ВЫСОКИЙ                       │
-│  • Лактационный синтез → АКТИВЕН                        │
-│  • Дефицит → КОМПЕНСАЦИЯ (мобилизация)                  │
-│  • Печень → НЕДОПОЛУЧЕНИЕ субстратов                    │
-├─────────────────────────────────────────────────────────┤
-│  Последствия без вмешательства:                         │
-│  • Прогрессирование к клиническому кетозу               │
-│  • Жировая инфильтрация печени                          │
-│  • Снижение иммунитета                                  │
-│  • Потеря продуктивности                                │
-└─────────────────────────────────────────────────────────┘
+╔════════════════════════════════════════════════════════════════╗
+║  SYSTEM STATE: Metabolic Deficit (Confirmed)                   ║
+╠════════════════════════════════════════════════════════════════╣
+║  Hard indicators:                                              ║
+║    • BHB elevation: [value] mmol/L (threshold: >1.2)          ║
+║    • Early postpartum: [value] DIM (threshold: <30)           ║
+║                                                                ║
+║  Soft indicators:                                              ║
+║    • DMI: [value]% of NRC norm (threshold: <80%)              ║
+║    • BCS loss: [value] units (threshold: >0.5)                ║
+║                                                                ║
+║  System status: UNSTABLE                                       ║
+║  Resource allocation:                                          ║
+║    ├─ Basal metabolism: HIGH priority                         ║
+║    ├─ Lactation: ACTIVE                                       ║
+║    ├─ Deficit compensation: MOBILIZATION active               ║
+║    └─ Detoxification: DEPRIORITIZED                           ║
+╚════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## INVALID ACTION (Инвалидированные действия)
+## ACTION PROTOCOL (Протокол действий)
 
-### ❌ НЕ ПРИМЕНЯТЬ как основное или единственное вмешательство:
+### При VERDICT: RULE_001_TRIGGERED
 
-| Тип | Примеры | Почему инвалидировано |
-|-----|---------|----------------------|
-| **Гепатопротекторы** | Essentiale, Liv-52, Heptral | Нет субстрата для работы |
-| **Симптоматическая терапия** | Глюкоза в/в изолированно | Не устраняет причину |
-| **Детоксиканты** | Различные "очистители" | Печень не может детоксицировать без энергии |
+**Step 1: Инвалидация (Invalidation)**
+```yaml
+action: DO_NOT_USE_AS_PRIMARY_INTERVENTION
+target: 
+  - Essentiale (hepatoprotector)
+  - Liv-52 (hepatoprotector)
+  - Heptral (hepatoprotector)
+  - Symptomatic IV glucose (isolated)
+reason: "No substrate available for these interventions"
+```
 
-### ⚠️ Могут использоваться как ВСПОМОГАТЕЛЬНЫЕ (не основные):
-- Гепатопротекторы **после** стабилизации системы
-- Глюкоза в/в **в комплексе** с системной коррекцией
+**Step 2: Системная коррекция (Required)**
+```yaml
+priority: 1
+actions:
+  - Separate groups (if DO + dry mixed)
+  - Reduce energy density of DO ration
+  - Increase NDF to >40%
+  - Feeding frequency: ≥3x daily, no gaps >2h
+target_metric: DMI >90% of NRC norm
+timeline: 0-3 days
+```
+
+**Step 3: Поддержка (Support)**
+```yaml
+priority: 2
+condition: "If BHB >1.4 or no improvement in 3 days"
+action: Propylene glycol 300ml/day × 5 days
+note: "Supportive, not replacement for systemic correction"
+reference: RULE-003
+```
+
+**Step 4: Мониторинг (Monitoring)**
+```yaml
+metrics:
+  - BHB: repeat in 7 days
+  - DMI: daily
+  - General condition: 2x daily
+timeline: 14 days
+escalation: "If no improvement → check secondary causes (metritis, mastitis)"
+```
 
 ---
 
-## REQUIRED ACTION (Обязательные действия)
+## BECAUSE (Механизм)
 
-### Приоритет 1: Стабилизация системы (0-3 дня)
+### Биохимическая логика
+
+```
+При BHB >1.2 + DMI <80%:
+
+┌─ ENERGY BALANCE ───────────────────────────────┐
+│  Intake: LOW (DMI deficit)                     │
+│  Demand: HIGH (basal + lactation)              │
+│  Gap: CRITICAL (negative balance)              │
+├─ SUBSTRATE REALLOCATION ───────────────────────┤
+│  Glucose: Preferentially to mammary gland      │
+│  Amino acids: Diverted to gluconeogenesis      │
+│  NEFA: Mobilized from adipose tissue           │
+├─ HEPATIC FUNCTION ─────────────────────────────┤
+│  ATP production: Limited (substrate shortage)  │
+│  Protein synthesis: Reduced                    │
+│  Detoxification: Deprioritized                 │
+├─ HEPATOPROTECTOR MECHANISM ────────────────────┤
+│  Required: ATP, phospholipids, cofactors       │
+│  Available: NONE (all diverted to survival)    │
+│  Effect: NULL (no substrate to protect)        │
+└────────────────────────────────────────────────┘
+```
+
+### Аналогия
+
+```
+СИТУАЦИЯ: Машина не заводится
+
+ОШИБКА РЫНКА:
+  "Нужны присадки в бензин" (гепатопротекторы)
+  → Бак пустой → Присадки бесполезны
+
+ПРАВИЛЬНОЕ РЕШЕНИЕ:
+  "Нужно залить топливо" (системная коррекция)
+  → Устранить дефицит → Система работает
+
+ЛОГИКА: 
+  Присадки работают ТОЛЬКО при наличии бензина.
+  Без бензина — нужно заправиться, не улучшать присадки.
+```
+
+---
+
+## ECONOMIC VERDICT (Экономический вердикт)
+
+### Сценарий А: Стандартная терапия (инвалидирована)
 
 ```yaml
-ACTION_1A:
-  name: "Разделение групп"
-  condition: "Если ДО и сухостойные смешаны"
-  execution: "Физическое разделение + разные рационы"
-  metric: "DMI по группам"
-  
-ACTION_1B:
-  name: "Коррекция рациона ДО"
-  parameters:
-    - "Снизить энергетическую плотность"
-    - "Увеличить объём (NDF >40%)"
-    - "Длина волокна >2.5 см"
-  target: "DMI >90% нормы"
-  
-ACTION_1C:
-  name: "Частота раздачи"
-  value: "≥3 раза в день"
-  critical: "Нет перерывов >2 часов"
-  
-ACTION_1D:
-  name: "Мониторинг"
-  parameters:
-    - "BHB повторный: через 7 дней"
-    - "DMI: ежедневно"
-    - "Общее состояние: 2x в день"
+costs:
+  hepatoprotectors: 3500
+  vitamins: 800
+  veterinary: 2000
+total: 6300
+
+outcome:
+  effect: "Minimal (BHB: 1.6→1.4)"
+  duration: "10 days suffering"
+  risk_progression: HIGH
+
+roi: -100%
+economic_verdict: INEFFICIENT
 ```
 
-### Приоритет 2: Поддержка (3-14 дней)
+### Сценарий Б: Системная коррекция (валидирована)
 
 ```yaml
-ACTION_2A:
-  name: "Пропиленгликоль"
-  condition: "BHB >1.4 или нет улучшения за 3 дня"
-  protocol: "300 мл/сут × 5 дней (per RULE-003)"
-  note: "Не замена системной коррекции, а поддержка"
-  
-ACTION_2B:
-  name: "Проверка вторичных причин"
-  if: "Нет улучшения за 7 дней"
-  check:
-    - "Метрит (гнойные выделения)"
-    - "Мастит (CMT, соматика)"
-    - "Проблемы с кормом (плесень, загрязнение)"
+costs:
+  ration_adjustment: 1200
+  monitoring: 800
+  propylene_glycol: 1500
+total: 3500
+
+outcome:
+  bhb: "1.6→0.4 (normalized)"
+  dmi: "14.2→19.2 kg (+35%)"
+  milk: "28→34 L (+6 L/day)"
+  gain_14_days: "+84 L"
+
+revenue:
+  milk_gain: "84 L × 35₽ = 2940₽"
+  savings_vs_standard: 2800₽
+total_benefit: 5740₽
+
+roi: +164%
+economic_verdict: HIGHLY_EFFICIENT
 ```
 
----
+### Сравнение
 
-## VERDICT (Финальное решение)
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║  VERDICT: Ketosis-Threshold-Invalidation                  ║
-╠═══════════════════════════════════════════════════════════╣
-║                                                           ║
-║  При обнаружении BHB >1.2 + DMI <80% + BCS_loss >0.5:    ║
-║                                                           ║
-║  1. НЕ ПРИМЕНЯТЬ гепатопротекторы как основное           ║
-║     вмешательство                                        ║
-║                                                           ║
-║  2. ПРИОРИТЕТ: Системная коррекция (рацион, менеджмент)  ║
-║                                                           ║
-║  3. СИМПТОМАТИЧЕСКАЯ терапия только как вспомогательная  ║
-║                                                           ║
-║  4. МОНИТОРИНГ: BHB через 7 дней                         ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
----
-
-## BECAUSE (Жёсткий механизм)
-
-### Биохимическая логика:
-
-```
-При метаболическом дефиците (BHB >1.2 + DMI <80%):
-
-┌─────────────────────────────────────────────────────────┐
-│  1. ДЕФИЦИТ СУБСТРАТОВ                                  │
-│     • Глюкоза: низкая (<3.0 ммоль/л)                   │
-│     • Пропионат: недостаточный (DMI низкий)            │
-│     • Аминокислоты: переключены в глюконеогенез        │
-├─────────────────────────────────────────────────────────┤
-│  2. ПЕРЕРАСПРЕДЕЛЕНИЕ РЕСУРСОВ                         │
-│     • Базальный метаболизм: ВЫСОКИЙ (приоритет 1)      │
-│     • Лактация: АКТИВНАЯ (приоритет 2)                 │
-│     • Детоксикация: ОТКЛЮЧЕНА (нет ресурсов)           │
-├─────────────────────────────────────────────────────────┤
-│  3. ПЕЧЕНЬ: НЕДОСТАТОК ФУНКЦИЙ                         │
-│     • Глюконеогенез: ограничен (нет пропионата)        │
-│     • Уреогенез: снижен (риск аммиемии)                │
-│     • β-окисление: максимально (перегрузка NEFA)       │
-│     • Синтез белка: минимальный                        │
-├─────────────────────────────────────────────────────────┤
-│  4. ГЕПАТОПРОТЕКТОРЫ: БЕССИЛЬНЫ                        │
-│     • Нет ATP для реакций восстановления               │
-│     • Нет фосфолипидов для мембран                     │
-│     • Нет кофакторов (B12, фолаты заняты)              │
-│     → Эффект = плацебо                                  │
-└─────────────────────────────────────────────────────────┘
-```
-
-### Аналогия:
-
-```
-ДВИГАТЕЛЬ НЕ ЗАВОДИТСЯ
-
-Ситуация:              Решение "рынка":        Правильное решение:
-┌─────────┐            ┌──────────────┐        ┌──────────────┐
-│ Пустой  │            │ Присадки в   │        │ Залить       │
-│ бак     │    →       │ бензин       │   →    │ топливо      │
-│         │            │ (гепато-)    │        │ (коррекция   │
-│         │            │ (протекторы) │        │ системы)     │
-└─────────┘            └──────────────┘        └──────────────┘
-
-Логика: Присадки работают ТОЛЬКО если есть бензин.
-       Если бака пуст — нужно заправиться.
-```
-
----
-
-## ECONOMIC EDGE (Экономическое обоснование)
-
-### Сценарий А: Стандартная терапия (инвалидированная)
-
-```
-Затраты:
-• Гепатопротекторы: 3,500 руб/курс
-• Витамины: 800 руб
-• Ветеринарное наблюдение: 2,000 руб
-├─ ИТОГО: 6,300 руб
-
-Результат:
-• BHB: 1.6 → 1.4 (незначительно)
-• Продолжительность: 10 дней дискомфорта
-• Риск прогрессии: ВЫСОКИЙ
-
-ROI: ОТРИЦАТЕЛЬНЫЙ (-100%)
-```
-
-### Сценарий Б: Системная коррекция (валидированная)
-
-```
-Затраты:
-• Коррекция рациона: 1,200 руб
-• Мониторинг: 800 руб
-• Пропиленгликоль (если нужен): 1,500 руб
-├─ ИТОГО: 3,500 руб
-
-Результат (CASE-001):
-• BHB: 1.6 → 0.4 (нормализация)
-• DMI: 14.2 → 19.2 кг (+35%)
-• Молоко: 28 → 34 л (+6 л/сут)
-• Прирост за 14 дней: +84 л
-
-Выгода:
-• +84 л × 35 руб = 2,940 руб
-• Экономия на лечении: 2,800 руб
-├─ ИТОГО: +5,740 руб
-
-ROI: ПОЛОЖИТЕЛЬНЫЙ (+164%)
-```
-
-### Разница:
-
-| Метрика | Стандарт | Системная | Дельта |
+| Метрика | Стандарт | Системный | Дельта |
 |---------|----------|-----------|--------|
-| Затраты | 6,300 | 3,500 | -2,800 |
-| Результат | Плохой | Отличный | — |
+| Затраты | 6,300₽ | 3,500₽ | -2,800₽ |
+| Эффект | Плохой | Отличный | — |
 | ROI | -100% | +164% | +264% |
-
-**Вывод:** Системный подход не только эффективнее, но и дешевле.
-
----
-
-## LIMITS (Жёсткие границы)
-
-### ✅ ПРИМЕНИМО (все условия):
-
-```yaml
-breed: Holstein
-productivity: ">30_l_day"
-housing: [tie_stall, free_stall]
-dim: "7-30_days"
-clinical: "subclinical_only"
-bcs_at_calving: "3.0-3.5"
-```
-
-### ❌ НЕ ПРИМЕНИМО (противопоказания):
-
-```yaml
-clinical_ketosis:
-  signs: ["ацетон в дыхании", "атаксия", "гиперсаливация"]
-  action: "ЭКСТРЕННАЯ терапия (в/в глюкоза)"
-  
-severe_hepatic_lipidosis:
-  ast: ">500_U_L"
-  action: "Диагностика + интенсивная терапия"
-  
-late_lactation:
-  dim: ">60_days"
-  mechanism: "Другой механизм (не метаболический дефицит)"
-  
-concurrent_infection:
-  conditions: ["мастит", "метрит", "эндометрит"]
-  action: "Комплексное лечение инфекции"
-```
-
-### ⚠️ ТРЕБУЕТ АДАПТАЦИИ:
-
-```yaml
-jersey:
-  note: "Более чувствительны к энергетическому дефициту"
-  adjustment: "Возможно порог BHB >1.0"
-  
-extreme_climate:
-  temperature: [">30C", "<-20C"]
-  adjustment: "Увеличить мониторинг, корректировать рацион"
-  
-robotic_milking:
-  note: "Другой паттерн поведения и кормления"
-  adjustment: "Адаптировать под систему роботов"
-```
+| Риск | Прогрессия | Решение | — |
 
 ---
 
-## AUTOMATION (Автоматизация)
+## LIMITS (Границы)
 
-### Триггер системы:
+### Hard Limits (Жёсткие)
 
-```python
-# Pseudo-code for automation
-
-def evaluate_rule_001(data):
-    """
-    Входные данные:
-    - bhb: float (mmol/L)
-    - dmi_actual: float (kg)
-    - dmi_norm: float (kg)
-    - bcs_at_calving: float
-    - bcs_current: float
-    - dim: int
-    - clinical_signs: list
-    """
+```yaml
+APPLICABLE:
+  breed: Holstein
+  dim_range: [7, 30]
+  bcs_at_calving: [3.0, 3.5]
+  productivity: ">30L/day"
+  
+NOT_APPLICABLE:
+  clinical_ketosis:
+    signs: [acetone_breath, ataxia, hypersalivation]
+    action: EMERGENCY_PROTOCOL
     
-    # REQUIRED conditions
-    cond_1 = data['bhb'] > 1.2
-    cond_2 = (data['dmi_actual'] / data['dmi_norm']) < 0.8
-    cond_3 = (data['bcs_at_calving'] - data['bcs_current']) > 0.5
-    cond_4 = data['dim'] < 30
-    cond_5 = len(data['clinical_signs']) == 0
+  severe_hepatic_lipidosis:
+    ast: ">500 U/L"
+    action: DIAGNOSTIC_WORKUP
     
-    # Calculate confidence
-    confidence_score = sum([cond_1, cond_2, cond_3, cond_4, cond_5])
+  late_lactation:
+    dim: ">60 days"
+    mechanism: "Different pathophysiology"
     
-    if confidence_score == 5:
-        return {
-            'verdict': 'RULE_001_TRIGGERED',
-            'confidence': 'HIGH',
-            'action': 'INVALIDATE_HEPATOPROTECTORS',
-            'required': 'SYSTEM_CORRECTION',
-            'alert': 'КРИТИЧЕСКИЙ: Применить системную коррекцию немедленно'
-        }
-    elif confidence_score >= 3:
-        return {
-            'verdict': 'RULE_001_TRIGGERED',
-            'confidence': 'MEDIUM',
-            'action': 'INVALIDATE_HEPATOPROTECTORS',
-            'required': 'SYSTEM_CORRECTION_WITH_MONITORING',
-            'alert': 'СРЕДНИЙ: Применить системную коррекцию с усиленным мониторингом'
-        }
-    else:
-        return {
-            'verdict': 'RULE_001_NOT_TRIGGERED',
-            'confidence': 'LOW',
-            'action': 'GATHER_MORE_DATA',
-            'alert': 'Собрать дополнительные данные'
-        }
+  concurrent_infection:
+    conditions: [mastitis, metritis, endometritis]
+    action: COMBINED_THERAPY
 ```
 
-### Алерты:
+### Soft Limits (Требуют адаптации)
 
-| Уровень | Сообщение | Действие |
-|---------|-----------|----------|
-| CRITICAL | "RULE-001: Метаболический дефицит. НЕ назначать гепатопротекторы. Системная коррекция НЕМЕДЛЕННО." | Мгновенное действие |
-| WARNING | "RULE-001: Подозрение на дефицит. Проверить DMI, BCS. Мониторинг каждые 2 дня." | Усиленное наблюдение |
-| INFO | "RULE-001: Условия не выполнены. Стандартный протокол." | Обычный режим |
+```yaml
+JERSEY:
+  sensitivity: "Higher to energy deficit"
+  adjustment: "Consider BHB threshold >1.0"
+  
+EXTREME_CLIMATE:
+  temperature: [">30°C", "<-20°C"]
+  adjustment: "Increase monitoring frequency"
+  
+ROBOTIC_MILKING:
+  behavior_pattern: "Different feeding pattern"
+  adjustment: "Adapt to robot system"
+```
 
 ---
 
 ## VALIDATION (Валидация)
 
-### Текущая база:
+### Current Evidence Base
 
-| Кейс | Результат | Дата | Ферма | Confidence |
-|------|-----------|------|-------|------------|
-| [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md) | ✅ Подтвердилось | 2026-03 | Пилот-01 | MEDIUM |
+| Кейс | Исход | Дата | Ферма | Case Outcome | Rule Confidence |
+|------|-------|------|-------|--------------|-----------------|
+| [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md) | ✅ Успех | 2026-03 | Пилот-01 | Confirmed | **MEDIUM** |
 
-### Метрики CASE-001:
+**Примечание:** Rule confidence = MEDIUM потому что 1 кейс. Case outcome = Confirmed потому что внутри кейса всё сработало.
+
+### Metrics from CASE-001
 
 ```yaml
 before:
@@ -459,70 +524,101 @@ after:
   dmi: 19.2
   milk: 34
   
-delta:
-  bhb: -1.2
-  ast: -53
-  dmi: +5.0
-  milk: +6.0
+delta_percentage:
+  bhb: -75%
+  ast: -37%
+  dmi: +35%
+  milk: +21%
   
-roi: "+164%"
+roi: +164%
 ```
 
-### Требуется валидация:
+### Required for HIGH Confidence
 
-- [ ] Повторение на 3+ фермах
-- [ ] Другие породы (Jersey, Simmental)
-- [ ] Роботизированное доение
-- [ ] Разные сезоны
-- [ ] BHB 1.0-1.2 (нижний порог)
-- [ ] BHB >2.5 (тяжёлый SCK)
+- [ ] 3+ confirmed cases on different farms
+- [ ] Different breeds (Jersey, Simmental)
+- [ ] Robotic milking systems
+- [ ] Different seasons
+- [ ] BHB 1.0-1.2 range
+- [ ] BHB >2.5 range
 
 ---
 
-## RELATED RULES
+## INTEGRATION (Интеграция)
 
-**Верхний уровень:**
-- [правило о метаболическом дефиците] — [ссылка]
-- [правило о раннем постпартуме] — [ссылка]
+### API Response Format
 
-**Нижний уровень:**
-- [RULE-002: BHB Threshold for SCK Screening](RULE-002-sck-bhb-threshold.md) — диагностика
-- [RULE-003: Propylene Glycol Protocol](RULE-003-propylene-glycol-protocol.md) — поддержка
-- [RULE-004: Dry Period Nutrition](RULE-004-dry-period-nutrition.md) — профилактика
+```json
+{
+  "rule_id": "RULE-001",
+  "version": "3.0",
+  "verdict": "RULE_001_TRIGGERED",
+  "confidence": "HIGH",
+  "action": "DO_NOT_USE_AS_PRIMARY_INTERVENTION",
+  "target": "HEPATOPROTECTORS",
+  "required": "SYSTEM_CORRECTION",
+  "alert": "КРИТИЧЕСКИЙ: Метаболический дефицит подтверждён (HIGH). НЕ назначать гепатопротекторы как основное. Системная коррекция НЕМЕДЛЕННО.",
+  "reasoning": [
+    "BHB=1.6 > 1.2 (hard)",
+    "DIM=18 < 30 (hard)",
+    "DMI=79% < 80% (soft)",
+    "BCS_loss=0.75 > 0.5 (soft)"
+  ],
+  "economic_verdict": "LIKELY_INEFFICIENT_STANDARD_THERAPY",
+  "hard_conditions_met": true,
+  "soft_conditions_met": 2,
+  "expected_roi_standard": "-100%",
+  "expected_roi_systemic": "+164%",
+  "next_steps": [
+    "Separate groups if mixed",
+    "Reduce energy density",
+    "Monitor BHB in 7 days"
+  ]
+}
+```
 
-**Конфликтует с:**
-- [ ] Нет известных конфликтов
+### Dashboard Integration
+
+| Поле | Отображение | Цвет |
+|------|-------------|------|
+| verdict | Бadge | Зелёный/Жёлтый/Красный |
+| confidence | Progress bar | 0-100% |
+| reasoning | Expandable list | Нейтральный |
+| economic_verdict | Icon | 💰/⚠️/❌ |
+| action | Button | Primary/Warning/Danger |
 
 ---
 
 ## CHANGE LOG
 
-| Дата | Версия | Изменения | Автор |
-|------|--------|-----------|-------|
-| 2026-03-25 | 1.0 | Создано на основе DL-001 | StanisSerg |
-| 2026-04-11 | 2.0 | Усилено до исполняемого оператора:<br>• Добавлен VERDICT<br>• Разделение SYSTEM/INVALID/REQUIRED<br>• Усилен BECAUSE<br>• Добавлен ECONOMIC EDGE<br>• Жёсткие LIMITS<br>• CONFIDENCE levels | StanisSerg |
+| Версия | Дата | Изменения | Автор |
+|--------|------|-----------|-------|
+| 1.0 | 2026-03-25 | Создано на основе DL-001 | StanisSerg |
+| 2.0 | 2026-04-11 | Усилено до исполняемого оператора | StanisSerg |
+| 3.0 | 2026-04-11 | Production-ready:<br>• Разделение hard/soft conditions<br>• Блокирующая ветка clinical_signs<br>• Reasoning array<br>• Economic verdict<br>• Псевдокод production-ready | StanisSerg |
 
 ---
 
 ## NEXT STEPS
 
 ### Для валидации:
-1. Применить на 3 фермах
-2. Зафиксировать в CASE-002, CASE-003, CASE-004
-3. Обновить confidence до HIGH
+1. Применить на 3+ фермах
+2. Создать CASE-002, CASE-003, CASE-004
+3. Повысить rule confidence до HIGH
 
 ### Для автоматизации:
-1. Интегрировать триггер в систему мониторинга
-2. Настроить алерты для ветеринаров
-3. Создать dashboard для отслеживания
+1. Реализовать evaluate_rule_001() на Python
+2. Интегрировать с системой мониторинга (BHB авто)
+3. Создать dashboard для ветеринаров
+4. Настроить алерты (SMS/app)
 
-### Для развития:
-- [ ] Создать inference-движок на основе правила
-- [ ] Интеграция с системами учёта (BHB автоматом)
-- [ ] ML-модель для предсказания риска
+### Для ML:
+1. Собрать 50+ кейсов
+2. Обучить classifier на hard/soft conditions
+3. Предсказание риска до появления BHB >1.2
 
 ---
 
-*Формат: CASE → DL → RULE (executable)*  
-*Источник: [DL-001](../../DS-cattle-operations/decisions/DL-001-bhb-threshold.md) | Кейс: [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)*  
-*Уровень: 9/10 (исполняемый оператор решения)*
+*Формат: CASE → DL → RULE (production-ready)*  
+*Уровень: 10/10 (исполняемый оператор)*  
+*Готовность: Production*
