@@ -7,15 +7,21 @@ date_updated: 2026-04-11
 author: StanisSerg
 category: metabolic
 tags: [ketosis, bhb, threshold, metabolic-deficit, liver-function, dmi, bcs]
-status: active
-confidence: medium  # 1 confirmed case
-rule_version: "3.1"
-rule_maturity: pilot-ready
+
+# RULE STATE — наблюдаемый объект во времени
+rule_version: "3.3"
+rule_maturity: pilot-ready  # conceptual → pilot-ready → production → deprecated
+status: testing  # testing / stable / degraded / deprecated
+trend: stable   # improving / stable / degrading (по последним 5 кейсам)
+
+# Временные метки
+last_trigger: 2026-04-11
+last_error: null
+last_review: 2026-04-11
+next_review: 2026-07-11
 
 # Управляемый актив (managed asset)
 metrics_enabled: false  # Включить при: ≥10 triggers И ≥5 confirmed outcomes
-last_reviewed: 2026-04-11
-next_review: 2026-07-11
 
 # Критерии confidence (не руками!)
 confidence_upgrade:
@@ -25,6 +31,7 @@ confidence_upgrade:
     precision: ">80%"           # TP / (TP + FP)
     recall: ">85%"              # TP / (TP + FN)
     economic_precision: ">70%"  # Доля решений с положительным ROI
+    no_p1_unresolved: true      # НЕТ критических неразрешённых ошибок
     conflicts: "none critical unresolved"
   process: automatic  # Не ручное решение
 
@@ -36,15 +43,17 @@ production_criteria:
   error_bounds_defined: true
   seasonal_stability: true
   management_variation_stable: true
+  no_p1_errors: true
 ---
 
 # RULE-001: Ketosis-Threshold-Invalidation
 
 > **Тип:** executable decision operator  
-> **Maturity:** pilot-ready (v3.1)  
+> **Maturity:** pilot-ready (v3.3)  
 > **Управление:** metrics to be enabled at 10+ triggers  
 > **Источник:** [DL-001](../../DS-cattle-operations/decisions/DL-001-bhb-threshold.md)  
-> **Валидация:** [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)
+> **Валидация:** [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)  
+> **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, взаимодействует с RULE-003, RULE-002, RULE-004
 
 ---
 
@@ -697,7 +706,24 @@ NOT raised by hand.
 | **precision** | TP / (TP + FP) | 100% (1/1) | >80% |
 | **recall** | TP / (TP + FN) | Unknown | >85% |
 | **f1_score** | 2 × (P × R) / (P + R) | Unknown | >82% |
-| **economic_precision** | Доля решений с положительным ROI | Unknown | >70% |
+| **economic_precision** | Доля решений с положительным ROI | Unknown | >70% pilot, >80% production |
+
+### Economic Precision (Бизнес-метрика)
+
+```
+economic_precision = (кол-во решений с положительным ROI) / (все применённые решения) × 100%
+
+Где:
+- positive_ROI_decisions: решения, где actual_roi > 0
+- total_applied_decisions: все решения, где правило было применено
+
+Targets:
+- pilot: >70%
+- production: >80%
+
+Это отличает систему от традиционных клинических протоколов —
+мы измеряем не только клиническую точность, но и экономическую эффективность.
+```
 
 ### Регистрация outcomes
 
@@ -735,8 +761,44 @@ outcome_record:
 | **ontology_issue** | Неправильная онтология | Не учли породу |
 | **missing_variable** | Не хватает переменной | Не учли инфекцию |
 | **temporal_issue** | Проблема времени | Задержка между измерением и действием |
-| **acceptable_noise** | Вариативность биологии | Нормальная биологическая вариация, не требует фикса |
+| **acceptable_noise** | Вариативность биологии | Нормальная биологическая вариация |
 | **unpredictable** | Случайность | Редкая комбинация факторов |
+
+### Action by Priority
+
+```yaml
+P1 (critical):
+  threshold: "2+ ошибки с одним root cause ИЛИ 1 критическая системная ошибка"
+  timeline: "24–48 часов"
+  action: "targeted fix или emergency review"
+  examples:
+    - "2 threshold_issue → пересмотр порога"
+    - "data_quality системная → смена оборудования"
+  owner: "rule_owner + technical_lead"
+
+P2 (planned):
+  threshold: "3+ ошибки с одним root cause"
+  timeline: "в ближайший scheduled review"
+  action: "включить в плановый review"
+  examples:
+    - "3 ontology_issue → ревизия модели"
+    - "3 temporal_issue → добавление lag-переменных"
+  owner: "rule_owner"
+
+P3 (no_action):
+  threshold: "acceptable_noise или unpredictable"
+  timeline: "не требует действия"
+  action: "observation only"
+  criteria_acceptable_noise:
+    - "единичный случай (1 раз)"
+    - "нет повторения в 3+ кейсах"
+    - "нет системного паттерна"
+    - "в пределах биологической вариативности"
+  examples:
+    - "BHB 0.8-1.0 в здоровых коровах"
+    - "Незначительные колебания DMI"
+  owner: "rule_owner"
+```
 
 ### Review Schedule
 
@@ -783,6 +845,7 @@ targeted:
 | 3.0 | 2026-04-11 | Pilot-ready:<br>• Разделение hard/soft conditions<br>• Блокирующая ветка clinical_signs<br>• Reasoning array<br>• Economic verdict<br>• Псевдокод production-ready<br>• Убраны гиперболы, добавлена трезвость | StanisSerg |
 | 3.1 | 2026-04-11 | Managed asset:<br>• State machine для verdict states<br>• Rule metrics (таблица)<br>• Root cause categories<br>• Review schedule (3 типа: scheduled/emergency/targeted)<br>• Confidence upgrade criteria<br>• Убрано дублирование Automation | StanisSerg |
 | 3.2 | 2026-04-11 | Evolution-ready:<br>• Review types: scheduled/emergency/targeted<br>• acceptable_noise класс (не чинить биологическую вариативность)<br>• Economic Precision метрика (ROI-based)<br>• Metrics activation: ≥10 triggers И ≥5 outcomes<br>• Temporal issue как future ML input<br>• Root cause priorities (P1/P2/P3) | StanisSerg |
+| 3.3 | 2026-04-11 | Observable asset:<br>• RULE STATE: status/testing/stable/degraded/deprecated<br>• Temporal tracking: last_trigger/error/review<br>• Trend: improving/stable/degrading<br>• Action by Priority: P1/P2/P3 с timeline и owner<br>• Acceptable noise criteria (защита от перетюнинга)<br>• no_p1_unresolved для confidence upgrade | StanisSerg |
 
 ---
 
