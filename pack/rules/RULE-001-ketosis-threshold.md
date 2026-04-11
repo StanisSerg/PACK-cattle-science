@@ -13,7 +13,7 @@ rule_version: "3.1"
 rule_maturity: pilot-ready
 
 # Управляемый актив (managed asset)
-metrics_enabled: false  # Включить после 10+ triggers
+metrics_enabled: false  # Включить при: ≥10 triggers И ≥5 confirmed outcomes
 last_reviewed: 2026-04-11
 next_review: 2026-07-11
 
@@ -22,8 +22,9 @@ confidence_upgrade:
   trigger:
     farms: ">=3"
     cases: ">=10"
-    precision: ">80%"  # TP / (TP + FP)
-    recall: ">85%"     # TP / (TP + FN)
+    precision: ">80%"           # TP / (TP + FP)
+    recall: ">85%"              # TP / (TP + FN)
+    economic_precision: ">70%"  # Доля решений с положительным ROI
     conflicts: "none critical unresolved"
   process: automatic  # Не ручное решение
 
@@ -689,12 +690,14 @@ NOT raised by hand.
 | Метрика | Определение | Текущее значение | Целевое значение |
 |---------|-------------|------------------|------------------|
 | **total_triggers** | Сколько раз правило сработало | 1 | — |
+| **confirmed_outcomes** | Подтверждённых outcomes (TP + FP + FN) | 1 | ≥5 для метрик |
 | **true_positives** | Правило сработало + подтвердилось | 1 | — |
 | **false_positives** | Правило сработало + не подтвердилось | 0 | <20% |
 | **false_negatives** | Правило не сработало + был дефицит | Unknown | <15% |
 | **precision** | TP / (TP + FP) | 100% (1/1) | >80% |
 | **recall** | TP / (TP + FN) | Unknown | >85% |
-| **f1_score** | 2 × (Precision × Recall) / (Precision + Recall) | Unknown | >82% |
+| **f1_score** | 2 × (P × R) / (P + R) | Unknown | >82% |
+| **economic_precision** | Доля решений с положительным ROI | Unknown | >70% |
 
 ### Регистрация outcomes
 
@@ -731,18 +734,43 @@ outcome_record:
 | **threshold_issue** | Порог неверен | BHB 1.1 — пропущен случай |
 | **ontology_issue** | Неправильная онтология | Не учли породу |
 | **missing_variable** | Не хватает переменной | Не учли инфекцию |
-| **temporal_issue** | Проблема времени | Задержка в измерениях |
+| **temporal_issue** | Проблема времени | Задержка между измерением и действием |
+| **acceptable_noise** | Вариативность биологии | Нормальная биологическая вариация, не требует фикса |
 | **unpredictable** | Случайность | Редкая комбинация факторов |
 
 ### Review Schedule
 
-| Trigger | Action |
-|---------|--------|
-| 10 triggers | Включить метрики, первый review |
-| 25 triggers | Анализ ошибок, возможная корректировка |
-| 50 triggers | Рассмотрение confidence upgrade |
-| Каждые 50 triggers | Регулярный review |
-| При 5+ ошибках подряд | Экстренный review |
+| Trigger | Action | Тип |
+|---------|--------|-----|
+| 10 triggers + 5 outcomes | Включить метрики, первый review | scheduled |
+| 25 triggers | Анализ ошибок, возможная корректировка | scheduled |
+| 50 triggers | Рассмотрение confidence upgrade | scheduled |
+| Каждые 50 triggers | Регулярный review | scheduled |
+| **5+ ошибок total** | **Экстренный review** | **emergency** |
+| **2+ одинаковых root cause** | **Targeted fix** | **targeted** |
+
+### Review Types
+
+```yaml
+scheduled:
+  trigger: "Накопление данных"
+  scope: "Общий анализ правила"
+  outcome: "Плановое улучшение или статус-quo"
+
+emergency:
+  trigger: "5+ ошибок любого типа"
+  scope: "Критический пересмотр всей логики"
+  outcome: "Rollback, major revision или status-quo с ограничениями"
+
+targeted:
+  trigger: "2+ ошибки с одинаковым root cause"
+  scope: "Фокус на конкретной оси: данные/порог/онтология/время"
+  outcome: "Быстрый фикс по конкретной оси"
+  examples:
+    - "2 threshold_issue → пересмотр порога BHB"
+    - "2 temporal_issue → добавление lag-переменной"
+    - "2 missing_variable → расширение inputs"
+```
 
 ---
 
@@ -753,7 +781,8 @@ outcome_record:
 | 1.0 | 2026-03-25 | Создано на основе DL-001 | StanisSerg |
 | 2.0 | 2026-04-11 | Усилено до исполняемого оператора | StanisSerg |
 | 3.0 | 2026-04-11 | Pilot-ready:<br>• Разделение hard/soft conditions<br>• Блокирующая ветка clinical_signs<br>• Reasoning array<br>• Economic verdict<br>• Псевдокод production-ready<br>• Убраны гиперболы, добавлена трезвость | StanisSerg |
-| 3.1 | 2026-04-11 | Managed asset:<br>• State machine для verdict states<br>• Rule metrics (таблица)<br>• Root cause categories<br>• Review schedule<br>• Confidence upgrade criteria<br>• Убрано дублирование Automation | StanisSerg |
+| 3.1 | 2026-04-11 | Managed asset:<br>• State machine для verdict states<br>• Rule metrics (таблица)<br>• Root cause categories<br>• Review schedule (3 типа: scheduled/emergency/targeted)<br>• Confidence upgrade criteria<br>• Убрано дублирование Automation | StanisSerg |
+| 3.2 | 2026-04-11 | Evolution-ready:<br>• Review types: scheduled/emergency/targeted<br>• acceptable_noise класс (не чинить биологическую вариативность)<br>• Economic Precision метрика (ROI-based)<br>• Metrics activation: ≥10 triggers И ≥5 outcomes<br>• Temporal issue как future ML input<br>• Root cause priorities (P1/P2/P3) | StanisSerg |
 
 ---
 
