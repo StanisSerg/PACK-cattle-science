@@ -5,29 +5,30 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Сердечно-сосудистая система"
-name_en: "Cardiovascular system"
-abbreviation: "CVS"
+name_ru: Сердечно-сосудистая система
+name_en: Cardiovascular system
+abbreviation: CVS
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.262
 related_entities:
-  - CS.ENTITY.020
-  - CS.ENTITY.089
-  - CS.ENTITY.090
-  - CS.ENTITY.091
-  - CS.ENTITY.092
-  - CS.ENTITY.093
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.096
-  - CS.ENTITY.097
+- CS.ENTITY.020
+- CS.ENTITY.089
+- CS.ENTITY.090
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.093
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.096
+- CS.ENTITY.097
 tags:
-  - cardiovascular-system
-  - heart
-  - blood-vessels
-  - circulation
-  - blood-pressure
-  - cardiac-output
+- cardiovascular-system
+- heart
+- blood-vessels
+- circulation
+- blood-pressure
+- cardiac-output
 ---
 
 # CS.ENTITY.062: Сердечно-сосудистая система (Cardiovascular system)

@@ -1,6 +1,6 @@
 # CS.MAP.001-management: SoTA Index — Менеджмент
 
-> Шард индекса: management (7 SoTA)
+> Шард индекса: management (9 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,15 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 7 |
+| Всего SoTA | 9 |
 | P0 (Фундаментальные) | 0 |
 | P1 (Критически важные) | 1 |
-| P2 (Важные) | 6 |
+| P2 (Важные) | 8 |
 | P3 (Дополнительные) | 0 |
-| Field-study | 3 |
+| Field-study | 4 |
 | Framework | 1 |
 | Review | 2 |
+| Simulation | 1 |
 | Survey | 1 |
 
 ---
@@ -33,6 +34,8 @@
 | [CS.SOTA.233](../../06-sota/management/CS.SOTA.233-plaizier-2004.md) | Plaizier et al. | 2004 | P2 | field-study | `survey, nutrition-practices, tmr` | См. файл для деталей |
 | [CS.SOTA.240](../../06-sota/management/CS.SOTA.240-schaeren-bannert-2026.md) | Schären-Bannert et al. | 2026 | P2 | field-study | `herd-management, work-organization, workflow-analysis` | См. файл для деталей |
 | [CS.SOTA.256](../../06-sota/management/CS.SOTA.256-machuca-2026.md) | Machuca et al. | 2026 | P2 | survey | `calf-transport, preweaning, welfare` | См. файл для деталей |
+| [CS.SOTA.262](../../06-sota/management/CS.SOTA.262-velasquez-2026.md) | Velasquez et al. | 2026 | P2 | field-study | `beef-on-dairy, body-weight-prediction, morphological-models` | См. файл для деталей |
+| [CS.SOTA.267](../../06-sota/management/CS.SOTA.267-weerasingha-2026.md) | Weerasingha et al. | 2026 | P2 | simulation | `salt-diffusion, cheese-production, micellar-casein` | См. файл для деталей |
 
 ---
 
@@ -45,4 +48,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 7 SoTA*
+*Автоматическая генерация: 9 SoTA*

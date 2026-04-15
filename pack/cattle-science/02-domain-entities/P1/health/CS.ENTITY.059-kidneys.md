@@ -11,6 +11,9 @@ abbreviation: KID
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.256
+- CS.SOTA.259
+- CS.SOTA.264
+- CS.SOTA.265
 related_entities:
 - CS.ENTITY.020
 - CS.ENTITY.089

@@ -5,20 +5,28 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: lipid-metabolism
-tags: [perilipin, plin, lipid-droplet, lipolysis-regulation, adipose-tissue, phosphoprotein]
+tags:
+- perilipin
+- plin
+- lipid-droplet
+- lipolysis-regulation
+- adipose-tissue
+- phosphoprotein
 related:
-  - id: CS.ENTITY.169
-    type: related
-    note: ATGL (регулирует доступ)
-  - id: CS.ENTITY.159
-    type: related
-    note: HSL (регулирует доступ)
-  - id: CS.ENTITY.172
-    type: related
-    note: CGI-58 (взаимодействует)
-  - id: CS.ENTITY.170
-    type: related
-    note: Адипофиллин (другой белок дроплетов)
+- id: CS.ENTITY.169
+  type: related
+  note: ATGL (регулирует доступ)
+- id: CS.ENTITY.159
+  type: related
+  note: HSL (регулирует доступ)
+- id: CS.ENTITY.172
+  type: related
+  note: CGI-58 (взаимодействует)
+- id: CS.ENTITY.170
+  type: related
+  note: Адипофиллин (другой белок дроплетов)
+related_sota:
+- CS.SOTA.264
 ---
 
 # Перилипин (Perilipin)

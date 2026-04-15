@@ -170,6 +170,9 @@ related_sota:
 - CS.SOTA.248
 - CS.SOTA.252
 - CS.SOTA.255
+- CS.SOTA.259
+- CS.SOTA.260
+- CS.SOTA.265
 tags:
 - rumen
 - ph

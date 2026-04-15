@@ -7,17 +7,28 @@ area: feeding
 subarea: amino-acid-metabolism
 name_ru: Аспартатаминотрансфераза
 name_en: Aspartate Aminotransferase
-tags: [ast, aspartate-aminotransferase, got, transaminase, liver-marker, muscle-marker, diagnostic]
+tags:
+- ast
+- aspartate-aminotransferase
+- got
+- transaminase
+- liver-marker
+- muscle-marker
+- diagnostic
 related:
-  - id: CS.ENTITY.183
-    type: related
-    note: Аланинаминотрансфераза (сопутствующий маркер)
-  - id: CS.ENTITY.003
-    type: related
-    note: Печень (источник)
-  - id: CS.ENTITY.182
-    type: related
-    note: Лактатдегидрогеназа (сопутствующий маркер)
+- id: CS.ENTITY.183
+  type: related
+  note: Аланинаминотрансфераза (сопутствующий маркер)
+- id: CS.ENTITY.003
+  type: related
+  note: Печень (источник)
+- id: CS.ENTITY.182
+  type: related
+  note: Лактатдегидрогеназа (сопутствующий маркер)
+related_sota:
+- CS.SOTA.257
+- CS.SOTA.259
+- CS.SOTA.261
 ---
 
 # Аспартатаминотрансфераза (AST)

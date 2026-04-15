@@ -5,44 +5,46 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: endocrinology
-name_ru: "Глюкагон"
-name_en: "Glucagon"
-abbreviation: "GLN"
-unit: "пг/мл"
-normal_range: "20-100"
-critical_threshold: "> 150"
+name_ru: Глюкагон
+name_en: Glucagon
+abbreviation: GLN
+unit: пг/мл
+normal_range: 20-100
+critical_threshold: '> 150'
 related_sota:
-  - CS.SOTA.028
-  - CS.SOTA.029
-  - CS.SOTA.030
-  - CS.SOTA.039
-  - CS.SOTA.043
-  - CS.SOTA.053
-  - CS.SOTA.057
-  - CS.SOTA.061
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.035
-  - CS.SOTA.040
-  - CS.SOTA.054
-  - CS.SOTA.058
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.028
+- CS.SOTA.029
+- CS.SOTA.030
+- CS.SOTA.035
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.053
+- CS.SOTA.054
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.061
+- CS.SOTA.257
+- CS.SOTA.258
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.009
-  - CS.ENTITY.015
-  - CS.ENTITY.017
-  - CS.ENTITY.018
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.009
+- CS.ENTITY.015
+- CS.ENTITY.017
+- CS.ENTITY.018
 tags:
-  - glucagon
-  - hormone
-  - catabolic
-  - gluconeogenesis
-  - glycogenolysis
-  - lipolysis
-  - energy-mobilization
-  - transition-period
+- glucagon
+- hormone
+- catabolic
+- gluconeogenesis
+- glycogenolysis
+- lipolysis
+- energy-mobilization
+- transition-period
 ---
 
 # CS.ENTITY.016: Глюкагон

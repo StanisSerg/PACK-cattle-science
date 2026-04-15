@@ -5,17 +5,24 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: lipid-metabolism
-tags: [ppar, transcription-factor, fatty-acid-oxidation, adipogenesis, metabolic-regulation]
+tags:
+- ppar
+- transcription-factor
+- fatty-acid-oxidation
+- adipogenesis
+- metabolic-regulation
 related:
-  - id: CS.ENTITY.158
-    type: related
-    note: CPT1 (target gene)
-  - id: CS.ENTITY.159
-    type: related
-    note: HSL (lipolysis regulator)
-  - id: CS.ENTITY.152
-    type: related
-    note: Mitochondria (PPARα targets)
+- id: CS.ENTITY.158
+  type: related
+  note: CPT1 (target gene)
+- id: CS.ENTITY.159
+  type: related
+  note: HSL (lipolysis regulator)
+- id: CS.ENTITY.152
+  type: related
+  note: Mitochondria (PPARα targets)
+related_sota:
+- CS.SOTA.257
 ---
 
 # Peroxisome proliferator-activated receptor

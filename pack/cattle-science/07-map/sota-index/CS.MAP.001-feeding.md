@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (144 SoTA)
+> Шард индекса: feeding (148 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 144 |
+| Всего SoTA | 148 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 21 |
-| P2 (Важные) | 122 |
+| P2 (Важные) | 126 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
-| Field-study | 45 |
+| Field-study | 49 |
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
@@ -173,6 +173,10 @@
 | [CS.SOTA.247](../../06-sota/feeding/CS.SOTA.247-yang-2001.md) | Yang et al. | 2001 | P2 | field-study | `grain-processing, forage-to-concentrate-ratio, particle-size` | См. файл для деталей |
 | [CS.SOTA.248](../../06-sota/feeding/CS.SOTA.248-zanton-hall-2022.md) | Zanton et al. | 2022 | P2 | field-study | `molasses, cane-molasses, corn-grain` | См. файл для деталей |
 | [CS.SOTA.252](../../06-sota/feeding/CS.SOTA.252-van-amburgh-2019.md) | Amburgh et al. | 2019 | P2 | review | `heifer-nutrition, mammary-development, postweaning` | См. файл для деталей |
+| [CS.SOTA.259](../../06-sota/feeding/CS.SOTA.259-park-2026.md) | Park et al. | 2026 | P2 | field-study | `metabolizable-protein, rumen-protected-histidine, amino-acids` | См. файл для деталей |
+| [CS.SOTA.260](../../06-sota/feeding/CS.SOTA.260-oliveira-2026.md) | Oliveira et al. | 2026 | P2 | field-study | `RUP, grazing-heifer, nitrogen-metabolism` | См. файл для деталей |
+| [CS.SOTA.265](../../06-sota/feeding/CS.SOTA.265-lingga-2026.md) | Lingga et al. | 2026 | P2 | field-study | `rumen-bacteria, cellulose, glucose` | См. файл для деталей |
+| [CS.SOTA.266](../../06-sota/feeding/CS.SOTA.266-galyon-2026.md) | Galyon et al. | 2026 | P2 | field-study | `triticale-silage, forage-inclusion, methane-emissions` | См. файл для деталей |
 
 ---
 
@@ -185,4 +189,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 144 SoTA*
+*Автоматическая генерация: 148 SoTA*

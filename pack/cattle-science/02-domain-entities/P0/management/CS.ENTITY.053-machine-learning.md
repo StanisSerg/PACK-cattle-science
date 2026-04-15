@@ -5,24 +5,25 @@ fpf_type: U.Method
 domain: cattle-science
 area: management
 subarea: technology
-name_ru: "Машинное обучение"
-name_en: "Machine learning"
-abbreviation: "ML"
+name_ru: Машинное обучение
+name_en: Machine learning
+abbreviation: ML
 related_sota:
-  - CS.SOTA.067
+- CS.SOTA.067
+- CS.SOTA.262
 related_entities:
-  - CS.ENTITY.052
-  - CS.ENTITY.067
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.096
+- CS.ENTITY.052
+- CS.ENTITY.067
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.096
 tags:
-  - machine-learning
-  - artificial-intelligence
-  - prediction
-  - data-analysis
-  - precision-dairy
-  - algorithms
+- machine-learning
+- artificial-intelligence
+- prediction
+- data-analysis
+- precision-dairy
+- algorithms
 ---
 
 # CS.ENTITY.053: Машинное обучение (Machine learning)

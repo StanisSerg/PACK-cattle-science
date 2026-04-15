@@ -5,17 +5,25 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: metabolic-regulation
-tags: [mtor, mtorc1, protein-synthesis, anabolism, nutrient-sensing, growth]
+tags:
+- mtor
+- mtorc1
+- protein-synthesis
+- anabolism
+- nutrient-sensing
+- growth
 related:
-  - id: CS.ENTITY.165
-    type: related
-    note: AMPK (opposing regulator)
-  - id: CS.ENTITY.045
-    type: related
-    note: Insulin (activator)
-  - id: CS.ENTITY.164
-    type: related
-    note: PGC-1α (regulated by mTOR)
+- id: CS.ENTITY.165
+  type: related
+  note: AMPK (opposing regulator)
+- id: CS.ENTITY.045
+  type: related
+  note: Insulin (activator)
+- id: CS.ENTITY.164
+  type: related
+  note: PGC-1α (regulated by mTOR)
+related_sota:
+- CS.SOTA.263
 ---
 
 # mTOR (Mammalian target of rapamycin)

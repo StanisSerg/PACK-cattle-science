@@ -14,16 +14,16 @@ critical_threshold: '> 100'
 related_sota:
 - CS.SOTA.007
 - CS.SOTA.009
+- CS.SOTA.028
 - CS.SOTA.035
 - CS.SOTA.037
+- CS.SOTA.039
 - CS.SOTA.040
+- CS.SOTA.043
 - CS.SOTA.053
+- CS.SOTA.054
 - CS.SOTA.055
 - CS.SOTA.057
-- CS.SOTA.028
-- CS.SOTA.039
-- CS.SOTA.043
-- CS.SOTA.054
 - CS.SOTA.058
 - CS.SOTA.060
 - CS.SOTA.061
@@ -32,6 +32,7 @@ related_sota:
 - CS.SOTA.092
 - CS.SOTA.097
 - CS.SOTA.099
+- CS.SOTA.257
 related_entities:
 - CS.ENTITY.003
 - CS.ENTITY.005

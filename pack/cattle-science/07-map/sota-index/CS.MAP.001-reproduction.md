@@ -1,6 +1,6 @@
 # CS.MAP.001-reproduction: SoTA Index — Репродуктивный менеджмент
 
-> Шард индекса: reproduction (28 SoTA)
+> Шард индекса: reproduction (29 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 28 |
+| Всего SoTA | 29 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 6 |
-| P2 (Важные) | 21 |
+| P2 (Важные) | 22 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 3 |
-| Field-study | 11 |
+| Field-study | 12 |
 | Meta-analysis | 3 |
 | Observational | 2 |
 | Research | 4 |
@@ -56,6 +56,7 @@
 | [CS.SOTA.251](../../06-sota/reproduction/CS.SOTA.251-do-2013.md) | Do et al. | 2013 | P2 | field-study | `age-at-first-calving, calving-interval, lifetime-profit` | См. файл для деталей |
 | [CS.SOTA.253](../../06-sota/reproduction/CS.SOTA.253-bauer-2026.md) | Bauer et al. | 2026 | P2 | field-study | `calving, labor-duration, uterine-health` | См. файл для деталей |
 | [CS.SOTA.254](../../06-sota/reproduction/CS.SOTA.254-laplacette-2026.md) | Laplacette et al. | 2026 | P2 | field-study | `double-ovsynch, timed-ai, estrus-detection` | См. файл для деталей |
+| [CS.SOTA.258](../../06-sota/reproduction/CS.SOTA.258-motta-2026.md) | Motta et al. | 2026 | P2 | field-study | `FSH, AMH, IVF` | См. файл для деталей |
 
 ---
 
@@ -68,4 +69,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 28 SoTA*
+*Автоматическая генерация: 29 SoTA*

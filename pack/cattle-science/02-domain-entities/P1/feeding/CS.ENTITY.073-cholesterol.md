@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Холестерин"
-name_en: "Cholesterol"
-abbreviation: "CHOL"
+name_ru: Холестерин
+name_en: Cholesterol
+abbreviation: CHOL
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.257
 related_entities:
-  - CS.ENTITY.066
-  - CS.ENTITY.070
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.066
+- CS.ENTITY.070
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - cholesterol
-  - sterols
-  - steroid-hormones
-  - bile-acids
-  - cell-membranes
-  - lipoproteins
-  - biomarker
+- cholesterol
+- sterols
+- steroid-hormones
+- bile-acids
+- cell-membranes
+- lipoproteins
+- biomarker
 ---
 
 # CS.ENTITY.073: Холестерин (Cholesterol)

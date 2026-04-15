@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metrics
-name_ru: "Время кормления"
-name_en: "Feeding time"
-abbreviation: "FT"
+name_ru: Время кормления
+name_en: Feeding time
+abbreviation: FT
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.257
 related_entities:
-  - CS.ENTITY.055
-  - CS.ENTITY.094
-  - CS.ENTITY.093
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.114
-  - CS.ENTITY.115
+- CS.ENTITY.055
+- CS.ENTITY.094
+- CS.ENTITY.093
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.114
+- CS.ENTITY.115
 tags:
-  - feeding-time
-  - feeding-behavior
-  - dry-matter-intake
-  - appetite
-  - precision-dairy
-  - sensor
-  - biomarker
+- feeding-time
+- feeding-behavior
+- dry-matter-intake
+- appetite
+- precision-dairy
+- sensor
+- biomarker
 ---
 
 # CS.ENTITY.116: Время кормления (Feeding time)

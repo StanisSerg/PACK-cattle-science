@@ -11,6 +11,9 @@ abbreviation: THY
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.199
+- CS.SOTA.257
+- CS.SOTA.260
+- CS.SOTA.264
 related_entities:
 - CS.ENTITY.056
 - CS.ENTITY.081

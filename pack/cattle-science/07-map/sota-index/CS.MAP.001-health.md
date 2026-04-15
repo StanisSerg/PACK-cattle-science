@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (66 SoTA)
+> Шард индекса: health (70 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 66 |
+| Всего SoTA | 70 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
-| P2 (Важные) | 33 |
+| P2 (Важные) | 37 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 10 |
 | Experimental-study | 2 |
-| Field-study | 27 |
+| Field-study | 31 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -96,6 +96,10 @@
 | [CS.SOTA.246](../../06-sota/health/CS.SOTA.246-venjakob-2017.md) | Venjakob et al. | 2017 | P2 | field-study | `hypocalcemia, milk-fever, subclinical-hypocalcemia` | См. файл для деталей |
 | [CS.SOTA.250](../../06-sota/health/CS.SOTA.250-akerstrom-2025.md) | Åkerström et al. | 2025 | P2 | field-study | `hoof-trimming, lameness, claw-lesions` | См. файл для деталей |
 | [CS.SOTA.255](../../06-sota/health/CS.SOTA.255-bertens-2026.md) | Bertens et al. | 2026 | P2 | field-study | `mastitis, LPS, probiotic` | См. файл для деталей |
+| [CS.SOTA.257](../../06-sota/health/CS.SOTA.257-von-riedheim-2026.md) | Riedheim et al. | 2026 | P2 | field-study | `colostrum, neonatal-calf, endocrine` | См. файл для деталей |
+| [CS.SOTA.261](../../06-sota/health/CS.SOTA.261-denholm-2026.md) | Denholm et al. | 2026 | P2 | field-study | `potassium-sorbate, colostrum-preservation, bacterial-contamination` | См. файл для деталей |
+| [CS.SOTA.263](../../06-sota/health/CS.SOTA.263-vorndran-2026.md) | Vorndran et al. | 2026 | P2 | field-study | `calf-growth, milk-feeding, body-weight-oscillation` | См. файл для деталей |
+| [CS.SOTA.264](../../06-sota/health/CS.SOTA.264-ronn-2026.md) | Rønn et al. | 2026 | P2 | field-study | `iodoform, pharmacokinetics, metabolism` | См. файл для деталей |
 
 ---
 
@@ -108,4 +112,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 66 SoTA*
+*Автоматическая генерация: 70 SoTA*
