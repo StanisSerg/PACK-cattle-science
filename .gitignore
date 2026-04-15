@@ -11,3 +11,20 @@ process/working/
 # OS
 .DS_Store
 Thumbs.db
+
+# PDF archives (moved to external storage: /root/PACK-cattle-science-pdfs/)
+process/ingestion/archive/**/*.pdf
+process/ingestion/archive/**/*.txt
+
+# Temporary ingestion artifacts
+process/ingestion/*.json
+process/ingestion/new-articles/*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PDF in pack content
+pack/**/**/*.pdf
