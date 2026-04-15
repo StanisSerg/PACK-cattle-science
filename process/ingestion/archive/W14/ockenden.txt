@@ -1,0 +1,1623 @@
+J. Dairy Sci. 108:3515–3528
+https://doi.org/10.3168/jds.2024-25546
+
+© 2025, The Authors. Published by Elsevier Inc. on behalf of the American Dairy Science Association®.
+This is an open access article under the CC BY license (https://creativecommons.org/licenses/by/4.0/).
+
+Early-life nutrition and its effects on the developing heifer:
+Growth, nutritive intakes, and metabolism
+E. M. Ockenden,1,2*
+1
+
+V. M. Russo,1,3
+
+B. J. Leury,2,3
+
+K. Giri,4
+
+Agriculture Victoria, Ellinbank, VIC 3821, Australia
+Faculty of Science, University of Melbourne, Parkville, VIC 3010, Australia
+Centre for Agricultural Innovation, University of Melbourne, VIC 3010, Australia
+4
+Agriculture Victoria, Bundoora, VIC 3083, Australia
+
+and W. J. Wales1,3
+
+2
+3
+
+ABSTRACT
+
+INTRODUCTION
+
+We aimed to assess the effects of preweaning nutrition
+and postweaning growth rates on the metabolic characteristics of replacement dairy heifers until 20 mo of
+age. At birth, heifers were allocated to 1 of 4 treatment
+groups, which were a combination of preweaning (high
+or low preweaning nutritional treatment) and postweaning treatments (high or low postweaning growth rate).
+In the preweaning phase (birth until weaning at 10 wk
+of age), heifers were subject to either a high (8 L/d) or
+a low (4 L/d) milk feeding strategy; then, at weaning,
+either a high or a low postweaning growth rate. Heifers in the high preweaning treatment groups recorded
+greater growth rates until weaning compared with heifers
+in the low preweaning treatment groups. Heifers in the
+high preweaning groups consumed approximately twice
+the amount of milk and half the amount of concentrate.
+Blood samples taken at 6 wk of age had lower BHB and
+higher glucose and IGF-1 concentrations in the high
+preweaning treatment in the preweaning phase; these differences disappeared postweaning. Additionally, insulin
+levels were also higher, and quantitative insulin sensitivity check index (QUICKI) results were lower for heifers
+on the high preweaning treatment and for those on the
+high postweaning treatment at 6 wk and 13 mo of age.
+No differences between treatments were detected at 8 mo
+of age. Results indicate a positive effect of accelerated
+preweaning nutrition and postweaning growth rate (at
+13 mo of age) on these metabolic biomarkers; however,
+these treatment effects were independent of one another
+and reflected the nutritional input at the time.
+Key words: preweaning nutrition, postweaning nutrition,
+accelerated milk feeding, heifer calf development
+
+Optimizing the growth rate of heifers (female cows
+yet to calve) provides opportunity to improve lifetime
+production and resilience of dairy cows. A cow that is
+more resilient will suffer fewer metabolic or pathogenicassociated diseases, consistently produce high levels of
+milk, and live longer in the herd. Improving lifetime
+production per cow can increase the economic profitability of enterprises while reducing the environmental
+impact of the industry (De Vries, 2017; Grandl et al.,
+2019). Optimal heifer growth is defined through target
+weights that set the ideal weight of a heifer at various
+stages of her development to maximize her productivity
+and longevity. The Australian industry target weight for
+dairy heifers is 85% of mature liveweight at first calving
+(Dairy Australia, 2020), with the presumption that bigger
+heifers at calving are more productive over their lifetime
+(Macdonald et al., 2005; Dairy Australia, 2020).
+The suitability of rearing strategies and intermittent
+growth targets for replacement dairy heifers in Australia are unclear. Although an ideal target weight of
+85% mature liveweight at calving is known to increase
+productivity and longevity within the herd, how to best
+achieve this end point is not specified. Recent research
+has focused on accelerated milk feeding of heifers in the
+preweaning phase, but little effort has been made beyond
+weaning, particularly in combination with the postweaning growth phase. Further, there is limited understanding
+of the ongoing physiological effects or consequences of
+the accelerated growth phase on future growth and resilience. Compensatory growth is a phenomenon often
+observed in ruminants after periods of feed restriction
+(Owens et al., 1993). Yet, it is not understood whether
+this compensation influences the development of physiological mechanisms including immunity and metabolism,
+as well as BW.
+In the preweaning phase, the calf transitions into a
+functioning ruminant. Before this transition, energy is
+supplied primarily in the form of glucose and fatty acids
+
+Received August 5, 2024.
+Accepted December 4, 2024.
+*Corresponding author: emma.ockenden@​agriculture​.vic​.gov​.au
+
+The list of standard abbreviations for JDS is available at adsa.org/jds-abbreviations-25. Nonstandard abbreviations are available in the Notes.
+
+3515
+
+3516
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+Table 1. Mean nutritive characteristics of feed offered during the pre- and postweaning phases1
+Item
+
+Preweaning
+concentrate
+
+Lucerne hay
+
+Postweaning concentrate
+(weaning to 12 mo)
+
+Yearling concentrate
+(12 mo +)
+
+Silage
+
+Pasture
+
+CP
+ADF
+NDF
+Lignin
+NFC
+Starch
+CF
+Ash
+ME2
+
+23.3
+11.0
+16.1
+3.4
+50.4
+31.4
+3.6
+6.6
+13.4
+
+17.3
+40.7
+45.6
+10.0
+24.8
+1.6
+2.7
+9.6
+8.8
+
+19.0
+7.7
+13.2
+2.4
+58.4
+40.1
+2.8
+6.6
+13.3
+
+17.6
+7.4
+14.3
+1.5
+58.3
+41.0
+3.0
+6.8
+13.4
+
+11.7
+41.4
+65.9
+5.8
+8.9
+1.4
+4.3
+9.3
+9.0
+
+15.9
+33.5
+53.2
+5.5
+17.0
+1.9
+4.9
+8.9
+10.0
+
+1
+2
+
+All values are % DM unless otherwise stated. CF = crude fat.
+MJ/kg.
+
+in milk. As the rumen develops, and rumen fermentation
+begins to dominate, the energy supply changes to VFA
+(Quigley et al., 1991; Baldwin et al., 2004; Khan et al.,
+2011b). During the preweaning phase, high concentrations of BHB have been used in calf nutritional studies
+as a proxy indicator for concentrate intake and rumen
+development (Khan et al., 2011a; Byrne et al., 2017).
+As adults, in addition to BHB, nonesterified fatty acid
+(NEFA) is also used as an indicator of mobilization of
+body reserves and energy balance in response to the
+high energy demands of lactation (Taylor et al., 2003;
+Chandler et al., 2018; Tessari et al., 2020). Higher IGF-1
+concentrations have been reported with increased ADG
+and ME intake and positively associated with advanced
+growth rates and organ development in calves (Vicari
+et al., 2008; Rosadiuk et al., 2021; Wilms et al., 2022).
+During lactation, the concentration of IGF-1 is said to
+decrease during prolonged periods of energy deficit
+(McGuire et al., 1995), and low concentrations have also
+been associated with detrimental effects on fertility (Taylor et al., 2003). Studies have also investigated nutrient
+partitioning leading to the selection of cows with optimal
+genetic partitioning characteristics for milk production
+(Oltenacu and Broom, 2010). However, environmental
+factors, such as preweaning nutrition, also result in permanent changes to metabolic function (Opsomer et al.,
+2016), yet the mechanisms and long-term preservation of
+these changes have not been fully investigated.
+This experiment examined the effects of 4 early-life
+growth paths on growth and metabolic characteristics
+of Holstein-Friesian replacement dairy heifers as a surrogate for future resilience. The metabolic biomarkers
+selected are metabolites frequently used throughout the
+literature to examine the current metabolic state of dairy
+cows and calves. Postweaning treatment design was
+based upon the current Australian heifer rearing strategy,
+with fixed BW targets set to achieve a predetermined
+precalving BW. It is one of the few longer-term development studies in dairy cows with a focus on a combinaJournal of Dairy Science Vol. 108 No. 4, 2025
+
+tion of varying pre- and postweaning rearing strategies.
+This will enable us not only to establish any potential
+benefits on resilience from feeding more milk to calves
+in the preweaning phase but also to evaluate the benefits
+of varying growth rates in the postweaning phase, in particular whether faster postweaning growth can overcome
+any potential negative effects on resilience from feeding less milk in the preweaning phase. The hypotheses
+tested were (1) that in the preweaning phase, heifers that
+receive a high milk allowance will have greater growth
+rates than heifers that receive a low milk allowance until
+weaning; and (2) that heifers that receive a high milk allowance preweaning will have physiologically superior
+metabolic characteristics than heifers that receive a low
+milk allowance preweaning until 13 mo of age regardless
+of postweaning growth rate.
+MATERIALS AND METHODS
+
+The preweaning phase of this experiment was undertaken at the Agriculture Victoria Dairy Research Centre,
+Ellinbank, Victoria, Australia (38°14′S,145°56′E), in
+collaboration with the University of Melbourne, from
+July to October 2021 (Australian spring). Postweaning, the heifers were transported to Agriculture Victoria Dairy Research Centre’s heifer rearing contractor
+property, located 20 km away, for the remainder of the
+experiment. Approval to proceed was granted by the
+Agricultural Research and Extension Animal Ethics
+Committee, application number 2021-08. Experimental
+procedures were conducted in accordance with the Australian Code of Practice for the Care and Use of Animals
+for Scientific Purposes (National Health and Medical
+Research Council, 2013).
+Experimental Design and Treatments
+
+A total of 80 spring-born Holstein-Friesian replacement heifers were enrolled at birth and remained under
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+experimental conditions until approximately 20 mo of
+age. Heifers were randomly assigned to 1 of 4 treatments
+at birth (treatment titles signify preweaning treatment
+and postweaning growth rate, respectively):
+1. High–high (HH)
+2. High–low (HL)
+3. Low–high (LH)
+4. Low–low (LL)
+Treatments were balanced for heifers’ birth weight, parity
+of the dam, and estimated Balanced Performance Index
+(BPI; Australia’s national selection index). All BPI were
+calculated before birth using the average of the parents’
+BPI. As treatments neared full allocation, these parameters were checked to ensure they remained balanced.
+In any instance where they were not balanced between
+treatments, randomization was overruled. Calves were
+separated into 4 groups by date of birth (i.e., the first
+20 calves were allocated to group 1, the following 20
+calves born were allocated to group 2, and so on). Each
+group was housed in a separate pen and followed their
+own timeline, with 5 calves of each treatment per group
+or pen; thus, pen being a blocking factor, and design of
+the experiment being randomized complete block design.
+During the preweaning phase, the assigned 80 heifers
+underwent 1 of 2 nutritional treatments:
+1. High preweaning treatment (HH and HL): 8-L milk
+allocation daily (40 heifers).
+2. Low preweaning treatment (LH and LL): 4-L milk
+allocation daily (40 heifers).
+At weaning, the predetermined postweaning strategies
+were then evenly distributed within each of the preweaning treatments, giving rise to the 4 experimental treatments of 20 heifers. Heifers followed either a high or
+a low postweaning growth rate. Postweaning treatment
+design was based on current Australian heifer rearing
+strategies and were defined by set target weights. Target
+weights were applied according to the group average.
+Heifers followed 4 growth trajectories toward 1 of 2
+final precalving weights. Target weights were based on
+the historical data form the Ellinbank Research Farm
+dairy herd and the ideal weight range of 85% mature
+liveweight at first calving. The precalving target weights
+were as follows:
+1. High postweaning growth rate (HH and LH): 600 kg.
+2. Low postweaning growth rate (HL and LL): 530 kg.
+To achieve this in the first 9 mo after weaning, the LH
+group was grown at a faster rate to catch up to the HH
+group, and the HL group’s growth was restricted to meet
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+3517
+
+the LL group’s lower average BW. Heifers completed the
+experiment at 20 mo of age.
+Animal Management
+
+At birth, each heifer was fitted with an individual identification ear tag as part of normal farm practice. These
+tags also allowed for identification of the individual calf
+within the automatic feeding system. Heifers were group
+housed within four pens (20 heifers per pen). Each of the 4
+pens contained an equal number (n = 5) of heifers assigned
+to each of the 4 treatments. Pens were filled sequentially
+by date of birth to allow for age-appropriate grouping.
+Heifers were separated from their dams and given 4 L
+of pooled fresh colostrum with >22% Brix index within
+8 h of birth. Before enrolment, at 24 to 48 h after birth,
+successful passive transfer of immunity was confirmed
+using blood serum Brix refractometer methods (de Souza
+et al., 2021). Following the initial colostrum feeding, the
+first 4 milk meals fed to all heifers was 2 L of colostrum
+milk (milk from the second to the fourth milking after
+birth) via individual teat feeders within nursery pens (up
+to 5 heifers per pen). Heifers were then transferred to
+the experimental calf rearing facility, where they were
+fed whole saleable milk via automatic calf feeders (Lely
+Calm; Lely Australia, Truganina, Victoria, Australia) according to their treatment allocation. Heifers in the high
+treatment group were gradually accustomed to the higher
+volume of milk, by capping the milk on the first day to
+6 L, then 8 L daily after that. Milk meal size was capped
+at 2 L per feed with a defined 2-h gap between meals
+for both treatment groups to avoid overconsumption. The
+automatic feeder software recorded the individual daily
+intake of milk for each calf.
+All heifers were allowed up to 3 kg of a commercial
+calf concentrate (Reid Stockfeeds–Gippsland, Trafalgar,
+Victoria, Australia) per day via calf automatic concentrate feeders (Lely Calm; Lely Australia, Truganina,
+Victoria, Australia). Individual daily concentrate intake
+was recorded by the feeder software. Water and a lucerne
+hay (Medicago sativa) were available ad libitum within
+each pen. The intake of water and hay was not recorded
+for this experiment.
+Heifers were weighed using electronic scales at 24 to
+48 h of age, representing birth BW. Body weight measurements were then taken on a weekly basis until weaning.
+Heifers were weaned over 10 d from 10 wk of age. The
+automatic feeders were programmed to reduce the milk
+allocation by 10% daily over 10 d with 1 L remaining
+on the final day. Once weaning was completed, heifers
+entered the postweaning phase of the experiment.
+In the postweaning phase, heifers were run as a single
+herd. All heifers had access to grazed pasture as the
+majority of the diet. In instances where pasture was
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+limited (due to seasonal availability), pasture silage
+was fed out in the paddock. Additionally, heifers also
+had access to a commercial concentrate (Reids Stockfeeds, Calf Weaner until 12 mo of age, then Yearling
+Mix from 12 mo onward) via an in-paddock automatic
+concentrate feeder (Velos Cow Feeding Station, Nedap
+N.V. Livestock Management, Groenlo, the Netherlands).
+Individual daily intake was recorded by the feeder software. Individual concentrate rations were adjusted after
+each weighing to ensure treatment growth trajectories
+stayed on target. Pasture was restricted for all heifers in
+instances where any one treatment group was exceeding
+treatment target weights, using strip grazing methods.
+Heifers were weighed on electronic scales fortnightly
+for the first 6 mo at pasture and then monthly for the
+remainder of the experiment.
+Nutritional Measurements
+
+During the preweaning phase, a representative milk
+sample of approximately 20 mL was collected fortnightly and sent to a commercial laboratory (HICO Laboratories, Korumburra, Victoria, Australia). Samples were
+analyzed to determine fat, protein, and lactose concentrations. The mean nutritive concentration of whole milk
+fed to heifers throughout the preweaning period was 3.4
+± 0.44% (mean ± SD) fat, 3.3 ± 0.21% protein, and 4.8
+± 0.12% lactose.
+During the preweaning phase, representative samples
+of concentrate and hay were taken each fortnight. In the
+postweaning phase, representative samples of concentrate, silage, and pasture were collected monthly. Pasture
+samples were initially washed and then left to dry at
+4°C for 2 h before processing. For processing, half of
+all samples were dried at 105°C for 48 h to determine
+the percentage DM. The remaining half was oven-dried
+at 60°C for 48 h before being ground through a 1-mm
+sieve and sent to a commercial laboratory for wet chemistry analysis (Dairy One Forage Laboratory, Ithaca,
+NY; Dairy One, 2023). The nutritive characteristics are
+presented in Table 1.
+Blood Collection and Biomarker Analyses
+
+At 6 wk, 8 mo, and 13 mo of age, blood samples were
+taken from each heifer to determine the concentration of
+metabolic biomarkers. In the preweaning phase, access
+to milk and concentrate feeders were restricted for 2 h
+before blood sampling. No fasting was implemented for
+either postweaning blood samples. Blood samples were
+collected in evacuated tubes containing lithium heparin,
+EDTA, or fluoride/oxalate, as well as plain evacuated
+tubes. Lithium heparin, EDTA, and fluoride/oxalate tubes
+were stored on ice before centrifugation at 1,578 × g for
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+3518
+
+15 min at 4°C. Plain evacuated tubes were incubated at
+24°C for 2 h before centrifugation at 1,258 × g for 15 min
+at 24°C. Plasma and serum samples were then stored at
+−20°C before analyses.
+Metabolic biomarker analyses included BHB, NEFA
+glucose, insulin, and insulin-like growth factor-1 (IGF1). The BHB, NEFA, and glucose assays were performed
+using Catachem Inc. reagents, controls and calibrators
+as per manufacturer’s instructions, on a ChemWell 2910
+automated analyzer at AgriBio laboratories (Bundoora,
+Victoria, Australia). Insulin and IGF-1 assays were developed and conducted at the Assay Centre, School of
+Agriculture, Food and Ecosystems Sciences, the University of Melbourne, Parkville, Australia. Insulin concentrations were measured in a homologous double antibody
+radioimmunoassay (RIA). The RIA was performed using
+purified insulin antiserum raised in guinea pig (Antibodies Australian) and purified bovine insulin for iodination
+and standard (Sigma-Aldrich, cat. no. I5500). Full assay
+methods can be found in Ockenden et al. (2023).
+Bovine plasma IGF-1 concentration was measured
+following sample extraction in a homologous double
+antibody RIA. The RIA was performed using human
+IGF-1 antiserum raised in rabbit (National Hormone
+and Peptide Program [NHPP] AFP4892898), and human IGF-1 for iodination and standard (GroPep, Human
+IGF-1, receptor grade). To extract the sample, 200 µL
+of acid/ethanol extraction solution (0.25 M HCl in 100%
+ethanol) was added to 50 µL of sample, vortexed, and
+then incubated at room temperature for 30 min. Following incubation, the sample was centrifuged at 10,000 × g
+for 20 min at 4°C and the supernatant collected, to which
+100 µL of 0.885 M Tris was added. After mixing, the
+sample was stored at −20°C for 60 min and then centrifuged again at 10,000 × g for 20 min at 4°C with this
+final supernatant collected for IGF-1 assay. For the assay,
+200 µL of assay buffer (0.5% BSA/0.03 M sodium phosphate monobasic/0.2 M sodium phosphate dibasic/0.1%
+sodium azide/0.1% triton X) and 200 µL of first antibody
+(1:20,000) diluted in 1:300 normal rabbit serum was
+added to duplicate plastic tubes containing either 100 µL
+of standard (0.1638–40 ng/mL) or 100 µL of extracted
+sample. After preincubation at 4°C for 72 h, 125I iodinated human IGF-1 was added (15,000 cpm/100 µL), and
+the incubation continued for a further 24 h at 4°C. The
+antibody-bound hormone was separated from the free
+hormone by the addition of 200 µL of goat-anti-rabbit
+(1:75). The tubes were incubated with the second antibody overnight at 4°C before centrifugation (10,000 × g,
+30 min, 4°C), after which the supernatant was aspirated
+and the precipitate counted in a gamma counter. Insulin
+sensitivity was determined using the quantitative insulin
+sensitivity check index (QUICKI) with the following
+equation (Singh and Saxena, 2010):
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+QUICKI = 1/[log glucose (mg/dL)
++ log insulin (mIU/L)].
+
+entering the postweaning phase of the experiment; therefore only her preweaning data are included in the analyses.
+RESULTS
+
+Statistical Analysis
+
+The effects of treatment on growth rates, nutritive intakes, and metabolic biomarkers were examined using
+linear mixed models (LMM) in GenStat 22nd Edition
+(VSN International, Hemel Hempstead, UK). The LMM
+were fitted using restricted maximum likelihood with
+individual calf as the unit of analysis. The fixed effects
+included the main effect of the preweaning diet, main effect of the postweaning diet, main effect of time factor,
+and their 2- and 3-way interactions. The effects of covariates (birth BW, estimated BPI, and age of the dam)
+were also fitted as fixed effects. The effects of blocking
+factor pen and calf within pen were fitted as random effects. The random term calf within pen was used as residual term. The random effects were assumed to be
+normally distributed with zero mean and constant variance. The LMM used to analyze data in the preweaning
+phase differed from the overall model in that it included
+treatment groups, time, and their interaction as fixed effects. However, the covariates and random effects structure remained the same as in the overall model. Normality of residuals was checked using histograms and plots
+of residuals versus fitted values. The significant differences among treatment groups at a time point are presented using Duncan’s letters based on the LSD test,
+where LSD is approximately 2 × SE of treatment differences. Insulin and IGF-1 data were required to be logarithmically transformed to meet the assumption of normality. These treatment means were then back-trans
+σˆ2 
+
+formed using the basis correction factor exp µˆ + ,
+
+2 
+where µ̂ and σ̂ 2 are the estimated treatment mean and residual variance, respectively, in the logarithmic scale
+(Smith, 1993).
+Treatment sample size was determined using the LSD
+formula: LSD = t0.975 2σˆ2 n , t0.975 being the 0.975 per-
+
+centile of t distribution and approximately equal to 2, σ̂ 2
+being estimated variance in liveweight from a previous
+experiment (Korst et al., 2017). The n, number replication per treatment, can be written as
+2
+t
+× σˆ 
+
+0.975
+
+
+n = 2
+ .
+ LSD 
+
+We found 9.4 kg liveweight to be a reasonable LSD to
+detect differences between treatments in our experiment.
+One heifer from the HH treatment group died shortly after
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+3519
+
+Growth Rates
+
+At birth, no significant differences in BW appeared
+between the treatment groups (Figure 1). From 1 wk of
+age the high milk-fed treatment groups (HH and HL)
+were significantly heavier than the low milk-fed treatment groups (LH and LL; wk 1: P = 0.017; wk 2–wk 11:
+P < 0.001). The separation between the 2 growth paths
+increased until weaning at 12 wk of age, resulting in approximately a 15-kg difference in BW (P < 0.001).
+Deliberately, in the postweaning phase (Figure 2) the
+HL and LH treatment groups’ BW converged at between
+8 and 9 mo of age and began to separate again after 11 mo
+of age. At 13 mo, postweaning treatment groups aligned
+(HH with LH and HL with LL), and the difference in
+BW was consistent until 15 mo of age, per experimental
+design. However, after 15 mo of age, the heifers from the
+high preweaning treatments had greater ADG than those
+from the low preweaning treatments, and BW started to
+separate again.
+Feed Intake
+
+Daily milk intake for the high treatment groups (HH
+and HL) was higher than the low treatment groups
+(LH and LL) throughout the preweaning period (Table
+2). During the first week, heifers in the low milk-fed
+groups consumed slightly under their allocation (LH:
+3.95 ± 0.020 L/calf per day; LL: 3.83 ± 0.040 L/calf
+per day), but in all subsequent weeks they consumed
+their 4-L allocation daily until weaning started at 10 wk
+of age. Heifers in the high treatment groups consumed
+almost twice this, with 6.94 ± 0.118 L daily in the
+first week, followed by ≥7.6 L/calf per day for the HL
+group; and 7.22 ± 0.117 in wk 1, followed by ≥7.6 L/
+calf per day for the HH group for all other weeks until
+weaning commenced at 10 wk of age. After weaning
+commenced, milk intakes reduced by 10% per day for
+10 d, with 1 L remaining on d 10 and no milk allowance on d 11 of weaning. Throughout the preweaning
+period, the total average amount of milk consumed by
+heifers in the low milk-fed group was 298 L, containing
+10.1 kg of CP, 834 MJ of ME, and 10.43 kg of crude
+fat (CF). The high milk-fed heifers consumed a total
+average of 582 L, containing 19.4 kg of CP, 1,595 MJ
+of ME, and 20.4 kg of CF.
+During the preweaning phase, daily concentrate intakes
+were significantly different between the low and high
+milk-fed groups from 4 wk of age (Table 3). Both low
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+3520
+
+Figure 1. Preweaning BW (kg) and ADG (kg) of heifers on 4 different growth trajectories (HH = high preweaning treatment and high postweaning
+growth rate; HL = high preweaning treatment and low postweaning growth rate; LH = low preweaning treatment and high postweaning growth rate;
+LL = low preweaning treatment and low postweaning growth rate). Preweaning, heifers were fed either 8 L (HH and HL) or 4 L (LH and LL) of
+milk daily. Floating bars indicate SE of the difference (SED) at each time point, and asterisks (*) indicate significant differences in preweaning BW
+between treatments (P < 0.05). When the difference between any treatment means (within time) was greater than approximately 2× the SED value,
+that difference would be significant at 5% level of significance.
+
+milk-fed groups (LL and LH) started consuming concentrate from the first week of age, whereas the high milkfed groups (HH and HL) did not start until approximately
+3 wk of age. During the preweaning period, the average
+concentrate intake of the low milk-fed heifers was approximately twice that of the high milk-fed heifers. At
+completion of the preweaning phase, heifers in the LH
+and LL groups were consuming an average of 1.7 kg DM/
+calf per day and the HH and HL groups 1.4 kg DM/calf
+per day of concentrate. The mean amount of concentrate
+consumed for the low milk-fed heifers during the whole
+preweaning period was 57 kg of DM, containing 13.2 kg
+of CP, 763 MJ of ME, and 2.05 kg of CF compared with
+the high milk-fed heifers that consumed 29 kg of DM,
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+containing 6.8 kg of CP, 392 MJ of ME, and 1.04 kg of
+CF throughout the preweaning period.
+Postweaning concentrate allocation was manipulated
+monthly according to treatment average BW as part of
+the experimental protocol (Table 4). For the first 4 mo
+postweaning, concentrate intake was not different between treatments. Between 3 and 5 mo of age, all treatments consumed approximately 0.6 kg/heifer per day,
+and then concentrate was withheld for a month at 6 mo.
+Between 7 and 12 mo of age, the concentrate allocation
+varied between treatments, with only the high postweaning groups being offered concentrate. During this time,
+the HH group consumed 46 kg DM of concentrate, and
+the LH group consumed almost 3 times as much at 130
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+3521
+
+Figure 2. Postweaning BW (kg) and ADG (kg) of heifers on 4 different growth trajectories (HH = high preweaning treatment and high postweaning growth rate; HL = high preweaning treatment and low postweaning growth rate; LH = low preweaning treatment and high postweaning growth
+rate; LL = low preweaning treatment and low postweaning growth rate). Preweaning, heifers were fed either 8 L (HH and HL) or 4 L (LH and LL) of
+milk daily. Postweaning growth rate targets were manipulated as per experimental design at either a high (HH and LH) or a low (HL and LL) postweaning growth rate. Floating error bars indicate the SE of the difference (SED) at each time point, and asterisks (*) indicate significant differences
+in postweaning BW between treatments (P < 0.05). When the difference between any treatment means (within time) was greater than approximately
+2× the SED value, that difference would be significant at 5% level of significance.
+
+kg DM. After 12 mo of age, concentrate continued to be
+withheld from the low postweaning groups until 18 mo
+of age. From 16 mo of age, the LH group required additional grain (61 kg DM) compared with the HH group
+to maintain similar weight gains during this period.
+This was also observed between the LL and HL groups,
+where the LL required more grain from 18 mo of age in
+attempt to keep up with the HL group BW (27 kg DM).
+The total grain consumption per treatment group in the
+postweaning phase were HH = 359 kg DM (containing a
+total CP of 61.4 kg; 4,567 MJ of ME and 8.9 kg CF); HL
+= 60 kg DM (11.4 kg CP; 802 MJ ME and 1.8 kg CF);
+LH = 516 kg DM (93.4 kg CP; 6,892 MJ ME and 13.3
+kg CF), and LL = 87 kg DM (16.1 kg CP; 1,161 MJ ME
+and 2.23 kg CF).
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+Metabolic Biomarkers
+
+An interaction effect between preweaning treatment
+and age was detected for BHB (P = 0.013), glucose (P <
+0.001), and IGF-1 (P < 0.001) concentrations (Figure 3).
+The low milk-fed heifers had a significantly higher BHB,
+lower glucose, and lower IGF-1 concentrations than the
+high milk-fed groups at 6 wk of age. However, by 8 and
+13 mo of age, these treatment differences were lost. Interaction effects occurred for both preweaning treatment
+and age, and postweaning treatment and age for insulin
+concentrations (P < 0.001 and P < 0.001, respectively)
+and QUICKI results (P < 0.001 and P = 0.001, respectively). Insulin concentrations were greater for heifers at
+the times when they were on higher planes of nutrition,
+
+3522
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+Table 2. Mean (±SE) daily milk intake (L) and total nutrients from milk for heifers offered 8 L (HH and HL) and 4 L (LH and LL) of milk daily in the
+preweaning phase, as summary data1
+Treatment
+Item
+Age (wk)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Nutrient totals
+CP (kg)
+ME (MJ)
+CF (kg)
+
+HH
+
+HL
+
+LH
+
+LL
+
+7.22 (±0.117)
+7.98 (±0.112)
+7.82 (±0.070)
+7.56 (±0.171)
+7.91 (±0.046)
+7.90 (±0.105)
+7.88 (±0.078)
+7.71 (±0.223)
+7.82 (±0.174)
+7.80 (±0.180)
+5.45 (±0.197)
+
+6.94 (±0.118)
+7.79 (±0.099)
+7.70 (±0.109)
+7.60 (±0.150)
+7.92 (±0.043)
+7.99 (±0.005)
+7.91 (±0.024)
+7.90 (±0.064)
+8.00 (±0.000)
+7.93 (±0.033)
+5.66 (±0.043)
+
+3.95 (±0.020)
+3.99 (±0.003)
+3.99 (±0.003)
+3.97 (±0.012)
+3.98 (±0.008)
+3.99 (±0.006)
+3.95 (±0.013)
+3.95 (±0.016)
+3.98 (±0.008)
+3.98 (±0.012)
+2.91 (±0.054)
+
+3.83 (±0.040)
+3.98 (±0.004)
+3.99 (±0.005)
+3.98 (±0.010)
+3.98 (±0.008)
+3.97 (±0.011)
+3.97 (±0.012)
+3.93 (±0.018)
+3.98 (±0.006)
+3.91 (±0.035)
+2.99 (±0.028)
+
+19.75 (±0.282)
+1,627 (±23.22)
+20.35 (±0.291)
+
+19.82 (±0.101)
+1,633 (±8.35)
+20.43 (±0.104)
+
+10.14 (±0.016)
+835 (±1.27)
+10.45 (±0.016)
+
+10.11 (±0.013)
+833 (±1.05)
+10.42 (±0.013)
+
+1
+HH = high preweaning treatment and high postweaning growth rate; HL = high preweaning treatment and low postweaning growth rate; LH = low
+preweaning treatment and high postweaning growth rate; LL = low preweaning treatment and low postweaning growth rate. CF = crude fat.
+
+and the QUICKI values demonstrated almost complete
+reversal of these effects. We found no treatment effects
+on NEFA; however, NEFA concentrations did reduce
+with age. Back-transformed means are presented for insulin and IGF-1.
+DISCUSSION
+
+In the preweaning phase, heifers from the 4 treatment
+groups followed their respective milk diets’ growth paths.
+Calves fed a higher volume of milk had greater growth
+rates than those on the restricted milk diet, supporting
+our first hypothesis. It is well understood that restricted
+milk-fed calves will consume greater quantities of concentrate to try to compensate for the nutrients lacking
+from the limited milk supply (Jasper and Weary, 2002;
+Sweeney et al., 2010). Calf concentrate intakes in this
+experiment reflected this, with the low milk-fed calves
+consuming significantly greater amounts of concentrate
+in the preweaning phase (P < 0.001; Table 3). Thus, their
+combined total CP intake (from milk, as seen in Table 2,
+and preweaning concentrates as seen in Table 3) for the
+preweaning phase was close to that of the high milk-fed
+calves, consuming a total of only approximately 12%
+less CP in this period. However, they were not able to
+compensate for ME or CF intake, consuming almost 25%
+less ME and 50% less CF than the high milk-fed calves
+in the preweaning period. This further indicates that, although the restricted fed calves attempted to compensate
+nutritionally for the limited supply of milk with increased
+concentrate intake, this was not fully achieved, and their
+total nutritional intakes, and thus BW gains, were affected. These findings are consistent with research foJournal of Dairy Science Vol. 108 No. 4, 2025
+
+cused on accelerated milk feeding growth rates prevalent
+throughout the literature, indicating that the current calf
+feeding standards in Australia are inadequate (Jasper and
+Weary, 2002; Borderas et al., 2009; Khan et al., 2011b).
+Heifers entered the postweaning phase with a 15-kg
+difference between the high and low preweaning treatments (Figure 1). Grain and pasture allocations were manipulated throughout the postweaning phase to achieve
+treatment target growth trajectories. Once BW converged
+in the postweaning phase (after 13 mo of age; see Figure
+2.), heifers from the low preweaning treatments needed
+additional grain (as seen in Table 4) to hold the same
+weight as those from the high preweaning treatments,
+and it became increasingly difficult to slow the growth
+rate of the high preweaning groups. Postweaning treatment design was based upon the current Australian heifer
+rearing strategies, with specific BW growth targets set
+to achieve the same precalving BW for the postweaning
+treatments. It was therefore important that the separate
+postweaning treatment groups (HH with LH and HL with
+LL) achieved and then maintained the same average BW
+throughout the postweaning period. Although we suspect
+some form of carryover effect on growth, or nutritional
+intake from the preweaning phase on the high preweaning
+treatment group, this cannot be confirmed, as individual
+pasture intakes were not recorded; therefore we do not
+have full nutritional intakes to measure such efficiencies.
+Existing evidence from Holloway and Butts (1983) partially supports this premise when beef calves were reared
+on various pasture types in the preweaning phase, which
+influenced the pattern of postweaning growth. However,
+these findings are not consistent with other studies. For
+instance, Rosadiuk et al. (2021) reported no effects on
+
+3523
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+Table 3. Mean daily concentrate intake (kg/DMI) and nutrients consumed from concentrate per heifer in the preweaning phase for heifers offered 8 L
+(HH and HL) or 4 L (LH and LL) of milk daily1
+Treatment × time means
+
+P-value
+
+Item
+
+Time (wk)
+
+HH
+
+HL
+
+LH
+
+LL
+
+Concentrate intake
+(kg/DMI)
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+0.00a
+0.00a
+0.01a
+0.03a
+0.07a
+0.19a
+0.33a
+0.55a
+0.78a
+1.03a
+1.40a
+0.00a
+0.00a
+0.00a
+0.01a
+0.02a
+0.04a
+0.08a
+0.13a
+0.18a
+0.24a
+0.33a
+0.01a
+0.06a
+0.08a
+0.36a
+0.87a
+2.55a
+4.43a
+7.41a
+10.48a
+13.83a
+18.76a
+0.000a
+0.000a
+0.000a
+0.001a
+0.003a
+0.007a
+0.011a
+0.020a
+0.028a
+0.037a
+0.050a
+
+0.00a
+0.00a
+0.01a
+0.02a
+0.09a
+0.17b
+0.26a
+0.40a
+0.70a
+0.97a
+1.36a
+0.00a
+0.00a
+0.00a
+0.00a
+0.02a
+0.04a
+0.06a
+0.09a
+0.16a
+0.23a
+0.32a
+0.04a
+0.06a
+0.11a
+0.28
+1.14a
+2.32a
+3.51a
+5.38a
+9.34a
+13.01a
+18.25a
+0.000a
+0.000a
+0.000a
+0.001a
+0.003a
+0.006a
+0.010a
+0.015a
+0.025a
+0.035a
+0.049a
+
+0.01a
+0.06a
+0.11a
+0.21b
+0.45b
+0.70b
+0.91b
+1.12b
+1.36b
+1.55b
+1.74b
+0.00a
+0.01a
+0.03a
+0.05b
+0.10b
+0.16b
+0.21b
+0.26b
+0.32b
+0.36b
+0.40b
+0.16a
+0.74a
+1.44a
+2.86b
+6.03b
+9.35b
+12.17b
+15.07b
+18.25b
+20.83b
+23.29b
+0.000a
+0.002a
+0.004a
+0.008b
+0.016b
+0.025b
+0.033b
+0.040b
+0.049b
+0.056b
+0.063b
+
+0.01a
+0.05a
+0.12a
+0.23b
+0.48b
+0.66b
+0.89b
+1.01b
+1.26b
+1.47b
+1.74b
+0.00a
+0.01a
+0.03a
+0.05b
+0.11b
+0.16a
+0.21b
+0.24b
+0.29b
+0.34b
+0.41b
+0.14a
+0.72a
+1.60a
+3.07b
+6.44b
+8.90b
+11.88b
+14.29b
+16.84b
+19.74b
+23.36b
+0.000a
+0.002a
+0.004a
+0.008b
+0.017b
+0.024b
+0.032b
+0.038b
+0.045b
+0.053b
+0.063b
+
+CP from concentrate
+(kg)
+
+ME from concentrate
+(MJ)
+
+CF from concentrate
+(kg)
+
+Within-time
+SED
+
+Treatment
+
+Time
+
+Treatment
+× time
+
+0.082
+
+<0.001
+
+<0.001
+
+<0.001
+
+0.019
+
+<0.001
+
+<0.001
+
+<0.001
+
+1.095
+
+<0.001
+
+<0.001
+
+<0.001
+
+0.003
+
+<0.001
+
+<0.001
+
+<0.001
+
+a,b
+
+Superscript letters within rows indicate significant difference between treatment intakes for that week (P < 0.05).
+Means derived from linear mixed model, along with SE of treatment differences (SED) and P-values. HH = high preweaning treatment and high
+postweaning growth rate; HL = high preweaning treatment and low postweaning growth rate; LH = low preweaning treatment and high postweaning
+growth rate; LL = low preweaning treatment and low postweaning growth rate. CF = crude fat.
+1
+
+the intake, growth, or growth efficiency of heifers in
+the postweaning phase when heifers were fed various
+amounts of milk in the preweaning phase; however, this
+was only until 6 mo of age. Other studies have found
+that ruminants with restricted nutrition in the preweaning
+phase display compensatory growth postweaning, allowing them to catch up in BW to their previously well-fed
+peers (Ryan et al., 1993; Rodríguez-Sánchez et al., 2015).
+Despite not being able to be measured in this experiment,
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+further research is warranted into feed efficiency and individual total intakes (including pasture) of accelerated
+preweaning heifers in the postweaning phase.
+In contrast to our second hypothesis, superior metabolic characteristics were evident at times of increased plane
+of nutrition and were independent of any previously applied treatments. At 6 wk of age, nutritional input was
+greater for high milk-fed heifers, and this was evident
+in the metabolic biomarkers (high milk-fed calves had
+
+3524
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+Table 4. Mean (±SE) concentrate intake (kg/DM per heifer) and total nutrients consumed from concentrate in the postweaning phase for each
+treatment group, as summary data1
+Treatment
+Item
+Age (mo)
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Nutrient totals
+CP (kg)
+ME (MJ)
+CF (KG)
+
+HH
+
+HL
+
+LH
+
+LL
+
+15.6 (±2.27)
+20.6 (±1.71)
+13.3 (±0.0.94)
+0.0 (±0.00)
+5.3 (±0.09)
+1.1 (±0.05)
+6.6 (±0.60)
+11.2 (±0.21)
+10.0 (±0.24)
+11.4 (±0.18)
+23.6 (±0.33)
+17.1 (±0.46)
+22.4 (±0.64)
+22.5 (±1.34)
+36.9 (±0.12)
+48.6 (±0.37)
+46.8 (±0.52)
+46.4 (±3.86)
+
+17.1 (±1.65)
+23.6 (±1.56)
+15.3 (±0.59)
+1.4 (±1.35)
+0.97 (±0.84)
+0.49 (±0.49)
+0.15 (±0.15)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.4 (±0.37)
+0.6 (±0.62)
+0.4 (±0.39)
+
+17.4 (±1.81)
+22.8 (±1.23)
+14.7 (±0.11)
+0.0 (±0.00)
+5.1 (±0.18)
+10.9 (±0.19)
+13.9 (±1.05)
+33.3 (±0.47)
+32.2 (±0.64)
+35.5 (±0.16)
+25.1 (±0.22)
+17.8 (±0.16)
+23.2 (±0.37)
+36.9 (±0.23)
+40.2 (±0.10)
+59.6 (±0.33)
+60.7 (±0.21)
+66.3 (±0.43)
+
+17.4 (±1.98)
+21.9 (±1.74)
+14.3 (±1.17)
+2.6 (±1.77)
+1.5 (±0.99)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+0.0 (±0.00)
+5.7 (±0.58)
+11.7 (±0.08)
+11.9 (±1.25)
+
+61.4 (±3.44)
+4,567 (±255.2)
+8.9 (±0.49)
+
+11.4 (±0.46)
+802 (±33.2)
+1.8 (±0.07)
+
+93.36 (±0.72)
+6,892 (±50.8)
+13.28 (±0.10)
+
+16.13 (±1.30)
+1,161 (±92.6)
+2.23 (±0.18)
+
+1
+Treatments: HH = high preweaning treatment and high postweaning growth rate; HL = high preweaning treatment and low postweaning growth rate;
+LH = low preweaning treatment and high postweaning growth rate; LL = low preweaning treatment and low postweaning growth rate. CF = crude fat.
+
+higher glucose, IGF-1, and insulin and decreased BHB
+and QUICKI compared with the low milk-fed calves).
+Subsequently, at 8 mo of age little difference appeared in
+metabolic biomarkers, which reflected the similarities in
+nutritional input at this time (HH 0 kg, HL 0 kg, LH 0.5
+kg, and LL 0 kg of concentrate daily). However, at 13 mo
+of age, nutritional input at the time of sampling had more
+variation between treatments (HH 1.0 kg, HL 0 kg, LH
+1.0 kg, and LL 0 kg of concentrate daily), and, again, the
+metabolic biomarkers reflected this (heifers with high
+postweaning growth rate had higher insulin concentrations and lower QUICKI results than the heifers with low
+postweaning growth rate). The disassociation between
+previously applied treatments in metabolic biomarkers is
+supported by previous work from this group Ockenden et
+al. (2023), as well as De Paula et al. (2022), Rosadiuk et
+al. (2021), and (Kesser et al., 2017).
+The interaction effect leading to higher serum BHB
+levels in the low-treatment heifers at 6 wk of age, with no
+difference between treatments afterward, was expected.
+Although the higher BHB concentrations in the restricted
+milk-fed heifers during the preweaning phase were anticipated, the rationale for this is equivocal in literature.
+High BHB in restricted milk-fed heifers has been thought
+to be due, at least in part, to increased rumen function
+because of their greater concentrate intake as they try to
+compensate for the limiting nutrients provided by milk
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+(Deelen et al., 2016; Byrne et al., 2017). However, this
+observation is not consistent (Suarez-Mena et al., 2017),
+and other studies have suggested that higher BHB may,
+in fact, also indicate metabolic stress in these animals
+(Schwarzkopf et al., 2019; Ockenden et al., 2023). The
+increase in BHB in the postweaning phase, however, is
+likely a result of an increase in rumen function and the
+transition from a liquid to a solid diet at 8 and 13 mo
+of age (Nemati et al., 2015). We found that NEFA did
+not differ between treatments at any point and decreased
+postweaning for all treatment groups. The higher NEFA
+preweaning is most likely a result of the high concentration of fatty acids present in milk (Schwarzkopf et al.,
+2019), and, after weaning, NEFA levels reduced.
+Interactions between preweaning treatment and age
+were evident for both glucose and insulin. In the preweaning phase the primary source of energy is supplied
+by glucose and fatty acids in milk. Glucose levels were
+highest for all treatments at 6 wk of age while consuming milk, and then reduced as they transitioned from a
+monogastric animal to a ruminant and energy sources
+shifted (Baldwin et al., 2004; Suarez-Mena et al., 2017).
+Further, heifers on the high preweaning treatment had
+significantly higher glucose levels than the low milkfed heifers in the preweaning phase (P < 0.001). Similar
+treatment effects have been observed in previous experiments, where heifers consuming greater volumes of milk
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+3525
+
+Figure 3. Graphs of significant interactions and, where interactions are not significant, of significant main effects for (A) BHB, (B) nonesterified
+fatty acid (NEFA), (C) glucose, (D, E) insulin, (F) IGF-1, and (G, H) quantitative insulin sensitivity check index (QUICKI). Floating error bars
+depict the average SE of the difference (SED). If the difference between any treatment means (within time as well as between times) was greater
+than approximately 2× the SED value, that difference would be significant at 5% level of significance. Main effect and interaction effect P-values
+are also presented for each biomarker. Insulin and IGF-1 were analyzed in logarithmic scale, and the back-transformed means without their SE are
+presented. T1 = preweaning treatment; T2 = postweaning growth rate.
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+had higher levels of glucose and insulin resulting from
+the greater energy intake (Byrne et al., 2017; Rosadiuk
+et al., 2021; Ockenden et al., 2023). An interaction effect between postweaning treatment and age was also
+detected for insulin, in that at 13 mo of age, heifers on
+a higher plane of nutrition had significantly higher insulin (P < 0.001). Despite an interaction trend toward
+significance in glucose with postweaning treatment and
+age, the biological significance of this result (0.2 mmol/L
+between treatments) is negligible. Increased levels of insulin and unchanged glucose levels in the high postweaning groups were also reported in (Rosadiuk et al., 2021).
+This can indicate a reduction in insulin sensitivity, which
+is further supported by our QUICKI index results, and
+has previously been described in the postweaning phase
+(Pantophlet et al., 2016; Rosadiuk et al., 2021). One of the
+primary concerns around feeding high volumes of milk
+in the preweaning phase is the potential for permanent
+detrimental effects on glucose metabolism, specifically
+insulin sensitivity (van den Borne et al., 2006; Yunta
+et al., 2015; Hammon et al., 2018). When applying the
+QUICKI insulin sensitivity check, interactions were also
+detected between pre- and postweaning treatment with
+age separately. This indicated that heifers on a greater
+plane of nutrition had decreased insulin sensitivity at the
+time of elevated nutrition independent of the previous
+treatment, suggesting no long-term or permanent effects
+of feeding a higher volume of milk.
+IGF-1 was higher in the high milk-fed heifers than
+the low milk-fed heifers at 6 wk of age, after which the
+effects of preweaning treatment disappeared. IGF-1 has
+been highly correlated with animal performance, including metabolic profiles and growth (Rodríguez-Sánchez
+et al., 2015; De Paula et al., 2022). Therefore, the differences at 6 wk of age would be expected, as this reflects
+nutritional status between treatments at the time. The
+lack of difference at 8 mo also indicates the minimal nutritional difference between treatments at that time, while
+also suggesting no carryover effect from the increased
+nutrition preweaning. However, at 13 mo, when insulin
+was numerically higher for the high postweaning group,
+we would expect to observe a more noticeable difference
+in IGF-1 levels as well (McGuire et al., 1995; De Paula
+et al., 2022). This suggests that in the postweaning phase,
+our nutritional inputs may not have differed enough from
+each other at 13 mo of age. Pasture intake was also restricted for all heifers at the time of 13-mo sampling in
+an attempt to slow the HL growth rate. This nutritional
+restriction, while weight gains were still evident, may
+have affected IGF-1 levels in all animals and contributed
+to the lack of differences detected at 13 mo of age.
+Our results do not support our second hypothesis, as
+they indicate benefits of accelerated nutrition on metabolism at the time of increased nutrition only, and lack
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+3526
+
+of carryover benefit from the preweaning phase. The
+lack of preweaning metabolic imprinting in dairy heifers
+is consistent with other studies looking at similar depth
+of metabolic and endocrine biomarkers (Kesser et al.,
+2017; Rosadiuk et al., 2021; De Paula et al., 2022). The
+biomarkers investigated in this experiment are commonly used when investigating metabolic state of lactating
+dairy cows during the transition period. This selection
+allows for future investigation into energy balance to
+determine whether early-life treatments have any influence on the resilience of the dairy cow in a metabolically
+challenging time such as lactation. Kenéz et al. (2018)
+were able to distinguish differences in metabolism
+in first-lactation heifers reared by different preweaning nutritional strategies using metabolomic methods.
+Therefore, more studies using this more intricate level
+of analysis may also be necessary to fully understand
+the mechanisms underlying any evidence of metabolic
+developmental programming.
+CONCLUSIONS
+
+Increased levels of nutrition in the preweaning and
+postweaning phases of development improved growth
+rates and metabolic characteristics of heifers at the time
+of increased nutrition. The observed advantages in metabolism were independent of the previous treatment,
+suggesting limited signs of developmental programming
+and little carryover effect from increased preweaning
+nutrition in the postweaning phase. Feeding dairy heifers increased volumes of milk in the preweaning phase
+reduced concentrate intakes but increased growth rates,
+glucose, insulin, and IGF-1 levels while reducing levels
+of BHB. In the postweaning phase, increased level of
+nutrition also improved growth rates and increased insulin levels at the time of increased nutrition. Given these
+results, it would appear that accelerated preweaning nutrition is important for the metabolic characteristics of a
+calf but does not greatly influence the future metabolic
+phenotype of the cow. Further work is needed to investigate the future reproduction and production outcomes of
+these heifers.
+NOTES
+
+This research was funded by Agriculture Victoria (Ellinbank, VIC, Australia), Dairy Australia (Melbourne,
+VIC, Australia), and the University of Melbourne (Melbourne, VIC, Australia). The authors acknowledge the
+support and technical input of E. Johnson and all the
+Science, Technical and Dairy staff of the Agriculture
+Victoria Ellinbank Dairy Research Farm (Ellinbank,
+Australia). Approval for this experiment was granted by
+the Agricultural Research and Extension Animal Ethics
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+Committee, application number 2021-08. Experimental
+procedures were conducted in accordance with the Australian Code of Practice for the Care and Use of Animals
+for Scientific Purposes (National Health and Medical
+Research Council, 2013). The authors have not stated
+any conflicts of interest.
+Nonstandard abbreviations used: BPI = Balanced
+Performance Index; CF = crude fat; HH = high preweaning treatment and high postweaning growth rate; HL =
+high preweaning treatment and low postweaning growth
+rate; LH = low preweaning treatment and high postweaning growth rate; LL = low preweaning treatment and low
+postweaning growth rate; LMM = linear mixed model;
+NEFA = nonesterified fatty acid; QUICKI = quantitative
+insulin sensitivity check index; RIA = radioimmunoassay.
+REFERENCES
+Baldwin, R. L., K. R. McLeod, J. L. Klotz, and R. N. Heitmann. 2004.
+Rumen development, intestinal growth and hepatic metabolism in
+the pre- and postweaning ruminant. J. Dairy Sci. 87:E55–E65. https:​
+/​/​doi​.org/​10​.3168/​jds​.S0022​-0302(04)70061​-2.
+Borderas, T. F., A. M. B. de Passillé, and J. Rushen. 2009. Feeding behavior of calves fed small or large amounts of milk. J. Dairy Sci.
+92:2843–2852. https:​/​/​doi​.org/​10​.3168/​jds​.2008​-1886.
+Byrne, C. J., S. Fair, A. M. English, D. Johnston, P. Lonergan, and D.
+A. Kenny. 2017. Effect of milk replacer and concentrate intake
+on growth rate, feeding behaviour and systemic metabolite concentrations of pre-weaned bull calves of two dairy breeds. Animal
+11:1531–1538. https:​/​/​doi​.org/​10​.1017/​S1751731117000350.
+Chandler, T. L., R. S. Pralle, J. R. R. Dórea, S. E. Poock, G. R. Oetzel, R.
+H. Fourdraine, and H. M. White. 2018. Predicting hyperketonemia
+by logistic and linear regression using test-day milk and performance
+variables in early-lactation Holstein and Jersey cows. J. Dairy Sci.
+101:2476–2491. https:​/​/​doi​.org/​10​.3168/​jds​.2017​-13209.
+Dairy Australia. 2020. A guide to Growing More Productive Heifers. 1st
+ed. Dairy Australia, Melbourne, Australia.
+Dairy One. 2023. Analytical Procedures. Vol. 2023. Dairy One.
+De Paula, C., L. N. Rennó, M. F. D. L. Ferreira, Á. E. M. Da Silva,
+S. S. Moreira, G. J. De Freitas Assis, E. Detmann, S. De Campos
+Valadares Filho, M. Fonseca Paulino, and G. M. Dos Santos. 2022.
+Effect of pre- and post-weaning supplementation on performance,
+nutritional, and metabolic characteristics in Nellore heifers under
+grazing. Anim. Prod. Sci. 62:1706–1719. https:​/​/​doi​.org/​10​.1071/​
+AN22025.
+de Souza, R. S., L. B. C. Dos Santos, I. O. Melo, D. M. Cerqueira, J.
+V. Dumas, F. O. P. Leme, T. F. Moreira, R. M. Meneses, A. U. de
+Carvalho, and E. J. Facury-Filho. 2021. Current diagnostic methods
+for assessing transfer of passive immunity in calves and possible
+improvements: A literature review. Animals (Basel) 11:2963. https:​/​
+/​doi​.org/​10​.3390/​ani11102963.
+De Vries, A. 2017. Economic trade-offs between genetic improvement
+and longevity in dairy cattle. J. Dairy Sci. 100:4184–4192. https:​/​/​
+doi​.org/​10​.3168/​jds​.2016​-11847.
+Deelen, S. M., K. E. Leslie, M. A. Steele, E. Eckert, H. E. Brown, and
+T. J. DeVries. 2016. Validation of a calf-side β-hydroxybutyrate test
+and its utility for estimation of starter intake in dairy calves around
+weaning. J. Dairy Sci. 99:7624–7633. https:​/​/​doi​.org/​10​.3168/​jds​
+.2016​-11097.
+Grandl, F., M. Furger, M. Kreuzer, and M. Zehetmeier. 2019. Impact
+of longevity on greenhouse gas emissions and profitability of individual dairy cows analysed with different system boundaries.
+Animal 13:198–208.
+
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+3527
+
+Hammon, H. M., D. Frieten, C. Gerbert, C. Koch, G. Dusel, R. Weikard,
+and C. Kühn. 2018. Different milk diets have substantial effects
+on the jejunal mucosal immune system of pre-weaning calves, as
+demonstrated by whole transcriptome sequencing. Sci. Rep. 8:1693.
+https:​/​/​doi​.org/​10​.1038/​s41598​-018​-19954​-2.
+Holloway, J. W., and W. T. Butts Jr. 1983. Influence of preweaning nutrition on growth of Angus calves provided a postweaning nutritional
+system resulting in discontinuous growth. J. Anim. Sci. 56:1407–
+1415. https:​/​/​doi​.org/​10​.2527/​jas1983​.5661407x.
+Jasper, J., and D. M. Weary. 2002. Effects of ad libitum milk intake on
+dairy calves. J. Dairy Sci. 85:3054–3058. https:​/​/​doi​.org/​10​.3168/​jds​
+.S0022​-0302(02)74391​-9.
+Kenéz, Á., C. Koch, M. Korst, J. Kesser, K. Eder, H. Sauerwein, and
+K. Huber. 2018. Different milk feeding intensities during the first 4
+weeks of rearing dairy calves: Part 3: Plasma metabolomics analysis
+reveals long-term metabolic imprinting in Holstein heifers. J. Dairy
+Sci. 101:8446–8460. https:​/​/​doi​.org/​10​.3168/​jds​.2018​-14559.
+Kesser, J., M. Korst, C. Koch, F. J. Romberg, J. Rehage, U. Müller, M.
+Schmicke, K. Eder, H. M. Hammon, H. Sadri, and H. Sauerwein.
+2017. Different milk feeding intensities during the first 4 weeks of
+rearing dairy calves: Part 2: Effects on the metabolic and endocrine
+status during calfhood and around the first lactation. J. Dairy Sci.
+100:3109–3125. https:​/​/​doi​.org/​10​.3168/​jds​.2016​-11595.
+Khan, M. A., D. M. Weary, and M. A. G. von Keyserlingk. 2011a. Hay
+intake improves performance and rumen development of calves fed
+higher quantities of milk. J. Dairy Sci. 94:3547–3553. https:​/​/​doi​
+.org/​10​.3168/​jds​.2010​-3871.
+Khan, M. A., D. M. Weary, and M. A. G. von Keyserlingk. 2011b. Invited
+review: Effects of milk ration on solid feed intake, weaning, and
+performance in dairy heifers. J. Dairy Sci. 94:1071–1081. https:​/​/​doi​
+.org/​10​.3168/​jds​.2010​-3733.
+Korst, M., C. Koch, J. Kesser, U. Müller, F. J. Romberg, J. Rehage, K.
+Eder, and H. Sauerwein. 2017. Different milk feeding intensities
+during the first 4 weeks of rearing in dairy calves: Part 1: Effects
+on performance and production from birth over the first lactation. J.
+Dairy Sci. 100:3096–3108. https:​/​/​doi​.org/​10​.3168/​jds​.2016​-11594.
+Macdonald, K. A., J. W. Penno, A. M. Bryant, and J. R. Roche. 2005.
+Effect of feeding level pre- and post-puberty and body weight at first
+calving on growth, milk production, and fertility in grazing dairy
+cows. J. Dairy Sci. 88:3363–3375. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​
+-0302(05)73020​-4.
+McGuire, M. A., D. E. Bauman, D. A. Dwyer, and W. S. Cohick. 1995.
+Nutritional modulation of the somatotropin/insulin-like growth factor system: response to feed deprivation in lactating cows. J. Nutr.
+125:493–502.
+National Health and Medical Research Council. 2013. Australian Code
+of Practice for the Care and Use of Animals for Scientific Purposes.
+8th ed.
+Nemati, M., H. Amanlou, M. Khorvash, B. Moshiri, M. Mirzaei, M.
+A. Khan, and M. H. Ghaffari. 2015. Rumen fermentation, blood
+metabolites, and growth performance of calves during transition
+from liquid to solid feed: Effects of dietary level and particle size
+of alfalfa hay. J. Dairy Sci. 98:7131–7141. https:​/​/​doi​.org/​10​.3168/​
+jds​.2014​-9144.
+Ockenden, E. M., V. M. Russo, B. J. Leury, K. Giri, and W. J. Wales.
+2023. Preweaning nutrition and its effects on the growth, immune
+competence and metabolic characteristics of the dairy calf. Animals
+(Basel) 13:829. https:​/​/​doi​.org/​10​.3390/​ani13050829.
+Oltenacu, P. A., and D. M. Broom. 2010. The impact of genetic selection
+for increased milk yield on the welfare of dairy cows. Anim. Welf.
+19(Suppl. 1):39–49. https:​/​/​doi​.org/​10​.1017/​S0962728600002220.
+Opsomer, G., M. Van Eetvelde, M. Kamal, and A. Van Soom. 2016. Epidemiological evidence for metabolic programming in dairy cattle.
+Reprod. Fertil. Dev. 29:52–57. https:​/​/​doi​.org/​10​.1071/​RD16410.
+Owens, F. N., P. Dubeski, and C. F. Hanson. 1993. Factors that alter the
+growth and development of ruminants. J. Anim. Sci. 71:3138–3150.
+https:​/​/​doi​.org/​10​.2527/​1993​.71113138x.
+Pantophlet, A. J., M. S. Gilbert, J. van den Borne, W. J. J. Gerrits, M. G.
+Priebe, and R. J. Vonk. 2016. Insulin sensitivity in calves decreases
+substantially during the first 3 months of life and is unaffected by
+
+Ockenden et al.: PRE- AND POSTWEANING NUTRITIONAL STRATEGIES
+
+weaning or fructo-oligosaccharide supplementation. J. Dairy Sci.
+99:7602–7611. https:​/​/​doi​.org/​10​.3168/​jds​.2016​-11084.
+Quigley, J. D. III, Z. P. Smith, and R. N. Heitmann. 1991. Changes in
+plasma volatile fatty acids in response to weaning and feed intake in
+young calves. J. Dairy Sci. 74:258–263. https:​/​/​doi​.org/​10​.3168/​jds​
+.S0022​-0302(91)78168​-X.
+Rodríguez-Sánchez, J. A., A. Sanz, C. Tamanini, and I. Casasús. 2015.
+Metabolic, endocrine, and reproductive responses of beef heifers
+submitted to different growth strategies during the lactation and
+rearing periods. J. Anim. Sci. 93:3871–3885. https:​/​/​doi​.org/​10​
+.2527/​jas​.2015​-8994.
+Rosadiuk, J. P., T. C. Bruinjé, F. Moslemipur, A. J. Fischer-Tlustos, D. L.
+Renaud, D. J. Ambrose, and M. A. Steele. 2021. Differing planes of
+pre- and postweaning phase nutrition in Holstein heifers: I. Effects
+on feed intake, growth efficiency, and metabolic and development
+indicators. J. Dairy Sci. 104:1136–1152. https:​/​/​doi​.org/​10​.3168/​jds​
+.2020​-18809.
+Ryan, W., I. Williams, and R. Moir. 1993. Compensatory growth in sheep
+and cattle. 1. Growth pattern and feed intake. Aust. J. Agric. Res.
+44:1609–1621. https:​/​/​doi​.org/​10​.1071/​AR9931609.
+Schwarzkopf, S., A. Kinoshita, J. Kluess, S. Kersten, U. Meyer, K. Huber, S. Dänicke, and J. Frahm. 2019. Weaning Holstein calves at 17
+weeks of age enables smooth transition from liquid to solid feed.
+Animals (Basel) 9:1132. https:​/​/​doi​.org/​10​.3390/​ani9121132.
+Singh, B., and A. Saxena. 2010. Surrogate markers of insulin resistance:
+A review. World J. Diabetes 1:36. https:​/​/​doi​.org/​10​.4239/​wjd​.v1​.i2​
+.36.
+Smith, R. J. 1993. Logarithmic transformation bias in allometry. Am.
+J. Phys. Anthropol. 90:215–228. https:​/​/​doi​.org/​10​.1002/​ajpa​
+.1330900208.
+Suarez-Mena, F. X., W. Hu, T. S. Dennis, T. M. Hill, and R. L. Schlotterbeck. 2017. β-Hydroxybutyrate (BHB) and glucose concentrations
+in the blood of dairy calves as influenced by age, vaccination stress,
+weaning, and starter intake including evaluation of BHB and glucose
+markers of starter intake. J. Dairy Sci. 100:2614–2624. https:​/​/​doi​
+.org/​10​.3168/​jds​.2016​-12181.
+Sweeney, B. C., J. Rushen, D. M. Weary, and A. M. de Passillé. 2010.
+Duration of weaning, starter intake, and weight gain of dairy calves
+
+Journal of Dairy Science Vol. 108 No. 4, 2025
+
+3528
+
+fed large amounts of milk. J. Dairy Sci. 93:148–152. https:​/​/​doi​.org/​
+10​.3168/​jds​.2009​-2427.
+Taylor, V. J., D. E. Beever, M. J. Bryant, and D. C. Wathes. 2003. Metabolic profiles and progesterone cycles in first lactation dairy cows.
+Theriogenology
+59:1661–1677.
+https:​/​/​doi​.org/​10​.1016/​S0093​
+-691X(02)01225​-6.
+Tessari, R., M. Berlanda, M. Morgante, T. Badon, M. Gianesella, E.
+Mazzotta, B. Contiero, and E. Fiore. 2020. Changes of plasma fatty
+acids in four lipid classes to understand energy metabolism at different levels of non-esterified fatty acid (NEFA) in dairy cows. Animals
+(Basel) 10:1410. https:​/​/​doi​.org/​10​.3390/​ani10081410.
+van den Borne, J. J., M. W. Verstegen, S. J. Alferink, R. M. Giebels, and
+W. J. Gerrits. 2006. Effects of feeding frequency and feeding level
+on nutrient utilization in heavy preruminant calves. J. Dairy Sci.
+89:3578–3586. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​-0302(06)72397​-9.
+Vicari, T., J. J. van den Borne, W. J. Gerrits, Y. Zbinden, and J. W. Blum.
+2008. Postprandial blood hormone and metabolite concentrations
+influenced by feeding frequency and feeding level in veal calves.
+Domest. Anim. Endocrinol. 34:74–88. https:​/​/​doi​.org/​10​.1016/​j​
+.domaniend​.2006​.11​.002.
+Wilms, J. N., M. H. Ghaffari, M. A. Steele, H. Sauerwein, J. MartínTereso, and L. N. Leal. 2022. Macronutrient profile in milk replacer
+or a whole milk powder modulates growth performance, feeding
+behavior, and blood metabolites in ad libitum-fed calves. J. Dairy
+Sci. 105:6670–6692. https:​/​/​doi​.org/​10​.3168/​jds​.2022​-21870.
+Yunta, C., M. Terré, and A. Bach. 2015. Short- and medium-term changes in performance and metabolism of dairy calves offered different
+amounts of milk replacers. Livest. Sci. 181:249–255. https:​/​/​doi​.org/​
+10​.1016/​j​.livsci​.2015​.09​.008.
+
+ORCIDS
+E. M. Ockenden, https:​/​/​orcid​.org/​0009​-0008​-4470​-1008
+V. M. Russo, https:​/​/​orcid​.org/​0000​-0002​-5361​-6015
+B. J. Leury, https:​/​/​orcid​.org/​0000​-0001​-9173​-2730
+K. Giri, https:​/​/​orcid​.org/​0009​-0008​-0687​-5234
+
+

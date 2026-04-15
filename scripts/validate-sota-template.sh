@@ -21,7 +21,6 @@ NC='\033[0m'
 # Обязательные разделы (по шаблону v1.4)
 REQUIRED_SECTIONS=(
     "РЕЗЮМЕ"
-    "KEY CLAIMS"
     "ВВЕДЕНИЕ"
     "МАТЕРИАЛЫ И МЕТОДЫ"
     "РЕЗУЛЬТАТЫ"
@@ -29,7 +28,6 @@ REQUIRED_SECTIONS=(
     "МАТЕРИАЛЫ ДЛЯ ЛЕКЦИЙ"
     "ВЫВОДЫ"
     "КРИТИЧЕСКИЙ АНАЛИЗ"
-    "REVISION CRITERION"
     "FAQ"
     "ИНСТРУМЕНТЫ"
     "ИСТОЧНИКИ"
@@ -102,26 +100,22 @@ validate_file() {
     
     echo -e "${GREEN}✅ Найдено разделов: $found_sections/${#REQUIRED_SECTIONS[@]}${NC}"
     
-    # Проверка Key Claims
+    # Проверка Key Claims (опционально — не входит в обязательные разделы v1.4)
     echo -e "\n${BLUE}Проверка Key Claims...${NC}"
     
-    local claim_count=$(grep -c "^## Claim" "$file" 2>/dev/null || echo "0")
-    if [ "$claim_count" -lt 2 ]; then
-        echo -e "${RED}❌ Недостаточно Key Claims (минимум 2, найдено $claim_count)${NC}"
-        ERRORS=$((ERRORS + 1))
-    else
+    local claim_count=$(grep -c "^## Claim" "$file" 2>/dev/null || true)
+    if [ "$claim_count" -ge 2 ]; then
         echo -e "${GREEN}✅ Key Claims: $claim_count${NC}"
-    fi
-    
-    # Проверка наличия Evidence и Confidence
-    if ! grep -q "Evidence:" "$file"; then
-        echo -e "${YELLOW}⚠️  Отсутствуют поля Evidence в Key Claims${NC}"
-        WARNINGS=$((WARNINGS + 1))
-    fi
-    
-    if ! grep -q "Confidence:" "$file"; then
-        echo -e "${YELLOW}⚠️  Отсутствуют поля Confidence в Key Claims${NC}"
-        WARNINGS=$((WARNINGS + 1))
+        if ! grep -q "Evidence:" "$file"; then
+            echo -e "${YELLOW}⚠️  Отсутствуют поля Evidence в Key Claims${NC}"
+            WARNINGS=$((WARNINGS + 1))
+        fi
+        if ! grep -q "Confidence:" "$file"; then
+            echo -e "${YELLOW}⚠️  Отсутствуют поля Confidence в Key Claims${NC}"
+            WARNINGS=$((WARNINGS + 1))
+        fi
+    else
+        echo -e "${YELLOW}⚠️  Key Claims отсутствуют или менее 2 (опционально для v1.4)${NC}"
     fi
     
     # Проверка журнала обработки
@@ -135,7 +129,7 @@ validate_file() {
     # Проверка связей (related)
     echo -e "\n${BLUE}Проверка связей...${NC}"
     
-    local related_count=$(grep -A 100 "^related:" "$file" | grep -c "^- id:" || echo "0")
+    local related_count=$(grep -A 100 "^related:" "$file" | grep -c "^- id:" || true)
     if [ "$related_count" -eq 0 ]; then
         echo -e "${YELLOW}⚠️  Нет связей с другими SoTA (related)${NC}"
         WARNINGS=$((WARNINGS + 1))
@@ -146,7 +140,7 @@ validate_file() {
     # Проверка медиа-инвентаря
     echo -e "\n${BLUE}Проверка медиа-инвентаря...${NC}"
     
-    local screenshot_count=$(grep -c "\[СКРИНШОТ\]" "$file" 2>/dev/null || echo "0")
+    local screenshot_count=$(grep -c "\[СКРИНШОТ\]" "$file" 2>/dev/null || true)
     if [ "$screenshot_count" -eq 0 ]; then
         echo -e "${YELLOW}⚠️  Нет медиа-элементов ([СКРИНШОТ])${NC}"
         WARNINGS=$((WARNINGS + 1))

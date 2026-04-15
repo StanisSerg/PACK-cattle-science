@@ -1,0 +1,903 @@
+J. Dairy Sci. 105:6318–6326
+https://doi.org/10.3168/jds.2021-21284
+
+© 2022, The Authors. Published by Elsevier Inc. and Fass Inc. on behalf of the American Dairy Science Association®.
+This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+Effects of a low- or high-frequency colostrum feeding protocol
+on immunoglobulin G absorption in newborn calves
+A. J. Lopez,1 T. T. Yohe,1 J. Echeverry-Munera,1 M. Nagorske,2 D. L. Renaud,3 and M. A. Steele1*
+1
+2
+3
+
+Department of Animal Biosciences, Animal Science and Nutrition, University of Guelph, Guelph, ON, Canada N1G 1Y2
+The Saskatoon Colostrum Company Ltd., Saskatoon, SK, Canada S7K 6A2
+Department of Population Medicine, University of Guelph, Guelph, ON, Canada N1G 1Y2
+
+ABSTRACT
+
+Calves might experience an upper limit of IgG absorption from colostrum ingestion at birth, but it is not
+clear whether the total IgG mass fed in the first meal
+or feeding frequencies can saturate the IgG transport
+mechanism and therefore limit IgG absorption. The
+objective of this study was to determine whether different colostrum replacer (CR) feeding frequencies affect
+serum IgG levels or apparent efficiency of absorption
+(AEA) in neonatal calves. Male Holstein calves (n =
+40) were separated from their dams immediately after
+parturition and randomly assigned to receive CR [12%
+of birth body weight (BW)], following either (1) a lowfrequency (LF; n = 20) or (2) a high-frequency (HF; n
+= 20) feeding protocol. Low-frequency calves received 2
+CR meals (8% and 4% birth BW within 1 h after birth
+and 12 h after first CR feeding, respectively), whereas
+HF calves received 3 CR meals (4% of BW for each
+meal; within 1 h after birth, 6, and 12 h after first CR
+feeding). The CR powder fed had a dry matter IgG
+concentration of 30% and an IgG concentration of 70.5
+g/L when reconstituted. All CR was fed via esophageal tube within 1 h after birth. Calves were bottle-fed
+pasteurized milk (5% birth BW) at 24, 36, and 48 h
+after the first CR feeding. Blood was collected before
+first CR feeding and at the following intervals post-CR
+feeding: every 2 h until 18 h; every 3 h from 18 to 30 h;
+and every 6 h from 30 to 48 h after the first CR feeding.
+Serum IgG values at 24 h did not differ between LF and
+HF (25.79 ± 0.93 and 25.66 ± 0.88 g/L, respectively).
+In the first meal, calves fed LF ingested a higher total
+IgG mass than HF (257.98 ± 4.16 g and 126.72 ± 4.05
+g, respectively); however, AEA at 24 h did not differ for
+calves fed HF or LF (27.68 ± 1.16% and 27.63 ± 1.26%,
+respectively). The IgG area under the curve (AUC) at
+24 h was greater for calves fed LF than HF (443.13 ±
+15.17 and 379.59 ± 13.99 g of IgG/L × h, respectively).
+Received September 15, 2021.
+Accepted February 23, 2022.
+*Corresponding author: masteele@​uoguelph​.ca
+
+Additionally, AUC at 6 h, 12 h, and 48 h were greater
+for calves fed LF than HF. These results indicate that,
+although LF calves had a greater AUC, HF calves were
+still able to absorb IgG in the second and third meal,
+allowing HF calves to achieve serum IgG levels similar
+to those of LF calves at 24 h. In addition, the provision
+of 3 meals at 70.5 g/L of IgG within the first 12 h of
+life did not result in added benefits to serum IgG or
+AEA levels.
+Key words: calf, colostrum replacer, IgG absorption
+INTRODUCTION
+
+Newborn calves depend on colostrum ingestion to
+acquire circulating IgG during their first days of life
+(Lombard et al., 2020). Successful transfer of passive
+immunity is achieved when calves reach serum IgG concentrations above 10 g/L; in contrast, concentrations
+<10 g/L are considered as failed transfer of passive immunity (Quigley, 2004; Shivley et al., 2018). To achieve
+this threshold, it is recommended that calves consume
+10% of their birth BW of colostrum at birth (3 to 4 L;
+Besser et al., 1991; Godden et al., 2019) to ingest at
+least 150 to 200 g of IgG (Quigley et al., 2002) within
+2 h after birth and achieve transfer of passive immunity. Nevertheless, early studies suggest that calves
+need to ingest 300 to 400 g of Ig to achieve protection
+against entero-pathogens (Roy, 1980). This mass of Ig
+should be fed within 2 h after birth, as delayed feeding
+negatively affects IgG absorption (Fischer et al., 2018),
+but guidelines for the number of colostrum meals and
+volume of colostrum fed per meal have not been clearly
+established. Although transfer of passive immunity is
+achieved at a serum IgG concentration of 10g/L, recent
+recommendations state that calves should achieve a
+much higher serum IgG concentration (Lombard et al.,
+2020). As a result, higher colostral IgG ingestion than
+current recommendations would need to be delivered in
+the first colostrum meal.
+Although it is known that delaying colostrum feeding by 6 and 12 h reduced IgG absorption by 26% compared with calves fed immediately after birth (Fischer
+
+6318
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+et al., 2018), it is not known how the different number
+of meals affects transfer of passive immunity or IgG
+absorption. Notwithstanding, it has been reported
+that in the United States, small farms (30 to 99 cows)
+feed ~3.79 L in the first 24 h, and large farms (≥500
+cows) feed ~5.67 L or more (NAHMS, 2014). However,
+this data does not specify the number of meals fed.
+Jaster (2005) evaluated the effects of feeding 1 versus
+2 colostrum meals within 12 h to Jerseys calves. The
+author reported that feeding 2 L of high-quality colostrum (84 g IgG/L) in 2 meals (0 h and 12 h) instead
+of 1 meal (4 L at 0 h) resulted in higher apparent
+efficiency of absorption (AEA) and serum IgG levels
+at 24 h. In contrast, other reports state that Holstein
+calves fed 1 meal of 4 L (60.1 g IgG/L), followed by a
+2-L meal at 12 h, resulted in higher serum IgG levels
+than 2 meals of 2 L (Morin et al., 1997). In addition,
+Abuelo et al. (2021) compared the effects of 1 versus 2
+meals of colostrum, and, although possible saturation
+level was not the focus of the study, it was reported
+that calves fed a second colostrum meal at 5 to 6 h
+had lower odds of failed transfer of passive immunity
+than calves fed just 1 meal at birth. Given these findings, mulitple colostrum meals may aid in improving
+successful transfer of passive immunity; however, the
+effects of multiple meals on absorption of IgG are not
+well understood.
+Total IgG mass is directly related to IgG concentration and increases as greater volumes of colostrum are
+fed, but AEA simultaneously decreases and is negatively correlated with the amount of IgG fed (Besser
+et al., 1985; Saldana et al., 2019). This decrease in
+AEA, when high total masses of IgG are fed at birth,
+is thought to occur due to the physiological limitation
+of the intestine to absorb IgG within a determined time
+(Besser et al., 1985). This phenomenon has also been
+defined as “gut saturation” or achieving an upper limit
+of IgG absorption (Saldana et al., 2019). Besser et al.
+(1985) proposed 2 possible hypotheses for this upper
+limit of absorption when high amounts of IgG are fed.
+First, that shared macromolecular transport mechanisms of IgG are saturated, or, second, that the calf
+regulates its serum IgG concentrations when a threshold level is met (Besser et al., 1985). In support of the
+competitive binding hypothesis, Davenport et al. (2000)
+reported that adding casein to colostrum supplements
+or maternal colostrum reduced IgG absorption, and
+Lopez et al. (2020) found that the removal of casein in
+colostrum replacer (CR) increased AEA. Davenport et
+al. (2000) discussed that intake of further proteins or
+casein above a limited macromolecular transport would
+not be absorbed, and, as a result, circulating IgG in
+the blood could decrease. In consequence, AEA can be
+compromised.
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+6319
+
+Thus, we hypothesized that reducing total IgG mass
+fed at birth by increasing the number of colostrum meals
+would increase AEA. Thus, the objective of this study
+was to evaluate the effects of 2 different CR feeding
+frequencies, low and high, by delivering a determined
+volume according to birth BW in 2 or 3 meals. Also,
+we aimed to evaluate whether an upper limit of IgG
+absorption exists or whether AEA is decreased when a
+larger meal is fed at birth.
+MATERIALS AND METHODS
+
+The animal use protocol was approved by the Animal
+Care Committee of the University of Guelph (Guelph,
+ON, Canada; AUP no. 4488). This study was conducted
+at a commercial dairy farm with a total herd of ~3,500
+animals and ~1,600 milking cows in Aylmer, Ontario,
+Canada. This farm was chosen due to their willingness
+to participate in the research project and the availability of a high frequency of calvings over a short period,
+which would reduce any calf-to-calf variation that may
+have occurred in different seasons.
+Calving and Neonatal Calf Management
+
+Primiparous and multiparous Holstein cows were
+separated from the close-up pen and moved to a maternity pen approximately 1 to 2 d before parturition.
+Maternity pens were bedded daily with shavings and
+sanitized between calvings. Cows were monitored during
+the calving process, and assistance was provided when
+needed. Male Holstein calves born in the maternity pen
+were immediately separated from their dams to prevent
+colostrum suckling. Afterward, calves were thoroughly
+dried with 3 clean towels, the navel was dipped with
+iodine, and a navel clamp was placed on the distal aspect of the navel. Calves were weighed with a digital
+scale (Brecknell Scales, PS1000, Avery Weigh-Tronix,
+LLC) and moved to individual calf hutches bedded with
+shavings (Starter Pen, AGRI-6000B, Agri-Plastics). In
+between calves, pens were cleaned and disinfected with
+alcohol (70%) and a chlorhexidine solution (Germi-Stat
+4%, Germiphene Corporation). Sanitized pens were allowed to dry for 1 d before a new calf was assigned.
+Animal Experiment, Colostrum Replacer,
+and Milk Feeding
+
+Male Holstein calves (n = 40; 20 per treatment) born
+from November 2020 to December 2020 were enrolled in
+this experiment. All newborn calves were randomly assigned to treatment to receive CR following either (1) a
+low-frequency (LF) or (2) a high-frequency (HF) feeding
+protocol. Calves in the LF treatment were offered CR
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+within 1 h after birth (8% of birth BW) and 12 h (4% of
+birth BW) after the first CR feeding. Meanwhile, the HF
+calves received CR within 1 h after birth, and 6 and 12
+h after the first CR feeding (4% of birth BW per meal).
+Regardless of feeding frequency treatment, all calves
+were fed CR only at a total of 12% of birth BW. The
+randomization sequence was generated in Microsoft Excel (version 16.16.21, Microsoft Corporation) using the
+RAND function per block. The CR powder used was
+derived from bovine dried colostrum, contained IgG at
+30% DM, and was reconstituted with water to 70.5 g of
+IgG/L when fed (Saskatoon Colostrum Company Ltd.).
+The composition analysis of the CR is presented in
+Table 1. In addition, the Quality Assurance Laboratory
+from Saskatoon Colostrum Company Ltd. (Saskatoon,
+SK, Canada) reported that coliforms, Salmonella spp.,
+and Escherichia coli were absent. Reconstitution of CR
+was performed as follows: (1) weighing CR powder, (2)
+weighing warm (40°C) water, (3) reconstituting the solution by adding CR powder to a bowl and slowly adding water while mixing with a whisk for approximately
+2 min, and (4) weighing the reconstituted solution to
+verify it matched with the final mass to be fed. After
+verification, reconstituted CR was transferred to a 4-L
+esophageal tubing bottle. All CR meals were offered via
+an esophageal tube, and calves were not allowed to voluntarily consume colostrum. The first CR feeding was
+fed to all calves 1 h after birth. After the corresponding
+CR meals, all calves were fed (5% of BW) pasteurized
+waste milk at 24, 36, and 48 h after the first CR feeding
+via nipple bottle. Milk was heated to ~39°C in a warm
+water bath before feeding. Refused milk was weighed
+and recorded for every feeding. Calves were weighed at
+48 h immediately after the last milk feeding when their
+experimental enrollment concluded.
+Blood Sampling
+
+At approximately 10 to 20 min after birth, a jugular catheter was placed, as described by Fischer et al.
+(2018), to enable frequent blood sampling for 48 h.
+
+Table 1. Composition analysis of colostrum replacer used to feed
+calves assigned to either low or high feeding frequency treaments1
+Test description
+
+Specification
+
+Result
+
+30
+50
+14
+N/A
+7.0
+
+30
+60.7
+14.3
+8.0
+6.4
+
+IgG, % (minimum)
+Crude protein, % (minimum)
+Crude fat, % (minimum)
+Lactose, %
+Moisture, % (maximum)
+
+1
+Composition analyses were performed by the Quality Assurance
+Laboratory of the Saskatoon Colostrum Company Ltd. (Saskatoon,
+SK, Canada). N/A = not applicable.
+
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+6320
+
+Before catheter placement, one side of the calf’s neck
+was shaved with clippers (Wahl Basic Pet Clipper Kit,
+model no. 58108), scrubbed with a chlorhexidine solution (Germi-Stat 4%, Germiphene Corporation), and
+sprayed with isopropanol (70%). Thereafter, a 2-inch,
+16-gauge catheter (Thermo Fisher Scientific) was
+placed in the jugular vein. As soon as the catheter was
+placed, a baseline blood sample was taken (0 h). Blood
+samples (7 mL per collection) were then collected at
+the following intervals: every 2 h until 18 h; every 3 h
+from 18 to 30 h; and every 6 h from 30 to 48 h after the
+first CR feeding. All blood samples that coincided with
+a CR or milk meal were taken before feeding. Blood
+samples (7 mL) were transferred to a serum blood collection tube (Vacutainer; Becton, Dickinson and Co.).
+Immediately after every collection, 7 mL of saline and
+1 mL of heparinized saline were flushed back into the
+catheter. Samples in serum collection tubes were allowed to clot at room temperature for approximately 1
+to 2 h before centrifugation. Samples were centrifuged
+at 3,000 × g at 4°C for 20 min. Serum collected after
+centrifugation was transferred into three 1.5-mL microcentrifuge tubes in equal aliquots and frozen at −20°C
+until further analysis.
+IgG and Serum Total Protein Analyses
+
+Serum was thawed and re-centrifuged at 3,000 × g
+for 20 min at 4°C to separate the supernatant, which
+was then transferred to a new 1.5-mL microcentrifuge
+tube. Samples were then refrozen at −20°C and shipped
+overnight on ice to the Saskatoon Colostrum Company
+Ltd. Quality Assurance Laboratory (Saskatoon, SK,
+Canada) for IgG and serum total protein analyses.
+Serum IgG was determined by radial immunodiffusion,
+as described by Chelack et al. (1993), with modifications according to Shivley et al. (2018). Serum IgG
+values were determined for all time points and used
+to represent IgG dynamics during the first 48 h of life.
+The AEA formula used was adapted from Quigley and
+Drewry (1998), Quigley et al. (2002), and Saldana et
+al. (2019), where
+AEA = {[birth weight (kg) × 0.09 × serum IgG
+(g/L at 24 h)]/total IgG fed (g)} × 100.
+Additional parameters calculated with serum IgG data
+included the following: time to reach maximum concentration, and maximum concentration reached. Also, the
+positive incremental area under the curve (AUC) was
+calculated using the trapezoidal rule (Cardoso et al.,
+2011) at 6 h (AUC6), 12 h (AUC12), 24 h (AUC24), and
+48 h (AUC48) after the first CR feeding.
+
+6321
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+Table 2. Parameters (mean ± SEM) in newborn calves fed lowfrequency (LF; n = 19) or high-frequency (HF; n = 20) colostrum
+replacer (CR) within the first 12 h after the first CR feeding
+Treatment2
+Item1
+
+LF
+
+HF
+
+SEM
+
+Contrast
+P-value
+
+BW at birth, kg
+BW at 48 h, kg
+Baseline serum IgG, g/L
+IgG24, g/L
+STP24, g/dL
+AEA, %
+FPTI, %
+IgG Cmax, g/L
+IgG Tmax, h
+AUC6
+AUC12
+AUC24
+AUC48
+
+46.5
+48.1
+0.8
+25.8
+6.3
+27.6
+0
+29.8
+21.0
+36.5
+145.2
+443.1
+997.8
+
+45.6
+47.3
+0.5
+25.7
+6.3
+27.7
+0
+27.7
+22.0
+25.1
+105.9
+379.6
+866.8
+
+0.96
+0.95
+1.27
+1.28
+0.26
+1.26
+—
+0.91
+0.94
+2.60
+5.91
+15.17
+33.5
+
+0.50
+0.53
+0.78
+0.92
+0.92
+0.97
+—
+0.11
+0.43
+0.003
+<0.01
+0.004
+0.008
+
+1
+IgG24 = serum IgG concentrations at 24 h after colostrum feeding;
+STP24 = serum total protein concentrations at 24 h after colostrum
+feeding; AEA = apparent efficiency of absorption, calculated as {[birth
+weight (kg) × 0.09 × serum IgG (g/L 24 h)]/total IgG fed (g)} ×
+100; IgG Cmax = maximum concentration; IgG Tmax = time to reach
+maximum concentration; AUC6, AUC12, AUC24, and AUC48 = incremental area under the curve during the first 6, 12, 24, and 48 h after
+colostrum feeding, respectively; FPTI = failure of passive immunity
+(serum IgG24 <10 g/L).
+2
+LF = colostrum replacer fed (total of 12% of birth BW) in 2 meals
+(8 and 4% of birth BW; within 1 h after birth and 12 h after first CR
+feeding, respectively); HF = colostrum replacer fed (total of 12% of
+BW) in 3 meals (4% of BW; within 1 h after birth, and 6 and 12 h
+after first CR feeding).
+
+stituting CR powder and consequently total IgG consumed. The final data set therefore included 19 calves
+fed LF and 20 calves fed HF. Residual distribution for
+each variable was assessed for normality (using Shapiro-Wilk as a criterion) and homoscedasticity using
+the UNIVARIATE and PLOT procedures. Statistical
+significance was declared at P ≤ 0.05. All values are
+reported as mean ± SD. Effects of colostrum treatment
+on serum IgG values collected over time were analyzed
+as a repeated measures design using the GLIMMIX
+procedure. The model contained the fixed effects of
+treatment, time, and their interaction, and the random
+effect of calf. Time (hour) was specified as the repeated
+measure. Non-repeated measurements were analyzed
+using the MIXED procedure. The model included the
+fixed effect of treatment, time, and an interaction of
+treatment by time, and the random effect of calf. Least
+squares means are presented with the respective standard errors. Differences between least squares means
+were compared using the SLICE option, and contrast
+statements were performed for birth BW, BW at 48 h,
+serum total protein concentrations at 24 h after colostrum feeding, serum IgG concentrations at 24 h after
+colostrum feeding, AEA, and baseline IgG.
+RESULTS
+Body Weight, Colostrum, and Milk Feeding
+
+Sample Size
+
+An anticipated mean serum IgG concentration was
+selected from Fischer et al. (2018) due to the similarity
+of the colostrum feeding methodology. Fischer et al.
+(2018) reported an average serum IgG value of 22.30
+g/L with a standard error of the mean of 1.40 g/L.
+The standard deviation (SD) was determined to be
+4.20 g/L, which was used to calculate a coefficient of
+variation of 18.83%. Using this value, we calculated the
+total replicates needed per treatment group using an
+80% power and α of 0.05, as outlined by Berndtson
+(1991). To detect a difference of 20% in serum IgG values compared with the control, 19 animals were needed
+per group, for a total sample size of 38 calves. To account for 5% mortality, it was then determined that 20
+animals per treatment were needed, for a a total of 40
+newborn calves.
+Statistical Analysis
+
+Data were analyzed using SAS (University Edition,
+SAS Institute Inc.). A total of 40 male Holstein calves
+were included in the analysis (n = 20 per treatment),
+but one calf was removed due to an error when reconJournal of Dairy Science Vol. 105 No. 7, 2022
+
+Birth BW for LF and HF calves did not differ (P =
+0.50; Table 2). Additionally, BW was not different (P
+= 0.53) between treatments at 48 h after colostrum
+and milk feedings. Calves fed LF were fed a total IgG
+mass of 257.9 and 128.9 g in the first (0 h) and second
+(12 h) CR meals, respectively, whereas HF calves were
+fed 126.7, 126.7, and 126.7 g at the first (0 h), second
+(6 h), and third (12 h) CR meals, respectively. Overall,
+LF and HF were fed a total IgG mass of 386.9 and
+380.1 ± 8.1 g (P = 0.53), respectively. A milk consumption effect was found for all calves (P < 0.001), where
+calves drank more milk in the second (36 h) and third
+(48 h) milk feedings than in the first milk feeding (24
+h). Although LF calves were fed a higher amount of
+colostrum at birth (8% of BW) than HF calves (4% of
+BW), milk consumption in the first milk feeding did
+not differ (P = 0.96).
+Effect of 2 Feeding Frequencies on IgG Absorption
+
+Baseline serum IgG concentrations at birth were negligible and not different (P = 0.78; Table 2) between LF
+and HF calves. Feeding colostrum twice versus 3 times
+did not affect serum IgG values at 24 h (P = 0.92;
+Figure 1; Table 2). According to serum IgG categories
+
+6322
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+specified by Lombard et al. (2020), 55.56 and 44.44%
+of LF calves were in the good (18.00 to 24.90 g/L) and
+excellent (≥25.00 g/L) categories, respectively, whereas
+38.10% and 61.90% of HF calves were in the good and
+excellent categories, respectively. The percentages of
+calves in either excellent or good category were not
+different between LF or HF calves (P > 0.05). None of
+the calves fed either LF or HF were classified as having
+poor (<10.00 g/L) or fair (10.00 to 17.90 g/L) transfer
+of passive immunity. Additionally, serum total protein
+values at 24 h were not affected (P = 0.92; Table 2) by
+feeding LF or HF colostrum treatments (Table 2). We
+found a treatment by time effect (P = 0.003) on serum
+IgG concentrations throughout the experimental period
+(Figure 1). However, simple sliced effects demonstrated
+mean differences only in serum IgG between treatments
+at 8 h (P < 0.01; Figure 1).
+Apparent efficiency of absorption at 24 h did not
+differ (P = 0.97) between LF and HF calves (Table 2).
+In addition, calves fed either LF or HF did not have
+a different maximum concentration (P = 0.11; Table
+2). Similarly, time to reach maximum concentration for
+LF and HF did not differ (P = 0.44; Table 2). Calves
+fed LF had a higher (P < 0.01) AUC6 than HF calves
+(Table 2). Similarly, LF calves had a higher (P < 0.01)
+AUC12 than HF calves (Table 2). The same scenario
+was observed for AUC24, where LF calves had a higher
+value (P < 0.01) than HF calves (Table 2). In addition,
+
+LF calves had a higher AUC48 (P < 0.01) than HF
+calves (Table 2). Overall, it seems that HF calves were
+able to absorb enough IgG from meals offered at 6 and
+12 h and equalize serum IgG concentrations at 24 h
+compared with calves fed LF, even though it is known
+that IgG absorption decreases as time after birth increases (Stott et al., 1979a).
+DISCUSSION
+
+We hypothesized that increasing CR feeding frequency
+from 2 to 3 meals would increase serum IgG concentrations at 24 h and AEA. This possible improvement in
+IgG absorption could be related to a more efficient IgG
+absorption when feeding lower masses of IgG compared
+with higher IgG masses in a certain period of time that
+could surpass an upper limit of absorption (Besser et
+al., 1985; Saldana et al., 2019). Nevertheless, results
+from this study show that serum IgG and AEA levels
+were not affected by feeding newborn calves either 2
+or 3 CR meals postnatally. This might indicate that 2
+or 3 colostrum meals already reduce the upper limit of
+IgG absorption a calf might experience compared with
+when they are fed one large meal at birth.
+Apparent efficiency of absorption of colostral IgG
+seems to decrease when large colostrum meals or high
+masses of IgG are fed at birth (Saldana et al., 2019),
+but this was not seen in the current study. It has to
+
+Figure 1. Serum IgG concentrations (mean ± SEM) for calves fed at low frequency (LF; within 1 h after birth and 12 h after first CR feeding) or high frequency (HF; within 1 h after birth, and 6 and 12 h after first CR feeding). Gray arrow represents colostrum meals fed within
+1 h after birth (8% of BW) and 12 h after the first CR feeding (4% of BW) for calves assigned to LF. Black arrows represent colostrum meals
+fed within 1 h after birth (4% of BW) and 6 (4% of BW) and 12 h after the first CR feeding (4% of BW) for calves assigned to HF. Asterisks
+indicate differences between treatments at a given time (P ≤ 0.01).
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+be considered that we did not have a treatment where
+calves were fed only one meal at birth, which limits
+some comparisons with other studies. Saldana et al.
+(2019) showed that calves fed a single meal at birth
+using a lower total IgG mass [IgG concentration of 52.3
+g/L (198.74 g of IgG fed)] from maternal colostrum had
+higher AEA (37.3%) than calves fed colostrum with
+an IgG concentration of 98.1 g/L (372.78 g of IgG fed;
+AEA: 20.8%). Even though all calves in the present
+study were fed colostrum to a total of 12% of their
+BW in their first 12 h of life, as recommended by Godden et al. (2019), our results indicate that calves fed a
+decreased total IgG mass in the first meal (4% of BW
+instead of 8% of BW) did not have an increased AEA.
+These results disagree with findings from Saldana et al.
+(2019) and Lopez et al. (2020), who reported decreased
+AEA when higher doses of IgG were fed. However, it
+has to be considered that total IgG masses fed by Saldana et al. (2019) in a single meal at 0 h (351.5 g of
+IgG) were higher than meals in our study. Furthermore,
+Lopez et al. (2020) also found that calves fed a single
+meal, with a lower IgG mass of 154 g, within 2 h after
+birth had an increased AEA (54.4%) compared with
+calves fed a higher IgG dose of 401 g, which had a
+lower AEA of 24.4%. In both Saldana et al. (2019) and
+Lopez et al. (2020), it is important to note that the
+reported reduction in AEA occurred when calves were
+fed a higher total IgG mass at birth, delivering a high
+amount of total IgG (>300g). This might indicate that
+a higher IgG mass needs to be fed in a single meal to
+induce a possible upper limit of IgG absorption.
+In addition to the studies performed by Saldana et
+al. (2019) and Lopez et al. (2020), which reported IgG
+absorption when calves were fed only a single colostrum
+meal after birth, other studies have also researched colostrum feeding frequencies involving more than one
+meal (Morin et al., 1997; Jaster, 2005; Cabral et al.,
+2012, 2014). Morin et al. (1997) evaluated feeding 1 or 2
+colostrum meals. Morin et al. (1997) studied the effects
+of feeding 4 L at birth or 4 L at birth followed by a 2-L
+meal of maternal colostrum with an IgG concentration
+of 60.1 g/L at 12 h. The authors reported that feeding 2
+meals (4 L at birth plus 2 L at 12 h) resulted in higher
+serum IgG concentrations. The current study, however,
+did not compared feeding 2 or 3 meals against one
+single meal, where possible reductions of IgG absorption have been observed (Morin et al., 1997; Saldana et
+al., 2019). Similar to the 2 feeding frequencies studied
+by Morin et al. (1997), Cabral et al. (2012) compared
+the effects of feeding CR at 0 h (191.4 g of IgG fed) or
+at 0 and 6 h (127.6 and 63.8 g of IgG fed, respectively)
+to newborn Holstein calves. Cabral et al. (2012) reported that serum IgG was not different for calves fed
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+6323
+
+once or twice (15.8 and 16.8 g/L, respectively). In addition, they did not find an increase in AEA when calves
+were fed twice (32.9%) compared with calves fed once
+(32.1%). Their results contrast the findings of Morin
+et al. (1997) but are in agreement with our results,
+where decreasing total IgG fed at birth by increasing
+number of meals did not affect IgG absorption. Cabral
+et al. (2012) discussed that the 6-h meal did not significantly contribute to additional IgG absorption due
+to decreased or depleted pinocytotic activity, which is
+responsible for macromolecular transport of IgG after
+the lumen has initial contact with colostrum at 0 h
+(Stott et al. 1979b). However, our AUC values indicate
+that calves fed a lower IgG mass at birth, followed by 2
+more colostrum meals (6 and 12 h) were able to achieve
+the same IgG levels as calves fed higher IgG doses at
+birth. These findings suggest that meals offered at 6
+and 12 h for HF calves contributed to additional IgG
+absorption. In a follow-up study, Cabral et al. (2014)
+reevaluated the effects of feeding colostrum once versus
+twice in the first 6 h of life. They compared feeding CR
+at 0 h (184.5 g of IgG fed) or at 0 and 6 h (123.0 and
+61.5 g of IgG fed, respectively). Again, they did not
+find differences in serum IgG concentrations, AEA, nor
+AUC at 24 h for calves fed once or twice. In contrast to
+Cabral et al. (2012) and Cabral et al. (2014), we found
+that calves fed a higher mass of IgG at birth (LF) had
+a higher AUC throughout the whole sampling period
+(6, 12, 24, and 48 h). Nevertheless, even though calves
+fed LF (colostrum fed at 0 and 12 h) had a consistently
+greater AUC than HF calves (colostrum fed at 0, 6, and
+12 h) up to 24 h, serum IgG values at 24 h were not different. It was not directly measured in this study, but
+the higher AUC for LF fed calves could imply that the
+rate of absorption was higher during the first hours of
+life due to the greater total mass fed compared with HF
+calves: 257.9 and 128.9 g, respectively. Although AUC
+was higher for LF calves, serum IgG concentrations at
+24 h did not differ. This suggests that HF calves were
+still able to effectively absorb the IgG fed at 6 and
+12 h and still attain the serum IgG concentrations of
+LF calves, which were fed a higher total IgG mass at
+birth. From these observations, it could be suggested
+that calves still absorb IgG efficiently at 6 and 12 h, as
+they reach sufficient levels of IgG to achieve successful
+transfer of passive immunity, even when high-quality
+colostrum feeding is delayed to 6 or 12 h after birth
+(Fischer et al., 2018). Hare et al. (2020) also found that
+calves fed prolonged colostrum meals after a first meal
+at birth (every 12 h from 12 until 72 h) had increased
+serum IgG concentrations and demonstrated an apparent IgG persistency of 88.2%. From these experiments
+studying feeding regimens, only Jaster (2005) fed a high
+
+6324
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+dose of IgG at birth (>300 g) and consequently found a
+response in IgG uptake and AEA. Jaster (2005) evaluated feeding 4 L of high-quality maternal colostrum (84
+g/L of IgG) once (0 h; 336 g of IgG fed) or feeding 2
+L at 0 h (168 g of IgG fed) and 2 L at 12 h (168 g of
+IgG fed) to newborn Jersey calves. They reported that
+serum IgG concentrations at 24 h were higher for calves
+fed 2 L twice (45.8 g/L) rather than feeding one meal of
+4 L (39.7 g/L). In addition, AEA at 48 h was increased
+when calves were fed 2 separate 2-L meals (31.2%)
+instead of a single 4-L meal of high-quality colostrum
+(24.6%). Overall, providing a second colostrum meal
+to newborn calves seems to contribute to circulating
+serum IgG concentrations at 24 h.
+Jaster (2005) fed a considerably higher total IgG
+mass (336 g) to calves in a single meal compared with
+the doses fed by Cabral et al. (2012; 191.4 g), Cabral
+et al. (2014; 184.5 g), and our study (128.9 g). This
+leads us to speculate that high doses of IgG are needed
+to decrease AEA and IgG absorption. Saldana et al.
+(2019) and Lopez et al. (2020) reported decreased AEA
+when high total IgG masses, above 300 g, were fed in
+a single meal after birth. In contrast, the present study
+only fed calves either 258 or 126.7 g of IgG at birth.
+Besser et al. (1985) noted that newborns have a physiological limit to the amount of Ig they can absorb from
+a given volume of colostrum. Moreover, Saldana et al.
+(2019) suggested that a decrease in AEA is due to an
+upper limit of absorption in a given period. Although
+total IgG mass fed is a limiting factor, total volume fed
+is also an important consideration. Stott and Fellah
+(1983) reported that calves absorb IgG more efficiently
+when a determined total IgG mass is fed in 1 L rather
+than 2 L of colostrum. Specifically, Stott and Fellah
+(1983) stated that 1 L of colostrum with an IgG concentration of 100 g/L is better absorbed than 2 L of
+colostrum with an IgG concentration of 50 g/L. Moreover, Jaster (2005) also discussed how large volumes of
+colostrum are absorbed less efficiently.
+Colostrum replacer AEA varies between different
+products due to different manufacturing techniques
+(Godden et al., 2009; Lopez et al., 2020). The AEA from
+maternal colostrum can range from 20 to 35% (Jones
+and Heinrichs, 2006); however, these ranges vary, with
+Halleran et al. (2017) reporting a range from 7.7 to
+59.9% in dairy heifers fed a standardized meal, whereas
+Quigley et al. (2019) and Lopez et al. (2020) reported
+AEA ranges from 15.0 up to 40.1% for calves fed CR
+products. The reasons why AEA varies between calves
+remain unclear, but colostrum composition can be a
+factor. For example, the removal of casein and fat in
+CR resulted in AEA values of 40 and 41% (Lopez et al.,
+2020), whereas high doses (>500 g) of casein added to
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+colostrum affected colostral Ig absorption (Davenport
+et al., 2000). Finally, other factors, such as maternal
+colostrum pasteurization and the presence of bioactive
+hormones (e.g., IGF-1), have been shown to positively
+and negatively affect AEA (Gelsinger et al., 2014, 2015;
+Hammon et al., 2020; Pyo et al., 2020). Although CR
+composition is variable, in this study we used dried
+bovine colostrum derived from whole colostrum; thus
+we anticipate our results would be similar to calves fed
+maternal colostrum.
+Although we did not find any benefit to feeding 3
+meals of colostrum, none of the calves in either of the
+2 feeding regimens in this study had failed transfer of
+passive immunity or were categorized as having poor
+(<10 g/L) or fair (10.0 to 17.9 g/gL) IgG levels, as
+proposed by Lombard et al. (2020). This demonstrates
+that neither of these feeding frequencies negatively affected serum IgG levels or compromised transfer of passive immunity. Therefore, increasing colostrum feeding
+frequencies in the first 12 h of life when feeding volumes
+according to industry standards, >10% of birth BW,
+with colostrum containing an IgG concentration of 70.5
+g/L, does not result in added benefits, such as increased
+serum IgG concentrations at 24 h. This underlines that
+colostrum management does not require dairy famers
+to offer 3 colostrum meals in the first 12 h of life.
+CONCLUSIONS
+
+These results indicate that additional meals of CR
+with a 70.5 g/L IgG concentration do not result in added benefits to serum IgG concentrations or AEA levels.
+Feeding newborn calves a total IgG mass of 257.98 g
+does not appear to influence a possible upper limit of
+IgG absorption or decrease AEA; thus, a higher IgG
+mass fed at birth is needed to negatively affect AEA
+or IgG absorption. These results indicate that feeding
+additional meals of high-quality colostrum do not result
+in added benefits to serum IgG or AEA levels.
+ACKNOWLEDGMENTS
+
+The authors thank Michael Chubb, Ron Sargeant,
+and Richard Hupaelo of Saskatoon Colostrum Company Ltd. (Saskatoon, SK, Canada) for their support
+and assessment. Also, the authors greatly appreciate the constant and invaluable help given by Koryn
+Hare, Emily Croft, Kendra Broadfoot, and Kristen
+Lutz (University of Guelph, Guelph, ON, Canada)for
+sampling and data collection. In addition, the authors
+thank John Walker for permitting use of Walker Farms
+facilities (Walker Dairy Inc., Aylmer, ON, Canada) to
+execute this experiment as well to their staff, including
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+Salvador Contreras, Jamie Pottow, and Jochem Wagenvoort. The authors are also grateful for the funding for
+A. J. Lopez in his graduate studies at the University
+of Guelph (Guelph, ON, Canada) provided by Alberta
+Agriculture (Edmonton, AB, Canada), Alberta Milk
+(Edmonton, AB, Canada), the BC Dairy Association (Burnaby, BC, Canada), SaskMilk (Regina, SK,
+Canada), the Dairy Farmers of Manitoba (Winnipeg,
+MB, Canada), the Saskatoon Colostrum Company Ltd.
+(Saskatoon, SK, Canada), Westgen (Abbottsford, BC,
+Canada), Lallemand (Montreal, QC, Canada), and the
+Natural Sciences and Engineering Research Council of
+Canada (NSERC; Ottawa, ON, Canada). The authors
+have not stated any conflicts of interest.
+REFERENCES
+Abuelo, A., F. Cullens, A. Hanes, and J. L. Brester. 2021. Impact of 2
+versus 1 colostrum meals on failure of transfer of passive immunity,
+pre-weaning morbidity and mortality, and performance of dairy
+calves in a large dairy herd. Animals (Basel) 11:782. https:​/​/​doi​
+.org/​10​.3390/​ani11030782.
+Berndtson, W. E. 1991. A simple, rapid and reliable method for selecting or assessing the numbers of replicates for animal experiments.
+J. Anim. Sci. 69:67–76. https:​/​/​doi​.org/​10​.2527/​1991​.69167x.
+Besser, T. E., A. E. Garmedia, T. C. McGuire, and C. C. Gay. 1985.
+Effect of colostral immunoglobulin G1 and immunoglobulin M concentrations on immunoglobulin absorption in calves. J. Dairy Sci.
+68:2033–2037. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​-0302(85)81065​
+-1.
+Besser, T. E., C. C. Gay, and L. Pritchett. 1991. Comparison of three
+methods of feeding colostrum to dairy calves. J. Am. Vet. Med.
+Assoc. 198:419–422.
+Cabral, R. G., M. A. Cabral, C. E. Chapman, E. J. Kent, D. M.
+Haines, and P. S. Erickson. 2014. Colostrum replacer feeding regimen, addition of sodium bicarbonate, and milk replacer: The combined effects on absorptive efficiency of immunoglobulin G in neonatal calves. J. Dairy Sci. 97:2291–2296. https:​/​/​doi​.org/​10​.3168/​
+jds​.2013​-7007.
+Cabral, R. G., E. J. Kent, D. M. Haines, and P. S. Erickson. 2012. Addition of sodium bicarbonate to either 1 or 2 feedings of colostrum
+replacer: Effect on uptake and rate of absorption of immunoglobulin G in neonatal calves. J. Dairy Sci. 95:3337–3341. https:​/​/​doi​
+.org/​10​.3168/​jds​.2011​-5137.
+Cardoso, F. C., W. Sears, S. J. LeBlanc, and J. K. Drackley. 2011.
+Technical note: Comparison of 3 methods for analyzing areas under the curve for glucose and nonesterified fatty acids concentrations following epinephrine challenge in dairy cows. J. Dairy Sci.
+94:6111–6115. https:​/​/​doi​.org/​10​.3168/​jds​.2011​-4627.
+Chelack, B. J., P. S. Morley, and D. M. Haines. 1993. Evaluation of
+methods for dehydration of bovine colostrum for total replacement
+of normal colostrum in calves. Can. Vet. J. 34:407–412.
+Davenport, D. F., J. D. Quigley III, J. E. Martin, J. A. Holt, and J. D.
+Arthington. 2000. Addition of casein or whey protein tocolostrum
+or a colostrum supplement product on absorption of IgG in neonatal calves. J. Dairy Sci. 83:2813–2819. https:​/​/​doi​.org/​10​.3168/​jds​
+.S0022​-0302(00)75180​-0.
+Fischer, A. J., Y. Song, Z. He, D. M. Haines, L. L. Guan, and M. A.
+Steele. 2018. Effect of delaying colostrum feeding on passive transfer and intestinal bacterial colonization in neonatal male Holstein
+calves. J. Dairy Sci. 101:3099–3109. https:​/​/​doi​.org/​10​.3168/​jds​
+.2017​-13397.
+Gelsinger, S. L., S. M. Gray, C. M. Jones, and A. J. Heinrichs. 2014.
+Heat treatment of colostrum increases immunoglobulin G absorp-
+
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+6325
+
+tion efficiency in high-, medium-, and low-quality colostrum. J.
+Dairy Sci. 97:2355–2360. https:​/​/​doi​.org/​10​.3168/​jds​.2013​-7374.
+Gelsinger, S. L., C. M. Jones, and A. J. Heinrichs. 2015. Effect of
+colostrum heat treatment and bacterial population on immunoglobulin G absorption and health of neonatal calves. J. Dairy Sci.
+98:4640–4645. https:​/​/​doi​.org/​10​.3168/​jds​.2014​-8790.
+Godden, S. M., D. M. Haines, and D. Hagman. 2009. Improving passive transfer of immunoglobulins in calves. I: Dose effect of feeding a commercial colostrum replacer. J. Dairy Sci. 92:1750–1757.
+https:​/​/​doi​.org/​10​.3168/​jds​.2008​-1846.
+Godden, S. M., J. E. Lombard, and A. R. Woolums. 2019. Colostrum
+management for dairy calves. Vet. Clin. North Am. Food Anim.
+Pract. 35:535–556. https:​/​/​doi​.org/​10​.1016/​j​.cvfa​.2019​.07​.005.
+Halleran, J., H. J. Sylvester, and D. K. Foster. 2017. Apparent efficiency of colostral immunoglobulin G absorption in Holstein heifers. J.
+Dairy Sci. 100:3282–3286. https:​/​/​doi​.org/​10​.3168/​jds​.2016​-11904.
+Hammon, H. M., W. Liermann, D. Frieten, and C. Koch. 2020. Review:
+Importance of colostrum supply and milk feeding intensity on gastrointestinal and systemic development in calves. Animal 14(Suppl. 1):s133–s143. https:​/​/​doi​.org/​10​.1017/​S1751731119003148.
+Hare, K. S., S. Pletts, J. Pyo, D. Haines, L. L. Guan, and M. A. Steele.
+2020. Feeding colostrum or a 1:1 colostrum:​whole milk mixture for
+3 days after birth increases serum immunoglobulin G and apparent immunoglobulin G persistency in Holstein bulls. J. Dairy Sci.
+103:11833–11843. https:​/​/​doi​.org/​10​.3168/​jds​.2020​-18558.
+Jaster, E. H. 2005. Evaluation of quality, quantity, and timing of colostrum feeding on immunoglobulin G1 absorption in Jersey calves.
+J. Dairy Sci. 88:296–302. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​
+-0302(05)72687​-4.
+Jones, C. M., and A. J. Heinrichs. 2006. Calf Care. W. D. Hoard &
+Sons Company.
+Lombard, J., N. Urie, F. Garry, S. Godden, J. Quigley, T. Earleywine, S. McGuirk, D. Moore, M. Branan, M. Chamorro, G. Smith,
+C. Shivley, D. Catherman, D. Haines, A. J. Heinrichs, R. James,
+J. Maas, and K. Sterner. 2020. Consensus recommendations on
+calf- and herd-level passive immunity in dairy calves in the United
+States. J. Dairy Sci. 103:7611–7624. https:​/​/​doi​.org/​10​.3168/​jds​
+.2019​-17955.
+Lopez, A. J., C. M. Jones, A. J. Geiger, and A. J. Heinrichs. 2020.
+Comparison of immunoglobulin G absorption in calves fed maternal colostrum, a commercial whey-based colostrum replacer, or
+supplemented maternal colostrum. J. Dairy Sci. 103:4838–4845.
+https:​/​/​doi​.org/​10​.3168/​jds​.2019​-17949.
+Morin, D. E., G. C. McCoy, and W. L. Hurley. 1997. Effects of quality, quantity, and timing of colostrum feeding and addition of a
+dried colostrum supplement on immunoglobulin G1 absorption in
+dairy calves. J. Dairy Sci. 80:747–753. https:​/​/​doi​.org/​10​.3168/​jds​
+.S0022​-0302(97)75994​-0.
+NAHMS. 2014. Dairy Cattle Management Practices in the United
+States. USDA:​APHIS.
+Pyo, J., K. Hare, S. Pletts, Y. Inabu, D. Haines, T. Sugino, L. L.
+Guan, and M. Steele. 2020. Feeding colostrum or a 1:1 colostrum:​
+milk mixture for 3 days postnatal increases small intestinal development and minimally influences plasma glucagon-like peptide-2
+and serum insulin-like growth factor-1 concentrations in Holstein
+bull calves. J. Dairy Sci. 103:4236–4251. https:​/​/​doi​.org/​10​.3168/​
+jds​.2019​-17219.
+Quigley, J. D. 2004. The Role of Oral Immunoglobulins in Systemic
+and Intestinal Immunity of Neonatal Calves. Diamond V Mills.
+Quigley, J. D., L. Deikun, T. M. Hill, F. X. Suarez-Mena, T. S. Dennis,
+and W. Hu. 2019. Effects of colostrum and milk replacer feeding
+rates on intake, growth, and digestibility in calves. J. Dairy Sci.
+102:11016–11025. https:​/​/​doi​.org/​10​.3168/​jds​.2019​-16682.
+Quigley, J. D. Iii., and J. J. Drewry. 1998. Nutrient and immunity transfer from cow to calf pre- and postcalving. J. Dairy Sci.
+81:2779–2790. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​-0302(98)75836​
+-9.
+Quigley, J. D. III, C. J. Kost, and T. M. Wolfe. 2002. Absorption of
+protein and IgG in calves fed a colostrum supplement or replacer.
+
+Lopez et al.: COLOSTRUM FEEDING FREQUENCY
+
+J. Dairy Sci. 85:1243–1248. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​
+-0302(02)74188​-X.
+Roy, J. H. B. 1980. Factors affecting susceptibility of calves to disease. J. Dairy Sci. 63:650–664. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​
+-0302(80)82987​-0.
+Saldana, D. J., S. L. Gelsinger, C. M. Jones, and A. J. Heinrichs. 2019.
+Effect of different heating times of high-, medium-, and low-quality colostrum on immunoglobulin G absorption in dairy calves. J.
+Dairy Sci. 102:2068–2074. https:​/​/​doi​.org/​10​.3168/​jds​.2018​-15542.
+Shivley, C. B., J. E. Lombard, N. J. Urie, D. M. Haines, R. Sargent,
+C. A. Kopral, T. J. Earleywine, J. D. Olson, and F. B. Garry.
+2018. Preweaned heifer management on US dairy operations: Part
+II. Factors associated with colostrum quality and passive transfer
+
+Journal of Dairy Science Vol. 105 No. 7, 2022
+
+6326
+
+status of dairy heifer calves. J. Dairy Sci. 101:9185–9198. https:​/​/​
+doi​.org/​10​.3168/​jds​.2017​-14008.
+Stott, G. H., and A. Fellah. 1983. Colostral immunoglobulin absorption
+linearly related to concentration for calves. J. Dairy Sci. 66:1319–
+1328. https:​/​/​doi​.org/​10​.3168/​jds​.S0022​-0302(83)81941​-9.
+Stott, G. H., D. B. Marx, B. E. Menefee, and G. T. Nightengale.
+1979a. Colostral immunoglobulin transfer in calves I. Period of
+absorption. J. Dairy Sci. 62:1632–1638. https:​/​/​doi​.org/​10​.3168/​
+jds​.S0022​-0302(79)83472​-4.
+Stott, G. H., D. B. Marx, B. E. Menefee, and G. T. Nightengale.
+1979b. Colostral immunoglobulin transfer in calves II. The rate of
+absorption. J. Dairy Sci. 62:1766–1773. https:​/​/​doi​.org/​10​.3168/​
+jds​.S0022​-0302(79)83495​-5.
+
+
