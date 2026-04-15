@@ -166,6 +166,7 @@ related_sota:
 - CS.SOTA.247
 - CS.SOTA.248
 - CS.SOTA.252
+- CS.SOTA.255
 tags:
 - rumen
 - fermentation

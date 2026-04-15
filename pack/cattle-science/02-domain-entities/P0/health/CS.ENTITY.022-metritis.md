@@ -5,32 +5,33 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: reproductive-disorders
-name_ru: "Метрит"
-name_en: "Metritis"
-abbreviation: "METR"
+name_ru: Метрит
+name_en: Metritis
+abbreviation: METR
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.008
-  - CS.SOTA.020
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.067
+- CS.SOTA.001
+- CS.SOTA.008
+- CS.SOTA.020
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.067
+- CS.SOTA.253
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.017
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.021
+- CS.ENTITY.002
+- CS.ENTITY.017
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.021
 tags:
-  - metritis
-  - uterine-infection
-  - postpartum
-  - reproductive-disorder
-  - transition-period
-  - retained-placenta
-  - endometritis
+- metritis
+- uterine-infection
+- postpartum
+- reproductive-disorder
+- transition-period
+- retained-placenta
+- endometritis
 ---
 
 # CS.ENTITY.022: Метрит

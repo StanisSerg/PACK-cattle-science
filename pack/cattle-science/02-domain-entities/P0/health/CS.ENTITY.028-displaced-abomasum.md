@@ -5,27 +5,28 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Смещение сычуга"
-name_en: "Displaced abomasum"
-abbreviation: "DA"
+name_ru: Смещение сычуга
+name_en: Displaced abomasum
+abbreviation: DA
 related_sota:
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.067
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.067
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.027
-  - CS.ENTITY.004
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.027
+- CS.ENTITY.004
 tags:
-  - displaced-abomasum
-  - metabolic-disorders
-  - transition-period
-  - ketosis
-  - hypocalcemia
-  - gastrointestinal
-  - surgery
+- displaced-abomasum
+- metabolic-disorders
+- transition-period
+- ketosis
+- hypocalcemia
+- gastrointestinal
+- surgery
 ---
 
 # CS.ENTITY.028: Смещение сычуга

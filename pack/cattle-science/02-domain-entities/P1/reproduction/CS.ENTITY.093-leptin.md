@@ -5,28 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Лептин"
-name_en: "Leptin"
-abbreviation: "LEP"
+name_ru: Лептин
+name_en: Leptin
+abbreviation: LEP
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.029
-  - CS.ENTITY.056
-  - CS.ENTITY.091
-  - CS.ENTITY.092
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.036
-  - CS.ENTITY.038
+- CS.ENTITY.029
+- CS.ENTITY.056
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.036
+- CS.ENTITY.038
 tags:
-  - leptin
-  - adipokine
-  - energy-balance
-  - appetite-regulation
-  - reproduction
-  - biomarker
+- leptin
+- adipokine
+- energy-balance
+- appetite-regulation
+- reproduction
+- biomarker
 ---
 
 # CS.ENTITY.093: Лептин (Leptin)

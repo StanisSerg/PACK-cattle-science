@@ -5,40 +5,41 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Жировой гепатоз"
-name_en: "Fatty liver disease"
-abbreviation: "FLD"
+name_ru: Жировой гепатоз
+name_en: Fatty liver disease
+abbreviation: FLD
 related_sota:
-  - CS.SOTA.026
-  - CS.SOTA.028
-  - CS.SOTA.030
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.039
-  - CS.SOTA.041
-  - CS.SOTA.042
-  - CS.SOTA.043
-  - CS.SOTA.044
-  - CS.SOTA.046
-  - CS.SOTA.055
+- CS.SOTA.026
+- CS.SOTA.028
+- CS.SOTA.030
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.039
+- CS.SOTA.041
+- CS.SOTA.042
+- CS.SOTA.043
+- CS.SOTA.044
+- CS.SOTA.046
+- CS.SOTA.055
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.007
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.010
-  - CS.ENTITY.018
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.010
+- CS.ENTITY.018
 tags:
-  - fatty-liver
-  - hepatic-lipidosis
-  - metabolic-disorder
-  - transition-period
-  - triacylglycerol
-  - nefa
-  - ketosis
-  - liver-dysfunction
+- fatty-liver
+- hepatic-lipidosis
+- metabolic-disorder
+- transition-period
+- triacylglycerol
+- nefa
+- ketosis
+- liver-dysfunction
 ---
 
 # CS.ENTITY.019: Жировой гепатоз

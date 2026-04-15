@@ -5,23 +5,25 @@ fpf_type: U.Method
 domain: cattle-science
 area: reproduction
 subarea: synchronization
-name_ru: "Протокол CIDR"
-name_en: "CIDR protocol"
-abbreviation: "CIDR"
+name_ru: Протокол CIDR
+name_en: CIDR protocol
+abbreviation: CIDR
 related_sota:
-  - CS.SOTA.003
-  - CS.SOTA.023
+- CS.SOTA.003
+- CS.SOTA.023
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.025
-  - CS.ENTITY.003
-  - CS.ENTITY.064
+- CS.ENTITY.025
+- CS.ENTITY.003
+- CS.ENTITY.064
 tags:
-  - cidr
-  - synchronization
-  - timed-ai
-  - progesterone
-  - reproduction
-  - protocol
+- cidr
+- synchronization
+- timed-ai
+- progesterone
+- reproduction
+- protocol
 ---
 
 # CS.ENTITY.034: Протокол CIDR (CIDR protocol)

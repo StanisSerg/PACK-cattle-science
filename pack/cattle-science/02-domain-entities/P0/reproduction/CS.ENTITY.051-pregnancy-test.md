@@ -5,25 +5,27 @@ fpf_type: U.Method
 domain: cattle-science
 area: reproduction
 subarea: diagnostics
-name_ru: "Тест на беременность"
-name_en: "Pregnancy test"
-abbreviation: "PT"
+name_ru: Тест на беременность
+name_en: Pregnancy test
+abbreviation: PT
 related_sota:
-  - CS.SOTA.003
-  - CS.SOTA.116
-  - CS.SOTA.019
+- CS.SOTA.003
+- CS.SOTA.019
+- CS.SOTA.116
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.090
-  - CS.ENTITY.091
-  - CS.ENTITY.103
-  - CS.ENTITY.101
+- CS.ENTITY.090
+- CS.ENTITY.091
+- CS.ENTITY.103
+- CS.ENTITY.101
 tags:
-  - pregnancy-test
-  - pregnancy-diagnosis
-  - PAG
-  - ultrasound
-  - reproduction
-  - monitoring
+- pregnancy-test
+- pregnancy-diagnosis
+- PAG
+- ultrasound
+- reproduction
+- monitoring
 ---
 
 # CS.ENTITY.051: Тест на беременность (Pregnancy test)

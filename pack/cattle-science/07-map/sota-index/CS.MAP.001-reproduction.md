@@ -1,6 +1,6 @@
 # CS.MAP.001-reproduction: SoTA Index — Репродуктивный менеджмент
 
-> Шард индекса: reproduction (26 SoTA)
+> Шард индекса: reproduction (28 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 26 |
+| Всего SoTA | 28 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 6 |
-| P2 (Важные) | 19 |
+| P2 (Важные) | 21 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 3 |
-| Field-study | 9 |
+| Field-study | 11 |
 | Meta-analysis | 3 |
 | Observational | 2 |
 | Research | 4 |
@@ -54,6 +54,8 @@
 | [CS.SOTA.231](../../06-sota/reproduction/CS.SOTA.231-pereira-2025.md) | Pereira et al. | 2025 | P2 | field-study | `metritis, clinical-cure, time-to-cure` | Ретроспективное когортное исследование оценивало связь между... |
 | [CS.SOTA.249](../../06-sota/reproduction/CS.SOTA.249-zavadilova-2013.md) | Zavadilová et al. | 2013 | P2 | field-study | `age-at-first-calving, AFC, longevity` | См. файл для деталей |
 | [CS.SOTA.251](../../06-sota/reproduction/CS.SOTA.251-do-2013.md) | Do et al. | 2013 | P2 | field-study | `age-at-first-calving, calving-interval, lifetime-profit` | См. файл для деталей |
+| [CS.SOTA.253](../../06-sota/reproduction/CS.SOTA.253-bauer-2026.md) | Bauer et al. | 2026 | P2 | field-study | `calving, labor-duration, uterine-health` | См. файл для деталей |
+| [CS.SOTA.254](../../06-sota/reproduction/CS.SOTA.254-laplacette-2026.md) | Laplacette et al. | 2026 | P2 | field-study | `double-ovsynch, timed-ai, estrus-detection` | См. файл для деталей |
 
 ---
 
@@ -66,4 +68,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 26 SoTA*
+*Автоматическая генерация: 28 SoTA*

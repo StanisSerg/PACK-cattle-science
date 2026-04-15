@@ -5,31 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolites
-name_ru: "Фактор некроза опухоли-альфа"
-name_en: "Tumor necrosis factor-alpha"
-abbreviation: "TNF-α"
+name_ru: Фактор некроза опухоли-альфа
+name_en: Tumor necrosis factor-alpha
+abbreviation: TNF-α
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.054
-  - CS.ENTITY.098
-  - CS.ENTITY.100
-  - CS.ENTITY.101
-  - CS.ENTITY.102
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.042
-  - CS.ENTITY.036
+- CS.ENTITY.054
+- CS.ENTITY.098
+- CS.ENTITY.100
+- CS.ENTITY.101
+- CS.ENTITY.102
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.042
+- CS.ENTITY.036
 tags:
-  - tnf-alpha
-  - cytokine
-  - pro-inflammatory
-  - inflammation
-  - immune-response
-  - metabolic-effects
-  - biomarker
+- tnf-alpha
+- cytokine
+- pro-inflammatory
+- inflammation
+- immune-response
+- metabolic-effects
+- biomarker
 ---
 
 # CS.ENTITY.099: Фактор некроза опухоли-альфа (TNF-alpha)

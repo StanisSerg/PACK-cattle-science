@@ -5,22 +5,24 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: physiology
-name_ru: "Продолжительность гестации"
-name_en: "Gestation length"
-abbreviation: "GL"
+name_ru: Продолжительность гестации
+name_en: Gestation length
+abbreviation: GL
 related_sota:
-  - CS.SOTA.005
-  - CS.SOTA.023
+- CS.SOTA.005
+- CS.SOTA.023
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.048
-  - CS.ENTITY.047
-  - CS.ENTITY.037
+- CS.ENTITY.048
+- CS.ENTITY.047
+- CS.ENTITY.037
 tags:
-  - gestation-length
-  - pregnancy
-  - calving
-  - perinatal
-  - reproduction
+- gestation-length
+- pregnancy
+- calving
+- perinatal
+- reproduction
 ---
 
 # CS.ENTITY.049: Продолжительность гестации (Gestation length)

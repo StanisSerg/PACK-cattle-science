@@ -10,10 +10,12 @@ name_en: Progesterone
 abbreviation: P4
 related_sota:
 - CS.SOTA.003
-- CS.SOTA.116
 - CS.SOTA.020
 - CS.SOTA.023
 - CS.SOTA.103
+- CS.SOTA.116
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
 - CS.ENTITY.003
 - CS.ENTITY.107

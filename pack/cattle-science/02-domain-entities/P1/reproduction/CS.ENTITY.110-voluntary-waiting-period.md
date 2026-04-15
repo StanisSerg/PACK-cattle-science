@@ -5,28 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: metrics
-name_ru: "Добровольный период ожидания"
-name_en: "Voluntary waiting period"
-abbreviation: "VWP"
+name_ru: Добровольный период ожидания
+name_en: Voluntary waiting period
+abbreviation: VWP
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.047
-  - CS.ENTITY.048
-  - CS.ENTITY.109
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.044
-  - CS.ENTITY.040
-  - CS.ENTITY.043
+- CS.ENTITY.047
+- CS.ENTITY.048
+- CS.ENTITY.109
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.044
+- CS.ENTITY.040
+- CS.ENTITY.043
 tags:
-  - voluntary-waiting-period
-  - vwp
-  - reproduction
-  - days-open
-  - calving-interval
-  - breeding-policy
+- voluntary-waiting-period
+- vwp
+- reproduction
+- days-open
+- calving-interval
+- breeding-policy
 ---
 
 # CS.ENTITY.110: Добровольный период ожидания (Voluntary waiting period)

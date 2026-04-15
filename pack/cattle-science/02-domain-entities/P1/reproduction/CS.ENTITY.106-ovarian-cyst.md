@@ -5,30 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: diseases
-name_ru: "Яичниковая киста"
-name_en: "Ovarian cyst"
-abbreviation: "OC"
+name_ru: Яичниковая киста
+name_en: Ovarian cyst
+abbreviation: OC
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.044
-  - CS.ENTITY.040
-  - CS.ENTITY.043
-  - CS.ENTITY.034
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.095
-  - CS.ENTITY.093
-  - CS.ENTITY.092
+- CS.ENTITY.044
+- CS.ENTITY.040
+- CS.ENTITY.043
+- CS.ENTITY.034
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.095
+- CS.ENTITY.093
+- CS.ENTITY.092
 tags:
-  - ovarian-cyst
-  - follicular-cyst
-  - luteal-cyst
-  - reproduction
-  - anestrus
-  - hormonal-therapy
-  - biomarker
+- ovarian-cyst
+- follicular-cyst
+- luteal-cyst
+- reproduction
+- anestrus
+- hormonal-therapy
+- biomarker
 ---
 
 # CS.ENTITY.106: Яичниковая киста (Ovarian cyst)

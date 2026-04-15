@@ -5,37 +5,38 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Поджелудочная железа"
-name_en: "Pancreas"
-abbreviation: "PAN"
+name_ru: Поджелудочная железа
+name_en: Pancreas
+abbreviation: PAN
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.020
-  - CS.ENTITY.021
-  - CS.ENTITY.022
-  - CS.ENTITY.023
-  - CS.ENTITY.024
-  - CS.ENTITY.025
-  - CS.ENTITY.026
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.031
-  - CS.ENTITY.032
-  - CS.ENTITY.033
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.020
+- CS.ENTITY.021
+- CS.ENTITY.022
+- CS.ENTITY.023
+- CS.ENTITY.024
+- CS.ENTITY.025
+- CS.ENTITY.026
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.033
 tags:
-  - pancreas
-  - insulin
-  - glucagon
-  - digestive-enzymes
-  - endocrine
-  - exocrine
-  - diabetes
+- pancreas
+- insulin
+- glucagon
+- digestive-enzymes
+- endocrine
+- exocrine
+- diabetes
 ---
 
 # CS.ENTITY.063: Поджелудочная железа (Pancreas)

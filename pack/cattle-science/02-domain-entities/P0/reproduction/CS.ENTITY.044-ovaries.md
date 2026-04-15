@@ -5,26 +5,28 @@ fpf_type: U.System
 domain: cattle-science
 area: reproduction
 subarea: anatomy
-name_ru: "Яичники"
-name_en: "Ovaries"
-abbreviation: "OV"
+name_ru: Яичники
+name_en: Ovaries
+abbreviation: OV
 related_sota:
-  - CS.SOTA.003
-  - CS.SOTA.116
-  - CS.SOTA.017
-  - CS.SOTA.023
+- CS.SOTA.003
+- CS.SOTA.017
+- CS.SOTA.023
+- CS.SOTA.116
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.040
-  - CS.ENTITY.108
-  - CS.ENTITY.113
-  - CS.ENTITY.043
+- CS.ENTITY.040
+- CS.ENTITY.108
+- CS.ENTITY.113
+- CS.ENTITY.043
 tags:
-  - ovaries
-  - ovulation
-  - follicle
-  - corpus-luteum
-  - reproduction
-  - steroidogenesis
+- ovaries
+- ovulation
+- follicle
+- corpus-luteum
+- reproduction
+- steroidogenesis
 ---
 
 # CS.ENTITY.044: Яичники (Ovaries)

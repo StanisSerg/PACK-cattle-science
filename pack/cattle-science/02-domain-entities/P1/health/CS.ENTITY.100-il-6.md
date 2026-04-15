@@ -5,31 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolites
-name_ru: "Интерлейкин-6"
-name_en: "Interleukin-6"
-abbreviation: "IL-6"
+name_ru: Интерлейкин-6
+name_en: Interleukin-6
+abbreviation: IL-6
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.054
-  - CS.ENTITY.098
-  - CS.ENTITY.099
-  - CS.ENTITY.101
-  - CS.ENTITY.102
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.042
-  - CS.ENTITY.036
+- CS.ENTITY.054
+- CS.ENTITY.098
+- CS.ENTITY.099
+- CS.ENTITY.101
+- CS.ENTITY.102
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.042
+- CS.ENTITY.036
 tags:
-  - il-6
-  - cytokine
-  - pleiotropic
-  - inflammation
-  - acute-phase-response
-  - immune-regulation
-  - biomarker
+- il-6
+- cytokine
+- pleiotropic
+- inflammation
+- acute-phase-response
+- immune-regulation
+- biomarker
 ---
 
 # CS.ENTITY.100: Интерлейкин-6 (Interleukin-6)

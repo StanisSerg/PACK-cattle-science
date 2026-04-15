@@ -6,27 +6,28 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: digestibility-assessment
-name_ru: "Метод in vitro"
-name_en: "In Vitro Technique"
-abbreviation: "in vitro"
+name_ru: Метод in vitro
+name_en: In Vitro Technique
+abbreviation: in vitro
 related_sota:
-  - CS.SOTA.130
-  - CS.SOTA.131
-  - CS.SOTA.220
-  - CS.SOTA.252
+- CS.SOTA.130
+- CS.SOTA.131
+- CS.SOTA.220
+- CS.SOTA.252
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.188
-  - CS.ENTITY.189
-  - CS.ENTITY.199
-  - CS.ENTITY.206
+- CS.ENTITY.004
+- CS.ENTITY.188
+- CS.ENTITY.189
+- CS.ENTITY.199
+- CS.ENTITY.206
 tags:
-  - in-vitro
-  - fermentation
-  - gas-production
-  - digestibility
-  - rumen-fluid
-  - laboratory
+- in-vitro
+- fermentation
+- gas-production
+- digestibility
+- rumen-fluid
+- laboratory
 ---
 
 # CS.ENTITY.207: Метод in vitro

@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Лизофосфатидилхолин"
-name_en: "Lysophosphatidylcholine"
-abbreviation: "LPC"
+name_ru: Лизофосфатидилхолин
+name_en: Lysophosphatidylcholine
+abbreviation: LPC
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.066
-  - CS.ENTITY.068
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.066
+- CS.ENTITY.068
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - lysophosphatidylcholine
-  - lpc
-  - phospholipids
-  - inflammation
-  - oxidative-stress
-  - biomarker
+- lysophosphatidylcholine
+- lpc
+- phospholipids
+- inflammation
+- oxidative-stress
+- biomarker
 ---
 
 # CS.ENTITY.071: Лизофосфатидилхолин (Lysophosphatidylcholine)

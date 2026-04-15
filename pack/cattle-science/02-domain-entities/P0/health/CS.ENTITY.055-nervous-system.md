@@ -11,6 +11,7 @@ abbreviation: NS
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.200
+- CS.SOTA.256
 related_entities:
 - CS.ENTITY.020
 - CS.ENTITY.089

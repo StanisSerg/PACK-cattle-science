@@ -5,29 +5,30 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: postpartum-disease
-name_ru: "Задержка последа"
-name_en: "Retained placenta"
-abbreviation: "RFM"
+name_ru: Задержка последа
+name_en: Retained placenta
+abbreviation: RFM
 related_sota:
-  - CS.SOTA.005
-  - CS.SOTA.008
-  - CS.SOTA.020
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
+- CS.SOTA.005
+- CS.SOTA.008
+- CS.SOTA.020
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.253
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.021
-  - CS.ENTITY.022
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.021
+- CS.ENTITY.022
 tags:
-  - retained-placenta
-  - postpartum-disease
-  - transition-period
-  - metabolic-disorders
-  - uterine-disease
-  - antibiotic-treatment
+- retained-placenta
+- postpartum-disease
+- transition-period
+- metabolic-disorders
+- uterine-disease
+- antibiotic-treatment
 ---
 
 # CS.ENTITY.027: Задержка последа

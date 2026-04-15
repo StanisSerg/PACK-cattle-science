@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metrics
-name_ru: "Температура тела"
-name_en: "Body temperature"
-abbreviation: "BT"
+name_ru: Температура тела
+name_en: Body temperature
+abbreviation: BT
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.055
-  - CS.ENTITY.097
-  - CS.ENTITY.098
-  - CS.ENTITY.099
-  - CS.ENTITY.100
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.042
-  - CS.ENTITY.036
+- CS.ENTITY.055
+- CS.ENTITY.097
+- CS.ENTITY.098
+- CS.ENTITY.099
+- CS.ENTITY.100
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.042
+- CS.ENTITY.036
 tags:
-  - body-temperature
-  - fever
-  - hypothermia
-  - thermoregulation
-  - infection
-  - inflammation
-  - biomarker
+- body-temperature
+- fever
+- hypothermia
+- thermoregulation
+- infection
+- inflammation
+- biomarker
 ---
 
 # CS.ENTITY.113: Температура тела (Body temperature)

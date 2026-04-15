@@ -5,24 +5,26 @@ fpf_type: U.Method
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Гонадотропин-рилизинг гормон"
-name_en: "Gonadotropin-releasing hormone"
-abbreviation: "GnRH"
+name_ru: Гонадотропин-рилизинг гормон
+name_en: Gonadotropin-releasing hormone
+abbreviation: GnRH
 related_sota:
-  - CS.SOTA.003
-  - CS.SOTA.023
+- CS.SOTA.003
+- CS.SOTA.023
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.025
-  - CS.ENTITY.034
-  - CS.ENTITY.107
-  - CS.ENTITY.113
+- CS.ENTITY.025
+- CS.ENTITY.034
+- CS.ENTITY.107
+- CS.ENTITY.113
 tags:
-  - gnrh
-  - hormone
-  - reproduction
-  - ovulation
-  - synchronization
-  - protocol
+- gnrh
+- hormone
+- reproduction
+- ovulation
+- synchronization
+- protocol
 ---
 
 # CS.ENTITY.043: Гонадотропин-рилизинг гормон (GnRH)

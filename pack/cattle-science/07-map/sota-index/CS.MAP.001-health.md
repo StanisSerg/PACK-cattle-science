@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (65 SoTA)
+> Шард индекса: health (66 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 65 |
+| Всего SoTA | 66 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
-| P2 (Важные) | 32 |
+| P2 (Важные) | 33 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 10 |
 | Experimental-study | 2 |
-| Field-study | 26 |
+| Field-study | 27 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -95,6 +95,7 @@
 | [CS.SOTA.235](../../06-sota/health/CS.SOTA.235-ramos-2025.md) | Ramos et al. | 2025 | P1 | review | `review, animal-welfare, hrqol` | См. файл для деталей |
 | [CS.SOTA.246](../../06-sota/health/CS.SOTA.246-venjakob-2017.md) | Venjakob et al. | 2017 | P2 | field-study | `hypocalcemia, milk-fever, subclinical-hypocalcemia` | См. файл для деталей |
 | [CS.SOTA.250](../../06-sota/health/CS.SOTA.250-akerstrom-2025.md) | Åkerström et al. | 2025 | P2 | field-study | `hoof-trimming, lameness, claw-lesions` | См. файл для деталей |
+| [CS.SOTA.255](../../06-sota/health/CS.SOTA.255-bertens-2026.md) | Bertens et al. | 2026 | P2 | field-study | `mastitis, LPS, probiotic` | См. файл для деталей |
 
 ---
 
@@ -107,4 +108,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 65 SoTA*
+*Автоматическая генерация: 66 SoTA*

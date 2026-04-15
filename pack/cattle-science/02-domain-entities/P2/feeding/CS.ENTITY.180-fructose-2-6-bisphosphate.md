@@ -5,17 +5,24 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: glucose-metabolism
-tags: [fructose-2-6-bisphosphate, f2-6bp, pfk-1-activator, glycolysis-regulator, metabolite]
+tags:
+- fructose-2-6-bisphosphate
+- f2-6bp
+- pfk-1-activator
+- glycolysis-regulator
+- metabolite
 related:
-  - id: CS.ENTITY.179
-    type: related
-    note: PFKFB (фермент синтеза/деградации)
-  - id: CS.ENTITY.009
-    type: related
-    note: Глюкоза (субстрат)
-  - id: CS.ENTITY.045
-    type: related
-    note: Инсулин (стимулятор уровня)
+- id: CS.ENTITY.179
+  type: related
+  note: PFKFB (фермент синтеза/деградации)
+- id: CS.ENTITY.009
+  type: related
+  note: Глюкоза (субстрат)
+- id: CS.ENTITY.045
+  type: related
+  note: Инсулин (стимулятор уровня)
+related_sota:
+- CS.SOTA.255
 ---
 
 # Фруктозо-2,6-бисфосфат (F2,6BP)

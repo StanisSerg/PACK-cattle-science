@@ -5,32 +5,33 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolites
-name_ru: "Сывороточный амилоид А"
-name_en: "Serum amyloid A"
-abbreviation: "SAA"
+name_ru: Сывороточный амилоид А
+name_en: Serum amyloid A
+abbreviation: SAA
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.041
-  - CS.ENTITY.054
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.042
-  - CS.ENTITY.036
-  - CS.ENTITY.099
-  - CS.ENTITY.100
-  - CS.ENTITY.101
-  - CS.ENTITY.102
+- CS.ENTITY.041
+- CS.ENTITY.054
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.042
+- CS.ENTITY.036
+- CS.ENTITY.099
+- CS.ENTITY.100
+- CS.ENTITY.101
+- CS.ENTITY.102
 tags:
-  - serum-amyloid-a
-  - saa
-  - acute-phase-protein
-  - inflammation
-  - infection
-  - mastitis
-  - biomarker
+- serum-amyloid-a
+- saa
+- acute-phase-protein
+- inflammation
+- infection
+- mastitis
+- biomarker
 ---
 
 # CS.ENTITY.098: Сывороточный амилоид А (Serum amyloid A)

@@ -5,26 +5,29 @@ fpf_type: U.System
 domain: cattle-science
 area: reproduction
 subarea: anatomy
-name_ru: "Матка"
-name_en: "Uterus"
-abbreviation: "UT"
+name_ru: Матка
+name_en: Uterus
+abbreviation: UT
 related_sota:
-  - CS.SOTA.116
-  - CS.SOTA.008
-  - CS.SOTA.020
+- CS.SOTA.008
+- CS.SOTA.020
+- CS.SOTA.116
+- CS.SOTA.253
+- CS.SOTA.254
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.022
-  - CS.ENTITY.027
-  - CS.ENTITY.042
-  - CS.ENTITY.044
-  - CS.ENTITY.040
+- CS.ENTITY.022
+- CS.ENTITY.027
+- CS.ENTITY.042
+- CS.ENTITY.044
+- CS.ENTITY.040
 tags:
-  - uterus
-  - endometrium
-  - myometrium
-  - reproduction
-  - pregnancy
-  - parturition
+- uterus
+- endometrium
+- myometrium
+- reproduction
+- pregnancy
+- parturition
 ---
 
 # CS.ENTITY.045: Матка (Uterus)

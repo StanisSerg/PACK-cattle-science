@@ -5,28 +5,29 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Ось гипоталамус-гипофиз-надпочечники"
-name_en: "Hypothalamic-pituitary-adrenal axis"
-abbreviation: "HPA axis"
+name_ru: Ось гипоталамус-гипофиз-надпочечники
+name_en: Hypothalamic-pituitary-adrenal axis
+abbreviation: HPA axis
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.256
 related_entities:
-  - CS.ENTITY.036
-  - CS.ENTITY.054
-  - CS.ENTITY.056
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.036
+- CS.ENTITY.054
+- CS.ENTITY.056
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - hpa-axis
-  - stress
-  - cortisol
-  - hypothalamus
-  - pituitary
-  - adrenal
-  - transition-period
+- hpa-axis
+- stress
+- cortisol
+- hypothalamus
+- pituitary
+- adrenal
+- transition-period
 ---
 
 # CS.ENTITY.057: Ось гипоталамус-гипофиз-надпочечники (HPA axis)

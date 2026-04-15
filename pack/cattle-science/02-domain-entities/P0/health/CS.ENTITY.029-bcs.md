@@ -5,45 +5,46 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: body-composition
-name_ru: "Оценка упитанности"
-name_en: "Body condition score"
-abbreviation: "BCS"
+name_ru: Оценка упитанности
+name_en: Body condition score
+abbreviation: BCS
 related_sota:
-  - CS.SOTA.118
-  - CS.SOTA.005
-  - CS.SOTA.007
-  - CS.SOTA.017
-  - CS.SOTA.019
-  - CS.SOTA.027
-  - CS.SOTA.032
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.064
-  - CS.SOTA.065
-  - CS.SOTA.066
-  - CS.SOTA.068
+- CS.SOTA.005
+- CS.SOTA.007
+- CS.SOTA.017
+- CS.SOTA.019
+- CS.SOTA.027
+- CS.SOTA.032
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.064
+- CS.SOTA.065
+- CS.SOTA.066
+- CS.SOTA.068
+- CS.SOTA.118
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.027
-  - CS.ENTITY.030
-  - CS.ENTITY.031
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.027
+- CS.ENTITY.030
+- CS.ENTITY.031
 tags:
-  - body-condition-score
-  - bcs
-  - body-composition
-  - energy-reserves
-  - transition-period
-  - metabolic-disorders
-  - monitoring
+- body-condition-score
+- bcs
+- body-composition
+- energy-reserves
+- transition-period
+- metabolic-disorders
+- monitoring
 ---
 
 # CS.ENTITY.029: Оценка упитанности (BCS)

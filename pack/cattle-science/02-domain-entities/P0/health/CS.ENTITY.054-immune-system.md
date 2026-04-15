@@ -5,34 +5,35 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Иммунная система"
-name_en: "Immune system"
-abbreviation: "IS"
+name_ru: Иммунная система
+name_en: Immune system
+abbreviation: IS
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.036
-  - CS.ENTITY.041
-  - CS.ENTITY.072
-  - CS.ENTITY.073
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.036
+- CS.ENTITY.041
+- CS.ENTITY.072
+- CS.ENTITY.073
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
 tags:
-  - immune-system
-  - immunity
-  - inflammation
-  - defense
-  - neutrophils
-  - lymphocytes
-  - transition-period
+- immune-system
+- immunity
+- inflammation
+- defense
+- neutrophils
+- lymphocytes
+- transition-period
 ---
 
 # CS.ENTITY.054: Иммунная система (Immune system)

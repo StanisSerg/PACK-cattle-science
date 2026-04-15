@@ -5,30 +5,31 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Почки"
-name_en: "Kidneys"
-abbreviation: "KID"
+name_ru: Почки
+name_en: Kidneys
+abbreviation: KID
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.256
 related_entities:
-  - CS.ENTITY.020
-  - CS.ENTITY.089
-  - CS.ENTITY.090
-  - CS.ENTITY.091
-  - CS.ENTITY.092
-  - CS.ENTITY.093
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.096
-  - CS.ENTITY.097
+- CS.ENTITY.020
+- CS.ENTITY.089
+- CS.ENTITY.090
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.093
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.096
+- CS.ENTITY.097
 tags:
-  - kidneys
-  - renal
-  - excretion
-  - filtration
-  - electrolytes
-  - water-balance
-  - acid-base
+- kidneys
+- renal
+- excretion
+- filtration
+- electrolytes
+- water-balance
+- acid-base
 ---
 
 # CS.ENTITY.059: Почки (Kidneys)

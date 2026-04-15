@@ -5,30 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: metrics
-name_ru: "Период пригодности к осеменению"
-name_en: "Insemination eligibility period"
-abbreviation: "IEP"
+name_ru: Период пригодности к осеменению
+name_en: Insemination eligibility period
+abbreviation: IEP
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.253
+- CS.SOTA.254
 related_entities:
-  - CS.ENTITY.047
-  - CS.ENTITY.095
-  - CS.ENTITY.096
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.107
-  - CS.ENTITY.108
-  - CS.ENTITY.044
-  - CS.ENTITY.040
-  - CS.ENTITY.043
+- CS.ENTITY.047
+- CS.ENTITY.095
+- CS.ENTITY.096
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.107
+- CS.ENTITY.108
+- CS.ENTITY.044
+- CS.ENTITY.040
+- CS.ENTITY.043
 tags:
-  - insemination-eligibility
-  - waiting-period
-  - reproduction
-  - voluntary-waiting-period
-  - days-open
-  - breeding
+- insemination-eligibility
+- waiting-period
+- reproduction
+- voluntary-waiting-period
+- days-open
+- breeding
 ---
 
 # CS.ENTITY.109: Период пригодности к осеменению (Insemination eligibility period)

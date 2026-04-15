@@ -5,26 +5,29 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: immune-markers
-name_ru: "Гаптоглобин"
-name_en: "Haptoglobin"
-abbreviation: "Hp"
+name_ru: Гаптоглобин
+name_en: Haptoglobin
+abbreviation: Hp
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.253
+- CS.SOTA.254
+- CS.SOTA.255
 related_entities:
-  - CS.ENTITY.022
-  - CS.ENTITY.027
-  - CS.ENTITY.119
-  - CS.ENTITY.009
+- CS.ENTITY.022
+- CS.ENTITY.027
+- CS.ENTITY.119
+- CS.ENTITY.009
 tags:
-  - haptoglobin
-  - acute-phase-protein
-  - inflammation
-  - immune-marker
-  - mastitis
-  - metritis
-  - monitoring
+- haptoglobin
+- acute-phase-protein
+- inflammation
+- immune-marker
+- mastitis
+- metritis
+- monitoring
 ---
 
 # CS.ENTITY.041: Гаптоглобин (Haptoglobin)

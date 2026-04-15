@@ -11,6 +11,9 @@ abbreviation: CE
 related_sota:
 - CS.SOTA.031
 - CS.SOTA.197
+- CS.SOTA.253
+- CS.SOTA.254
+- CS.SOTA.256
 related_entities:
 - CS.ENTITY.045
 - CS.ENTITY.046
