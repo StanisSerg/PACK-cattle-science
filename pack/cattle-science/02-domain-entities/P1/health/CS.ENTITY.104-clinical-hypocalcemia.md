@@ -5,29 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: diseases
-name_ru: "Клиническая гипокальциемия"
-name_en: "Clinical hypocalcemia"
-abbreviation: "CH"
+name_ru: Клиническая гипокальциемия
+name_en: Clinical hypocalcemia
+abbreviation: CH
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.273
+- CS.SOTA.289
+- CS.SOTA.291
 related_entities:
-  - CS.ENTITY.020
-  - CS.ENTITY.103
-  - CS.ENTITY.055
-  - CS.ENTITY.060
-  - CS.ENTITY.061
-  - CS.ENTITY.062
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.039
+- CS.ENTITY.020
+- CS.ENTITY.103
+- CS.ENTITY.055
+- CS.ENTITY.060
+- CS.ENTITY.061
+- CS.ENTITY.062
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.039
 tags:
-  - clinical-hypocalcemia
-  - hypocalcemia
-  - milk-fever
-  - parturient-paresis
-  - calcium
-  - metabolic-disease
-  - emergency
+- clinical-hypocalcemia
+- hypocalcemia
+- milk-fever
+- parturient-paresis
+- calcium
+- metabolic-disease
+- emergency
 ---
 
 # CS.ENTITY.104: Клиническая гипокальциемия (Clinical hypocalcemia)

@@ -27,6 +27,7 @@ related:
   note: Адипофиллин (другой белок дроплетов)
 related_sota:
 - CS.SOTA.264
+- CS.SOTA.277
 ---
 
 # Перилипин (Perilipin)

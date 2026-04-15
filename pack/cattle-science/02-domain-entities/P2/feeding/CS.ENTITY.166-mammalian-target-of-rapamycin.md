@@ -24,6 +24,10 @@ related:
   note: PGC-1α (regulated by mTOR)
 related_sota:
 - CS.SOTA.263
+- CS.SOTA.269
+- CS.SOTA.270
+- CS.SOTA.272
+- CS.SOTA.281
 ---
 
 # mTOR (Mammalian target of rapamycin)

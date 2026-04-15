@@ -5,28 +5,29 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Мышцы"
-name_en: "Muscles"
-abbreviation: "MUS"
+name_ru: Мышцы
+name_en: Muscles
+abbreviation: MUS
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.288
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.089
-  - CS.ENTITY.090
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.096
-  - CS.ENTITY.097
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.089
+- CS.ENTITY.090
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.096
+- CS.ENTITY.097
 tags:
-  - muscles
-  - skeletal-muscle
-  - smooth-muscle
-  - cardiac-muscle
-  - muscle-metabolism
-  - weakness
-  - atrophy
+- muscles
+- skeletal-muscle
+- smooth-muscle
+- cardiac-muscle
+- muscle-metabolism
+- weakness
+- atrophy
 ---
 
 # CS.ENTITY.060: Мышцы (Muscles)

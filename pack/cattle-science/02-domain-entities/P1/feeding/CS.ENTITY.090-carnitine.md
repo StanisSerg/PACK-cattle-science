@@ -5,31 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Карнитин"
-name_en: "Carnitine"
-abbreviation: "CAR"
+name_ru: Карнитин
+name_en: Carnitine
+abbreviation: CAR
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.067
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.067
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - carnitine
-  - fatty-acid-transport
-  - beta-oxidation
-  - energy-metabolism
-  - mitochondria
-  - biomarker
+- carnitine
+- fatty-acid-transport
+- beta-oxidation
+- energy-metabolism
+- mitochondria
+- biomarker
 ---
 
 # CS.ENTITY.090: Карнитин (Carnitine)

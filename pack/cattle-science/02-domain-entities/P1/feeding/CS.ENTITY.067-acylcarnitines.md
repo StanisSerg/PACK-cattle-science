@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Ацилкарнитины"
-name_en: "Acylcarnitines"
-abbreviation: "AC"
+name_ru: Ацилкарнитины
+name_en: Acylcarnitines
+abbreviation: AC
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.020
-  - CS.ENTITY.066
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.020
+- CS.ENTITY.066
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - acylcarnitines
-  - carnitine
-  - fatty-acid-oxidation
-  - beta-oxidation
-  - mitochondria
-  - energy-metabolism
-  - biomarker
+- acylcarnitines
+- carnitine
+- fatty-acid-oxidation
+- beta-oxidation
+- mitochondria
+- energy-metabolism
+- biomarker
 ---
 
 # CS.ENTITY.067: Ацилкарнитины (Acylcarnitines)

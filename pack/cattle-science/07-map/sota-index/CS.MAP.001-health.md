@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (70 SoTA)
+> Шард индекса: health (82 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,18 +10,18 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 70 |
+| Всего SoTA | 82 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
-| P2 (Важные) | 37 |
+| P2 (Важные) | 49 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 10 |
 | Experimental-study | 2 |
-| Field-study | 31 |
+| Field-study | 42 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
-| Review | 21 |
+| Review | 22 |
 | Survey | 2 |
 
 ---
@@ -100,6 +100,18 @@
 | [CS.SOTA.261](../../06-sota/health/CS.SOTA.261-denholm-2026.md) | Denholm et al. | 2026 | P2 | field-study | `potassium-sorbate, colostrum-preservation, bacterial-contamination` | См. файл для деталей |
 | [CS.SOTA.263](../../06-sota/health/CS.SOTA.263-vorndran-2026.md) | Vorndran et al. | 2026 | P2 | field-study | `calf-growth, milk-feeding, body-weight-oscillation` | См. файл для деталей |
 | [CS.SOTA.264](../../06-sota/health/CS.SOTA.264-ronn-2026.md) | Rønn et al. | 2026 | P2 | field-study | `iodoform, pharmacokinetics, metabolism` | См. файл для деталей |
+| [CS.SOTA.268](../../06-sota/health/CS.SOTA.268-quiroga-2026.md) | Quiroga et al. | 2026 | P2 | field-study | `beta-hydroxybutyrate, BHB, neutrophils` | См. файл для деталей |
+| [CS.SOTA.272](../../06-sota/health/CS.SOTA.272-mp-cd4-2026.md) | Arshad et al. | 2026 | P2 | field-study | `metabolizable-protein, CD4-T-cells, immunology` | См. файл для деталей |
+| [CS.SOTA.273](../../06-sota/health/CS.SOTA.273-dcad-niacin-2026.md) | Stahl et al. | 2026 | P2 | field-study | `DCAD, nicotinic-acid, transition-cow` | См. файл для деталей |
+| [CS.SOTA.274](../../06-sota/health/CS.SOTA.274-trace-metal-epithelial-2026.md) | Montgomery et al. | 2026 | P2 | field-study | `trace-minerals, mastitis, epithelial` | См. файл для деталей |
+| [CS.SOTA.275](../../06-sota/health/CS.SOTA.275-trace-metal-production-2026.md) | Montgomery et al. | 2026 | P2 | field-study | `trace-minerals, mastitis, production` | См. файл для деталей |
+| [CS.SOTA.277](../../06-sota/health/CS.SOTA.277-synbiotic-2026.md) | Muhffel et al. | 2026 | P2 | field-study | `synbiotic, probiotic, prebiotic` | См. файл для деталей |
+| [CS.SOTA.282](../../06-sota/health/CS.SOTA.282-proteomics-hoof-2026.md) | Y. et al. | 2026 | P2 | field-study | `proteomics, metabolomics, hoof-health` | См. файл для деталей |
+| [CS.SOTA.286](../../06-sota/health/CS.SOTA.286-milk-metabolomic-2026.md) | Lisuzzo et al. | 2026 | P2 | field-study | `milk-metabolomics, intramammary-infection, mastitis` | См. файл для деталей |
+| [CS.SOTA.288](../../06-sota/health/CS.SOTA.288-muscle-histology-2026.md) | al. et al. | 2026 | P2 | field-study | `muscle-histology, transition-period, metabolism` | См. файл для деталей |
+| [CS.SOTA.289](../../06-sota/health/CS.SOTA.289-dyscalcemia-2026.md) | Bach et al. | 2026 | P2 | field-study | `hypocalcemia, dyscalcemia, transition-period` | См. файл для деталей |
+| [CS.SOTA.290](../../06-sota/health/CS.SOTA.290-hoof-scoping-2026.md) | al. et al. | 2026 | P2 | review | `hoof-lesions, lameness, case-definitions` | См. файл для деталей |
+| [CS.SOTA.291](../../06-sota/health/CS.SOTA.291-induced-hypocalcemia-2026.md) | Frizzarini et al. | 2026 | P2 | field-study | `hypocalcemia, subclinical, transition-period` | См. файл для деталей |
 
 ---
 
@@ -112,4 +124,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 70 SoTA*
+*Автоматическая генерация: 82 SoTA*

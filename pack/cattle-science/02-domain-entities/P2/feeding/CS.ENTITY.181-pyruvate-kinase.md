@@ -5,17 +5,26 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: glucose-metabolism
-tags: [pyruvate-kinase, pk, glycolysis, phosphoenolpyruvate, pyruvate, regulatory-enzyme]
+tags:
+- pyruvate-kinase
+- pk
+- glycolysis
+- phosphoenolpyruvate
+- pyruvate
+- regulatory-enzyme
 related:
-  - id: CS.ENTITY.155
-    type: related
-    note: Пируват (продукт)
-  - id: CS.ENTITY.154
-    type: related
-    note: Ацетил-КоА (дальнейший метаболизм)
-  - id: CS.ENTITY.180
-    type: related
-    note: Фруктозо-2,6-бисфосфат (активатор)
+- id: CS.ENTITY.155
+  type: related
+  note: Пируват (продукт)
+- id: CS.ENTITY.154
+  type: related
+  note: Ацетил-КоА (дальнейший метаболизм)
+- id: CS.ENTITY.180
+  type: related
+  note: Фруктозо-2,6-бисфосфат (активатор)
+related_sota:
+- CS.SOTA.268
+- CS.SOTA.286
 ---
 
 # Пируваткиназа (Pyruvate Kinase)

@@ -24,6 +24,8 @@ related:
 related_sota:
 - CS.SOTA.255
 - CS.SOTA.259
+- CS.SOTA.270
+- CS.SOTA.281
 ---
 
 # Фруктозо-2,6-бисфосфат (F2,6BP)

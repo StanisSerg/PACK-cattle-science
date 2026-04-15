@@ -5,30 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Жёлчные кислоты"
-name_en: "Bile acids"
-abbreviation: "BA"
+name_ru: Жёлчные кислоты
+name_en: Bile acids
+abbreviation: BA
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.282
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.073
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.073
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - bile-acids
-  - cholesterol
-  - lipid-digestion
-  - enterohepatic-circulation
-  - liver-function
-  - biomarker
+- bile-acids
+- cholesterol
+- lipid-digestion
+- enterohepatic-circulation
+- liver-function
+- biomarker
 ---
 
 # CS.ENTITY.070: Жёлчные кислоты (Bile acids)

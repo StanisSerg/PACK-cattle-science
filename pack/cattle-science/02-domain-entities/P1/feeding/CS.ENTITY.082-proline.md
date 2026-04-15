@@ -13,6 +13,11 @@ related_sota:
 - CS.SOTA.066
 - CS.SOTA.199
 - CS.SOTA.259
+- CS.SOTA.269
+- CS.SOTA.279
+- CS.SOTA.281
+- CS.SOTA.285
+- CS.SOTA.286
 related_entities:
 - CS.ENTITY.081
 - CS.ENTITY.083

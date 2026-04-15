@@ -5,32 +5,33 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Триацилглицериды"
-name_en: "Triacylglycerols"
-abbreviation: "TAG"
+name_ru: Триацилглицериды
+name_en: Triacylglycerols
+abbreviation: TAG
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.019
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.019
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - triacylglycerols
-  - triglycerides
-  - lipids
-  - fatty-liver
-  - energy-storage
-  - vldl
-  - biomarker
+- triacylglycerols
+- triglycerides
+- lipids
+- fatty-liver
+- energy-storage
+- vldl
+- biomarker
 ---
 
 # CS.ENTITY.072: Триацилглицериды (Triacylglycerols)

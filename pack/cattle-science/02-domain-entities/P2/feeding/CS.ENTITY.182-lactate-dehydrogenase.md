@@ -5,17 +5,25 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: glucose-metabolism
-tags: [ldh, lactate-dehydrogenase, anaerobic-glycolysis, lactate, pyruvate, nadh-oxidation]
+tags:
+- ldh
+- lactate-dehydrogenase
+- anaerobic-glycolysis
+- lactate
+- pyruvate
+- nadh-oxidation
 related:
-  - id: CS.ENTITY.013
-    type: related
-    note: Лактат (продукт)
-  - id: CS.ENTITY.155
-    type: related
-    note: Пируват (субстрат)
-  - id: CS.ENTITY.181
-    type: related
-    note: Пируваткиназа (поставщик пирувата)
+- id: CS.ENTITY.013
+  type: related
+  note: Лактат (продукт)
+- id: CS.ENTITY.155
+  type: related
+  note: Пируват (субстрат)
+- id: CS.ENTITY.181
+  type: related
+  note: Пируваткиназа (поставщик пирувата)
+related_sota:
+- CS.SOTA.286
 ---
 
 # Лактатдегидрогеназа (LDH)

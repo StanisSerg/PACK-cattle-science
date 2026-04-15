@@ -9,13 +9,20 @@ subarea: amino-acid-metabolism
 name_ru: Аланинаминотрансфераза
 name_en: Alanine Aminotransferase
 abbreviation: ALT
-tags: [alt, alanine-aminotransferase, gpt, liver-enzyme, transaminase, diagnostic-marker]
+tags:
+- alt
+- alanine-aminotransferase
+- gpt
+- liver-enzyme
+- transaminase
+- diagnostic-marker
 related_entities:
-  - CS.ENTITY.184
-  - CS.ENTITY.003
-  - CS.ENTITY.185
+- CS.ENTITY.184
+- CS.ENTITY.003
+- CS.ENTITY.185
 related_sota:
-  - CS.SOTA.026
+- CS.SOTA.026
+- CS.SOTA.282
 ---
 
 # Аланинаминотрансфераза (ALT)

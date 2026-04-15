@@ -11,6 +11,11 @@ abbreviation: SCC
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.255
+- CS.SOTA.268
+- CS.SOTA.274
+- CS.SOTA.275
+- CS.SOTA.286
+- CS.SOTA.287
 related_entities:
 - CS.ENTITY.031
 - CS.ENTITY.032

@@ -5,29 +5,34 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: diseases
-name_ru: "Субклиническая гипокальциемия"
-name_en: "Subclinical hypocalcemia"
-abbreviation: "SCH"
+name_ru: Субклиническая гипокальциемия
+name_en: Subclinical hypocalcemia
+abbreviation: SCH
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.273
+- CS.SOTA.286
+- CS.SOTA.288
+- CS.SOTA.289
+- CS.SOTA.291
 related_entities:
-  - CS.ENTITY.020
-  - CS.ENTITY.090
-  - CS.ENTITY.055
-  - CS.ENTITY.060
-  - CS.ENTITY.061
-  - CS.ENTITY.062
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.039
+- CS.ENTITY.020
+- CS.ENTITY.090
+- CS.ENTITY.055
+- CS.ENTITY.060
+- CS.ENTITY.061
+- CS.ENTITY.062
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.039
 tags:
-  - subclinical-hypocalcemia
-  - hypocalcemia
-  - calcium
-  - transition-period
-  - metabolic-disease
-  - silent-disease
-  - biomarker
+- subclinical-hypocalcemia
+- hypocalcemia
+- calcium
+- transition-period
+- metabolic-disease
+- silent-disease
+- biomarker
 ---
 
 # CS.ENTITY.103: Субклиническая гипокальциемия (Subclinical hypocalcemia)

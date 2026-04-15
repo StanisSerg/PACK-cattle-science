@@ -5,35 +5,39 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Гипокальциемия"
-name_en: "Hypocalcemia"
-abbreviation: "HYPOCA"
+name_ru: Гипокальциемия
+name_en: Hypocalcemia
+abbreviation: HYPOCA
 related_sota:
-  - CS.SOTA.008
-  - CS.SOTA.020
-  - CS.SOTA.043
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.056
-  - CS.SOTA.060
-  - CS.SOTA.063
-  - CS.SOTA.066
-  - CS.SOTA.067
-  - CS.SOTA.068
+- CS.SOTA.008
+- CS.SOTA.020
+- CS.SOTA.043
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.056
+- CS.SOTA.060
+- CS.SOTA.063
+- CS.SOTA.066
+- CS.SOTA.067
+- CS.SOTA.068
+- CS.SOTA.273
+- CS.SOTA.288
+- CS.SOTA.289
+- CS.SOTA.291
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.003
-  - CS.ENTITY.017
-  - CS.ENTITY.018
-  - CS.ENTITY.019
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.017
+- CS.ENTITY.018
+- CS.ENTITY.019
 tags:
-  - hypocalcemia
-  - milk-fever
-  - parturient-paresis
-  - metabolic-disorder
-  - calcium
-  - transition-period
-  - parathyroid-hormone
+- hypocalcemia
+- milk-fever
+- parturient-paresis
+- metabolic-disorder
+- calcium
+- transition-period
+- parathyroid-hormone
 ---
 
 # CS.ENTITY.020: Гипокальциемия

@@ -29,6 +29,8 @@ related_sota:
 - CS.SOTA.257
 - CS.SOTA.259
 - CS.SOTA.261
+- CS.SOTA.270
+- CS.SOTA.282
 ---
 
 # Аспартатаминотрансфераза (AST)

@@ -5,20 +5,27 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: lipid-metabolism
-tags: [citrate-synthase, enzyme, tca-cycle, mitochondria, metabolic-regulation]
+tags:
+- citrate-synthase
+- enzyme
+- tca-cycle
+- mitochondria
+- metabolic-regulation
 related:
-  - id: CS.ENTITY.154
-    type: related
-    note: Acetyl-CoA (substrate)
-  - id: CS.ENTITY.152
-    type: related
-    note: Mitochondria (location)
-  - id: CS.ENTITY.155
-    type: related
-    note: Pyruvate (precursor)
-  - id: CS.ENTITY.156
-    type: related
-    note: Lactate dehydrogenase (competing pathway)
+- id: CS.ENTITY.154
+  type: related
+  note: Acetyl-CoA (substrate)
+- id: CS.ENTITY.152
+  type: related
+  note: Mitochondria (location)
+- id: CS.ENTITY.155
+  type: related
+  note: Pyruvate (precursor)
+- id: CS.ENTITY.156
+  type: related
+  note: Lactate dehydrogenase (competing pathway)
+related_sota:
+- CS.SOTA.270
 ---
 
 # Citrate synthase

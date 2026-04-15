@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolites
-name_ru: "Интерлейкин-10"
-name_en: "Interleukin-10"
-abbreviation: "IL-10"
+name_ru: Интерлейкин-10
+name_en: Interleukin-10
+abbreviation: IL-10
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.054
-  - CS.ENTITY.098
-  - CS.ENTITY.099
-  - CS.ENTITY.100
-  - CS.ENTITY.102
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.042
-  - CS.ENTITY.036
+- CS.ENTITY.054
+- CS.ENTITY.098
+- CS.ENTITY.099
+- CS.ENTITY.100
+- CS.ENTITY.102
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.042
+- CS.ENTITY.036
 tags:
-  - il-10
-  - cytokine
-  - anti-inflammatory
-  - immune-regulation
-  - inflammation-resolution
-  - biomarker
+- il-10
+- cytokine
+- anti-inflammatory
+- immune-regulation
+- inflammation-resolution
+- biomarker
 ---
 
 # CS.ENTITY.101: Интерлейкин-10 (Interleukin-10)

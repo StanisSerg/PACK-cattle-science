@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Глицерол"
-name_en: "Glycerol"
-abbreviation: "GLY"
+name_ru: Глицерол
+name_en: Glycerol
+abbreviation: GLY
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.268
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.072
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.072
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - glycerol
-  - gluconeogenesis
-  - lipolysis
-  - energy-metabolism
-  - ketosis
-  - triglycerides
+- glycerol
+- gluconeogenesis
+- lipolysis
+- energy-metabolism
+- ketosis
+- triglycerides
 ---
 
 # CS.ENTITY.078: Глицерол (Glycerol)

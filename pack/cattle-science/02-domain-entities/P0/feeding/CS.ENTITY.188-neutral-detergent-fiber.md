@@ -166,6 +166,7 @@ related_sota:
 - CS.SOTA.252
 - CS.SOTA.259
 - CS.SOTA.266
+- CS.SOTA.271
 tags:
 - ndf
 - fiber

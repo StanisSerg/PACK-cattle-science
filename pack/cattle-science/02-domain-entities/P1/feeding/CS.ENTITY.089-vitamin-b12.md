@@ -5,27 +5,28 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Витамин B12"
-name_en: "Vitamin B12"
-abbreviation: "B12"
+name_ru: Витамин B12
+name_en: Vitamin B12
+abbreviation: B12
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.007
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.081
-  - CS.ENTITY.087
-  - CS.ENTITY.088
+- CS.ENTITY.007
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.081
+- CS.ENTITY.087
+- CS.ENTITY.088
 tags:
-  - vitamin-b12
-  - cobalamin
-  - propionate-metabolism
-  - gluconeogenesis
-  - energy-metabolism
-  - biomarker
+- vitamin-b12
+- cobalamin
+- propionate-metabolism
+- gluconeogenesis
+- energy-metabolism
+- biomarker
 ---
 
 # CS.ENTITY.089: Витамин B12 (Vitamin B12)

@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: diseases
-name_ru: "Анэструс"
-name_en: "Anestrus"
-abbreviation: "ANE"
+name_ru: Анэструс
+name_en: Anestrus
+abbreviation: ANE
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.044
-  - CS.ENTITY.040
-  - CS.ENTITY.043
-  - CS.ENTITY.034
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.095
-  - CS.ENTITY.093
-  - CS.ENTITY.106
+- CS.ENTITY.044
+- CS.ENTITY.040
+- CS.ENTITY.043
+- CS.ENTITY.034
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.095
+- CS.ENTITY.093
+- CS.ENTITY.106
 tags:
-  - anestrus
-  - reproductive-disorder
-  - ovary
-  - hormonal-imbalance
-  - energy-deficit
-  - biomarker
+- anestrus
+- reproductive-disorder
+- ovary
+- hormonal-imbalance
+- energy-deficit
+- biomarker
 ---
 
 # CS.ENTITY.107: Анэструс (Anestrus)

@@ -5,29 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Ацетон"
-name_en: "Acetone"
-abbreviation: "ACE"
+name_ru: Ацетон
+name_en: Acetone
+abbreviation: ACE
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.018
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.018
+- CS.SOTA.066
+- CS.SOTA.268
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.079
-  - CS.ENTITY.066
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
+- CS.ENTITY.018
+- CS.ENTITY.079
+- CS.ENTITY.066
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
 tags:
-  - acetone
-  - ketone-bodies
-  - ketosis
-  - volatile
-  - breath-test
-  - biomarker
+- acetone
+- ketone-bodies
+- ketosis
+- volatile
+- breath-test
+- biomarker
 ---
 
 # CS.ENTITY.080: Ацетон (Acetone)

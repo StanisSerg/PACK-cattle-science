@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metabolites
-name_ru: "Интерферон-гамма"
-name_en: "Interferon-gamma"
-abbreviation: "IFN-γ"
+name_ru: Интерферон-гамма
+name_en: Interferon-gamma
+abbreviation: IFN-γ
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.054
-  - CS.ENTITY.098
-  - CS.ENTITY.099
-  - CS.ENTITY.100
-  - CS.ENTITY.101
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.042
-  - CS.ENTITY.036
+- CS.ENTITY.054
+- CS.ENTITY.098
+- CS.ENTITY.099
+- CS.ENTITY.100
+- CS.ENTITY.101
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.042
+- CS.ENTITY.036
 tags:
-  - ifn-gamma
-  - interferon
-  - th1-response
-  - cell-mediated-immunity
-  - intracellular-pathogens
-  - biomarker
+- ifn-gamma
+- interferon
+- th1-response
+- cell-mediated-immunity
+- intracellular-pathogens
+- biomarker
 ---
 
 # CS.ENTITY.102: Интерферон-гамма (Interferon-gamma)

@@ -5,27 +5,28 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Олеиновая кислота"
-name_en: "Oleic acid"
-abbreviation: "C18:1"
+name_ru: Олеиновая кислота
+name_en: Oleic acid
+abbreviation: C18:1
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - oleic-acid
-  - c18:1
-  - monounsaturated-fatty-acid
-  - mufa
-  - energy-metabolism
-  - membrane-fluidity
-  - biomarker
+- oleic-acid
+- c18:1
+- monounsaturated-fatty-acid
+- mufa
+- energy-metabolism
+- membrane-fluidity
+- biomarker
 ---
 
 # CS.ENTITY.076: Олеиновая кислота (Oleic acid)

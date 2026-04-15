@@ -11,6 +11,10 @@ abbreviation: ''
 related_sota:
 - CS.SOTA.031
 - CS.SOTA.254
+- CS.SOTA.276
+- CS.SOTA.280
+- CS.SOTA.282
+- CS.SOTA.287
 related_entities:
 - CS.ENTITY.031
 - CS.ENTITY.032

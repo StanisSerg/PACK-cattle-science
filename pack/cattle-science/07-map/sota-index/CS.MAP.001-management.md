@@ -1,6 +1,6 @@
 # CS.MAP.001-management: SoTA Index — Менеджмент
 
-> Шард индекса: management (9 SoTA)
+> Шард индекса: management (13 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,16 +10,16 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 9 |
+| Всего SoTA | 13 |
 | P0 (Фундаментальные) | 0 |
 | P1 (Критически важные) | 1 |
-| P2 (Важные) | 8 |
+| P2 (Важные) | 12 |
 | P3 (Дополнительные) | 0 |
-| Field-study | 4 |
+| Field-study | 6 |
 | Framework | 1 |
-| Review | 2 |
+| Review | 3 |
 | Simulation | 1 |
-| Survey | 1 |
+| Survey | 2 |
 
 ---
 
@@ -36,6 +36,10 @@
 | [CS.SOTA.256](../../06-sota/management/CS.SOTA.256-machuca-2026.md) | Machuca et al. | 2026 | P2 | survey | `calf-transport, preweaning, welfare` | См. файл для деталей |
 | [CS.SOTA.262](../../06-sota/management/CS.SOTA.262-velasquez-2026.md) | Velasquez et al. | 2026 | P2 | field-study | `beef-on-dairy, body-weight-prediction, morphological-models` | См. файл для деталей |
 | [CS.SOTA.267](../../06-sota/management/CS.SOTA.267-weerasingha-2026.md) | Weerasingha et al. | 2026 | P2 | simulation | `salt-diffusion, cheese-production, micellar-casein` | См. файл для деталей |
+| [CS.SOTA.276](../../06-sota/management/CS.SOTA.276-breeding-practices-2026.md) | Changtes et al. | 2026 | P2 | survey | `breeding-practices, surplus-calf, management` | См. файл для деталей |
+| [CS.SOTA.283](../../06-sota/management/CS.SOTA.283-welfare-barriers-2026.md) | Leliveld et al. | 2026 | P2 | review | `welfare-assessment, barriers, implementation` | См. файл для деталей |
+| [CS.SOTA.287](../../06-sota/management/CS.SOTA.287-rumination-genetics-2026.md) | Lou et al. | 2026 | P2 | field-study | `rumination, genetics, milk-yield` | См. файл для деталей |
+| [CS.SOTA.293](../../06-sota/management/CS.SOTA.293-sop-training-2026.md) | Neukirchner et al. | 2026 | P2 | field-study | `SOP, training, calf-care` | См. файл для деталей |
 
 ---
 
@@ -48,4 +52,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 9 SoTA*
+*Автоматическая генерация: 13 SoTA*

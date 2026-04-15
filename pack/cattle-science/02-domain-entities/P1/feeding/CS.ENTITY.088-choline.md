@@ -5,31 +5,33 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Холин"
-name_en: "Choline"
-abbreviation: "Chol"
+name_ru: Холин
+name_en: Choline
+abbreviation: Chol
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.285
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.068
-  - CS.ENTITY.069
-  - CS.ENTITY.087
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.072
-  - CS.ENTITY.073
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
+- CS.ENTITY.068
+- CS.ENTITY.069
+- CS.ENTITY.087
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.072
+- CS.ENTITY.073
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
 tags:
-  - choline
-  - phospholipids
-  - vldl
-  - fatty-liver
-  - methyl-donor
-  - neurotransmitter
-  - biomarker
+- choline
+- phospholipids
+- vldl
+- fatty-liver
+- methyl-donor
+- neurotransmitter
+- biomarker
 ---
 
 # CS.ENTITY.088: Холин (Choline)

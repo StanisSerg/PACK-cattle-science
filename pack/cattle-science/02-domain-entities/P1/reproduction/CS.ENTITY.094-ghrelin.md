@@ -5,26 +5,27 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Грелин"
-name_en: "Ghrelin"
-abbreviation: "GHRL"
+name_ru: Грелин
+name_en: Ghrelin
+abbreviation: GHRL
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.056
-  - CS.ENTITY.092
-  - CS.ENTITY.093
-  - CS.ENTITY.095
-  - CS.ENTITY.036
-  - CS.ENTITY.038
+- CS.ENTITY.056
+- CS.ENTITY.092
+- CS.ENTITY.093
+- CS.ENTITY.095
+- CS.ENTITY.036
+- CS.ENTITY.038
 tags:
-  - ghrelin
-  - orexigenic-hormone
-  - appetite-regulation
-  - growth-hormone-release
-  - energy-balance
-  - biomarker
+- ghrelin
+- orexigenic-hormone
+- appetite-regulation
+- growth-hormone-release
+- energy-balance
+- biomarker
 ---
 
 # CS.ENTITY.094: Грелин (Ghrelin)

@@ -5,29 +5,30 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Надпочечники"
-name_en: "Adrenal glands"
-abbreviation: "ADR"
+name_ru: Надпочечники
+name_en: Adrenal glands
+abbreviation: ADR
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.053
-  - CS.SOTA.066
+- CS.SOTA.009
+- CS.SOTA.053
+- CS.SOTA.066
+- CS.SOTA.284
 related_entities:
-  - CS.ENTITY.036
-  - CS.ENTITY.054
-  - CS.ENTITY.056
-  - CS.ENTITY.057
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.036
+- CS.ENTITY.054
+- CS.ENTITY.056
+- CS.ENTITY.057
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - adrenal-glands
-  - cortex
-  - medulla
-  - cortisol
-  - adrenaline
-  - stress-response
-  - hpa-axis
+- adrenal-glands
+- cortex
+- medulla
+- cortisol
+- adrenaline
+- stress-response
+- hpa-axis
 ---
 
 # CS.ENTITY.064: Надпочечники (Adrenal glands)

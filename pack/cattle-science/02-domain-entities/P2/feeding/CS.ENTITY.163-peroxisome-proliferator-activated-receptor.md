@@ -23,6 +23,7 @@ related:
   note: Mitochondria (PPARα targets)
 related_sota:
 - CS.SOTA.257
+- CS.SOTA.282
 ---
 
 # Peroxisome proliferator-activated receptor

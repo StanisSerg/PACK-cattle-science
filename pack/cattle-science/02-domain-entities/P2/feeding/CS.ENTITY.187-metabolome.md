@@ -26,6 +26,11 @@ related:
   note: β-гидроксибутират (компонент метаболома)
 related_sota:
 - CS.SOTA.197
+- CS.SOTA.270
+- CS.SOTA.272
+- CS.SOTA.282
+- CS.SOTA.286
+- CS.SOTA.290
 ---
 
 # Метаболом (Metabolome)

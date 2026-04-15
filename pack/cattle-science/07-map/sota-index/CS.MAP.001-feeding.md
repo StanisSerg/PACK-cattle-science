@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (148 SoTA)
+> Шард индекса: feeding (155 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 148 |
+| Всего SoTA | 155 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 21 |
-| P2 (Важные) | 126 |
+| P2 (Важные) | 133 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
-| Field-study | 49 |
+| Field-study | 56 |
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
@@ -177,6 +177,13 @@
 | [CS.SOTA.260](../../06-sota/feeding/CS.SOTA.260-oliveira-2026.md) | Oliveira et al. | 2026 | P2 | field-study | `RUP, grazing-heifer, nitrogen-metabolism` | См. файл для деталей |
 | [CS.SOTA.265](../../06-sota/feeding/CS.SOTA.265-lingga-2026.md) | Lingga et al. | 2026 | P2 | field-study | `rumen-bacteria, cellulose, glucose` | См. файл для деталей |
 | [CS.SOTA.266](../../06-sota/feeding/CS.SOTA.266-galyon-2026.md) | Galyon et al. | 2026 | P2 | field-study | `triticale-silage, forage-inclusion, methane-emissions` | См. файл для деталей |
+| [CS.SOTA.269](../../06-sota/feeding/CS.SOTA.269-reinhardt-2026.md) | Reinhardt et al. | 2026 | P2 | field-study | `essential-amino-acids, plasma, clusters` | См. файл для деталей |
+| [CS.SOTA.270](../../06-sota/feeding/CS.SOTA.270-starter-selection-2026.md) | al. et al. | 2026 | P2 | field-study | `starter-feed, calf, dietary-selection` | См. файл для деталей |
+| [CS.SOTA.271](../../06-sota/feeding/CS.SOTA.271-adeniji-2026.md) | Adeniji et al. | 2026 | P2 | field-study | `fatty-acid-prill, magnesium, emulsifiers` | См. файл для деталей |
+| [CS.SOTA.278](../../06-sota/feeding/CS.SOTA.278-heat-stress-methane-2026.md) | Onan-Martinez et al. | 2026 | P2 | field-study | `heat-stress, methane-emissions, enteric-methane` | См. файл для деталей |
+| [CS.SOTA.279](../../06-sota/feeding/CS.SOTA.279-lysine-heat-stress-2026.md) | Ruiz-González et al. | 2026 | P2 | field-study | `lysine, methionine, histidine` | См. файл для деталей |
+| [CS.SOTA.281](../../06-sota/feeding/CS.SOTA.281-insulinemic-energy-2026.md) | Killerby et al. | 2026 | P2 | field-study | `insulinemic-energy, amino-acids, postruminal` | См. файл для деталей |
+| [CS.SOTA.285](../../06-sota/feeding/CS.SOTA.285-mammary-methionine-2026.md) | Kaufman et al. | 2026 | P2 | field-study | `rumen-protected-methionine, mammary-gland, amino-acids` | См. файл для деталей |
 
 ---
 
@@ -189,4 +196,4 @@
 ---
 
 *Шард обновлён: 2026-04-15*
-*Автоматическая генерация: 148 SoTA*
+*Автоматическая генерация: 155 SoTA*

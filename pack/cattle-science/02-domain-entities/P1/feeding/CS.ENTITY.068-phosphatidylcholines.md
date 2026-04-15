@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Фосфатидилхолины"
-name_en: "Phosphatidylcholines"
-abbreviation: "PC"
+name_ru: Фосфатидилхолины
+name_en: Phosphatidylcholines
+abbreviation: PC
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - phosphatidylcholines
-  - phospholipids
-  - choline
-  - fatty-liver
-  - vldl
-  - lipid-metabolism
-  - biomarker
+- phosphatidylcholines
+- phospholipids
+- choline
+- fatty-liver
+- vldl
+- lipid-metabolism
+- biomarker
 ---
 
 # CS.ENTITY.068: Фосфатидилхолины (Phosphatidylcholines)

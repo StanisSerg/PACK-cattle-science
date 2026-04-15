@@ -5,30 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Ацетоацетат"
-name_en: "Acetoacetate"
-abbreviation: "AcAc"
+name_ru: Ацетоацетат
+name_en: Acetoacetate
+abbreviation: AcAc
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.018
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.018
+- CS.SOTA.066
+- CS.SOTA.268
+- CS.SOTA.286
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.080
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.080
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
 tags:
-  - acetoacetate
-  - ketone-bodies
-  - ketosis
-  - beta-oxidation
-  - energy-metabolism
-  - biomarker
+- acetoacetate
+- ketone-bodies
+- ketosis
+- beta-oxidation
+- energy-metabolism
+- biomarker
 ---
 
 # CS.ENTITY.079: Ацетоацетат (Acetoacetate)

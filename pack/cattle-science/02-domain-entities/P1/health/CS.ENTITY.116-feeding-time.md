@@ -11,6 +11,7 @@ abbreviation: FT
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.257
+- CS.SOTA.286
 related_entities:
 - CS.ENTITY.055
 - CS.ENTITY.094
