@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Валин"
-name_en: "Valine"
-abbreviation: "Val"
+name_ru: Валин
+name_en: Valine
+abbreviation: Val
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.081
-  - CS.ENTITY.082
-  - CS.ENTITY.083
-  - CS.ENTITY.084
-  - CS.ENTITY.085
-  - CS.ENTITY.087
-  - CS.ENTITY.088
-  - CS.ENTITY.089
-  - CS.ENTITY.090
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.084
+- CS.ENTITY.085
+- CS.ENTITY.087
+- CS.ENTITY.088
+- CS.ENTITY.089
+- CS.ENTITY.090
 tags:
-  - valine
-  - bcaa
-  - amino-acid
-  - muscle-metabolism
-  - nitrogen-transport
-  - biomarker
+- valine
+- bcaa
+- amino-acid
+- muscle-metabolism
+- nitrogen-transport
+- biomarker
 ---
 
 # CS.ENTITY.086: Валин (Valine)

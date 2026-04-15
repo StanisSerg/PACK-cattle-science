@@ -6,31 +6,36 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: metabolic-disorders
-name_ru: "Депрессия жира молока"
-name_en: "Milk Fat Depression"
-abbreviation: "MFD"
+name_ru: Депрессия жира молока
+name_en: Milk Fat Depression
+abbreviation: MFD
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.064
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.064
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.032
-  - CS.ENTITY.004
-  - CS.ENTITY.011
-  - CS.ENTITY.010
-  - CS.ENTITY.050
-  - CS.ENTITY.200
-  - CS.ENTITY.074
-  - CS.ENTITY.214
+- CS.ENTITY.032
+- CS.ENTITY.004
+- CS.ENTITY.011
+- CS.ENTITY.010
+- CS.ENTITY.050
+- CS.ENTITY.200
+- CS.ENTITY.074
+- CS.ENTITY.214
 tags:
-  - milk-fat
-  - depression
-  - trans-fatty-acids
-  - biohydrogenation
-  - acidosis
-  - nutrition
+- milk-fat
+- depression
+- trans-fatty-acids
+- biohydrogenation
+- acidosis
+- nutrition
 ---
 
 # CS.ENTITY.198: Депрессия жира молока (Milk Fat Depression)

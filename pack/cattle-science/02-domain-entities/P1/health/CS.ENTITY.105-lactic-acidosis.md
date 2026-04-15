@@ -5,29 +5,34 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: diseases
-name_ru: "Молочнокислый ацидоз"
-name_en: "Lactic acidosis"
-abbreviation: "LA"
+name_ru: Молочнокислый ацидоз
+name_en: Lactic acidosis
+abbreviation: LA
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.050
-  - CS.ENTITY.051
-  - CS.ENTITY.066
-  - CS.ENTITY.058
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.036
-  - CS.ENTITY.038
+- CS.ENTITY.050
+- CS.ENTITY.051
+- CS.ENTITY.066
+- CS.ENTITY.058
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.036
+- CS.ENTITY.038
 tags:
-  - lactic-acidosis
-  - ruminal-acidosis
-  - lactic-acid
-  - rumen
-  - metabolic-acidosis
-  - grain-overload
-  - emergency
+- lactic-acidosis
+- ruminal-acidosis
+- lactic-acid
+- rumen
+- metabolic-acidosis
+- grain-overload
+- emergency
 ---
 
 # CS.ENTITY.105: Молочнокислый ацидоз (Lactic acidosis)

@@ -5,26 +5,32 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Руминальный ацидоз"
-name_en: "Ruminal acidosis"
-abbreviation: "RA"
+name_ru: Руминальный ацидоз
+name_en: Ruminal acidosis
+abbreviation: RA
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.038
-  - CS.SOTA.048
+- CS.SOTA.016
+- CS.SOTA.038
+- CS.SOTA.048
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.032
-  - CS.ENTITY.030
-  - CS.ENTITY.028
+- CS.ENTITY.004
+- CS.ENTITY.032
+- CS.ENTITY.030
+- CS.ENTITY.028
 tags:
-  - ruminal-acidosis
-  - acidosis
-  - rumen
-  - nutrition
-  - concentrate
-  - pH
-  - lactic-acid
+- ruminal-acidosis
+- acidosis
+- rumen
+- nutrition
+- concentrate
+- pH
+- lactic-acid
 ---
 
 # CS.ENTITY.050: Руминальный ацидоз (Ruminal acidosis)

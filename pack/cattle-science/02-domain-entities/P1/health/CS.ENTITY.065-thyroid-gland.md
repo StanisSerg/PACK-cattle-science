@@ -5,24 +5,25 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Щитовидная железа"
-name_en: "Thyroid gland"
-abbreviation: "THY"
+name_ru: Щитовидная железа
+name_en: Thyroid gland
+abbreviation: THY
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.056
-  - CS.ENTITY.081
-  - CS.ENTITY.082
-  - CS.ENTITY.083
+- CS.ENTITY.056
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
 tags:
-  - thyroid-gland
-  - thyroid-hormones
-  - t3
-  - t4
-  - tsh
-  - metabolism
-  - hypothyroidism
+- thyroid-gland
+- thyroid-hormones
+- t3
+- t4
+- tsh
+- metabolism
+- hypothyroidism
 ---
 
 # CS.ENTITY.065: Щитовидная железа (Thyroid gland)

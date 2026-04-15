@@ -5,28 +5,29 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Пролактин"
-name_en: "Prolactin"
-abbreviation: "PRL"
+name_ru: Пролактин
+name_en: Prolactin
+abbreviation: PRL
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.046
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.056
-  - CS.ENTITY.092
-  - CS.ENTITY.093
-  - CS.ENTITY.094
-  - CS.ENTITY.095
+- CS.ENTITY.046
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.056
+- CS.ENTITY.092
+- CS.ENTITY.093
+- CS.ENTITY.094
+- CS.ENTITY.095
 tags:
-  - prolactin
-  - pituitary-hormone
-  - lactation
-  - milk-synthesis
-  - mammary-gland
-  - biomarker
+- prolactin
+- pituitary-hormone
+- lactation
+- milk-synthesis
+- mammary-gland
+- biomarker
 ---
 
 # CS.ENTITY.091: Пролактин (Prolactin)

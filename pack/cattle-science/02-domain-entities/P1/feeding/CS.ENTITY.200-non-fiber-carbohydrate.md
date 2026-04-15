@@ -6,31 +6,34 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: nutrition
-name_ru: "Неклетчаточные углеводы"
-name_en: "Non-Fiber Carbohydrate"
-abbreviation: "NFC"
+name_ru: Неклетчаточные углеводы
+name_en: Non-Fiber Carbohydrate
+abbreviation: NFC
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.018
-  - CS.SOTA.048
-  - CS.SOTA.055
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.018
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.202
 related_entities:
-  - CS.ENTITY.188
-  - CS.ENTITY.192
-  - CS.ENTITY.191
-  - CS.ENTITY.004
-  - CS.ENTITY.010
-  - CS.ENTITY.189
-  - CS.ENTITY.050
-  - CS.ENTITY.198
+- CS.ENTITY.188
+- CS.ENTITY.192
+- CS.ENTITY.191
+- CS.ENTITY.004
+- CS.ENTITY.010
+- CS.ENTITY.189
+- CS.ENTITY.050
+- CS.ENTITY.198
 tags:
-  - nfc
-  - starch
-  - sugar
-  - organic-acids
-  - energy
-  - carbohydrate
+- nfc
+- starch
+- sugar
+- organic-acids
+- energy
+- carbohydrate
 ---
 
 # CS.ENTITY.200: Неклетчаточные углеводы (Non-Fiber Carbohydrate)

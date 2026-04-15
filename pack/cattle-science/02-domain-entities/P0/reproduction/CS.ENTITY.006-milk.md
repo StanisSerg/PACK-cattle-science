@@ -10,7 +10,6 @@ name_en: Milk
 abbreviation: Milk
 related_sota:
 - CS.SOTA.001
-- CS.SOTA.118
 - CS.SOTA.005
 - CS.SOTA.006
 - CS.SOTA.007
@@ -35,6 +34,13 @@ related_sota:
 - CS.SOTA.093
 - CS.SOTA.096
 - CS.SOTA.104
+- CS.SOTA.118
+- CS.SOTA.197
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
 - CS.ENTITY.001
 - CS.ENTITY.003

@@ -5,39 +5,40 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: rumen-metabolism
-name_ru: "Лактат"
-name_en: "Lactate"
-abbreviation: "LA"
-unit: "ммоль/л (руминальная жидкость или кровь)"
-normal_range: "< 1.0 (рубец), < 1.5 (кровь)"
-critical_threshold: "> 5.0 (рубец), > 3.0 (кровь)"
+name_ru: Лактат
+name_en: Lactate
+abbreviation: LA
+unit: ммоль/л (руминальная жидкость или кровь)
+normal_range: < 1.0 (рубец), < 1.5 (кровь)
+critical_threshold: '> 5.0 (рубец), > 3.0 (кровь)'
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.018
-  - CS.SOTA.026
-  - CS.SOTA.029
-  - CS.SOTA.038
-  - CS.SOTA.041
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.065
+- CS.SOTA.016
+- CS.SOTA.018
+- CS.SOTA.026
+- CS.SOTA.029
+- CS.SOTA.038
+- CS.SOTA.041
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.065
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.007
-  - CS.ENTITY.009
-  - CS.SOTA.010
-  - CS.SOTA.012
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.007
+- CS.ENTITY.009
+- CS.SOTA.010
+- CS.SOTA.012
 tags:
-  - lactate
-  - lactic-acid
-  - rumen-metabolism
-  - acidosis
-  - energy-metabolism
-  - metabolic-stress
+- lactate
+- lactic-acid
+- rumen-metabolism
+- acidosis
+- energy-metabolism
+- metabolic-stress
 ---
 
 # CS.ENTITY.013: Лактат

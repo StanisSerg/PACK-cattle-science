@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metrics
-name_ru: "Время лежания"
-name_en: "Lying time"
-abbreviation: "LT"
+name_ru: Время лежания
+name_en: Lying time
+abbreviation: LT
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.197
 related_entities:
-  - CS.ENTITY.055
-  - CS.ENTITY.114
-  - CS.ENTITY.115
-  - CS.ENTITY.116
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.036
-  - CS.ENTITY.038
+- CS.ENTITY.055
+- CS.ENTITY.114
+- CS.ENTITY.115
+- CS.ENTITY.116
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.036
+- CS.ENTITY.038
 tags:
-  - lying-time
-  - resting-behavior
-  - comfort
-  - welfare
-  - lameness
-  - precision-dairy
-  - sensor
-  - biomarker
+- lying-time
+- resting-behavior
+- comfort
+- welfare
+- lameness
+- precision-dairy
+- sensor
+- biomarker
 ---
 
 # CS.ENTITY.117: Время лежания (Lying time)

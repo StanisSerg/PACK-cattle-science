@@ -5,30 +5,32 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: economics
 subarea: metrics
-name_ru: "Коэффициент замещения"
-name_en: "Replacement rate"
-abbreviation: "RR"
+name_ru: Коэффициент замещения
+name_en: Replacement rate
+abbreviation: RR
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.197
+- CS.SOTA.202
 related_entities:
-  - CS.ENTITY.111
-  - CS.ENTITY.047
-  - CS.ENTITY.048
-  - CS.ENTITY.049
-  - CS.ENTITY.050
-  - CS.ENTITY.051
-  - CS.ENTITY.052
-  - CS.ENTITY.053
-  - CS.ENTITY.054
-  - CS.ENTITY.055
+- CS.ENTITY.111
+- CS.ENTITY.047
+- CS.ENTITY.048
+- CS.ENTITY.049
+- CS.ENTITY.050
+- CS.ENTITY.051
+- CS.ENTITY.052
+- CS.ENTITY.053
+- CS.ENTITY.054
+- CS.ENTITY.055
 tags:
-  - replacement-rate
-  - herd-turnover
-  - heifers
-  - economics
-  - herd-management
-  - sustainability
+- replacement-rate
+- herd-turnover
+- heifers
+- economics
+- herd-management
+- sustainability
 ---
 
 # CS.ENTITY.112: Коэффициент замещения (Replacement rate)

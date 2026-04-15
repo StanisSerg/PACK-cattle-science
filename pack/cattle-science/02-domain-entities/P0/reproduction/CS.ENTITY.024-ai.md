@@ -5,34 +5,35 @@ fpf_type: U.Method
 domain: cattle-science
 area: reproduction
 subarea: breeding-technology
-name_ru: "Искусственное осеменение"
-name_en: "Artificial Insemination"
-abbreviation: "AI"
+name_ru: Искусственное осеменение
+name_en: Artificial Insemination
+abbreviation: AI
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.118
-  - CS.SOTA.003
-  - CS.SOTA.116
-  - CS.SOTA.006
-  - CS.SOTA.014
-  - CS.SOTA.019
-  - CS.SOTA.022
-  - CS.SOTA.023
-  - CS.SOTA.024
+- CS.SOTA.001
+- CS.SOTA.003
+- CS.SOTA.006
+- CS.SOTA.014
+- CS.SOTA.019
+- CS.SOTA.022
+- CS.SOTA.023
+- CS.SOTA.024
+- CS.SOTA.116
+- CS.SOTA.118
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.001
-  - CS.ENTITY.025
-  - CS.ENTITY.026
-  - CS.ENTITY.027
+- CS.ENTITY.001
+- CS.ENTITY.025
+- CS.ENTITY.026
+- CS.ENTITY.027
 tags:
-  - artificial-insemination
-  - reproduction
-  - breeding
-  - semen
-  - fertility
-  - conception-rate
-  - heat-detection
-  - timed-ai
+- artificial-insemination
+- reproduction
+- breeding
+- semen
+- fertility
+- conception-rate
+- heat-detection
+- timed-ai
 ---
 
 # CS.ENTITY.024: Искусственное осеменение

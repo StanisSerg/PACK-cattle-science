@@ -5,24 +5,25 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: metrics
-name_ru: "Интервал между отёлами"
-name_en: "Calving interval"
-abbreviation: "CI"
+name_ru: Интервал между отёлами
+name_en: Calving interval
+abbreviation: CI
 related_sota:
-  - CS.SOTA.005
-  - CS.SOTA.019
-  - CS.SOTA.022
+- CS.SOTA.005
+- CS.SOTA.019
+- CS.SOTA.022
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.047
-  - CS.ENTITY.089
-  - CS.ENTITY.037
-  - CS.ENTITY.090
+- CS.ENTITY.047
+- CS.ENTITY.089
+- CS.ENTITY.037
+- CS.ENTITY.090
 tags:
-  - calving-interval
-  - reproduction
-  - fertility
-  - lifetime-production
-  - metric
+- calving-interval
+- reproduction
+- fertility
+- lifetime-production
+- metric
 ---
 
 # CS.ENTITY.048: Интервал между отёлами (Calving interval)

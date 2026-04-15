@@ -6,33 +6,39 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: metabolism
-name_ru: "Распределение энергии"
-name_en: "Energy Partitioning"
-abbreviation: ""
+name_ru: Распределение энергии
+name_en: Energy Partitioning
+abbreviation: ''
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.055
-  - CS.SOTA.060
-  - CS.SOTA.061
+- CS.SOTA.012
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.055
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.197
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.031
-  - CS.ENTITY.032
-  - CS.ENTITY.005
-  - CS.ENTITY.009
-  - CS.ENTITY.018
-  - CS.ENTITY.133
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.005
+- CS.ENTITY.009
+- CS.ENTITY.018
+- CS.ENTITY.133
 tags:
-  - energy
-  - milk
-  - body-condition
-  - maintenance
-  - lactation
-  - neb
-  - metabolism
+- energy
+- milk
+- body-condition
+- maintenance
+- lactation
+- neb
+- metabolism
 ---
 
 # CS.ENTITY.194: Распределение энергии (Energy Partitioning)

@@ -5,35 +5,37 @@ fpf_type: U.Method
 domain: cattle-science
 area: reproduction
 subarea: breeding-technology
-name_ru: "Обнаружение охоты"
-name_en: "Heat Detection"
-abbreviation: "HD"
+name_ru: Обнаружение охоты
+name_en: Heat Detection
+abbreviation: HD
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.118
-  - CS.SOTA.006
-  - CS.SOTA.014
-  - CS.SOTA.019
-  - CS.SOTA.027
-  - CS.SOTA.032
+- CS.SOTA.001
+- CS.SOTA.006
+- CS.SOTA.014
+- CS.SOTA.019
+- CS.SOTA.027
+- CS.SOTA.032
+- CS.SOTA.118
+- CS.SOTA.198
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.001
-  - CS.ENTITY.024
-  - CS.ENTITY.025
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.031
+- CS.ENTITY.001
+- CS.ENTITY.024
+- CS.ENTITY.025
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.031
 tags:
-  - heat-detection
-  - estrus
-  - reproduction
-  - activity
-  - behavior
-  - monitoring
-  - sensors
-  - fertility
+- heat-detection
+- estrus
+- reproduction
+- activity
+- behavior
+- monitoring
+- sensors
+- fertility
 ---
 
 # CS.ENTITY.026: Обнаружение охоты

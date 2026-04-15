@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: economics
 subarea: metrics
-name_ru: "Коэффициент обновления стада"
-name_en: "Herd turnover rate"
-abbreviation: "HTR"
+name_ru: Коэффициент обновления стада
+name_en: Herd turnover rate
+abbreviation: HTR
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.197
 related_entities:
-  - CS.ENTITY.112
-  - CS.ENTITY.047
-  - CS.ENTITY.048
-  - CS.ENTITY.049
-  - CS.ENTITY.050
-  - CS.ENTITY.051
-  - CS.ENTITY.052
-  - CS.ENTITY.053
-  - CS.ENTITY.054
-  - CS.ENTITY.055
+- CS.ENTITY.112
+- CS.ENTITY.047
+- CS.ENTITY.048
+- CS.ENTITY.049
+- CS.ENTITY.050
+- CS.ENTITY.051
+- CS.ENTITY.052
+- CS.ENTITY.053
+- CS.ENTITY.054
+- CS.ENTITY.055
 tags:
-  - herd-turnover-rate
-  - culling-rate
-  - replacement-rate
-  - economics
-  - herd-management
-  - longevity
+- herd-turnover-rate
+- culling-rate
+- replacement-rate
+- economics
+- herd-management
+- longevity
 ---
 
 # CS.ENTITY.111: Коэффициент обновления стада (Herd turnover rate)

@@ -7,17 +7,25 @@ area: feeding
 subarea: systems-biology
 name_ru: Метаболом
 name_en: Metabolome
-tags: [metabolome, metabolomics, systems-biology, omics, metabolic-profile, biomarkers]
+tags:
+- metabolome
+- metabolomics
+- systems-biology
+- omics
+- metabolic-profile
+- biomarkers
 related:
-  - id: CS.ENTITY.022
-    type: related
-    note: Метаболом (P0 сущность — базовое понятие)
-  - id: CS.ENTITY.065
-    type: related
-    note: НЖК (компонент метаболома)
-  - id: CS.ENTITY.050
-    type: related
-    note: β-гидроксибутират (компонент метаболома)
+- id: CS.ENTITY.022
+  type: related
+  note: Метаболом (P0 сущность — базовое понятие)
+- id: CS.ENTITY.065
+  type: related
+  note: НЖК (компонент метаболома)
+- id: CS.ENTITY.050
+  type: related
+  note: β-гидроксибутират (компонент метаболома)
+related_sota:
+- CS.SOTA.197
 ---
 
 # Метаболом (Metabolome)

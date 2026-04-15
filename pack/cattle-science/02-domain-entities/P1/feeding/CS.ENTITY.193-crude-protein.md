@@ -6,31 +6,36 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: nutrition
-name_ru: "Сырой протеин"
-name_en: "Crude Protein"
-abbreviation: "CP"
+name_ru: Сырой протеин
+name_en: Crude Protein
+abbreviation: CP
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
 related_entities:
-  - CS.ENTITY.197
-  - CS.ENTITY.201
-  - CS.ENTITY.191
-  - CS.ENTITY.081
-  - CS.ENTITY.132
-  - CS.ENTITY.014
-  - CS.ENTITY.004
+- CS.ENTITY.197
+- CS.ENTITY.201
+- CS.ENTITY.191
+- CS.ENTITY.081
+- CS.ENTITY.132
+- CS.ENTITY.014
+- CS.ENTITY.004
 tags:
-  - protein
-  - nitrogen
-  - amino-acids
-  - nutrition
-  - rumen-degradable
-  - rup
-  - mcp
+- protein
+- nitrogen
+- amino-acids
+- nutrition
+- rumen-degradable
+- rup
+- mcp
 ---
 
 # CS.ENTITY.193: Сырой протеин (Crude Protein)

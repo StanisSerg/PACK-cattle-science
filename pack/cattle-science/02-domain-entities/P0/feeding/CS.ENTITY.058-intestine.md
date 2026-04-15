@@ -5,35 +5,36 @@ fpf_type: U.System
 domain: cattle-science
 area: feeding
 subarea: physiology
-name_ru: "Кишечник"
-name_en: "Intestine"
-abbreviation: "INT"
+name_ru: Кишечник
+name_en: Intestine
+abbreviation: INT
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.201
 related_entities:
-  - CS.ENTITY.007
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.010
-  - CS.ENTITY.011
-  - CS.ENTITY.012
-  - CS.ENTITY.013
-  - CS.ENTITY.014
-  - CS.ENTITY.015
-  - CS.ENTITY.016
-  - CS.ENTITY.017
-  - CS.ENTITY.018
-  - CS.ENTITY.050
-  - CS.ENTITY.051
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.010
+- CS.ENTITY.011
+- CS.ENTITY.012
+- CS.ENTITY.013
+- CS.ENTITY.014
+- CS.ENTITY.015
+- CS.ENTITY.016
+- CS.ENTITY.017
+- CS.ENTITY.018
+- CS.ENTITY.050
+- CS.ENTITY.051
 tags:
-  - intestine
-  - gut
-  - digestion
-  - absorption
-  - microbiome
-  - nutrient-uptake
-  - immune-function
+- intestine
+- gut
+- digestion
+- absorption
+- microbiome
+- nutrient-uptake
+- immune-function
 ---
 
 # CS.ENTITY.058: Кишечник (Intestine)

@@ -6,32 +6,38 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: ration-formulation
-name_ru: "Система углеводов и белков Cornell"
-name_en: "Cornell Net Carbohydrate and Protein System"
-abbreviation: "CNCPS"
+name_ru: Система углеводов и белков Cornell
+name_en: Cornell Net Carbohydrate and Protein System
+abbreviation: CNCPS
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.197
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.193
-  - CS.ENTITY.197
-  - CS.ENTITY.199
-  - CS.ENTITY.200
-  - CS.ENTITY.201
-  - CS.ENTITY.188
-  - CS.ENTITY.189
+- CS.ENTITY.004
+- CS.ENTITY.193
+- CS.ENTITY.197
+- CS.ENTITY.199
+- CS.ENTITY.200
+- CS.ENTITY.201
+- CS.ENTITY.188
+- CS.ENTITY.189
 tags:
-  - cncps
-  - model
-  - protein
-  - carbohydrate
-  - ration-formulation
-  - nutrition
-  - feeding-system
+- cncps
+- model
+- protein
+- carbohydrate
+- ration-formulation
+- nutrition
+- feeding-system
 ---
 
 # CS.ENTITY.191: Система углеводов и белков Cornell (CNCPS)

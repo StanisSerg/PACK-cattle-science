@@ -6,32 +6,38 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: protein-metabolism
-name_ru: "Микробный протеин"
-name_en: "Microbial Protein"
-abbreviation: "MCP"
+name_ru: Микробный протеин
+name_en: Microbial Protein
+abbreviation: MCP
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.193
-  - CS.ENTITY.191
-  - CS.ENTITY.081
-  - CS.ENTITY.201
-  - CS.ENTITY.010
-  - CS.ENTITY.011
-  - CS.ENTITY.189
+- CS.ENTITY.004
+- CS.ENTITY.193
+- CS.ENTITY.191
+- CS.ENTITY.081
+- CS.ENTITY.201
+- CS.ENTITY.010
+- CS.ENTITY.011
+- CS.ENTITY.189
 tags:
-  - protein
-  - microbial
-  - rumen
-  - amino-acids
-  - synthesis
-  - rdp
-  - nutrition
+- protein
+- microbial
+- rumen
+- amino-acids
+- synthesis
+- rdp
+- nutrition
 ---
 
 # CS.ENTITY.197: Микробный протеин (Microbial Protein)

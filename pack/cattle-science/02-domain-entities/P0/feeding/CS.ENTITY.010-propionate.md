@@ -5,44 +5,46 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: rumen-metabolism
-name_ru: "Пропионат"
-name_en: "Propionate"
-abbreviation: "C3"
-unit: "ммоль/л (руминальная жидкость)"
-normal_range: "18-25"
-critical_threshold: "< 12"
+name_ru: Пропионат
+name_en: Propionate
+abbreviation: C3
+unit: ммоль/л (руминальная жидкость)
+normal_range: 18-25
+critical_threshold: < 12
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.031
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.059
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.031
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.059
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.198
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.007
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.011
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.011
 tags:
-  - volatile-fatty-acids
-  - vfa
-  - gluconeogenesis
-  - rumen-metabolism
-  - energy-metabolism
-  - transition-period
-  - ketosis-prevention
+- volatile-fatty-acids
+- vfa
+- gluconeogenesis
+- rumen-metabolism
+- energy-metabolism
+- transition-period
+- ketosis-prevention
 ---
 
 # CS.ENTITY.010: Пропионат

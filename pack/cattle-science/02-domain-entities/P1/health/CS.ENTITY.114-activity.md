@@ -5,29 +5,35 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metrics
-name_ru: "Активность"
-name_en: "Activity"
-abbreviation: "ACT"
+name_ru: Активность
+name_en: Activity
+abbreviation: ACT
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.197
+- CS.SOTA.198
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.055
-  - CS.ENTITY.094
-  - CS.ENTITY.093
-  - CS.ENTITY.044
-  - CS.ENTITY.040
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.018
-  - CS.ENTITY.019
+- CS.ENTITY.055
+- CS.ENTITY.094
+- CS.ENTITY.093
+- CS.ENTITY.044
+- CS.ENTITY.040
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.018
+- CS.ENTITY.019
 tags:
-  - activity
-  - estrus-detection
-  - lameness
-  - behavior
-  - precision-dairy
-  - sensor
-  - biomarker
+- activity
+- estrus-detection
+- lameness
+- behavior
+- precision-dairy
+- sensor
+- biomarker
 ---
 
 # CS.ENTITY.114: Активность (Activity)

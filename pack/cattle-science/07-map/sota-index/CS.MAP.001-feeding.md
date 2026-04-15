@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (138 SoTA)
+> Шард индекса: feeding (144 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,16 +10,17 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 138 |
+| Всего SoTA | 144 |
 | P0 (Фундаментальные) | 1 |
 | P1 (Критически важные) | 21 |
-| P2 (Важные) | 116 |
+| P2 (Важные) | 122 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
-| Field-study | 41 |
+| Field-study | 45 |
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
-| Review | 45 |
+| Methodology | 1 |
+| Review | 46 |
 | Simulation | 5 |
 
 ---
@@ -134,6 +135,12 @@
 | [CS.SOTA.194](../../06-sota/feeding/CS.SOTA.194-yang-2000-barley-processing.md) | Yang et al. | 2000 | P2 | field-study | `barley, grain-processing, steam-rolling` | Влияние обработки ячменя на место и степень пищеварения и пр... |
 | [CS.SOTA.195](../../06-sota/feeding/CS.SOTA.195-zebeli-2008-fiber-adequacy.md) | Zebeli et al. | 2008 | P2 | meta-analysis | `fiber-adequacy, peNDF, ruminal-pH` | Главная цель этого исследования - разработать практические м... |
 | [CS.SOTA.196](../../06-sota/feeding/CS.SOTA.196-higgs-van-amburgh-2014-cncps-v7.md) | Higgs et al. | 2014 | P2 | simulation | `CNCPS, nutritional-modeling, v7` | CNCPS (Cornell Net Carbohydrate and Protein System) впервые ... |
+| [CS.SOTA.198](../../06-sota/feeding/CS.SOTA.198-alende-2009.md) | Alende et al. | 2009 | P2 | field-study | `sorghum-silage, chop-length, particle-size` | См. файл для деталей |
+| [CS.SOTA.199](../../06-sota/feeding/CS.SOTA.199-van-amburgh-amino-acid.md) | Amburgh et al. | 2019 | P2 | methodology | `amino-acids, cncps, rumen-microbes` | См. файл для деталей |
+| [CS.SOTA.200](../../06-sota/feeding/CS.SOTA.200-bach-2018.md) | Bach et al. | 2018 | P2 | field-study | `rumen-ph, sodium-bicarbonate, magnesium-oxide` | См. файл для деталей |
+| [CS.SOTA.201](../../06-sota/feeding/CS.SOTA.201-bach-2023.md) | Bach et al. | 2023 | P2 | field-study | `dcad, rumen-ph, sodium-bicarbonate` | См. файл для деталей |
+| [CS.SOTA.202](../../06-sota/feeding/CS.SOTA.202-brito-seaweeds.md) | Brito et al. | 2023 | P2 | review | `seaweeds, macroalgae, methane-reduction` | См. файл для деталей |
+| [CS.SOTA.203](../../06-sota/feeding/CS.SOTA.203-calberry-2003.md) | Calberry et al. | 2003 | P2 | field-study | `alfalfa-hay, alfalfa-silage, particle-size` | См. файл для деталей |
 | [CS.SOTA.204](../../06-sota/feeding/CS.SOTA.204-harun-2019.md) | Harun et al. | 2019 | P2 | review | `rumen-microbiology, microbial-protein, rumen-pH` | Рубец рuminантов содержит диверсифицированную микробную экос... |
 | [CS.SOTA.206](../../06-sota/feeding/CS.SOTA.206-dschaak-2011.md) | Dschaak et al. | 2011 | P2 | field-study | `condensed-tannins, quebracho, nitrogen-utilization` | Исследование проведено для определения влияния экстракта дуб... |
 | [CS.SOTA.207](../../06-sota/feeding/CS.SOTA.207-emanuele-100-pounds.md) | Emanuele et al. | 2017 | P2 | field-study | `high-production, 100-pounds-milk, transition-cow` | Для достижения среднего удоя 100 фунтов (45.4 кг) молока в д... |
@@ -177,5 +184,5 @@
 
 ---
 
-*Шард обновлён: 2026-04-02*
-*Автоматическая генерация: 138 SoTA*
+*Шард обновлён: 2026-04-15*
+*Автоматическая генерация: 144 SoTA*

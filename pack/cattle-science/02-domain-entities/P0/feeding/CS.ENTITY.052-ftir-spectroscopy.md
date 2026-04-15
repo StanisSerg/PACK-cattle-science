@@ -5,24 +5,30 @@ fpf_type: U.Method
 domain: cattle-science
 area: feeding
 subarea: analytics
-name_ru: "FTIR-спектроскопия"
-name_en: "FTIR spectroscopy"
-abbreviation: "FTIR"
+name_ru: FTIR-спектроскопия
+name_en: FTIR spectroscopy
+abbreviation: FTIR
 related_sota:
-  - CS.SOTA.067
+- CS.SOTA.067
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.006
-  - CS.ENTITY.031
-  - CS.ENTITY.032
-  - CS.ENTITY.033
-  - CS.ENTITY.051
+- CS.ENTITY.006
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.033
+- CS.ENTITY.051
 tags:
-  - ftir
-  - spectroscopy
-  - milk-analysis
-  - composition
-  - prediction
-  - machine-learning
+- ftir
+- spectroscopy
+- milk-analysis
+- composition
+- prediction
+- machine-learning
 ---
 
 # CS.ENTITY.052: FTIR-спектроскопия (FTIR spectroscopy)

@@ -5,26 +5,27 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: metrics
-name_ru: "Дни открытой"
-name_en: "Days open"
-abbreviation: "DO"
+name_ru: Дни открытой
+name_en: Days open
+abbreviation: DO
 related_sota:
-  - CS.SOTA.118
-  - CS.SOTA.019
-  - CS.SOTA.022
+- CS.SOTA.019
+- CS.SOTA.022
+- CS.SOTA.118
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.001
-  - CS.ENTITY.088
-  - CS.ENTITY.089
-  - CS.ENTITY.022
-  - CS.ENTITY.027
+- CS.ENTITY.001
+- CS.ENTITY.088
+- CS.ENTITY.089
+- CS.ENTITY.022
+- CS.ENTITY.027
 tags:
-  - days-open
-  - reproduction
-  - fertility
-  - metric
-  - breeding
-  - calving-interval
+- days-open
+- reproduction
+- fertility
+- metric
+- breeding
+- calving-interval
 ---
 
 # CS.ENTITY.047: Дни открытой (Days open)

@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (64 SoTA)
+> Шард индекса: health (65 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 64 |
+| Всего SoTA | 65 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
-| P2 (Важные) | 31 |
+| P2 (Важные) | 32 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 10 |
 | Experimental-study | 2 |
-| Field-study | 25 |
+| Field-study | 26 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -87,6 +87,7 @@
 | [CS.SOTA.155](../../06-sota/health/CS.SOTA.155-umana-sedo-2023.md) | Sedó et al. | 2023 | P0 | review | `calf-mortality, preweaning-mortality, perinatal-mortality` | См. файл для деталей |
 | [CS.SOTA.165](../../06-sota/health/CS.SOTA.165-rodriguez-2023.md) | Rodriguez et al. | 2023 | P2 | field-study | `vitamin-a, beta-carotene, transition-period` | См. файл для деталей |
 | [CS.SOTA.174](../../06-sota/health/CS.SOTA.174-dahl-2016.md) | Dahl et al. | 2016 | P2 | review | `heat-stress, immune-function, dry-cow-cooling` | Экологические факторы, особенно тепловой стресс, представляю... |
+| [CS.SOTA.197](../../06-sota/health/CS.SOTA.197-afonso-2025.md) | Afonso et al. | 2025 | P2 | field-study | `hoof-health, lameness, milk-yield` | См. файл для деталей |
 | [CS.SOTA.211](../../06-sota/health/CS.SOTA.211-golder-2023.md) | Golder et al. | 2023 | P1 | field-study | `ruminal-acidosis, subacute-ruminal-acidosis, SARA` | Многоцентровое наблюдательное исследование проведено на 261 ... |
 | [CS.SOTA.213](../../06-sota/health/CS.SOTA.213-gressley-2014.md) | Gressley et al. | 2014 | P1 | review | `subacute-ruminal-acidosis, SARA, immunity` | Субострый руминальный ацидоз (SARA) возникает при кормлении ... |
 | [CS.SOTA.214](../../06-sota/health/CS.SOTA.214-grohn-1998.md) | Gröhn et al. | 1998 | P1 | field-study | `survival-analysis, culling, disease-impact` | Исследование изучило влияние семи заболеваний на выбытие 752... |
@@ -105,5 +106,5 @@
 
 ---
 
-*Шард обновлён: 2026-04-02*
-*Автоматическая генерация: 64 SoTA*
+*Шард обновлён: 2026-04-15*
+*Автоматическая генерация: 65 SoTA*

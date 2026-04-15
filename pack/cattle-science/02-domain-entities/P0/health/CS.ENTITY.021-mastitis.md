@@ -5,34 +5,36 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: infectious-diseases
-name_ru: "Мастит"
-name_en: "Mastitis"
-abbreviation: "MAST"
+name_ru: Мастит
+name_en: Mastitis
+abbreviation: MAST
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.008
-  - CS.SOTA.009
-  - CS.SOTA.027
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.067
+- CS.SOTA.001
+- CS.SOTA.008
+- CS.SOTA.009
+- CS.SOTA.027
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.067
+- CS.SOTA.197
+- CS.SOTA.198
 related_entities:
-  - CS.ENTITY.002
-  - CS.ENTITY.006
-  - CS.ENTITY.017
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.022
+- CS.ENTITY.002
+- CS.ENTITY.006
+- CS.ENTITY.017
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.022
 tags:
-  - mastitis
-  - udder-health
-  - mammary-gland
-  - infectious-disease
-  - somatic-cell-count
-  - transition-period
-  - milk-quality
+- mastitis
+- udder-health
+- mammary-gland
+- infectious-disease
+- somatic-cell-count
+- transition-period
+- milk-quality
 ---
 
 # CS.ENTITY.021: Мастит

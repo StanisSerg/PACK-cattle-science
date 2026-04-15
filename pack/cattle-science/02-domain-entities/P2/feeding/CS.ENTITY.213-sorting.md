@@ -6,27 +6,29 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: feeding-behavior
-name_ru: "Сортировка корма"
-name_en: "Sorting"
-abbreviation: ""
+name_ru: Сортировка корма
+name_en: Sorting
+abbreviation: ''
 related_sota:
-  - CS.SOTA.107
-  - CS.SOTA.160
-  - CS.SOTA.233
+- CS.SOTA.107
+- CS.SOTA.160
+- CS.SOTA.198
+- CS.SOTA.203
+- CS.SOTA.233
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.190
-  - CS.ENTITY.195
-  - CS.ENTITY.204
-  - CS.ENTITY.211
-  - CS.ENTITY.212
-  - CS.ENTITY.210
+- CS.ENTITY.004
+- CS.ENTITY.190
+- CS.ENTITY.195
+- CS.ENTITY.204
+- CS.ENTITY.211
+- CS.ENTITY.212
+- CS.ENTITY.210
 tags:
-  - sorting
-  - selective-feeding
-  - tmr
-  - particle-size
-  - refusals
+- sorting
+- selective-feeding
+- tmr
+- particle-size
+- refusals
 ---
 
 # CS.ENTITY.213: Сортировка корма

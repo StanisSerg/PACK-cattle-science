@@ -6,32 +6,38 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: behavior
-name_ru: "Кормовое поведение"
-name_en: "Feeding Behavior"
-abbreviation: ""
+name_ru: Кормовое поведение
+name_en: Feeding Behavior
+abbreviation: ''
 related_sota:
-  - CS.SOTA.015
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.059
-  - CS.SOTA.064
+- CS.SOTA.015
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.059
+- CS.SOTA.064
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.030
-  - CS.ENTITY.029
-  - CS.ENTITY.004
-  - CS.ENTITY.010
-  - CS.ENTITY.190
-  - CS.ENTITY.202
-  - CS.ENTITY.115
-  - CS.ENTITY.116
+- CS.ENTITY.030
+- CS.ENTITY.029
+- CS.ENTITY.004
+- CS.ENTITY.010
+- CS.ENTITY.190
+- CS.ENTITY.202
+- CS.ENTITY.115
+- CS.ENTITY.116
 tags:
-  - behavior
-  - feeding
-  - intake
-  - meal
-  - time
-  - dmi
-  - pattern
+- behavior
+- feeding
+- intake
+- meal
+- time
+- dmi
+- pattern
 ---
 
 # CS.ENTITY.195: Кормовое поведение (Feeding Behavior)

@@ -6,27 +6,32 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: lipid-metabolism
-name_ru: "Транс-жирные кислоты"
-name_en: "Trans Fatty Acids"
-abbreviation: "TFA"
+name_ru: Транс-жирные кислоты
+name_en: Trans Fatty Acids
+abbreviation: TFA
 related_sota:
-  - CS.SOTA.073
-  - CS.SOTA.160
-  - CS.SOTA.162
-  - CS.SOTA.178
+- CS.SOTA.073
+- CS.SOTA.160
+- CS.SOTA.162
+- CS.SOTA.178
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.074
-  - CS.ENTITY.189
-  - CS.ENTITY.198
-  - CS.ENTITY.203
-  - CS.ENTITY.204
+- CS.ENTITY.004
+- CS.ENTITY.074
+- CS.ENTITY.189
+- CS.ENTITY.198
+- CS.ENTITY.203
+- CS.ENTITY.204
 tags:
-  - trans-fat
-  - biohydrogenation
-  - milk-fat-depression
-  - rumen
-  - cla
+- trans-fat
+- biohydrogenation
+- milk-fat-depression
+- rumen
+- cla
 ---
 
 # CS.ENTITY.214: Транс-жирные кислоты (TFA)

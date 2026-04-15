@@ -5,26 +5,27 @@ fpf_type: U.System
 domain: cattle-science
 area: reproduction
 subarea: anatomy
-name_ru: "Молочная железа"
-name_en: "Mammary gland"
-abbreviation: "MG"
+name_ru: Молочная железа
+name_en: Mammary gland
+abbreviation: MG
 related_sota:
-  - CS.SOTA.009
-  - CS.SOTA.035
-  - CS.SOTA.040
+- CS.SOTA.009
+- CS.SOTA.035
+- CS.SOTA.040
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.006
-  - CS.ENTITY.021
-  - CS.ENTITY.031
-  - CS.ENTITY.032
-  - CS.ENTITY.033
+- CS.ENTITY.006
+- CS.ENTITY.021
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.033
 tags:
-  - mammary-gland
-  - udder
-  - lactation
-  - milk-synthesis
-  - mastitis
-  - anatomy
+- mammary-gland
+- udder
+- lactation
+- milk-synthesis
+- mastitis
+- anatomy
 ---
 
 # CS.ENTITY.046: Молочная железа (Mammary gland)

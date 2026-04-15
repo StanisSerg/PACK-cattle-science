@@ -5,27 +5,28 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Нервная система"
-name_en: "Nervous system"
-abbreviation: "NS"
+name_ru: Нервная система
+name_en: Nervous system
+abbreviation: NS
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.020
-  - CS.ENTITY.089
-  - CS.ENTITY.090
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.096
-  - CS.ENTITY.097
+- CS.ENTITY.020
+- CS.ENTITY.089
+- CS.ENTITY.090
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.096
+- CS.ENTITY.097
 tags:
-  - nervous-system
-  - brain
-  - spinal-cord
-  - behavior
-  - stress
-  - pain
-  - hypocalcemia
+- nervous-system
+- brain
+- spinal-cord
+- behavior
+- stress
+- pain
+- hypocalcemia
 ---
 
 # CS.ENTITY.055: Нервная система (Nervous system)

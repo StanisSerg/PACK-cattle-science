@@ -5,38 +5,39 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Печень"
-name_en: "Liver"
-abbreviation: "LIV"
+name_ru: Печень
+name_en: Liver
+abbreviation: LIV
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.019
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.019
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.020
-  - CS.ENTITY.021
-  - CS.ENTITY.022
-  - CS.ENTITY.023
-  - CS.ENTITY.024
-  - CS.ENTITY.025
-  - CS.ENTITY.026
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.031
-  - CS.ENTITY.032
-  - CS.ENTITY.033
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.020
+- CS.ENTITY.021
+- CS.ENTITY.022
+- CS.ENTITY.023
+- CS.ENTITY.024
+- CS.ENTITY.025
+- CS.ENTITY.026
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.033
 tags:
-  - liver
-  - hepatic
-  - metabolism
-  - gluconeogenesis
-  - ketogenesis
-  - urea-cycle
-  - detoxification
+- liver
+- hepatic
+- metabolism
+- gluconeogenesis
+- ketogenesis
+- urea-cycle
+- detoxification
 ---
 
 # CS.ENTITY.066: Печень (Liver)

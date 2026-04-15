@@ -5,37 +5,42 @@ fpf_type: U.System
 domain: cattle-science
 area: feeding
 subarea: digestive-physiology
-name_ru: "Рубец"
-name_en: "Rumen"
-abbreviation: "Rumen"
+name_ru: Рубец
+name_en: Rumen
+abbreviation: Rumen
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.059
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.064
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.059
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.064
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.005
-  - CS.ENTITY.009
-  - CS.ENTITY.010
+- CS.ENTITY.003
+- CS.ENTITY.005
+- CS.ENTITY.009
+- CS.ENTITY.010
 tags:
-  - rumen
-  - fermentation
-  - vfa
-  - propionate
-  - acetate
-  - butyrate
-  - microbiome
-  - fiber-digestion
+- rumen
+- fermentation
+- vfa
+- propionate
+- acetate
+- butyrate
+- microbiome
+- fiber-digestion
 ---
 
 # CS.ENTITY.004: Рубец

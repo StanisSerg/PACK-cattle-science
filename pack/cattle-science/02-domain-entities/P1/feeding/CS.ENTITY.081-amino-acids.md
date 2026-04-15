@@ -5,32 +5,33 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Аминокислоты"
-name_en: "Amino acids"
-abbreviation: "AA"
+name_ru: Аминокислоты
+name_en: Amino acids
+abbreviation: AA
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.082
-  - CS.ENTITY.083
-  - CS.ENTITY.084
-  - CS.ENTITY.085
-  - CS.ENTITY.086
-  - CS.ENTITY.087
-  - CS.ENTITY.088
-  - CS.ENTITY.089
-  - CS.ENTITY.090
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.084
+- CS.ENTITY.085
+- CS.ENTITY.086
+- CS.ENTITY.087
+- CS.ENTITY.088
+- CS.ENTITY.089
+- CS.ENTITY.090
 tags:
-  - amino-acids
-  - protein-metabolism
-  - gluconeogenesis
-  - muscle-metabolism
-  - milk-protein
-  - biomarker
+- amino-acids
+- protein-metabolism
+- gluconeogenesis
+- muscle-metabolism
+- milk-protein
+- biomarker
 ---
 
 # CS.ENTITY.081: Аминокислоты (Amino acids)

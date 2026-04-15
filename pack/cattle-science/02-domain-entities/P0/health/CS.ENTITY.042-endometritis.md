@@ -5,24 +5,25 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: reproductive-disorders
-name_ru: "Эндометрит"
-name_en: "Endometritis"
-abbreviation: "ENDO"
+name_ru: Эндометрит
+name_en: Endometritis
+abbreviation: ENDO
 related_sota:
-  - CS.SOTA.008
-  - CS.SOTA.032
+- CS.SOTA.008
+- CS.SOTA.032
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.022
-  - CS.ENTITY.027
-  - CS.ENTITY.108
-  - CS.ENTITY.041
+- CS.ENTITY.022
+- CS.ENTITY.027
+- CS.ENTITY.108
+- CS.ENTITY.041
 tags:
-  - endometritis
-  - uterine-disease
-  - postpartum
-  - inflammation
-  - reproduction
-  - fertility
+- endometritis
+- uterine-disease
+- postpartum
+- inflammation
+- reproduction
+- fertility
 ---
 
 # CS.ENTITY.042: Эндометрит (Endometritis)

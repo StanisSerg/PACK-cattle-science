@@ -6,32 +6,37 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: physical-form
-name_ru: "Размер частиц"
-name_en: "Particle Size"
-abbreviation: ""
+name_ru: Размер частиц
+name_en: Particle Size
+abbreviation: ''
 related_sota:
-  - CS.SOTA.015
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.059
-  - CS.SOTA.064
+- CS.SOTA.015
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.059
+- CS.SOTA.064
+- CS.SOTA.198
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.188
-  - CS.ENTITY.199
-  - CS.ENTITY.050
-  - CS.ENTITY.195
-  - CS.ENTITY.190
-  - CS.ENTITY.192
-  - CS.ENTITY.032
+- CS.ENTITY.004
+- CS.ENTITY.188
+- CS.ENTITY.199
+- CS.ENTITY.050
+- CS.ENTITY.195
+- CS.ENTITY.190
+- CS.ENTITY.192
+- CS.ENTITY.032
 tags:
-  - particle-size
-  - physically-effective
-  - pef
-  - chewing
-  - saliva
-  - fiber
-  - rumen-health
+- particle-size
+- physically-effective
+- pef
+- chewing
+- saliva
+- fiber
+- rumen-health
 ---
 
 # CS.ENTITY.202: Размер частиц (Particle Size)

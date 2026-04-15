@@ -5,37 +5,38 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: protein-metabolism
-name_ru: "Мочевина"
-name_en: "Urea"
-abbreviation: "UUN"
-unit: "мг/дл (кровь), мг/100мл (молоко)"
-normal_range: "15-25 (кровь), 12-18 (молоко)"
-critical_threshold: "> 30 (кровь), > 20 (молоко)"
+name_ru: Мочевина
+name_en: Urea
+abbreviation: UUN
+unit: мг/дл (кровь), мг/100мл (молоко)
+normal_range: 15-25 (кровь), 12-18 (молоко)
+critical_threshold: '> 30 (кровь), > 20 (молоко)'
 related_sota:
-  - CS.SOTA.013
-  - CS.SOTA.017
-  - CS.SOTA.018
-  - CS.SOTA.027
-  - CS.SOTA.037
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.065
+- CS.SOTA.013
+- CS.SOTA.017
+- CS.SOTA.018
+- CS.SOTA.027
+- CS.SOTA.037
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.065
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.006
-  - CS.ENTITY.009
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.006
+- CS.ENTITY.009
 tags:
-  - urea
-  - nitrogen-metabolism
-  - protein-metabolism
-  - milk-urea-nitrogen
-  - mun
-  - rumen-metabolism
+- urea
+- nitrogen-metabolism
+- protein-metabolism
+- milk-urea-nitrogen
+- mun
+- rumen-metabolism
 ---
 
 # CS.ENTITY.014: Мочевина

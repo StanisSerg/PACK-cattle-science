@@ -5,42 +5,44 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: reproduction
 subarea: physiological-periods
-name_ru: "Период около отёла"
-name_en: "Periparturient period"
-abbreviation: "PP"
+name_ru: Период около отёла
+name_en: Periparturient period
+abbreviation: PP
 related_sota:
-  - CS.SOTA.008
-  - CS.SOTA.009
-  - CS.SOTA.020
-  - CS.SOTA.028
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.042
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.053
-  - CS.SOTA.055
-  - CS.SOTA.056
-  - CS.SOTA.060
-  - CS.SOTA.063
-  - CS.SOTA.066
+- CS.SOTA.008
+- CS.SOTA.009
+- CS.SOTA.020
+- CS.SOTA.028
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.042
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.053
+- CS.SOTA.055
+- CS.SOTA.056
+- CS.SOTA.060
+- CS.SOTA.063
+- CS.SOTA.066
+- CS.SOTA.200
+- CS.SOTA.201
 related_entities:
-  - CS.ENTITY.018
-  - CS.SOTA.020
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.036
-  - CS.ENTITY.037
-  - CS.ENTITY.038
+- CS.ENTITY.018
+- CS.SOTA.020
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.036
+- CS.ENTITY.037
+- CS.ENTITY.038
 tags:
-  - periparturient
-  - calving
-  - parturition
-  - transition
-  - metabolic-stress
-  - critical-period
+- periparturient
+- calving
+- parturition
+- transition
+- metabolic-stress
+- critical-period
 ---
 
 # CS.ENTITY.039: Период около отёла (Periparturient period)

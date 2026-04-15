@@ -5,38 +5,40 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: rumen-metabolism
-name_ru: "Бутират"
-name_en: "Butyrate"
-abbreviation: "C4"
-unit: "ммоль/л (руминальная жидкость)"
-normal_range: "10-15"
-critical_threshold: "< 8"
+name_ru: Бутират
+name_en: Butyrate
+abbreviation: C4
+unit: ммоль/л (руминальная жидкость)
+normal_range: 10-15
+critical_threshold: < 8
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.059
-  - CS.SOTA.060
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.059
+- CS.SOTA.060
+- CS.SOTA.198
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.005
-  - CS.ENTITY.010
-  - CS.ENTITY.011
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.005
+- CS.ENTITY.010
+- CS.ENTITY.011
 tags:
-  - volatile-fatty-acids
-  - vfa
-  - rumen-metabolism
-  - rumen-epithelium
-  - energy-metabolism
-  - gut-health
+- volatile-fatty-acids
+- vfa
+- rumen-metabolism
+- rumen-epithelium
+- energy-metabolism
+- gut-health
 ---
 
 # CS.ENTITY.012: Бутират

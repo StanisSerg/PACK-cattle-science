@@ -5,26 +5,28 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Пальмитиновая кислота"
-name_en: "Palmitic acid"
-abbreviation: "C16:0"
+name_ru: Пальмитиновая кислота
+name_en: Palmitic acid
+abbreviation: C16:0
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.200
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.074
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.074
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - palmitic-acid
-  - c16:0
-  - saturated-fatty-acid
-  - energy-metabolism
-  - milk-fat
-  - biomarker
+- palmitic-acid
+- c16:0
+- saturated-fatty-acid
+- energy-metabolism
+- milk-fat
+- biomarker
 ---
 
 # CS.ENTITY.075: Пальмитиновая кислота (Palmitic acid)

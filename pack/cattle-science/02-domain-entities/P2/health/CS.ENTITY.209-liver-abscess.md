@@ -6,28 +6,29 @@ priority: P2
 domain: cattle-science
 area: health
 subarea: digestive-diseases
-name_ru: "Печеночный абсцесс"
-name_en: "Liver Abscess"
-abbreviation: ""
+name_ru: Печеночный абсцесс
+name_en: Liver Abscess
+abbreviation: ''
 related_sota:
-  - CS.SOTA.233
-  - CS.SOTA.053
-  - CS.SOTA.160
+- CS.SOTA.053
+- CS.SOTA.160
+- CS.SOTA.200
+- CS.SOTA.233
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.050
-  - CS.ENTITY.204
-  - CS.ENTITY.205
-  - CS.ENTITY.208
-  - CS.ENTITY.196
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.050
+- CS.ENTITY.204
+- CS.ENTITY.205
+- CS.ENTITY.208
+- CS.ENTITY.196
 tags:
-  - liver
-  - abscess
-  - fuso
-  - acidosis
-  - rumenitis
-  - trueperella
+- liver
+- abscess
+- fuso
+- acidosis
+- rumenitis
+- trueperella
 ---
 
 # CS.ENTITY.209: Печеночный абсцесс

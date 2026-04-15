@@ -6,31 +6,33 @@ priority: P1
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Ламинит"
-name_en: "Laminitis"
-abbreviation: ""
+name_ru: Ламинит
+name_en: Laminitis
+abbreviation: ''
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.038
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.064
+- CS.SOTA.016
+- CS.SOTA.038
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.064
+- CS.SOTA.197
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.050
-  - CS.ENTITY.204
-  - CS.ENTITY.004
-  - CS.ENTITY.200
-  - CS.ENTITY.010
-  - CS.ENTITY.205
-  - CS.ENTITY.208
-  - CS.ENTITY.137
+- CS.ENTITY.050
+- CS.ENTITY.204
+- CS.ENTITY.004
+- CS.ENTITY.200
+- CS.ENTITY.010
+- CS.ENTITY.205
+- CS.ENTITY.208
+- CS.ENTITY.137
 tags:
-  - laminitis
-  - hoof
-  - acidosis
-  - endotoxin
-  - claw
-  - lameness
+- laminitis
+- hoof
+- acidosis
+- endotoxin
+- claw
+- lameness
 ---
 
 # CS.ENTITY.196: Ламинит (Laminitis)

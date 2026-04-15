@@ -6,32 +6,38 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: forage
-name_ru: "Кукурузный силос"
-name_en: "Corn Silage"
-abbreviation: ""
+name_ru: Кукурузный силос
+name_en: Corn Silage
+abbreviation: ''
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.059
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.059
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.010
-  - CS.ENTITY.200
-  - CS.ENTITY.189
-  - CS.ENTITY.191
-  - CS.ENTITY.197
-  - CS.ENTITY.199
-  - CS.ENTITY.188
+- CS.ENTITY.004
+- CS.ENTITY.010
+- CS.ENTITY.200
+- CS.ENTITY.189
+- CS.ENTITY.191
+- CS.ENTITY.197
+- CS.ENTITY.199
+- CS.ENTITY.188
 tags:
-  - corn
-  - silage
-  - forage
-  - fermentation
-  - starch
-  - nfc
-  - energy
+- corn
+- silage
+- forage
+- fermentation
+- starch
+- nfc
+- energy
 ---
 
 # CS.ENTITY.192: Кукурузный силос

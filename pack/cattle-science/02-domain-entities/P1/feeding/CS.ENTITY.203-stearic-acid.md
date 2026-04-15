@@ -6,30 +6,34 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: fatty-acids
-name_ru: "Стеариновая кислота"
-name_en: "Stearic Acid"
-abbreviation: "C18:0"
+name_ru: Стеариновая кислота
+name_en: Stearic Acid
+abbreviation: C18:0
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
-  - CS.SOTA.048
-  - CS.SOTA.055
+- CS.SOTA.012
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.066
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.074
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.032
-  - CS.ENTITY.004
-  - CS.ENTITY.072
-  - CS.ENTITY.073
-  - CS.ENTITY.003
+- CS.ENTITY.074
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.032
+- CS.ENTITY.004
+- CS.ENTITY.072
+- CS.ENTITY.073
+- CS.ENTITY.003
 tags:
-  - stearic
-  - fatty-acid
-  - saturated
-  - milk-fat
-  - energy
-  - c18
+- stearic
+- fatty-acid
+- saturated
+- milk-fat
+- energy
+- c18
 ---
 
 # CS.ENTITY.203: Стеариновая кислота (Stearic Acid)

@@ -5,28 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: health
 subarea: metrics
-name_ru: "Время жвачки"
-name_en: "Rumination time"
-abbreviation: "RT"
+name_ru: Время жвачки
+name_en: Rumination time
+abbreviation: RT
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.198
+- CS.SOTA.200
+- CS.SOTA.201
 related_entities:
-  - CS.ENTITY.055
-  - CS.ENTITY.050
-  - CS.ENTITY.051
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.114
+- CS.ENTITY.055
+- CS.ENTITY.050
+- CS.ENTITY.051
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.114
 tags:
-  - rumination-time
-  - rumination
-  - feeding-behavior
-  - rumen-health
-  - precision-dairy
-  - sensor
-  - biomarker
+- rumination-time
+- rumination
+- feeding-behavior
+- rumen-health
+- precision-dairy
+- sensor
+- biomarker
 ---
 
 # CS.ENTITY.115: Время жвачки (Rumination time)

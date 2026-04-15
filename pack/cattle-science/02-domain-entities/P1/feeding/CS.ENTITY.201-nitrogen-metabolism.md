@@ -6,31 +6,34 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: metabolism
-name_ru: "Азотистый обмен"
-name_en: "Nitrogen Metabolism"
-abbreviation: ""
+name_ru: Азотистый обмен
+name_en: Nitrogen Metabolism
+abbreviation: ''
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.202
 related_entities:
-  - CS.ENTITY.193
-  - CS.ENTITY.197
-  - CS.ENTITY.014
-  - CS.ENTITY.004
-  - CS.ENTITY.003
-  - CS.ENTITY.132
-  - CS.ENTITY.081
-  - CS.ENTITY.191
+- CS.ENTITY.193
+- CS.ENTITY.197
+- CS.ENTITY.014
+- CS.ENTITY.004
+- CS.ENTITY.003
+- CS.ENTITY.132
+- CS.ENTITY.081
+- CS.ENTITY.191
 tags:
-  - nitrogen
-  - urea
-  - protein
-  - ammonia
-  - recycling
-  - metabolism
+- nitrogen
+- urea
+- protein
+- ammonia
+- recycling
+- metabolism
 ---
 
 # CS.ENTITY.201: Азотистый обмен (Nitrogen Metabolism)

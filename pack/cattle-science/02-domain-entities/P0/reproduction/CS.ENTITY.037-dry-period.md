@@ -5,36 +5,38 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: reproduction
 subarea: physiological-periods
-name_ru: "Сухостойный период"
-name_en: "Dry period"
-abbreviation: "DP"
+name_ru: Сухостойный период
+name_en: Dry period
+abbreviation: DP
 related_sota:
-  - CS.SOTA.005
-  - CS.SOTA.008
-  - CS.SOTA.017
-  - CS.SOTA.031
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.055
-  - CS.SOTA.064
-  - CS.SOTA.065
-  - CS.SOTA.066
-  - CS.SOTA.068
+- CS.SOTA.005
+- CS.SOTA.008
+- CS.SOTA.017
+- CS.SOTA.031
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.055
+- CS.SOTA.064
+- CS.SOTA.065
+- CS.SOTA.066
+- CS.SOTA.068
+- CS.SOTA.200
+- CS.SOTA.201
 related_entities:
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.039
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.039
 tags:
-  - dry-period
-  - dry-cow
-  - mammary-gland
-  - regeneration
-  - preparation
-  - transition
+- dry-period
+- dry-cow
+- mammary-gland
+- regeneration
+- preparation
+- transition
 ---
 
 # CS.ENTITY.037: Сухостойный период (Dry period)

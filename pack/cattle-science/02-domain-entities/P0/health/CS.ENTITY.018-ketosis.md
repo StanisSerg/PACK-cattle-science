@@ -9,7 +9,12 @@ name_ru: Кетоз
 name_en: Ketosis
 abbreviation: KET
 related_sota:
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
 - CS.SOTA.027
+- CS.SOTA.028
+- CS.SOTA.029
 - CS.SOTA.032
 - CS.SOTA.037
 - CS.SOTA.038
@@ -26,11 +31,6 @@ related_sota:
 - CS.SOTA.061
 - CS.SOTA.062
 - CS.SOTA.063
-- CS.SOTA.012
-- CS.SOTA.015
-- CS.SOTA.016
-- CS.SOTA.028
-- CS.SOTA.029
 - CS.SOTA.070
 - CS.SOTA.071
 - CS.SOTA.073
@@ -43,6 +43,7 @@ related_sota:
 - CS.SOTA.100
 - CS.SOTA.103
 - CS.SOTA.104
+- CS.SOTA.197
 related_entities:
 - CS.ENTITY.002
 - CS.ENTITY.003

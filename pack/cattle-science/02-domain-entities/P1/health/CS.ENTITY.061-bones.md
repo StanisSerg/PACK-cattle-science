@@ -5,30 +5,32 @@ fpf_type: U.System
 domain: cattle-science
 area: health
 subarea: physiology
-name_ru: "Кости"
-name_en: "Bones"
-abbreviation: "BON"
+name_ru: Кости
+name_en: Bones
+abbreviation: BON
 related_sota:
-  - CS.SOTA.066
+- CS.SOTA.066
+- CS.SOTA.198
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.020
-  - CS.ENTITY.089
-  - CS.ENTITY.090
-  - CS.ENTITY.091
-  - CS.ENTITY.092
-  - CS.ENTITY.093
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.096
-  - CS.ENTITY.097
+- CS.ENTITY.020
+- CS.ENTITY.089
+- CS.ENTITY.090
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.093
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.096
+- CS.ENTITY.097
 tags:
-  - bones
-  - skeleton
-  - calcium
-  - phosphorus
-  - bone-metabolism
-  - osteoporosis
-  - rickets
+- bones
+- skeleton
+- calcium
+- phosphorus
+- bone-metabolism
+- osteoporosis
+- rickets
 ---
 
 # CS.ENTITY.061: Кости (Bones)

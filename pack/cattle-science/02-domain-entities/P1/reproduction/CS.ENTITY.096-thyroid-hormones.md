@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Тиреоидные гормоны"
-name_en: "Thyroid hormones"
-abbreviation: "TH"
+name_ru: Тиреоидные гормоны
+name_en: Thyroid hormones
+abbreviation: TH
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.065
-  - CS.ENTITY.056
-  - CS.ENTITY.036
-  - CS.ENTITY.038
-  - CS.ENTITY.091
-  - CS.ENTITY.092
-  - CS.ENTITY.093
-  - CS.ENTITY.094
-  - CS.ENTITY.095
+- CS.ENTITY.065
+- CS.ENTITY.056
+- CS.ENTITY.036
+- CS.ENTITY.038
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.093
+- CS.ENTITY.094
+- CS.ENTITY.095
 tags:
-  - thyroid-hormones
-  - t3
-  - t4
-  - tsh
-  - metabolism
-  - energy-expenditure
-  - biomarker
+- thyroid-hormones
+- t3
+- t4
+- tsh
+- metabolism
+- energy-expenditure
+- biomarker
 ---
 
 # CS.ENTITY.096: Тиреоидные гормоны (Thyroid hormones)

@@ -5,92 +5,93 @@ fpf_type: U.System
 domain: cattle-science
 area: reproduction
 subarea: physiology
-name_ru: "Эндокринная система"
-name_en: "Endocrine system"
-abbreviation: "ES"
+name_ru: Эндокринная система
+name_en: Endocrine system
+abbreviation: ES
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.003
-  - CS.SOTA.007
-  - CS.SOTA.008
-  - CS.SOTA.010
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.018
-  - CS.SOTA.019
-  - CS.SOTA.020
-  - CS.SOTA.021
-  - CS.SOTA.022
-  - CS.SOTA.023
-  - CS.SOTA.024
-  - CS.SOTA.025
-  - CS.SOTA.026
-  - CS.SOTA.027
-  - CS.SOTA.028
-  - CS.SOTA.029
-  - CS.SOTA.030
-  - CS.SOTA.031
-  - CS.SOTA.032
-  - CS.SOTA.033
-  - CS.SOTA.034
-  - CS.SOTA.035
-  - CS.SOTA.036
-  - CS.SOTA.037
-  - CS.SOTA.038
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.041
-  - CS.SOTA.042
-  - CS.SOTA.043
-  - CS.SOTA.044
-  - CS.SOTA.045
-  - CS.SOTA.046
-  - CS.SOTA.047
-  - CS.SOTA.048
-  - CS.SOTA.049
-  - CS.SOTA.053
-  - CS.SOTA.054
-  - CS.SOTA.055
-  - CS.SOTA.056
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.059
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.064
-  - CS.SOTA.065
-  - CS.SOTA.066
-  - CS.SOTA.067
+- CS.SOTA.001
+- CS.SOTA.003
+- CS.SOTA.007
+- CS.SOTA.008
+- CS.SOTA.010
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.018
+- CS.SOTA.019
+- CS.SOTA.020
+- CS.SOTA.021
+- CS.SOTA.022
+- CS.SOTA.023
+- CS.SOTA.024
+- CS.SOTA.025
+- CS.SOTA.026
+- CS.SOTA.027
+- CS.SOTA.028
+- CS.SOTA.029
+- CS.SOTA.030
+- CS.SOTA.031
+- CS.SOTA.032
+- CS.SOTA.033
+- CS.SOTA.034
+- CS.SOTA.035
+- CS.SOTA.036
+- CS.SOTA.037
+- CS.SOTA.038
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.041
+- CS.SOTA.042
+- CS.SOTA.043
+- CS.SOTA.044
+- CS.SOTA.045
+- CS.SOTA.046
+- CS.SOTA.047
+- CS.SOTA.048
+- CS.SOTA.049
+- CS.SOTA.053
+- CS.SOTA.054
+- CS.SOTA.055
+- CS.SOTA.056
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.059
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.064
+- CS.SOTA.065
+- CS.SOTA.066
+- CS.SOTA.067
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.034
-  - CS.ENTITY.040
-  - CS.ENTITY.043
-  - CS.ENTITY.044
-  - CS.ENTITY.045
-  - CS.ENTITY.046
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
-  - CS.ENTITY.081
-  - CS.ENTITY.082
-  - CS.ENTITY.083
-  - CS.ENTITY.084
-  - CS.ENTITY.085
-  - CS.ENTITY.086
-  - CS.ENTITY.087
-  - CS.ENTITY.088
+- CS.ENTITY.034
+- CS.ENTITY.040
+- CS.ENTITY.043
+- CS.ENTITY.044
+- CS.ENTITY.045
+- CS.ENTITY.046
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.084
+- CS.ENTITY.085
+- CS.ENTITY.086
+- CS.ENTITY.087
+- CS.ENTITY.088
 tags:
-  - endocrine-system
-  - hormones
-  - pituitary
-  - ovaries
-  - thyroid
-  - adrenal
-  - reproduction
-  - metabolism
+- endocrine-system
+- hormones
+- pituitary
+- ovaries
+- thyroid
+- adrenal
+- reproduction
+- metabolism
 ---
 
 # CS.ENTITY.056: Эндокринная система (Endocrine system)

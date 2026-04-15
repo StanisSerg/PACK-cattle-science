@@ -5,34 +5,39 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: milk-composition
-name_ru: "Белок молока"
-name_en: "Milk protein"
-abbreviation: "MP"
+name_ru: Белок молока
+name_en: Milk protein
+abbreviation: MP
 related_sota:
-  - CS.SOTA.013
-  - CS.SOTA.017
-  - CS.SOTA.019
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.067
+- CS.SOTA.013
+- CS.SOTA.017
+- CS.SOTA.019
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.067
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.006
-  - CS.ENTITY.031
-  - CS.ENTITY.017
-  - CS.ENTITY.009
-  - CS.ENTITY.010
+- CS.ENTITY.006
+- CS.ENTITY.031
+- CS.ENTITY.017
+- CS.ENTITY.009
+- CS.ENTITY.010
 tags:
-  - milk-protein
-  - milk-composition
-  - casein
-  - whey-protein
-  - amino-acids
-  - nutrition
-  - energy-balance
+- milk-protein
+- milk-composition
+- casein
+- whey-protein
+- amino-acids
+- nutrition
+- energy-balance
 ---
 
 # CS.ENTITY.033: Белок молока (Milk protein)

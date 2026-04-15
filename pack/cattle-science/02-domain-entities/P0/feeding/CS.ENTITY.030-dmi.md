@@ -5,45 +5,50 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: intake
-name_ru: "Потребление сухого вещества"
-name_en: "Dry matter intake"
-abbreviation: "DMI"
+name_ru: Потребление сухого вещества
+name_en: Dry matter intake
+abbreviation: DMI
 related_sota:
-  - CS.SOTA.007
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.031
-  - CS.SOTA.034
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.064
-  - CS.SOTA.065
-  - CS.SOTA.066
-  - CS.SOTA.067
-  - CS.SOTA.068
+- CS.SOTA.007
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.031
+- CS.SOTA.034
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.064
+- CS.SOTA.065
+- CS.SOTA.066
+- CS.SOTA.067
+- CS.SOTA.068
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.029
-  - CS.ENTITY.031
-  - CS.ENTITY.004
-  - CS.ENTITY.036
+- CS.ENTITY.018
+- CS.ENTITY.029
+- CS.ENTITY.031
+- CS.ENTITY.004
+- CS.ENTITY.036
 tags:
-  - dry-matter-intake
-  - dmi
-  - feed-intake
-  - energy-balance
-  - transition-period
-  - metabolic-disorders
-  - nutrition
+- dry-matter-intake
+- dmi
+- feed-intake
+- energy-balance
+- transition-period
+- metabolic-disorders
+- nutrition
 ---
 
 # CS.ENTITY.030: Потребление сухого вещества (DMI)

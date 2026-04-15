@@ -5,29 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: hormones
-name_ru: "Гормон роста"
-name_en: "Growth hormone"
-abbreviation: "GH"
+name_ru: Гормон роста
+name_en: Growth hormone
+abbreviation: GH
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.066
+- CS.SOTA.016
+- CS.SOTA.066
+- CS.SOTA.199
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.056
-  - CS.ENTITY.057
-  - CS.ENTITY.091
-  - CS.ENTITY.093
-  - CS.ENTITY.094
-  - CS.ENTITY.095
-  - CS.ENTITY.036
-  - CS.ENTITY.038
+- CS.ENTITY.056
+- CS.ENTITY.057
+- CS.ENTITY.091
+- CS.ENTITY.093
+- CS.ENTITY.094
+- CS.ENTITY.095
+- CS.ENTITY.036
+- CS.ENTITY.038
 tags:
-  - growth-hormone
-  - somatotropin
-  - pituitary-hormone
-  - metabolism
-  - igf-1
-  - lactation
-  - biomarker
+- growth-hormone
+- somatotropin
+- pituitary-hormone
+- metabolism
+- igf-1
+- lactation
+- biomarker
 ---
 
 # CS.ENTITY.092: Гормон роста (Growth hormone)

@@ -6,28 +6,34 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: digestibility-assessment
-name_ru: "Метод in situ"
-name_en: "In Situ Technique"
-abbreviation: "in situ"
+name_ru: Метод in situ
+name_en: In Situ Technique
+abbreviation: in situ
 related_sota:
-  - CS.SOTA.128
-  - CS.SOTA.130
-  - CS.SOTA.131
+- CS.SOTA.128
+- CS.SOTA.130
+- CS.SOTA.131
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.188
-  - CS.ENTITY.189
-  - CS.ENTITY.199
-  - CS.ENTITY.207
+- CS.ENTITY.004
+- CS.ENTITY.188
+- CS.ENTITY.189
+- CS.ENTITY.199
+- CS.ENTITY.207
 tags:
-  - in-situ
-  - nylon-bag
-  - degradability
-  - rumen
-  - kinetics
-  - digestibility
-  - ndf
-  - protein
+- in-situ
+- nylon-bag
+- degradability
+- rumen
+- kinetics
+- digestibility
+- ndf
+- protein
 ---
 
 # CS.ENTITY.206: Метод in situ

@@ -6,28 +6,33 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: feeding-behavior
-name_ru: "Шаблон приёма пищи"
-name_en: "Meal Pattern"
-abbreviation: ""
+name_ru: Шаблон приёма пищи
+name_en: Meal Pattern
+abbreviation: ''
 related_sota:
-  - CS.SOTA.160
-  - CS.SOTA.205
-  - CS.SOTA.240
+- CS.SOTA.160
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.203
+- CS.SOTA.205
+- CS.SOTA.240
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.030
-  - CS.ENTITY.190
-  - CS.ENTITY.195
-  - CS.ENTITY.204
-  - CS.ENTITY.213
+- CS.ENTITY.004
+- CS.ENTITY.030
+- CS.ENTITY.190
+- CS.ENTITY.195
+- CS.ENTITY.204
+- CS.ENTITY.213
 tags:
-  - meal
-  - feeding-behavior
-  - frequency
-  - size
-  - rate
-  - dmi
-  - rumen-ph
+- meal
+- feeding-behavior
+- frequency
+- size
+- rate
+- dmi
+- rumen-ph
 ---
 
 # CS.ENTITY.210: Шаблон приёма пищи

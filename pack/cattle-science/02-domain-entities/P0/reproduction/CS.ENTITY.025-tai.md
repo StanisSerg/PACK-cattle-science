@@ -5,34 +5,35 @@ fpf_type: U.Method
 domain: cattle-science
 area: reproduction
 subarea: breeding-technology
-name_ru: "Синхронизация по времени"
-name_en: "Timed Artificial Insemination"
-abbreviation: "TAI"
+name_ru: Синхронизация по времени
+name_en: Timed Artificial Insemination
+abbreviation: TAI
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.003
-  - CS.SOTA.116
-  - CS.SOTA.014
-  - CS.SOTA.019
-  - CS.SOTA.022
-  - CS.SOTA.023
-  - CS.SOTA.024
+- CS.SOTA.001
+- CS.SOTA.003
+- CS.SOTA.014
+- CS.SOTA.019
+- CS.SOTA.022
+- CS.SOTA.023
+- CS.SOTA.024
+- CS.SOTA.116
+- CS.SOTA.200
 related_entities:
-  - CS.ENTITY.001
-  - CS.ENTITY.024
-  - CS.ENTITY.026
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.029
+- CS.ENTITY.001
+- CS.ENTITY.024
+- CS.ENTITY.026
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.029
 tags:
-  - timed-ai
-  - synchronization
-  - reproduction
-  - ovulation
-  - gnrh
-  - prostaglandin
-  - protocol
-  - fertility
+- timed-ai
+- synchronization
+- reproduction
+- ovulation
+- gnrh
+- prostaglandin
+- protocol
+- fertility
 ---
 
 # CS.ENTITY.025: Синхронизация по времени (TAI)

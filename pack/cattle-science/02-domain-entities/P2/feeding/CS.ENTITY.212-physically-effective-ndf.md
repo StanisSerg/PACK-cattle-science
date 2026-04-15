@@ -6,28 +6,33 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: fiber-evaluation
-name_ru: "Физически эффективная NDF"
-name_en: "Physically Effective NDF"
-abbreviation: "peNDF"
+name_ru: Физически эффективная NDF
+name_en: Physically Effective NDF
+abbreviation: peNDF
 related_sota:
-  - CS.SOTA.087
-  - CS.SOTA.130
-  - CS.SOTA.233
+- CS.SOTA.087
+- CS.SOTA.130
+- CS.SOTA.198
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
+- CS.SOTA.233
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.188
-  - CS.ENTITY.190
-  - CS.ENTITY.202
-  - CS.ENTITY.204
-  - CS.ENTITY.213
+- CS.ENTITY.004
+- CS.ENTITY.188
+- CS.ENTITY.190
+- CS.ENTITY.202
+- CS.ENTITY.204
+- CS.ENTITY.213
 tags:
-  - pendf
-  - physically-effective
-  - fiber
-  - particle-size
-  - chewing
-  - saliva
-  - rumen-ph
+- pendf
+- physically-effective
+- fiber
+- particle-size
+- chewing
+- saliva
+- rumen-ph
 ---
 
 # CS.ENTITY.212: Физически эффективная NDF (peNDF)

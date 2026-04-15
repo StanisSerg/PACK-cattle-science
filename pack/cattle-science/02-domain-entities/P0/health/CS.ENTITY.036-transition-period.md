@@ -5,59 +5,62 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: health
 subarea: physiological-periods
-name_ru: "Переходный период"
-name_en: "Transition period"
-abbreviation: "TP"
+name_ru: Переходный период
+name_en: Transition period
+abbreviation: TP
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.007
-  - CS.SOTA.008
-  - CS.SOTA.009
-  - CS.SOTA.017
-  - CS.SOTA.027
-  - CS.SOTA.028
-  - CS.SOTA.031
-  - CS.SOTA.032
-  - CS.SOTA.034
-  - CS.SOTA.035
-  - CS.SOTA.037
-  - CS.SOTA.039
-  - CS.SOTA.040
-  - CS.SOTA.042
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.053
-  - CS.SOTA.054
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
-  - CS.SOTA.064
-  - CS.SOTA.065
-  - CS.SOTA.066
-  - CS.SOTA.067
-  - CS.SOTA.068
+- CS.SOTA.001
+- CS.SOTA.007
+- CS.SOTA.008
+- CS.SOTA.009
+- CS.SOTA.017
+- CS.SOTA.027
+- CS.SOTA.028
+- CS.SOTA.031
+- CS.SOTA.032
+- CS.SOTA.034
+- CS.SOTA.035
+- CS.SOTA.037
+- CS.SOTA.039
+- CS.SOTA.040
+- CS.SOTA.042
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.053
+- CS.SOTA.054
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.064
+- CS.SOTA.065
+- CS.SOTA.066
+- CS.SOTA.067
+- CS.SOTA.068
+- CS.SOTA.197
+- CS.SOTA.200
+- CS.SOTA.201
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.020
-  - CS.ENTITY.027
-  - CS.ENTITY.028
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.031
-  - CS.ENTITY.037
-  - CS.ENTITY.038
-  - CS.ENTITY.039
+- CS.ENTITY.018
+- CS.ENTITY.020
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.031
+- CS.ENTITY.037
+- CS.ENTITY.038
+- CS.ENTITY.039
 tags:
-  - transition-period
-  - periparturient
-  - metabolic-stress
-  - negative-energy-balance
-  - ketosis
-  - monitoring
-  - critical-period
+- transition-period
+- periparturient
+- metabolic-stress
+- negative-energy-balance
+- ketosis
+- monitoring
+- critical-period
 ---
 
 # CS.ENTITY.036: Переходный период (Transition period)

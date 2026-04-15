@@ -5,47 +5,48 @@ fpf_type: U.Episteme
 domain: cattle-science
 area: feeding
 subarea: carbohydrate-metabolism
-name_ru: "Глюконеогенез"
-name_en: "Gluconeogenesis"
-abbreviation: "GNG"
+name_ru: Глюконеогенез
+name_en: Gluconeogenesis
+abbreviation: GNG
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.017
-  - CS.SOTA.018
-  - CS.SOTA.026
-  - CS.SOTA.028
-  - CS.SOTA.029
-  - CS.SOTA.034
-  - CS.SOTA.035
-  - CS.SOTA.036
-  - CS.SOTA.039
-  - CS.SOTA.041
-  - CS.SOTA.043
-  - CS.SOTA.044
-  - CS.SOTA.045
-  - CS.SOTA.047
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.012
+- CS.SOTA.017
+- CS.SOTA.018
+- CS.SOTA.026
+- CS.SOTA.028
+- CS.SOTA.029
+- CS.SOTA.034
+- CS.SOTA.035
+- CS.SOTA.036
+- CS.SOTA.039
+- CS.SOTA.041
+- CS.SOTA.043
+- CS.SOTA.044
+- CS.SOTA.045
+- CS.SOTA.047
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.009
-  - CS.ENTITY.010
-  - CS.ENTITY.013
-  - CS.ENTITY.015
-  - CS.ENTITY.016
-  - CS.ENTITY.018
-  - CS.ENTITY.019
+- CS.ENTITY.009
+- CS.ENTITY.010
+- CS.ENTITY.013
+- CS.ENTITY.015
+- CS.ENTITY.016
+- CS.ENTITY.018
+- CS.ENTITY.019
 tags:
-  - gluconeogenesis
-  - carbohydrate-metabolism
-  - liver-metabolism
-  - propionate
-  - lactate
-  - amino-acids
+- gluconeogenesis
+- carbohydrate-metabolism
+- liver-metabolism
+- propionate
+- lactate
+- amino-acids
 ---
 
 # CS.ENTITY.023: Глюконеогенез

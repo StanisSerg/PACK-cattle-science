@@ -6,31 +6,35 @@ priority: P1
 domain: cattle-science
 area: health
 subarea: metabolic-disorders
-name_ru: "Субострый руминальный ацидоз"
-name_en: "Subacute Ruminal Acidosis"
-abbreviation: "SARA"
+name_ru: Субострый руминальный ацидоз
+name_en: Subacute Ruminal Acidosis
+abbreviation: SARA
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.038
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.064
+- CS.SOTA.016
+- CS.SOTA.038
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.064
+- CS.SOTA.198
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.050
-  - CS.ENTITY.004
-  - CS.ENTITY.190
-  - CS.ENTITY.196
-  - CS.ENTITY.198
-  - CS.ENTITY.010
-  - CS.ENTITY.011
-  - CS.ENTITY.200
+- CS.ENTITY.050
+- CS.ENTITY.004
+- CS.ENTITY.190
+- CS.ENTITY.196
+- CS.ENTITY.198
+- CS.ENTITY.010
+- CS.ENTITY.011
+- CS.ENTITY.200
 tags:
-  - sara
-  - acidosis
-  - rumen-ph
-  - lps
-  - inflammation
-  - rumen-health
+- sara
+- acidosis
+- rumen-ph
+- lps
+- inflammation
+- rumen-health
 ---
 
 # CS.ENTITY.204: Субострый руминальный ацидоз (SARA)

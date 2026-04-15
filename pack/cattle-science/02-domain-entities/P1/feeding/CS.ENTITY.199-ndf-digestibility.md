@@ -6,32 +6,38 @@ priority: P1
 domain: cattle-science
 area: feeding
 subarea: fiber-nutrition
-name_ru: "Переваримость NDF"
-name_en: "NDF Digestibility"
-abbreviation: "NDFD"
+name_ru: Переваримость NDF
+name_en: NDF Digestibility
+abbreviation: NDFD
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.059
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.059
+- CS.SOTA.198
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.188
-  - CS.ENTITY.004
-  - CS.ENTITY.189
-  - CS.ENTITY.191
-  - CS.ENTITY.192
-  - CS.ENTITY.011
-  - CS.ENTITY.030
-  - CS.ENTITY.032
+- CS.ENTITY.188
+- CS.ENTITY.004
+- CS.ENTITY.189
+- CS.ENTITY.191
+- CS.ENTITY.192
+- CS.ENTITY.011
+- CS.ENTITY.030
+- CS.ENTITY.032
 tags:
-  - ndf
-  - digestibility
-  - fiber
-  - rumen
-  - passage
-  - fermentation
-  - forage
+- ndf
+- digestibility
+- fiber
+- rumen
+- passage
+- fermentation
+- forage
 ---
 
 # CS.ENTITY.199: Переваримость NDF (NDF Digestibility)

@@ -5,34 +5,39 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: milk-composition
-name_ru: "Жир молока"
-name_en: "Milk fat"
-abbreviation: "MF"
+name_ru: Жир молока
+name_en: Milk fat
+abbreviation: MF
 related_sota:
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.019
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.067
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.019
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.067
+- CS.SOTA.199
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.006
-  - CS.ENTITY.031
-  - CS.ENTITY.011
-  - CS.ENTITY.012
-  - CS.ENTITY.004
+- CS.ENTITY.006
+- CS.ENTITY.031
+- CS.ENTITY.011
+- CS.ENTITY.012
+- CS.ENTITY.004
 tags:
-  - milk-fat
-  - milk-composition
-  - fatty-acids
-  - rumen-metabolism
-  - acetate
-  - butyrate
-  - nutrition
+- milk-fat
+- milk-composition
+- fatty-acids
+- rumen-metabolism
+- acetate
+- butyrate
+- nutrition
 ---
 
 # CS.ENTITY.032: Жир молока (Milk fat)

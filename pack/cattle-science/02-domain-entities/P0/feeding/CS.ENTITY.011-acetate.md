@@ -5,40 +5,42 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: rumen-metabolism
-name_ru: "Ацетат"
-name_en: "Acetate"
-abbreviation: "C2"
-unit: "ммоль/л (руминальная жидкость)"
-normal_range: "60-70"
-critical_threshold: "< 50"
+name_ru: Ацетат
+name_en: Acetate
+abbreviation: C2
+unit: ммоль/л (руминальная жидкость)
+normal_range: 60-70
+critical_threshold: < 50
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.015
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.018
-  - CS.SOTA.029
-  - CS.SOTA.048
-  - CS.SOTA.055
-  - CS.SOTA.057
-  - CS.SOTA.058
-  - CS.SOTA.059
-  - CS.SOTA.060
+- CS.SOTA.012
+- CS.SOTA.015
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.018
+- CS.SOTA.029
+- CS.SOTA.048
+- CS.SOTA.055
+- CS.SOTA.057
+- CS.SOTA.058
+- CS.SOTA.059
+- CS.SOTA.060
+- CS.SOTA.198
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.007
-  - CS.ENTITY.008
-  - CS.ENTITY.009
-  - CS.ENTITY.010
-  - CS.ENTITY.012
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.010
+- CS.ENTITY.012
 tags:
-  - volatile-fatty-acids
-  - vfa
-  - rumen-metabolism
-  - energy-metabolism
-  - milk-fat-synthesis
-  - fiber-fermentation
+- volatile-fatty-acids
+- vfa
+- rumen-metabolism
+- energy-metabolism
+- milk-fat-synthesis
+- fiber-fermentation
 ---
 
 # CS.ENTITY.011: Ацетат

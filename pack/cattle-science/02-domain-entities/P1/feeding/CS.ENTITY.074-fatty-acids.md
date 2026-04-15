@@ -5,33 +5,34 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Жирные кислоты"
-name_en: "Fatty acids"
-abbreviation: "FA"
+name_ru: Жирные кислоты
+name_en: Fatty acids
+abbreviation: FA
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.198
 related_entities:
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.067
-  - CS.ENTITY.072
-  - CS.ENTITY.073
-  - CS.ENTITY.075
-  - CS.ENTITY.076
-  - CS.ENTITY.077
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.067
+- CS.ENTITY.072
+- CS.ENTITY.073
+- CS.ENTITY.075
+- CS.ENTITY.076
+- CS.ENTITY.077
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - fatty-acids
-  - lipids
-  - energy-metabolism
-  - beta-oxidation
-  - nefa
-  - inflammation
-  - biomarker
+- fatty-acids
+- lipids
+- energy-metabolism
+- beta-oxidation
+- nefa
+- inflammation
+- biomarker
 ---
 
 # CS.ENTITY.074: Жирные кислоты (Fatty acids)

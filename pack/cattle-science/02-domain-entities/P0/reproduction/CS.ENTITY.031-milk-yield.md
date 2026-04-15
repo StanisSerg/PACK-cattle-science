@@ -5,44 +5,49 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: reproduction
 subarea: productivity
-name_ru: "Удой"
-name_en: "Milk yield"
-abbreviation: "MY"
+name_ru: Удой
+name_en: Milk yield
+abbreviation: MY
 related_sota:
-  - CS.SOTA.001
-  - CS.SOTA.118
-  - CS.SOTA.005
-  - CS.SOTA.006
-  - CS.SOTA.007
-  - CS.SOTA.016
-  - CS.SOTA.017
-  - CS.SOTA.019
-  - CS.SOTA.023
-  - CS.SOTA.025
-  - CS.SOTA.028
-  - CS.SOTA.032
-  - CS.SOTA.037
-  - CS.SOTA.040
-  - CS.SOTA.043
-  - CS.SOTA.046
-  - CS.SOTA.055
-  - CS.SOTA.058
-  - CS.SOTA.060
-  - CS.SOTA.061
-  - CS.SOTA.062
-  - CS.SOTA.063
+- CS.SOTA.001
+- CS.SOTA.005
+- CS.SOTA.006
+- CS.SOTA.007
+- CS.SOTA.016
+- CS.SOTA.017
+- CS.SOTA.019
+- CS.SOTA.023
+- CS.SOTA.025
+- CS.SOTA.028
+- CS.SOTA.032
+- CS.SOTA.037
+- CS.SOTA.040
+- CS.SOTA.043
+- CS.SOTA.046
+- CS.SOTA.055
+- CS.SOTA.058
+- CS.SOTA.060
+- CS.SOTA.061
+- CS.SOTA.062
+- CS.SOTA.063
+- CS.SOTA.118
+- CS.SOTA.197
+- CS.SOTA.200
+- CS.SOTA.201
+- CS.SOTA.202
+- CS.SOTA.203
 related_entities:
-  - CS.ENTITY.029
-  - CS.ENTITY.030
-  - CS.ENTITY.006
-  - CS.ENTITY.018
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.006
+- CS.ENTITY.018
 tags:
-  - milk-yield
-  - productivity
-  - lactation
-  - genetic-selection
-  - metabolic-stress
-  - transition-period
+- milk-yield
+- productivity
+- lactation
+- genetic-selection
+- metabolic-stress
+- transition-period
 ---
 
 # CS.ENTITY.031: Удой (Milk yield)

@@ -5,29 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Изолейцин"
-name_en: "Isoleucine"
-abbreviation: "Ile"
+name_ru: Изолейцин
+name_en: Isoleucine
+abbreviation: Ile
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.081
-  - CS.ENTITY.082
-  - CS.ENTITY.083
-  - CS.ENTITY.084
-  - CS.ENTITY.086
-  - CS.ENTITY.087
-  - CS.ENTITY.088
-  - CS.ENTITY.089
-  - CS.ENTITY.090
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.084
+- CS.ENTITY.086
+- CS.ENTITY.087
+- CS.ENTITY.088
+- CS.ENTITY.089
+- CS.ENTITY.090
 tags:
-  - isoleucine
-  - bcaa
-  - amino-acid
-  - glucose-uptake
-  - muscle-metabolism
-  - biomarker
+- isoleucine
+- bcaa
+- amino-acid
+- glucose-uptake
+- muscle-metabolism
+- biomarker
 ---
 
 # CS.ENTITY.085: Изолейцин (Isoleucine)

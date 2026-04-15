@@ -5,30 +5,31 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Лейцин"
-name_en: "Leucine"
-abbreviation: "Leu"
+name_ru: Лейцин
+name_en: Leucine
+abbreviation: Leu
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.199
 related_entities:
-  - CS.ENTITY.081
-  - CS.ENTITY.082
-  - CS.ENTITY.083
-  - CS.ENTITY.085
-  - CS.ENTITY.086
-  - CS.ENTITY.087
-  - CS.ENTITY.088
-  - CS.ENTITY.089
-  - CS.ENTITY.090
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.085
+- CS.ENTITY.086
+- CS.ENTITY.087
+- CS.ENTITY.088
+- CS.ENTITY.089
+- CS.ENTITY.090
 tags:
-  - leucine
-  - bcaa
-  - amino-acid
-  - protein-synthesis
-  - mtor
-  - muscle-metabolism
-  - biomarker
+- leucine
+- bcaa
+- amino-acid
+- protein-synthesis
+- mtor
+- muscle-metabolism
+- biomarker
 ---
 
 # CS.ENTITY.084: Лейцин (Leucine)

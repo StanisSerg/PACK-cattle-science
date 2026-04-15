@@ -6,30 +6,31 @@ priority: P2
 domain: cattle-science
 area: health
 subarea: molecular-biology
-name_ru: "Липополисахарид"
-name_en: "Lipopolysaccharide"
-abbreviation: "LPS"
+name_ru: Липополисахарид
+name_en: Lipopolysaccharide
+abbreviation: LPS
 related_sota:
-  - CS.SOTA.053
-  - CS.SOTA.160
-  - CS.SOTA.233
+- CS.SOTA.053
+- CS.SOTA.160
+- CS.SOTA.199
+- CS.SOTA.233
 related_entities:
-  - CS.ENTITY.003
-  - CS.ENTITY.004
-  - CS.ENTITY.050
-  - CS.ENTITY.054
-  - CS.ENTITY.205
-  - CS.ENTITY.209
-  - CS.ENTITY.099
-  - CS.ENTITY.100
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.050
+- CS.ENTITY.054
+- CS.ENTITY.205
+- CS.ENTITY.209
+- CS.ENTITY.099
+- CS.ENTITY.100
 tags:
-  - lps
-  - endotoxin
-  - cell-wall
-  - bacteria
-  - inflammation
-  - toll-like-receptor
-  - cytokines
+- lps
+- endotoxin
+- cell-wall
+- bacteria
+- inflammation
+- toll-like-receptor
+- cytokines
 ---
 
 # CS.ENTITY.208: Липополисахарид (LPS)
