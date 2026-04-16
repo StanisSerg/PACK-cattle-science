@@ -1,0 +1,7 @@
+case_id: R011-BLIND
+cow_id: COW-R011-4
+input:
+  is_lactating: true
+  clinical_signs: [clots]
+  scc: 300000
+  cases_this_lactation: 1

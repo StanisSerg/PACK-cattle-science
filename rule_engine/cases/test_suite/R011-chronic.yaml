@@ -1,0 +1,8 @@
+case_id: R011-CHRONIC
+cow_id: COW-R011-2
+input:
+  is_lactating: true
+  clinical_signs: []
+  scc: 850000
+  cases_this_lactation: 4
+  same_quarter_cases: 2

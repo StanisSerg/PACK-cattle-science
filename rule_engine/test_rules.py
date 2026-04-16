@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from models import attach_derived, load_yaml
-from rules import rule_001, rule_002, rule_003, rule_004, rule_005, rule_006, rule_007, rule_008, rule_009, rule_010
+from rules import rule_001, rule_002, rule_003, rule_004, rule_005, rule_006, rule_007, rule_008, rule_009, rule_010, rule_011
 
 TEST_CASES = [
     # RULE-001
@@ -57,6 +57,14 @@ TEST_CASES = [
     ("cases/test_suite/R010-medium.yaml", "RULE-010", "RULE_010_CULL_RECOMMENDED_MEDIUM"),
     ("cases/test_suite/R010-blocked.yaml", "RULE-010", "RULE_010_BLOCKED"),
     ("cases/test_suite/R010-not-triggered.yaml", "RULE-010", "RULE_010_NOT_TRIGGERED"),
+    # RULE-011
+    ("cases/test_suite/R011-emergency.yaml", "RULE-011", "RULE_011_EMERGENCY"),
+    ("cases/test_suite/R011-chronic.yaml", "RULE-011", "RULE_011_CHRONIC_CULL_CANDIDATE"),
+    ("cases/test_suite/R011-targeted.yaml", "RULE-011", "RULE_011_TARGETED_TREATMENT"),
+    ("cases/test_suite/R011-blind.yaml", "RULE-011", "RULE_011_BLIND_TREATMENT"),
+    ("cases/test_suite/R011-monitor.yaml", "RULE-011", "RULE_011_MONITOR_CULTURE"),
+    ("cases/test_suite/R011-not-app.yaml", "RULE-011", "RULE_011_NOT_APPLICABLE"),
+    ("cases/test_suite/R011-blocked.yaml", "RULE-011", "RULE_011_BLOCKED"),
 ]
 
 RULE_MAP = {
@@ -70,6 +78,7 @@ RULE_MAP = {
     "RULE-008": rule_008,
     "RULE-009": rule_009,
     "RULE-010": rule_010,
+    "RULE-011": rule_011,
 }
 
 
@@ -80,7 +89,7 @@ def run():
 
     print()
     print("╔" + "═" * 78 + "╗")
-    print("║" + "  Rule Engine — Comprehensive Test Suite (10 Rules)  ".center(78) + "║")
+    print("║" + "  Rule Engine — Comprehensive Test Suite (11 Rules)  ".center(78) + "║")
     print("╚" + "═" * 78 + "╝")
     print()
 

@@ -1,0 +1,6 @@
+case_id: R011-NOT-APP
+cow_id: COW-R011-6
+input:
+  is_lactating: false
+  clinical_signs: []
+  scc: 500000

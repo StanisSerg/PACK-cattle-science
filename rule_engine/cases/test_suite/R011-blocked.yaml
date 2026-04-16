@@ -1,0 +1,6 @@
+case_id: R011-BLOCKED
+cow_id: COW-R011-7
+input:
+  is_lactating: true
+  clinical_signs: [udder_gangrene]
+  scc: 2000000

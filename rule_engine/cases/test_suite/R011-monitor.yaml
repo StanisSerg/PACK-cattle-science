@@ -1,0 +1,8 @@
+case_id: R011-MONITOR
+cow_id: COW-R011-5
+input:
+  is_lactating: true
+  clinical_signs: []
+  scc: 500000
+  cmt_score: 3
+  cases_this_lactation: 1
