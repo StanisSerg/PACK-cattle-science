@@ -1,0 +1,8 @@
+case_id: R012-BLOCKED
+cow_id: COW-R012-6
+input:
+  is_lactating: true
+  dim: 45
+  milk_yield_actual: 20
+  milk_yield_expected: 35
+  veterinary_hold: true

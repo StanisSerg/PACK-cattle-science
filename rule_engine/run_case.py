@@ -27,7 +27,7 @@ from models import (
     save_yaml,
     dataclass_to_dict,
 )
-from rules import rule_001, rule_002, rule_003, rule_004, rule_005, rule_006, rule_007, rule_008, rule_009, rule_010, rule_011
+from rules import rule_001, rule_002, rule_003, rule_004, rule_005, rule_006, rule_007, rule_008, rule_009, rule_010, rule_011, rule_012
 
 
 def merge_decisions(case: dict[str, Any], decision_blocks: list[tuple[str, Any, Any]]) -> None:
@@ -83,8 +83,10 @@ def merge_decisions(case: dict[str, Any], decision_blocks: list[tuple[str, Any, 
         "RULE_007_LOW_RISK": 66,
         "RULE_009_LOW_RISK": 64,
         "RULE_005_PROPHYLACTIC_CALCIUM": 65,
-        "RULE_011_BLOCKED": 120,
-        "RULE_011_EMERGENCY": 118,
+        "RULE_011_BLOCKED": 135,
+        "RULE_011_EMERGENCY": 133,
+        "RULE_012_CRITICAL_NEGATIVE": 130,
+        "RULE_012_HYPERPRODUCTIVE_RISK": 128,
         "RULE_009_BLOCKED": 125,
         "RULE_005_EMERGENCY_IV_CALCIUM": 115,
         "RULE_005_ORAL_CALCIUM_PROTOCOL": 110,
@@ -118,6 +120,8 @@ def merge_decisions(case: dict[str, Any], decision_blocks: list[tuple[str, Any, 
         "RULE_009_LOW_RISK": 64,
         "RULE_005_PROPHYLACTIC_CALCIUM": 65,
         "RULE_011_TARGETED_TREATMENT": 61,
+        "RULE_012_MODERATE_NEGATIVE": 60,
+        "RULE_012_PERSISTENCE_ALERT": 58,
         "RULE_010_CULL_RECOMMENDED_HIGH": 63,
         "RULE_008_HIGH_RISK": 62,
         "RULE_001_NOT_TRIGGERED": 60,
@@ -141,6 +145,9 @@ def merge_decisions(case: dict[str, Any], decision_blocks: list[tuple[str, Any, 
         "RULE_011_MONITOR_CULTURE": 40,
         "RULE_011_NOT_APPLICABLE": 39,
         "RULE_011_NOT_TRIGGERED": 38,
+        "RULE_012_WITHIN_RANGE": 37,
+        "RULE_012_BLOCKED": 36,
+        "RULE_012_NOT_APPLICABLE": 35,
         "RULE_003_NOT_TRIGGERED": 10,
         "RULE_002_NOT_TRIGGERED": 10,
     }
@@ -218,6 +225,7 @@ def main() -> None:
         ("RULE-009", *rule_009.evaluate(case)),
         ("RULE-010", *rule_010.evaluate(case)),
         ("RULE-011", *rule_011.evaluate(case)),
+        ("RULE-012", *rule_012.evaluate(case)),
     ]
 
     # Объединяем решения

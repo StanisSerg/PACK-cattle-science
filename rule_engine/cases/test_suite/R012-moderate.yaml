@@ -1,0 +1,11 @@
+case_id: R012-MODERATE
+cow_id: COW-R012-2
+input:
+  is_lactating: true
+  dim: 80
+  parity: 3
+  milk_yield_actual: 36
+  milk_yield_expected: 42
+  milk_yield_peak: 45
+  peak_week: 5
+  veterinary_hold: false

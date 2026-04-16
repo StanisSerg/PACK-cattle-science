@@ -1,0 +1,11 @@
+case_id: R012-HYPER
+cow_id: COW-R012-3
+input:
+  is_lactating: true
+  dim: 30
+  parity: 2
+  milk_yield_actual: 48
+  milk_yield_expected: 38
+  milk_yield_peak: 48
+  peak_week: 4
+  veterinary_hold: false

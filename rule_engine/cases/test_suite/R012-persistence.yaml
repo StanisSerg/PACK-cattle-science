@@ -1,0 +1,11 @@
+case_id: R012-PERSISTENCE
+cow_id: COW-R012-4
+input:
+  is_lactating: true
+  dim: 120
+  parity: 3
+  milk_yield_actual: 33
+  milk_yield_expected: 36
+  milk_yield_peak: 50
+  peak_week: 5
+  veterinary_hold: false

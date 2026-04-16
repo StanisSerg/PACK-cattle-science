@@ -1,0 +1,11 @@
+case_id: R012-CRITICAL
+cow_id: COW-R012-1
+input:
+  is_lactating: true
+  dim: 45
+  parity: 2
+  milk_yield_actual: 24
+  milk_yield_expected: 32
+  milk_yield_peak: 38
+  peak_week: 6
+  veterinary_hold: false
