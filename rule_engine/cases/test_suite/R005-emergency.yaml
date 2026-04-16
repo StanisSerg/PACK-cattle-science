@@ -1,0 +1,6 @@
+case_id: R005-EMERGENCY
+cow_id: COW-R005-1
+input:
+  dim: 1
+  parity: 3
+  clinical_signs: [sternal_recumbency, cold_ears]

@@ -1,0 +1,7 @@
+case_id: R006-LOW
+cow_id: COW-R006-3
+input:
+  dim: 5
+  parity: 2
+  retained_placenta_hours: 26
+  clinical_signs: []

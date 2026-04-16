@@ -1,0 +1,10 @@
+case_id: R001-TRIGGERED
+cow_id: COW-R001-1
+input:
+  bhb: 1.6
+  dim: 6
+  dmi_actual: 11.2
+  dmi_norm: 18.0
+  bcs_at_calving: 3.75
+  bcs_current: 3.0
+  clinical_signs: []

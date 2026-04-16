@@ -1,0 +1,7 @@
+case_id: R003-NOT-APPLICABLE
+cow_id: COW-R003-3
+input:
+  bhb: 3.2
+  dim: 8
+  can_swallow: true
+  clinical_signs: []

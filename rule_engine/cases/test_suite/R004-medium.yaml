@@ -1,0 +1,8 @@
+case_id: R004-MEDIUM
+cow_id: COW-R004-2
+input:
+  dim: -30
+  bcs_dry_off: 3.25
+  bcs_current: 3.25
+  previous_sck: true
+  clinical_signs: []

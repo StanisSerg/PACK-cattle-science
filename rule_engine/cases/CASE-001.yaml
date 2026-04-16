@@ -19,35 +19,66 @@ derived:
   bcs_loss: 0.5
 decision:
   triggered_rules:
+  - RULE-001
   - RULE-002
   - RULE-003
+  - RULE-004
+  - RULE-005
   verdicts:
+  - RULE_001_TRIGGERED
   - RULE_002_TRIGGERED
   - RULE_003_APPLICABLE
-  primary_rule: RULE-003
-  action: PG_300ML_X_5_DAYS_2X_DAILY
+  - RULE_004_NOT_APPLICABLE
+  - RULE_005_MONITOR_PREVENTIVELY
+  primary_rule: RULE-001
+  action: DO_NOT_USE_AS_PRIMARY_INTERVENTION
   reasoning:
+  - bhb_1.4_>_1.2_hard
+  - dim_6_<_30_hard
+  - dmi_ratio_0.594_<_0.8_soft
   - bhb_1.4>=1.2
   - dim_6_in_3_14
   - no_clinical_signs
   - sck_confirmed
   - bhb_in_range
   - oral_pg_applicable
-  timestamp: '2026-04-11T17:01:53.870379+00:00'
+  - not_in_dry_period
+  - no_emergency_indicators
+  timestamp: '2026-04-15T18:08:36.095189+00:00'
 prediction: &id001
   direction:
-    bhb: down
+    bhb: down_with_systemic_correction
     dmi: up
   range:
-    bhb_day_7: &id002
-    - 0.6
+    bhb_day_7:
+    - 0.4
     - 0.9
-    dmi_day_7: &id003
+    dmi_day_7:
     - 14.0
-    - 18.0
+    - 19.0
   timeframe: 7 days
   confidence: medium
 rule_results:
+- rule: RULE-001
+  decision:
+    triggered_rules:
+    - RULE-001
+    verdicts:
+    - RULE_001_TRIGGERED
+    primary_rule: RULE-001
+    action: DO_NOT_USE_AS_PRIMARY_INTERVENTION
+    reasoning:
+    - bhb_1.4_>_1.2_hard
+    - dim_6_<_30_hard
+    - dmi_ratio_0.594_<_0.8_soft
+    basis:
+      rule: RULE-001
+      conditions:
+        bhb: 1.4
+        dim: 6
+        dmi_ratio: 0.594
+        bcs_loss: 0.5
+  prediction: *id001
 - rule: RULE-002
   decision:
     triggered_rules:
@@ -92,7 +123,50 @@ rule_results:
       conditions:
         bhb: 1.4
         dim: 6
-  prediction: *id001
+  prediction:
+    direction:
+      bhb: down
+      dmi: up
+    range:
+      bhb_day_7:
+      - 0.6
+      - 0.9
+      dmi_day_7:
+      - 14.0
+      - 18.0
+    timeframe: 7 days
+    confidence: medium
+- rule: RULE-004
+  decision:
+    triggered_rules:
+    - RULE-004
+    verdicts:
+    - RULE_004_NOT_APPLICABLE
+    primary_rule: RULE-004
+    action: USE_LACTATION_PROTOCOLS
+    reasoning:
+    - not_in_dry_period
+    basis:
+      rule: RULE-004
+      conditions:
+        dim: 6
+  prediction: null
+- rule: RULE-005
+  decision:
+    triggered_rules:
+    - RULE-005
+    verdicts:
+    - RULE_005_MONITOR_PREVENTIVELY
+    primary_rule: RULE-005
+    action: CONTINUE_MONITORING
+    reasoning:
+    - no_emergency_indicators
+    basis:
+      rule: RULE-005
+      conditions:
+        dim: 6
+        parity: 2
+  prediction: null
 fact:
   bhb_day_7: 0.7
   dmi_day_7: 15.2
@@ -100,12 +174,16 @@ result:
   status: success
   delta:
     bhb_day_7:
-      predicted_range: *id002
+      predicted_range:
+      - 0.6
+      - 0.9
       fact: 0.7
       within_range: true
       deviation: -0.05
     dmi_day_7:
-      predicted_range: *id003
+      predicted_range:
+      - 14.0
+      - 18.0
       fact: 15.2
       within_range: true
       deviation: -0.8

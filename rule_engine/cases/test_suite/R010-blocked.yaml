@@ -1,0 +1,9 @@
+case_id: R010-BLOCKED
+cow_id: COW-R010-3
+input:
+  is_lactating: true
+  dim: 120
+  pregnancy_status: pregnant
+  expected_305d_yield: 9500
+  metabolic_issues_count: 3
+  clinical_signs: []

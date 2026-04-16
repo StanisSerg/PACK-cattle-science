@@ -1,0 +1,13 @@
+case_id: R009-MEDIUM
+cow_id: COW-R009-2
+input:
+  locomotion_score: 2
+  bcs: 2.7
+  bedding_score: 1
+  surface_type: concrete
+  rubber_mats: false
+  milk_yield_current: 28
+  milk_yield_expected: 30
+  days_since_last_trim: 45
+  visible_lesions: false
+  clinical_signs: []

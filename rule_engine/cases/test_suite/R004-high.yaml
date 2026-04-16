@@ -1,0 +1,8 @@
+case_id: R004-HIGH
+cow_id: COW-R004-1
+input:
+  dim: -30
+  bcs_dry_off: 3.8
+  bcs_current: 3.9
+  previous_sck: true
+  clinical_signs: []

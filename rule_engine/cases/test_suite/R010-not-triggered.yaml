@@ -1,0 +1,10 @@
+case_id: R010-NOT-TRIG
+cow_id: COW-R010-4
+input:
+  is_lactating: true
+  dim: 120
+  metabolic_issues_count: 0
+  reproductive_failures_count: 0
+  mastitis_cases_90d: 0
+  locomotion_score: 1
+  clinical_signs: []

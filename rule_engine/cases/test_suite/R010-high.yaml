@@ -1,0 +1,15 @@
+case_id: R010-HIGH
+cow_id: COW-R010-1
+input:
+  is_lactating: true
+  dim: 280
+  metabolic_issues_count: 2
+  reproductive_failures_count: 2
+  mastitis_cases_90d: 4
+  locomotion_score: 3
+  days_open: 180
+  milk_yield_current: 18
+  milk_yield_expected: 30
+  treatment_cost_90d: 18000
+  heifer_available: true
+  genetic_value: -50

@@ -1,0 +1,10 @@
+case_id: R007-HIGH
+cow_id: COW-R007-1
+input:
+  dim: 12
+  bhb: 1.6
+  dmi_actual: 8.0
+  dmi_norm: 18.0
+  peak_yield: 42
+  previous_da: true
+  clinical_signs: []

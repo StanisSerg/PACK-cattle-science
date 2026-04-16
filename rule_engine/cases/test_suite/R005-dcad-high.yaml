@@ -1,0 +1,9 @@
+case_id: R005-DCAD-HIGH
+cow_id: COW-R005-3
+input:
+  dim: -25
+  parity: 4
+  breed: Jersey
+  previous_milk_fever: true
+  bcs_dry_off: 3.8
+  clinical_signs: []

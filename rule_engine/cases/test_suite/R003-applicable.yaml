@@ -1,0 +1,9 @@
+case_id: R003-APPLICABLE
+cow_id: COW-R003-1
+input:
+  bhb: 1.8
+  dim: 8
+  can_swallow: true
+  anorexia_hours: 0
+  severe_hepatic_lipidosis: false
+  clinical_signs: []

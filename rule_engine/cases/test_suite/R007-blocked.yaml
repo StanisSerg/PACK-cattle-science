@@ -1,0 +1,5 @@
+case_id: R007-BLOCKED
+cow_id: COW-R007-3
+input:
+  dim: 10
+  clinical_signs: [pinging_left, scissor_posture]

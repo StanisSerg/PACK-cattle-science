@@ -1,0 +1,7 @@
+case_id: R005-ORAL
+cow_id: COW-R005-2
+input:
+  dim: 2
+  parity: 2
+  total_ca: 1.8
+  clinical_signs: []

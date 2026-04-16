@@ -1,0 +1,10 @@
+case_id: R006-HIGH
+cow_id: COW-R006-1
+input:
+  dim: 5
+  parity: 4
+  retained_placenta_hours: 30
+  fever: 40.1
+  bhb: 1.4
+  dystocia: true
+  clinical_signs: []

@@ -1,0 +1,11 @@
+case_id: R008-LOW
+cow_id: COW-R008-2
+input:
+  thi: 70
+  dmi_actual: 17.0
+  dmi_baseline: 18.0
+  milk_yield_current: 34
+  milk_yield_baseline: 35
+  peak_yield: 30
+  cooling_fans_available: true
+  cooling_soak_available: true

@@ -1,0 +1,8 @@
+case_id: R006-MEDIUM
+cow_id: COW-R006-2
+input:
+  dim: 5
+  parity: 2
+  fever: 40.2
+  twinning: true
+  clinical_signs: []

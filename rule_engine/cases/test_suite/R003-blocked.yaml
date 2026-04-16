@@ -1,0 +1,7 @@
+case_id: R003-BLOCKED
+cow_id: COW-R003-2
+input:
+  bhb: 1.8
+  dim: 8
+  can_swallow: false
+  clinical_signs: []

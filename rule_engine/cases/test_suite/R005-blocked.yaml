@@ -1,0 +1,7 @@
+case_id: R005-BLOCKED
+cow_id: COW-R005-4
+input:
+  dim: -25
+  parity: 1
+  breed: Holstein
+  clinical_signs: []

@@ -1,0 +1,7 @@
+case_id: R006-NOT-APP
+cow_id: COW-R006-5
+input:
+  dim: 45
+  parity: 3
+  fever: 40.1
+  clinical_signs: []

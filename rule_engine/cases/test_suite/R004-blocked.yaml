@@ -1,0 +1,7 @@
+case_id: R004-BLOCKED
+cow_id: COW-R004-3
+input:
+  dim: -30
+  bcs_dry_off: 3.25
+  bcs_current: 3.3
+  clinical_signs: [mastitis]

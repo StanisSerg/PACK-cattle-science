@@ -1,0 +1,6 @@
+case_id: R008-NOT-APP
+cow_id: COW-R008-3
+input:
+  thi: 62
+  temperature_c: 18
+  humidity_pct: 60

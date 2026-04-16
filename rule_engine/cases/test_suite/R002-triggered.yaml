@@ -1,0 +1,6 @@
+case_id: R002-TRIGGERED
+cow_id: COW-R002-1
+input:
+  bhb: 1.4
+  dim: 10
+  clinical_signs: []

@@ -1,0 +1,6 @@
+case_id: R002-BLOCKED
+cow_id: COW-R002-3
+input:
+  bhb: 1.4
+  dim: 10
+  clinical_signs: [weakness]

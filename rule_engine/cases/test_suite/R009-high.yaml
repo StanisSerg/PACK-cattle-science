@@ -1,0 +1,13 @@
+case_id: R009-HIGH
+cow_id: COW-R009-1
+input:
+  locomotion_score: 3
+  bcs: 2.5
+  bedding_score: 1
+  surface_type: concrete
+  rubber_mats: false
+  milk_yield_current: 22
+  milk_yield_expected: 30
+  days_since_last_trim: 85
+  visible_lesions: true
+  clinical_signs: []

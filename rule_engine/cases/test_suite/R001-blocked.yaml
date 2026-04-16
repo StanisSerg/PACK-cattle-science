@@ -1,0 +1,6 @@
+case_id: R001-BLOCKED
+cow_id: COW-R001-2
+input:
+  bhb: 1.6
+  dim: 6
+  clinical_signs: [acetone]

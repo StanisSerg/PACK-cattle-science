@@ -1,0 +1,6 @@
+case_id: R001-NOT-TRIGGERED
+cow_id: COW-R001-3
+input:
+  bhb: 1.0
+  dim: 35
+  clinical_signs: []

@@ -1,0 +1,14 @@
+case_id: R010-MEDIUM
+cow_id: COW-R010-2
+input:
+  is_lactating: true
+  dim: 200
+  metabolic_issues_count: 2
+  reproductive_failures_count: 0
+  mastitis_cases_90d: 0
+  locomotion_score: 1
+  days_open: 160
+  milk_yield_current: 22
+  milk_yield_expected: 30
+  treatment_cost_90d: 5000
+  heifer_available: true

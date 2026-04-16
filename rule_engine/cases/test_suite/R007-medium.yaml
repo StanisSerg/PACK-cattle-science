@@ -1,0 +1,9 @@
+case_id: R007-MEDIUM
+cow_id: COW-R007-2
+input:
+  dim: 15
+  bhb: 1.4
+  dmi_actual: 11.0
+  dmi_norm: 18.0
+  previous_da: false
+  clinical_signs: []

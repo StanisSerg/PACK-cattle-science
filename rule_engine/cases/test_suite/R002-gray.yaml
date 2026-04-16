@@ -1,0 +1,6 @@
+case_id: R002-GRAY
+cow_id: COW-R002-2
+input:
+  bhb: 1.1
+  dim: 7
+  clinical_signs: []

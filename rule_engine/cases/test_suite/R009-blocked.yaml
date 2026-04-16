@@ -1,0 +1,5 @@
+case_id: R009-BLOCKED
+cow_id: COW-R009-3
+input:
+  locomotion_score: 4
+  clinical_signs: [fracture]
