@@ -6,26 +6,20 @@ Usage:
     python generate_productivity_report.py herd_data.csv --out report.md
 
 Формат CSV:
-    cow_id,dim,parity,milk_yield_actual,milk_yield_expected,milk_yield_peak,peak_week,bcs,veterinary_hold,is_lactating
-
-Что делает:
-    1. Читает CSV с данными стада
-    2. Прогоняет каждую корову через RULE-012
-    3. Агрегирует статистику по фазам лактации и парности
-    4. Заполняет шаблон CS.WP.002 и сохраняет в Markdown
+    cow_id,dim,parity,milk_yield,pik_milk,pik_day,insemination_count,reproduction_status
 """
 from __future__ import annotations
 
 import argparse
-import csv
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
+from herd_loader import load_herd_csv
 from models import Prediction
-from rules import rule_012
+from rules import rule_010, rule_012
 
 
 def dim_phase(dim: int) -> str:
@@ -74,34 +68,6 @@ def status_badge(value: float, low: float, high: float) -> str:
     return "🟢"
 
 
-def load_herd_csv(path: str) -> list[dict]:
-    rows = []
-    with open(path, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            # Type conversion
-            for key in ["dim", "parity"]:
-                row[key] = int(row[key]) if row.get(key) else 0
-            for key in ["milk_yield_actual", "milk_yield_expected", "milk_yield_peak", "bcs"]:
-                val = row.get(key, "")
-                row[key] = float(val) if val != "" else None
-            for key in ["peak_week"]:
-                val = row.get(key, "")
-                row[key] = int(val) if val != "" else None
-            for key in ["veterinary_hold", "dry_cow", "is_lactating"]:
-                val = row.get(key, "")
-                if val.lower() in ("true", "1", "yes"):
-                    row[key] = True
-                elif val.lower() in ("false", "0", "no", ""):
-                    row[key] = False
-                else:
-                    row[key] = False
-            if "is_lactating" not in row:
-                row["is_lactating"] = True
-            rows.append(row)
-    return rows
-
-
 def run_rule_012(row: dict) -> dict:
     case = {"input": row}
     decision, prediction = rule_012.evaluate(case)
@@ -121,21 +87,38 @@ def run_rule_012(row: dict) -> dict:
     }
 
 
+def run_rule_010(row: dict) -> dict:
+    case = {"input": row}
+    decision, prediction = rule_010.evaluate(case)
+    if decision is None:
+        return {
+            "verdict": "NO_DATA",
+            "action": "—",
+            "confidence": "—",
+        }
+    return {
+        "verdict": decision.verdicts[0],
+        "action": decision.action,
+        "confidence": prediction.confidence.upper() if prediction and prediction.confidence else "—",
+    }
+
+
 def generate_report(rows: list[dict], farm_name: str = "FARM-001") -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     total_cows = len(rows)
     lactating_cows = sum(1 for r in rows if r.get("is_lactating") and not r.get("dry_cow"))
 
-    # Run RULE-012 for all lactating rows with data
+    # Прогоняем правила
     results = []
     for r in rows:
-        res = run_rule_012(r)
-        results.append({**r, **res})
+        res_012 = run_rule_012(r)
+        res_010 = run_rule_010(r)
+        results.append({**r, "rule_012": res_012, "rule_010": res_010})
 
-    # Aggregates by DIM phase
+    # Агрегации по фазам DIM
     phases = {}
     for r in results:
-        if r.get("verdict") == "NO_DATA":
+        if r["rule_012"]["verdict"] == "NO_DATA":
             continue
         ph = dim_phase(r["dim"])
         dr = dim_range(r["dim"])
@@ -146,10 +129,10 @@ def generate_report(rows: list[dict], farm_name: str = "FARM-001") -> str:
         phases[key]["actual_sum"] += r.get("milk_yield_actual") or 0
         phases[key]["expected_sum"] += r.get("milk_yield_expected") or 0
 
-    # Aggregates by parity
+    # Агрегации по парности
     parity_data = {}
     for r in results:
-        if r.get("verdict") == "NO_DATA":
+        if r["rule_012"]["verdict"] == "NO_DATA":
             continue
         pg = parity_group(r["parity"])
         if pg not in parity_data:
@@ -159,19 +142,23 @@ def generate_report(rows: list[dict], farm_name: str = "FARM-001") -> str:
         peak = r.get("milk_yield_peak") or r.get("milk_yield_actual") or 0
         parity_data[pg]["peak_sum"] += peak
 
-    # Alerts
-    critical = [r for r in results if r.get("verdict") == "RULE_012_CRITICAL_NEGATIVE"]
-    moderate = [r for r in results if r.get("verdict") == "RULE_012_MODERATE_NEGATIVE"]
-    hyper = [r for r in results if r.get("verdict") == "RULE_012_HYPERPRODUCTIVE_RISK"]
-    persistence = [r for r in results if r.get("verdict") == "RULE_012_PERSISTENCE_ALERT"]
+    # Алерты RULE-012
+    critical = [r for r in results if r["rule_012"]["verdict"] == "RULE_012_CRITICAL_NEGATIVE"]
+    moderate = [r for r in results if r["rule_012"]["verdict"] == "RULE_012_MODERATE_NEGATIVE"]
+    hyper = [r for r in results if r["rule_012"]["verdict"] == "RULE_012_HYPERPRODUCTIVE_RISK"]
+    persistence = [r for r in results if r["rule_012"]["verdict"] == "RULE_012_PERSISTENCE_ALERT"]
 
-    # Herd averages
+    # Алерты RULE-010
+    cull_high = [r for r in results if r["rule_010"]["verdict"] == "RULE_010_CULL_RECOMMENDED_HIGH"]
+    cull_medium = [r for r in results if r["rule_010"]["verdict"] == "RULE_010_CULL_RECOMMENDED_MEDIUM"]
+
+    # Средние по стаду
     valid_actual = [r["milk_yield_actual"] for r in results if r.get("milk_yield_actual") is not None]
     valid_expected = [r["milk_yield_expected"] for r in results if r.get("milk_yield_expected") is not None]
     avg_actual = sum(valid_actual) / len(valid_actual) if valid_actual else 0
     avg_expected = sum(valid_expected) / len(valid_expected) if valid_expected else 0
 
-    # Build phase table rows
+    # Таблица фаз
     phase_order = [
         ("Ранняя лактация", "0-30"),
         ("Рост к пику", "31-60"),
@@ -189,7 +176,7 @@ def generate_report(rows: list[dict], farm_name: str = "FARM-001") -> str:
         pct = round((avg_a / avg_e) * 100, 0) if avg_e > 0 else 0
         phase_rows.append(f"| {ph} | {dr} | {cnt} | {avg_a} кг | {pct}% | 🟢 |")
 
-    # Parity rows
+    # Таблица парностей
     parity_order = ["1 (первотёлки)", "2", "3-4", "≥5"]
     parity_rows = []
     for pg in parity_order:
@@ -200,37 +187,50 @@ def generate_report(rows: list[dict], farm_name: str = "FARM-001") -> str:
         drop = round(((avg_a - avg_p) / avg_p) * 100, 1) if avg_p > 0 else 0
         parity_rows.append(f"| {pg} | {cnt} | {avg_a} кг | {avg_p} кг | {drop}% | 🟢 |")
 
-    # Alert rows critical
+    def fmt_dev(r):
+        dev = r["rule_012"].get("deviation_pct")
+        return f"{dev:.1f}%" if dev is not None else "—"
+
     critical_rows = []
     for r in critical[:10]:
-        dev = r.get("deviation_pct")
-        dev_str = f"{dev:.1f}%" if dev is not None else "—"
         critical_rows.append(
-            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_expected', '—')} | {r.get('milk_yield_actual', '—')} | {dev_str} | RULE-001/006/011 | Срочный осмотр |"
+            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_expected', '—')} | {r.get('milk_yield_actual', '—')} | {fmt_dev(r)} | Срочный осмотр |"
         )
 
-    # Alert rows moderate
     moderate_rows = []
     for r in moderate[:10]:
-        dev = r.get("deviation_pct")
-        dev_str = f"{dev:.1f}%" if dev is not None else "—"
         moderate_rows.append(
-            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_expected', '—')} | {r.get('milk_yield_actual', '—')} | {dev_str} | Кетоз/мастит/метрит/хромота | Проверить в течение 48ч |"
+            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_expected', '—')} | {r.get('milk_yield_actual', '—')} | {fmt_dev(r)} | Проверить в течение 48ч |"
         )
 
-    # Hyper rows
     hyper_rows = []
     for r in hyper[:10]:
-        dev = r.get("deviation_pct")
-        dev_str = f"{dev:.1f}%" if dev is not None else "—"
         hyper_rows.append(
-            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_expected', '—')} | {r.get('milk_yield_actual', '—')} | {dev_str} | Высокий риск NEB, кетоза | Усилить мониторинг BHB |"
+            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_expected', '—')} | {r.get('milk_yield_actual', '—')} | {fmt_dev(r)} | Усилить мониторинг BHB |"
         )
 
-    # Economics
+    persistence_rows = []
+    for r in persistence[:10]:
+        persistence_rows.append(
+            f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_peak', '—')} | {r.get('milk_yield_actual', '—')} | {fmt_dev(r)} | Проверить рацион средней лактации |"
+        )
+
+    cull_high_rows = []
+    for r in cull_high[:10]:
+        cull_high_rows.append(
+            f"| {r['cow_id']} | {r['dim']} | {r['parity']} | {r.get('insemination_count', 0)} | {r['reproduction_status']} | Отсев оправдан |"
+        )
+
+    cull_medium_rows = []
+    for r in cull_medium[:10]:
+        cull_medium_rows.append(
+            f"| {r['cow_id']} | {r['dim']} | {r['parity']} | {r.get('insemination_count', 0)} | {r['reproduction_status']} | Пересмотреть через 30 дней |"
+        )
+
+    # Экономика
     crit_loss_day = sum((r.get("milk_yield_expected", 0) - r.get("milk_yield_actual", 0)) for r in critical)
     mod_loss_day = sum((r.get("milk_yield_expected", 0) - r.get("milk_yield_actual", 0)) for r in moderate)
-    price = 40  # rub/kg placeholder
+    price = 40
     crit_30 = round(crit_loss_day * 30, 1)
     mod_30 = round(mod_loss_day * 30, 1)
 
@@ -241,15 +241,16 @@ sota_refs:
   - CS.SOTA.284
 rule_refs:
   - RULE-012
-version: "1.0"
+  - RULE-010
+version: "1.1"
 date_created: {now}
 author: StanisSerg
 ---
 
-# CS.WP.002: Отчёт о продуктивности стада по группам и дням лактации
+# CS.WP.002: Отчёт о продуктивности стада
 
-> **Тип:** Рабочий продукт
-> **Источник данных:** Доильные системы / АСУ ТП / индивидуальные взвешивания
+> **Тип:** Рабочий продукт — Продуктивность
+> **Источник данных:** Доильные системы (id, DIM, parity, milk_yield, pik_milk, pik_day, insemination_count, reproduction_status)
 > **Для роли:** Консультант / Зоотехник / Руководитель хозяйства
 > **Генерация:** Автоматическая через `rule_engine/generate_productivity_report.py`
 
@@ -261,11 +262,9 @@ author: StanisSerg
 |------|--------|
 | **Номер отчёта** | CS.WP.002-{now}-001 |
 | **Дата составления** | {now} |
-| **Период анализа** | Последние 7-14 дней |
+| **Период анализа** | Текущие данные |
 | **Хозяйство** | {farm_name} |
 | **Размер стада** | {total_cows} голов (дойных: {lactating_cows}) |
-| **Система доения** | [Уточнить] |
-| **Источник данных** | CSV import |
 
 ---
 
@@ -276,16 +275,12 @@ author: StanisSerg
 | Метрика | Факт | Целевой бенчмарк | Статус |
 |---------|------|------------------|--------|
 | Средний удой по стаду | {round(avg_actual, 1)} кг | 30-35 кг | {status_badge(avg_actual, 25, 38)} |
-| Пиковый удой (средний) | [Рассчитать] кг | 40-50 кг | 🟢 |
-| Время достижения пика | [Рассчитать] недель | 4-8 недель | 🟢 |
-| Персистентность (снижение/день) | [Рассчитать] | > -0.15% | 🟢 |
-| Удой/DMI | [Рассчитать] | 1.4-1.6 | 🟢 |
-| Жир/Белок | [Рассчитать] | > 1.12 | 🟢 |
+| Средний ожидаемый удой | {round(avg_expected, 1)} кг | — | 🟢 |
 
 ### 2.2 Распределение по фазам лактации
 
-| Фаза | Диапазон DIM | Кол-во коров | Средний удой | % от пика | Статус |
-|------|--------------|--------------|--------------|-----------|--------|
+| Фаза | Диапазон DIM | Кол-во коров | Средний удой | % от ожидаемого | Статус |
+|------|--------------|--------------|--------------|-----------------|--------|
 {chr(10).join(phase_rows)}
 
 ---
@@ -298,124 +293,74 @@ author: StanisSerg
 |----------|--------|--------------|--------------|------------------|--------|
 {chr(10).join(parity_rows)}
 
----
+### 3.2 По репродуктивному статусу
 
-## 4. ЛАКТАЦИОННАЯ КРИВАЯ (факт vs ожидаемая)
-
-> График строится внешним инструментом (Excel/Python matplotlib) на основе агрегированных данных.
-
-### 4.1 Точечное сравнение по неделям
-
-| Неделя DIM | Ожидаемый удой | Фактический удой | Отклонение | Статус |
-|------------|----------------|------------------|------------|--------|
-| 1 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 2 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 4 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 8 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 12 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 20 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 30 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
-| 40 | [XX.X] | [XX.X] | [±X.X]% | 🟢 |
+| Статус | Кол-во | Средний удой | Среднее осеменений | Примечание |
+|--------|--------|--------------|--------------------|------------|
+| Открытые (open) | {len([r for r in results if r['reproduction_status'] == 'open'])} | {round(sum(r.get('milk_yield_actual', 0) for r in results if r['reproduction_status'] == 'open') / max(len([r for r in results if r['reproduction_status'] == 'open']), 1), 1)} кг | {round(sum(r.get('insemination_count', 0) for r in results if r['reproduction_status'] == 'open') / max(len([r for r in results if r['reproduction_status'] == 'open']), 1), 1)} | Риск при insem ≥ 3 |
+| Осеменённые (bred) | {len([r for r in results if r['reproduction_status'] == 'bred'])} | {round(sum(r.get('milk_yield_actual', 0) for r in results if r['reproduction_status'] == 'bred') / max(len([r for r in results if r['reproduction_status'] == 'bred']), 1), 1)} кг | {round(sum(r.get('insemination_count', 0) for r in results if r['reproduction_status'] == 'bred') / max(len([r for r in results if r['reproduction_status'] == 'bred']), 1), 1)} | Ожидание диагностики |
+| Стельные (pregnant) | {len([r for r in results if r['reproduction_status'] == 'pregnant'])} | {round(sum(r.get('milk_yield_actual', 0) for r in results if r['reproduction_status'] == 'pregnant') / max(len([r for r in results if r['reproduction_status'] == 'pregnant']), 1), 1)} кг | {round(sum(r.get('insemination_count', 0) for r in results if r['reproduction_status'] == 'pregnant') / max(len([r for r in results if r['reproduction_status'] == 'pregnant']), 1), 1)} | Блокировка отсева |
 
 ---
 
-## 5. ОТКЛОНЕНИЯ И АЛЕРТЫ (генерируется RULE-012)
+## 4. ОТКЛОНЕНИЯ УДОЯ (RULE-012)
 
-### 5.1 Коровы с критическим отклонением удоя (> 20% ниже ожидаемого)
+### 4.1 Критическое снижение (> 20% ниже ожидаемого)
 
-| ID коровы | DIM | Ожидаемый | Фактический | Отклонение | Вероятная причина (Rule Engine) | Рекомендация |
-|-----------|-----|-----------|-------------|------------|--------------------------------|--------------|
-{chr(10).join(critical_rows) if critical_rows else "| — | — | — | — | — | — | Нет критических отклонений |"}
+| ID коровы | DIM | Ожидаемый | Фактический | Отклонение | Рекомендация |
+|-----------|-----|-----------|-------------|------------|--------------|
+{chr(10).join(critical_rows) if critical_rows else "| — | — | — | — | — | Нет критических отклонений |"}
 
-### 5.2 Коровы с умеренным отклонением (10-20% ниже ожидаемого)
+### 4.2 Умеренное снижение (10-20% ниже)
 
-| ID коровы | DIM | Ожидаемый | Фактический | Отклонение | Приоритет проверки |
-|-----------|-----|-----------|-------------|------------|-------------------|
+| ID коровы | DIM | Ожидаемый | Фактический | Отклонение | Рекомендация |
+|-----------|-----|-----------|-------------|------------|--------------|
 {chr(10).join(moderate_rows) if moderate_rows else "| — | — | — | — | — | Нет умеренных отклонений |"}
 
-### 5.3 Гиперпродуктивность с риском метаболизма (> 20% выше ожидаемого в ранней лактации)
+### 4.3 Гиперпродуктивность с риском метаболизма
 
-| ID коровы | DIM | Ожидаемый | Фактический | Отклонение | Риск |
-|-----------|-----|-----------|-------------|------------|------|
+| ID коровы | DIM | Ожидаемый | Фактический | Отклонение | Рекомендация |
+|-----------|-----|-----------|-------------|------------|--------------|
 {chr(10).join(hyper_rows) if hyper_rows else "| — | — | — | — | — | Нет гиперпродуктивных коров |"}
 
-### 5.4 Быстрое снижение персистентности
+### 4.4 Быстрое снижение персистентности
 
-| ID коровы | DIM | Пик | Фактический | Отклонение от ожидаемой кривой | Рекомендация |
-|-----------|-----|-----|-------------|-------------------------------|--------------|
-{chr(10).join([f"| {r['cow_id']} | {r['dim']} | {r.get('milk_yield_peak', '—')} | {r.get('milk_yield_actual', '—')} | {r.get('deviation_pct', '—')}% | Проверить рацион средней лактации |" for r in persistence[:10]]) if persistence else "| — | — | — | — | — | Нет отклонений персистентности |"}
+| ID коровы | DIM | Пик | Фактический | Отклонение | Рекомендация |
+|-----------|-----|-----|-------------|------------|--------------|
+{chr(10).join(persistence_rows) if persistence_rows else "| — | — | — | — | — | Нет отклонений персистентности |"}
+
+---
+
+## 5. РЕКОМЕНДАЦИИ ПО ОТСЕВУ (RULE-010)
+
+### 5.1 Высокий приоритет
+
+| ID коровы | DIM | Парность | Осеменений | Статус | Рекомендация |
+|-----------|-----|----------|------------|--------|--------------|
+{chr(10).join(cull_high_rows) if cull_high_rows else "| — | — | — | — | — | Нет коров с высоким приоритетом |"}
+
+### 5.2 Средний приоритет
+
+| ID коровы | DIM | Парность | Осеменений | Статус | Рекомендация |
+|-----------|-----|----------|------------|--------|--------------|
+{chr(10).join(cull_medium_rows) if cull_medium_rows else "| — | — | — | — | — | Нет коров со средним приоритетом |"}
 
 ---
 
 ## 6. ЭКОНОМИЧЕСКАЯ ОЦЕНКА
 
-### 6.1 Потери от недополученного молока
-
-| Группа отклонений | Кол-во коров | Средняя потеря/день | Суммарная потеря/день | Потери за 30 дней |
-|-------------------|--------------|---------------------|-----------------------|-------------------|
-| Критическое (>20%) | {len(critical)} | {round(crit_loss_day / max(len(critical), 1), 1)} кг | {round(crit_loss_day, 1)} кг | {crit_30} кг |
-| Умеренное (10-20%) | {len(moderate)} | {round(mod_loss_day / max(len(moderate), 1), 1)} кг | {round(mod_loss_day, 1)} кг | {mod_30} кг |
-| **ИТОГО** | **{len(critical) + len(moderate)}** | — | **{round(crit_loss_day + mod_loss_day, 1)} кг** | **{round((crit_loss_day + mod_loss_day) * 30, 1)} кг** |
-
-### 6.2 Пересчёт в деньги (по {price} ₽/кг)
-
-| Статья | Расчёт | Сумма (руб/мес) |
-|--------|--------|-----------------|
-| Потери молока (критические) | {crit_30} кг × {price} ₽/кг | {crit_30 * price:,} |
-| Потери молока (умеренные) | {mod_30} кг × {price} ₽/кг | {mod_30 * price:,} |
-| **ИТОГО потери** | | **{(crit_30 + mod_30) * price:,}** |
-
-### 6.3 Потенциал роста
-
-| Мера | Ожидаемый эффект | Экономический эффект (руб/мес) |
-|------|------------------|-------------------------------|
-| Снижение критических отклонений на 50% | +{round(crit_loss_day * 0.5 * 30, 0)} кг/мес | {round(crit_loss_day * 0.5 * 30 * price):,} |
-| Снижение умеренных отклонений на 30% | +{round(mod_loss_day * 0.3 * 30, 0)} кг/мес | {round(mod_loss_day * 0.3 * 30 * price):,} |
-| **ИТОГО потенциал** | **+{round((crit_loss_day * 0.5 + mod_loss_day * 0.3) * 30, 0)} кг/мес** | **{round((crit_loss_day * 0.5 + mod_loss_day * 0.3) * 30 * price):,}** |
+| Группа | Кол-во | Потеря/день | Потери за 30 дней | Сумма ({price} ₽/кг) |
+|--------|--------|-------------|-------------------|----------------------|
+| Критическое (>20%) | {len(critical)} | {round(crit_loss_day / max(len(critical), 1), 1)} кг | {crit_30} кг | {crit_30 * price:,} ₽ |
+| Умеренное (10-20%) | {len(moderate)} | {round(mod_loss_day / max(len(moderate), 1), 1)} кг | {mod_30} кг | {mod_30 * price:,} ₽ |
+| **ИТОГО** | **{len(critical) + len(moderate)}** | — | **{round((crit_loss_day + mod_loss_day) * 30, 1)} кг** | **{(crit_30 + mod_30) * price:,} ₽** |
 
 ---
 
-## 7. РЕКОМЕНДАЦИИ
-
-### 7.1 Немедленные действия (0-7 дней)
-- [ ] Проверить всех коров с критическим отклонением по RULE-001 (кетоз), RULE-006 (метрит), RULE-011 (мастит)
-- [ ] Забрать кровь/мочу на BHB у коров с DIM < 30 и низким удоем
-- [ ] Проверить качество ТМР и DMI в ранней лактации
-
-### 7.2 Краткосрочные действия (7-30 дней)
-- [ ] Настроить автоматические алерты RULE-012 для ежедневного мониторинга
-- [ ] Провести тренинг персонала по ранним признакам метаболических заболеваний
-- [ ] Оптимизировать рацион для групп с наибольшими отклонениями
-
-### 7.3 Долгосрочные действия (1-3 месяца)
-- [ ] Проанализировать генетическую реализацию потенциала — корректировать селекцию
-- [ ] Интегрировать данные удоя с данными здоровья (Rule Engine) в единый дашборд
-
----
-
-## 8. ПРИЛОЖЕНИЯ
-
-### 8.1 Исходные данные
-- Файл сырых данных: `herd_data.csv`
-- Дата выгрузки: {now}
-- Количество записей: {total_cows}
-
-### 8.2 Методология расчёта ожидаемой кривой
-- Используется стандартная лактационная кривая с поправкой на породу, парность и генетический потенциал
-- Бенчмарки основаны на `CS.ENTITY.031` (Milk yield)
-
-### 8.3 История изменений
-
-| Версия | Дата | Изменения | Автор |
-|--------|------|-----------|-------|
-| 1.0 | {now} | Первоначальная версия | generate_productivity_report.py |
-
----
-
-*Отчёт создан автоматически на основе:*
+*Отчёт создан автоматически:*
 - *RULE-012: Milk-Yield-Deviation-Alert*
+- *RULE-010: Culling-Decision-Support*
 - *CS.ENTITY.031: Milk yield*
-- *CS.SOTA.284: Milking the data for value-driven dairy farming*
 """
     return report
 
@@ -433,7 +378,7 @@ def main():
     with open(args.out, "w", encoding="utf-8") as f:
         f.write(report)
 
-    print(f"✓ Report generated: {args.out}")
+    print(f"✓ Productivity report generated: {args.out}")
     print(f"  Cows analyzed: {len(rows)}")
 
 
