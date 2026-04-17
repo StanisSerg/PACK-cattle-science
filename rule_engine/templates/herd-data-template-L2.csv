@@ -1,0 +1,13 @@
+cow_id,pen,dim,parity,milk_yield,pik_milk,pik_day,m305,insemination_count,reproduction_status,bhb,temperature,retained_placenta_hours,uterine_discharge_foul,clinical_milk_fever,calcium_mmol_l,scc,cmt_score,mastitis_cases_90d,locomotion_score,treatment_cost_90d,dmi_actual,bcs
+COW-001,1,15,2,18.0,35.0,45,7901,0,open,1.4,39.2,0,false,false,2.0,150000,1,0,2,0,18.0,3.0
+COW-002,1,45,3,24.0,38.0,40,8200,1,bred,0.9,38.6,0,false,false,2.1,120000,1,0,2,5000,22.0,3.0
+COW-003,1,90,4,44.0,46.0,45,9500,2,pregnant,0.7,38.5,0,false,false,2.2,80000,1,0,1,0,26.0,3.5
+COW-004,2,120,2,38.0,44.0,35,8800,1,pregnant,0.8,38.7,0,false,false,2.1,200000,2,1,2,3000,24.0,3.0
+COW-005,2,250,3,30.0,40.0,42,7600,3,open,0.6,38.4,0,false,false,2.0,450000,3,2,3,18000,20.0,2.5
+COW-006,2,10,2,12.0,25.0,30,7200,0,open,1.6,39.5,30,true,false,1.8,90000,1,0,3,12000,14.0,2.8
+COW-007,3,60,1,22.0,30.0,45,6500,1,bred,1.1,38.8,0,false,false,2.0,110000,1,0,2,2000,20.0,3.2
+COW-008,3,150,3,28.0,46.0,40,8100,2,pregnant,0.9,38.6,0,false,false,2.1,350000,2,1,3,8000,21.0,3.0
+COW-009,3,30,2,48.0,48.0,35,10500,0,open,0.8,38.5,0,false,false,2.2,70000,1,0,1,0,25.0,3.5
+COW-010,4,200,4,32.0,38.0,45,7400,4,open,0.7,38.5,0,false,false,2.0,600000,3,3,2,22000,19.0,3.0
+COW-011,4,5,2,8.0,20.0,30,6800,0,open,1.2,38.9,24,true,true,1.7,130000,1,0,2,0,16.0,3.0
+COW-012,4,80,3,36.0,45.0,40,9200,1,pregnant,0.9,38.7,0,false,false,2.1,95000,1,0,1,0,23.0,3.5
