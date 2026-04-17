@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from enterprise_loader import load_enterprise_csv
+from enterprise_loader import load_enterprise_csv, load_merged_csv
 from models import Prediction
 from rules import rule_010, rule_012
 
@@ -388,6 +388,25 @@ def generate_metabolism_report(rows: list[dict], farm_name: str = "FARM-001") ->
     chronic_rows = [row_fmt(r, "Системный осмотр: кетоз, хромота, мастит") for r in chronic_metabolic[:10]]
     late_rows = [row_fmt(r, "Проверить питание поздней лактации") for r in late_drop[:10]]
 
+    # L1 confirmed flags
+    l1_flags = []
+    for r in rows:
+        flags = []
+        if r.get("bhb") is not None and r["bhb"] >= 1.2:
+            flags.append(f"BHB {r['bhb']} ммоль/л (≥1.2)")
+        if r.get("temperature") is not None and r["temperature"] >= 39.2:
+            flags.append(f"Температура {r['temperature']} °C (лихорадка)")
+        if r.get("retained_placenta_hours") is not None and r["retained_placenta_hours"] > 24:
+            flags.append(f"RP {r['retained_placenta_hours']} ч")
+        if r.get("uterine_discharge_foul"):
+            flags.append("Гнойные выделения")
+        if r.get("clinical_milk_fever"):
+            flags.append("Клиническая молочная лихорадка")
+        if r.get("calcium_mmol_l") is not None and r["calcium_mmol_l"] < 2.0:
+            flags.append(f"Ca {r['calcium_mmol_l']} ммоль/л (<2.0)")
+        if flags:
+            l1_flags.append((r, flags))
+
     total_at_risk = len(all_risk_ids)
     transition_at_risk = len(set(r["cow_id"] for r in ketosis_candidates + hypocalcemia_candidates + metritis_candidates))
     missed_ketosis_cost = len(clinical_ketosis_candidates) * 28000
@@ -478,6 +497,12 @@ author: StanisSerg
 |-----------|-----|----------|------|-----------|------------|----------|
 {chr(10).join(metritis_rows) if metritis_rows else "| — | — | — | — | — | — | Нет кандидатов |"}
 
+### 3.5 Подтверждённые метаболические нарушения (L1 данные)
+
+| ID коровы | DIM | Парность | Флаги | Действие |
+|-----------|-----|----------|-------|----------|
+{chr(10).join([f"| {r['cow_id']} | {r['dim']} | {r['parity']} | {', '.join(flags)} | Срочный ветосмотр |" for r, flags in l1_flags]) if l1_flags else "| — | — | — | Нет подтверждённых флагов | — |"}
+
 ---
 
 ## 4. СКРИНИНГ РАННЕЙ И СРЕДНЕЙ ЛАКТАЦИИ
@@ -535,9 +560,13 @@ def main():
     parser.add_argument("csv", help="Path to Data.csv")
     parser.add_argument("--farm", "-f", default="ОАО", help="Farm name")
     parser.add_argument("--out-dir", "-d", default=".", help="Output directory")
+    parser.add_argument("--format", choices=["enterprise", "merged"], default="enterprise", help="CSV format")
     args = parser.parse_args()
 
-    rows = load_enterprise_csv(args.csv)
+    if args.format == "merged":
+        rows = load_merged_csv(args.csv)
+    else:
+        rows = load_enterprise_csv(args.csv)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     safe_farm = args.farm.replace(" ", "-").replace("/", "-")
 

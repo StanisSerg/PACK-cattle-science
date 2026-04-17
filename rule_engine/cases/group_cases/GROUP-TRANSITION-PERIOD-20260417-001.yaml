@@ -1,0 +1,200 @@
+case_id: GROUP-TRANSITION-PERIOD-20260417-001
+date_created: '2026-04-17'
+farm_id: Demo-Farm-12
+analyst: StanisSerg
+group:
+  type: transition_period
+  dim_range: 0-21
+  n_total: 3
+  n_tested: 3
+  n_at_risk: 3
+raw:
+  cows:
+    COW-001:
+      dim: 15
+      parity: 2
+      milk_yield_actual_kg: 18.0
+      milk_yield_expected_kg: 33.11
+      bhb: 0.3
+      temperature_c: 39.2
+      retained_placenta_hours: 0.0
+      uterine_discharge_foul: false
+      clinical_milk_fever: false
+      calcium_mmol_l: 2.0
+    COW-006:
+      dim: 10
+      parity: 2
+      milk_yield_actual_kg: 12.0
+      milk_yield_expected_kg: 27.35
+      bhb: 1.2
+      temperature_c: 39.5
+      retained_placenta_hours: 24.0
+      uterine_discharge_foul: true
+      clinical_milk_fever: false
+      calcium_mmol_l: 1.6
+    COW-011:
+      dim: 5
+      parity: 2
+      milk_yield_actual_kg: 8.0
+      milk_yield_expected_kg: 23.16
+      bhb: 0.2
+      temperature_c: 38.9
+      retained_placenta_hours: 24.0
+      uterine_discharge_foul: true
+      clinical_milk_fever: true
+      calcium_mmol_l: 1.5
+metrics:
+  milk:
+    mean_actual_kg: 12.67
+    mean_expected_kg: 27.87
+    mean_deviation_pct: -55.7
+  metabolic:
+    bhb_mean: 0.57
+    bhb_median: 0.3
+    prevalence_bhb_gt_1_2: 33.3
+    prevalence_ca_lt_2_0: 66.7
+    prevalence_fever: 66.7
+    temperature_mean_c: 39.2
+  reproduction:
+    prevalence_rp_gt_24h: 0.0
+    prevalence_foul_discharge: 66.7
+    prevalence_clinical_milk_fever: 33.3
+sub_cases:
+- cow_id: COW-006
+  role: boundary_case
+  rationale: BHB 1.2, Ca 1.6, T 39.5, гнойные выделения
+- cow_id: COW-011
+  role: boundary_case
+  rationale: Ca 1.5, молочная лихорадка, гнойные выделения
+- cow_id: COW-001
+  role: boundary_case
+  rationale: T 39.2
+derived_group:
+  milk_deviation_flag: true
+  milk_critical_flag: true
+  metabolic_cluster_flag: true
+  metabolic_critical_flag: true
+  high_prevalence_flag: true
+  adequate_test_coverage: true
+  group_health_index: 100
+  is_transition_group: true
+group_rule_results:
+- rule: RULE-001G
+  decision:
+    rule: RULE-001G
+    mode: group
+    severity: critical
+    confidence: high
+    verdict: RULE_001G_GROUP_TRANSITION_CRISIS
+    label: GROUP_TRANSITION_CRISIS
+    action: SYSTEMIC_INTERVENTION_MANDATORY
+    strategy: &id001
+      id: TRANSITION_CRISIS_V1
+      label: Кризис транзитного периода
+      actions:
+      - id: FULL_VET_CHECK
+        type: diagnostic
+        scope: group
+        target: all_transition_cows
+        mandatory: true
+      - id: RATION_CORRECTION
+        type: system
+        domain: nutrition
+        scope: group
+        mandatory: true
+      - id: TEMP_MONITORING
+        type: monitoring
+        scope: group
+        frequency: daily
+        duration_days: 14
+        mandatory: true
+      - id: SELECTIVE_PG
+        type: treatment
+        scope: individual
+        selection_rule: bhb >= 1.2 AND (dmi_ratio < 0.8 OR anorexia_hours > 12)
+        mandatory: false
+      constraints:
+        individual_override: false
+        rationale: systemic_crisis_detected_local_decisions_prohibited
+      success_criteria:
+      - metric: bhb_prevalence_gt_1_2
+        target: <25%
+        timeframe: 7-10 days
+      - metric: milk_deviation_mean
+        target: '> -15%'
+        timeframe: 14 days
+    reasoning:
+    - is_transition_group_true
+    - metabolic_cluster_detected
+    - milk_deviation_critical
+    - metabolic_flags_critical
+    - high_prevalence_at_risk
+    basis: &id002
+      group_health_index: 100
+      is_transition_group: true
+      metabolic_cluster_flag: true
+      milk_critical_flag: true
+      metabolic_critical_flag: true
+      high_prevalence_flag: true
+  prediction: &id003
+    primary_metric: bhb_prevalence_gt_1_2
+    target_value: < 25%
+    timeframe: 7-10 days
+    confidence: high
+    secondary_metrics:
+    - milk_deviation_mean
+    - group_health_index
+group_decision:
+  primary_rule: RULE-001G
+  verdicts:
+  - RULE_001G_GROUP_TRANSITION_CRISIS
+  severity: critical
+  label: GROUP_TRANSITION_CRISIS
+  action: SYSTEMIC_INTERVENTION_MANDATORY
+  strategy: *id001
+  reasoning:
+  - is_transition_group_true
+  - metabolic_cluster_detected
+  - milk_deviation_critical
+  - metabolic_flags_critical
+  - high_prevalence_at_risk
+  basis: *id002
+  timestamp: '2026-04-17T11:11:10.453532+00:00'
+group_prediction: *id003
+execution:
+  actions:
+  - id: FULL_VET_CHECK
+    mandatory: true
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  - id: RATION_CORRECTION
+    mandatory: true
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  - id: TEMP_MONITORING
+    mandatory: true
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  - id: SELECTIVE_PG
+    mandatory: false
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  summary:
+    mandatory_total: 3
+    mandatory_done: 0
+    mandatory_in_progress: 0
+    mandatory_missing: 3
+    execution_complete: false
+    incomplete_action_ids:
+    - FULL_VET_CHECK
+    - RATION_CORRECTION
+    - TEMP_MONITORING
+  last_updated: null

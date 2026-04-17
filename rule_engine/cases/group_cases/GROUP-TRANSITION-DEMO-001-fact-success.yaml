@@ -1,0 +1,14 @@
+metrics:
+  milk:
+    mean_deviation_pct: -12.0
+  metabolic:
+    prevalence_bhb_gt_1_2: 20.0
+
+derived_group:
+  group_health_index: 55
+
+execution_status:
+  FULL_VET_CHECK: done
+  RATION_CORRECTION: done
+  TEMP_MONITORING: done
+  SELECTIVE_PG: done

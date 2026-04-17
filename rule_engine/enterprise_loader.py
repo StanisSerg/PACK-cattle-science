@@ -135,10 +135,119 @@ def load_enterprise_csv(path: str) -> list[dict]:
             row["expected_305d_yield"] = row["m305"]
             row["milk_yield_current"] = row["milk_yield_actual"]
 
-            # Лактация
+                    # Лактация
             row["is_lactating"] = row["reproduction_status"] not in ("dry", "cull")
             row["dry_cow"] = row["reproduction_status"] == "dry"
             row["bcs"] = None
+
+            # Deviation
+            actual = row["milk_yield_actual"] or 0
+            expected = row["milk_yield_expected"] or 0
+            row["deviation_pct"] = round(((actual - expected) / expected) * 100, 1) if expected > 0 else 0.0
+
+            rows.append(row)
+    return rows
+
+
+def load_merged_csv(path: str) -> list[dict]:
+    """Загрузить merged_herd_data.csv (UTF-8, запятая) с полями L0+L1+L2."""
+    rows = []
+    with open(path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for raw in reader:
+            row = {}
+            # Идентификация
+            row["cow_id"] = str(raw.get("cow_id", "")).strip()
+            if not row["cow_id"]:
+                continue
+
+            # DIM и парность
+            row["dim"] = int(raw.get("dim", "0")) if raw.get("dim") else 0
+            row["parity"] = int(raw.get("parity", "0")) if raw.get("parity") else 0
+
+            # Удой
+            milk_str = raw.get("milk_yield", "0") or "0"
+            row["milk_yield"] = float(milk_str) if milk_str else 0.0
+            row["milk_yield_actual"] = row["milk_yield"]
+
+            # M305
+            m305_str = raw.get("m305", "0") or "0"
+            row["m305"] = float(m305_str) if m305_str else 0.0
+
+            # Pen
+            row["pen"] = raw.get("pen", "").strip()
+
+            # Пиковые данные (если есть)
+            pik_milk_str = raw.get("pik_milk", "")
+            row["pik_milk"] = float(pik_milk_str) if pik_milk_str != "" else None
+            pik_day_str = raw.get("pik_day", "")
+            row["peak_day"] = int(pik_day_str) if pik_day_str != "" else 45
+            row["peak_week"] = row["peak_day"] // 7 if row["peak_day"] > 0 else 6
+            row["milk_yield_peak"] = row["pik_milk"]
+
+            # Репродуктивный статус
+            row["reproduction_status"] = (raw.get("reproduction_status") or "").strip().lower()
+            row["pregnancy_status"] = row["reproduction_status"] if row["reproduction_status"] else "open"
+            insem_str = raw.get("insemination_count", "0") or "0"
+            row["insemination_count"] = int(insem_str)
+            row["reproductive_failures_count"] = max(0, row["insemination_count"] - 1)
+            row["days_open"] = None
+
+            # MilkBot expected yield (по M305)
+            row["milk_yield_expected"] = estimate_expected_yield_milkbot(row["dim"], row["m305"])
+
+            # Health / metabolic поля L1
+            bhb_str = raw.get("bhb", "")
+            row["bhb"] = float(bhb_str) if bhb_str != "" else None
+            temp_str = raw.get("temperature", "")
+            row["temperature"] = float(temp_str) if temp_str != "" else None
+            rp_str = raw.get("retained_placenta_hours", "")
+            row["retained_placenta_hours"] = float(rp_str) if rp_str != "" else None
+            row["uterine_discharge_foul"] = (raw.get("uterine_discharge_foul") or "").strip().lower() in ("true", "1", "yes", "да")
+            row["clinical_milk_fever"] = (raw.get("clinical_milk_fever") or "").strip().lower() in ("true", "1", "yes", "да")
+            ca_str = raw.get("calcium_mmol_l", "")
+            row["calcium_mmol_l"] = float(ca_str) if ca_str != "" else None
+
+            # L2 поля (если есть)
+            scc_str = raw.get("scc", "")
+            row["scc"] = float(scc_str) if scc_str != "" else None
+            cmt_str = raw.get("cmt_score", "")
+            row["cmt_score"] = float(cmt_str) if cmt_str != "" else None
+            mast_str = raw.get("mastitis_cases_90d", "0") or "0"
+            row["mastitis_cases_90d"] = int(mast_str)
+            loco_str = raw.get("locomotion_score", "")
+            row["locomotion_score"] = float(loco_str) if loco_str != "" else None
+            treat_str = raw.get("treatment_cost_90d", "0") or "0"
+            row["treatment_cost_90d"] = float(treat_str)
+            dmi_str = raw.get("dmi_actual", "")
+            row["dmi_actual"] = float(dmi_str) if dmi_str != "" else None
+            bcs_str = raw.get("bcs", "")
+            row["bcs"] = float(bcs_str) if bcs_str != "" else None
+
+            # metabolic_issues_count — прокси для RULE-010
+            metabolic_count = 0
+            if row.get("bhb") is not None and row["bhb"] >= 1.2:
+                metabolic_count += 1
+            if row.get("calcium_mmol_l") is not None and row["calcium_mmol_l"] < 2.0:
+                metabolic_count += 1
+            if row.get("clinical_milk_fever"):
+                metabolic_count += 1
+            row["metabolic_issues_count"] = metabolic_count
+
+            # Остальные заглушки RULE-010
+            row["heifer_available"] = False
+            row["genetic_value"] = None
+            row["recent_purchase"] = False
+            row["embryo_transfer"] = False
+            row["expected_305d_yield"] = row["m305"]
+            row["milk_yield_current"] = row["milk_yield_actual"]
+
+            # Статус лактации
+            row["is_lactating"] = row["reproduction_status"] not in ("dry", "cull")
+            row["dry_cow"] = row["reproduction_status"] == "dry"
+            row["veterinary_hold"] = row["reproduction_status"] == "cull"
+            row["in_heat"] = False
+            row["barren"] = False
 
             # Deviation
             actual = row["milk_yield_actual"] or 0
