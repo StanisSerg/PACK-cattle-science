@@ -6,7 +6,8 @@ import PyPDF2
 import glob
 
 def extract_all_pdfs():
-    base_dir = 'd:/Exocortex-V2/PACK-cattle-science/process/ingestion/new-articles'
+    from pathlib import Path
+    base_dir = str(Path(__file__).resolve().parent.parent / "process/ingestion/new-articles")
     
     # Find all PDFs
     pdfs = []

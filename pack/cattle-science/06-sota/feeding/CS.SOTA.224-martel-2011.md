@@ -570,7 +570,7 @@ Martel, C.A., Titgemeyer, E.C., Mamedova, L.K., & Bradford, B.J. (2011). Dietary
 
 **Источник:** Martel et al. 2011, Journal of Dairy Science
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Martel и др. - 2011 - Dietary molasses increases ruminal pH and enhances...`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Martel и др. - 2011 - Dietary molasses increases ruminal pH and enhances...`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

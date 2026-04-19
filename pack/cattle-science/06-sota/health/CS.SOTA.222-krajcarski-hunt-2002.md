@@ -522,7 +522,7 @@ Krajcarski-Hunt, H., Plaizier, J.C., Walton, J.P., Spratt, R., & McBride, B.W. (
 
 **Источник:** Krajcarski-Hunt et al. 2002, Journal of Dairy Science
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Krajcarski-Hunt и др. - 2002 - Short Communication Effect of Subacute Ruminal Acidosis...`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Krajcarski-Hunt и др. - 2002 - Short Communication Effect of Subacute Ruminal Acidosis...`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

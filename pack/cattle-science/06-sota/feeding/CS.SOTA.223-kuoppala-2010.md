@@ -514,7 +514,7 @@ Kuoppala, K., Rinne, M., Ahvenjärvi, S., Nousiainen, J., & Huhtanen, P. (2010).
 
 **Источник:** Kuoppala et al. 2010, Journal of Dairy Science
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Kuoppala et al. - 2010 - The effect of harvesting strategy of grass silage...`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Kuoppala et al. - 2010 - The effect of harvesting strategy of grass silage...`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

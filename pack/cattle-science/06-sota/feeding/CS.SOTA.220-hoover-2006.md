@@ -546,7 +546,7 @@ Hoover, W.H., Tucker, C., Harris, J., Sniffen, C.J., & de Ondarza, M.B. (2006). 
 
 **Источник:** Hoover et al. 2006, Animal Feed Science and Technology
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Hoover et al. - 2006 - Effects of nonstructural carbohydrate level and starchsugar ratio...`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Hoover et al. - 2006 - Effects of nonstructural carbohydrate level and starchsugar ratio...`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

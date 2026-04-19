@@ -922,8 +922,8 @@ Homan, A.N., Ziegler, G., Kaylegian, K.E., & Harvatine, K.J. (2025). The effect 
 | **Режим создания** | ГЛУБОКО (WP-75) |
 | **Исполнитель** | Kimi Code CLI |
 | **Время создания** | ~45 минут |
-| **Файл источника** | `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W15/Homan и др. - 2025 - The effect of increasing dietary palmitic and stearic acid on melting properties of milk fat from Ho.pdf` |
-| **Шаблон** | `/root/IWE/PACK-cattle-science/pack/cattle-science/TEMPLATES/SOTA-TEMPLATE.md` v1.4 |
+| **Файл источника** | `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W15/Homan и др. - 2025 - The effect of increasing dietary palmitic and stearic acid on melting properties of milk fat from Ho.pdf` |
+| **Шаблон** | `$HOME/projects/IWE/PACK-cattle-science/pack/cattle-science/TEMPLATES/SOTA-TEMPLATE.md` v1.4 |
 
 ## Статус разделов:
 

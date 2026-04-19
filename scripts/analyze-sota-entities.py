@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 
-BASE_DIR = Path("/root/IWE/PACK-cattle-science/pack/cattle-science")
+BASE_DIR = Path(__file__).resolve().parent.parent / "pack/cattle-science"
 SOTA_DIR = BASE_DIR / "06-sota"
 ENTITY_DIR = BASE_DIR / "02-domain-entities"
 

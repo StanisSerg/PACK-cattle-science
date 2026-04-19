@@ -541,7 +541,7 @@ Havekes, C.D., Duffield, T.F., Carpenter, A.J., & DeVries, T.J. (2020). Effects 
 
 **Источник:** Havekes et al. 2020, Journal of Dairy Science
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Havekes и др. - 2020 - Effects of molasses-based liquid feed supplementation...`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Havekes и др. - 2020 - Effects of molasses-based liquid feed supplementation...`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

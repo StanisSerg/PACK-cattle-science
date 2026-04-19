@@ -11,7 +11,7 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
-BASE_DIR = Path("/root/IWE/PACK-cattle-science/pack/cattle-science")
+BASE_DIR = Path(__file__).resolve().parent.parent / "pack/cattle-science"
 ENTITY_DIR = BASE_DIR / "02-domain-entities"
 SOTA_DIR = BASE_DIR / "06-sota"
 

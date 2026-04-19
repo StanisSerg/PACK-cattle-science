@@ -2,7 +2,8 @@
 import os
 import re
 
-base_dir = 'd:/Exocortex-V2/PACK-cattle-science/process/ingestion/new-articles'
+from pathlib import Path
+base_dir = str(Path(__file__).resolve().parent.parent / "process/ingestion/new-articles")
 
 results = []
 for root, dirs, files in os.walk(base_dir):
@@ -13,7 +14,7 @@ for root, dirs, files in os.walk(base_dir):
                 results.append(os.path.join(root, f))
 
 # Write to file
-with open('d:/Exocortex-V2/PACK-cattle-science/scripts/found_pdfs.txt', 'w', encoding='utf-8') as out:
+with open(str(Path(__file__).resolve().parent / "found_pdfs.txt"), 'w', encoding='utf-8') as out:
     for r in results:
         out.write(r + '\n')
 

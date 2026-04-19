@@ -24,7 +24,7 @@ def estimate_expected_yield(dim: int, peak_milk: float, peak_day: int, parity: i
 
 def load_herd_csv(path: str) -> list[dict]:
     rows = []
-    with open(path, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
             # Целочисленные поля

@@ -594,7 +594,7 @@ Heyerhoff, C. (2009). How Good is Your Heifer Rearing Program? *Proceedings - Di
 
 **Источник:** Heyerhoff - How Good is Your Heifer Rearing Program?
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Heyerhoff - How Good is Your Heifer Rearing Program.pdf`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Heyerhoff - How Good is Your Heifer Rearing Program.pdf`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

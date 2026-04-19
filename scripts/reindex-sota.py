@@ -11,7 +11,7 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
-BASE_DIR = Path("/root/IWE/PACK-cattle-science/pack/cattle-science")
+BASE_DIR = Path(__file__).resolve().parent.parent / "pack/cattle-science"
 SOTA_DIR = BASE_DIR / "06-sota"
 MAP_DIR = BASE_DIR / "07-map"
 SHARD_DIR = MAP_DIR / "sota-index"

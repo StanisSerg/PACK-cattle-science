@@ -576,7 +576,7 @@ Knight, C.H. (2005). Extended Lactation: Turning Theory into Reality. *Advances 
 
 **Источник:** Knight 2005, Advances in Dairy Technology
 
-**PDF файл:** `/root/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Knight - Extended Lactation turning theory into reality.pdf`
+**PDF файл:** `$HOME/projects/IWE/PACK-cattle-science/process/ingestion/new-articles/W16/Knight - Extended Lactation turning theory into reality.pdf`
 
 **Режим обработки:** ГЛУБОКО (полная структура 13 разделов)
 

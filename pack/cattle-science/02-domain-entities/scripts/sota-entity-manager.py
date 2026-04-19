@@ -28,7 +28,7 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Tuple, Set
 
 # Configuration
-PACK_ROOT = Path("d:/Exocortex-V2/PACK-cattle-science/pack/cattle-science")
+PACK_ROOT = Path(__file__).resolve().parent.parent.parent
 SOTA_DIR = PACK_ROOT / "06-sota"
 ENTITIES_DIR = PACK_ROOT / "02-domain-entities"
 TEMPLATE_FILE = ENTITIES_DIR / "00-entity-template.md"
