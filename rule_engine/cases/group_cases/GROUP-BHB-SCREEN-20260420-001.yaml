@@ -1,0 +1,173 @@
+case_id: GROUP-BHB-SCREEN-20260420-001
+date_created: '2026-04-20'
+farm_id: ОАО-МТК
+analyst: StanisSerg
+group:
+  type: transition_period
+  dim_range: 3-14
+  n_total: 9
+  n_tested: 9
+  n_at_risk: 4
+raw:
+  cows:
+    COW-100:
+      dim: 6
+      parity: 2
+      bhb: 0.8
+    COW-101:
+      dim: 6
+      parity: 2
+      bhb: 0.1
+    COW-102:
+      dim: 6
+      parity: 2
+      bhb: 1.2
+    COW-103:
+      dim: 6
+      parity: 2
+      bhb: 0.2
+    COW-104:
+      dim: 6
+      parity: 2
+      bhb: 0.9
+    COW-105:
+      dim: 6
+      parity: 2
+      bhb: 0.7
+    COW-106:
+      dim: 6
+      parity: 2
+      bhb: 1.1
+    COW-107:
+      dim: 6
+      parity: 2
+      bhb: 1.6
+    COW-108:
+      dim: 6
+      parity: 2
+      bhb: 1.4
+metrics:
+  milk:
+    mean_actual_kg: null
+    mean_expected_kg: null
+    mean_deviation_pct: null
+  metabolic:
+    bhb_mean: 0.82
+    bhb_median: 0.8
+    prevalence_bhb_gt_1_2: 33.3
+    prevalence_ca_lt_2_0: 0.0
+    prevalence_fever: 0.0
+    temperature_mean_c: null
+  reproduction:
+    prevalence_rp_gt_24h: 0.0
+    prevalence_foul_discharge: 0.0
+    prevalence_clinical_milk_fever: 0.0
+sub_cases:
+- cow_id: COW-107
+  ref: cases/test_suite/R002-triggered.yaml
+  role: boundary_case
+  rationale: BHB 1.6 — наиболее выраженный субклинический кетоз в группе
+- cow_id: COW-108
+  ref: cases/test_suite/R002-triggered.yaml
+  role: boundary_case
+  rationale: BHB 1.4 — подтверждённый SCK, требует PG-протокола
+- cow_id: COW-102
+  ref: cases/test_suite/R002-triggered.yaml
+  role: boundary_case
+  rationale: BHB 1.2 — пороговое значение, граница trigger/gray
+- cow_id: COW-106
+  ref: cases/test_suite/R002-gray.yaml
+  role: boundary_case
+  rationale: BHB 1.1 — серая зона, требует повторного контроля
+derived_group:
+  milk_deviation_flag: false
+  milk_critical_flag: false
+  metabolic_cluster_flag: true
+  metabolic_critical_flag: false
+  high_prevalence_flag: false
+  adequate_test_coverage: true
+  group_health_index: 25
+  is_transition_group: false
+group_rule_results:
+- rule: RULE-001G
+  decision:
+    rule: RULE-001G
+    mode: group
+    severity: medium
+    confidence: medium
+    verdict: RULE_001G_MEDIUM_RISK
+    label: GROUP_METABOLIC_ELEVATED
+    action: ADJUST_RATION_AND_MONITOR
+    strategy: &id001
+      id: TRANSITION_ELEVATED_V1
+      label: Повышенный метаболический фон группы
+      actions:
+      - id: RATION_ADJUST
+        type: system
+        domain: nutrition
+        scope: group
+        mandatory: false
+      - id: BHB_SPOT_CHECK
+        type: diagnostic
+        scope: group
+        target: boundary_cases
+        mandatory: false
+      constraints:
+        individual_override: true
+        rationale: elevated_metabolic_background_monitor_and_adjust
+      success_criteria:
+      - metric: milk_deviation_mean
+        target: '> -10%'
+        timeframe: 14 days
+    reasoning:
+    - metabolic_cluster_detected
+    basis: &id002
+      group_health_index: 25
+      is_transition_group: false
+      metabolic_cluster_flag: true
+      milk_critical_flag: false
+      metabolic_critical_flag: false
+      high_prevalence_flag: false
+  prediction: &id003
+    primary_metric: bhb_prevalence_gt_1_2
+    target_value: < 25%
+    timeframe: 7-10 days
+    confidence: medium
+    secondary_metrics:
+    - milk_deviation_mean
+    - group_health_index
+group_decision:
+  primary_rule: RULE-001G
+  verdicts:
+  - RULE_001G_MEDIUM_RISK
+  severity: medium
+  label: GROUP_METABOLIC_ELEVATED
+  action: ADJUST_RATION_AND_MONITOR
+  strategy: *id001
+  reasoning:
+  - metabolic_cluster_detected
+  basis: *id002
+  timestamp: '2026-04-20T18:53:36.432791+00:00'
+group_prediction: *id003
+execution:
+  actions:
+  - id: RATION_ADJUST
+    mandatory: false
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  - id: BHB_SPOT_CHECK
+    mandatory: false
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  summary:
+    mandatory_total: 0
+    mandatory_done: 0
+    mandatory_in_progress: 0
+    mandatory_missing: 0
+    execution_complete: true
+    incomplete_action_ids: []
+  last_updated: null

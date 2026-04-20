@@ -1,0 +1,208 @@
+case_id: GROUP-CALCIUM-PH-20260420-002
+date_created: '2026-04-20'
+farm_id: ОАО-МТК
+analyst: StanisSerg
+group:
+  type: close_up_period
+  dim_range: -21-0
+  n_total: 9
+  n_tested: 9
+  n_at_risk: 5
+raw:
+  cows:
+    COW-201:
+      dim: -5
+      parity: 2
+      tca: 2.0
+      ph_close_up: 6.3
+    COW-202:
+      dim: -5
+      parity: 2
+      tca: 1.9
+      ph_close_up: 7.4
+    COW-203:
+      dim: -5
+      parity: 2
+      tca: 2.2
+      ph_close_up: 6.1
+    COW-204:
+      dim: -5
+      parity: 2
+      tca: 2.4
+      ph_close_up: 6.2
+    COW-205:
+      dim: -5
+      parity: 2
+      tca: 1.6
+      ph_close_up: 6.0
+    COW-206:
+      dim: -5
+      parity: 2
+      tca: 1.9
+      ph_close_up: 7.3
+    COW-207:
+      dim: -5
+      parity: 2
+      tca: 2.0
+      ph_close_up: 5.9
+    COW-208:
+      dim: -5
+      parity: 2
+      tca: 2.2
+      ph_close_up: 5.4
+    COW-209:
+      dim: -5
+      parity: 2
+      tca: 2.1
+      ph_close_up: 6.5
+metrics:
+  milk:
+    mean_actual_kg: null
+    mean_expected_kg: null
+    mean_deviation_pct: null
+  metabolic:
+    bhb_mean: null
+    bhb_median: null
+    prevalence_bhb_gt_1_2: 0.0
+    prevalence_ca_lt_2_0: 33.3
+    prevalence_fever: 0.0
+    temperature_mean_c: null
+  reproduction:
+    prevalence_rp_gt_24h: 0.0
+    prevalence_foul_discharge: 0.0
+    prevalence_clinical_milk_fever: 0.0
+sub_cases:
+- cow_id: COW-205
+  ref: cases/test_suite/R005-emergency.yaml
+  role: boundary_case
+  rationale: tCa 1.6 — критическая гипокальceмия, требует немедленного вмешательства
+- cow_id: COW-202
+  ref: cases/test_suite/R005-dcad-high.yaml
+  role: boundary_case
+  rationale: tCa 1.9 + pH 7.4 — пограничный Ca + щелочная моча, недостаточная анионная
+    диета
+- cow_id: COW-206
+  ref: cases/test_suite/R005-dcad-high.yaml
+  role: boundary_case
+  rationale: tCa 1.9 + pH 7.3 — пограничный Ca + щелочная моча, риск послеродовой
+    гипокальceмии
+- cow_id: COW-208
+  ref: cases/test_suite/R005-dcad-high.yaml
+  role: boundary_case
+  rationale: pH 5.4 — избыточно кислая моча, возможен анионный перебор
+- cow_id: COW-207
+  ref: cases/test_suite/R005-dcad-high.yaml
+  role: boundary_case
+  rationale: pH 5.9 — кислая моча, граница нормы, проверить DCAD
+derived_group:
+  milk_deviation_flag: false
+  milk_critical_flag: false
+  metabolic_cluster_flag: true
+  metabolic_critical_flag: false
+  high_prevalence_flag: true
+  adequate_test_coverage: true
+  group_health_index: 35
+  is_transition_group: true
+group_rule_results:
+- rule: RULE-001G
+  decision:
+    rule: RULE-001G
+    mode: group
+    severity: high
+    confidence: high
+    verdict: RULE_001G_HIGH_RISK
+    label: GROUP_METABOLIC_HIGH_RISK
+    action: SYSTEMIC_INTERVENTION_REQUIRED
+    strategy: &id001
+      id: TRANSITION_HIGH_RISK_V1
+      label: Высокий метаболический риск группы
+      actions:
+      - id: RATION_REVIEW
+        type: system
+        domain: nutrition
+        scope: group
+        mandatory: true
+      - id: BHB_SCREENING
+        type: diagnostic
+        scope: group
+        target: all_fresh_cows_dim_lt_21
+        mandatory: true
+      - id: SELECTIVE_PG
+        type: treatment
+        scope: individual
+        selection_rule: bhb >= 1.2
+        mandatory: false
+      constraints:
+        individual_override: true
+        rationale: high_risk_but_not_crisis_individual_decisions_allowed
+      success_criteria:
+      - metric: bhb_prevalence_gt_1_2
+        target: <25%
+        timeframe: 10 days
+      - metric: group_health_index
+        target: <60
+        timeframe: 10 days
+    reasoning:
+    - is_transition_group_true
+    - metabolic_cluster_detected
+    - high_prevalence_at_risk
+    basis: &id002
+      group_health_index: 35
+      is_transition_group: true
+      metabolic_cluster_flag: true
+      milk_critical_flag: false
+      metabolic_critical_flag: false
+      high_prevalence_flag: true
+  prediction: &id003
+    primary_metric: bhb_prevalence_gt_1_2
+    target_value: < 25%
+    timeframe: 7-10 days
+    confidence: high
+    secondary_metrics:
+    - milk_deviation_mean
+    - group_health_index
+group_decision:
+  primary_rule: RULE-001G
+  verdicts:
+  - RULE_001G_HIGH_RISK
+  severity: high
+  label: GROUP_METABOLIC_HIGH_RISK
+  action: SYSTEMIC_INTERVENTION_REQUIRED
+  strategy: *id001
+  reasoning:
+  - is_transition_group_true
+  - metabolic_cluster_detected
+  - high_prevalence_at_risk
+  basis: *id002
+  timestamp: '2026-04-20T18:53:36.601599+00:00'
+group_prediction: *id003
+execution:
+  actions:
+  - id: RATION_REVIEW
+    mandatory: true
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  - id: BHB_SCREENING
+    mandatory: true
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  - id: SELECTIVE_PG
+    mandatory: false
+    status: planned
+    started_at: null
+    completed_at: null
+    notes: null
+  summary:
+    mandatory_total: 2
+    mandatory_done: 0
+    mandatory_in_progress: 0
+    mandatory_missing: 2
+    execution_complete: false
+    incomplete_action_ids:
+    - BHB_SCREENING
+    - RATION_REVIEW
+  last_updated: null
