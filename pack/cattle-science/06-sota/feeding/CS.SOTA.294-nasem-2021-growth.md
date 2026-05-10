@@ -357,7 +357,7 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Table 11-1: Publications Used to Develop Equations for Composition of Gain in Dairy Heifers**
 
-![Table 11-1](CS.SOTA.294-table-11-1.png)
+![Table 11-1](CS.SOTA.294-media/CS.SOTA.294-table-11-1.png)
 
 **Название в книге:** Publications Used to Develop Equations for Composition of Gain in Dairy Heifers
 **Источник:** NASEM 2021, Chapter 11, стр. 257
@@ -378,7 +378,7 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Figure 11-1: Fat and protein content of EBW in Holstein cattle**
 
-![Figure 11-1](CS.SOTA.294-figure-11-1.png)
+![Figure 11-1](CS.SOTA.294-media/CS.SOTA.294-figure-11-1.png)
 
 **Название в книге:** Fat and protein content of EBW in Holstein cattle
 **Источник:** NASEM 2021, Chapter 11, стр. 258
@@ -398,7 +398,7 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Figure 11-2: Expected fat, protein, and energy content of ADG**
 
-![Figure 11-2](CS.SOTA.294-figure-11-2.png)
+![Figure 11-2](CS.SOTA.294-media/CS.SOTA.294-figure-11-2.png)
 
 **Название в книге:** Expected fat, protein, and energy content of ADG in cattle from weaning to first calving
 **Источник:** NASEM 2021, Chapter 11, стр. 259
@@ -419,7 +419,7 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Table 11-2: Target Weights (kg), Ages, and ADGs for Growing Dairy Cattle**
 
-![Table 11-2](CS.SOTA.294-table-11-2.png)
+![Table 11-2](CS.SOTA.294-media/CS.SOTA.294-table-11-2.png)
 
 **Название в книге:** Target Weights (kg), Ages, and ADGs (kg/d) for Growing Dairy Cattle
 **Источник:** NASEM 2021, Chapter 11, стр. 261
@@ -560,7 +560,7 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Table 11-3: Requirements for Energy and Protein in Heifers with MatBW of 700 kg**
 
-![Table 11-3](CS.SOTA.294-table-11-3.png)
+![Table 11-3](CS.SOTA.294-media/CS.SOTA.294-table-11-3.png)
 
 **Название в книге:** Requirements for Energy and Protein in Heifers with MatBW of 700 kg
 **Источник:** NASEM 2021, Chapter 11, стр. 263
@@ -580,7 +580,7 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Table 11-4: Requirements for Energy and Protein in Heifers with MatBW of 520 kg**
 
-![Table 11-4](CS.SOTA.294-table-11-4.png)
+![Table 11-4](CS.SOTA.294-media/CS.SOTA.294-table-11-4.png)
 
 **Название в книге:** Requirements for Energy and Protein in Heifers with MatBW of 520 kg
 **Источник:** NASEM 2021, Chapter 11, стр. 264
