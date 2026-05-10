@@ -430,7 +430,9 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 ---
 
-**[СКРИНШОТ] Table 11-3: Requirements for Energy and Protein in Heifers with MatBW of 700 kg**
+**Table 11-3: Requirements for Energy and Protein in Heifers with MatBW of 700 kg**
+
+![Table 11-3](CS.SOTA.294-table-11-3.png)
 
 **Название в книге:** Requirements for Energy and Protein in Heifers with MatBW of 700 kg
 **Источник:** NASEM 2021, Chapter 11, стр. 263
@@ -449,7 +451,9 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 ---
 
-**[СКРИНШОТ] Table 11-4: Requirements for Energy and Protein in Heifers with MatBW of 520 kg**
+**Table 11-4: Requirements for Energy and Protein in Heifers with MatBW of 520 kg**
+
+![Table 11-4](CS.SOTA.294-table-11-4.png)
 
 **Название в книге:** Requirements for Energy and Protein in Heifers with MatBW of 520 kg
 **Источник:** NASEM 2021, Chapter 11, стр. 264
@@ -698,6 +702,7 @@ National Academies of Sciences, Engineering, and Medicine. 2021. *Nutrient Requi
 | 2026-05-10 | Извлечение текста из PDF, структурирование уравнений | Стратег (R1) | v1.0 |
 | 2026-05-10 | Добавление медиа-инвентаря, FAQ, практического применения | Стратег (R1) | v1.0 |
 | 2026-05-10 | Добавление секции 5.4 (протеин:энергия), Equations 11-10/11-11, Tables 11-3/11-4, обновление FAQ | Стратег (R1) | v1.1 |
+| 2026-05-10 | Вставка скриншотов Table 11-3 и Table 11-4 как PNG изображения | Стратег (R1) | v1.2 |
 | | | | |
 
 **Следующие шаги:**
