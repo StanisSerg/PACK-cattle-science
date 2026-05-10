@@ -737,10 +737,11 @@ National Academies of Sciences, Engineering, and Medicine. 2021. *Nutrient Requi
 | 2026-05-10 | Добавление секции 5.4 (протеин:энергия), Equations 11-10/11-11, Tables 11-3/11-4, обновление FAQ | Стратег (R1) | v1.1 |
 | 2026-05-10 | Вставка скриншотов Table 11-3 и Table 11-4 как PNG изображения | Стратег (R1) | v1.2 |
 | 2026-05-10 | Добавление всех скриншотов главы: Table 11-1, Figure 11-1, Figure 11-2, Table 11-2, Table 11-3, Table 11-4 (6 PNG) | Стратег (R1) | v1.3 |
+| 2026-05-10 | Автоматическая обрезка PNG: PyMuPDF clip по bounding box таблиц/графиков (экономия ~62%, 3.3→1.24 MB) | Стратег (R1) | v1.4 |
 | | | | |
 
 **Следующие шаги:**
-- [ ] Добавить скриншоты Figure 11-1, 11-2, Table 11-1
+- [x] Добавить скриншоты Figure 11-1, 11-2, Table 11-1
 - [ ] Создать Excel-калькулятор
 - [ ] Провести Entity Integration (`./scripts/post-sota-check.sh --last`)
 - [ ] Обновить индексы (`python3 scripts/reindex-sota.py`)
@@ -750,4 +751,4 @@ National Academies of Sciences, Engineering, and Medicine. 2021. *Nutrient Requi
 
 *CS.SOTA.294 | NASEM 2021 Chapter 11 — Growth*  
 *Создан: 2026-05-10*  
-*Статус: v1.0 (полная структура, требует скриншотов и Entity Integration)*
+*Статус: v1.4 (полная структура, обрезанные скриншоты, требует Entity Integration)*
