@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (158 SoTA)
+> Шард индекса: feeding (159 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,8 +10,8 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 158 |
-| P0 (Фундаментальные) | 4 |
+| Всего SoTA | 159 |
+| P0 (Фундаментальные) | 5 |
 | P1 (Критически важные) | 21 |
 | P2 (Важные) | 133 |
 | P3 (Дополнительные) | 0 |
@@ -20,7 +20,7 @@
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
-| Reference-book | 3 |
+| Reference-book | 4 |
 | Review | 46 |
 | Simulation | 5 |
 
@@ -188,6 +188,7 @@
 | [CS.SOTA.294](../../06-sota/feeding/CS.SOTA.294-nasem-2021-growth.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, growth` | См. файл для деталей |
 | [CS.SOTA.295](../../06-sota/feeding/CS.SOTA.295-nasem-2021-energy.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, energy` | См. файл для деталей |
 | [CS.SOTA.296](../../06-sota/feeding/CS.SOTA.296-nasem-2021-fat.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, fatty-acids` | См. файл для деталей |
+| [CS.SOTA.297](../../06-sota/feeding/CS.SOTA.297-nasem-2021-carbohydrates.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, carbohydrates` | См. файл для деталей |
 
 ---
 
@@ -200,4 +201,4 @@
 ---
 
 *Шард обновлён: 2026-05-10*
-*Автоматическая генерация: 158 SoTA*
+*Автоматическая генерация: 159 SoTA*
