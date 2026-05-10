@@ -739,6 +739,7 @@ National Academies of Sciences, Engineering, and Medicine. 2021. *Nutrient Requi
 | 2026-05-10 | Добавление всех скриншотов главы: Table 11-1, Figure 11-1, Figure 11-2, Table 11-2, Table 11-3, Table 11-4 (6 PNG) | Стратег (R1) | v1.3 |
 | 2026-05-10 | Автоматическая обрезка PNG: PyMuPDF clip по bounding box таблиц/графиков (экономия ~62%, 3.3→1.24 MB) | Стратег (R1) | v1.4 |
 | 2026-05-10 | Переобрезка таблиц: включены footnotes/captions (Table 11-1: Heifers+Calves+Cows; Table 11-3/11-4: примечания) | Стратег (R1) | v1.5 |
+| 2026-05-10 | Умная обрезка: автоопределение описаний с FIGURE/TABLE после таблиц (Table 11-1: +описание до Eq 11-4a) | Стратег (R1) | v1.6 |
 | | | | |
 
 **Следующие шаги:**
@@ -752,4 +753,4 @@ National Academies of Sciences, Engineering, and Medicine. 2021. *Nutrient Requi
 
 *CS.SOTA.294 | NASEM 2021 Chapter 11 — Growth*  
 *Создан: 2026-05-10*  
-*Статус: v1.5 (полная структура, обрезанные скриншоты с footnotes, требует Entity Integration)*
+*Статус: v1.6 (полная структура, умная обрезка скриншотов, требует Entity Integration)*
