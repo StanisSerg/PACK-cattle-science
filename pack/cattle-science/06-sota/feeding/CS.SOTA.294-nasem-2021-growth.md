@@ -249,7 +249,9 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 ### 4.3. Медиа-инвентарь
 
-**[СКРИНШОТ] Table 11-1: Publications Used to Develop Equations for Composition of Gain in Dairy Heifers**
+**Table 11-1: Publications Used to Develop Equations for Composition of Gain in Dairy Heifers**
+
+![Table 11-1](CS.SOTA.294-table-11-1.png)
 
 **Название в книге:** Publications Used to Develop Equations for Composition of Gain in Dairy Heifers
 **Источник:** NASEM 2021, Chapter 11, стр. 257
@@ -269,7 +271,9 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 ---
 
-**[СКРИНШОТ] Figure 11-1: Fat and protein content of EBW in Holstein cattle**
+**Figure 11-1: Fat and protein content of EBW in Holstein cattle**
+
+![Figure 11-1](CS.SOTA.294-figure-11-1.png)
 
 **Название в книге:** Fat and protein content of EBW in Holstein cattle
 **Источник:** NASEM 2021, Chapter 11, стр. 258
@@ -288,7 +292,9 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 ---
 
-**[СКРИНШОТ] Figure 11-2: Expected fat, protein, and energy content of ADG**
+**Figure 11-2: Expected fat, protein, and energy content of ADG**
+
+![Figure 11-2](CS.SOTA.294-figure-11-2.png)
 
 **Название в книге:** Expected fat, protein, and energy content of ADG in cattle from weaning to first calving
 **Источник:** NASEM 2021, Chapter 11, стр. 259
@@ -304,6 +310,30 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 
 **Комментарий лектора:**
 > "Смотрите на расхождение между чёрной и красными линиями. Для телки 200 кг старая модель недооценивала жир почти на 30%. А разница между быстрым и медленным ростом — всего 7%. Это означает: не гонитесь за точной скоростью роста при расчёте энергии, главное — стадия роста."
+
+
+---
+
+**Table 11-2: Target Weights (kg), Ages, and ADGs for Growing Dairy Cattle**
+
+![Table 11-2](CS.SOTA.294-table-11-2.png)
+
+**Название в книге:** Target Weights (kg), Ages, and ADGs (kg/d) for Growing Dairy Cattle
+**Источник:** NASEM 2021, Chapter 11, стр. 261
+**Тип:** таблица целевых показателей
+
+**Описание:**
+Целевые веса, возрасты и среднесуточные приросты для молочных телок. Даны значения для Хольштейнов (MatBW 700 кг) и Джерси (MatBW 520 кг). Включает: вес при рождении, отъёме, осеменении, первом и втором отёлах, а также ADG для пре- и постпубертатного периода.
+
+**Ключевые элементы для лекции:**
+- Хольштейн: вес при осеменении 385 кг (55% MatBW), при первом отёле 638 кг (91%)
+- Джерси: вес при осеменении 286 кг (55% MatBW), при первом отёле 426 кг (82%)
+- Препубертатный ADG: Хольштейн 0,90 кг/д, Джерси 0,67 кг/д
+- Постпубертатный ADG: Хольштейн 0,69 кг/д, Джерси 0,51 кг/д
+- Верхний порог для препубертатных телок Джерси: ~750 г/д
+
+**Комментарий лектора:**
+> "Эта таблица — ваш чек-лист. Если телка к 13 месяцам весит 380 кг — она на плане. Если 320 кг — срочно корректируйте рацион. Обратите внимание: после первого отёла вес падает с 638 до 574 кг — это нормально, это потеря при плоде и околоплодных водах."
 
 ---
 
@@ -520,8 +550,11 @@ If MP (г/д) < (53 - 25 × BW/MatBW) × ME (Mcal/д):
 | 1 | Table 11-1 | 257 | Обоснование: 26 исследований |
 | 2 | Figure 11-1 | 258 | Состав EBW по стадиям роста |
 | 3 | Figure 11-2 | 259 | Сравнение NASEM vs NRC |
-| 4 | Equations 11-4 — 11-6 | 258 | Уравнения состава прироста |
-| 5 | Equations 11-8 — 11-9 | 259 | Эффективность MP→NP |
+| 4 | Table 11-2 | 261 | Целевые веса и ADG |
+| 5 | Equations 11-4 — 11-6 | 258 | Уравнения состава прироста |
+| 6 | Equations 11-8 — 11-9 | 259 | Эффективность MP→NP |
+| 7 | Table 11-3 | 263 | Требования ME/MP/CP (Holstein) |
+| 8 | Table 11-4 | 264 | Требования ME/MP/CP (Jersey) |
 
 ### 7.2. Структура лекции (30 мин)
 
@@ -703,6 +736,7 @@ National Academies of Sciences, Engineering, and Medicine. 2021. *Nutrient Requi
 | 2026-05-10 | Добавление медиа-инвентаря, FAQ, практического применения | Стратег (R1) | v1.0 |
 | 2026-05-10 | Добавление секции 5.4 (протеин:энергия), Equations 11-10/11-11, Tables 11-3/11-4, обновление FAQ | Стратег (R1) | v1.1 |
 | 2026-05-10 | Вставка скриншотов Table 11-3 и Table 11-4 как PNG изображения | Стратег (R1) | v1.2 |
+| 2026-05-10 | Добавление всех скриншотов главы: Table 11-1, Figure 11-1, Figure 11-2, Table 11-2, Table 11-3, Table 11-4 (6 PNG) | Стратег (R1) | v1.3 |
 | | | | |
 
 **Следующие шаги:**
