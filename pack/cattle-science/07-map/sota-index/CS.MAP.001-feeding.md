@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (156 SoTA)
+> Шард индекса: feeding (157 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,8 +10,8 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 156 |
-| P0 (Фундаментальные) | 2 |
+| Всего SoTA | 157 |
+| P0 (Фундаментальные) | 3 |
 | P1 (Критически важные) | 21 |
 | P2 (Важные) | 133 |
 | P3 (Дополнительные) | 0 |
@@ -20,7 +20,7 @@
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
-| Reference-book | 1 |
+| Reference-book | 2 |
 | Review | 46 |
 | Simulation | 5 |
 
@@ -186,6 +186,7 @@
 | [CS.SOTA.281](../../06-sota/feeding/CS.SOTA.281-insulinemic-energy-2026.md) | Killerby et al. | 2026 | P2 | field-study | `insulinemic-energy, amino-acids, postruminal` | См. файл для деталей |
 | [CS.SOTA.285](../../06-sota/feeding/CS.SOTA.285-mammary-methionine-2026.md) | Kaufman et al. | 2026 | P2 | field-study | `rumen-protected-methionine, mammary-gland, amino-acids` | См. файл для деталей |
 | [CS.SOTA.294](../../06-sota/feeding/CS.SOTA.294-nasem-2021-growth.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, growth` | См. файл для деталей |
+| [CS.SOTA.295](../../06-sota/feeding/CS.SOTA.295-nasem-2021-energy.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, energy` | См. файл для деталей |
 
 ---
 
@@ -198,4 +199,4 @@
 ---
 
 *Шард обновлён: 2026-05-10*
-*Автоматическая генерация: 156 SoTA*
+*Автоматическая генерация: 157 SoTA*
