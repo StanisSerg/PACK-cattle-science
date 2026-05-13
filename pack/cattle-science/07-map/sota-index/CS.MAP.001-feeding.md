@@ -10,7 +10,7 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 162 |
+| Всего SoTA | 163 |
 | P0 (Фундаментальные) | 8 |
 | P1 (Критически важные) | 21 |
 | P2 (Важные) | 133 |
@@ -20,7 +20,7 @@
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
-| Reference-book | 7 |
+| Reference-book | 8 |
 | Review | 46 |
 | Simulation | 5 |
 
@@ -192,6 +192,7 @@
 | [CS.SOTA.298](../../06-sota/feeding/CS.SOTA.298-nasem-2021-defining-requirements.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, requirements-definition` | NASEM 2021 Chapter 1 — Defining Requirements (EAR/AI/UL) |
 | [CS.SOTA.299](../../06-sota/feeding/CS.SOTA.299-nasem-2021-dry-matter-intake.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, dry-matter-intake` | NASEM 2021 Chapter 2 — DMI (Eq 2-1 to 2-4) |
 | [CS.SOTA.300](../../06-sota/feeding/CS.SOTA.300-nasem-2021-protein.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, protein-metabolism` | NASEM 2021 Chapter 6 — Protein (Eq 6-3, 6-6, EffUEAA) |
+| [CS.SOTA.301](../../06-sota/feeding/CS.SOTA.301-nasem-2021-minerals.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, minerals` | NASEM 2021 Chapter 7 — Minerals (47 equations, Ca/P/Mg/Trace) |
 
 ---
 
