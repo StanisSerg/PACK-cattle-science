@@ -10,8 +10,8 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 159 |
-| P0 (Фундаментальные) | 5 |
+| Всего SoTA | 162 |
+| P0 (Фундаментальные) | 8 |
 | P1 (Критически важные) | 21 |
 | P2 (Важные) | 133 |
 | P3 (Дополнительные) | 0 |
@@ -20,7 +20,7 @@
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
-| Reference-book | 4 |
+| Reference-book | 7 |
 | Review | 46 |
 | Simulation | 5 |
 
@@ -189,6 +189,9 @@
 | [CS.SOTA.295](../../06-sota/feeding/CS.SOTA.295-nasem-2021-energy.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, energy` | См. файл для деталей |
 | [CS.SOTA.296](../../06-sota/feeding/CS.SOTA.296-nasem-2021-fat.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, fatty-acids` | См. файл для деталей |
 | [CS.SOTA.297](../../06-sota/feeding/CS.SOTA.297-nasem-2021-carbohydrates.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, carbohydrates` | См. файл для деталей |
+| [CS.SOTA.298](../../06-sota/feeding/CS.SOTA.298-nasem-2021-defining-requirements.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, requirements-definition` | NASEM 2021 Chapter 1 — Defining Requirements (EAR/AI/UL) |
+| [CS.SOTA.299](../../06-sota/feeding/CS.SOTA.299-nasem-2021-dry-matter-intake.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, dry-matter-intake` | NASEM 2021 Chapter 2 — DMI (Eq 2-1 to 2-4) |
+| [CS.SOTA.300](../../06-sota/feeding/CS.SOTA.300-nasem-2021-protein.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, protein-metabolism` | NASEM 2021 Chapter 6 — Protein (Eq 6-3, 6-6, EffUEAA) |
 
 ---
 
@@ -200,5 +203,5 @@
 
 ---
 
-*Шард обновлён: 2026-05-10*
+*Шард обновлён: 2026-05-13*
 *Автоматическая генерация: 159 SoTA*
