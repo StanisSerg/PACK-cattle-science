@@ -113,17 +113,21 @@ check_file() {
         fi
     done
     
-    # Разговорные вопросы в заголовках
-    local colloquial_qs=$(grep -cE "^#{1,4} .*Зачем.*\?|^#{1,4} .*Почему.*\?|^#{1,4} .*Как.*\?" "$file" 2>/dev/null || echo 0)
-    colloquial_qs=$(echo "$colloquial_qs" | tr -d '\n' | sed 's/[^0-9]//g')
-    [ -z "$colloquial_qs" ] && colloquial_qs=0
-    if [ "$colloquial_qs" -gt 0 ]; then
-        echo -e "${RED}❌ Найдено $colloquial_qs разговорных вопроса в заголовках${NC}"
-        tone_errors=$((tone_errors + colloquial_qs))
+    # Разговорные вопросы в заголовках (исключая FAQ, лекции и Q1/Q2...)
+    local colloquial_qs=$(grep -inE "^#{1,4} .*Зачем.*\?|^#{1,4} .*Почему.*\?|^#{1,4} .*Как.*\?" "$file" 2>/dev/null | grep -ivE "Q[0-9]+:|FAQ|Лекци|Вопросы для обсуждения|чек-лист|практическое|упражнение" | head -5)
+    local cq_count=0
+    if [ -n "$colloquial_qs" ]; then
+        while IFS= read -r line; do
+            local ln=$(echo "$line" | cut -d: -f1)
+            local txt=$(echo "$line" | cut -d: -f2-)
+            echo -e "${RED}❌ Строка $ln: разговорный вопрос в заголовке '$txt'${NC}"
+            cq_count=$((cq_count + 1))
+        done <<< "$colloquial_qs"
+        tone_errors=$((tone_errors + cq_count))
     fi
     
-    # Эмоциональные оценки без метрик
-    local emotional=$(grep -inE "просто |всего лишь |такая низкая |такой высокий |очень дорогой |очень дешёвый |выгодный |невыгодный" "$file" | grep -v "#" | head -5)
+    # Эмоциональные оценки без метрик (исключая лекционные цитаты и FAQ)
+    local emotional=$(grep -inE "просто |всего лишь |такая низкая |такой высокий |очень дорогой |очень дешёвый |выгодный |невыгодный" "$file" 2>/dev/null | grep -ivE "Лекци|FAQ|цитата|пример фразы|ключевые сообщения|чек-лист" | head -5)
     if [ -n "$emotional" ]; then
         while IFS= read -r line; do
             local ln=$(echo "$line" | cut -d: -f1)

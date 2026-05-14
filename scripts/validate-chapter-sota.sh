@@ -117,9 +117,17 @@ validate_file() {
     echo -e "\n${CYAN}── Expanded-формат (физиология + обоснования) ──${NC}"
     
     local phys_count=$(grep -c "Физиология и механизмы" "$file" 2>/dev/null || echo 0)
+    phys_count=$(echo "$phys_count" | tr -d '\n' | sed 's/[^0-9]//g')
+    [ -z "$phys_count" ] && phys_count=0
     local obos_count=$(grep -c "Обоснование" "$file" 2>/dev/null || echo 0)
+    obos_count=$(echo "$obos_count" | tr -d '\n' | sed 's/[^0-9]//g')
+    [ -z "$obos_count" ] && obos_count=0
     local evol_count=$(grep -c "Эволюция модели" "$file" 2>/dev/null || echo 0)
+    evol_count=$(echo "$evol_count" | tr -d '\n' | sed 's/[^0-9]//g')
+    [ -z "$evol_count" ] && evol_count=0
     local clinic_count=$(grep -c "Клинический контекст" "$file" 2>/dev/null || echo 0)
+    clinic_count=$(echo "$clinic_count" | tr -d '\n' | sed 's/[^0-9]//g')
+    [ -z "$clinic_count" ] && clinic_count=0
     
     echo -e "${GREEN}📊 Физиологических разделов: $phys_count${NC}"
     echo -e "${GREEN}📊 Блоков 'Обоснование': $obos_count${NC}"
