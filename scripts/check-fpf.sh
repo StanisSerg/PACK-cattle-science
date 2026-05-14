@@ -166,7 +166,21 @@ check_file() {
             vague_count=$((vague_count + 1))
         done <<< "$vague_terms"
         WARNINGS=$((WARNINGS + vague_count))
-    else
+    fi
+    
+    # FPF A.6.Q: качественные оценки уверенности в Key Claims без числовой шкалы
+    local conf_vague=$(grep -inE "\*\*Уверенность:\*\* (высокая|средняя|низкая|средне-высокая|средняя-высокая)" "$file" | head -5)
+    if [ -n "$conf_vague" ]; then
+        while IFS= read -r line; do
+            local ln=$(echo "$line" | cut -d: -f1)
+            local txt=$(echo "$line" | cut -d: -f2-)
+            echo -e "${RED}❌ Строка $ln: качественная оценка уверенности '$txt' — требуется числовая шкала (0,0–1,0) с обоснованием${NC}"
+            vague_count=$((vague_count + 1))
+        done <<< "$conf_vague"
+        ERRORS=$((ERRORS + vague_count))
+    fi
+    
+    if [ "$vague_count" -eq 0 ]; then
         echo -e "${GREEN}✅ Расплывчатых терминов без метрик не обнаружено${NC}"
     fi
     
