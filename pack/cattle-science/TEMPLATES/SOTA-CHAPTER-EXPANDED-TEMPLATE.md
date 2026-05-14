@@ -1,7 +1,7 @@
 ---
 # ШАБЛОН: SoTA — Book Chapter, Expanded Format (Описательный)
 # Версия: 1.3
-# Базируется на: SOTA-CHAPTER-EXAMPLE v2.0 + FPF review v1.1 + CS.SOTA.300 v2.1
+# Базируется на: FPF review v1.1 + CS.SOTA.300/301 gold standard
 # Применение: Расширенная обработка глав референсных книг (NASEM, NRC)
 #              с акцентом на понимание, а не только на извлечение формул
 # Автор шаблона: Kimi Code CLI

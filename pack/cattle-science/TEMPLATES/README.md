@@ -4,9 +4,8 @@
 
 | Файл | Назначение |
 |------|------------|
-| `SOTA-TEMPLATE.md` | Базовый шаблон SoTA (generic) |
-| `SOTA-CHAPTER-TEMPLATE.md` | Шаблон SoTA для референсных книг (book chapter) |
-| `SOTA-CHAPTER-EXAMPLE-CS.SOTA.295.md` | Пример полноценного Book Chapter SoTA v4.0 |
+| `SOTA-TEMPLATE.md` | Базовый шаблон SoTA для статей и исследований (paper/article) |
+| `SOTA-CHAPTER-EXPANDED-TEMPLATE.md` | Расширенный шаблон SoTA для глав референсных книг (book chapter, expanded v1.3) |
 | `extract-media-from-pdf.py` | Утилита для извлечения PNG-crops из PDF |
 
 ---
