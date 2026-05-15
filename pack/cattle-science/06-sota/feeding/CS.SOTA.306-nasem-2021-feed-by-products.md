@@ -376,8 +376,11 @@ Feed By-Products (NASEM 2021, Chapter 15)
 
 **Table 15-1. Major Coproducts Resulting from the Dry Grain Corn-Milling Process**
 
-> ![Table 15-1](CS.SOTA.306-media/table-15-1-corn-milling-coproducts.png)
+> ![Table 15-1](CS.SOTA.306-media/sample-15-byproducts-table1.png)
 > *Таблица 15-1. Основные coproducts сухого помола кукурузы (NASEM 2021, p. 321).*
+>
+> ![Table 15-2 / Figure 15-1](CS.SOTA.306-media/sample-15-byproducts-table2.png)
+> *Таблица 15-2 / Рисунок 15-1. Дополнительные данные по by-products (NASEM 2021, p. 321–322).*
 
 **Основные coproducts:**
 - **Condensed distillers solubles (CDS):** Полупродукт от конденсации stillage после удаления этанола

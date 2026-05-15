@@ -215,6 +215,15 @@ Table 20-16 показывает, что MilkNE_Allow имеет CCC = 0,67, RMS
 
 **Почему двухуровневая архитектура:** Позволяет отделить пищеварительные процессы (supply) от метаболических (utilization). Например, можно изменить уравнение деградации NDF в рубце (supply) без затрагивания эффективности использования энергии для лактации (utilization) (NASEM 2021, p. 415).
 
+> ![Figure 20-1](CS.SOTA.311-media/sample-20-model-graph1.png)
+> *Рисунок 20-1. График из NASEM 2021, Chapter 20 (Model Description).*
+
+> ![Figure 20-2](CS.SOTA.311-media/sample-20-model-graph2.png)
+> *Рисунок 20-2. График из NASEM 2021, Chapter 20 (Model Description).*
+
+> ![Figure 20-3](CS.SOTA.311-media/sample-20-model-graph3.png)
+> *Рисунок 20-3. График из NASEM 2021, Chapter 20 (Model Description).*
+
 ### 3.3. Что изменилось по сравнению с NRC 2001
 
 | Аспект | NRC 2001 | NASEM 2021 | Обоснование |
