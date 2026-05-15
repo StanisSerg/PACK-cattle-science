@@ -37,7 +37,7 @@ safe_count() {
     local pattern="$1"
     local file="$2"
     local count
-    count=$(grep -cE "$pattern" "$file" 2>/dev/null) || count=0
+    count=$(grep -ciE "$pattern" "$file" 2>/dev/null) || count=0
     echo "$count"
 }
 
