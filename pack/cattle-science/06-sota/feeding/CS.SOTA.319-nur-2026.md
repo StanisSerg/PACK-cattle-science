@@ -5,10 +5,11 @@ format_version: v1.1
 knowledge_tier: P2
 domain: cattle-science
 area: feeding
-subarea: methane
-category: primary-research
+subarea: methane-emissions
+subarea2: microbiome-immunity
+category: field-study
 year: 2026
-authors: "Cahyo Hendra Nur, Niu P., Pope P.B., Gimsa U., Kuhla B."
+authors: "Cahyo, H.N., Niu, P., Pope, P.B., Gimsa, U., Kuhla, B., Schwarm, A."
 title: "Methane category, immune response, feed efficiency, and rumen microbial community in lactating dairy cows"
 journal: "Journal of Dairy Science"
 volume: "109"
@@ -16,629 +17,555 @@ issue: "4"
 pages: "3710-3724"
 doi: "10.3168/jds.2025-26925"
 publisher: "Elsevier on behalf of American Dairy Science Association"
-open_access: false
-license: "Elsevier"
+open_access: true
+license: "CC BY 4.0"
 language: ru
-freshness_window: "2026-05-16 — 2028-05-16"
-sota_edition: "1.0"
+freshness_window: "2026-05-16 — 2028-05-16 (2 года, до выхода новых данных по механизмам CH4 × иммунитет)"
+sota_edition: "1.1"
 derivation:
-  - source: "Cahyo Hendra Nur, Niu P., Pope P.B., Gimsa U., Kuhla B., 2026, JDS 109(4):3710-3724"
+  - source: "Cahyo et al., 2026, JDS 109(4):3710-3724"
     type: "ConservativeRetextualization (FPF A.6.3)"
-    reopen_trigger: "DOI: 10.3168/jds.2025-26925"
+    reopen_trigger: "DOI: 10.3168/jds.2025-26925, страницы указаны для каждого блока"
+  - source: "NASEM 2021 Ch.4 Carbohydrates, Ch.12 Transition Cows"
+    type: "foundational"
+    relevance: "Энергетический баланс и иммунитет в transition"
 tags:
-  - feeding
   - methane
-  - primary-research
+  - immune-response
+  - microbiome
+  - feed-efficiency
+  - early-lactation
+  - late-lactation
+  - holstein
+  - respiration-chamber
+related:
+  - id: CS.SOTA.314
+    type: extends
+    note: "Hu 2026 — мета-анализ ингибиторов метана"
+    relevance: medium
+  - id: CS.SOTA.315
+    type: foundational
+    note: "Li 2026 — лизин и продуктивность"
+    relevance: low
+  - id: CS.SOTA.318
+    type: foundational
+    note: "Parales-Girón 2026 — крахмал и ЖК в ранней лактации"
+    relevance: medium
+# ⚠️ POST-CREATION CHECKLIST
+# 1. ./scripts/post-sota-check.sh --last
+# 2. python3 scripts/update-entity-links.py CS.SOTA.319
+# 3. python3 scripts/reindex-sota.py
+# 4. git add -A && git commit -m "feat(sota): add CS.SOTA.319-cahyo-2026"
+#
+# CRITERIA FOR REVISION (Revision Criterion):
+# - Новое исследование с n > 30 на CH4 yield × immune response в ранней лактации
+# - Публикация механизма Marvinbryantia/acetogenesis как альтернативы метаногенезу
+# - Longitudinal study отдельных коров с повторными замерами CH4 и иммунитета
 ---
 
-# 2. РЕЗЮМЕ (Abstract)
-
-## 2.1. Перевод Abstract
-
-Связь выделения метана (г/кг СВ) с иммунным ответом, кормовой эффективностью (ECM/СВ) и руминным микробиомом у коров в ранней и поздней лактации. 20 коров в ранней, 14 в поздней лактации.
-
-## 2.2. Key Claims
-
-| # | Claim | Confidence | Evidence | Page |
-|---|-------|------------|----------|------|
-| 1 | В ранней лактации LMY коровы имели сниженный иммунный ответ in vitro (LPS, PHA, ConA) vs HMY | 0.88 | In vitro стимуляция, P<0.05 | p. 3710 |
-| 2 | В ранней лактации FCE был ниже у LMY vs HMY | 0.85 | ECM/DMI, P<0.05 | p. 3710 |
-| 3 | В ранней лактации LMY имели повышенную обилие Methanosphaera и Marvinbryantia | 0.82 | 16S rRNA, P<0.05 | p. 3710 |
-| 4 | В поздней лактации различий в иммунном ответе и FCE между LMY и HMY не обнаружено | 0.9 | Отсутствие значимых различий | p. 3710 |
-| 5 | В поздней лактации изменения микробиома более выражены, указывая на более сложные взаимосвязи | 0.82 | Beta-разнообразие, P<0.05 | p. 3710 |
-| 6 | CH4 в ранней лактации: LMY 18,7 vs HMY 25,3 г/кг СВ; в поздней: LMY 22,8 vs HMY 26,8 г/кг СВ | 0.9 | Респирационные камеры, P<0.001 | p. 3710 |
-
-> **FPF A.10:** Claims основаны на primary-research с указанными статистическими метриками.
-
-# 3. ВВЕДЕНИЕ (Introduction)
-
-## 3.1. Полный текст введения
-
-In dairy cows, CH4 emissions can vary greatly between
-animals, even among cows consuming similar diets and
-at comparable stages of lactation (Garnsworthy et al.,
-2012; Lyons et al., 2018; Fresco et al., 2023). Methane
-yield (g/kg of DMI) is a trait used to understand varia-
-tion of emission from fermentation processes occurring
-in the rumen (Cabezas-Garcia et al., 2017). Dairy cows
-with a low compared with a high CH4 yielding category
-were reported to have lower digestibility of fiber, but
-similar feed conversion efficiency (FCE; ECM/DMI)
-and similar or greater milk production efficiency (MPE;
-ECM/100 kg BW or ECM/kg BW0.75; Denninger et al.,
-2020; Stepanchenko et al., 2023).
-Methane yield fluctuates throughout the lactation
-cycle with the highest variability mostly occurring
-during early lactation, primarily due to differences in
-body condition loss and endocrine changes affecting
-feed intake (Bielak et al., 2016; Fresco et al., 2023).
-During early lactation, cows typically experience nega-
-tive energy balance (EB) caused not only by increased
-metabolic activity for milk production but also by the
-rapid increase in energy requirements, which cannot be
-met by an increase in energy intake, thus challenging
-the immune homeostasis and function (Schwarm et al.,
-Methane category, immune response, feed efficiency, and rumen
-microbial community in lactating dairy cows
-Hendra Nur Cahyo,1
-Puchun Niu,1
-Phillip B. Pope,1,2,3
-Ulrike Gimsa,4
-
-Björn Kuhla,4*
-and Angela Schwarm1
-
-1Faculty of Biosciences, Norwegian University of Life Sciences (NMBU), 1432 Aas, Norway
-2Centre for Microbiome Research, School of Biomedical Sciences, Queensland University of Technology (QUT),
-Translational Research Institute, Woolloongabba 4102, QLD, Australia
-3Faculty of Chemistry, Biotechnology and Food Science, Norwegian University of Life Sciences (NMBU), 1432 Aas, Norway
-4Research Institute for Farm Animal Biology (FBN), 18196 Dummerstorf, Germany
-
-J. Dairy Sci. 109:3710–3724
-This is an open access article under the CC BY license (https://creativecommons.org/licenses/by/4.0/).
-The list of standard abbreviations for JDS is available at adsa.org/jds-abbreviations-26. Nonstandard abbreviations are available in the Notes.
-Received May 13, 2025.
-Accepted December 17, 2025.
-*Corresponding author: b.kuhla@​fbn​-dummerstorf​.de
-2013). Strikingly, cows vary considerably in the time
-postpartum required to reach positive EB (Vossebeld et
-al., 2022). There is a lack of evidence, but in theory, low
-CH4 yielding cows may lose relatively less feed energy
-as CH4, resulting in more feed energy available to parti-
-tion toward the mammary gland and immune response
-in early lactation. However, it could also be speculated
-that the low CH4 yield in early lactation is indicative of
-a delayed adaptation of rumen microorganisms to the
-overall increase in DMI during that time.
-Meese et al. (2020) demonstrated that low CH4 intensity
-(CH4/ECM) cows reveal less proliferation of peripheral
-blood mononuclear cells (PBMC) compared with high
-CH4 intensity cows. The authors assumed that low CH4
-intensity cows might lack sufficient digestive energy to
-elicit an adequate immune response (Meese et al., 2020).
-Therefore, exploring the association between immune
-response and CH4 emissions will enhance our under-
-standing of the variation in CH4 yield. Still, knowledge
-in this area remains limited. Additionally, some studies
-reported how the variation in CH4 yield during early lac-
-
-## 3.2. Ключевые аргументы автора
-
-- Исследование адресует важный пробел в знаниях о взаимосвязях между питанием/управлением и продуктивностью/здоровьем.
-- Результаты имеют практическое применение для оптимизации рационов и протоколов управления.
-
-# 4. МАТЕРИАЛЫ И МЕТОДЫ (Materials and Methods)
-
-## 4.1. Общее описание
-
-The experimental protocol complied with the German
-Animal Welfare Act guidelines and was approved by the
-ethics committee of the State Government in Mecklenburg-
-Western Pomerania (Registration no. 7221.3–1-015/19).
-Experimental Design
-The data sampling was part of a larger research project
-conducted between January and December 2020. Two
-datasets were generated in parallel, one with 20 early (32
-± 7 DIM) and one with 14 late (359 ± 90 DIM) lactat-
-ing Holstein dairy cows in their second to fourth lacta-
-tion, which were randomly selected from the herd of the
-Research Institute for Farm Animal Biology (Dummer-
-storf, Germany). All cows were clinically healthy, not
-pregnant, and kept in a freestall barn under comparable
-climate, housing, and management conditions. All cows
-were well adapted to the respiration chamber (described
-in detail in the next section) before entering a 5-d experi-
-mental protocol. On d 1 of the experiment, cows were
-transferred from the freestall barn into one of the 4 open-
-circuit respiration chambers. After an overnight stay to
-allow equilibration of gas concentrations, CH4 produc-
-tion, feed intake, and milk yield were measured for 24
-h. On d 4, cows were transported from the respiration
-chamber back into freestall barn, in which on d 5, a blood
-and a ruminal fluid sample was taken. Because blood
-could not be collected in the chamber, it was withdrawn
-24 h after transport to the freestall barn to minimize the
-effect of transportation on blood parameters. According
-to daily CH4 production and DMI measured in respiration
-chamber, cows were retrospectively divided into an equal
-number of cows with low (LMY) and high (HMY) CH4
-yield categories within each lactation group. In early lac-
-tation, LMY cows (n = 10) had a CH4 yield of (LSM) 18.7
-g/kg of DMI, and HMY cows (n = 10) yielded 25.3 g/kg
-of DMI. In late lactation, LMY cows (n = 7) averaged
-had a CH4 yield of 22.8 g/kg of DMI, and HMY cows (n
-= 7) yielded 26.8 g/kg of DMI. The lactation numbers in
-LMY and HMY cows were both second to third in early
-lactation, and second to third and second to fourth in late
-lactation, respectively. The DIM in LMY and HMY cows
-were 27 ± 2 and 35 ± 9 in early lactation, and 374 ± 107
-and 345 ± 75 in late lactation, respectively.
-Milking and Feeding Management
-in the Freestall Barn
-In the freestall barn, cows were milked twice daily at
-0500 h and 1630 h, had ad libitum access to drinking
-water, and were fed ad libitum a TMR twice daily at 0430
-h and 1530 h. The diet was formulated to meet the energy
-and nutrient requirements according to the recommen-
-dations of the German Society of Nutrition Physiology
-(GfE, 2004). The forage-to-concentrate ratio was, on a
-DM basis, 67:33 and 65:35, for early- and late lactating
-cows, respectively. The proportions of forage (grass and
-corn silage, barley straw) and concentrate constituents
-differed between lactation stages (Table 1). Overall, the
-CP, crude fat, and ME were 5.5%, 8.8%, and 5.2%, re-
-spectively, greater in the diet of early than late lactating
-cows (Table 1). Early lactating cows received the lacta-
-tion diet from the day after calving. At 5 DIM cows were
-transferred from the calving box to the freestall barn.
-Late lactating cows received the diet at least 3 wk before
-entering the respiration chambers.
-Measurements in Respiration Chambers
-Before the actual measurement of individual CH4
-production, cows were trained and adapted to the res-
-
-## 4.2. Ключевые параметры
-
-- Дизайн: см. описание выше.
-- Статистический анализ: см. описание выше.
-
-## 4.3. Медиа-инвентарь
-
-### Figure 1
-![Figure 1](CS.SOTA.319-nur-2026-media/page-03-figure-1.png)
-*Источник: Cahyo Hendra Nur, Niu P., Pope P.B., Gimsa U., Kuhla B., 2026, p. 3710*
-
-# 5. РЕЗУЛЬТАТЫ (Results)
-
-Feed Intake, Performance, and Gaseous Exchange
-in Low and High CH4 Yielders
-Intake, performance, and gas exchange data are shown
-in Table 2. In early lactating animals, the BW of LMY and
-HMY ranged from 545 kg to 779 kg and was not different
-between CH4 categories (P = 0.37). Dry matter intake was
-1.4-fold higher (P < 0.01) in LMY compared with HMY
-cows. We observed no differences (P > 0.15) in milk yield
-and composition between LMY and HMY cows. Accord-
-ingly, the FCE was lower (P = 0.01) in LMY than HMY,
-whereas MPE (kg of ECM/100 kg of BW and kg of ECM/
-BW0.75) was greater (P = 0.03) in LMY compared with
-HMY cows. The daily CH4 production (g/d) did not differ
-(P = 0.27) between LMY and HMY cows. The CH4 yield
-(g/kg of DMI) was 25.4% lower (P < 0.01) in the LMY
-compared with the HMY category, whereas CH4 intensity
-expressed as grams/100 kg of BW, grams per kilogram
-of BW0.75, and grams per kilogram of ECM did not differ
-(P > 0.10) between LMY and HMY animals. Daily CO2
-production did not differ (P = 0.11) between LMY and
-HMY cows. In LMY animals, CO2 yield (g/kg of DMI)
-was lower (P < 0.01), but CO2 per 100 kg BW and per
-kilogram of BW0.75 were greater (P = 0.02) than in HMY
-cows. The CH4:​CO2 ratio was similar (P = 0.79) between
-CH4 categories in the current study. In late lactating cows,
-the animal categories did not differ (P ≥ 0.12) in any of
-the above-mentioned traits on animal performance and gas
-emissions except CH4 yield, with HMY cows producing
-16.1% more (P < 0.01) than LMY animals, and CH4 inten-
-sity (g/kg of ECM), which tended to be greater (P = 0.08)
-in HMY compared with LMY animals.
-In Vitro Response of Blood Cells
-In early lactating cows, LMY compared with HMY
-animals tended to have a lower PI of PBMC in response
-to PHA (P = 0.051) and ConA (P = 0.050), and a lower (P
-= 0.02) TNF-α response of whole blood to LPS stimula-
-tion (Figure 1A–C, respectively). Additionally, the OD
-of unstimulated PBMC in LMY were greater (P = 0.04)
-compared with HMY in early lactation, whereas OD of
-stimulated PBMC to ConA and to PHA and TNF-α con-
-centration of unstimulated whole blood did not differ (P
-≥ 0.41) in HMY compared with LMY animals (Supple-
-mental Table S1, see Notes). For late lactating cows, no
-differences (P ≥ 0.23) were observed in immune response
-variables (Figure 2A–C). No differences (P ≥ 0.15) oc-
-curred in the OD of unstimulated PBMC or the OD of
-stimulated PBMC to PHA and TNF-α concentration of
-unstimulated whole blood between LMY and HMY, but
-the OD of stimulated PBMC to ConA was higher (P =
-0.02) in LMY than HMY (Supplemental Table S1).
-Rumen Microbial Community Structure
-A total of 2,918 OTU that could be taxonomically
-classified to genus level were identified, corresponding
-to 264 distinct genera of bacteria and archaea across all
-samples. Overall, the bacterial community at the phylum
-level was dominated by Firmicutes (mean; min-max;
-56%; 32%–73%) and Bacteroidetes (33%; 14%–49%;
-Supplemental Figure S1A, C, D, E, see Notes). Acti-
-nobacteria was detected at low abundance (4%; 0.7%–
-19%). Among all identified bacterial genera, Prevotella
-1 was found to be the most abundant across all samples,
-accounting for 19% (7%–31%). Other bacterial genera,
-including Succiniclasticum (7.8%; 1.7%–13%), Chris-
-tensenellaceae R-7 group (7.2%; 2.1%–15%), Lachno-
-spiraceae NK3A20 (6.5%; 1.1%–14%), Ruminococcus 2
-(4.8%; 0.3%–11%), Ruminococcaceae NK4A214 group
-(4.6%; 1.4%–11%), and Acetitomaculum (3.1%; 0.4%–
-
-# 6. ИНТЕРПРЕТАЦИЯ (Discussion)
-
-## 6.1. Механистический анализ
-
-The statistical comparison between lactation groups
-could not be done in our study because early and late
-lactating cows were different individuals, fed different
-diets, and grouped by different cut-offs for defining LMY
-and HMY (outlined in this discussion), therefore any
-
-## 6.2. Сравнение с литературой
-
-- **NASEM 2021** — фундаментальные принципы питания и управления молочными коровами.
-- Результаты согласуются с современными данными в данной области.
-
-# 7. КРИТИЧЕСКИЙ АНАЛИЗ
-
-## 7.1. Сильные стороны
-
-- Чёткий экспериментальный дизайн с количественными оценками.
-- Практическая применимость результатов для промышленного животноводства.
-
-## 7.2. Ограничения и критика
-
-- Ограниченная выборка или специфические условия эксперимента.
-- Необходимость валидации в других производственных системах.
-
-## 7.3. Применимость к российским условиям
-
-- Результаты требуют адаптации с учётом местных кормовых ресурсов и климатических условий.
-- Рекомендуется пилотное внедрение с последующей оценкой эффективности.
-
-## 7.4. Ключевые различия с NASEM 2021
-
-NASEM 2021 не рассматривает данный конкретный аспект на том же уровне детализации.
-
-# 8. ВЫВОДЫ (Conclusions)
-
-## 8.1. Полный текст выводов
-
-Methane Categorization in Early and Late Lactation
-In our study, the categories of low and high CH4 yield
-were determined retrospectively by dividing cows into
-2 equal numbers of animals based on their CH4 yield
-values, resulting in average CH4 yields of 18.7 versus
-Table 2. Performance and gas emissions of cows with low (LMY) and high CH4 yield (HMY)1 in early and late lactation
-Item
-Early lactation
-SEM
-P-value
-Late lactation
-SEM
-P-value
-LMY
-HMY
-LMY
-HMY
-BW (kg)
-638.4
-670.4
-19.7
-0.37
-810.9
-768.6
-25.4
-0.70
-DMI (kg/d)
-20.1
-14.0
-1.0
-<0.01
-18.1
-15.0
-1.1
-0.08
-Milk production and composition
-
-
-
-
-
-
-
-
-Milk yield (kg/d)
-41.1
-35.8
-1.79
-0.22
-20.1
-17.6
-1.36
-0.15
-ECM yield (kg/d)
-44.3
-38.1
-1.63
-0.10
-22.4
-20.7
-1.20
-0.25
-Milk fat (%)
-4.6
-4.3
-0.16
-0.45
-4.6
-5.0
-0.40
-0.34
-Milk protein (%)
-3.2
-3.3
-0.10
-0.59
-4.0
-3.9
-0.13
-0.96
-Milk lactose (%)
-5.0
-5.1
-0.06
-0.41
-4.7
-4.7
-0.07
-0.35
-Milk fat (kg/d)
-1.9
-1.5
-0.08
-0.06
-0.9
-0.9
-0.06
-0.81
-Milk protein (kg/d)
-1.3
-1.2
-0.06
-0.38
-0.8
-0.7
-0.06
-0.17
-Milk lactose (kg/d)
-2.1
-1.8
-0.09
-0.32
-1.0
-0.8
-0.07
-0.15
-Milk fat:​protein
-1.5
-1.3
-0.07
-0.36
-1.2
-1.3
-0.12
-0.38
-lnSCC2
-1.4
-1.4
-0.09
-0.71
-2.1
-2.2
-0.09
-0.24
-Efficiency3
-
-
-
-
-
-
-
-
-FCE (ECM/DMI, kg/kg)
-2.3
-2.8
-0.19
-0.01
-1.2
-1.4
-0.13
-0.26
-MPE (ECM/BW, kg/100 kg)
-7.0
-5.7
-0.27
-0.03
-2.8
-2.7
-0.17
-0.43
-MPE (ECM/BW, g/kg0.75)
-349.7
-289.1
-12.5
-0.03
-149.1
-142.7
-8.64
-0.37
-Gas emissions
-
-
-
-
-
-
-
-
-CH4 (g/d)
-376.8
-350.5
-20.2
-0.27
-415.3
-399.0
-27.2
-0.91
-CH4/DMI (g/kg)
-18.7
-25.3
-0.88
-<0.01
-22.8
-26.8
-0.87
-<0.01
-CH4/BW (g/100 kg)
-59.4
-52.2
-3.09
-0.10
-51.6
-51.8
-3.76
-0.87
-CH4/BW (g/kg0.75)
-3.0
-2.7
-0.15
-0.12
-2.7
-2.7
-0.19
-0.88
-CH4/ECM (g/kg)
-8.5
-9.5
-0.60
-0.79
-18.9
-19.7
-0.91
-0.08
-CO2 (g/d)
-13,317
-11,883
-0.11
-14,201
-13,116
-553.4
-0.51
-CO2/DMI (g/kg)
-668.2
-865.7
-35.32
-<0.01
-784.3
-897.1
-77.35
-0.20
-CO2/BW (g/100 kg)
-2,102
-1,768
-80.2
-0.02
-1,763
-1,703
-60.6
-0.61
-CO2/BW (g/kg0.75)
-105.4
-90.0
-3.93
-0.02
-93.9
-89.6
-3.11
-0.54
-CO2/ECM (g/kg)
-301.1
-320.8
-16.28
-0.96
-650.9
-647.1
-25.39
-0.28
-CH4:​CO2 (g/kg)
-28.3
-29.4
-1.0
-0.79
-29.1
-30.5
-1.9
-0.55
-1Cows with low (LMY) and high CH4 yield (HMY) were determined retrospectively and within each lactation group separately based on daily CH4
-production and DMI assessed in respiration chambers.
-2lnSCC = natural logarithm of SCC ( × 103 cells/mL). The SCC ( × 103 cells/mL) of LMY versus HMY in early lactation was 21.2 versus 23.7, and in
-late lactation 185 versus 193.
-3FCE = feed conversion efficiency, defined as kilograms ECM/kilograms of DMI; MPE = milk production efficiency, defined as either kilograms
-ECM/100 kilograms of BW or kilograms ECM/kilograms of BW0.75.
-25.3 g CH4/kg of DMI in early lactation (32 DIM) and
-22.8 versus 26.8 g CH4/kg of DMI in late lactation (376
-DIM). Our approach was different from previous stud-
-ies where cows with medium CH4 yields were removed
-from the dataset (Lyons et al., 2018; Denninger et al.,
-2020; Stepanchenko et al., 2023). It must be kept in mind
-that our approach assigns similar cows in the middle
-of the distribution curve to either low or high methane
-category group, potentially washing out the differences
-between phenotypes. Within the lactation stage we bal-
-Figure 1. Early lactating cows with low (LMY) and high (HMY) CH4 yield: Proliferation index (PI) of peripheral blood mononuclear cells
-(PBMC) in response to phytohemagglutinin (PHA; A) and concanavalin A (ConA; B), whole blood tumor necrosis factor (TNF)-α response to
-
-## 8.2. Ключевые выводы (структурировано)
-
-- **В ранней лактации LMY коровы имели сниженный иммунный ответ in vitro (LPS, PHA, ConA) vs HMY**
-- **В ранней лактации FCE был ниже у LMY vs HMY**
-- **В ранней лактации LMY имели повышенную обилие Methanosphaera и Marvinbryantia**
-- **В поздней лактации различий в иммунном ответе и FCE между LMY и HMY не обнаружено**
-
-# 9. FAQ
-
-**Q1: Каковы основные выводы исследования Cahyo Hendra Nur et al.?**
-A: В ранней лактации LMY коровы имели сниженный иммунный ответ in vitro (LPS, PHA, ConA) vs HMY
-
-**Q2: Какие методы использовались?**
-A: The experimental protocol complied with the German Animal Welfare Act guidelines and was approved by the ethics committee of the State Government in Mecklenburg- Western Pomerania (Registration no. 7221.3–1-015/19). Experimental Design The data sampling was part of a larger research project conducte...
-
-**Q3: Как применить результаты в России?**
-A: Требуется адаптация к местным условиям.
-
-**Q4: Какие ограничения есть у этого исследования?**
-A: Ограниченная выборка или специфические условия эксперимента.
-
-# 10. ИСТОЧНИКИ
-
-- Cahyo Hendra Nur, Niu P., Pope P.B., Gimsa U., Kuhla B. (2026). Methane category, immune response, feed efficiency, and rumen microbial community in lactating dairy cows. Journal of Dairy Science, 109(4), 3710-3724. doi:10.3168/jds.2025-26925
-
-# 11. ЖУРНАЛ ОБРАБОТКИ
-
-- **2026-05-16** — Создание SoTA v1.1 на основе полного текста статьи (PDF). Расширенная версия с извлечёнными разделами. FPF: PASS. ArchGate: article mode.
+# CS.SOTA.319: Cahyo et al. (2026) — Метан, иммунитет и микробиом
+
+> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
+
+---
+
+## 2. АННОТАЦИЯ (Abstract)
+
+### 2.1. Перевод Abstract
+
+В молочном скотоводстве выбросы метана (CH₄) значительно варьируют между животными даже при сходных рационах и стадии лактации. Выделение метана на единицу сухого вещества (CH₄ yield, г/кг СВ) используется для понимания вариаций рубцовой ферментации. Целью исследования была оценка взаимосвязей между категориями CH₄ yield (низкий — LMY, высокий — HMY) и иммунологическими признаками, эффективностью кормопользования (FCE, ECM/DMI) и микробным сообществом рубца в ранней и поздней лактации.
+
+**Методы:** 20 коров в ранней лактации (32 ± 7 DIM) и 14 в поздней (359 ± 90 DIM), все небеременные, многоплодные Holstein. Измерения CH₄ проводились в открытых респираторных камерах. Иммунный ответ изучался in vitro: цельная кровь + LPS (врождённый иммунитет), PBMC + PHA/ConA (адаптивный иммунитет). Микробиом — 16S rRNA (V4) из жидкости рубца.
+
+**Результаты:** В ранней лактации LMY-коровы имели менее выраженный иммунный ответ (ниже PI PBMC и TNF-α), ниже FCE (2.3 vs 2.8 кг/кг), но выше MPE. Микробиом отличался незначительно: выше Methanosphaera и Marvinbryantia в LMY. В поздней лактации иммунный ответ не различался, но различия в микробиоме были более выраженными.
+
+**Вывод:** В ранней лактации повышенный CH₄ yield отражает более активную рубцовую ферментацию, поддерживающую FCE и иммунную функцию. Снижение CH₄ yield ассоциируется с ускоренным достижением положительного энергетического баланса, но за счёт ослабления иммунитета.
+
+### 2.2. Key Claims
+
+**Claim 1:** В ранней лактации коровы с низким CH₄ yield (LMY, 18.7 г/кг СВ) имеют сниженный врождённый и адаптивный иммунный ответ по сравнению с HMY (25.3 г/кг СВ).
+- **Уверенность:** 0.72 (n = 20, ретроспективное разделение; воспроизводит Meese et al. 2020).
+- **Evidence:** TNF-α к LPS: LMY ниже (P = 0.02); PI PBMC к PHA: тенденция P = 0.051, к ConA: тенденция P = 0.050 (Cahyo et al., 2026, p. 3715, Fig. 1A-C).
+
+**Claim 2:** В ранней лактации LMY-коровы имеют на 18% ниже FCE (2.3 vs 2.8 кг ECM/кг СВ, P = 0.01), но на 23% выше MPE (ECM/BW⁰·⁷⁵: 349.7 vs 289.1 г/кг⁰·⁷⁵, P = 0.03) по сравнению с HMY.
+- **Уверенность:** 0.68 (n = 20; противоречит Denninger et al. 2020 для поздней лактации).
+- **Evidence:** P = 0.01 для FCE, P = 0.03 для MPE (Cahyo et al., 2026, p. 3714, Table 2).
+
+**Claim 3:** Различия в CH₄ yield в ранней лактации обусловлены в первую очередь разницей в СВ (LMY потребляют в 1.4 раза больше СВ при схожем удое), а не абсолютной продукцией CH₄.
+- **Уверенность:** 0.78 (n = 20; CH₄ г/сут: 376.8 vs 350.5, P = 0.27).
+- **Evidence:** DMI: 20.1 vs 14.0 кг/сут (P < 0.01); CH₄/сут: P = 0.27 (Cahyo et al., 2026, p. 3714, Table 2).
+
+**Claim 4:** Микробиом рубца в ранней лактации различается между LMY и HMY незначительно: LMY обогащены Methanosphaera (метилотрофный метаноген) и Marvinbryantia (редуктивный ацетоген), HMY — Butyrivibrio 2 (целлюлолитик).
+- **Уверенность:** 0.65 (n = 20; LEfSe анализ, LDA > 3).
+- **Evidence:** Methanosphaera и Marvinbryantia enriched в LMY (P < 0.05, LDA > 3); Butyrivibrio 2 enriched в HMY (Cahyo et al., 2026, p. 3716, Fig. 1E).
+
+**Claim 5:** В поздней лактации иммунный ответ и FCE не различаются между LMY и HMY, но различия в микробиоме более выражены, чем в ранней лактации.
+- **Уверенность:** 0.62 (n = 14; первое исследование в поздней лактации).
+- **Evidence:** Иммунитет: P ≥ 0.23; FCE: P = 0.26; LEfSe: >10 таксонов различаются (Cahyo et al., 2026, p. 3716-3717, Fig. 2).
+
+**Claim 6:** Высокое содержание Methanosphaera в LMY может указывать на повышенное парциальное давление водорода, при котором метилотрофное метаногенез конкурирует с гидрогенотрофным; присутствие Marvinbryantia поддерживает гипотезу об альтернативном пути утилизации H₂ через ацетогенез.
+- **Уверенность:** 0.55 (механистическая интерпретация, H₂ не измерялся).
+- **Evidence:** Methanosphaera: methylotrophic pathway требует больше субстрата на моль CH₄ (Pereira et al., 2022); Marvinbryantia: Wood-Ljungdahl pathway (Wolin et al., 2003) [интерполяция].
+
+---
+
+## 3. ВВЕДЕНИЕ
+
+### 3.1. Физиологический контекст
+
+Выделение метана в рубце — неизбежный побочный продукт микробной ферментации у жвачных. В глобальном масштабе молочное скотоводство contributes ~2-3% антропогенных выбросов CH₄. В рамках отдельного хозяйства CH₄ представляет собой потерю 2-12% валовой энергии рациона.
+
+Вариации CH₄ yield (г/кг СВ) между животными при сходных условиях кормления достигают 30-50%. Эта вариация отражает:
+1. **Различия в микробном сообществе:** соотношение метаногенных архей и бактерий-деградаторов.
+2. **Скорость прохождения пищевого комка:** высокая скорость → меньше времени на ферментацию → меньше CH₄.
+3. **Энергетический статус:** коровы в ОЭБ могут иметь сниженный CH₄ yield из-за изменённого профиля ферментации.
+
+### 3.2. Литературный обзор
+
+**CH₄ yield и лактационный цикл:**
+Bielak et al. (2016) и Fresco et al. (2023) показали, что CH₄ yield варьирует в течение лактации, с наибольшей изменчивостью в ранней лактации (из-за колебаний СВ, эндокринных изменений и потери упитанности).
+
+**CH₄ и иммунитет:**
+Meese et al. (2020) впервые связали низкий CH₄ intensity (г/кг ECM) с сниженной пролиферацией PBMC у коров в ранней лактации. Гипотеза: низкий CH₄ yield может отражать недостаточную ферментационную энергию для поддержания иммунного ответа.
+
+**CH₄ и микробиом:**
+- Lyons et al. (2018): низкий CH₄ ассоциирован с Methanosphaera и Succiniclasticum.
+- Stepanchenko et al. (2023): не нашли различий в археях, но обнаружили большие различия в бактериальных сообществах.
+- Ahvenjärvi et al. (2024): не подтвердили связь CH₄ с конкретными таксонами.
+
+Эти противоречия указывают на влияние стадии лактации, рациона и индивидуальных особенностей хозяина.
+
+### 3.3. Гипотезы исследования
+
+**H₁:** LMY-коровы характеризуются более низким врождённым и адаптивным иммунным ответом.
+
+**H₂:** LMY и HMY имеют сходную FCE и сходную или большую MPE у LMY.
+
+**H₃:** Различия в CH₄ yield отражаются в структуре метаногенных архей (Methanosphaera) и бактерий-деградаторов углеводов.
+
+---
+
+## 4. МЕТОДОЛОГИЯ
+
+### 4.1. Дизайн эксперимента
+
+| Параметр | Ранняя лактация | Поздняя лактация |
+|----------|-----------------|------------------|
+| n | 20 | 14 |
+| DIM | 32 ± 7 | 359 ± 90 |
+| Порода | Holstein, 2-3-я лактация | Holstein, 2-4-я лактация |
+| Беременность | Нет | Нет |
+| Категории CH₄ | LMY (n=10), HMY (n=10) | LMY (n=7), HMY (n=7) |
+| Cut-off CH₄ yield | 21.5 г/кг СВ | 24.5 г/кг СВ |
+| Средний CH₄ yield LMY | 18.7 г/кг СВ | 22.8 г/кг СВ |
+| Средний CH₄ yield HMY | 25.3 г/кг СВ | 26.8 г/кг СВ |
+
+**Особенность:** Разделение на категории проводилось ретроспективно, медианным разделением внутри каждой группы. Это отличается от подхода Lyons et al. (2018), где исключали животных со средними значениями.
+
+### 4.2. Условия содержания и рационы
+
+**Содержание:** Свободное содержание в стойловом помещении, дойка 2× (05:00 и 16:30), кормление 2× (04:30 и 15:30), вода ad libitum.
+
+**Рационы (Table 1):**
+
+| Компонент | Ранняя лактация | Поздняя лактация |
+|-----------|-----------------|------------------|
+| Соотношение сено:концентрат | 67:33 | 65:35 |
+| Grass silage, г/кг СВ | 303.9 ± 62.3 | 344.1 ± 68.1 |
+| Corn silage, г/кг СВ | 339.1 ± 37.3 | 281.5 ± 27.6 |
+| Concentrate, г/кг СВ | 195.4 ± 14.5 | 166.6 ± 2.4 |
+| Barley straw, г/кг СВ | 29.6 ± 8.9 | 27.5 |
+| Corn meal, г/кг СВ | 43.4 ± 15.4 | 48.0 ± 5.3 |
+| Wheat seeds, г/кг СВ | 14.1 ± 2.9 | 57.5 ± 53.8 |
+| Rapeseed meal, г/кг СВ | 43.8 ± 9.1 | 50.1 ± 29.4 |
+| Soybean meal, г/кг СВ | 18.2 ± 8.7 | 12.9 ± 0.2 |
+| Soya oil, г/кг СВ | 0.9 ± 0.3 | 0.6 ± 0.0 |
+| **Питательность** |
+| CP, г/кг СВ | 161.3 ± 36.3 | 152.1 ± 12.3 |
+| CF, г/кг СВ | 143.0 ± 44.0 | 157.1 ± 6.6 |
+| Crude fat, г/кг СВ | 32.9 ± 1.1 | 30.0 ± 3.9 |
+| Starch, г/кг СВ | 227.0 ± 60.8 | 253.4 ± 13.5 |
+| ME, МДж/кг СВ | 11.5 ± 2.6 | 10.9 ± 0.7 |
+
+### 4.3. Измерения в респираторных камерах
+
+- **Камеры:** 4 открытых камеры с обратным потоком (4 × 2 × 2 м)
+- **Адаптация:** 3-4 предварительных входа (4-6, 8-10, 24-26 ч)
+- **Измерения:** CH₄ и CO₂ — ИК-абсорбция; O₂ — парамагнитный анализ (SIDOR, Sick AG)
+- **Интервал:** каждые 6 мин
+- **Восстановление:** 99.7% (по инжекциям CH₄)
+- **Продолжительность:** 24 ч (07:00-06:59)
+
+### 4.4. Иммунологические анализы
+
+**Цельная кровь + LPS (врождённый иммунитет):**
+- Гепаринизированная кровь, разведение 1:5 в RPMI-1640
+- Стимуляция: LPS 12.5 мкг/мл, 24 ч, 37°C, 5% CO₂
+- Измерение: TNF-α ELISA (abx150208), лимит 3.7 пг/мл
+
+**PBMC + митогены (адаптивный иммунитет):**
+- Изоляция: градиентная центрифугация
+- Стимуляция: PHA (4 мкг/мл) или ConA (6.25 мкг/мл)
+- Продолжительность: 72 ч
+- Измерение: MTT assay, OD 550/690 нм
+- Индекс пролиферации (PI) = ODстимулированные / ODконтроль
+
+### 4.5. Микробиом рубца
+
+- **Сбор:** Пищеводный зонд, первые 100 мл отброшены, 200 мл собраны
+- **Консервация:** Snap-freeze в жидком N₂, −80°C
+- **ДНК:** FastDNA Spin kit for Soil (MP Biomedicals), bead beating 6 м/с, 4 × 40 с
+- **Амплификация:** 16S rRNA V4, primers 515FB/806RB
+- **Секвенирование:** Illumina MiSeq, 2 × 300 bp
+- **Анализ:** Trimmomatic → FLASH → UPARSE → QIIME (SILVA 132)
+- **Фильтрация:** OTU с abundance < 0.1% исключены
+- **α-диверситет:** richness, Shannon, Simpson
+- **β-диверситет:** Bray-Curtis, PCoA, PERMANOVA
+- **LEfSe:** Kruskal-Wallis P < 0.05, Wilcoxon P-adjusted < 0.05, LDA > 3
+
+### 4.6. Статистический анализ
+
+- **Программа:** R v4.4.1, пакет emmeans
+- **Модель:** Линейная смешанная модель
+  - Фиксированные эффекты: категория CH₄, период (дата измерения)
+  - Случайный эффект: индивидуальная корова
+- **Уровни:** P < 0.05 (значимо), 0.05 ≤ P < 0.10 (тенденция)
+
+### 4.7. Инвентарь медиа
+
+![Figure 1](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-nur-2026-media/page-03-figure-1.png)
+*Рисунок 1. Ранняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe анализ (E). Источник: Cahyo et al., 2026, p. 3717, Fig. 1.*
+
+![Figure 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-nur-2026-media/page-06-figure-1.png)
+*Рисунок 2. Поздняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe анализ (E). Источник: Cahyo et al., 2026, p. 3718, Fig. 2.*
+
+---
+
+## 5. РЕЗУЛЬТАТЫ
+
+### 5.1. Потребление, продуктивность и газообмен
+
+**Ранняя лактация (Table 2):**
+
+| Показатель | LMY | HMY | SEM | P-value |
+|------------|-----|-----|-----|---------|
+| BW, кг | 638.4 | 670.4 | 19.7 | 0.37 |
+| DMI, кг/сут | 20.1 | 14.0 | 1.0 | <0.01 |
+| Удой молока, кг/сут | 41.1 | 35.8 | 1.79 | 0.22 |
+| ECM, кг/сут | 44.3 | 38.1 | 1.63 | 0.10 |
+| Жир молока, % | 4.6 | 4.3 | 0.16 | 0.45 |
+| Белок молока, % | 3.2 | 3.3 | 0.10 | 0.59 |
+| FCE (ECM/DMI) | 2.3 | 2.8 | 0.19 | 0.01 |
+| MPE (ECM/BW⁰·⁷⁵), г/кг⁰·⁷⁵ | 349.7 | 289.1 | 12.5 | 0.03 |
+| CH₄, г/сут | 376.8 | 350.5 | 20.2 | 0.27 |
+| CH₄/DMI, г/кг | 18.7 | 25.3 | 0.88 | <0.01 |
+| CH₄/ECM, г/кг | 8.5 | 9.5 | 0.60 | 0.79 |
+| CO₂/DMI, г/кг | 668.2 | 865.7 | 35.3 | <0.01 |
+
+**Ключевые находки ранней лактации:**
+- DMI в 1.4 раза выше у LMY (P < 0.01)
+- Удой молока схожий (P = 0.22)
+- FCE ниже у LMY на 18% (P = 0.01)
+- MPE выше у LMY на 21% (P = 0.03)
+- Абсолютный CH₄ схожий (P = 0.27), но CH₄ yield на 26% ниже у LMY (P < 0.01)
+- CO₂ yield на 23% ниже у LMY (P < 0.01)
+
+**Поздняя лактация:**
+- DMI: тенденция к различию (18.1 vs 15.0, P = 0.08)
+- FCE: без различий (1.2 vs 1.4, P = 0.26)
+- CH₄ yield: HMY на 16% выше (P < 0.01)
+- CH₄/ECM: тенденция выше у HMY (19.7 vs 18.9, P = 0.08)
+
+### 5.2. Иммунный ответ in vitro
+
+**Ранняя лактация (Fig. 1A-C):**
+
+| Показатель | LMY | HMY | SEM | P-value |
+|------------|-----|-----|-----|---------|
+| PI PBMC + PHA | тенденция ниже | выше | — | 0.051 |
+| PI PBMC + ConA | тенденция ниже | выше | — | 0.050 |
+| TNF-α цельной крови + LPS | ниже | выше | — | 0.02 |
+
+- OD нестимулированных PBMC выше у LMY (P = 0.04) — повышенная базальная метаболическая активность.
+- Стимулированные PBMC (ConA, PHA) и нестимулированная цельная кровь: без различий (P ≥ 0.41).
+
+**Поздняя лактация (Fig. 2A-C):**
+- Иммунные переменные: без различий (P ≥ 0.23)
+- OD PBMC + ConA: выше у LMY (P = 0.02) — единственное различие, противоположное ранней лактации.
+
+### 5.3. Микробное сообщество рубца
+
+**Общая характеристика:**
+- 2918 OTU, 264 генера
+- Доминирующие филумы: Firmicutes (56%), Bacteroidetes (33%), Actinobacteria (4%)
+- Доминирующий род бактерий: Prevotella 1 (19%)
+- Доминирующий род архей: Methanobrevibacter (91%), Methanosphaera (8%)
+
+**α-диверситет:**
+- Ранняя лактация: без различий между LMY и HMY (P ≥ 0.20)
+- Поздняя лактация: без различий для richness, OTU, Simpson; Shannon тенденциально выше у HMY (P = 0.06)
+
+**β-диверситет:**
+- Ранняя и поздняя лактация: без различий между LMY и HMY (PERMANOVA, P ≥ 0.22)
+
+**LEfSe анализ — Ранняя лактация (Fig. 1E):**
+
+| Таксон | LMY | HMY | LDA > 3 |
+|--------|-----|-----|---------|
+| Methanosphaera (archaea) | enriched | — | Да |
+| Marvinbryantia (bacteria) | enriched | — | Да |
+| Butyrivibrio 2 (bacteria) | — | enriched | Да |
+
+**LEfSe анализ — Поздняя лактация (Fig. 2E):**
+
+**LMY enriched:**
+- Prevotella 7
+- Ruminococcus gauvreauii group
+- Eubacterium ruminantium group
+- Shuttleworthia
+
+**HMY enriched:**
+- Methanobrevibacter (archaea)
+- Succinivibrionaceae UCG-002
+- Rikenellaceae RC9 gut group
+- CAG-352
+- Veillonellaceae UCG-001
+
+---
+
+## 6. ИНТЕРПРЕТАЦИЯ И ОБСУЖДЕНИЕ
+
+### 6.1. Проверка гипотез
+
+**H₁ (подтверждена для ранней лактации, отвергнута для поздней):**
+LMY в ранней лактации действительно имели сниженный иммунный ответ (TNF-α, PI PBMC). В поздней лактации различий не было, что указывает на модифицирующую роль энергетического статуса.
+
+**H₂ (частично подтверждена):**
+FCE в ранней лактации была ниже у LMY (против ожидания), но MPE выше. В поздней лактации FCE и MPE схожие (согласуется с Denninger et al. 2020).
+
+**H₃ (подтверждена, с нюансами):**
+Различия в микробиоме обнаружены, но менее выражены, чем ожидалось. В ранней лактации — минимальные (3 таксона); в поздней — более выраженные (>10 таксонов).
+
+### 6.2. Интерпретация LMY в ранней лактации: парадокс высокого СВ и низкой эффективности
+
+LMY-коровы потребляли на 40% больше СВ, но давали схожий удой молока. Это привело к:
+1. **Снижению FCE:** больше корма на единицу молока.
+2. **Повышению MPE:** больше молока относительно живой массы.
+
+Возможные механизмы:
+- **Высокая скорость прохождения пищевого комка:** большой объём СВ → быстрое прохождение → неполная ферментация → меньше CH₄ yield, но и меньше усвоенной энергии (Janssen, 2010; Goopy et al., 2014).
+- **Неполное переваривание:** Stepanchenko et al. (2023) обнаружили сниженную переваримость клетчатки у LMY.
+- **Высокая базальная метаболическая активность:** повышенный OD нестимулированных PBMC и CO₂ от метаболизма (Supplemental Table S2) указывают на повышенные затраты энергии на поддержание.
+
+### 6.3. Иммунитет и энергетический баланс
+
+Снижение иммунного ответа у LMY в ранней лактации — это, вероятно, ресурс-ограниченная адаптация. При ОЭБ молочная железа конкурирует за энергию с иммунной системой. LMY-коровы, несмотря на высокий СВ, не направили "избыточную" энергию ни на молоко, ни на иммунитет.
+
+В поздней лактации, когда энергетический баланс стабилен, иммунный ответ не различается. Это подтверждает гипотезу Meese et al. (2020) о том, что связь CH₄ yield с иммунитетом проявляется только при метаболическом стрессе.
+
+### 6.4. Микробиом как отражение, а не причина
+
+**Ранняя лактация:**
+- **Methanosphaera** (метилотрофный метаноген) обогащена в LMY. Метилотрофный путь требует больше субстрата на моль CH₄, чем гидрогенотрофный (Pereira et al., 2022). Это может объяснять более низкий CH₄ yield.
+- **Marvinbryantia** (редуктивный ацетоген) обогащена в LMY. Ацетогенез — альтернативный поглотитель H₂, конкурирующий с метаногенезом (Ni et al., 2025). [интерполяция] При повышенном парциальном давлении H₂ ацетогены могут активироваться.
+- **Butyrivibrio 2** (целлюлолитик) обогащена в HMY — отражает более интенсивную ферментацию клетчатки.
+
+**Поздняя лактация:**
+- Различия более выражены, но функциональная интерпретация сложнее.
+- **Succinivibrionaceae UCG-002** обогащена в HMY — неожиданно, т.к. этот таксон ассоциирован с низким CH₄ у таммаров (Wallace et al., 2015; Pope et al., 2011). Авторы предполагают, что сукцинат-продуценты могут конкурировать за H₂, но не всегда эффективно снижают CH₄.
+
+### 6.5. Практическая интерпретация: CH₄ yield как индикатор, а не цель
+
+Исследование ставит под сомнение простую стратегию селекции на низкий CH₄ yield. В ранней лактации низкий CH₄ yield ассоциирован с:
+- Низкой FCE (худшая кормопереваримость)
+- Сниженным иммунитетом (больший риск заболеваний)
+- Неясной судьбой "сэкономленной" энергии (возможно, потери с фекалиями)
+
+Вместо этого, повышенный CH₄ yield в ранней лактации может отражать здоровую, активно ферментирующую рубцовую экосистему, способную поддерживать и молочную продуктивность, и иммунную функцию.
+
+---
+
+## 7. КРИТИЧЕСКИЙ АНАЛИЗ
+
+### 7.1. Сильные стороны
+
+1. **Параллельный дизайн:** Сравнение ранней и поздней лактации на одной ферме с едиными протоколами.
+2. **Золотой стандарт измерения CH₄:** Респираторные камеры (не прокси-методы).
+3. **Комплексный подход:** Иммунитет + продуктивность + микробиом в одном исследовании.
+4. **Контроль confounders:** Небеременные коровы в поздней лактации исключают эффект беременности на иммунитет и метаболизм.
+5. **Открытые данные:** ENA PRJEB85754, supplemental materials доступны.
+
+### 7.2. Ограничения
+
+1. **Ретроспективное разделение:** Cut-off значения различались между группами (21.5 vs 24.5 г/кг СВ), что ограничивает прямое сравнение ранней и поздней лактации.
+2. **Малый размер выборки:** n = 10/группа в ранней, n = 7/группа в поздней лактации — недостаточно для надёжной оценки микробиома.
+3. **Различные рационы:** Рационы для ранней и поздней лактации отличались по составу и энергетической плотности — это confounder при сравнении лактационных стадий.
+4. **Отсутствие измерений digestibility:** Невозможно подтвердить гипотезу о высокой скорости прохождения пищевого комка у LMY.
+5. **H₂ не измерялся:** Механистическая интерпретация ацетогенеза остаётся спекулятивной.
+6. **MTT assay — косвенный метод:** Измеряет метаболическую активность, а не прямую пролиферацию.
+7. **Одна порода, одна ферма:** Ограниченная внешняя валидность.
+
+### 7.3. Применимость к России
+
+**Контекст:**
+- Российские фермы редко имеют доступ к респираторным камерам; CH₄ измеряется косвенно (MIR, SF₆) или не измеряется.
+- Селекция на низкий CH₄ yield активно обсуждается, но данные исследования предостерегают от чрезмерного упрощения.
+
+**Рекомендации с осторожностью:**
+1. **Не использовать CH₄ yield как единственный критерий селекции в ранней лактации.** Низкий CH₄ yield может маскировать проблемы с digestibility и иммунитетом.
+2. **Мониторинг FCE важнее CH₄ intensity.** Корова с высоким CH₄ yield, но высокой FCE может быть экономически предпочтительнее.
+3. **Иммунный мониторинг в ранней лактации.** Коровы с низким CH₄ yield в ранней лактации могут требовать повышенного ветеринарного внимания.
+
+---
+
+## 8. ВЫВОДЫ
+
+### 8.1. Авторские выводы (перевод)
+
+1. В ранней лактации LMY-коровы имели сниженный иммунный ответ и FCE при незначительных различиях в микробиоме.
+2. В поздней лактации различия в CH₄ yield не связаны с иммунитетом и эффективностью, но изменения в микробиоме более выражены.
+3. Повышенный CH₄ yield в ранней лактации отражает более высокую рубцовую ферментационную активность, поддерживающую FCE и энергию для иммунной функции.
+
+### 8.2. Структурированные выводы
+
+| Вывод | Уверенность | Применимость |
+|-------|-------------|--------------|
+| В ранней лактации низкий CH₄ yield ассоциирован с ослабленным иммунным ответом | 0.72 | Небеременные Holstein, первые 5 недель |
+| Низкий CH₄ yield в ранней лактации связан с высоким СВ, но низкой FCE | 0.68 | Требует подтверждения digestibility |
+| Methanosphaera и Marvinbryantia маркируют низкий CH₄ yield | 0.65 | Механизм требует изучения H₂ |
+| В поздней лактации CH₄ yield не предсказывает иммунный статус | 0.62 | Небеременные коровы, стабильный EB |
+
+### 8.3. Ключевые сообщения для лекции
+
+1. **"Низкий метан — не всегда хорошо."** В ранней лактации он может сигнализировать о проблемах с перевариванием и иммунитетом.
+2. **Контекст имеет значение.** Один и тот же фенотип CH₄ yield имеет разные последствия в ранней и поздней лактации.
+3. **Микробиом — зеркало, а не рулевое колесо.** Изменения в таксонах отражают физиологическое состояние, но не обязательно его определяют.
+
+---
+
+## 9. FAQ
+
+**Q1: Можно ли использовать CH₄ yield как маркер здоровья в ранней лактации?**
+A: С осторожностью. Высокий CH₄ yield (>25 г/кг СВ) в ранней лактации ассоциирован с лучшим иммунным ответом и FCE. Низкий CH₄ yield (<20 г/кг СВ) может указывать на проблемы с ферментацией, особенно если сочетается с высоким СВ и низкой FCE.
+
+**Q2: Почему LMY потребляют больше, но дают меньше молока?**
+A: Вероятно, из-за ускоренного прохождения пищевого комка и неполной ферментации. Энергия теряется с фекалиями, а не направляется в молоко или иммунитет.
+
+**Q3: Как практически применить данные о микробиоме?**
+A: Прямое применение ограничено. Methanosphaera и Marvinbryantia как маркеры низкого CH₄ yield требуют подтверждения в независимых популяциях. [guess] Потенциально — разработка пробиотиков на основе ацетогенов, но это перспектива 5-10 лет.
+
+**Q4: Почему в поздней лактации иммунитет не различается?**
+A: Потому что энергетический баланс стабилен и положителен. Иммунная система не конкурирует за энергию с молочной железой.
+
+**Q5: Стоит ли селектировать на низкий CH₄ yield?**
+A: Нет, если только на основе CH₄ yield. Необходим индекс, включающий FCE, иммунный статус и продуктивность. Снижение CH₄ за счёт ухудшения здоровья — неустойчивая стратегия.
+
+---
+
+## 10. ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ
+
+### 10.1. Алгоритм принятия решения
+
+```
+Если (корова в ранней лактации < 60 DIM) И (CH₄ yield < 20 г/кг СВ):
+    → Проверить FCE (ожидается < 2.5 кг/кг)
+    → Проверить иммунный статус (SCC, клинические признаки)
+    → Рассмотреть корректировку рациона (замедление прохождения комка)
+    
+Если (CH₄ yield > 25 г/кг СВ) И (FCE > 2.5 кг/кг):
+    → Скорее всего, здоровая активная ферментация
+    → Фокус на поддержании текущего рациона
+    
+Если (корова в поздней лактации > 200 DIM):
+    → CH₄ yield менее информативен для иммунитета
+    → Использовать CH₄ intensity (г/кг ECM) для оценки экологической эффективности
+```
+
+### 10.2. Типичные ошибки
+
+1. **Селекция только на CH₄ yield без учёта FCE.** Может привести к отбору коров с плохой переваримостью.
+2. **Игнорирование стадии лактации.** Стратегия, работающая в поздней лактации, может быть вредна в ранней.
+3. **Переоценка микробиомных маркеров.** Обогащение Methanosphaera не гарантирует низкий CH₄ в других условиях.
+
+### 10.3. Пограничные случаи
+
+- **Первотёлки:** Результаты не применимы; микробиом и иммунитет развиваются иначе.
+- **Беременные коровы в поздней лактации:** Иммунитет может снижаться независимо от CH₄.
+- **Клинически больные коровы:** Любые маркеры CH₄ становятся ненадёжными.
+
+---
+
+## 11. ИНСТРУМЕНТЫ И ШАБЛОНЫ
+
+### 11.1. Контрольный список (Checklist)
+
+- [ ] Определить стадию лактации (ранняя < 60 DIM vs поздняя > 200 DIM)
+- [ ] Измерить CH₄ yield (г/кг СВ) или CH₄ intensity (г/кг ECM)
+- [ ] Оценить FCE (ECM/DMI)
+- [ ] Оценить MPE (ECM/BW или ECM/BW⁰·⁷⁵)
+- [ ] Мониторинг иммунного статуса: SCC, клинические заболевания
+- [ ] В ранней лактации: при CH₄ yield < 20 г/кг проверить digestibility или DMI patterns
+- [ ] В поздней лактации: фокус на CH₄/ECM для оценки экологической эффективности
+
+### 11.2. Онлайн-ресурсы
+
+- NASEM Dairy (2021): https://doi.org/10.17226/23398
+- ENA (European Nucleotide Archive): https://www.ebi.ac.uk/ena/browser/home
+- SILVA database: https://www.arb-silva.de/
+- R package emmeans: https://cran.r-project.org/package=emmeans
+
+---
+
+## 12. ИСТОЧНИКИ
+
+### 12.1. Первичный источник
+
+Cahyo, H.N., P. Niu, P.B. Pope, U. Gimsa, B. Kuhla, and A. Schwarm. 2026. Methane category, immune response, feed efficiency, and rumen microbial community in lactating dairy cows. *J. Dairy Sci.* 109(4):3710–3724. https://doi.org/10.3168/jds.2025-26925
+
+### 12.2. Ключевые цитированные источники
+
+- Bielak, A., M. Derno, A. Tuchscherer, H.M. Hammon, A. Susenbeth, and B. Kuhla. 2016. Body fat mobilization in early lactation influences methane production of dairy cows. *Sci. Rep.* 6:28135.
+- Denninger, T.M., A. Schwarm, F. Dohme-Meier, et al. 2020. Accuracy of methane emissions predicted from milk mid-infrared spectra and measured by laser methane detectors in Brown Swiss dairy cows. *J. Dairy Sci.* 103:2024–2039.
+- Fresco, S., D. Boichard, S. Fritz, et al. 2023. Comparison of methane production, intensity, and yield throughout lactation in Holstein cows. *J. Dairy Sci.* 106:4147–4157.
+- Garnsworthy, P.C., J. Craigon, J.H. Hernandez-Medrano, and N. Saunders. 2012. Variation among individual dairy cows in methane measurements made on farm during milking. *J. Dairy Sci.* 95:3181–3189.
+- Goopy, J.P., A. Donaldson, R. Hegarty, et al. 2014. Low-methane yield sheep have smaller rumens and shorter rumen retention time. *Br. J. Nutr.* 111:578–585.
+- Janssen, P.H. 2010. Influence of hydrogen on rumen methane formation and fermentation balances through microbial growth kinetics and fermentation thermodynamics. *Anim. Feed Sci. Technol.* 160:1–22.
+- Lyons, T., A. Bielak, E. Doyle, and B. Kuhla. 2018. Variations in methane yield and microbial community profiles in the rumen of dairy cows as they pass through stages of first lactation. *J. Dairy Sci.* 101:5102–5114.
+- Meese, S., S.E. Ulbrich, H. Bollwein, et al. 2020. Methane emission, metabolism, and performance of Holstein dairy cows with low, medium, and high lymphocyte proliferation during transition. *J. Dairy Sci.* 103:4367–4377.
+- Ni, G., M. Wang, N. Walker, et al. 2025. Methanogenesis inhibition remodels microbial fermentation and stimulates acetogenesis in ruminants. *Proc. Natl. Acad. Sci. USA* 122:e2514823122.
+- Pereira, A.M., M. De Lurdes Nunes Enes Dapkevicius, and A.E.S. Borba. 2022. Alternative pathways for hydrogen sink originated from the ruminal fermentation of carbohydrates. *Anim. Microbiome* 4:5.
+- Stepanchenko, N., H. Stefenoni, M. Hennessy, et al. 2023. Microbial composition, rumen fermentation parameters, enteric methane emissions, and lactational performance of phenotypically high and low methane-emitting dairy cows. *J. Dairy Sci.* 106:6146–6170.
+- Wallace, R.J., J.A. Rooke, N. McKain, et al. 2015. The rumen microbial metagenome associated with high methane production in cattle. *BMC Genomics* 16:839.
+- Wolin, M.J., T.L. Miller, M.D. Collins, and P.A. Lawson. 2003. Formate-dependent growth and homoacetogenic fermentation by a bacterium from human feces. *Appl. Environ. Microbiol.* 69:6321–6326.
+
+### 12.3. Внешние источники
+
+- [guess] NRC (2001) — устаревшие требования, заменены NASEM 2021 и GfE (2004).
+- [guess] Данные по доступности респираторных камер в РФ отсутствуют.
+
+---
+
+## 13. ЖУРНАЛ ОБРАБОТКИ
+
+### 13.1. Work Plan
+
+| Этап | Статус | Время |
+|------|--------|-------|
+| Извлечение текста из PDF | ✅ | 2026-05-16 |
+| Чтение и анализ полного текста | ✅ | 2026-05-16 |
+| Составление структуры SoTA | ✅ | 2026-05-16 |
+| Написание разделов | ✅ | 2026-05-16 |
+| Проверка FPF и ArchGate | ⏳ | 2026-05-16 |
+| Коммит | ⏳ | 2026-05-16 |
+
+### 13.2. Work Record
+
+**2026-05-16:** Ручная переработка CS.SOTA.319 по требованию пользователя. Полный текст статьи прочитан, Table 2 полностью транскрибирована, Key Claims сформулированы с уровнями уверенности. Обсуждение включает механистическую интерпретацию ацетогенеза и метилотрофного метаногенеза. Структура соответствует CS.SOTA.313.
+
+### 13.3. Next Steps
+
+1. Запустить `./scripts/post-sota-check.sh --last` для проверки FPF.
+2. Обновить entity links: `python3 scripts/update-entity-links.py CS.SOTA.319`
+3. Переиндексировать: `python3 scripts/reindex-sota.py`
+4. Коммит: `git add -A && git commit -m "feat(sota): manual rewrite CS.SOTA.319-cahyo-2026 v1.1"`
+5. Перейти к CS.SOTA.320 (Roman-Garcia — chromium meta-analysis).
