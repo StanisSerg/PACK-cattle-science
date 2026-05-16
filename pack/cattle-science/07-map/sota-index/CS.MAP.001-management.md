@@ -1,6 +1,6 @@
 # CS.MAP.001-management: SoTA Index — Менеджмент
 
-> Шард индекса: management (13 SoTA)
+> Шард индекса: management (14 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 13 |
+| Всего SoTA | 14 |
 | P0 (Фундаментальные) | 0 |
-| P1 (Критически важные) | 1 |
+| P1 (Критически важные) | 2 |
 | P2 (Важные) | 12 |
 | P3 (Дополнительные) | 0 |
 | Field-study | 6 |
 | Framework | 1 |
-| Review | 3 |
+| Review | 4 |
 | Simulation | 1 |
 | Survey | 2 |
 
@@ -40,6 +40,7 @@
 | [CS.SOTA.283](../../06-sota/management/CS.SOTA.283-welfare-barriers-2026.md) | Leliveld et al. | 2026 | P2 | review | `welfare-assessment, barriers, implementation` | См. файл для деталей |
 | [CS.SOTA.287](../../06-sota/management/CS.SOTA.287-rumination-genetics-2026.md) | Lou et al. | 2026 | P2 | field-study | `rumination, genetics, milk-yield` | См. файл для деталей |
 | [CS.SOTA.293](../../06-sota/management/CS.SOTA.293-sop-training-2026.md) | Neukirchner et al. | 2026 | P2 | field-study | `SOP, training, calf-care` | См. файл для деталей |
+| [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy` | См. файл для деталей |
 
 ---
 
@@ -52,4 +53,4 @@
 ---
 
 *Шард обновлён: 2026-05-16*
-*Автоматическая генерация: 13 SoTA*
+*Автоматическая генерация: 14 SoTA*

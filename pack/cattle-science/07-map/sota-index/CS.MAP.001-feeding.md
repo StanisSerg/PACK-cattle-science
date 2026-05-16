@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (174 SoTA)
+> Шард индекса: feeding (177 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,15 +10,15 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 174 |
+| Всего SoTA | 177 |
 | P0 (Фундаментальные) | 20 |
-| P1 (Критически важные) | 21 |
+| P1 (Критически важные) | 24 |
 | P2 (Важные) | 133 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
 | Field-study | 56 |
 | In-vitro-study | 1 |
-| Meta-analysis | 6 |
+| Meta-analysis | 9 |
 | Methodology | 1 |
 | Reference-book | 19 |
 | Review | 46 |
@@ -204,6 +204,9 @@
 | [CS.SOTA.310](../../06-sota/feeding/CS.SOTA.310-nasem-2021-feed-composition.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, feed-composition` | См. файл для деталей |
 | [CS.SOTA.311](../../06-sota/feeding/CS.SOTA.311-nasem-2021-model-description.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, model-description` | См. файл для деталей |
 | [CS.SOTA.312](../../06-sota/feeding/CS.SOTA.312-nasem-2021-transition-cows.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, transition-period` | См. файл для деталей |
+| [CS.SOTA.314](../../06-sota/feeding/CS.SOTA.314-hu-2026.md) | Hu et al. | 2026 | P2 | meta-analysis | `methane, methane-inhibitor, meta-analysis` | См. файл для деталей |
+| [CS.SOTA.315](../../06-sota/feeding/CS.SOTA.315-xiuli-li-2026.md) | Li et al. | 2026 | P2 | meta-analysis | `amino-acids` | См. файл для деталей |
+| [CS.SOTA.316](../../06-sota/feeding/CS.SOTA.316-g.f.l.-cruz-2026.md) | Cruz et al. | 2026 | P2 | meta-analysis | `silage` | См. файл для деталей |
 
 ---
 
@@ -216,4 +219,4 @@
 ---
 
 *Шард обновлён: 2026-05-16*
-*Автоматическая генерация: 174 SoTA*
+*Автоматическая генерация: 177 SoTA*
