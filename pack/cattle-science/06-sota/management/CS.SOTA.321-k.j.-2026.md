@@ -225,12 +225,13 @@ ASW = 0,70 (сильное качество кластеризации), Hedges'
 
 ---
 
-**[СКРИНШОТ] Figure 1: Clustering of calves based on preweaning ADG**
+**Figure 1: Clustering of calves based on preweaning ADG**
 
 **Название в статье:** "Figure 1. Clustering of calves based on preweaning ADG"
 **Источник:** Hemmert et al., 2026, стр. 3727
 **Тип:** График кластеризации K-means
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-03-figure-1.png`
+
+![Figure 1](CS.SOTA.321-k.j.-2026-media/page-03-figure-1.png)
 
 **Описание:**
 Распределение телят по двум кластерам (MAX и MOD) на основании ADG в доотъёмный период. MAX: 1,06 ± 0,01 кг/сут (диапазон 0,97–1,16), MOD: 0,84 ± 0,01 кг/сут (диапазон 0,73–0,90). ASW = 0,70, Hedges' g = 3,87.
@@ -242,149 +243,20 @@ ASW = 0,70 (сильное качество кластеризации), Hedges'
 
 ---
 
-**[СКРИНШОТ] Figure 2: Body weight and ADG during the milk-feeding period**
+**Figure 2: Body weight and ADG during the milk-feeding period**
 
 **Название в статье:** "Figure 2. (A) Body weight and (B) ADG during the milk-feeding period"
 **Источник:** Hemmert et al., 2026, стр. 3728
 **Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-04-figure-2.png`
+
+![Figure 2](CS.SOTA.321-k.j.-2026-media/page-04-figure-1.png)
 
 **Описание:**
 Динамика живой массы (A) и ADG (B) с рождения до 14-й недели. MAX превышает MOD по живой массе на протяжении всего периода (P < 0,001). Наибольшая вариабельность ADG — в первые 2 недели индивидуального содержания (MAX 1,09 ± 0,05 vs MOD 0,71 ± 0,03 кг/сут).
 
 ---
 
-**[СКРИНШОТ] Figure 3: Concentrate intake, ME intake, and gain:feed ratio**
-
-**Название в статье:** "Figure 3. (A) Concentrate intake, (B) daily ME intake, (C) relative ME intake from MR, and (D) gain:feed ratio"
-**Источник:** Hemmert et al., 2026, стр. 3730
-**Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-06-figure-3.png`
-
-**Описание:**
-Приём концентратов (A), суточный приём МЭ (B), доля МЭ из ЗЦМ (C) и коэффициент конверсии (D) по неделям жизни. MAX имели более высокий приём концентратов в 10–11 недель (P < 0,05). Коэффициент gain:feed выше у MAX в доотъёмный период (P < 0,05).
-
----
-
-**[СКРИНШОТ] Figure 4: Feeding-associated behavior during group housing**
-
-**Название в статье:** "Figure 4. (A) MR station visits, (B) concentrate station visits, (C) total feeding station visits, and (D) percentage of MR station visits"
-**Источник:** Hemmert et al., 2026, стр. 3732
-**Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-08-figure-4.png`
-
-**Описание:**
-Поведенческие метрики посещения кормушек. MAX чаще посещали станции ЗЦМ (A) в большинстве недель (P ≤ 0,05). Общее число посещений кормушек (C) выше у MAX в 5, 6, 9–11 недели. Доля посещений ЗЦМ (D) выше у MAX на протяжении всего периода (P = 0,01).
-
----
-
-**[СКРИНШОТ] Figure 5: Random forest feature importance**
-
-**Название в статье:** "Figure 5. Random forest classification for identifying clusters during (A) preweaning and (B) weaning"
-**Источник:** Hemmert et al., 2026, стр. 3734
-**Тип:** Горизонтальная столбчатая диаграмма (feature importance)
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-10-figure-5.png`
-
-**Описание:**
-Важность поведенческих признаков по decrease in model accuracy. Доотъёмный период: суточный приём ЗЦМ > процент приёма ЗЦМ от энтайтлемента > циркадные флуктуации. Период отъёма: средний приём ЗЦМ за приём > суточный приём ЗЦМ > доля посещений ЗЦМ.
-
----
-
-**[СКРИНШОТ] Figure 6: Postweaning physical condition of heifers**
-
-**Название в статье:** "Figure 6. (A) Body weight, (B) weight gain, (C) backfat thickness, and (D) BCS"
-**Источник:** Hemmert et al., 2026, стр. 3735
-**Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-11-figure-6.png`
-
-**Описание:**
-Динамика живой массы (4–25 мес), прироста по периодам, толщины подкожного жира (12–25 мес) и УЖ (6–25 мес). MAX превосходят MOD по живой массе до 25 мес (P < 0,001) и УЖ в 8, 12, 13, 21, 25 мес (P = 0,001). Толщина подкожного жира не различалась между кластерами.
-
----
-
-**[СКРИНШОТ] Figure 7: Physical condition during first lactation**
-
-**Название в статье:** "Figure 7. (A) Body weight, (B) BCS, (C) BCS loss, and (D) BFT by month of lactation"
-**Источник:** Hemmert et al., 2026, стр. 3736
-**Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-12-figure-7.png`
-
-**Описание:**
-Физическое состояние первотёлок по месяцам лактации. MAX тяжелее в 1-й месяц (P = 0,02) и имеют более высокий УЖ в 1-й месяц (P = 0,02). Потеря УЖ (C) не различается. Толщина подкожного жира (D) выше у MOD в середине лактации (мес 5–7).
-
----
-
-**[СКРИНШОТ] Figure 8: Milk yield during first lactation**
-
-**Название в статье:** "Figure 8. Milk yield (L/d) per week of first lactation"
-**Источник:** Hemmert et al., 2026, стр. 3737
-**Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-13-figure-8.png`
-
-**Описание:**
-Удой молока по неделям первой лактации. MAX стабильно превосходят MOD с 4-й недели лактации (P = 0,02 для эффекта кластера). Различия сохраняются на протяжении всей лактации.
-
----
-
-**[СКРИНШОТ] Figure 9: Milk composition during first lactation**
-
-**Название в статье:** "Figure 9. (A) milk protein, (B) milk fat, (C) fat-to-protein ratio, (D) milk lactose, (E) milk urea, and (F) SCC"
-**Источник:** Hemmert et al., 2026, стр. 3737
-**Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-13-figure-9.png`
-
-**Описание:**
-Состав молока по двухнедельным пробам. Концентрации жира (B), белка (A) и лактозы (D) не различаются между кластерами. MUN (E) существенно ниже у MAX (P = 0,008). SCC (F) — только эффект времени, высокая вариабельность.
-
----
-
-**[СКРИНШОТ] Table 1: Correlation between preweaning ADG and feeding parameters**
-
-**Название в статье:** "Table 1. Correlation coefficients between preweaning ADG and selected parameters"
-**Источник:** Hemmert et al., 2026, стр. 3728
-**Тип:** Таблица корреляций
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-04-table-1.png`
-
-**Описание:**
-Pearson's r для n = 50 телят. ADG коррелирует с ME intake (r = 0,60***), MR station visits (r = 0,55***), visits with MR intake (r = 0,61***). Отрицательная корреляция с MR intake per meal (r = −0,44**).
-
----
-
-**[СКРИНШОТ] Table 2: Growth performance and feed intake**
-
-**Название в статье:** "Table 2. Growth performance and feed intake during group housing"
-**Источник:** Hemmert et al., 2026, стр. 3729
-**Тип:** Таблица продукционных показателей
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-05-table-2.png`
-
-**Описание:**
-Живая масса, ADG, приём ЗЦМ и концентратов, коэффициент gain:feed по периодам (доотъёмный, отъём, автоматический период). MAX > MOD по живой массе, ADG, ME intake, gain:feed (P < 0,05).
-
----
-
-**[СКРИНШОТ] Table 3: MR intake and associated behavioral parameters**
-
-**Название в статье:** "Table 3. MR intake and associated behavioral parameters"
-**Источник:** Hemmert et al., 2026, стр. 3731
-**Тип:** Таблица поведенческих параметров
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-07-table-3.png`
-
-**Описание:**
-Параметры посещения станций ЗЦМ: число визитов, приёмов пищи, неполных приёмов, скорость питья. MAX имеют больше посещений (P = 0,001), больше приёмов пищи (P = 0,009 доотъём, P = 0,001 отъём), меньше неполных приёмов в % (P = 0,003).
-
----
-
-**[СКРИНШОТ] Table 6: First-lactation performance**
-
-**Название в статье:** "Table 6. First-lactation performance (mean ± SEM)"
-**Источник:** Hemmert et al., 2026, стр. 3744
-**Тип:** Таблица продуктивности первой лактации
-**Файл:** `CS.SOTA.321-k.j.-2026-media/page-19-table-6.png`
-
-**Описание:**
-305-дневные выходы молока, жира, белка, лактозы и концентрации компонентов. MAX: 11 511 кг молока, 471,5 кг жира, 408,7 кг белка. MOD: 10 242 кг молока, 431,5 кг жира, 368,5 кг белка. Концентрации компонентов не различаются (P > 0,05).
-
----
+> **Примечание:** Медиа-файлы для Figure 3–9 и Tables 1–6 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 3725–3747). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.321-k.j.-2026-media/` и вставить markdown-ссылки.
 
 
 ## 5. РЕЗУЛЬТАТЫ (Results)

@@ -235,63 +235,33 @@ related:
 
 ---
 
-**[СКРИНШОТ] Figure 1: Aerobic stability of corn silage**
+**Figure 1: Aerobic stability of corn silage**
 
 **Название в статье:** "Figure 1. The effect of microbial inoculation on aerobic stability of corn silage preserved for 7, 14, 30, and 90 d"
 **Источник:** Niño de Guzmán et al., 2026, стр. 3825
 **Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.322-c.-2026-media/page-06-figure-1.png`
+
+![Figure 1](CS.SOTA.322-c.-2026-media/page-06-figure-1.png)
 
 **Описание:**
 Аэробная стабильность кукурузного силоса (часы до повышения температуры на >2°C) после 7, 14, 30 и 90 дней консервации. INO-L превосходит CON-L на всех сроках (TRT×D P < 0,01). К 90 дням: 230,8 vs 95,1 ч.
 
 ---
 
-**[СКРИНШОТ] Figure 2: DMI in transition dairy cows**
+**Figure 2: DMI in transition dairy cows**
 
 **Название в статье:** "Figure 2. The effects of feeding inoculated silage–based TMR on DMI"
 **Источник:** Niño de Guzmán et al., 2026, стр. 3826
 **Тип:** Линейный график повторных измерений
-**Файл:** `CS.SOTA.322-c.-2026-media/page-07-figure-1.png`
+
+![Figure 2](CS.SOTA.322-c.-2026-media/page-07-figure-1.png)
 
 **Описание:**
 Суточный приём корма (кг/сут) с −3 недель до +6 недель относительно отёла. TRT×неделя P = 0,07 — тенденция к увеличению СВ у INO в 5–6 недели постпартум.
 
 ---
 
-**[СКРИНШОТ] Table 1: Nutritive value of corn silage (experiment 1)**
-
-**Название в статье:** "Table 1. Effect of microbial inoculation and ensiling duration on the nutritive value of corn silage"
-**Источник:** Niño de Guzmán et al., 2026, стр. 3824
-**Тип:** Таблица химического состава и микробиологии
-**Файл:** `CS.SOTA.322-c.-2026-media/page-05-table-1.png` [предположительно]
-
-**Описание:**
-DM, OM, aNDF, ADF, СП, крахмал, WSC, зола, дрожжи, плесень в силосе после 0, 30 и 90 дней. WSC ниже у INO-L в день 0 (TRT×D P < 0,01). Дрожжи ниже у INO-L после 90 дней (2,07 vs 3,63 log КУО/г, P = 0,03).
-
----
-
-**[СКРИНШОТ] Table 2: Fermentation characteristics of corn silage**
-
-**Название в статье:** "Table 2. Effect of microbial inoculation and ensiling duration on fermentation characteristics and aerobic stability of corn silage"
-**Источник:** Niño de Guzmán et al., 2026, стр. 3825
-**Тип:** Таблица ферментационных параметров
-**Файл:** `CS.SOTA.322-c.-2026-media/page-06-table-2.png` [предположительно]
-
-**Описание:**
-pH, молочная кислота, уксусная кислота, 1,2-пропандиол, NH₃-N, потери СВ, аэробная стабильность. Ацетат: 1,72 vs 1,17 % СВ (INO-L vs CON-L). 1,2-пропандиол: 0,47 vs 0,01 % СВ. Потери СВ: 1,06 % vs 3,74 %. Аэробная стабильность: 230,8 vs 95,1 ч.
-
----
-
-**[СКРИНШОТ] Table 4: Production parameters of transition cows**
-
-**Название в статье:** "Table 4. Effect of feeding silage-based TMR on production parameters"
-**Источник:** Niño de Guzmán et al., 2026, стр. 3826
-**Тип:** Таблица продуктивности
-**Файл:** `CS.SOTA.322-c.-2026-media/page-08-table-4.png` [предположительно]
-
-**Описание:**
-СВ, прир массы, удой, 3,5 % FCM, ECM, жир, белок, лактоза, MUN, SCC, эффективность кормления, время руминации. 3,5 % FCM: 44,9 vs 42,0 кг/сут (P < 0,05). ECM: 44,5 vs 41,9 кг/сут (P < 0,05). Жир: 1,62 vs 1,50 кг/сут (P < 0,05). Руминация: увеличена у INO (P < 0,05).
+> **Примечание:** Медиа-файлы для Table 1, Table 2, Table 4–6, Table 8–9 и Figure 3 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 3818–3833). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.322-c.-2026-media/` и вставить markdown-ссылки.
 
 ---
 
