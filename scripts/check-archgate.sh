@@ -130,23 +130,82 @@ assess_file() {
     # ── О — Основательность (доказательная база) ──
     echo -e "\n${CYAN}── О — Основательность ──${NC}"
     
+    # Автоопределение типа SoTA: глава книги vs научная статья
+    local is_book_chapter=0
+    local is_article=0
+    if grep -qE "NASEM 2021|Chapter [0-9]+|Eq [0-9]+-[0-9]+" "$file" 2>/dev/null; then
+        is_book_chapter=1
+    fi
+    if grep -qE "doi:|Journal of|Figure [0-9]+[^-]|Table [0-9]+[^0-9]" "$file" 2>/dev/null; then
+        is_article=1
+    fi
+    # Если определились оба — приоритет статье (более специфичный паттерн doi)
+    if [ "$is_article" -eq 1 ] && [ "$is_book_chapter" -eq 1 ]; then
+        # Проверяем наличие NASEM-специфичных элементов
+        local nasem_eq_count=$(safe_count "Eq [0-9]+-[0-9]+" "$file")
+        if [ "$nasem_eq_count" -ge 2 ]; then
+            is_article=0
+        else
+            is_book_chapter=0
+        fi
+    fi
+    
+    local type_label=""
+    if [ "$is_article" -eq 1 ]; then
+        type_label="(тип: статья)"
+    elif [ "$is_book_chapter" -eq 1 ]; then
+        type_label="(тип: глава книги)"
+    fi
+    
     local has_page_refs=$(safe_count "p\. [0-9]+" "$file")
-    local has_eq_refs=$(safe_count "Eq [0-9]+-[0-9]+" "$file")
-    local has_table_refs=$(safe_count "Table [0-9]+-[0-9]+" "$file")
-    local has_external_refs=$(safe_count "вне NASEM" "$file")
+    local has_eq_refs=0
+    local has_table_refs=0
+    local has_figure_refs=0
+    local has_external_refs=0
     local has_stats=$(safe_count "R²|RMSE|CCC|CV =|P [<>]" "$file")
+    
+    if [ "$is_article" -eq 1 ]; then
+        # Статья: Table 1, 2, 3...; Figure 1, 2, 3...; [вне статьи]
+        has_eq_refs=$(safe_count "Eq [0-9]+|уравнени[ея]" "$file")
+        has_table_refs=$(safe_count "Table [0-9]+" "$file")
+        has_figure_refs=$(safe_count "Figure [0-9]+" "$file")
+        has_external_refs=$(safe_count "\[вне" "$file")
+    else
+        # Глава книги: Eq 7-1, Table 7-1, [вне NASEM]
+        has_eq_refs=$(safe_count "Eq [0-9]+-[0-9]+" "$file")
+        has_table_refs=$(safe_count "Table [0-9]+-[0-9]+" "$file")
+        has_external_refs=$(safe_count "вне NASEM" "$file")
+    fi
     
     local ev_score=0
     [ "$has_page_refs" -ge 5 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_page_refs * 2 / 5))
-    [ "$has_eq_refs" -ge 5 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_eq_refs * 2 / 5))
-    [ "$has_table_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_table_refs))
-    [ "$has_external_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_external_refs))
+    
+    if [ "$is_article" -eq 1 ]; then
+        # Статья: Eq ≥3, Table ≥2, Figure ≥2, External ≥2, Stats ≥3
+        [ "$has_eq_refs" -ge 3 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_eq_refs * 2 / 3))
+        [ "$has_table_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_table_refs))
+        [ "$has_figure_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_figure_refs))
+        [ "$has_external_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_external_refs))
+    else
+        # Глава книги: Eq ≥5, Table ≥2, External ≥2, Stats ≥3
+        [ "$has_eq_refs" -ge 5 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_eq_refs * 2 / 5))
+        [ "$has_table_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_table_refs))
+        [ "$has_external_refs" -ge 2 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_external_refs))
+    fi
     [ "$has_stats" -ge 3 ] && ev_score=$((ev_score + 2)) || ev_score=$((ev_score + has_stats * 2 / 3))
     
+    echo -e "  Тип SoTA:           $type_label"
     echo -e "  Ссылки на страницы: $has_page_refs  (+2 при ≥5)"
-    echo -e "  Ссылки на уравнения: $has_eq_refs  (+2 при ≥5)"
-    echo -e "  Ссылки на таблицы:  $has_table_refs  (+2 при ≥2)"
-    echo -e "  Внешние источники:  $has_external_refs  (+2 при ≥2)"
+    if [ "$is_article" -eq 1 ]; then
+        echo -e "  Ссылки на уравнения/формулы: $has_eq_refs  (+2 при ≥3)"
+        echo -e "  Ссылки на таблицы:  $has_table_refs  (+2 при ≥2)"
+        echo -e "  Ссылки на фигуры:   $has_figure_refs  (+2 при ≥2)"
+        echo -e "  Внешние пометки:    $has_external_refs  (+2 при ≥2)"
+    else
+        echo -e "  Ссылки на уравнения: $has_eq_refs  (+2 при ≥5)"
+        echo -e "  Ссылки на таблицы:  $has_table_refs  (+2 при ≥2)"
+        echo -e "  Внешние источники:  $has_external_refs  (+2 при ≥2)"
+    fi
     echo -e "  Статистические метрики: $has_stats  (+2 при ≥3)"
     
     local ev_final=$(calculate_score $ev_score 10)
@@ -197,7 +256,7 @@ assess_file() {
     local h2_count=$(safe_count "^## " "$file")
     local h3_count=$(safe_count "^### " "$file")
     local h4_count=$(safe_count "^#### " "$file")
-    local has_toc_links=$(safe_count "Место главы в системе книги|Архитектура" "$file")
+    local has_toc_links=$(safe_count "Место главы в системе книги|Архитектура|Навигация" "$file")
     local has_summary=$(safe_count "Аннотация|Ключевые обновления" "$file")
     
     local struct_score=0
@@ -306,7 +365,7 @@ assess_file() {
 # ── Обработка аргументов ──
 case "$1" in
     --last)
-        file=$(find "$PACK_DIR"/06-sota -name "CS.SOTA.*-nasem-*.md" -type f -printf '%T@ %p\n' 2>/dev/null | sort -n | tail -1 | cut -d' ' -f2-)
+        file=$(find "$PACK_DIR"/06-sota -name "CS.SOTA.*.md" -type f -printf '%T@ %p\n' 2>/dev/null | sort -n | tail -1 | cut -d' ' -f2-)
         if [ -z "$file" ]; then
             echo -e "${RED}❌ SoTA не найдены${NC}"
             exit 1
