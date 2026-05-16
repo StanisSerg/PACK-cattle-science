@@ -5,10 +5,11 @@ format_version: v1.1
 knowledge_tier: P2
 domain: cattle-science
 area: feeding
-subarea: transition-cows
-category: primary-research
+subarea: transition-period
+subarea2: energy-nutrition
+category: field-study
 year: 2026
-authors: "Parales-Girón J.E., Benoit A.C., Lock A.L."
+authors: "Parales-Girón, J.E., Benoit, A.C., Lock, A.L."
 title: "Effects of dietary starch and fatty acid supplementation on milk production and metabolic responses during the immediate postpartum period in dairy cows"
 journal: "Journal of Dairy Science"
 volume: "109"
@@ -16,405 +17,584 @@ issue: "4"
 pages: "3620-3636"
 doi: "10.3168/jds.2025-27561"
 publisher: "Elsevier on behalf of American Dairy Science Association"
-open_access: false
-license: "Elsevier"
+open_access: true
+license: "CC BY 4.0"
 language: ru
-freshness_window: "2026-05-16 — 2028-05-16"
-sota_edition: "1.0"
+freshness_window: "2026-05-16 — 2028-05-16 (2 года, до выхода новых RCT на взаимодействие крахмал × ЖК)"
+sota_edition: "1.1"
 derivation:
-  - source: "Parales-Girón J.E., Benoit A.C., Lock A.L., 2026, JDS 109(4):3620-3636"
+  - source: "Parales-Girón et al., 2026, JDS 109(4):3620-3636"
     type: "ConservativeRetextualization (FPF A.6.3)"
-    reopen_trigger: "DOI: 10.3168/jds.2025-27561"
+    reopen_trigger: "DOI: 10.3168/jds.2025-27561, страницы указаны для каждого блока"
+  - source: "NASEM 2021 Ch.4 Carbohydrates, Ch.3 Lipids"
+    type: "foundational"
+    relevance: "Контекст крахмала и ЖК в рационах"
+  - source: "Lock et al., 2025 JDS 108:11733-11756"
+    type: "foundational"
+    relevance: "Обзорная статья группы Lock по ЖК"
 tags:
-  - feeding
-  - transition-cows
-  - primary-research
+  - starch
+  - fatty-acids
+  - transition-period
+  - postpartum
+  - milk-fat
+  - energy-balance
+  - holstein
+  - field-study
+  - palmitic-acid
+  - oleic-acid
+related:
+  - id: CS.SOTA.291
+    type: foundational
+    note: "de Souza & Lock 2019 — C16:0 в ранней лактации"
+    relevance: high
+  - id: CS.SOTA.292
+    type: foundational
+    note: "de Souza et al. 2021 — C16:0 + cis-9 C18:1 в ранней лактации"
+    relevance: high
+  - id: CS.SOTA.293
+    type: foundational
+    note: "Daneshvar et al. 2021 — крахмал × C16:0/C18:0"
+    relevance: medium
+  - id: CS.SOTA.294
+    type: foundational
+    note: "Piantoni et al. 2015 — fNDF × насыщенные ЖК"
+    relevance: medium
+  - id: CS.SOTA.295
+    type: contradicts
+    note: "Weiss & Pinos-Rodríguez 2009 — противоположное разбиение энергии"
+    relevance: medium
+# ⚠️ POST-CREATION CHECKLIST
+# 1. ./scripts/post-sota-check.sh --last
+# 2. python3 scripts/update-entity-links.py CS.SOTA.318
+# 3. python3 scripts/reindex-sota.py
+# 4. git add -A && git commit -m "feat(sota): add CS.SOTA.318-parales-giron-2026"
+#
+# CRITERIA FOR REVISION (Revision Criterion):
+# - Новое RCT с n > 50 на взаимодействие крахмал × C16:0/cis-9 C18:1
+# - Публикация механизма CCK/PYY при сочетании высокого крахмала + ЖК
+# - Выход обновления NASEM с revised рекомендациями по ЖК в transition
+# - Новые данные по digestibility при сочетании крахмал + Ca-соли ЖК
 ---
 
-# 2. РЕЗЮМЕ (Abstract)
+# CS.SOTA.318: Parales-Girón et al. (2026) — Крахмал и ЖК в ранней лактации
 
-## 2.1. Перевод Abstract
+> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
 
-Исследование взаимодействия между крахмалом и добавлением жирных кислот (ЖК) на продуктивность коров в раннем послепологовом периоде. 60 коров, 2×2 факторный дизайн, диеты с 22% или 28% крахмала и с/без добавки ЖК (2,0% СВ).
+---
 
-## 2.2. Key Claims
+## 2. АННОТАЦИЯ (Abstract)
 
-| # | Claim | Confidence | Evidence | Page |
-|---|-------|------------|----------|------|
-| 1 | HS (28% крахмал) увеличил удой молока на 2,29 кг/сут и лактозы на 0,13 кг/сут vs LS (22% крахмал) | 0.9 | Факторный анализ, P=0.05 и P=0.03 | p. 3624 |
-| 2 | HS и LS+FA увеличили выход молочного жира vs LS (P=0.05 и P=0.04) | 0.88 | Парные сравнения | p. 3624 |
-| 3 | HS увеличил 3,5% FCM на 4,6 кг/сут и ECM vs LS (P=0.02) | 0.9 | Парные сравнения | p. 3624 |
-| 4 | FA снизила DMI на 1,09 кг/сут, BW на 14 кг, BCS на 0,07 ед. | 0.88 | Основной эффект FA, P<0.05 | p. 3624 |
-| 5 | Синергии HS+FA не обнаружено: HS+FA имел промежуточные значения | 0.85 | Взаимодействие starch×FA, P=0.04-0.15 | p. 3624 |
-| 6 | Ни HS, ни FA не усугубили потерю BW/BCS в раннем послепологовом периоде | 0.9 | Отсутствие значимых различий BW/BCS, P≥0.29 | p. 3624 |
+### 2.1. Перевод Abstract
 
-> **FPF A.10:** Claims основаны на primary-research с указанными статистическими метриками.
+В раннем послепартумном периоде молочные коровы испытывают отрицательный энергетический баланс (ОЭБ) из-за снижения сухого вещества (СВ) и повышенной потребности в энергии для молочной продуктивности. Стратегии повышения плотности энергии рациона включают увеличение крахмала и добавление жирных кислот (ЖК). Однако эффект повышения крахмала непоследователен, а добавление ЖК зависит от профиля жирных кислот. Целью исследования было изучить взаимодействие уровня крахмала и добавления ЖК на молочную продуктивность в ранней лактации.
 
-# 3. ВВЕДЕНИЕ (Introduction)
+**Методы:** 60 многоплодных коров Holstein распределены по дизайну 2 × 2 факториал: крахмал (22 % vs 28 % СВ) × ЖК (0 vs 2,0 % СВ, Ca-соль 70 % C16:0 + 20 % cis-9 C18:1). Период лечения (FR): 1–23 день после отёла. Период переноса (CO): 24–44 день (общий рацион).
 
-## 3.1. Полный текст введения
+**Результаты:** высокий крахмал (HS) увеличил удой молока и лактозы. HS и LS+FA увеличили выход молочного жира по сравнению с LS. Добавление ЖК увеличило FCM/DMI, но снизило потребление СВ, живую массу и упитанность. Синергетического эффекта HS+FA не наблюдалось.
 
-Dairy cows experience negative energy balance (NEB)
-during the immediate postpartum period due to reduced
-DMI and increased energy demands for milk production
-(Martens, 2023). As a result of NEB, cows compensate
-by mobilizing their body’s energy reserves by increas-
-ing the flow of nonesterified fatty acids (NEFA) to the
-liver, peripheral tissues, and mammary gland for milk fat
-synthesis (Drackley, 1999). However, excessive adipose
-tissue mobilization may impair production and repro-
-duction performance (Mann, 2022), elevate the risk of
-developing metabolic disorders (Contreras and Sordillo,
-2011), and compromise immune function (Contreras et
-al., 2018). Consequently, strategies that increase dietary
-energy intake could help to mitigate the severity of NEB
-(Mekuriaw, 2023). Strategies used to increase dietary en-
-ergy density and energy intake during the immediate post-
-partum period include increasing dietary starch and fatty
-acid (FA) supplementation (Albornoz and Allen, 2018;
-Effects of dietary starch and fatty acid supplementation on milk
-production and metabolic responses during the immediate
-postpartum period in dairy cows
-J. E. Parales-Girón,
-A. C. Benoit,
-and A. L. Lock*
+**Вывод:** добавление ЖК эффективно при низком крахмале, но теряет преимущества при высоком крахмале из-за снижения СВ.
 
-Department of Animal Science, College of Agriculture and Natural Resources, Michigan State University, East Lansing, MI 48824
+### 2.2. Key Claims
 
-J. Dairy Sci. 109:3620–3636
-This is an open access article under the CC BY license (https://creativecommons.org/licenses/by/4.0/).
-The list of standard abbreviations for JDS is available at adsa.org/jds-abbreviations-26. Nonstandard abbreviations are available in the Notes.
-Received September 8, 2025.
-Accepted November 14, 2025.
-*Corresponding author: allock@​msu​.edu
-de Souza et al., 2021). Studies such as these underscore
-the importance of nutritional interventions in supporting
-productive and healthy transitions for dairy cows.
-The effect of increasing dietary starch on milk pro-
-duction of early-lactation cows has been inconsistent.
-Some studies have reported increased milk yield without
-affecting the yields of milk components (McCarthy et
-al., 2015), whereas others have found no effect (Piccioli-
-Cappelli et al., 2022). Importantly, the impact of dietary
-starch on production performance during the immediate
-postpartum period depends not only on the total starch
-content, but also on the rumen fermentability of the
-starch source, with highly fermentable sources reducing
-DMI and milk component yields compared with less fer-
-mentable sources (Albornoz and Allen, 2018). Further-
-more, a high-starch diet (~30% DM) in post-peak dairy
-cows’ diets can increase the risk of milk fat depression
-(MFD) and enhance energy deposition in adipose tissue,
-especially when dietary forage NDF (fNDF) is reduced
-(Boerman et al., 2015a). Overall, when formulating diets
-for early-lactation cows, both the amount and ferment-
-ability of dietary starch should be considered in order to
-optimize milk yield and composition and minimize risks
-such as MFD.
-The traditional recommendation was not to increase
-dietary FA in early-lactation cows (Grummer, 1992) due
-to possible adverse effects on DMI and energy metabo-
-lism (Kuhla et al., 2016). However, recent studies have
-reported that FA supplementation has a positive effect on
-production responses, and the magnitude of this effect is
-related to the FA profile of the supplement (Lock et al.,
-2025). Supplementation with palmitic acid (C16:0) in the
-immediate postpartum period increased ECM yield by 3.9
+**Claim 1:** Высокий крахмал (28 % СВ) в раннем послепартумном периоде увеличивает удой молока на 2,29 кг/сут (P = 0,05) и выход лактозы на 0,13 кг/сут (P = 0,03) по сравнению с низким крахмалом (22 % СВ).
+- **Уверенность:** 0,78 (RCT, n = 60, мощность >80 %; воспроизведено в Andersen et al. 2003, McCarthy et al. 2015).
+- **Evidence:** P = 0,05 для основного эффекта крахмала; LS 43,1 vs HS 47,4 кг/сут (Parales-Girón et al., 2026, p. 3625, Table 2).
 
-## 3.2. Ключевые аргументы автора
+**Claim 2:** Добавление Ca-соли ЖК (70 % C16:0 + 20 % cis-9 C18:1) при низком крахмале (LS+FA) увеличивает выход молочного жира на 0,18 кг/сут (P = 0,04) и тенденциально повышает FCM на 3,2 кг/сут (P = 0,10) по сравнению с контролем (LS).
+- **Уверенность:** 0,72 (RCT, n = 15/группа; эффект реплицирован в de Souza et al. 2021).
+- **Evidence:** P = 0,04 для взаимодействия крахмал × ЖК; LS+FA 2,13 vs LS 1,95 кг/сут жира (Parales-Girón et al., 2026, p. 3625, Table 2, Fig. 2A).
 
-- Исследование адресует важный пробел в знаниях о взаимосвязях между питанием/управлением и продуктивностью/здоровьем.
-- Результаты имеют практическое применение для оптимизации рационов и протоколов управления.
+**Claim 3:** Сочетание высокого крахмала и добавления ЖК (HS+FA) не даёт синергетического эффекта и снижает удой молока по сравнению с HS (без ЖК).
+- **Уверенность:** 0,68 (RCT, n = 15/группа; единственное исследование с таким сочетанием).
+- **Evidence:** HS+FA 43,6 vs HS 47,4 кг/сут; взаимодействие крахмал × ЖК P = 0,07 (Parales-Girón et al., 2026, p. 3625, Table 2).
+- **Ограничение:** [интерполяция] Механизм снижения СВ при HS+FA требует подтверждения через исследования digestibility.
 
-# 4. МАТЕРИАЛЫ И МЕТОДЫ (Materials and Methods)
+**Claim 4:** Добавление ЖК (2,0 % СВ) снижает потребление СВ на 1,09 кг/сут (P = 0,05), живую массу на 14 кг (P = 0,03) и упитанность на 0,07 единицы (P = 0,03) независимо от уровня крахмала.
+- **Уверенность:** 0,75 (RCT; согласуется с Kuhla et al. 2016, Rico et al. 2017).
+- **Evidence:** Основной эффект ЖК P ≤ 0,05 для СВ, BW, BCS (Parales-Girón et al., 2026, p. 3625, Table 2).
 
-## 4.1. Общее описание
+**Claim 5:** Высокий крахмал снижает концентрацию плазменного BHB на 2,26 мг/дл (P = 0,02), тогда как добавление ЖК повышает BHB на 2,12 мг/дл и NEFA на 0,14 ммоль/л (P ≤ 0,03).
+- **Уверенность:** 0,70 (RCT; эффект крахмала воспроизведён, эффект ЖК требует разделения на dietary vs adipose origin).
+- **Evidence:** Основной эффект крахмала P = 0,02 для BHB; основной эффект ЖК P ≤ 0,03 для NEFA и BHB (Parales-Girón et al., 2026, p. 3629, Table 5).
 
-Animal Housing and Care
-All experimental procedures were approved by the In-
-stitutional Animal Care and Use Committee at Michigan
-State University (East Lansing, MI). The experiment be-
-gan on September 15, 2021, and ended on April 8, 2022.
-Cows were fed once daily (0745 h) at 115% of expected
-intake during the fresh period (FR) and carryover period
-(CO) and milked 3 times daily (0400, 1200, and 2000
-h). Water was available ad libitum in each stall, and
-stalls were bedded with sawdust and cleaned twice daily.
-Standard reproduction, herd health checks, and breeding
-practices were maintained throughout the study.
-Design and Treatment Diets
-Sixty multiparous Holstein cows at the Michigan State
-University Dairy Cattle Teaching and Research Center
-(East Lansing, MI) were used in a randomized complete
-block design experiment with a 2 × 2 factorial arrange-
-ment of treatments. Cows were blocked by previous
-lactation 305-d mature equivalent milk production (mean
-± SD; 13,212 ± 1,520 kg), BCS (up to 0.50-unit differ-
-ence using a scale of 1 = thin and 5 = fat in 0.25-unit
-increments, BCS 3.40 ± 0.15), and projected calving date
-(34 ± 18 d). The BCS used to block cows was the mea-
-surement recorded before parturition. Cows within each
-block were randomly assigned to one of 4 treatment diets
-on their enrollment at 21 d before their expected parturi-
-tion date. The number of cows per treatment (n = 15 per
-treatment) provided >80% power to detect a 5% differ-
-ence in 3.5% FCM yield, based on variability observed
-in prior studies evaluating 2 levels of NDF and FA in a
-2 × 2 factorial design (Piantoni et al., 2015) and 2 levels
-of chromium and FA supplementation in a 2 × 2 factorial
-design (Parales-Girón et al., 2025).
-The treatments were as follows: (1) a diet contain-
-ing 22% DM starch and no supplemental FA (LS); (2)
-diet containing 28% DM starch and no supplemental
-FA (HS); (3) diet containing 22% DM starch and a cal-
-cium salt containing 70% C16:0 and 20% cis-9 C18:1
-(LS+FA); (4) diet containing 28% DM starch and a
-70% C16:0 and 20% cis-9 C18:1 calcium salt (HS+FA).
-The starch concentration of the treatment diets was
-adjusted by partially replacing ground corn with soy-
-hulls and soybean meal. The FA supplement (Spectrum
-Complete, Perdue Agribusiness, Salisbury, MD) was
-added at 2.59% DM to deliver ~2.00% DM of FA and
-replaced soyhulls in the FA-supplemented diets. Dietary
-fNDF and CP contents were held constant across treat-
-ment diets. Treatment diets were offered from 1 to 23
-d postpartum during the FR, and all cows were fed a
-common diet to evaluate possible carryover effects of
-the treatment diets from d 24 to 44 d postpartum (CO).
-Treatment diets were mixed daily in a tumble-mixer and
-fed from the morning following parturition, and com-
-mon diets (close-up and carryover) were mixed daily in
-a mixer wagon. The DM concentration of forages was
-determined twice weekly using a Koster Moisture Test
-(Koster Moisture Testers Inc.), and diets were adjusted
-when necessary. The ingredient and nutrient composi-
-tion of the diets fed as TMR, including the close-up and
-carryover rations for reference, are described in Table
-1. All rations were formulated using the Cornell Net
-Carbohydrate and Protein System (CNCPS, v. 6.5.5;
-AMTS.Cattle.Professional v. 4.17.0.0, AMTS LLC; Van
-Amburgh et al., 2015). Feed access was blocked from
-0545 to 0745 h for orts collection and new feed offer-
-ings. The acronyms LS, HS, LS+FA, and HS+FA are
+**Claim 6:** Краевой эффект высокого крахмала сохраняется в периоде переноса (CO): повышенный удой молока (+2,60 кг/сут, P = 0,09) и лактозы (+0,16 кг/сут, P = 0,05) наблюдаются на 24–44 день даже при общем рационе.
+- **Уверенность:** 0,65 (RCT; carryover эффект известен, но механизм не до конца ясен).
+- **Evidence:** Основной эффект крахмала в CO P = 0,09 для молока, P = 0,05 для лактозы (Parales-Girón et al., 2026, p. 3630, Table 6).
 
-## 4.2. Ключевые параметры
+---
 
-- Дизайн: см. описание выше.
-- Статистический анализ: см. описание выше.
+## 3. ВВЕДЕНИЕ
 
-## 4.3. Медиа-инвентарь
+### 3.1. Физиологический контекст
 
-### Figure 1
-![Figure 1](CS.SOTA.318-j.e.-2026-media/page-03-figure-1.png)
-*Источник: Parales-Girón J.E., Benoit A.C., Lock A.L., 2026, p. 3620*
+В раннем послепартумном периоде (первые 3 недели лактации) молочные коровы испытывают выраженный отрицательный энергетический баланс (ОЭБ). Причина двойная:
+1. **Снижение СВ:** физиологическое снижение аппетита вокруг отёла и конкуренция за ёмкость рубца между плодом и высокообъёмными рационами.
+2. **Резкое повышение потребности:** запуск лактации требует энергии для синтеза молока, который к концу 3-й недели может достигать 50–60 кг/сут.
 
-# 5. РЕЗУЛЬТАТЫ (Results)
+ОЭБ компенсируется мобилизацией жировых запасов — повышенным потоком неэтерифицированных жирных кислот (NEFA) в печень, периферические ткани и молочную железу. Однако чрезмерная мобилизация ассоциируется с метаболическими расстройствами (кетоз, жировая дистрофия печени), подавлением иммунитета и снижением репродуктивной функции.
 
-Health Events
-A summary of health events is presented in Supplemen-
-tal Table S1 (see Notes). During the FR, 9 health events
-were recorded; milk fever was the primary health event
-observed, followed by ketosis. The number of health
-events was lower during the CO, with 1 mastitis event.
-Production Responses: FR
-Dietary starch level and FA supplementation interacted
-with time to affect DMI (P = 0.05; Figure 1A) and tended
-to interact to affect ECM yield (P = 0.12; Figure 1C)
-and lactose content (P = 0.14; Supplemental Table S2,
-see Notes). Starch and FA supplementation interacted to
-modify the yields of milk (P = 0.07; Figure 1B), milk fat
-(P = 0.06; Figure 2A), milk lactose (P = 0.06; Table 2),
-3.5% FCM (P = 0.04; Figure 2B), and ECM (P = 0.04;
-Figure 1C), and tended to interact to modify milk protein
-yield (P = 0.15; Figure 2C) and 3.5% FCM/DMI (P =
-0.15; Table 2). The HS treatment increased the yields of
-milk and milk lactose compared with LS, LS+FA, and
-HS+FA (P ≤ 0.02). The HS and LS+FA treatments in-
-creased milk fat yield compared with LS (P = 0.05 and
-P = 0.04), and HS+FA had intermediate values. The HS
-treatment increased the yields of 3.5% FCM and ECM
-compared with LS (P = 0.02), and LS+FA tended to
-increase 3.5% FCM compared with LS (P = 0.10). The
-HS treatment increased milk protein yield compared with
-HS+FA (P = 0.03), and the LS+FA treatment increased
-3.5% FCM/DMI compared with LS (P = 0.02). We did
-not observe any interactions between dietary starch and
-FA supplementation for milk lactose content, BW, BCS,
-and changes in BW and BCS (P ≥ 0.29; Table 2).
-Overall, increasing dietary starch increased milk yield
-by 2.29 kg/d (P = 0.05), lactose yield by 0.13 kg/d (P
-= 0.03), and milk lactose content by 0.05 g/100 g (P =
-0.05); tended to increase DMI by 0.90 kg/d (P = 0.10);
-and tended to reduce milk protein content by 0.11 g/100
-g (P = 0.06; Table 2). Overall, FA supplementation
-increased milk fat content by 0.25 g/100 g (P < 0.01),
-FCM/DMI by 0.14 kg/kg (P = 0.05); reduced DMI by
-1.09 kg/d (P = 0.05), BW by 14 kg (P = 0.03), BCS by
-0.07 units (P = 0.03); tended to increase ECM/DMI by
-0.11 kg/kg (P = 0.08) and BCS loss by 0.03 units/wk (P =
-0.06); and tended to reduce milk lactose content by 0.04
-g/100 g (P = 0.10; Table 2).
-Protein supply predictions from the CNCPS model
-(v. 6.5.5) using dietary ingredients (Table 1) and animal
-performance (Table 2) for the experimental diets are
-reported in Supplemental Table S3 (see Notes). We did
-Figure 1. Effects of dietary treatments on DMI (A), milk yield (B),
-and ECM yield (C) during the FR (1–23 d postpartum) and CO (24–44
-d postpartum). Diets fed during the FR were LS (diet containing starch
-at 22% DM and no supplemental FA; black line), HS (diet containing
-starch at 28% DM and no supplemental FA; yellow line), LS+FA (diet
-containing starch at 22% DM and a Ca salt containing 70% C16:0 and
-20% cis-9 C18:1; gray line), and HS+FA (diet containing starch at 28%
-DM and a Ca salt containing 70% C16:0 and 20% cis-9 C18:1; blue
-line). All experimental weeks are ± 2 DIM. The vertical dashed line at
-wk 3 indicates the start of the CO when all cows were fed a common
-diet containing starch at 28% DM with no supplemental FA. Dietary
-starch and FA supplementation interacted with time to affect DMI (P =
-0.05). During the CO, we did not observe a treatment effect on DMI (P ≥
-0.12). During the FR, dietary starch and FA supplementation interacted
+### 3.2. Литературный обзор
 
-# 6. ИНТЕРПРЕТАЦИЯ (Discussion)
+**Крахмал в ранней лактации:**
+Эффект повышения крахмала непоследователен. McCarthy et al. (2015) сообщили об увеличении удоя без изменения компонентов молока, тогда как Piccioli-Cappelli et al. (2022) не нашли эффекта. Критический фактор — не только количество крахмала, но и его ферментируемость в рубце: высокоферментируемые источники (влажная кукуруза) могут снизить СВ и выход компонентов по сравнению с менее ферментируемыми (Albornoz & Allen, 2018). Кроме того, высококрахмальные рационы (~30 % СВ) у коров после пика лактации повышают риск депрессии молочного жира (МЖД), особенно при снижении fNDF (Boerman et al., 2015a).
 
-## 6.1. Механистический анализ
+**Жирные кислоты в ранней лактации:**
+Традиционная рекомендация (Grummer, 1992) — не повышать ЖК в ранней лактации из-за риска снижения СВ и нарушения энергетического метаболизма (Kuhla et al., 2016). Однако новые исследования показывают, что эффект зависит от профиля:
+- **C16:0 (пальмитиновая кислота):** повышает ECM на 3,9–5,3 кг/сут (de Souza & Lock, 2019; Parales-Girón et al., 2025).
+- **Смеси C16:0 + cis-9 C18:1:** повышают жир и ECM, при этом cis-9 C18:1 снижает потерю живой массы (de Souza et al., 2021).
+- **Механизм cis-9 C18:1:** дуоденальная инфузия ограничивает липолиз, стимулируя липогенез в жировой ткани (Abou-Rjeileh et al., 2023, 2025).
 
-In the immediate postpartum period, the gap between
-energy requirements for milk production and energy
-intake leads to NEB and mobilization of body reserves.
-Severe NEB increases the risk of metabolic diseases,
-reduced production, and impaired reproductive perfor-
-mance, so increasing dietary energy density is a common
-strategy to support early-lactation cows. Although high-
-producing post-peak cows may benefit more from high-
-starch diets (~30% DM; Boerman et al., 2015a), research
-indicates that increasing dietary starch during the imme-
-diate postpartum period using highly rumen-fermentable
-sources could negatively affect DMI and milk production
-(Albornoz and Allen, 2018). Regarding FA supplementa-
-tion, our previous research has shown that feeding C16:0
-during the immediate postpartum period increases milk
-production, with variable effects on BW loss (de Souza
-and Lock, 2019; Parales-Girón et al., 2025), whereas
-increasing cis-9 C18:1 in FA blends has been shown to
-both increase milk production and attenuate BW loss
-(de Souza et al., 2021). However, to our knowledge, no
-studies have evaluated the effect of dietary starch and
-a FA supplement containing 70% C16:0 and 20% cis-9
-C18:1 in the immediate postpartum period. Therefore,
-the present study was designed to evaluate the possible
-interaction between these 2 factors on milk production
-responses in early-lactation dairy cows. Results provide
-evidence that cows fed a low-starch diet benefited from
-FA supplementation, resulting in increased milk fat and
-3.5% FCM yields. In contrast, when cows were fed a
-high-starch diet, FA supplementation did not further im-
-prove milk production and was instead associated with a
-reduction in the yields of milk and lactose. Additionally,
-we did not observe interactions between dietary starch
-and FA supplementation or treatment effects on changes
-in BW and BCS. These findings suggest that adjusting
-FA supplementation based on dietary starch levels could
-enhance milk production in early-lactation cows, under-
-scoring the importance of considering both energy source
-and FA supplement composition in dairy management, as
-supported by our results and previous research.
-Studies evaluating different starch levels in postpar-
-tum dairy cows have yielded variable results. Increasing
-dietary starch by replacing forage with grain has gener-
-ally been associated with greater milk production and
-DMI (Andersen et al., 2003; Rabelo et al., 2003) and re-
-placing citrus pulp with ground corn similarly increased
-milk yield and DMI (McCarthy et al., 2015). However,
-the fermentability of the starch source can strongly in-
-fluence production outcomes. Highly fermentable starch
-sources, such as high-moisture corn, have been shown
-to reduce DMI and milk production compared with less
-fermentable sources such as ground corn (Albornoz and
-Allen, 2018). Research evaluating the combined effect
-of dietary starch and FA supplementation in dairy cows
-is limited. High-starch diets supplemented with C18:0 or
-low-starch diets plus C16:0 potentially increase energy
-partitioning to milk (Daneshvar et al., 2021), whereas
-a highly saturated FA supplement (46% C18:0 and 37%
-C16:0) in high-starch, low-forage NDF diets has been
-reported to either promote energy partitioning to body re-
-serves or milk yield in the immediate postpartum period
-and established lactation, respectively (Piantoni et al.,
-2015; Weiss and Pinos-Rodríguez, 2009). These findings
+**Взаимодействие крахмал × ЖК:**
+Исследований мало. Daneshvar et al. (2021) сравнили 2 уровня крахмала + C16:0 или C18:0: высокий крахмал + C18:0 увеличивал удой, тогда как C16:0 тенденциально повышала удой при низком крахмале. Piantoni et al. (2015) и Weiss & Pinos-Rodríguez (2009) получили противоречивые результаты по направлению энергетического разбиения (молоко vs запасы).
 
-## 6.2. Сравнение с литературой
+### 3.3. Гипотезы исследования
 
-- **NASEM 2021** — фундаментальные принципы питания и управления молочными коровами.
-- Результаты согласуются с современными данными в данной области.
+**H₁:** Повышение крахмала в раннем послепартумном периоде увеличит удой молока и снизит содержание молочного жира.
 
-# 7. КРИТИЧЕСКИЙ АНАЛИЗ
+**H₂:** Добавление ЖК увеличит выход и содержание молочного жира, компенсируя снижение жира при высоком крахмале.
 
-## 7.1. Сильные стороны
+---
 
-- Чёткий экспериментальный дизайн с количественными оценками.
-- Практическая применимость результатов для промышленного животноводства.
+## 4. МЕТОДОЛОГИЯ
 
-## 7.2. Ограничения и критика
+### 4.1. Дизайн эксперимента
 
-- Ограниченная выборка или специфические условия эксперимента.
-- Необходимость валидации в других производственных системах.
+| Параметр | Значение |
+|----------|----------|
+| Дизайн | Рандомизированный полный блочный, 2 × 2 факториал |
+| Животные | 60 многоплодных коров Holstein |
+| Период | Сентябрь 2021 — апрель 2022 |
+| Место | Michigan State University Dairy Cattle Teaching and Research Center |
+| Период лечения (FR) | 1–23 день после отёла |
+| Период переноса (CO) | 24–44 день после отёла (общий рацион) |
+| Мощность | >80 % для обнаружения 5 % разницы в FCM 3,5 % |
 
-## 7.3. Применимость к российским условиям
+### 4.2. Группы и рационы
 
-- Результаты требуют адаптации с учётом местных кормовых ресурсов и климатических условий.
-- Рекомендуется пилотное внедрение с последующей оценкой эффективности.
+**Группы (n = 15/группа):**
+1. **LS:** 22 % СВ крахмала, без добавки ЖК
+2. **HS:** 28 % СВ крахмала, без добавки ЖК
+3. **LS+FA:** 22 % СВ крахмала + Ca-соль ЖК (70 % C16:0, 20 % cis-9 C18:1)
+4. **HS+FA:** 28 % СВ крахмала + Ca-соль ЖК (70 % C16:0, 20 % cis-9 C18:1)
 
-## 7.4. Ключевые различия с NASEM 2021
+**Добавка ЖК:** Spectrum Complete (Perdue Agribusiness), 2,59 % СВ (~2,0 % СВ ЖК). Заменяла соевые шелухи в рационах с ЖК.
 
-NASEM 2021 не рассматривает данный конкретный аспект на том же уровне детализации.
+**Ключевое ограничение:** fNDF и CP сохранялись постоянными между группами. Крахмал регулировали заменой молотой кукурузы на соевые шелухи и соевый шрот.
 
-# 8. ВЫВОДЫ (Conclusions)
+### 4.3. Состав рационов (Table 1)
 
-## 8.1. Полный текст выводов
+| Компонент | LS | HS | LS+FA | HS+FA | CO (общий) |
+|-----------|-----|-----|-------|-------|------------|
+| **Ингредиенты, % СВ** |
+| Кукурузный силос | 24,8 | 24,8 | 24,9 | 24,9 | 38,7 |
+| Люцерновый силос | 23,3 | 23,2 | 23,4 | 23,7 | 13,4 |
+| Люцерновое сено | 7,16 | 7,10 | 7,34 | 7,30 | — |
+| Молотая кукуруза | 17,1 | 25,4 | 16,9 | 25,1 | 20,6 |
+| Соевый шрот | 5,43 | 6,17 | 5,83 | 6,46 | 6,76 |
+| Соевые шелухи | 12,1 | 3,20 | 8,98 | — | 4,80 |
+| Хлопковое семя | 2,22 | 2,22 | 2,20 | 2,20 | 6,84 |
+| Добавка ЖК | — | — | 2,59 | 2,59 | — |
+| **Питательность, % СВ** |
+| NDF | 35,6 | 30,3 | 33,9 | 28,8 | 31,6 |
+| fNDF | 23,4 | 23,3 | 23,8 | 23,8 | 20,0 |
+| CP | 16,6 | 16,7 | 16,5 | 16,5 | 16,1 |
+| Крахмал | 21,1 | 27,3 | 20,9 | 27,0 | 27,8 |
+| Жирные кислоты | 2,22 | 2,44 | 4,19 | 4,39 | 3,05 |
+| C16:0 | 0,38 | 0,40 | 1,78 | 1,80 | 0,54 |
+| cis-9 C18:1 | 0,35 | 0,42 | 0,66 | 0,72 | 0,54 |
 
-To our knowledge, no previous studies have evalu-
-ated the combined effects of increasing dietary starch
-and supplementing a FA blend containing 70% C16:0
-and 20% cis-9 C18:1 during the immediate postpartum
-period in dairy cows. In this study, HS increased the
-yields of 3.5% FCM by 4.6 kg/d and milk fat by 0.17
-kg/d compared with LS. The LS+FA treatment increased
-milk fat yield by 0.18 kg/d and tended to increase 3.5%
-FCM yield by 3.2 kg/d compared with LS. The lack of a
-synergistic effect likely reflects reduced DMI observed
-with FA supplementation at 2.0% of diet DM and po-
-tential adverse effects on fiber digestibility and rumen
-biohydrogenation when a high-starch diet and a UFA
-supplement were combined. Importantly, neither high
-starch nor FA supplementation exacerbated BW loss.
-Overall, increasing dietary starch increased milk and
-milk fat yields, whereas FA supplementation improved
-milk fat yield only under low-starch conditions.
+### 4.4. Сбор данных и образцов
 
-## 8.2. Ключевые выводы (структурировано)
+**СВ и молоко:**
+- СВ, предложенный корм и остатки: ежедневно
+- Удой молока: ежедневно (дойка 3×)
+- Пробы молока: 2 раза/неделю в FR (d 6, 9, 13, 16, 20, 23), 1 раз/неделю в CO (d 27, 34, 41)
+- Анализ молока: жир, истинный белок, лактоза — среднеинфракрасная спектроскопия (Michigan DHI Association)
+- Жирнокислотный профиль молока: d 6, 13, 20 — газовая хроматография (Bales & Lock, 2024)
 
-- **HS (28% крахмал) увеличил удой молока на 2,29 кг/сут и лактозы на 0,13 кг/сут vs LS (22% крахмал)**
-- **HS и LS+FA увеличили выход молочного жира vs LS (P=0.05 и P=0.04)**
-- **HS увеличил 3,5% FCM на 4,6 кг/сут и ECM vs LS (P=0.02)**
-- **FA снизила DMI на 1,09 кг/сут, BW на 14 кг, BCS на 0,07 ед.**
+**Кровь:**
+- Еженедельно в FR: d 9, 16, 23
+- Пункция копчиковых сосудов, за 1 ч до кормления
+- NEFA, BHB, глюкоза: Olympus AU640e
+- Инсулин: ELISA Mercodia AB
 
-# 9. FAQ
+**Живая масса и упитанность:**
+- BW: еженедельно до отёла, 3 раза/неделю после
+- BCS: за 3 недели до отёла, затем еженедельно (3 обученных исследователя, шкала Wildman et al., 1982)
 
-**Q1: Каковы основные выводы исследования Parales-Girón J.E. et al.?**
-A: HS (28% крахмал) увеличил удой молока на 2,29 кг/сут и лактозы на 0,13 кг/сут vs LS (22% крахмал)
+### 4.5. Статистический анализ
 
-**Q2: Какие методы использовались?**
-A: Animal Housing and Care All experimental procedures were approved by the In- stitutional Animal Care and Use Committee at Michigan State University (East Lansing, MI). The experiment be- gan on September 15, 2021, and ended on April 8, 2022. Cows were fed once daily (0745 h) at 115% of expected inta...
+- **Программа:** SAS v.9.4, процедура GLIMMIX
+- **Модель:** Y_ijklmn = μ + F_i + L_k + T_l + F_iL_k + F_iT_l + L_kT_l + F_iL_kT_l + B_m + C(B_mF_iL_k)_j + J_n + e_ijklmn
+  - F_i = фиксированный эффект крахмала (2 уровня)
+  - L_k = фиксированный эффект ЖК (2 уровня)
+  - T_l = фиксированный эффект времени (3 уровня)
+  - B_m = случайный эффект блока (15 блоков)
+  - C(B_mF_iL_k)_j = случайный эффект коровы внутри блока и диеты
+  - J_n = случайный эффект юлианской даты
+- **Ковариационная структура:** AR(1)
+- **Ковариаты:** предродовая BCS и BW для BW, BCS, их изменений
+- **Уровни значимости:** P ≤ 0,05 (основные эффекты), P ≤ 0,10 (взаимодействия), 0,05 < P ≤ 0,10 (тенденции основных), 0,10 < P ≤ 0,15 (тенденции взаимодействий)
+- **Пост-хок:** SLICE (для 3-факторных взаимодействий), PDIFF/PLSD (для 2-факторных)
 
-**Q3: Как применить результаты в России?**
-A: Требуется адаптация к местным условиям.
+### 4.6. Инвентарь медиа
 
-**Q4: Какие ограничения есть у этого исследования?**
-A: Ограниченная выборка или специфические условия эксперимента.
+![Figure 1A-D](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-j.e.-2026-media/fig1a_d.png)
+*Рисунок 1. Динамика СВ, удоя молока, ECM, FCM и компонентов по группам в периодах FR и CO. Источник: Parales-Girón et al., 2026, p. 3624, Fig. 1.*
 
-# 10. ИСТОЧНИКИ
+![Table 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-j.e.-2026-media/table2.png)
+*Таблица 2. СВ, молочная продуктивность, состав молока, BW и BCS в периоде FR (d 1–23). Источник: Parales-Girón et al., 2026, p. 3625, Table 2.*
 
-- Parales-Girón J.E., Benoit A.C., Lock A.L. (2026). Effects of dietary starch and fatty acid supplementation on milk production and metabolic responses during the immediate postpartum period in dairy cows. Journal of Dairy Science, 109(4), 3620-3636. doi:10.3168/jds.2025-27561
+---
 
-# 11. ЖУРНАЛ ОБРАБОТКИ
+## 5. РЕЗУЛЬТАТЫ
 
-- **2026-05-16** — Создание SoTA v1.1 на основе полного текста статьи (PDF). Расширенная версия с извлечёнными разделами. FPF: PASS. ArchGate: article mode.
+### 5.1. Производственные показатели: период лечения (FR, d 1–23)
+
+#### 5.1.1. Сухое вещество (СВ)
+
+- **Взаимодействие крахмал × ЖК × время:** P = 0,05
+- **Основной эффект крахмала:** тенденция к повышению СВ на 0,90 кг/сут (P = 0,10)
+- **Основной эффект ЖК:** снижение СВ на 1,09 кг/сут (P = 0,05)
+- **Групповые различия:**
+  - LS: 21,5 кг/сут
+  - HS: 22,5 кг/сут
+  - LS+FA: 20,5 кг/сут
+  - HS+FA: 21,3 кг/сут
+
+[интерполяция] Снижение СВ при добавлении ЖК согласуется с механизмом секреции CCK и PYY (Bradford et al., 2008).
+
+#### 5.1.2. Удой молока и компоненты
+
+**Взаимодействие крахмал × ЖК:** P = 0,07 (удой), P = 0,06 (жир), P = 0,04 (FCM 3,5 %), P = 0,04 (ECM).
+
+| Показатель | LS | HS | LS+FA | HS+FA | SEM | P (Starch × FA) |
+|------------|-----|-----|-------|-------|-----|-----------------|
+| Удой, кг/сут | 43,1ᵇ | 47,4ᵃ | 43,3ᵇ | 43,6ᵇ | 1,30 | 0,07 |
+| Жир, кг/сут | 1,95ᵇ | 2,12ᵃ | 2,13ᵃ | 2,07ᵃᵇ | 0,07 | 0,06 |
+| Белок, кг/сут | 1,49 | 1,57 | 1,48 | 1,45 | 0,05 | 0,15 |
+| Лактоза, кг/сут | 2,11ᵇ | 2,35ᵃ | 2,14ᵇ | 2,16ᵇ | 0,06 | 0,06 |
+| FCM 3,5 %, кг/сут | 50,5ᵇ | 55,1ᵃ | 53,7ᵃᵇ | 52,7ᵃᵇ | 1,51 | 0,04 |
+| ECM, кг/сут | 50,2ᵇ | 54,3ᵃ | 52,7ᵃᵇ | 51,6ᵃᵇ | 1,48 | 0,04 |
+
+**Ключевые находки:**
+- HS > всех остальных по удою (P ≤ 0,02)
+- HS и LS+FA > LS по выходу жира (P = 0,05 и 0,04)
+- HS > LS по FCM 3,5 % (P = 0,02) и ECM (P = 0,02)
+- LS+FA тенденциально > LS по FCM 3,5 % (P = 0,10)
+
+**Основные эффекты:**
+- **Крахмал:** +2,29 кг/сут молока (P = 0,05), +0,13 кг/сут лактозы (P = 0,03), +0,05 % лактозы (P = 0,05)
+- **ЖК:** +0,25 % жира (P < 0,01), +0,14 FCM/DMI (P = 0,05), −1,09 кг/сут СВ (P = 0,05)
+
+#### 5.1.3. Эффективность кормопользования
+
+| Показатель | LS | HS | LS+FA | HS+FA | SEM | P (Starch × FA) |
+|------------|-----|-----|-------|-------|-----|-----------------|
+| FCM/DMI | 2,35 | 2,46 | 2,59 | 2,50 | 0,07 | 0,15 |
+| ECM/DMI | 2,34 | 2,44 | 2,54 | 2,46 | 0,07 | 0,17 |
+
+- LS+FA > LS по FCM/DMI (P = 0,02)
+- Основной эффект ЖК: +0,11 ECM/DMI (тенденция, P = 0,08)
+
+#### 5.1.4. Живая масса и упитанность
+
+- **Взаимодействие крахмал × ЖК:** P ≥ 0,56 (отсутствует)
+- **Основной эффект ЖК:**
+  - BW: −14 кг (P = 0,03)
+  - BCS: −0,07 ед. (P = 0,03)
+  - Потеря BCS: +0,03 ед./нед. (тенденция, P = 0,06)
+- **Основной эффект крахмала:** отсутствует (P ≥ 0,56)
+
+### 5.2. Жирнокислотный профиль молока: FR
+
+#### 5.2.1. Выход ЖК по источникам
+
+| Источник | LS | HS | LS+FA | HS+FA | SEM | P (Starch × FA) |
+|----------|-----|-----|-------|-------|-----|-----------------|
+| De novo, г/сут | 396 | 427 | 367 | 376 | 17,9 | 0,46 |
+| Mixed, г/сут | 592 | 625 | 700 | 709 | 21,9 | 0,54 |
+| Preformed, г/сут | 875 | 935 | 926 | 913 | 37,8 | 0,29 |
+
+- **Основной эффект ЖК:**
+  - De novo: −41 г/сут (P = 0,01)
+  - Mixed: +97 г/сут (P < 0,01)
+- **Основной эффект крахмала:** отсутствует (P ≥ 0,18)
+
+#### 5.2.2. Отдельные жирные кислоты
+
+- **C16:0:** ЖК +99 г/сут (P < 0,01)
+- **C4:0:** ЖК +4,9 г/сут (P = 0,04)
+- **C10:0, C12:0, C14:0:** ЖК снижает (P < 0,01)
+- **trans-10 C18:1:** крахмал +0,89 г/сут (P = 0,02) — маркер сдвига биогидрогенизации
+- **cis-9 C18:1:** взаимодействие P = 0,09; LS+FA тенденциально > LS (P = 0,06)
+
+#### 5.2.3. Содержание ЖК в молочном жире
+
+- **De novo:** ЖК снижает с 21,3 % до 18,2 % (P < 0,01)
+- **Mixed:** ЖК повышает с 31,9 % до 35,2 % (P < 0,01)
+- **Preformed:** без изменений (P = 0,75)
+
+### 5.3. Метаболиты плазмы: FR
+
+| Показатель | LS | HS | LS+FA | HS+FA | SEM | P (Starch) | P (FA) |
+|------------|-----|-----|-------|-------|-----|------------|--------|
+| Инсулин, мкЕд/мл | 4,51 | 3,88 | 3,28 | 3,09 | 0,29 | 0,15 | <0,01 |
+| Глюкоза, мг/дл | 57,1 | 57,7 | 53,8 | 56,1 | 0,94 | 0,14 | 0,01 |
+| NEFA, ммоль/л | 0,52 | 0,52 | 0,66 | 0,66 | 0,03 | 0,96 | <0,01 |
+| BHB, мг/дл | 9,74 | 7,76 | 12,1 | 9,60 | 1,00 | 0,02 | 0,03 |
+
+- **Крахмал:** −2,26 мг/дл BHB (P = 0,02)
+- **ЖК:** +0,14 ммоль/л NEFA (P < 0,01), +2,12 мг/дл BHB (P = 0,03), −1,00 мкЕд/мл инсулина (P = 0,02), −2,44 мг/дл глюкозы (P = 0,01)
+- **Взаимодействие крахмал × ЖК × время:** P = 0,07 (BHB)
+
+### 5.4. Производственные показатели: период переноса (CO, d 24–44)
+
+- **Взаимодействия:** отсутствуют (P ≥ 0,17)
+- **Основной эффект крахмала:**
+  - Лактоза: +0,16 кг/сут (P = 0,05)
+  - Молоко: +2,60 кг/сут (тенденция, P = 0,09)
+  - Лактоза (%): +0,03 % (тенденция, P = 0,10)
+- **Основной эффект ЖК:**
+  - BW: −14 кг (P = 0,04)
+  - BCS: −0,07 ед. (тенденция, P = 0,07)
+  - Лактоза (%): −0,03 % (тенденция, P = 0,07)
+
+---
+
+## 6. ИНТЕРПРЕТАЦИЯ И ОБСУЖДЕНИЕ
+
+### 6.1. Проверка гипотез
+
+**H₁ (частично подтверждена):** Высокий крахмал действительно увеличил удой молока (+2,29 кг/сут), но не снизил содержание молочного жира. Отсутствие МЖД объясняется сохранением fNDF (~23,5 % СВ) во всех рационах (Boerman et al., 2015a).
+
+**H₂ (отвергнута):** Добавление ЖК не компенсировало снижение жира при высоком крахмале — наоборот, при HS+FA наблюдалось снижение удоя молока по сравнению с HS. Синергетического эффекта не обнаружено.
+
+### 6.2. Механизм отсутствия синергии HS+FA
+
+Авторы предлагают 3 конкурирующих механизма:
+
+**1. Снижение СВ и потенциальное ухудшение переваримости клетчатки**
+Добавление ЖК при 2,0 % СВ активирует сатиетинговые пептиды (CCK, PYY), замедляя опорожнение желудка и подавляя аппетит (Bradford et al., 2008). При высоком крахмале возможно дополнительное снижение pH рубца, что увеличивает диссоциацию Ca-солей и высвобождение НЖК (Sukhija & Palmquist, 1990). Ненасыщенные ЖК (cis-9 C18:1) нарушают мембраны целлюлолитических бактерий (Maia et al., 2007; Sears et al., 2024).
+
+**2. Сдвиг биогидрогенизации в рубце**
+Высокий крахмал повысил выход trans-10 C18:1 (маркер альтернативного пути биогидрогенизации), ассоциированного с риском МЖД (Bauman et al., 2011). Однако клиническая МЖД не развилась, вероятно, благодаря стабильному fNDF.
+
+**3. Зависимость эффективности cis-9 C18:1 от уровня крахмала**
+cis-9 C18:1 эффективнее инкорпорировалась в молочный жир при низком крахмале (более стабильный рубец), тогда как при высоком крахмале этот механизм подавлялся.
+
+### 6.3. Сравнение с литературой
+
+**Крахмал:**
+- Результаты согласуются с Andersen et al. (2003) и Rabelo et al. (2003): замена клетчатки на крахмал повышает удой.
+- Отличие от Albornoz & Allen (2018): в данном исследовании крахмал добавлялся через молотую кукурузу (менее ферментируемый источник), а не влажную кукурузу, что объясняет отсутствие негативного эффекта на СВ.
+
+**Жирные кислоты:**
+- Эффект LS+FA повторяет результаты de Souza et al. (2021): смеси C16:0 + cis-9 C18:1 повышают жир и ECM.
+- Отличие от de Souza et al. (2021): в данном исследовании добавка 2,0 % СВ снизила СВ, тогда как в предыдущей работе 1,5 % СВ не влияло на СВ. Это подтверждает дозозависимость.
+
+**Взаимодействие:**
+- Daneshvar et al. (2021): C16:0 тенденциально повышала удой при низком крахмале — согласуется.
+- Piantoni et al. (2015): ЖК способствовали разбиению энергии в запасы при низком fNDF/высоком крахмале — в данном исследовании fNDF сохранялся, поэтому разбиение шло в молоко.
+
+### 6.4. Метаболические находки
+
+**NEFA и BHB:** Повышение NEFA и BHB при добавлении ЖК не указывает на усиление липолиза. Скорее, это отражает повышенное поступление диетарных ЖК в кровь (Bionaz et al., 2020). Коровы использовали абсорбированные ЖК для молока, а не мобилизовали запасы.
+
+**Инсулин и глюкоза:** Снижение инсулина и глюкозы при добавлении ЖК согласуется с теорией Allen & Piantoni (2013): окисление ЖК в печени может снижать аппетит через гепатические рецепторы.
+
+### 6.5. Краевой эффект (CO)
+
+Сохранение повышенного удоя молока в периоде переноса у HS-коров указывает на программирование метаболизма в раннем послепартумном периоде. Возможные механизмы:
+- Пропионат из крахмала → глюконеогенез → лактоза (Lin et al., 2016)
+- Повышенная пролиферация эпителия молочной железы
+
+Отсутствие краевого эффекта для ЖК объясняется снижением СВ: меньший энергетический потенциал не позволил закрепить метаболические изменения.
+
+---
+
+## 7. КРИТИЧЕСКИЙ АНАЛИЗ
+
+### 7.1. Сильные стороны
+
+1. **Строгий дизайн:** 2 × 2 факториал с блокировкой по удою предыдущей лактации, BCS и дате отёла.
+2. **Контроль confounders:** Постоянный fNDF (~23,5 % СВ) и CP (~16,5 % СВ) изолируют эффект крахмала и ЖК.
+3. **Период переноса:** Оценка carryover-эффектов — редкость в исследованиях transition.
+4. **Мощность:** >80 % для основного показателя (FCM 3,5 %).
+5. **Практическая применимость:** Использованы стандартные ингредиенты (кукуруза, соевые шелухи, Ca-соль).
+
+### 7.2. Ограничения
+
+1. **Отсутствие данных по переваримости:** Невозможно отделить эффекты рубцовой ферментации от постабсорбционного метаболизма. Это ключевое ограничение для интерпретации взаимодействия крахмал × ЖК.
+2. **Неизокалоричные рационы:** Замена соевых шелух на кукурузу и добавка ЖК изменяли энергетическую плотность. Авторы сознательно отказались от изокалоричного контроля, но это ограничивает интерпретацию.
+3. **Только многоплодные коровы:** Результаты не экстраполируются на первотёлок.
+4. **Один генотип, одна ферма:** Все коровы Holstein MSU — ограниченная внешняя валидность.
+5. **Не измерен pH рубца:** Критично для понимания механизма взаимодействия.
+6. **Кратковременный период лечения:** 23 дня — стандартно, но не позволяет оценить устойчивость эффектов.
+
+### 7.3. Применимость к России
+
+**Контекст:**
+- Российские фермы часто используют крахмалистые рационы (кукурузный силос, зерно) с ограниченным доступом к специализированным добавкам ЖК.
+- Стоимость Ca-солей C16:0/cis-9 C18:1 (Spectrum Complete) в РФ высока; доступны альтернативы (пальмитиновые добавки отечественного производства).
+
+**Рекомендации с осторожностью:**
+1. **Высокий крахмал (28 % СВ):** Применим при наличии качественного силоса и контроле fNDF ≥ 23 % СВ. Риск МЖД при снижении fNDF.
+2. **Добавка ЖК в ранней лактации:** Рекомендуется при низком крахмале (<24 % СВ) или при наличии признаков ОЭБ. Доза 2,0 % СВ может снизить СВ; оптимальная доза, вероятно, 1,5 % СВ.
+3. **Сочетание HS+FA:** Не рекомендуется без дополнительных исследований digestibility.
+
+---
+
+## 8. ВЫВОДЫ
+
+### 8.1. Авторские выводы (перевод)
+
+1. HS повысил FCM 3,5 % на 4,6 кг/сут и выход молочного жира на 0,17 кг/сут по сравнению с LS.
+2. LS+FA повысил выход молочного жира на 0,18 кг/сут и тенденциально FCM 3,5 % на 3,2 кг/сут по сравнению с LS.
+3. Синергетического эффекта HS+FA не наблюдалось, вероятно, из-за снижения СВ и потенциального ухудшения переваримости клетчатки.
+4. Ни высокий крахмал, ни добавка ЖК не усугубили потерю живой массы.
+5. Высокий крахмал увеличил удой молока и молочного жира; добавка ЖК улучшила выход жира только при низком крахмале.
+
+### 8.2. Структурированные выводы
+
+| Вывод | Уверенность | Применимость |
+|-------|-------------|--------------|
+| При крахмале 22–24 % СВ добавка Ca-соли C16:0/cis-9 C18:1 (1,5–2,0 % СВ) повышает выход молочного жира | 0,72 | Многоплодные Holstein, первые 3 недели |
+| При крахмале 28 % СВ добавка ЖК не даёт дополнительного эффекта и может снизить СВ | 0,65 | Требуется подтверждение digestibility |
+| Высокий крахмал (28 % СВ) при fNDF ≥ 23 % безопасен с точки зрения МЖД | 0,75 | Контроль fNDF обязателен |
+| Краевой эффект высокого крахмала сохраняется минимум 3 недели после возврата к общему рациону | 0,60 | Механизм требует изучения |
+
+### 8.3. Ключевые сообщения для лекции
+
+1. **"Не всё, что энергетически плотно, синергично."** Сочетание двух энергетических стратегий (крахмал + ЖК) может конкурировать, а не складываться.
+2. **Контроль fNDF — ключ к безопасности высококрахмальных рационов.**
+3. **Доза ЖК имеет потолок:** 2,0 % СВ снижает СВ; 1,5 % СВ может быть оптимальнее.
+
+---
+
+## 9. FAQ
+
+**Q1: Можно ли использовать это исследование для обоснования добавки ЖК в ранней лактации на российской ферме?**
+A: Частично. Эффект LS+FA на жир подтверждён, но требуется адаптация дозы (1,5 % СВ вместо 2,0 % из-за риска снижения СВ). Доступность и стоимость добавок с профилем 70/20 C16:0/cis-9 C18:1 в РФ ограничена.
+
+**Q2: Почему HS+FA не дал синергии?**
+A: Три механизма: (1) снижение СВ через CCK/PYY, (2) возможное ухудшение переваримости клетчатки из-за диссоциации Ca-солей и действия НЖК на целлюлолитиков, (3) сдвиг биогидрогенизации с повышением trans-10 C18:1.
+
+**Q3: Каковы критические уровни fNDF для безопасного применения 28 % крахмала?**
+A: В исследовании fNDF составлял ~23,5 % СВ (абсолютный) и ~20 % СВ в периоде переноса. NASEM (2021) рекомендует fNDF ≥ 19–21 % СВ для предотвращения МЖД. [guess] При снижении fNDF < 21 % риск МЖД резко возрастает.
+
+**Q4: Почему NEFA и BHB повысились при добавлении ЖК, если липолиз не усилился?**
+A: Повышение отражает поступление абсорбированных диетарных ЖК, а не мобилизацию запасов. Это важное различие для интерпретации метаболических профилей.
+
+**Q5: Как практически применить краевой эффект высокого крахмала?**
+A: Рацион первых 3 недель лактации программирует метаболизм на последующие недели. Инвестиции в энергетическую плотность раннего рациона могут иметь отложенную отдачу.
+
+---
+
+## 10. ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ
+
+### 10.1. Алгоритм принятия решения
+
+```
+Если (крахмал в рационе < 24 % СВ) И (нужно повысить жир молока):
+    → Добавить Ca-соль C16:0/cis-9 C18:1 (1,5 % СВ)
+    → Контролировать СВ (ожидается снижение на 0,5–1,0 кг/сут)
+    
+Если (крахмал в рационе 26–28 % СВ) И (fNDF ≥ 23 % СВ):
+    → Добавка ЖК не рекомендуется (нет синергии, риск снижения СВ)
+    → Фокус на стабильности рубца и pH
+    
+Если (крахмал > 28 % СВ) ИЛИ (fNDF < 21 % СВ):
+    → Риск МЖД. Снизить крахмал или повысить fNDF перед добавлением ЖК.
+```
+
+### 10.2. Типичные ошибки
+
+1. **"Больше энергии = лучше"** Добавление ЖК к высококрахмальному рациону без учёта fNDF и pH рубца.
+2. **Игнорирование дозы** Использование >2,0 % СВ ЖК в ранней лактации без мониторинга СВ.
+3. **Неправильная интерпретация NEFA** Считать повышение NEFA при добавлении ЖК признаком усиления ОЭБ.
+4. **Отсутствие периода переноса** Не учитывать, что ранний рацион программирует последующую продуктивность.
+
+### 10.3. Пограничные случаи
+
+- **Первотёлки:** Результаты не применимы напрямую; требуется осторожность с крахмалом из-за меньшей ёмкости рубца.
+- **Жаркое лето:** Снижение СВ при добавлении ЖК может усилиться; возможно, дозу нужно снизить до 1,0 % СВ.
+- **Низкокачественный силос:** Если fNDF варьирует, риск МЖД возрастает; требуется анализ NDFd.
+
+---
+
+## 11. ИНСТРУМЕНТЫ И ШАБЛОНЫ
+
+### 11.1. Контрольный список (Checklist)
+
+- [ ] Определить уровень крахмала в рационе (целевой: 22–28 % СВ)
+- [ ] Измерить fNDF (должен быть ≥ 21 % СВ, оптимально ≥ 23 %)
+- [ ] Оценить источник крахмала (молотая кукуруза < влажная кукуруза по ферментируемости)
+- [ ] Выбрать дозу ЖК: 1,5 % СВ (консервативно) или 2,0 % СВ (агрессивно, с мониторингом)
+- [ ] Мониторинг СВ: еженедельно первые 3 недели
+- [ ] Мониторинг pH рубца (если возможно) или клинических признаков кислотоза
+- [ ] Контроль жира молока: целевой прирост ≥ 0,15 кг/сут
+- [ ] Оценка NEFA/BHB: различить dietary origin vs adipose mobilization
+
+### 11.2. Онлайн-ресурсы
+
+- NASEM Dairy (2021): https://doi.org/10.17226/23398
+- CNCPS v6.5: https://www.cncps.cornell.edu/
+- Michigan DHI Laboratory: https://www.milktest.com/
+
+---
+
+## 12. ИСТОЧНИКИ
+
+### 12.1. Первичный источник
+
+Parales-Girón, J.E., A.C. Benoit, and A.L. Lock. 2026. Effects of dietary starch and fatty acid supplementation on milk production and metabolic responses during the immediate postpartum period in dairy cows. *J. Dairy Sci.* 109(4):3620–3636. https://doi.org/10.3168/jds.2025-27561
+
+### 12.2. Ключевые цитированные источники
+
+- Albornoz, R.I., and M.S. Allen. 2018. Highly fermentable starch at different diet starch concentrations decreased feed intake and milk yield of cows in the early postpartum period. *J. Dairy Sci.* 101:8902–8915.
+- Bauman, D.E., K.J. Harvatine, and A.L. Lock. 2011. Nutrigenomics, rumen-derived bioactive fatty acids, and the regulation of milk fat synthesis. *Annu. Rev. Nutr.* 31:299–319.
+- Boerman, J.P., S.B. Potts, M.J. VandeHaar, and A.L. Lock. 2015a. Effects of partly replacing dietary starch with fiber and fat on milk production and energy partitioning. *J. Dairy Sci.* 98:7264–7276.
+- Bradford, B.J., K.J. Harvatine, and M.S. Allen. 2008. Dietary unsaturated fatty acids increase plasma glucagon-like peptide-1 and cholecystokinin and may decrease premeal ghrelin in lactating dairy cows. *J. Dairy Sci.* 91:1443–1450.
+- Daneshvar, D., E. Ghasemi, F. Hashemzadeh, R. Kowsar, and M. Khorvash. 2021. Feeding diets varying in starch concentration supplemented with palmitic acid or stearic acid: Effects on performance, milk fatty acid profile, and metabolic parameters of postpartum dairy cows. *Anim. Feed Sci. Technol.* 279:115015.
+- de Souza, J., and A.L. Lock. 2019. Effects of timing of palmitic acid supplementation on production responses of early-lactation dairy cows. *J. Dairy Sci.* 102:260–273.
+- de Souza, J., C.M. Prom, and A.L. Lock. 2021. Altering the ratio of dietary palmitic and oleic acids affects production responses during the immediate postpartum and carryover periods in dairy cows. *J. Dairy Sci.* 104:2896–2909.
+- Grummer, R.R. 1992. Feeding strategies for supplemental fat. Pages 248–259 in *Large Dairy Herd Management*.
+- Kuhla, B., C.C. Metges, and H.M. Hammon. 2016. Endogenous and dietary lipids influencing feed intake and energy metabolism of periparturient dairy cows. *Domest. Anim. Endocrinol.* 56:S2–S10.
+- Maia, M.R.G., L.C. Chaudhary, L. Figueres, and R.J. Wallace. 2007. Metabolism of polyunsaturated fatty acids and their toxicity to the microflora of the rumen. *Antonie van Leeuwenhoek* 91:303–314.
+- NASEM. 2021. *Nutrient Requirements of Dairy Cattle.* 8th rev. ed. National Academies Press.
+- Piantoni, P., A.L. Lock, and M.S. Allen. 2015. Saturated fat supplementation interacts with dietary forage neutral detergent fiber content during the immediate postpartum and carryover periods in Holstein cows. *J. Dairy Sci.* 98:3309–3322.
+- Sukhija, P.S., and D.L. Palmquist. 1990. Dissociation of calcium soaps of long-chain fatty acids in rumen fluid. *J. Dairy Sci.* 73:1784–1787.
+
+### 12.3. Внешние источники
+
+- [guess] NRC (2001) — устаревшие требования, заменены NASEM 2021.
+- [guess] Данные по стоимости добавок ЖК в РФ отсутствуют в первичном источнике.
+
+---
+
+## 13. ЖУРНАЛ ОБРАБОТКИ
+
+### 13.1. Work Plan
+
+| Этап | Статус | Время |
+|------|--------|-------|
+| Извлечение текста из PDF | ✅ | 2026-05-16 |
+| Чтение и анализ полного текста | ✅ | 2026-05-16 |
+| Составление структуры SoTA | ✅ | 2026-05-16 |
+| Написание разделов | ✅ | 2026-05-16 |
+| Проверка FPF и ArchGate | ⏳ | 2026-05-16 |
+| Коммит | ⏳ | 2026-05-16 |
+
+### 13.2. Work Record
+
+**2026-05-16:** Ручная переработка CS.SOTA.318 по требованию пользователя (отказ от скрипт-генерации). Полный текст статьи прочитан, все таблицы транскрибированы, Key Claims сформулированы с уровнями уверенности и evidence anchors. Inline media добавлены. Структура соответствует CS.SOTA.313.
+
+### 13.3. Next Steps
+
+1. Запустить `./scripts/post-sota-check.sh --last` для проверки FPF.
+2. Обновить entity links: `python3 scripts/update-entity-links.py CS.SOTA.318`
+3. Переиндексировать: `python3 scripts/reindex-sota.py`
+4. Коммит: `git add -A && git commit -m "feat(sota): manual rewrite CS.SOTA.318-parales-giron-2026 v1.1"`
+5. Перейти к CS.SOTA.319 (Cahyo Hendra Nur — methane, immune, microbiome).
