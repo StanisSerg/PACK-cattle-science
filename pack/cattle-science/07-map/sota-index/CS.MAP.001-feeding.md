@@ -205,8 +205,8 @@
 | [CS.SOTA.311](../../06-sota/feeding/CS.SOTA.311-nasem-2021-model-description.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, model-description` | См. файл для деталей |
 | [CS.SOTA.312](../../06-sota/feeding/CS.SOTA.312-nasem-2021-transition-cows.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, transition-period` | См. файл для деталей |
 | [CS.SOTA.314](../../06-sota/feeding/CS.SOTA.314-hu-2026.md) | Hu et al. | 2026 | P2 | meta-analysis | `methane, methane-inhibitor, meta-analysis` | См. файл для деталей |
-| [CS.SOTA.315](../../06-sota/feeding/CS.SOTA.315-xiuli-li-2026.md) | Li et al. | 2026 | P2 | meta-analysis | `amino-acids` | См. файл для деталей |
-| [CS.SOTA.316](../../06-sota/feeding/CS.SOTA.316-g.f.l.-cruz-2026.md) | Cruz et al. | 2026 | P2 | meta-analysis | `silage` | См. файл для деталей |
+| [CS.SOTA.315](../../06-sota/feeding/CS.SOTA.315-xiuli-li-2026.md) | Li et al. | 2026 | P2 | meta-analysis | `lysine, amino-acids, meta-analysis` | См. файл для деталей |
+| [CS.SOTA.316](../../06-sota/feeding/CS.SOTA.316-g.f.l.-cruz-2026.md) | Cruz et al. | 2026 | P2 | meta-analysis | `silage, storage-temperature, meta-analysis` | См. файл для деталей |
 
 ---
 

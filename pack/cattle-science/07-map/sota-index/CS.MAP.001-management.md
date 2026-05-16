@@ -40,7 +40,7 @@
 | [CS.SOTA.283](../../06-sota/management/CS.SOTA.283-welfare-barriers-2026.md) | Leliveld et al. | 2026 | P2 | review | `welfare-assessment, barriers, implementation` | См. файл для деталей |
 | [CS.SOTA.287](../../06-sota/management/CS.SOTA.287-rumination-genetics-2026.md) | Lou et al. | 2026 | P2 | field-study | `rumination, genetics, milk-yield` | См. файл для деталей |
 | [CS.SOTA.293](../../06-sota/management/CS.SOTA.293-sop-training-2026.md) | Neukirchner et al. | 2026 | P2 | field-study | `SOP, training, calf-care` | См. файл для деталей |
-| [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy` | См. файл для деталей |
+| [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy-farming, artificial-intelligence, machine-learning` | См. файл для деталей |
 
 ---
 
