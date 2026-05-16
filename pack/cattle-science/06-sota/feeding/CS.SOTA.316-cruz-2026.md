@@ -342,22 +342,22 @@ Y_ijk = μ + I_i + β1X1_ijk + β2X2_ijk + S_j + b_jk + ε_ijk
 
 ### 5.6. Встроенные медиа
 
-![Figure 1 — PRISMA flowchart](CS.SOTA.316-g.f.l.-cruz-2026-media/page-05-figure-1.png)
+![Figure 1 — PRISMA flowchart](CS.SOTA.316-cruz-2026-media/page-05-figure-1.png)
 *Источник: Cruz et al., 2026, p. 3751 (Figure 1). Отбор литературы: 105 → 42 публикаций.*
 
-![Table 2 — Дескриптивная статистика (все силосы)](CS.SOTA.316-g.f.l.-cruz-2026-media/page-07-table-2.png)
+![Table 2 — Дескриптивная статистика (все силосы)](CS.SOTA.316-cruz-2026-media/page-07-table-2.png)
 *Источник: Cruz et al., 2026, p. 3752 (Table 2). Средние, SD, минимум, максимум для всех переменных.*
 
-![Table 4 — Эффекты ТХ на питательную ценность (все силосы)](CS.SOTA.316-g.f.l.-cruz-2026-media/page-09-table-4.png)
+![Table 4 — Эффекты ТХ на питательную ценность (все силосы)](CS.SOTA.316-cruz-2026-media/page-09-table-4.png)
 *Источник: Cruz et al., 2026, p. 3752 (Table 4). Различные буквы в строке = значимое различие (P ≤ 0,05).*
 
-![Table 5 — Эффекты ТХ на брожение и микробиоту (все силосы)](CS.SOTA.316-g.f.l.-cruz-2026-media/page-09-table-5.png)
+![Table 5 — Эффекты ТХ на брожение и микробиоту (все силосы)](CS.SOTA.316-cruz-2026-media/page-09-table-5.png)
 *Источник: Cruz et al., 2026, p. 3753 (Table 5). ND = not detected.*
 
-![Table 6 — Эффекты ТХ на питательную ценность (WPCS)](CS.SOTA.316-g.f.l.-cruz-2026-media/page-10-table-6.png)
+![Table 6 — Эффекты ТХ на питательную ценность (WPCS)](CS.SOTA.316-cruz-2026-media/page-10-table-6.png)
 *Источник: Cruz et al., 2026, p. 3754 (Table 6). WPCS subset.*
 
-![Table 7 — Эффекты ТХ на брожение, микробиоту, аэробную стабильность (WPCS)](CS.SOTA.316-g.f.l.-cruz-2026-media/page-11-table-7.png)
+![Table 7 — Эффекты ТХ на брожение, микробиоту, аэробную стабильность (WPCS)](CS.SOTA.316-cruz-2026-media/page-11-table-7.png)
 *Источник: Cruz et al., 2026, p. 3755 (Table 7). Полный набор показателей для WPCS.*
 
 ---
@@ -676,7 +676,7 @@ Cruz, G.F.L., Pupo, M.R., Daniel, J.L.P., Ferraretto, L.F. (2026). Effects of st
 ### Work Record
 
 - **Время:** ~3 ч (ручная переработка ~800 строк)
-- **Файлы:** CS.SOTA.316-g.f.l.-cruz-2026.md + 6 PNG в media/
+- **Файлы:** CS.SOTA.316-cruz-2026.md + 6 PNG в media/
 - **Проблемы:** отсутствуют
 
 ### Критерии пересмотра

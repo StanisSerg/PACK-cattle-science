@@ -49,8 +49,8 @@ related:
     note: "Latin square, lactating Holstein, JDS 2026"
     relevance: medium
 # ⚠️ POST-CREATION CHECKLIST
-# 1. ./scripts/check-fpf.sh pack/cattle-science/06-sota/feeding/CS.SOTA.323-w.a.-2026.md
-# 2. ./scripts/check-archgate.sh pack/cattle-science/06-sota/feeding/CS.SOTA.323-w.a.-2026.md
+# 1. ./scripts/check-fpf.sh pack/cattle-science/06-sota/feeding/CS.SOTA.323-smith-2026.md
+# 2. ./scripts/check-archgate.sh pack/cattle-science/06-sota/feeding/CS.SOTA.323-smith-2026.md
 # 3. git add -A && git commit -m "feat(sota): manual rewrite CS.SOTA.323 smith-2026 fiber"
 #
 # Критерии пересмотра (Revision Criterion):
@@ -247,9 +247,9 @@ Serva et al. (2021) оценили peuNDF240 на 22 коммерческих ф
 **Название в статье:** "Figure 1. The relationship between dietary uNDF240om and peNDF concentrations..."
 **Источник:** Smith et al., 2026, стр. 3883
 **Тип:** График распределения обработок в координатах uNDF240om × peNDF
-**Файл:** `CS.SOTA.323-w.a.-2026-media/page-03-figure-1.png`
+**Файл:** `CS.SOTA.323-smith-2026-media/page-03-figure-1.png`
 
-![Figure 1](CS.SOTA.323-w.a.-2026-media/page-03-figure-1.png)
+![Figure 1](CS.SOTA.323-smith-2026-media/page-03-figure-1.png)
 
 **Описание:**
 Расположение четырёх диетных обработок (LU-LP, LU-HP, HU-LP, HU-HP) на плоскости uNDF240om (% СВ) × peNDF (% СВ). Показаны линии постоянного peuNDF240 (5,4 %; 5,8 %; 5,9 %; 7,1 %). Демонстрирует концепцию интегральной метрики peuNDF240.
@@ -269,9 +269,9 @@ Serva et al. (2021) оценили peuNDF240 на 22 коммерческих ф
 **Название в статье:** "Figure 2. Least squares means of (A) DMI and (B) milk yield..."
 **Источник:** Smith et al., 2026, стр. 3884
 **Тип:** Столбчатая диаграмма с LSM ± SE
-**Файл:** `CS.SOTA.323-w.a.-2026-media/page-04-figure-1.png`
+**Файл:** `CS.SOTA.323-smith-2026-media/page-04-figure-1.png`
 
-![Figure 2](CS.SOTA.323-w.a.-2026-media/page-04-figure-1.png)
+![Figure 2](CS.SOTA.323-smith-2026-media/page-04-figure-1.png)
 
 **Описание:**
 Панель A: СВ по четырём обработкам. HU-HP: 24,9 кг/сут; остальные: ~27,4 кг/сут. Взаимодействие uNDF240 × peNDF (P = 0,02). Панель B: Удой молока. LU-LP: 46,0 кг/сут; HU-HP: 42,2 кг/сут. uNDF240 эффект (P < 0,001), peNDF эффект (P = 0,005).
@@ -282,7 +282,7 @@ Serva et al. (2021) оценили peuNDF240 на 22 коммерческих ф
 
 ---
 
-> **Примечание:** Медиа-файлы для Table 1–12 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 3881–3897). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.323-w.a.-2026-media/` и вставить markdown-ссылки.
+> **Примечание:** Медиа-файлы для Table 1–12 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 3881–3897). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.323-smith-2026-media/` и вставить markdown-ссылки.
 
 ---
 
