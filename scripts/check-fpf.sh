@@ -71,8 +71,8 @@ check_file() {
     # ── A.6.3 ConservativeRetextualization — Reopen trigger ──
     echo -e "\n${CYAN}── A.6.3 ConservativeRetextualization (Reopen trigger) ──${NC}"
     
-    local page_refs=$(grep -cE "\(NASEM 2021, p\. [0-9]+\)|NASEM 2021, p\. [0-9]+" "$file" 2>/dev/null || echo 0)
-    local eq_refs=$(grep -cE "Eq [0-9]+-[0-9]+|Equation [0-9]+-[0-9]+" "$file" 2>/dev/null || echo 0)
+    local page_refs=$(grep -cE "\(NASEM 2021, p\. [0-9]+\)|NASEM 2021, p\. [0-9]+" "$file" 2>/dev/null)
+    local eq_refs=$(grep -cE "Eq [0-9]+-[0-9]+|Equation [0-9]+-[0-9]+" "$file" 2>/dev/null)
     
     echo -e "${GREEN}📊 Ссылок на страницы NASEM 2021: $page_refs${NC}"
     echo -e "${GREEN}📊 Ссылок на уравнения (Eq X-Y): $eq_refs${NC}"
@@ -90,7 +90,7 @@ check_file() {
     # ── A.10 Evidence Graph — Evidence anchors ──
     echo -e "\n${CYAN}── A.10 Evidence Graph (Evidence anchors) ──${NC}"
     
-    local evidence_anchors=$(grep -cE "\([A-Z][a-z]+,? [0-9]{4}\)|NASEM 2021|NRC 2001|Goff|DeLuca|Gaucheron|Bijl" "$file" 2>/dev/null || echo 0)
+    local evidence_anchors=$(grep -cE "\([A-Z][a-z]+( et al\.)?,? [0-9]{4}\)|NASEM 2021|NRC 2001|Goff|DeLuca|Gaucheron|Bijl" "$file" 2>/dev/null)
     echo -e "${GREEN}📊 Evidence anchors: $evidence_anchors${NC}"
     
     if [ "$evidence_anchors" -lt 10 ]; then
@@ -204,8 +204,8 @@ check_file() {
     # ── FPF-разметка границ модели ──
     echo -e "\n${CYAN}── FPF A.7: Разметка границ модели ──${NC}"
     
-    local fpf_markers=$(grep -c "FPF A\.7" "$file" 2>/dev/null || echo 0)
-    local outside_markers=$(grep -c "\[вне NASEM" "$file" 2>/dev/null || echo 0)
+    local fpf_markers=$(grep -c "FPF A\.7" "$file" 2>/dev/null)
+    local outside_markers=$(grep -c "\[вне NASEM" "$file" 2>/dev/null)
     
     echo -e "${GREEN}📊 FPF-маркеров (A.7, A.6.3, A.10): $fpf_markers${NC}"
     echo -e "${GREEN}📊 Пометок [вне NASEM]: $outside_markers${NC}"
