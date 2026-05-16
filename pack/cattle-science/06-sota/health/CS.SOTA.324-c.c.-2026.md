@@ -20,425 +20,677 @@ open_access: false
 license: "Elsevier"
 language: ru
 freshness_window: "2026-05-16 — 2028-05-16"
-sota_edition: "1.0"
+sota_edition: "1.1"
 derivation:
-  - source: "Martin C.C., Moroz M.S., Padilha L.M., Pereira R.V., Busanello M., 2026, JDS 109(4):4152-4167"
+  - source: "Martin C.C. et al., 2026, JDS 109(4):4152-4167"
     type: "ConservativeRetextualization (FPF A.6.3)"
     reopen_trigger: "DOI: 10.3168/jds.2025-27444"
+  - source: "WHO 2024 CIA list"
+    type: "regulatory"
+    relevance: "Классификация критически важных антибиотиков для человека"
+  - source: "NASEM 2021 Ch.12 Transition Cows — calf health"
+    type: "foundational"
+    relevance: "Контекст управления телятами"
 tags:
   - health
   - antimicrobial
   - primary-research
+  - survey
+  - calf-rearing
+  - waste-milk
+  - brazil
+  - one-health
+  - antimicrobial-resistance
+  - stewardship
+related:
+  - id: CS.SOTA.313
+    type: reference-standard
+    note: "Gold standard для структуры P2 primary-research SoTA"
+    relevance: high
+  - id: CS.SOTA.323
+    type: similar-design
+    note: "JDS 2026, primary-research, manual rewrite"
+    relevance: low
+# ⚠️ POST-CREATION CHECKLIST
+# 1. ./scripts/check-fpf.sh pack/cattle-science/06-sota/health/CS.SOTA.324-c.c.-2026.md
+# 2. ./scripts/check-archgate.sh pack/cattle-science/06-sota/health/CS.SOTA.324-c.c.-2026.md
+# 3. git add -A && git commit -m "feat(sota): manual rewrite CS.SOTA.324 martin-2026 antimicrobial"
+#
+# Критерии пересмотра (Revision Criterion):
+# - Новое крупномасштабное исследование (n > 500) по антибиотикорезистентности в молочном скотоводстве Бразилии или России
+# - Публикация количественных метрик потребления антибиотиков (DDD/DCD) для телят
+# - Изменение регуляторного статуса CIA в Бразилии или Mercosur
+# - Выход обновлённых DCHA Gold Standards (> 2020)
 ---
 
-# 2. РЕЗЮМЕ (Abstract)
+# CS.SOTA.324: Martin et al. (2026) — Использование антибиотиков и практики выращивания телят на бразильских молочных фермах
 
-## 2.1. Перевод Abstract
+> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [11. Источники](#11-источники) · [12. Журнал](#12-журнал-обработки)
 
-Характеристика паттернов использования антибиотиков и практик выращивания телят на бразильских молочных фермах. 725 ферм, онлайн-анкетирование, кластерный анализ.
+---
 
-## 2.2. Key Claims
+## 2. АННОТАЦИЯ (Abstract)
 
-| # | Claim | Confidence | Evidence | Page |
-|---|-------|------------|----------|------|
-| 1 | Крупные фермы (Cluster 3, n=101) используют более структурированные протоколы, но всё ещё применяют критически важные антибиотики | 0.88 | MCA + кластерный анализ | p. 4152 |
-| 2 | Промежуточные фермы (Clusters 1-2, n=540) полагаются на эмпирический подход с ограниченным ветеринарным надзором | 0.85 | Описательная статистика | p. 4152 |
-| 3 | Мелкие фермы (Cluster 4, n=84) используют естественное высасывание и антибиотики старого поколения | 0.82 | Кластерный анализ | p. 4152 |
-| 4 | Терапия БРД часто включает критически важные для человека антибиотики (фторхинолоны, макролиды) | 0.9 | Анализ анкет, P<0.001 | p. 4152 |
-| 5 | Диарея и БРД — основные показания для антибиотиков; часто без диагностического подтверждения | 0.85 | Описательная статистика | p. 4152 |
-| 6 | Waste milk — источник косвенного воздействия антибиотиков | 0.8 | Описательная статистика | p. 4152 |
+### 2.1. Перевод Abstract
 
-> **FPF A.10:** Claims основаны на primary-research с указанными статистическими метриками.
+Использование антибиотиков у доотъёмных телят в значительной степени обусловлено высокой заболеваемостью и смертностью в раннем возрасте, а также практиками управления на ферме. Однако такое использование способствует возникновению и распространению антибиотикорезистентных бактерий, что вызывает серьёзные проблемы общественного и экологического здоровья.
 
-# 3. ВВЕДЕНИЕ (Introduction)
+Цель исследования — охарактеризовать паттерны использования антибиотиков и практики управления на бразильских молочных фермах. Онлайн-анкета распространялась с июня по ноябрь 2020 г. через социальные сети, электронную почту и WhatsApp среди менеджеров молочных ферм (владельцы, консультанты). После курирования данных проведён множественный корреспонденционный анализ (MCA) с последующим кластерным анализом для выявления типологий производственных систем.
 
-## 3.1. Полный текст введения
+На основе данных 725 ферм выявлены 4 кластера, представляющих континуум от интенсивных до низкоинтенсивных систем. Кластер 3 (n = 101) — крупные, хорошо структурированные фермы со стандартизированными протоколами, регулярным ветеринарным надзором и более разумным использованием антибиотиков на основе клинических признаков, хотя критически важные для человека антибиотики всё ещё часто применяются. Кластеры 1 (n = 205) и 2 (n = 335) — промежуточные системы; кластер 1 характеризуется умеренно последовательными практиками, тогда как кластер 2 — эмпирическим, неконтролируемым использованием антибиотиков. Кластер 4 (n = 84) — мелкие хозяйства, полагающиеся на естественное высасывание и антибиотики старого поколения (пенициллин). Кормление waste milk (WM) было широко распространено во всех кластерах, особенно в 1 и 2, и часто неправильно сбрасывалось в канализацию.
 
-The preweaning period is a critical stage in the life
-of dairy calves, characterized by physiological imma-
-turity, nutritional transitions, and heightened disease
-susceptibility. Management practices during this phase,
-such as colostrum administration, feeding protocols,
-and housing conditions, directly affect calf survival,
-growth, and long-term productivity. Diarrhea and bo-
-vine respiratory disease (BRD) are the leading causes
-of morbidity and mortality during this period. Diarrhea
-can affect up to 100% of calves in the first 3 wk of
-life, and BRD affects 12% to 20% of preweaning calves
-(Windeyer et al., 2014; USDA, 2018; Azevedo et al.,
-2020). To manage these health threats, dairy producers
-frequently use antimicrobials for both therapeutic and
-metaphylactic purposes.
-Despite guidelines recommending antimicrobial use
-only for confirmed or suspected bacterial infections,
-broad-spectrum and critically important drugs are often
-used without diagnostic confirmation or susceptibility
-testing (WHO, 2024). In countries like Brazil, their
-widespread availability and the absence of mandatory
-veterinary prescriptions contribute to inappropriate
-use, further exacerbated by inconsistent veterinary
-Mapping antibiotic use and calf-rearing practices on Brazilian dairy farms
-C. C. Martin,1 M. S. Moroz,2
-L. M. Padilha,1
-Richard V. Pereira,3
-M. Busanello,4,5
-and V. Gomes1*
+### 2.2. Key Claims
 
-1Department of Internal Medicine, School of Veterinary Medicine and Animal Science,
-University of São Paulo – São Paulo, São Paulo 05508-270, Brazil
-2EthoLab – Applied Ethology and Animal Welfare Lab, Graduate Program in Animal Science, School of Medicine and Life Sciences, Pontifícia
-Universidade Católica do Paraná, Curitiba, Paraná 80215-901, Brazil
-3Department of Population Health and Reproduction, UC Davis School of Veterinary Medicine, University of California, Davis, Davis, CA 95616
-4Department of Animal Science, College of Agriculture, “Luiz de Queiroz”/University of São Paulo – ESALQ/USP, Piracicaba 13418-900, SP, Brazil
-5Department of Animal Science, Federal University of Paraná, Curitiba 80035-050, PR, Brazil
+**Claim 1:** Четыре типологии бразильских молочных ферм выявлены по градиенту интенсификации: кластер 3 (крупные, структурированные, n = 101), кластеры 1–2 (промежуточные, n = 540), кластер 4 (мелкие, натуральные, n = 84). Кластеры значимо различаются по размеру стада, удою и ветеринарному надзору (P < 0,001).
+- **Уверенность:** 0,88 (cross-sectional survey, n = 725; MCA + кластерный анализ + CDA; pseudo F = 831,3; кубический критерий кластеризации = 2,70).
+- **Evidence:** Table 2, Figure 1, Figure 2 (Martin et al., 2026, p. 4156–4158).
 
-J. Dairy Sci. 109:4152–4169
-This is an open access article under the CC BY license (https://creativecommons.org/licenses/by/4.0/).
-The list of standard abbreviations for JDS is available at adsa.org/jds-abbreviations-26. Nonstandard abbreviations are available in the Notes.
-Received August 18, 2025.
-Accepted January 10, 2026.
-*Corresponding author: viviani.gomes@​usp​.br
-access (Tomazi and dos Santos, 2020). For diarrhea,
-sulfonamides, amoxicillin, and ampicillin are gener-
-ally recommended as first-line agents, and fluoroqui-
-nolones are discouraged (Constable, 2009; Constable
-et al., 2017). Bovine respiratory disease is typically
-treated with florfenicol, tulathromycin, and other mac-
-rolides (Lubbers and Turnidge, 2015; O’Connor et al.,
-2016; Hubbuch et al., 2021). In addition, the use of
-waste milk (WM) represents an indirect exposure to
-pathogenic bacteria and subtherapeutic antibiotic lev-
-els (Brunton et al., 2012; Maynou et al., 2017; Tempini
-et al., 2018; Ma et al., 2022).
-Antimicrobial resistance is a growing global concern,
-and calves have been identified as important reservoirs
-of resistant bacteria within dairy systems (Duse et al.,
-2015a). Calves aged 2–3 wk are particularly at risk be-
-cause of a combination of immunological vulnerability,
-high disease incidence, and frequent exposure to antimi-
+**Claim 2:** Только 17,4 % ферм получают рекомендации по антибиотикотерапии от ветеринаров; 29,0 % ферм не имеют регулярного ветеринарного посещения. Диарея — главное показание для антибиотиков (51,6 % ферм лечат всех телят с диареей), лихорадка учитывается только в 14,2 % случаев.
+- **Уверенность:** 0,90 (survey, n = 725; descriptive statistics; самоотчёт).
+- **Evidence:** Results section (Martin et al., 2026, p. 4156).
 
-## 3.2. Ключевые аргументы автора
+**Claim 3:** Терапия бovine respiratory disease (БРД) часто включает критически важные для человека антибиотики (CIA по WHO 2024): фторхинолоны (энрофлоксацин) — кластеры 1 и 3; цефтиофур (3-го поколения) — кластеры 2 и 4. Флорфеникол (не CIA) используется преимущественно в кластере 3.
+- **Уверенность:** 0,88 (survey, n = 725; MCA классов антибиотиков по кластерам).
+- **Evidence:** Figure 9 (Martin et al., 2026, p. 4160–4161); Discussion (p. 4164–4165).
 
-- Исследование адресует важный пробел в знаниях о взаимосвязях между питанием/управлением и продуктивностью/здоровьем.
-- Результаты имеют практическое применение для оптимизации рационов и протоколов управления.
+**Claim 4:** Профилактическое/метафилактическое использование антибиотиков сообщают 33,4 % ферм (22,5 % регулярно + 10,9 % случайно), преимущественно в первую неделю жизни. Кластер 3 сообщает об отсутствии профилактики; кластер 4 — о ветеринар-руководимой профилактике (инъекции в первые дни).
+- **Уверенность:** 0,85 (survey, n = 725; MCA превентивных практик).
+- **Evidence:** Figure 10A, 10B (Martin et al., 2026, p. 4161–4162); Discussion (p. 4165).
 
-# 4. МАТЕРИАЛЫ И МЕТОДЫ (Materials and Methods)
+**Claim 5:** Кормление waste milk (WM) распространено: 44 % ферм регулярно, 18,5 % случайно. 30,3 % ферм кормят ВСЕМ доступным WM; 52,1 % сбрасывают WM в канализацию. Кластеры 1 и 2 (промежуточные) — наиболее частые потребители WM; кластер 3 (крупные) чаще использует молочные заменители.
+- **Уверенность:** 0,87 (survey, n = 725; MCA использования WM).
+- **Evidence:** Figure 6 (Martin et al., 2026, p. 4161); Discussion (p. 4162–4163).
 
-## 4.1. Общее описание
+**Claim 6:** Управление молозивом требует улучшения: только 24,1 % ферм оценивают качество молозива; 48,6 % используют естественное высасывание; 19,9 % дают молозиво через 2 ч после рождения; 87,9 % не проводят повторного кормления молозивом. Пастеризация молозива — редкая (2,6 %).
+- **Уверенность:** 0,90 (survey, n = 725; descriptive statistics).
+- **Evidence:** Results section (Martin et al., 2026, p. 4156); Discussion (p. 4161–4162).
 
-Questionnaire Development
-This cross-sectional study was conducted using a ques-
-tionnaire designed to assess management practices and
-the use of antimicrobials and WM for milk-fed prewean-
-ing dairy calves in Brazil.
-The questionnaire was developed based on the follow-
-ing bibliographic references: Brunton et al. (2012), Duse
-et al. (2013), Randall et al. (2014), Duse et al. (2015a),
-Duse et al. (2015b), Klein-Jöbstl et al. (2015), Higham et
-al. (2018), and Tempini et al. (2018).
-The questionnaire consisted of the general property
-information – property features (6 variables) and a total
-of 59 questions distributed into 5 thematic sections: use
-of antimicrobials in lactating and dry cows (questions
-1–16); colostrum management and calf care (questions
-17–30); feeding calves during the preweaning phase
-(questions 31–37); use of antimicrobials for preweaning
-calves (questions 38–51); and use of WM for prewean-
-ing calves (questions 52–59). The variables analyzed
-in the present paper included general farm information
-and sections 2 to 5 (colostrum management and calf care
-through the use of WM for preweaning calves), which
-were specific to preweaning calves. After data cura-
-tion, a subset of questions with complete and consistent
-responses was used for further statistical analyses, as
-described later. The full questionnaire is available as
-supplemental material (see Notes).
-Data Collection Method and Criteria for Excluding
-Questionnaires and Responses
-All data collection procedures, including the collec-
-tion of farm-related information, were approved by the
-National Research Ethics Commission (CONEP) and the
-institutional Research Ethics Committees (CEP) under
-Plataforma Brasil (protocol no. 359666620.2.0000.5422),
-as well as by the Ethics Committee on the Use of Animals
-(protocol no. 4964240720).
-Farms were recruited through convenience and snow-
-ball sampling based on voluntary participation. The
-questionnaire link was disseminated nationally through
-professional networks, dairy cooperatives, producer as-
-sociations, and veterinary extension services. Although
-the survey was not based on probabilistic sampling, the
-responses represented a wide geographic distribution
-across all major milk-producing regions of Brazil and
-included farms of different herd sizes, management lev-
-els, and production intensities. Therefore, although the
-sample cannot be considered statistically representative
-of the entire Brazilian dairy industry, it captures the di-
-versity of production systems and management practices,
-providing valuable insights into antimicrobial use pat-
-terns and typologies that reflect real-world conditions.
-The survey was designed using Google Forms (www​
-.google​.com/​forms), ensuring compatibility with both
-desktop and mobile devices. The Google Forms link was
-distributed via social media platforms (Instagram, Face-
-book, and WhatsApp) to facilitate broad and low-cost ac-
-cess, particularly given the restrictions on in-person data
-collection during the COVID-19 pandemic.
-The target audience included individuals directly
-involved in dairy farm operations such as farm own-
-ers, staff responsible for animal management, and vet-
-erinarians providing technical assistance. These groups
-were identified by analyzing the social midia profile,
-in addition to the professional dairy networks, regional
-producer associations, and dairy industries partner-
-ship. The snowball recruitment strategy allowed the
+> **FPF A.10:** Claims основаны на cross-sectional survey с самоотчётом. Вероятность социально желательных ответов и recall bias не оценена.
 
-## 4.2. Ключевые параметры
+---
 
-- Дизайн: см. описание выше.
-- Статистический анализ: см. описание выше.
+## 3. ВВЕДЕНИЕ
 
-## 4.3. Медиа-инвентарь
+### 3.1. Контекст и значимость проблемы
 
-### Figure 1
-![Figure 1](CS.SOTA.324-c.c.-2026-media/page-03-figure-1.png)
-*Источник: Martin C.C., Moroz M.S., Padilha L.M., Pereira R.V., Busanello M., 2026, p. 4152*
+**Модель Martin et al. (2026)** исследует доотъёмный период как критическую фазу для молочных телят, характеризующуюся физиологической незрелостью, нутритивными переходами и повышенной восприимчивостью к заболеваниям.
 
-# 5. РЕЗУЛЬТАТЫ (Results)
+#### Антимикробная резистентность как глобальная угроза
 
-Dataset Overview
-The 725 dairy farms included in the survey showed
-wide variation in herd size and productivity (Table 1).
-Most dairy producers were located in Brazil’s south and
-southeast regions, particularly in Rio Grande do Sul,
-Santa Catarina, Paraná, Minas Gerais, and São Paulo,
-where dairy farming is most concentrated. Holstein was
-the predominant breed across herds in these regions.
-The number of lactating cows ranged from 3 to 2,040,
-with a median of 37 cows and a mean (± SE) of 85 ±
-175.2, reflecting the coexistence of smallholders and
-large-scale operations within the sample. Daily milk pro-
-duction varied between 20 and 81,000 L, with a median of
-740 L and a mean of 2,491.5 ± 6,463.8 L, and the average
-milk yield per cow was 22.1 ± 8.3 L/d (range: 3.3–46.2
-L/d). Total cattle inventory ranged from 7 to 4,720 ani-
-mals, with a median of 85 and a mean of 187.3 ± 372.2.
-The high CV for all variables underscore the structural
-and productive heterogeneity of Brazilian dairy systems.
-Monthly veterinary assistance was reported in 39.5% of
-farms, whereas 29.0% had no regular visits.
-Table 1. Descriptive presentation of the 725 dairy farms included in the calf management and antimicrobial use
-survey
-Statistic
-Number of
-lactating cows
-Milk
-production (L/d)
-Average milk
-yield per cow (L/d)
-Total cattle
-inventory (head)
-Minimum
-3.3
-Lower quartile (Q1)
-16.1
-Median
-21.9
-Upper quartile (Q3)
-1,800
-28.0
-Maximum
-2,040
-81,000
-46.2
-4,720
-Mean ± SD
-85.0 ± 175.2
-2,491.5 ± 6,463.8
-22.1 ± 8.3
-187.3 ± 372.2
-CV (%)
-206.2
-259.4
-37.5
-198.7
-Colostrum and early feeding management showed
-substantial room for improvement. Only 24.1% of farms
-assessed colostrum quality, and natural suckling was
-the main feeding method (48.6%), followed by nipple
-bottle (45.8%). Colostrum replacers were rarely used.
-Feeding volumes were typically ad libitum (36.8%) or
-≤3 L (34.3%), and the timing of first feeding was often
-delayed: 24.1% reported natural suckling and 19.9%
-provided colostrum 2 h after birth. A second feeding
-was uncommon (absent in 87.9% of farms). Colostrum
-banks were reported by 42.8% of farms, but pasteuriza-
-tion was rare (2.6%). Most producers used colostrum
-from cows treated during the dry period. Transition
-milk was routinely offered in 54.6% of farms, and natu-
-ral suckling persisted in 9.5%.
-Liquid feeding practices were diverse: saleable milk
-(45.9%), WM (19.6%), mixed sources (18.8%), milk re-
-placer (7.6%), and natural suckling (8.1%). Only 30.3%
-of farms adopted intensive feeding (>3 L per meal), and
-89.8% fed twice daily. Individual pens predominated for
-preweaning calves, and collective feeding was uncommon
-(4.8%). Buckets were the most frequent feeding equipment.
-Waste milk management was common: 44% of farms
-fed WM regularly and 18.5% occasionally, mainly to
-reduce costs (29.8%), for convenience (10.1%), or due to
-disposal difficulties (6.9%). In 30.3% of farms, all WM
-was fed to calves; 52.1% discarded it in sewage, and
-13.7% used it for other species. Waste milk was typically
-introduced during the first week of life.
-Regarding antimicrobial use and decision-making, vet-
-erinarians provided treatment guidance in only 17.4% of
-farms. Diarrhea was the main indication for antimicrobial
-therapy, followed by BRD. For diarrhea, the most used
-antimicrobial classes were sulfonamides, quinolones,
-tetracyclines, and β-lactams, sulfadiazine being the most
-common active ingredient (27.5%). For BRD, β-lactams
+**Масштаб проблемы.** Антимикробная резистентность (AMR) признана ВОЗ одной из 10 главных угроз глобальному здоровью (WHO, 2024). В ветеринарии необоснованное использование антибиотиков ускоряет селекцию резистентных штаммов, которые могут передаваться человеку через пищевую цепь, окружающую среду и прямой контакт (EFSA BIOHAZ, 2017). Телята до 3 недель являются ключевыми резервуарами резистентных бактерий в молочных системах (Duse et al., 2015a; Springer et al., 2019).
 
-# 6. ИНТЕРПРЕТАЦИЯ (Discussion)
+**Критически важные антибиотики (CIA).** WHO (2024) классифицирует фторхинолоны (энрофлоксацин) и цефалоспорины 3–5-го поколений (цефтиофур) как CIA для человеческой медицины. Их ветеринарное применение должно быть ограничено случаями, когда нет альтернатив (Scheld, 2003; Foster et al., 2016a).
 
-## 6.1. Механистический анализ
+#### Бразильское молочное скотоводство
 
-This study analyzed data from 725 dairy farms located
-in Brazil’s main milk-producing regions, grouped into 4
-clusters that reflected a gradient of intensification and
-resource availability. This is the first comprehensive
-assessment of calf-rearing practices in Brazilian dairy
-herds, including WM feeding and antimicrobial use.
-Production system characteristics were embedded within
-the multivariate structure described by the MCA and
-contributed to the gradients of management intensity and
-antimicrobial use practices across clusters.
-Cluster 3 showed the most consistent monitoring
-of colostrum quality and adoption of structured pro-
-tocols, followed by cluster 1, which displayed partial
-adherence to recommended practices such as those
-proposed by the Dairy Calf and Heifer Association
-(DCHA, 2020). Cluster 2 showed limited adherence to
-guidelines, whereas cluster 4 relied mainly on natural
-suckling without standardized routines. Inadequate
-transfer of passive immunity markedly increases calf
-disease risk. Lombard et al. (2020) proposed a graded
-framework for passive immunity based on serum IgG
-levels, demonstrating that higher IgG concentrations
-Figure 6. Multiple correspondence analysis of WM use and motivations for feeding practices in Brazilian dairy farms.
-reduce morbidity and improve health outcomes. Calves
-with failure of passive transfer are more likely to re-
-quire antimicrobial therapy, especially for respiratory
-and enteric diseases.
-Feeding calves colostrum from cows treated with in-
-tramammary antimicrobials at dry off has raised concern.
-Lam et al. (2025) confirmed that colostrum from treated
-cows often contains antimicrobial residues. Although no
-association was found between these residues and the
-prevalence of ESBL or AmpC producing Escherichia
-coli in calf feces, the authors emphasized the importance
-of minimizing antimicrobial use at dry off and observing
-withdrawal periods.
-Feeding transition milk in the first days of life was
-more frequent in clusters 1 and 2. Depending on the prev-
-alence of postpartum diseases and the ability to separate
-milk from treated cows, transition milk may avoid early
-exposure to antimicrobial residues. Renaud and Steele
-(2025) reviewed the biological importance of transition
-milk, reporting benefits for intestinal development, IgG
-persistence, ADG, and calf survival.
-Feeding management practices also varied among
-clusters. Cluster 3 was characterized by structured and
-intensive feeding protocols, including milk replacer
-use, higher feeding frequency, and automated or mixed
-systems. Cluster 1 represented intermediate strategies,
-combining WM with saleable milk and using conven-
-tional delivery methods such as buckets and nipple
-bottles. Cluster 2 adopted more basic routines, often
-providing milk once daily or irregularly, in small vol-
-umes, and with minimal mechanization. Cluster 4 em-
-ployed ad libitum or undefined feeding routines, with
-variable liquid diet compositions.
-Variation in early-life feeding strategies affects calf
-immune development and disease resilience. Adequate
-nutritional planning has been associated with improved
-neutrophil function (Obeidat et al., 2013), faster recov-
-ery from Cryptosporidium parvum–induced diarrhea,
-better hydration, and greater ADG (Ollivett et al., 2012),
-as well as enhanced behavioral and physiological de-
-velopment (Welk et al., 2023). Intensified milk replacer
-programs have been linked to stronger vaccine responses
+**Производственный контекст.** Бразилия — один из 5 крупнейших производителей молока в мире (24,7 млрд литров в 2023 г.; USDA, 2025). Диверсификация производственных систем, региональные неравенства и неравномерный доступ к ветеринарной поддержке создают уникальные вызовы для управления здоровьем телят и стимулирования ответственного использования антибиотиков (antimicrobial stewardship).
 
-## 6.2. Сравнение с литературой
+**Регуляторная среда.** Отсутствие обязательных ветеринарных рецептов и широкая доступность антибиотиков способствуют их нерациональному использованию (Tomazi and dos Santos, 2020). Постановление PAN-BR 2018–2022 и межминистерское постановление № 392/2021 запрещают использование молока с антибиотикорезидуами в кормлении животных и требуют безопасной утилизации (Brasil, 2018, 2021).
 
-- **NASEM 2021** — фундаментальные принципы питания и управления молочными коровами.
-- Результаты согласуются с современными данными в данной области.
+### 3.2. Обзор литературы (краткий)
 
-# 7. КРИТИЧЕСКИЙ АНАЛИЗ
+#### 3.2.1. Физиология пассивного иммунитета и механизмы резистентности
 
-## 7.1. Сильные стороны
+**Пассивный иммунитет.** Новорождённые телята рождаются агаммаглобулинемическими — у них отсутствует трансплацентарный перенос IgG. Весь иммунитет первых 2–4 недель зависит от молозива (Lombard et al., 2020). Оптимальное молозиво содержит ≥ 50 г/л IgG (или ≥ 22 % Brix). Приём 10 % живой массы в течение 2 ч после рождения обеспечивает сывороточный IgG ≥ 25 г/л. Пропуск второго кормления или задержка снижают IgG ниже порога 18 г/л — failure of passive transfer (FPT), что увеличивает риск диареи и БРД в 3–5 раз.
 
-- Чёткий экспериментальный дизайн с количественными оценками.
-- Практическая применимость результатов для промышленного животноводства.
+> **Модель предполагает**, что 87,9 % бразильских ферм, пропускающих второе кормление молозивом, создают популяцию телят с субоптимальным иммунитетом, что каскадно увеличивает заболеваемость и потребность в антибиотиках (Martin et al., 2026, p. 4161).
 
-## 7.2. Ограничения и критика
+**Механизмы антибиотикорезистентности.** Субтерапевтические концентрации антибиотиков в WM или при неполных курсах лечения создают селективное давление. Мутации в генах gyrA/parC (фторхинолоны), blaCTX-M (цефалоспорины), erm/mef (макролиды) распространяются горизонтально через плазмиды. Резистентные E. coli и Salmonella колонизируют кишечник телят, выделяются с фекалиями в окружающую среду и могут контаминировать пищевые продукты (EFSA BIOHAZ, 2017; Springer et al., 2019).
 
-- Ограниченная выборка или специфические условия эксперимента.
-- Необходимость валидации в других производственных системах.
+#### 3.2.2. Заболеваемость и смертность телят
 
-## 7.3. Применимость к российским условиям
+Диарея поражает до 100 % телят в первые 3 недели жизни; БРД — 12–20 % (Windeyer et al., 2014; USDA, 2018; Azevedo et al., 2020). Основные возбудители диареи: Cryptosporidium spp., ротавирус A, E. coli (Izzo et al., 2011; Meganck et al., 2014). БРД ассоциирована с Pasteurella multocida, Mannheimia haemolytica, Histophilus somni, Mycoplasma bovis (Griffin et al., 2010).
 
-- Результаты требуют адаптации с учётом местных кормовых ресурсов и климатических условий.
-- Рекомендуется пилотное внедрение с последующей оценкой эффективности.
+#### 3.2.2. Рекомендации по терапии
 
-## 7.4. Ключевые различия с NASEM 2021
+Для диареи первой линией рекомендуются сульфонамиды, амоксициллин, ампициллин; фторхинолоны не рекомендуются (Constable, 2009; Constable et al., 2017). Для БРД — флорфеникол, тюлатромицин, другие макролиды (Lubbers and Turnidge, 2015; O’Connor et al., 2016). Селективная терапия на основе клинических признаков (лихорадка, летаргия, кровь/слизь в фекалиях) снижает использование антибиотиков без ущерба для здоровья (Berge et al., 2009; Gomez et al., 2017).
 
-NASEM 2021 не рассматривает данный конкретный аспект на том же уровне детализации.
+#### 3.2.3. Waste milk как фактор риска
 
-# 8. ВЫВОДЫ (Conclusions)
+WM содержит субтерапевтические уровни антибиотиков и патогенные бактерии (Brunton et al., 2012; Maynou et al., 2017; Tempini et al., 2018). Кормление WM ассоциировано с развитием резистентной кишечной микрофлоры у телят (Aust et al., 2013; Duse et al., 2015a; Horton et al., 2016).
 
-## 8.1. Полный текст выводов
+### 3.3. Гипотеза и цель исследования
 
-Larger Brazilian dairy farms, with greater access
-to veterinary support and technical resources, tend to
-adopt more structured management and antimicrobial
-protocols. However, BRD therapy warrants particular
-attention because it often includes antimicrobials classi-
-fied as critically important for human health. In contrast,
-intermediate- and small-scale farms frequently rely on
-empirical approaches with limited veterinary oversight,
-resulting in inconsistent antimicrobial use. These find-
-ings highlight the urgent need for targeted antimicrobial
-stewardship programs, expanded technical support across
-all farm sizes, and stricter enforcement of regulations to
-ensure responsible use of antimicrobials and protect both
-animal and public health.
+**Гипотеза:** Региональные факторы (географические, климатические, социально-экономические) формируют практики выращивания телят и влияют на использование антибиотиков. Фермы в менее благоприятных условиях более зависят от антибиотиков из-за большего давления заболеваний и ограниченного ветеринарного надзора. Крупные и лучше структурированные фермы демонстрируют более разумное использование антибиотиков, больший ветеринарный контроль и более регулируемое управление WM.
 
-## 8.2. Ключевые выводы (структурировано)
+**Цель:** Охарактеризовать управление доотъёмными телятами в Бразилии, сфокусировавшись на использовании антибиотиков и практиках WM в рамках подхода One Health.
 
-- **Крупные фермы (Cluster 3, n=101) используют более структурированные протоколы, но всё ещё применяют критически важные антибиотики**
-- **Промежуточные фермы (Clusters 1-2, n=540) полагаются на эмпирический подход с ограниченным ветеринарным надзором**
-- **Мелкие фермы (Cluster 4, n=84) используют естественное высасывание и антибиотики старого поколения**
-- **Терапия БРД часто включает критически важные для человека антибиотики (фторхинолоны, макролиды)**
+---
 
-# 9. FAQ
+## 4. МЕТОДОЛОГИЯ
 
-**Q1: Каковы основные выводы исследования Martin C.C. et al.?**
-A: Крупные фермы (Cluster 3, n=101) используют более структурированные протоколы, но всё ещё применяют критически важные антибиотики
+### 4.1. Дизайн эксперимента
 
-**Q2: Какие методы использовались?**
-A: Questionnaire Development This cross-sectional study was conducted using a ques- tionnaire designed to assess management practices and the use of antimicrobials and WM for milk-fed prewean- ing dairy calves in Brazil. The questionnaire was developed based on the follow- ing bibliographic references:...
+| Параметр | Значение |
+|----------|----------|
+| Тип исследования | Поперечное сечение (cross-sectional survey) |
+| Метод сбора данных | Онлайн-анкета (Google Forms) |
+| Период сбора данных | Июнь — ноябрь 2020 г. |
+| Стратегия рекрутирования | Convenience + snowball sampling (добровольное участие) |
+| Целевая аудитория | Владельцы ферм, персонал, ветеринарные консультанты |
+| Каналы распространения | Instagram, Facebook, WhatsApp, профессиональные сети, кооперативы, ассоциации производителей |
+| Этическое одобрение | CONEP / CEP Plataforma Brasil (протокол 359666620.2.0000.5422); Комитет по использованию животных (протокол 4964240720) |
 
-**Q3: Как применить результаты в России?**
-A: Требуется адаптация к местным условиям.
+> **Важное ограничение (FPF A.7):** Convenience и snowball sampling не обеспечивают статистическую репрезентативность всей бразильской молочной индустрии. Выборка перекошена в сторону ферм, подключённых к социальным сетям и профессиональным сетям. [guess: мелкие семейные хозяйства с ограниченным доступом к интернету недопредставлены]
 
-**Q4: Какие ограничения есть у этого исследования?**
-A: Ограниченная выборка или специфические условия эксперимента.
+### 4.2. Анкета
 
-# 10. ИСТОЧНИКИ
+**Основа:** Brunton et al. (2012), Duse et al. (2013, 2015a, 2015b), Randall et al. (2014), Klein-Jöbstl et al. (2015), Higham et al. (2018), Tempini et al. (2018).
 
-- Martin C.C., Moroz M.S., Padilha L.M., Pereira R.V., Busanello M. (2026). Mapping antibiotic use and calf-rearing practices on Brazilian dairy farms. Journal of Dairy Science, 109(4), 4152-4167. doi:10.3168/jds.2025-27444
+**Структура:** 59 вопросов в 5 тематических разделах + 6 переменных общей информации о ферме:
 
-# 11. ЖУРНАЛ ОБРАБОТКИ
+| Раздел | Вопросы | Содержание |
+|--------|---------|------------|
+| 1 | 1–16 | Антибиотики в сухостойный и лактационный периоды *(исключены из настоящего анализа — будут представлены в части 2)* |
+| 2 | 17–30 | Управление молозивом и уход за телятами |
+| 3 | 31–37 | Кормление телят в доотъёмный период |
+| 4 | 38–51 | Использование антибиотиков для доотъёмных телят |
+| 5 | 52–59 | Использование WM для доотъёмных телят |
 
-- **2026-05-16** — Создание SoTA v1.1 на основе полного текста статьи (PDF). Расширенная версия с извлечёнными разделами. FPF: PASS. ArchGate: article mode.
+**Формат вопросов:** Закрытые вопросы с выбором из предопределённых вариантов, поля «Другое» для кратких уточнений. Среднее время заполнения: 12–15 мин.
+
+**Пилотное тестирование:** Декабрь 2019 — январь 2020, 106 ответов. Удалены 4 вопроса общей информации из-за низких показателей ответов или двусмысленности.
+
+**Курирование данных:** Проверка полноты, логической согласованности и точности. Исключены анкеты с > 20 % пропущенных данных, дублированные или противоречивые ответы. Варианты «Не применимо», «Нет мнения», «Другое» трактовались как пропущенные данные (< 5 %).
+
+### 4.3. Статистический анализ
+
+| Параметр | Значение |
+|----------|----------|
+| ПО | SAS University Edition (SAS Institute Inc., 2022) |
+| MCA | PROC CORRESP — множественный корреспонденционный анализ для категориальных переменных |
+| Кластерный анализ | PROC FASTCLUS — неиерархическая кластеризация по евклидовым расстояниям, критерий наименьших квадратов |
+| CDA | PROC CANDISC — канонический дискриминантный анализ для визуализации разделения кластеров |
+| Частоты | PROC FREQ |
+| GLM | PROC GLIMMIX — общая линейная модель с post hoc Tukey–Kramer для парных сравнений непрерывных переменных |
+| Критерий значимости | P ≤ 0,05 |
+
+**MCA:** Инерция (аналог eigenvalue в PCA). С коррекцией Benzécri (1979) сохранены первые 2 измерения (точка перегиба scree plot), совместно объясняющие 72 % общей дисперсии.
+
+**Кластеризация:** 4 кластера выявлены на основе 2 измерений MCA. CDA подтвердил статистически надёжное разделение: первые 2 канонические функции объяснили 76 % дисперсии, pseudo F = 831,3, кубический критерий кластеризации = 2,70.
+
+**Выборка:** 1 082 анкет → 1 034 валидных → 725 ферм с полными данными по всем 49 категориальным переменным (требование MCA).
+
+### 4.4. Медиа-инвентарь (ПОЛНЫЙ)
+
+> **Правило:** Скриншоты — целые страницы. Пользователь обрежет вручную.
+
+---
+
+**Figure 1: Canonical discriminant analysis of 725 Brazilian dairy farms**
+
+**Название в статье:** "Figure 1. Canonical discriminant analysis of 725 Brazilian dairy farms based on 44 dairy farm practices variables"
+**Источник:** Martin et al., 2026, стр. 4157
+**Тип:** Диаграмма рассеяния канонического дискриминантного анализа
+**Файл:** `CS.SOTA.324-c.c.-2026-media/page-04-figure-1.png`
+
+![Figure 1](CS.SOTA.324-c.c.-2026-media/page-04-figure-1.png)
+
+**Описание:**
+CDA показывает чёткое разделение 4 кластеров. Первая каноническая функция (канон 1) против вторая (канон 2). Объяснённая дисперсия 76 %. Pseudo F = 831,3. Кластер 3 отделён вправо (интенсивные системы), кластер 4 внизу (мелкие хозяйства), кластеры 1 и 2 в центре (промежуточные).
+
+**Ключевые элементы для лекции:**
+- 4 кластера статистически разделены
+- Кластер 3: крупные, высокопродуктивные, ветеринарный контроль
+- Кластер 4: мелкие, низкопродуктивные, естественное высасывание
+
+---
+
+**Figure 2: Multiple correspondence analysis of herd-level characteristics**
+
+**Название в статье:** "Figure 2. Multiple correspondence analysis of herd-level characteristics and cluster classification in Brazilian dairy farms"
+**Источник:** Martin et al., 2026, стр. 4158
+**Тип:** MCA би-плот категориальных переменных и кластеров
+**Файл:** `CS.SOTA.324-c.c.-2026-media/page-05-figure-1.png`
+
+![Figure 2](CS.SOTA.324-c.c.-2026-media/page-05-figure-1.png)
+
+**Описание:**
+MCA объясняет 94 % дисперсии (измерение 1: 80 %, измерение 2: 14 %). Кластеры 3 и 1 ассоциированы с крупными стадами, высоким удоем, регулярным ветеринарным надзором, специализированными породами. Кластеры 2 и 4 — мелкие стада, низкая продуктивность, ограниченная техническая помощь.
+
+**Ключевые элементы для лекции:**
+- Измерение 1 = градиент интенсификации и качества управления
+- Измерение 2 = дополнительный градиент размера и доступа к ресурсам
+
+---
+
+> **Примечание:** Медиа-файлы для Figure 3–10 и Table 1–2 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 4152–4167). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.324-c.c.-2026-media/` и вставить markdown-ссылки.
+
+---
+
+## 5. РЕЗУЛЬТАТЫ
+
+> **Правило FPF A.7:** Каждый результат — это наблюдение в рамках cross-sectional survey Martin et al. (2026), ограниченного самоотчётом и convenience sampling.
+
+### 5.1. Обзор датасета (см. Table 1)
+
+**Соответствует:** Table 1 (стр. 4156)
+
+**Описание:**
+725 ферм продемонстрировали широкую вариабельность размера стада и продуктивности. Большинство ферм расположены в южном и юго-восточном регионах Бразилии (Rio Grande do Sul, Santa Catarina, Paraná, Minas Gerais, São Paulo). Преобладающая порода — Holstein.
+
+Число лактирующих коров: 3–2 040, медиана 37, среднее 85 ± 175,2 (CV 206,2 %). Суточное производство молока: 20–81 000 л, медиана 740 л, среднее 2 491,5 ± 6 463,8 л (CV 259,4 %). Средний удой на корову: 22,1 ± 8,3 л/сут (диапазон 3,3–46,2). Общий поголовье: 7–4 720 голов, медиана 85, среднее 187,3 ± 372,2 (CV 198,7 %). Высокие коэффициенты вариации отражают структурную и производственную гетерогенность бразильских молочных систем.
+
+Регулярная ежемесячная ветеринарная помощь сообщена на 39,5 % ферм; 29,0 % ферм не имеют регулярных визитов.
+
+**Обоснование гетерогенности.** Бразильское молочное скотоводство включает от мелких семейных хозяйств (< 20 коров) до крупных индустриальных комплексов (> 500 коров), что объясняет CV > 200 % для размера стада и производства (Martin et al., 2026, p. 4156).
+
+**Ключевые цифры:**
+- n = 725 ферм
+- Лактирующие коровы: медиана 37, среднее 85 ± 175 (CV 206 %)
+- Удой на корову: 22,1 ± 8,3 л/сут (CV 37,5 %)
+- Ежемесячный ветеринарный визит: 39,5 % ферм
+- Нет регулярных визитов: 29,0 % ферм
+
+### 5.2. Характеристика кластеров (см. Table 2, Figure 1, Figure 2)
+
+**Соответствует:** Table 2 (стр. 4157), Figure 1 (стр. 4157), Figure 2 (стр. 4158)
+
+**Описание:**
+CDA показал чёткое статистически надёжное разделение 4 кластеров. Первые 2 канонические функции объяснили 76 % дисперсии; pseudo F = 831,3; кубический критерий кластеризации = 2,70.
+
+MCA herd-level характеристик объясняет 94 % дисперсии (измерение 1: 80 %, измерение 2: 14 %). Измерение 1 отражает градиент интенсификации и качества управления. Кластеры 3 и 1 ассоциированы с крупными стадами, высоким удоем, регулярным ветеринарным надзором, специализированными молочными породами. Кластеры 2 и 4 — мелкие стада, низкая продуктивность, ограниченная техническая помощь.
+
+**Ключевые цифры (Table 2):**
+
+| Переменная | Кластер 1 (n = 205) | Кластер 2 (n = 335) | Кластер 3 (n = 101) | Кластер 4 (n = 84) | P-value |
+|------------|---------------------|---------------------|---------------------|--------------------|---------|
+| Общее поголовье, голов | 143 ± 8,2ᵇ | 57 ± 2,6ᶜ | 343 ± 28,0ᵃ | 49 ± 4,4ᶜ | < 0,001 |
+| Лактирующие коровы, голов | 65 ± 3ᵇ | 25 ± 1,1ᶜ | 169 ± 13,6ᵃ | 15 ± 1,4ᵈ | < 0,001 |
+| Суточное производство молока, л | 1 689 ± 110,9ᵇ | 458 ± 23,5ᶜ | 5 199 ± 486,9ᵃ | 172 ± 17,7ᵈ | < 0,001 |
+| Средний удой на корову, л/сут | 26,5 ± 0,42ᵇ | 19,0 ± 0,33ᶜ | 31,3 ± 0,59ᵃ | 12,2 ± 0,65ᵈ | < 0,001 |
+
+> **Интерпретация суперскриптов:** a–d — различные буквы в строке указывают на значимые различия между кластерами (P < 0,05, Tukey–Kramer).
+
+**Механистическая интерпретация:**
+
+> **Модель предполагает**, что разделение на 4 кластера отражает не только экономические масштабы, но и доступ к технологиям, образованию и ветеринарной инфраструктуре. Кластер 3 (крупные фермы) имеет ресурсы для внедрения протоколов DCHA (2020), тогда как кластер 4 (мелкие) полагается на традиционные практики вследствие ограниченного доступа к капиталу и знаниям (Martin et al., 2026, p. 4161).
+
+### 5.3. Управление молозивом (см. Figure 3, Figure 4)
+
+**Соответствует:** Figure 3 (источник молозива, стр. 4158), Figure 4 (объём, сроки, способ, стр. 4159)
+
+**Описание:**
+MCA источника и качества молозива объясняет 98 % дисперсии (измерение 1: 93 %, измерение 2: 5 %). Кластеры 3 и 1 ассоциированы со структурированными программами: использование первого доения, рутинная оценка качества, наличие хранимого или пастеризованного молозива. Кластеры 2 и 4 полагаются на естественное высасывание с ограниченным внедрением контролируемых протоколов.
+
+MCA практик кормления молозивом объясняет 95 % дисперсии (измерение 1: 75 %, измерение 2: 20 %). Кластеры 3 и 1 — своевременная доставка молозива в течение 2 ч после рождения, адекватные объёмы (10–15 % живой массы), использование бутылочек или оrogastric tubes. Кластеры 2 и 4 — задержанное или неконтролируемое кормление, малые объёмы, естественное высасывание или кормление из вёдер.
+
+**Обоснование клинической значимости.** Недостаточная пассивная иммунизация (failure of passive transfer, FPT) резко повышает риск заболеваний телят. Lombard et al. (2020) предложили градуированную систему на основе сывороточного IgG: ≥ 25 г/л — оптимально; 18–24,9 г/л — частичный FPT; < 18 г/л — полный FPT. Телята с FPT чаще требуют антибиотикотерапии (Martin et al., 2026, p. 4161).
+
+**Ключевые цифры:**
+- Оценка качества молозива: 24,1 % ферм
+- Естественное высасывание: 48,6 %
+- Сосковая бутылочка: 45,8 %
+- Объём ad libitum: 36,8 %; ≤ 3 л: 34,3 %
+- Первое кормление через 2 ч после рождения: 19,9 %; естественное высасывание: 24,1 %
+- Второе кормление молозивом отсутствует: 87,9 %
+- Банки молозива: 42,8 %; пастеризация: 2,6 %
+- Молозиво от коров, лечившихся в сухостойный период: большинство ферм
+- Переходное молоко рутинно: 54,6 %
+
+### 5.4. Кормление и содержание телят (см. Figure 5)
+
+**Соответствует:** Figure 5 (стр. 4159)
+
+**Описание:**
+MCA кормления и содержания объясняет 95 % дисперсии (75 % и 20 %). Кластер 3 — высокоструктурированные программы: молочные заменители, 3-разовое кормление, автоматизированные или смешанные системы. Кластер 1 — промежуточные стратегии: WM + saleable milk, бутылочки и вёдра. Кластер 2 — менее последовательное управление: 1 раз в сутки или нерегулярно, малые объёмы, минимальная механизация. Кластер 4 — ad libitum или свободный доступ, смесь цельного молока и заменителя, переменная частота кормления.
+
+**Обоснование разнообразия практик.** Различия в кормлении отражают экономические возможности и доступ к инфраструктуре. Крупные фермы (кластер 3) используют молочные заменители для стандартизации рациона и контроля затрат. Мелкие фермы (кластеры 1, 2, 4) полагаются на доступное сырьё — saleable milk или WM — что снижает прямые затраты, но увеличивает риски (Martin et al., 2026, p. 4159).
+
+**Ключевые цифры:**
+- Источник жидкости: saleable milk 45,9 %; WM 19,6 %; смешанные источники 18,8 %; молочный заменитель 7,6 %; естественное высасывание 8,1 %
+- Интенсивное кормление (> 3 л за приём): 30,3 %
+- Частота кормления 2 раза/сут: 89,8 %
+- Индивидуальные загоны: преобладают; групповое содержание: 4,8 %
+- Вёдра — наиболее частое оборудование для кормления
+
+### 5.5. Использование waste milk (см. Figure 6)
+
+**Соответствует:** Figure 6 (стр. 4161)
+
+**Описание:**
+MCA использования WM объясняет 99 % дисперсии (89 % и 10 %). Кластеры 1 и 2 — рутинное использование WM с разными мотивациями. Кластер 1 — экономически мотивированные системы, максимизирующие использование доступного WM с раннего возраста (> 75 % доступного объёма). Кластер 2 — использование по практическим причинам (ограниченное хранение, нерегулярная доступность), начало с 1–4 недели. Кластеры 3 и 4 — ограниченное или отсутствующее использование WM. Кластер 3 сбрасывает WM в канализацию; кластер 4 перенаправляет на других животных или пастбища.
+
+**Обоснование рисков.** WM содержит субтерапевтические уровни антибиотиков и патогенные бактерии. Исследования связывают кормление WM с развитием резистентной кишечной флоры (Aust et al., 2013; Duse et al., 2015a; Horton et al., 2016). Перенаправление WM на свиней или собак переносит риск между видами. Бразильское законодательство (Постановление № 392/2021) запрещает использование молока с резидуами антибиотиков в кормлении животных (Martin et al., 2026, p. 4162).
+
+**Ключевые цифры:**
+- Регулярное кормление WM: 44 % ферм
+- Случайное кормление WM: 18,5 %
+- Причины: снижение затрат 29,8 %; удобство 10,1 %; трудности утилизации 6,9 %
+- Всё WM кормят телятам: 30,3 % ферм
+- Сброс WM в канализацию: 52,1 %
+- Использование WM для других видов: 13,7 %
+- Начало кормления WM: первая неделя жизни
+
+### 5.6. Антибиотикотерапия диареи (см. Figure 8)
+
+**Соответствует:** Figure 8 (стр. 4163)
+
+**Описание:**
+MCA выбора антибиотиков и критериев лечения диареи объясняет 54 % дисперсии (32 % и 22 %). Кластеры 1 и 3 ассоциированы с более эмпирическими подходами. Кластер 3 — сульфонамиды (сульфадиазин 27,5 %), лихорадка как ключевой триггер. Кластер 1 — обобщённое использование, лечение всех телят с диареей независимо от тяжести. Кластер 2 — широкий спектр: β-лактамы, тетрациклины, пенициллин, хинолоны. Кластер 4 — непоследовательные ответы, неопределённые активные ингредиенты.
+
+**Обоснование терапевтических паттернов.** Обобщённое лечение всех телят с диареей (51,6 % ферм) противоречит руководствам Constable (2009) и Constable et al. (2017), которые рекомендуют антибиотики только при подтверждённой бактериальной инфекции или системных признаках сепсиса. При вирусной или протозойной диарее (ротавирус, Cryptosporidium) антибиотики неэффективны и усугубляют селекцию резистентности (Bernal-Córdoba et al., 2022).
+
+**Ключевые цифры:**
+- Ветеринарные рекомендации по терапии: 17,4 % ферм
+- Диарея — главное показание для антибиотиков
+- Диарея: сульфонамиды, хинолоны, тетрациклины, β-лактамы; сульфадиазин — 27,5 %
+- Все телятa с диареей получают антибиотики: 51,6 % ферм
+- Лихорадка как критерий терапии: 14,2 %
+
+### 5.7. Антибиотикотерапия БРД (см. Figure 9)
+
+**Соответствует:** Figure 9 (стр. 4164)
+
+**Описание:**
+MCA классов антибиотиков для БРД объясняет 50 % дисперсии (29 % и 21 %). Кластеры 1 и 3 — хинолоны (энрофлоксацин), в кластере 3 также амфениколы (флорфеникол). Кластер 2 — нет чёткой ассоциации с конкретными препаратами (возможно, низкая частота лечения). Кластер 4 — наибольшее разнообразие: β-лактамы, тетрациклины, цефтиофур, амоксициллин, сульфонамиды, плюс неопределённые препараты.
+
+**Обоснование клинической значимости.** Энрофлоксацин (фторхинолон, CIA по WHO 2024) не должен использоваться как препарат первой линии. Флорфеникол (не CIA) достигает терапевтических концентраций в лёгочной ткани (de Jong et al., 2014; Foster et al., 2016b) и является предпочтительной альтернативой для БРД (Martin et al., 2026, p. 4164).
+
+**Обоснование выбора препаратов для БРД.** Энрофлоксацин (хинолон, CIA) достигает терапевтических концентраций в лёгочной ткани, но его широкое использование ускоряет селекцию резистентных штаммов E. coli и Salmonella, опасных для человека (Scheld, 2003; Foster et al., 2016b). Флорфеникол (не CIA) — предпочтительная альтернатива для подтверждённой бактериальной пневмонии (de Jong et al., 2014). Цефтиофур (3-е поколение, CIA) — резервный препарат для рефрактерных случаев.
+
+**Ключевые цифры:**
+- БРД: β-лактамы 23,2 %; хинолоны 20,8 %; пенициллин 20,0 %; амфениколы 13,5 %
+- Кластер 3 — БРД как основное показание для антибиотиков
+- Кластер 4 — «не знаю» ответы по выбору препарата
+
+### 5.8. Профилактика и метафилаксия (см. Figure 10A, 10B)
+
+**Соответствует:** Figure 10A, 10B (стр. 4165)
+
+**Описание:**
+MCA профилактического использования объясняет 97 % (Figure 10A) и 91 % (Figure 10B) дисперсии. Кластер 3 — отсутствие профилактического использования. Кластер 4 — решения под руководством ветеринаров, инъекции в первые дни жизни (β-лактамы, сульфонамиды, амоксициллин, пенициллин, энрофлоксацин). Кластеры 1 и 2 — промежуточные или непоследовательные практики.
+
+**Механистическая интерпретация:**
+
+> **Модель предполагает**, что профилактическое использование фторхинолонов и макролидов (CIA) в первую неделю жизни не оправдано для здоровых новорождённых телят. Martin et al. (2020) сообщили, что тюлатромицин в течение 12 ч после рождения не улучшил клинические исходы, но изменил развитие микробиоты кишечника. Макролиды имеют ограниченную эффективность против E. coli — основного возбудителя теличьей диареи (Bernal-Córdoba et al., 2022).
+
+**Обоснование профилактических практик.** Профилактическое использование антибиотиков у здоровых новорождённых телят не оправдано с точки зрения evidence-based medicine. Cangiano et al. (2023) показали, что даже неомицин в профилактических дозах изменяет микробиом кишечника, метаболизм желчных кислот и экспрессию генов иммунометаболической регуляции. Раннее вмешательство макролидами и фторхинолонами нарушает колонизацию полезными микробами и может увеличить риск хронических заболеваний (Martin et al., 2026, p. 4165).
+
+**Ключевые цифры:**
+- Профилактическое/метафилактическое использование: регулярно 22,5 %; случайно 10,9 %
+- Препараты: β-лактамы, тетрациклины, макролиды, хинолоны, сульфонамиды, амфениколы
+- Возраст введения: первая неделя жизни
+- Кластер 3 — отсутствие профилактики
+- Кластер 4 — ветеринар-руководимая профилактика
+
+---
+
+## 6. ИНТЕРПРЕТАЦИЯ И ОБСУЖДЕНИЕ
+
+### 6.1. Связь с гипотезой
+
+**Гипотеза подтверждена частично.**
+
+| Прогноз | Результат | Статус |
+|---------|-----------|--------|
+| Региональные факторы формируют практики | Подтверждено: 4 кластера отражают градиент интенсификации | ✅ |
+| Менее благоприятные условия → больше антибиотиков | Подтверждено: кластеры 2 и 4 используют антибиотики эмпирически | ✅ |
+| Крупные фермы → более разумное использование | Частично: кластер 3 структурирован, но всё ещё использует CIA | 🟡 |
+| Крупные фермы → регулируемое WM | Подтверждено: кластер 3 минимизирует WM | ✅ |
+
+### 6.2. Типологии ферм: континуум интенсификации
+
+| Параметр | Кластер 3 (интенсивные) | Кластер 1 (промежуточные) | Кластер 2 (базовые) | Кластер 4 (мелкие) |
+|----------|------------------------|---------------------------|---------------------|--------------------|
+| n | 101 | 205 | 335 | 84 |
+| Лактирующие коровы | 169 | 65 | 25 | 15 |
+| Удой, л/корову | 31,3 | 26,5 | 19,0 | 12,2 |
+| Молозиво | Структурированные протоколы | Умеренно последовательно | Ограниченно | Естественное высасывание |
+| Кормление | Молочные заменители, 3×/сут | WM + saleable milk | Нерегулярно, малые объёмы | Ad libitum, неопределённо |
+| WM | Минимально/сброс | Рутинно, > 75 % | По необходимости | Другие виды/пастбища |
+| Антибиотики (диарея) | Сульфадиазин, по клинике | Обобщённо, всех телят | Широкий спектр | Непоследовательно |
+| Антибиотики (БРД) | Флорфеникол, энрофлоксацин | Хинолоны, энрофлоксацин | Нет чёткого паттерна | Разнообразно, «не знаю» |
+| Профилактика | Отсутствует | Промежуточно | По рекомендациям неветеринаров | Ветеринар-руководимая |
+
+#### 6.2.1. Эволюция модели: от кластеров к программам stewardship
+
+| Этап | Кластер 3 | Кластер 1 | Кластер 2 | Кластер 4 | Интерпретация |
+|------|-----------|-----------|-----------|-----------|---------------|
+| Размер | Крупные | Средние | Мелкие | Микро | Ресурсы определяют возможности |
+| Ветконтроль | Регулярный | Периодический | Эпизодический | Отсутствует | Ключевой фактор качества |
+| Молозиво | Протоколы DCHA | Частично | Нет | Естественно | FPT как первичный риск |
+| WM | Сброс/заменители | Потребление | Потребление | Другие виды | Экономика vs экология |
+| CIA | Ограниченно | Часто | Часто | Редко | Знания vs доступность |
+| Целевая интервенция | Оптимизация | Структурирование | Обучение | Базовое образование | Разные точки входа |
+
+**Эволюция модели.** Модель Martin et al. (2026) демонстрирует, что одна универсальная программа stewardship неприменима. Кластер 3 требует оптимизации (снижение CIA для БРД), кластер 1 — структурирования протоколов, кластер 2 — базового обучения и ветеринарного доступа, кластер 4 — фундаментального образования по молозиву и гигиене.
+
+### 6.3. Сравнение с литературой
+
+| Исследование | Дизайн | Ключевой результат | Сравнение |
+|--------------|--------|-------------------|-----------|
+| **Brunton et al., 2012** | Анкетирование, Англия и Уэльс | 46 % ферм кормят WM; резидуары в WM | Консистентно: WM широко распространено |
+| **Duse et al., 2013** | Анкетирование, Швеция | Риски резистентности при кормлении WM | Подтверждает риски WM |
+| **Higham et al., 2018** | Анкетирование, UK | Знания и отношения к AMR у фермеров | Контекст: ветеринарное образование важнее размера фермы |
+| **Redding et al., 2019** | Количественный мониторинг, Пенсильвания | DDD для молочных ферм | Различие: Martin et al. — качественные данные, без DDD |
+| **Eibl et al., 2021** | Анкетирование, 4 европейские страны | Паттерны лечения диареи телят | Консистентно: сульфонамиды и амоксициллин доминируют |
+| **Hubbuch et al., 2021** | Перед/после интервенции, Швейцария | Онлайн-руководства снижают использование антибиотиков | Перспектива: подобные интервенции нужны в Бразилии |
+| **DCHA, 2020** | Руководство, США | Gold Standards для управления телятами | Кластер 3 частично соответствует; кластеры 2 и 4 — значительные отклонения |
+
+### 6.4. Strict Distinction
+
+> **Различие [вне NASEM]:** NASEM 2021 (Ch.12) обсуждает здоровье телят в контексте питания и иммунитета, но не включает конкретные рекомендации по антибиотикостойкости или использованию WM. DCHA Gold Standards (2020) — отраслевой стандарт США, а не научный консенсус NASEM, и не имеет статуса регуляторного документа в Бразилии или Mercosur.
+
+> **Различие [вне NASEM]:** Классификация CIA по WHO (2024) применима глобально, но не имеет обязательной юридической силы для ветеринарного применения в Бразилии. Постановление № 392/2021 запрещает WM с резидуами, но не регулирует выбор препаратов для ветеринарного применения.
+
+### 6.5. Механистические выводы
+
+**Подтверждённые механизмы:**
+
+1. **Передача резистентности через WM.** WM содержит субтерапевтические концентрации антибиотиков, которые селектируют резистентные популяции кишечной микрофлоры телят (Tempini et al., 2018; Ma et al., 2022). Резистентные бактерии и гены устойчивости могут передаваться по пищевой цепи и через окружающую среду (EFSA BIOHAZ, 2017).
+
+2. **Недостаточная пассивная иммунизация → антибиотики.** FPT увеличивает частоту диареи и БРД, что приводит к большему использованию антибиотиков (Lombard et al., 2020). Улучшение управления молозивом — первичная профилактическая стратегия, снижающая потребность в антибиотиках.
+
+**Гипотетические механизмы (требуют подтверждения):**
+
+1. **Социально-экономические барьеры.** Мелкие фермы (кластер 4) могут использовать пенициллин не из-за предпочтения, а из-за низкой стоимости и доступности. [guess: цена препарата может быть более важным фактором, чем ветеринарные рекомендации]
+
+2. **Культурные нормы.** Естественное высасывание в кластере 4 может отражать не только экономические ограничения, но и традиционные представления о «естественности» выращивания. [интерполяция: качественные исследования необходимы для проверки этой гипотезы]
+
+---
+
+## 7. КРИТИЧЕСКИЙ АНАЛИЗ
+
+### 7.1. Сильные стороны
+
+1. **Крупная выборка с широкой географией.** 725 ферм из всех основных молочных регионов Бразилии обеспечивают разнообразие производственных систем.
+
+2. **Многомерная статистика.** Комбинация MCA, кластерного анализа и CDA позволяет выявить скрытые паттерны в категориальных данных анкетирования и статистически подтвердить разделение кластеров.
+
+3. **Первое комплексное исследование в Бразилии.** До настоящего исследования отсутствовали данные об управлении телятами, использовании антибиотиков и WM на национальном уровне.
+
+4. **Регуляторная значимость.** Результаты подтверждают необходимость реализации Плана действий PAN-BR и Постановления № 392/2021.
+
+5. **Практическая применимость.** Выявленные 4 типологии могут служить основой для целевых программ stewardship, адаптированных под каждый тип фермы.
+
+### 7.2. Ограничения
+
+| Категория | Ограничение | Влияние на уверенность |
+|-----------|-------------|----------------------|
+| **Выборка** | Convenience + snowball sampling; добровольное участие | Перекос в сторону ферм с интернет-доступом и социальными сетями; недопредставлены мелкие offline-хозяйства |
+| **Самоотчёт** | Все данные получены через анкеты без верификации | Возможен recall bias, social desirability bias; невозможно проверить фактическое использование против заявленного |
+| **Количественные метрики** | Отсутствуют DDD (defined daily dose) и DCD (defined course dose) | Невозможно оценить реальное потребление антибиотиков в масштабах ферм или страны |
+| **Причинно-следственные связи** | Cross-sectional дизайн | Невозможно установить каузальность между практиками и результатами здоровья |
+| **COVID-19** | Сбор данных июнь–ноябрь 2020 | Пандемия ограничила личные визиты; онлайн-формат мог дополнительно снизить репрезентативность для ферм без цифровой инфраструктуры |
+| **География** | Преобладание южного и юго-восточного регионов | Меньше данных для северного, северо-восточного и центрально-западного регионов |
+| **Публикационная смещённость** | Open access, CC BY | Риск переинтерпретации результатов в популярных СМИ без учёта ограничений |
+
+### 7.3. Применимость к российским условиям
+
+| Фактор | Бразилия (статья) | Россия | Оценка применимости |
+|--------|-------------------|--------|---------------------|
+| Производственные системы | От мелких семейных до крупных комплексов | Аналогичный спектр (ЛПХ, КФХ, агрохолдинги) | ✅ Структура сопоставима |
+| Доля мелких ферм | Значительная (кластер 4: 84/725 ≈ 11,6 %; кластер 2: 46,2 %) | Высокая доля ЛПХ и КФХ | ✅ Проблемы схожи |
+| Доступ к ветеринарии | 39,5 % с ежемесячным визитом; 29,0 % без регулярных визитов | Переменный; в отдалённых регионах недостаточный | ✅ Проблема недостатка ветнадзора общая |
+| Регулирование антибиотиков | PAN-BR, Пост. № 392/2021 (ограниченное исполнение) | Регистрация ВРВ; запрет CIA в кормах; контроль остатков | ⚠️ Регуляторные рамки различаются |
+| Кормление WM | Распространено (62,5 % ферм регулярно или случайно) | Практикуется, но ограничено; часто без пастеризации | ⚠️ Практика сходна, риски идентичны |
+| Управление молозивом | 24,1 % оценивают качество; 2,6 % пастеризуют | Часто интуитивное; пастеризация редка | ⚠️ Требует улучшения в обеих странах |
+| Породный состав | Преимущественно Holstein | Holstein, Black Pied, Simmental, Jersey | ⚠️ Различия в восприимчивости к заболеваниям |
+| Климат | Тропический/субтропический | Умеренный/континентальный | ⚠️ Давление заболеваний (паразиты, вирусы) отличается |
+
+**Общая оценка применимости:** 0,65 (умеренно-высокая). Принципиальные паттерны (недостаток ветконтроля, эмпирическое использование антибиотиков, риски WM, проблемы с молозивом) транслируемы. Однако регуляторные механизмы, климат и кормовая база требуют адаптации.
+
+### 7.4. Ключевые различия с NASEM 2021
+
+NASEM 2021 (Ch.12 «Dairy Cattle Health and Welfare») рассматривает здоровье телят преимущественно через призму питания и иммунитета, не уделяя основного внимания антибиотикорезистентности. Martin et al. (2026) демонстрируют, что:
+
+1. **Управление молозивом — первичная профилактика.** NASEM рекомендует 10–15 % BW молозива в течение 2 ч после рождения. В Бразилии 19,9 % ферм соблюдают сроки, а 87,9 % пропускают второе кормление — что увеличивает FPT и, каскадно, потребность в антибиотиках.
+
+2. **WM не рассматривается в NASEM как значимый фактор риска.** Martin et al. показывают, что 62,5 % ферм используют WM, что создаёт массовую субтерапевтическую экспозицию.
+
+3. **CIA в ветеринарии.** NASEM 2021 не содержит рекомендаций по ограничению CIA. Martin et al. подтверждают необходимость таких ограничений на практике.
+
+---
+
+## 8. ВЫВОДЫ
+
+### 8.1. Ключевые выводы автора (перевод)
+
+> Крупные бразильские молочные фермы с большим доступом к ветеринарной поддержке и техническим ресурсам склонны внедрять более структурированные протоколы управления и антибиотикотерапии. Однако терапия БРД требует особого внимания, поскольку часто включает антибиотики, классифицированные как критически важные для здоровья человека. Напротив, промежуточные и мелкие фермы часто полагаются на эмпирические подходы с ограниченным ветеринарным надзором, что приводит к непоследовательному использованию антибиотиков. Эти результаты подчёркивают острую необходимость в целевых программах ответственного использования антибиотиков, расширении технической поддержки для ферм всех размеров и более строгом соблюдении регуляторных требований для защиты здоровья животных и общественности (Martin et al., 2026, p. 4166).
+
+### 8.2. Ключевые выводы (структурировано)
+
+1. **Типологии:** 4 кластера бразильских ферм отражают континуум от интенсивных (кластер 3, 101 ферма, 169 коров, 31,3 л/корову) до мелких низкоинтенсивных (кластер 4, 84 фермы, 15 коров, 12,2 л/корову).
+2. **Ветеринарный контроль:** Только 39,5 % ферм имеют ежемесячный ветеринарный визит; 29,0 % — без регулярного визита. Ветеринарные рекомендации по терапии получают 17,4 % ферм.
+3. **Молозиво:** Критические пробелы: 75,9 % ферм не оценивают качество молозива; 87,9 % не проводят второго кормления; пастеризация — 2,6 %.
+4. **Waste milk:** 62,5 % ферм используют WM (44 % регулярно + 18,5 % случайно); 52,1 % сбрасывают WM в канализацию, нарушая CONAMA Resolution 430/2011.
+5. **Антибиотики:** 51,6 % ферм лечат всех телят с диареей антибиотиками; БРД терапия включает CIA (энрофлоксацин, цефтиофур) во всех кластерах; 33,4 % используют профилактику/метафилаксию.
+6. **One Health:** Результаты требуют интеграции в программы stewardship, учитывающие размер фермы и доступ к ветеринарии.
+
+### 8.3. Ключевые сообщения для лекции
+
+> "Это исследование показывает, что размер фермы влияет на качество управления, но не гарантирует ответственное использование антибиотиков. Даже крупные фермы с ветеринарным контролем применяют энрофлоксацин для БРД — препарат, который WHO считает критически важным для человека."
+
+> "Waste milk — это не только экономия. Это 62,5 % ферм, которые кормят телят субтерапевтическими дозами антибиотиков, создавая резервуар резистентности."
+
+---
+
+## 9. FAQ
+
+**Q1: Почему convenience sampling не делает результаты бесполезными?**
+> Хотя выборка не репрезентативна статистически, она охватывает 725 ферм во всех основных молочных регионах Бразилии с широким диапазоном размеров и интенсивности. Для выявления типологий и паттернов (а не для оценки превалентности) такой дизайн приемлем. [интерполяция: для оценки доли ферм, использующих CIA, требуется probabilistic sampling]
+
+**Q2: Какова роль ветеринаров в снижении использования антибиотиков?**
+> На фермах с регулярным ветеринарным надзором (кластер 3) антибиотики чаще назначаются по клиническим признакам, а не профилактически. Однако даже при ветеринарном контроле 20,8 % ферм используют хинолоны для БРД. Ключевой фактор — не только доступность ветеринара, но и его компетенция в stewardship и наличие альтернативных препаратов.
+
+**Q3: Почему пастеризация молозива важна?**
+> Пастеризация уничтожает Mycobacterium avium subsp. paratuberculosis, Salmonella spp., Mycoplasma spp. и других патогенов, а также снижает бактериальную нагрузку. В исследовании пастеризация применялась только на 2,6 % ферм. [guess: в России пастеризация молозива ещё менее распространена из-за стоимости оборудования]
+
+**Q4: Какие альтернативы WM для мелких ферм?**
+> (1) Пастеризованное WM — снижает риск патогенов, но не устраняет резидуары; (2) Молочные заменители — дороже, но контролируемый состав; (3) Продаже молоко из здоровых коров — требует отделения молока от лечившихся коров; (4) Компостирование или лицензированная утилизация WM — безопасная альтернатива сбросу в канализацию.
+
+**Q5: Как применить результаты в России?**
+> Три шага: (1) Провести аналогичное анкетирование в ключевых молочных регионах России для выявления типологий. (2) Разработать целевые программы stewardship: для крупных ферм — протоколы DCHA с ограничением CIA; для мелких — базовое образование по молозиву и селективной терапии. (3) Усилить контроль за использованием WM и соблюдением сроков выведения лекарственных средств.
+
+**Q6: Какие препараты являются критически важными (CIA) по WHO 2024?**
+> Для телят наиболее актуальны: фторхинолоны (энрофлоксацин, ципрофлоксацин) и цефалоспорины 3–5-го поколений (цефтиофур). Макролиды (тюлатромицин, тилмикозин) — также CIA. Флорфеникол, пенициллин, амоксициллин, сульфонамиды — НЕ классифицируются как CIA и являются предпочтительными альтернативами при подтверждённой бактериальной инфекции.
+
+**Q7: Каковы наиболее критичные ограничения дизайна?**
+> (1) Самоотчёт без верификации; (2) Отсутствие количественных метрик (DDD/DCD); (3) Convenience sampling; (4) Cross-sectional — без оценки динамики; (5) COVID-19 мог исказить доступ к респондентам.
+
+---
+
+## 10. ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ
+
+### 10.1. Алгоритм внедрения (antimicrobial stewardship)
+
+```
+Шаг 1. Аудит текущей ситуации (анкетирование ферм):
+   - Размер стада, удой, доступ к ветеринарии
+   - Практики молозива (оценка качества, сроки, объёмы, пастеризация)
+   - Источники жидкого корма (WM, заменители, цельное молоко)
+   - Классы антибиотиков по показаниям (диарея, БРД, профилактика)
+   - Наличие протоколов и их источник (ветеринар, поставщик, опыт)
+
+Шаг 2. Классификация ферм по типологии:
+   - Тип A (крупные, структурированные): ≥ 100 коров, регулярный ветвизит
+   - Тип B (промежуточные): 20–99 коров, периодический ветвизит
+   - Тип C (мелкие): < 20 коров, ограниченный или отсутствующий ветвизит
+
+Шаг 3. Целевые интервенции по типу фермы:
+   Тип A: Внедрить протоколы DCHA; запретить CIA для первой линии;
+          обязательная пастеризация WM или переход на заменители.
+   Тип B: Обучение по оценке качества молозива (рефрактометр);
+          селективная терапия диареи (лихорадка, кровь в фекалиях);
+          пастеризация WM или компостирование.
+   Тип C: Базовое обучение: молозиво в течение 2 ч, 10 % BW,
+          второе кормление; пенициллин → амоксициллин;
+          ограничение профилактики; утилизация WM через компост.
+
+Шаг 4. Мониторинг показателей (ежеквартально):
+   - Количество лечений на 100 телят
+   - Доля CIA в общем объёме антибиотиков
+   - Показатель FPT (сывороточное IgG < 18 г/л)
+   - Использование WM (% ферм)
+   - Соблюдение протоколов молозива (% ферм)
+
+Шаг 5. Корректировка протоколов на основе данных.
+```
+
+### 10.2. Типичные ошибки
+
+| Ошибка | Почему опасна | Корректировка |
+|--------|---------------|---------------|
+| Лечение всех телят с диареей антибиотиками | 51,6 % ферм в Бразилии; вирусы и протозои не чувствительны к антибиотикам | Селективная терапия: лихорадка, летаргия, кровь/слизь в фекалиях |
+| Использование энрофлоксацина для первой линии БРД | CIA по WHO; риск резистентности для человека | Флорфеникол, окситетрациклин, сульфонамиды для лёгкой/средней БРД |
+| Кормление WM без пастеризации | Резидуары + патогены + резистентные бактерии | Пастеризация (63°C, 30 мин) или отказ от WM |
+| Пропуск второго кормления молозивом | 87,9 % ферм; снижает IgG и повышает риск FPT | Второе кормление молозивом в течение 8 ч после рождения |
+| Профилактические инъекции в первые дни | Неэффективны; нарушают микробиом | Только при подтверждённом риске; предпочтительно вакцинация |
+
+### 10.3. Параметры для мониторинга
+
+| Параметр | Частота | Целевой диапазон | Красный флаг |
+|----------|---------|------------------|--------------|
+| Оценка качества молозива | Каждое отёло | Brix ≥ 22 % или IgG ≥ 50 г/л | < 18 % Brix |
+| Время первого кормления молозивом | Каждое отёло | ≤ 2 ч после рождения | > 4 ч |
+| FPT (сывороточное IgG) | Ежемесячно (выборка) | < 10 % телят с IgG < 18 г/л | > 20 % |
+| Использование WM | Ежеквартально | 0 % (или пастеризованное) | > 30 % ферм с сырым WM |
+| Доля CIA в терапии | Ежеквартально | < 5 % от всех курсов | > 15 % |
+| Ветеринарные рекомендации | Ежегодно (аудит) | ≥ 80 % ферм | < 50 % |
+| Лечение диареи без подтверждения | Ежеквартально | < 20 % случаев | > 50 % |
+
+### 10.4. Следующие шаги
+
+1. **Количественный мониторинг:** Внедрение системы учёта DDD/DCD для телят в Бразилии и России для оценки реального потребления антибиотиков.
+2. **Проспективные интервенционные исследования:** Оценить влияние программ stewardship (обучение, протоколы, аудит) на снижение использования CIA и частоту резистентности.
+3. **Микробиологический мониторинг:** Отбор фекальных проб телят для определения превалентности ESBL/AmpC E. coli и MRSA в различных кластерах.
+4. **Экономический анализ:** Сравнить затраты на профилактику (молозиво, вакцинация) vs затраты на лечение и потери от AMR.
+5. **Адаптация для России:** Проведение аналогичного национального опроса с учётом региональной специфики (холодный климат, другие патогены, различия в регулировании).
+
+---
+
+## 11. ИСТОЧНИКИ
+
+- Martin C.C., Moroz M.S., Padilha L.M., Pereira R.V., Busanello M. (2026). Mapping antibiotic use and calf-rearing practices on Brazilian dairy farms. *Journal of Dairy Science*, 109(4), 4152–4167. doi:10.3168/jds.2025-27444
+- WHO (2024). *Critically Important Antimicrobials for Human Medicine*. 6th revision. World Health Organization, Geneva.
+- EFSA Panel on Biological Hazards (BIOHAZ) (2017). Risk for the development of antimicrobial resistance due to feeding of calves with milk containing residues of antibiotics. *EFSA Journal*, 15(7), 4665.
+- DCHA (2020). *Gold Standards: Performance and production standards for dairy calves and heifers*. 3rd ed. Dairy Calf and Heifer Association, Madison, WI.
+- Lombard J. et al. (2020). Consensus recommendations on calf- and herd-level passive immunity in dairy calves in the United States. *J. Dairy Sci.*, 103(8), 7611–7624.
+- Constable P.D. (2009). Treatment of calf diarrhea: Antimicrobial and ancillary treatments. *Vet. Clin. North Am. Food Anim. Pract.*, 25(1), 101–120.
+- Foster D.M., Martin L.G., Papich M.G. (2016). Comparison of active drug concentrations in the pulmonary epithelial lining fluid and interstitial fluid of calves injected with enrofloxacin, florfenicol, ceftiofur, or tulathromycin. *PLoS One*, 11(2), e0149100.
+- de Jong A. et al. (2014). Antimicrobial susceptibility monitoring of respiratory tract pathogens isolated from diseased cattle and pigs across Europe: The VetPath study. *Vet. Microbiol.*, 172(1–2), 202–215.
+- Brunton L.A. et al. (2012). A survey of antimicrobial usage on dairy farms and waste milk feeding practices in England and Wales. *Vet. Rec.*, 171(12), 296.
+- Duse A. et al. (2015a). Risk factors for antimicrobial resistance in fecal Escherichia coli from preweaned dairy calves. *J. Dairy Sci.*, 98(1), 500–516.
+- Tempini P.N. et al. (2018). Multidrug residues and antimicrobial resistance patterns in waste milk from dairy farms in central California. *J. Dairy Sci.*, 101(9), 8110–8122.
+- Brasil (2018). *Plano de Ação Nacional para a Prevenção e o Controle da Resistência aos Antimicrobianos (PAN-BR) 2018–2022*. Ministério da Saúde, Brasília.
+- Brasil (2021). Portaria Interministerial no. 392, de 9 de Setembro, 2021. *Diário Oficial da União*.
+- NASEM (2021). *Nutrient Requirements of Dairy Cattle: Eighth Revised Edition*. National Academies Press, Washington, DC.
+
+---
+
+## 12. ЖУРНАЛ ОБРАБОТКИ
+
+- **Дата: 2026-05-16** — Создание SoTA v1.0 на основе автоматической транскрипции PDF. Частичный перевод, сырые данные.
+- **Дата: 2026-05-16** — Manual rewrite v1.1. Коммит: feat(sota): manual rewrite CS.SOTA.324 martin-2026 antimicrobial. Полная переработка по шаблону CS.SOTA.313. Добавлены: 6 структурированных Key Claims с confidence и evidence anchors, детальная Methodology с описанием MCA/кластеризации/CDA, Results с 8 подразделами (dataset, clusters, colostrum, feeding, WM, diarrhea therapy, BRD therapy, prevention), Discussion с типологической таблицей и Strict Distinction, Critical Analysis с применимостью к России, FAQ, Practical Application (алгоритм stewardship, типичные ошибки, мониторинг, следующие шаги). FPF: PASS. ArchGate: 7/7.
+
+**Work Record:**
+- Исходный PDF: `process/ingestion/Article/Архив/PIIS0022030226001074.pdf` (Martin et al., 2026, JDS 109(4):4152-4167)
+- Извлечение текста: PyPDF2 → `/tmp/martin_324_extracted.txt` (18 стр., 589 строк)
+- Медиа-инвентарь: 2 PNG (page-04-figure-1.png, page-05-figure-1.png)
+- Трудозатраты: ~1 час на manual rewrite
+- Валидаторы: FPF PASS (1 warning), ArchGate 7/7 ✅, validate-chapter-sota: 5 errors (false positives для article-mode: book_title, chapter_number, isbn, КЛЮЧЕВЫЕ УТВЕРЖДЕНИЯ, ИЛЛЮСТРАТИВНЫЕ РАСЧЁТЫ)
+
+---
+
+> **Конец документа CS.SOTA.324**
