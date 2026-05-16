@@ -1,6 +1,6 @@
 ---
 # ШАБЛОН: SoTA — Peer-Reviewed Article, Expanded Format
-# Версия: 1.0
+# Версия: 1.1
 # Базируется на: SOTA-CHAPTER-EXPANDED-TEMPLATE v1.3 + SOTA-TEMPLATE v1.4
 # Применение: Расширенная обработка peer-reviewed статей (field study, meta-analysis, simulation)
 #              с акцентом на воспроизводимость, механизмы и клиническую трансляцию
@@ -172,11 +172,13 @@ PTH стимулирует резорбцию кости через актива
 # 1. YAML FRONTMATTER
 id: CS.SOTA.XXX
 type: sota
+format_version: v1.1
+knowledge_tier: [P0|P1|P2|P3]   # P0=foundational, P1=review/synthetic, P2=primary research, P3=auxiliary
 domain: cattle-science
 area: [reproduction|feeding|health|genetics|management]
 subarea: [уточнение]
 subarea2: [уточнение]
-category: [field-study|meta-analysis|simulation-study|review]
+category: [field-study|meta-analysis|simulation-study|review|reference-book]
 year: YYYY
 authors: "Author1, A.A., Author2, B.B."
 title: "Полное название статьи"

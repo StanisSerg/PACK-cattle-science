@@ -62,6 +62,8 @@ def parse_sota_files():
                 'year': meta.get('year', 'N/A'),
                 'type': meta.get('category', meta.get('type', 'unknown')),
                 'priority': meta.get('priority', 'P2'),
+                'knowledge_tier': meta.get('knowledge_tier', meta.get('priority', 'P2')),
+                'format_version': meta.get('format_version', 'legacy'),
                 'tags': meta.get('tags', []),
                 'title': meta.get('title', ''),
                 'key_result': key_result,
@@ -118,10 +120,10 @@ def generate_shard(category, sota_list):
     ]
     
     # Счетчики
-    p0_count = sum(1 for s in sota_list if s['priority'] == 'P0')
-    p1_count = sum(1 for s in sota_list if s['priority'] == 'P1')
-    p2_count = sum(1 for s in sota_list if s['priority'] == 'P2')
-    p3_count = sum(1 for s in sota_list if s['priority'] == 'P3')
+    p0_count = sum(1 for s in sota_list if s.get('knowledge_tier', s['priority']) == 'P0')
+    p1_count = sum(1 for s in sota_list if s.get('knowledge_tier', s['priority']) == 'P1')
+    p2_count = sum(1 for s in sota_list if s.get('knowledge_tier', s['priority']) == 'P2')
+    p3_count = sum(1 for s in sota_list if s.get('knowledge_tier', s['priority']) == 'P3')
     
     type_counts = defaultdict(int)
     for s in sota_list:
@@ -261,10 +263,10 @@ def generate_master_index(sota_data):
         "|---------|------------|----------|"
     ])
     
-    p0 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s['priority'] == 'P0')
-    p1 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s['priority'] == 'P1')
-    p2 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s['priority'] == 'P2')
-    p3 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s['priority'] == 'P3')
+    p0 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s.get('knowledge_tier', s['priority']) == 'P0')
+    p1 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s.get('knowledge_tier', s['priority']) == 'P1')
+    p2 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s.get('knowledge_tier', s['priority']) == 'P2')
+    p3 = sum(1 for cat in CATEGORIES for s in sota_data.get(cat, []) if s.get('knowledge_tier', s['priority']) == 'P3')
     
     lines.extend([
         f"| **P0** — Фундаментальные | {p0} | Определяют парадигму |",

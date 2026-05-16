@@ -1,6 +1,8 @@
 ---
 id: CS.SOTA.312
 type: sota
+format_version: v1.1
+knowledge_tier: P0
 subtype: book-chapter
 domain: cattle-science
 area: feeding

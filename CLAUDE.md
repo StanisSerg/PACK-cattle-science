@@ -114,10 +114,12 @@ CS.SOTA.NNN-authors-year-short-title.md
 # YAML FRONTMATTER (обязательно)
 id: CS.SOTA.XXX
 type: sota
+format_version: v1.1
+knowledge_tier: [P0|P1|P2|P3]   # P0=foundational, P1=review/synthetic, P2=primary research, P3=auxiliary
 domain: cattle-science
 area: [reproduction|feeding|health|management|economics]
 subarea: [уточнение]
-category: [observational|experimental|simulation|review|survey|meta-analysis]
+category: [observational|experimental|simulation|review|survey|meta-analysis|reference-book]
 year: YYYY
 authors: "Author1, A.A., Author2, B.B."
 title: "Полное название статьи"

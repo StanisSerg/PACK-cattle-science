@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (159 SoTA)
+> Шард индекса: feeding (174 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,8 +10,8 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 163 |
-| P0 (Фундаментальные) | 8 |
+| Всего SoTA | 174 |
+| P0 (Фундаментальные) | 20 |
 | P1 (Критически важные) | 21 |
 | P2 (Важные) | 133 |
 | P3 (Дополнительные) | 0 |
@@ -20,7 +20,7 @@
 | In-vitro-study | 1 |
 | Meta-analysis | 6 |
 | Methodology | 1 |
-| Reference-book | 8 |
+| Reference-book | 19 |
 | Review | 46 |
 | Simulation | 5 |
 
@@ -189,10 +189,21 @@
 | [CS.SOTA.295](../../06-sota/feeding/CS.SOTA.295-nasem-2021-energy.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, energy` | См. файл для деталей |
 | [CS.SOTA.296](../../06-sota/feeding/CS.SOTA.296-nasem-2021-fat.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, fatty-acids` | См. файл для деталей |
 | [CS.SOTA.297](../../06-sota/feeding/CS.SOTA.297-nasem-2021-carbohydrates.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, carbohydrates` | См. файл для деталей |
-| [CS.SOTA.298](../../06-sota/feeding/CS.SOTA.298-nasem-2021-defining-requirements.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, requirements-definition` | NASEM 2021 Chapter 1 — Defining Requirements (EAR/AI/UL) |
-| [CS.SOTA.299](../../06-sota/feeding/CS.SOTA.299-nasem-2021-dry-matter-intake.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, dry-matter-intake` | NASEM 2021 Chapter 2 — DMI (Eq 2-1 to 2-4) |
-| [CS.SOTA.300](../../06-sota/feeding/CS.SOTA.300-nasem-2021-protein.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, protein-metabolism` | NASEM 2021 Chapter 6 — Protein (Eq 6-3, 6-6, EffUEAA) |
-| [CS.SOTA.301](../../06-sota/feeding/CS.SOTA.301-nasem-2021-minerals.md) | NASEM Committee | 2021 | P0 | reference-book | `nasem-2021, reference-book, minerals` | NASEM 2021 Chapter 7 — Minerals (47 equations, Ca/P/Mg/Trace) |
+| [CS.SOTA.298](../../06-sota/feeding/CS.SOTA.298-nasem-2021-defining-requirements.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, requirements` | См. файл для деталей |
+| [CS.SOTA.299](../../06-sota/feeding/CS.SOTA.299-nasem-2021-dry-matter-intake.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, dry-matter-intake` | См. файл для деталей |
+| [CS.SOTA.300](../../06-sota/feeding/CS.SOTA.300-nasem-2021-protein.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, metabolizable-protein` | См. файл для деталей |
+| [CS.SOTA.301](../../06-sota/feeding/CS.SOTA.301-nasem-2021-minerals.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, minerals` | См. файл для деталей |
+| [CS.SOTA.302](../../06-sota/feeding/CS.SOTA.302-nasem-2021-vitamins.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, vitamins` | См. файл для деталей |
+| [CS.SOTA.303](../../06-sota/feeding/CS.SOTA.303-nasem-2021-water.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, water` | См. файл для деталей |
+| [CS.SOTA.304](../../06-sota/feeding/CS.SOTA.304-nasem-2021-dairy-production-systems.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, production-systems` | См. файл для деталей |
+| [CS.SOTA.305](../../06-sota/feeding/CS.SOTA.305-nasem-2021-environment.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, environment` | См. файл для деталей |
+| [CS.SOTA.306](../../06-sota/feeding/CS.SOTA.306-nasem-2021-feed-by-products.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, by-products` | См. файл для деталей |
+| [CS.SOTA.307](../../06-sota/feeding/CS.SOTA.307-nasem-2021-feed-additives.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, feed-additives` | См. файл для деталей |
+| [CS.SOTA.308](../../06-sota/feeding/CS.SOTA.308-nasem-2021-toxic-agents.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, toxicology` | См. файл для деталей |
+| [CS.SOTA.309](../../06-sota/feeding/CS.SOTA.309-nasem-2021-feed-analysis.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, feed-analysis` | См. файл для деталей |
+| [CS.SOTA.310](../../06-sota/feeding/CS.SOTA.310-nasem-2021-feed-composition.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, feed-composition` | См. файл для деталей |
+| [CS.SOTA.311](../../06-sota/feeding/CS.SOTA.311-nasem-2021-model-description.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, model-description` | См. файл для деталей |
+| [CS.SOTA.312](../../06-sota/feeding/CS.SOTA.312-nasem-2021-transition-cows.md) | Cattle et al. | 2021 | P0 | reference-book | `nasem-2021, reference-book, transition-period` | См. файл для деталей |
 
 ---
 
@@ -204,5 +215,5 @@
 
 ---
 
-*Шард обновлён: 2026-05-13*
-*Автоматическая генерация: 159 SoTA*
+*Шард обновлён: 2026-05-16*
+*Автоматическая генерация: 174 SoTA*

@@ -1,6 +1,8 @@
 ---
 id: CS.SOTA.313
 type: sota
+format_version: v1.1
+knowledge_tier: P2
 domain: cattle-science
 area: health
 subarea: transition-period
