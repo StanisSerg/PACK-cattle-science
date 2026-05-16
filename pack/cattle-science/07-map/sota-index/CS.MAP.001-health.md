@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (83 SoTA)
+> Шард индекса: health (85 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,10 +10,10 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 83 |
+| Всего SoTA | 85 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
-| P2 (Важные) | 50 |
+| P2 (Важные) | 52 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 10 |
 | Experimental-study | 2 |
@@ -21,6 +21,7 @@
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
+| Primary-research | 2 |
 | Review | 22 |
 | Survey | 2 |
 
@@ -113,6 +114,8 @@
 | [CS.SOTA.290](../../06-sota/health/CS.SOTA.290-hoof-scoping-2026.md) | al. et al. | 2026 | P2 | review | `hoof-lesions, lameness, case-definitions` | См. файл для деталей |
 | [CS.SOTA.291](../../06-sota/health/CS.SOTA.291-induced-hypocalcemia-2026.md) | Frizzarini et al. | 2026 | P2 | field-study | `hypocalcemia, subclinical, transition-period` | См. файл для деталей |
 | [CS.SOTA.313](../../06-sota/health/CS.SOTA.313-frizzarini-2026.md) | Frizzarini et al. | 2026 | P2 | field-study | `calcium, hypocalcemia, transition-period` | См. файл для деталей |
+| [CS.SOTA.324](../../06-sota/health/CS.SOTA.324-c.c.-2026.md) | C.C. et al. | 2026 | P2 | primary-research | `health, antimicrobial, primary-research` | См. файл для деталей |
+| [CS.SOTA.325](../../06-sota/health/CS.SOTA.325-a.-2026.md) | A. et al. | 2026 | P2 | primary-research | `health, udder-health, primary-research` | См. файл для деталей |
 
 ---
 
@@ -125,4 +128,4 @@
 ---
 
 *Шард обновлён: 2026-05-16*
-*Автоматическая генерация: 83 SoTA*
+*Автоматическая генерация: 85 SoTA*

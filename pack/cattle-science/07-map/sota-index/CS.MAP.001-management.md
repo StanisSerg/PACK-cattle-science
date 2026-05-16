@@ -1,6 +1,6 @@
 # CS.MAP.001-management: SoTA Index — Менеджмент
 
-> Шард индекса: management (14 SoTA)
+> Шард индекса: management (16 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 14 |
+| Всего SoTA | 16 |
 | P0 (Фундаментальные) | 0 |
 | P1 (Критически важные) | 2 |
-| P2 (Важные) | 12 |
+| P2 (Важные) | 14 |
 | P3 (Дополнительные) | 0 |
 | Field-study | 6 |
 | Framework | 1 |
+| Primary-research | 2 |
 | Review | 4 |
 | Simulation | 1 |
 | Survey | 2 |
@@ -41,6 +42,8 @@
 | [CS.SOTA.287](../../06-sota/management/CS.SOTA.287-rumination-genetics-2026.md) | Lou et al. | 2026 | P2 | field-study | `rumination, genetics, milk-yield` | См. файл для деталей |
 | [CS.SOTA.293](../../06-sota/management/CS.SOTA.293-sop-training-2026.md) | Neukirchner et al. | 2026 | P2 | field-study | `SOP, training, calf-care` | См. файл для деталей |
 | [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy-farming, artificial-intelligence, machine-learning` | См. файл для деталей |
+| [CS.SOTA.321](../../06-sota/management/CS.SOTA.321-k.j.-2026.md) | K.J. et al. | 2026 | P2 | primary-research | `management, heifers, primary-research` | См. файл для деталей |
+| [CS.SOTA.326](../../06-sota/management/CS.SOTA.326-a.-2026.md) | A. et al. | 2026 | P2 | primary-research | `management, precision-dairy, primary-research` | См. файл для деталей |
 
 ---
 
@@ -53,4 +56,4 @@
 ---
 
 *Шард обновлён: 2026-05-16*
-*Автоматическая генерация: 14 SoTA*
+*Автоматическая генерация: 16 SoTA*

@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (177 SoTA)
+> Шард индекса: feeding (182 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,16 +10,17 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 177 |
+| Всего SoTA | 182 |
 | P0 (Фундаментальные) | 20 |
 | P1 (Критически важные) | 24 |
-| P2 (Важные) | 133 |
+| P2 (Важные) | 138 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
 | Field-study | 56 |
 | In-vitro-study | 1 |
-| Meta-analysis | 9 |
+| Meta-analysis | 10 |
 | Methodology | 1 |
+| Primary-research | 4 |
 | Reference-book | 19 |
 | Review | 46 |
 | Simulation | 5 |
@@ -207,6 +208,11 @@
 | [CS.SOTA.314](../../06-sota/feeding/CS.SOTA.314-hu-2026.md) | Hu et al. | 2026 | P2 | meta-analysis | `methane, methane-inhibitor, meta-analysis` | См. файл для деталей |
 | [CS.SOTA.315](../../06-sota/feeding/CS.SOTA.315-xiuli-li-2026.md) | Li et al. | 2026 | P2 | meta-analysis | `lysine, amino-acids, meta-analysis` | См. файл для деталей |
 | [CS.SOTA.316](../../06-sota/feeding/CS.SOTA.316-g.f.l.-cruz-2026.md) | Cruz et al. | 2026 | P2 | meta-analysis | `silage, storage-temperature, meta-analysis` | См. файл для деталей |
+| [CS.SOTA.318](../../06-sota/feeding/CS.SOTA.318-j.e.-2026.md) | J.E. et al. | 2026 | P2 | primary-research | `feeding, transition-cows, primary-research` | См. файл для деталей |
+| [CS.SOTA.319](../../06-sota/feeding/CS.SOTA.319-nur-2026.md) | Nur et al. | 2026 | P2 | primary-research | `feeding, methane, primary-research` | См. файл для деталей |
+| [CS.SOTA.320](../../06-sota/feeding/CS.SOTA.320-y.-2026.md) | Y. et al. | 2026 | P2 | meta-analysis | `feeding, minerals, meta-analysis` | См. файл для деталей |
+| [CS.SOTA.322](../../06-sota/feeding/CS.SOTA.322-c.-2026.md) | C. et al. | 2026 | P2 | primary-research | `feeding, silage, primary-research` | См. файл для деталей |
+| [CS.SOTA.323](../../06-sota/feeding/CS.SOTA.323-w.a.-2026.md) | W.A. et al. | 2026 | P2 | primary-research | `feeding, fiber, primary-research` | См. файл для деталей |
 
 ---
 
@@ -219,4 +225,4 @@
 ---
 
 *Шард обновлён: 2026-05-16*
-*Автоматическая генерация: 177 SoTA*
+*Автоматическая генерация: 182 SoTA*
