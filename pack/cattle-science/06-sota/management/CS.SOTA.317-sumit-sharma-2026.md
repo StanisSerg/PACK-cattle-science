@@ -85,6 +85,20 @@ related:
 - **Brito et al., 2025** — использование данных сенсоров для улучшения устойчивости селекционных программ.
 - **Moody and Walsh, 1999** — свойства данных как экономического актива.
 
+## 3.4. Медиа-инвентарь
+
+### Figure 1
+![Overview of various data types in the dairy sector and examples of their integrations](CS.SOTA.317-sumit-sharma-2026-media/page-03-figure-1.png)
+*Источник: Sharma et al. 2026, JDS 109(4):3137-3157, p. 3139. Тип: data integration diagram*
+
+**Описание:** Обзор типов данных в молочном секторе и примеры их интеграции.
+
+### Figure 2
+![Timeline of advancements in milk analysis based on mid-infrared spectrometry in Belgium](CS.SOTA.317-sumit-sharma-2026-media/page-07-figure-2.png)
+*Источник: Sharma et al. 2026, p. 3143. Тип: timeline figure*
+
+**Описание:** Хронология развития анализа молока на основе среднеинфракрасной спектрометрии в Бельгии.
+
 # 4. ОБЗОР ПО 5 ОБЛАСТЯМ
 
 ## 4.1. Экономическая ценность данных (p. 3138-3142)

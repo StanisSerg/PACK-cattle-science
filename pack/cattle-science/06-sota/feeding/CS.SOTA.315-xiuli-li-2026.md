@@ -114,45 +114,33 @@ NRC (2001) рекомендует Lys:MP = 7,2%; NASEM 2021 — 7,0%. Однак
 
 ## 4.4. Медиа-инвентарь
 
-### [СКРИНШОТ] Figure 1
-**Путь к файлу:** `CS.SOTA.315-xiuli-li-2026-media/page-04-figure-1.png`
-**Название в статье:** Flowchart depicting the literature search and selection
-**Источник:** Li et al. 2026, p. 3683
-**Тип:** PRISMA flowchart
+### Figure 1
+![Flowchart depicting the literature search and selection](CS.SOTA.315-xiuli-li-2026-media/page-04-figure-1.png)
+*Источник: Li et al. 2026, p. 3683. Тип: PRISMA flowchart*
 
 **Описание:** 13 043 найденных → 33 включённых публикации.
 
-### [СКРИНШОТ] Figure 2
-**Путь к файлу:** `CS.SOTA.315-xiuli-li-2026-media/page-06-figure-2.png`
-**Название в статье:** The effect of Lys addition on milk yield in lactating cows
-**Источник:** Li et al. 2026, p. 3685
-**Тип:** forest plot
+### Figure 2
+![The effect of Lys addition on milk yield in lactating cows](CS.SOTA.315-xiuli-li-2026-media/page-06-figure-2.png)
+*Источник: Li et al. 2026, p. 3685. Тип: forest plot*
 
 **Описание:** Forest plot для удоя: WMD = 0,52 [0,30; 0,74], P = 0,001.
 
-### [СКРИНШОТ] Figure 3
-**Путь к файлу:** `CS.SOTA.315-xiuli-li-2026-media/page-06-figure-3.png`
-**Название в статье:** The effect of Lys addition on milk protein yield
-**Источник:** Li et al. 2026, p. 3685
-**Тип:** forest plot
+### Figure 3
+![The effect of Lys addition on milk protein yield](CS.SOTA.315-xiuli-li-2026-media/page-06-figure-3.png)
+*Источник: Li et al. 2026, p. 3685. Тип: forest plot*
 
-### [СКРИНШОТ] Figure 4
-**Путь к файлу:** `CS.SOTA.315-xiuli-li-2026-media/page-06-figure-4.png`
-**Название в статье:** The effect of Lys addition on milk protein concentration
-**Источник:** Li et al. 2026, p. 3685
-**Тип:** forest plot
+### Figure 4
+![The effect of Lys addition on milk protein concentration](CS.SOTA.315-xiuli-li-2026-media/page-06-figure-4.png)
+*Источник: Li et al. 2026, p. 3685. Тип: forest plot*
 
-### [СКРИНШОТ] Figure 5
-**Путь к файлу:** `CS.SOTA.315-xiuli-li-2026-media/page-07-figure-5.png`
-**Название в статье:** The effect of Lys addition on milk fat yield
-**Источник:** Li et al. 2026, p. 3685
-**Тип:** forest plot
+### Figure 5
+![The effect of Lys addition on milk fat yield](CS.SOTA.315-xiuli-li-2026-media/page-07-figure-5.png)
+*Источник: Li et al. 2026, p. 3685. Тип: forest plot*
 
-### [СКРИНШОТ] Figure 6
-**Путь к файлу:** `CS.SOTA.315-xiuli-li-2026-media/page-14-figure-6.png`
-**Название в статье:** Relationships between production performance and the supply of dLys, LysMP, and duration
-**Источник:** Li et al. 2026, p. 3694
-**Тип:** dose-response / duration-response regression
+### Figure 6
+![Relationships between production performance and the supply of dLys, LysMP, and duration](CS.SOTA.315-xiuli-li-2026-media/page-14-figure-6.png)
+*Источник: Li et al. 2026, p. 3694. Тип: dose-response / duration-response regression*
 
 **Описание:** (A-C) Доза dLys vs удой/белок/жир. (D-F) LysMP vs показатели. (G-I) Длительность vs показатели. Оптимумы: 203-208 г/сут, 6,9% MP, 90/84/43 сут.
 

@@ -135,11 +135,9 @@ beta-разнообразие и структура сообщества:
 
 ## 4.4. Медиа-инвентарь
 
-### [СКРИНШОТ] Figure 1
-**Путь к файлу:** `CS.SOTA.314-hu-2026-media/page-03-figure-1.png`
-**Название в статье:** The effects of methane inhibitors on the performance and rumen fermentation of ruminants
-**Источник:** Hu et al. 2026, JDS 109(4):3697-3709, p. 3700
-**Тип:** forest plot / summary figure
+### Figure 1
+![The effects of methane inhibitors on the performance and rumen fermentation of ruminants](CS.SOTA.314-hu-2026-media/page-03-figure-1.png)
+*Источник: Hu et al. 2026, JDS 109(4):3697-3709, p. 3700. Тип: forest plot / summary figure*
 
 **Описание:** (A) Эффекты на продуктивность (DMI, OM intake, digestibility, BW). (B) Эффекты на брожение (acetate, propionate, butyrate, A:P, H2, CH4, CO2, total gas).
 
@@ -148,43 +146,33 @@ beta-разнообразие и структура сообщества:
 - Звездочки значимости (* P < 0.05)
 - I2 = 76,23% для BW (высокая гетерогенность)
 
-### [СКРИНШОТ] Figure 2
-**Путь к файлу:** `CS.SOTA.314-hu-2026-media/page-04-figure-2.png`
-**Название в статье:** The effects of methane inhibitors on the rumen microbiota
-**Источник:** Hu et al. 2026, p. 3701
-**Тип:** diversity analysis figure
+### Figure 2
+![The effects of methane inhibitors on the rumen microbiota](CS.SOTA.314-hu-2026-media/page-04-figure-2.png)
+*Источник: Hu et al. 2026, p. 3701. Тип: diversity analysis figure*
 
 **Описание:** (A) alpha-разнообразие (Chao1, Shannon, Simpson). (B) beta-разнообразие (PCoA, Bray-Curtis). (C) Структура сообщества (RR_structure). (D) Phylum-level abundance.
 
-### [СКРИНШОТ] Figure 3
-**Путь к файлу:** `CS.SOTA.314-hu-2026-media/page-05-figure-3.png`
-**Название в статье:** The differences in the effects of different methane inhibitors
-**Источник:** Hu et al. 2026, p. 3702
-**Тип:** sub-group comparison figure
+### Figure 3
+![The differences in the effects of different methane inhibitors](CS.SOTA.314-hu-2026-media/page-05-figure-3.png)
+*Источник: Hu et al. 2026, p. 3702. Тип: sub-group comparison figure*
 
 **Описание:** Сравнение различных типов ингибиторов (липиды, нитраты, 3-NOP, эфирные масла и др.) по эффектам на продуктивность, брожение и микробиоту.
 
-### [СКРИНШОТ] Figure 4
-**Путь к файлу:** `CS.SOTA.314-hu-2026-media/page-06-figure-4.png`
-**Название в статье:** The differences in the effects of different doses of methane inhibitors
-**Источник:** Hu et al. 2026, p. 3703
-**Тип:** dose-response figure
+### Figure 4
+![The differences in the effects of different doses of methane inhibitors](CS.SOTA.314-hu-2026-media/page-06-figure-4.png)
+*Источник: Hu et al. 2026, p. 3703. Тип: dose-response figure*
 
 **Описание:** (A) Доза и продуктивность/брожение. (B) Доза и брожение (детально). (C) Доза и phylum-level abundance. (D) Доза и genus-level abundance.
 
-### [СКРИНШОТ] Figure 5
-**Путь к файлу:** `CS.SOTA.314-hu-2026-media/page-07-figure-5.png`
-**Название в статье:** Heatmap of the correlation between methane production and various variables
-**Источник:** Hu et al. 2026, p. 3704
-**Тип:** correlation heatmap
+### Figure 5
+![Heatmap of the correlation between methane production and various variables](CS.SOTA.314-hu-2026-media/page-07-figure-5.png)
+*Источник: Hu et al. 2026, p. 3704. Тип: correlation heatmap*
 
 **Описание:** Корреляционная матрица: метан vs TVFA, ацетат, пропионат, бутират, A:P, H2, DMI, переваримость, микробиота.
 
-### [СКРИНШОТ] Figure 6
-**Путь к файлу:** `CS.SOTA.314-hu-2026-media/page-08-figure-6.png`
-**Название в статье:** The linear relationship between methane production and TVFA, acetate acid, and A:P
-**Источник:** Hu et al. 2026, p. 3704
-**Тип:** regression figure
+### Figure 6
+![The linear relationship between methane production and TVFA, acetate acid, and A:P](CS.SOTA.314-hu-2026-media/page-08-figure-6.png)
+*Источник: Hu et al. 2026, p. 3704. Тип: regression figure*
 
 **Описание:** (A) Метан vs TVFA — порог 96,98 ммоль/л. (B) Метан vs ацетат — порог 61,26 ммоль/л. (C) Метан vs A:P — порог 3,86.
 

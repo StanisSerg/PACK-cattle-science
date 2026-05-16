@@ -111,43 +111,31 @@ related:
 
 ## 4.4. Медиа-инвентарь
 
-### [СКРИНШОТ] Figure 1
-**Путь к файлу:** `CS.SOTA.316-g.f.l.-cruz-2026-media/page-05-figure-1.png`
-**Название в статье:** Preferred reporting items for systematic reviews and meta-analyses (PRISMA) flowchart
-**Источник:** Cruz et al. 2026, p. 3751
-**Тип:** PRISMA flowchart
+### Figure 1
+![Preferred reporting items for systematic reviews and meta-analyses (PRISMA) flowchart](CS.SOTA.316-g.f.l.-cruz-2026-media/page-05-figure-1.png)
+*Источник: Cruz et al. 2026, p. 3751. Тип: PRISMA flowchart*
 
 **Описание:** Отбор литературы: найдено → отобрано → 42 включённых статьи.
 
-### [СКРИНШОТ] Table 2
-**Путь к файлу:** `CS.SOTA.316-g.f.l.-cruz-2026-media/page-07-table-2.png`
-**Название в статье:** Descriptive statistics of silage nutritive value and fermentation profile
-**Источник:** Cruz et al. 2026, p. 3752
-**Тип:** descriptive statistics table
+### Table 2
+![Descriptive statistics of silage nutritive value and fermentation profile](CS.SOTA.316-g.f.l.-cruz-2026-media/page-07-table-2.png)
+*Источник: Cruz et al. 2026, p. 3752. Тип: descriptive statistics table*
 
-### [СКРИНШОТ] Table 4
-**Путь к файлу:** `CS.SOTA.316-g.f.l.-cruz-2026-media/page-09-table-4.png`
-**Название в статье:** The effects of storage temperature on silage nutritive value
-**Источник:** Cruz et al. 2026, p. 3752
-**Тип:** meta-analysis results table
+### Table 4
+![The effects of storage temperature on silage nutritive value](CS.SOTA.316-g.f.l.-cruz-2026-media/page-09-table-4.png)
+*Источник: Cruz et al. 2026, p. 3752. Тип: meta-analysis results table*
 
-### [СКРИНШОТ] Table 5
-**Путь к файлу:** `CS.SOTA.316-g.f.l.-cruz-2026-media/page-09-table-5.png`
-**Название в статье:** The effects of storage temperature on silage fermentation profile and microbial counts
-**Источник:** Cruz et al. 2026, p. 3753
-**Тип:** meta-analysis results table
+### Table 5
+![The effects of storage temperature on silage fermentation profile and microbial counts](CS.SOTA.316-g.f.l.-cruz-2026-media/page-09-table-5.png)
+*Источник: Cruz et al. 2026, p. 3753. Тип: meta-analysis results table*
 
-### [СКРИНШОТ] Table 6
-**Путь к файлу:** `CS.SOTA.316-g.f.l.-cruz-2026-media/page-10-table-6.png`
-**Название в статье:** The effects of storage temperature on whole-plant corn silage nutritive value
-**Источник:** Cruz et al. 2026, p. 3754
-**Тип:** meta-analysis results table (WPCS)
+### Table 6
+![The effects of storage temperature on whole-plant corn silage nutritive value](CS.SOTA.316-g.f.l.-cruz-2026-media/page-10-table-6.png)
+*Источник: Cruz et al. 2026, p. 3754. Тип: meta-analysis results table (WPCS)*
 
-### [СКРИНШОТ] Table 7
-**Путь к файлу:** `CS.SOTA.316-g.f.l.-cruz-2026-media/page-11-table-7.png`
-**Название в статье:** The effects of storage temperature on whole-plant corn silage fermentation profile, microbial counts, and aerobic stability
-**Источник:** Cruz et al. 2026, p. 3755
-**Тип:** meta-analysis results table (WPCS)
+### Table 7
+![The effects of storage temperature on whole-plant corn silage fermentation profile, microbial counts, and aerobic stability](CS.SOTA.316-g.f.l.-cruz-2026-media/page-11-table-7.png)
+*Источник: Cruz et al. 2026, p. 3755. Тип: meta-analysis results table (WPCS)*
 
 **Ключевые элементы для лекции:**
 - Таблица 7: потери СВ и аэробная стабильность по температурным диапазонам
