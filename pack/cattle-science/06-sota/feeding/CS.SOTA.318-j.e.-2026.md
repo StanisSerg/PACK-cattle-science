@@ -240,10 +240,10 @@ related:
 
 ### 4.6. Инвентарь медиа
 
-![Figure 1A-D](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-parales-giron-2026-media/fig1a_d.png)
+![Figure 1A-D](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-j.e.-2026-media/fig1a_d.png)
 *Рисунок 1. Динамика СВ, удоя молока, ECM, FCM и компонентов по группам в периодах FR и CO. Источник: Parales-Girón et al., 2026, p. 3624, Fig. 1.*
 
-![Table 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-parales-giron-2026-media/table2.png)
+![Table 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-j.e.-2026-media/table2.png)
 *Таблица 2. СВ, молочная продуктивность, состав молока, BW и BCS в периоде FR (d 1–23). Источник: Parales-Girón et al., 2026, p. 3625, Table 2.*
 
 ---

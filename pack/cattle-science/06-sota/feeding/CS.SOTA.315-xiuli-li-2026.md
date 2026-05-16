@@ -48,7 +48,7 @@ related:
 # 1. ./scripts/post-sota-check.sh --last
 # 2. python3 scripts/update-entity-links.py CS.SOTA.315
 # 3. python3 scripts/reindex-sota.py
-# 4. git add -A && git commit -m "feat(sota): rewrite CS.SOTA.315-li-2026 to standard"
+# 4. git add -A && git commit -m "feat(sota): rewrite CS.SOTA.315-xiuli-li-2026 to standard"
 #
 # CRITERIA FOR REVISION (Revision Criterion):
 # - Новый MA на Lys с n > 50 публикаций и иерархической моделью
@@ -384,22 +384,22 @@ Funnel plots не выявили публикационного смещения
 
 ### 5.8. Встроенные медиа
 
-![Figure 1 — PRISMA flowchart](CS.SOTA.315-li-2026-media/page-04-figure-1.png)
+![Figure 1 — PRISMA flowchart](CS.SOTA.315-xiuli-li-2026-media/page-04-figure-1.png)
 *Источник: Li et al., 2026, p. 3683 (Figure 1). Стратегия поиска: 2 388 → 53 → 33 публикаций.*
 
-![Figure 2 — Forest plot: удой](CS.SOTA.315-li-2026-media/page-06-figure-2.png)
+![Figure 2 — Forest plot: удой](CS.SOTA.315-xiuli-li-2026-media/page-06-figure-2.png)
 *Источник: Li et al., 2026, p. 3685 (Figure 2). WMD = 0,52 [0,30; 0,74], P = 0,001.*
 
-![Figure 3 — Forest plot: выход белка](CS.SOTA.315-li-2026-media/page-06-figure-3.png)
+![Figure 3 — Forest plot: выход белка](CS.SOTA.315-xiuli-li-2026-media/page-06-figure-3.png)
 *Источник: Li et al., 2026, p. 3685 (Figure 3). WMD = 0,03 [0,02; 0,04], P < 0,001.*
 
-![Figure 4 — Forest plot: концентрация белка](CS.SOTA.315-li-2026-media/page-06-figure-4.png)
+![Figure 4 — Forest plot: концентрация белка](CS.SOTA.315-xiuli-li-2026-media/page-06-figure-4.png)
 *Источник: Li et al., 2026, p. 3685 (Figure 4). WMD = 0,05 [0,03; 0,07], P = 0,001.*
 
-![Figure 5 — Forest plot: выход жира](CS.SOTA.315-li-2026-media/page-07-figure-5.png)
+![Figure 5 — Forest plot: выход жира](CS.SOTA.315-xiuli-li-2026-media/page-07-figure-5.png)
 *Источник: Li et al., 2026, p. 3685 (Figure 5). WMD = 0,02 [0,01; 0,03], P = 0,027.*
 
-![Figure 6 — Доза и длительность vs продуктивность](CS.SOTA.315-li-2026-media/page-14-figure-6.png)
+![Figure 6 — Доза и длительность vs продуктивность](CS.SOTA.315-xiuli-li-2026-media/page-14-figure-6.png)
 *Источник: Li et al., 2026, p. 3694 (Figure 6). (A-C) Доза dLys. (D-F) Lys:MP. (G-I) Длительность. Синяя линия — предсказанное среднее, заштрихованная область — 95% CI.*
 
 ---
@@ -733,7 +733,7 @@ Li, X., Lv, Z., Wang, X., He, M., Bu, D., Xu, L. (2026). An updated hierarchical
 ### Work Record
 
 - **Время:** ~3 ч (ручная переработка ~800 строк)
-- **Файлы:** CS.SOTA.315-li-2026.md + 6 PNG в media/
+- **Файлы:** CS.SOTA.315-xiuli-li-2026.md + 6 PNG в media/
 - **Проблемы:** отсутствуют
 
 ### Критерии пересмотра

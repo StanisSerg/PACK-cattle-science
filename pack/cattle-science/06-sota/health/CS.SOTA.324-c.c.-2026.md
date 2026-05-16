@@ -52,8 +52,8 @@ related:
     note: "JDS 2026, primary-research, manual rewrite"
     relevance: low
 # ⚠️ POST-CREATION CHECKLIST
-# 1. ./scripts/check-fpf.sh pack/cattle-science/06-sota/health/CS.SOTA.324-martin-2026.md
-# 2. ./scripts/check-archgate.sh pack/cattle-science/06-sota/health/CS.SOTA.324-martin-2026.md
+# 1. ./scripts/check-fpf.sh pack/cattle-science/06-sota/health/CS.SOTA.324-c.c.-2026.md
+# 2. ./scripts/check-archgate.sh pack/cattle-science/06-sota/health/CS.SOTA.324-c.c.-2026.md
 # 3. git add -A && git commit -m "feat(sota): manual rewrite CS.SOTA.324 martin-2026 antimicrobial"
 #
 # Критерии пересмотра (Revision Criterion):
@@ -222,9 +222,9 @@ WM содержит субтерапевтические уровни антиб
 **Название в статье:** "Figure 1. Canonical discriminant analysis of 725 Brazilian dairy farms based on 44 dairy farm practices variables"
 **Источник:** Martin et al., 2026, стр. 4157
 **Тип:** Диаграмма рассеяния канонического дискриминантного анализа
-**Файл:** `CS.SOTA.324-martin-2026-media/page-04-figure-1.png`
+**Файл:** `CS.SOTA.324-c.c.-2026-media/page-04-figure-1.png`
 
-![Figure 1](CS.SOTA.324-martin-2026-media/page-04-figure-1.png)
+![Figure 1](CS.SOTA.324-c.c.-2026-media/page-04-figure-1.png)
 
 **Описание:**
 CDA показывает чёткое разделение 4 кластеров. Первая каноническая функция (канон 1) против вторая (канон 2). Объяснённая дисперсия 76 %. Pseudo F = 831,3. Кластер 3 отделён вправо (интенсивные системы), кластер 4 внизу (мелкие хозяйства), кластеры 1 и 2 в центре (промежуточные).
@@ -241,9 +241,9 @@ CDA показывает чёткое разделение 4 кластеров.
 **Название в статье:** "Figure 2. Multiple correspondence analysis of herd-level characteristics and cluster classification in Brazilian dairy farms"
 **Источник:** Martin et al., 2026, стр. 4158
 **Тип:** MCA би-плот категориальных переменных и кластеров
-**Файл:** `CS.SOTA.324-martin-2026-media/page-05-figure-1.png`
+**Файл:** `CS.SOTA.324-c.c.-2026-media/page-05-figure-1.png`
 
-![Figure 2](CS.SOTA.324-martin-2026-media/page-05-figure-1.png)
+![Figure 2](CS.SOTA.324-c.c.-2026-media/page-05-figure-1.png)
 
 **Описание:**
 MCA объясняет 94 % дисперсии (измерение 1: 80 %, измерение 2: 14 %). Кластеры 3 и 1 ассоциированы с крупными стадами, высоким удоем, регулярным ветеринарным надзором, специализированными породами. Кластеры 2 и 4 — мелкие стада, низкая продуктивность, ограниченная техническая помощь.
@@ -254,7 +254,7 @@ MCA объясняет 94 % дисперсии (измерение 1: 80 %, из
 
 ---
 
-> **Примечание:** Медиа-файлы для Figure 3–10 и Table 1–2 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 4152–4167). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.324-martin-2026-media/` и вставить markdown-ссылки.
+> **Примечание:** Медиа-файлы для Figure 3–10 и Table 1–2 отсутствуют в инвентаре. Данные транскрибированы из первичного источника (PDF, p. 4152–4167). При наличии полных скриншотов их следует добавить в директорию `CS.SOTA.324-c.c.-2026-media/` и вставить markdown-ссылки.
 
 ---
 

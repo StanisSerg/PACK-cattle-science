@@ -412,10 +412,10 @@ related:
 
 ### 5.7. Встроенные медиа
 
-![Figure 1 — Heatmap нормализованных permutation importance scores для 8 milk FA traits](CS.SOTA.326-mouhanna-2026-media/page-03-figure-1.png)
+![Figure 1 — Heatmap нормализованных permutation importance scores для 8 milk FA traits](CS.SOTA.326-a.-2026-media/page-03-figure-1.png)
 *Источник: Mouhanna et al., 2026, p. 4110 (Figure 1). Каждая ячейка показывает относительную важность feature (строки) для конкретной FA-модели (столбцы) по шкале 0–1 (белый = 0, тёмно-красный = 1). Иерархическая кластеризация: Manhattan distance (features) + Spearman correlation (models), Ward’s D2 linkage.*
 
-![Figure 2 — CIT-модель для α-линоленовой кислоты (ALA)](CS.SOTA.326-mouhanna-2026-media/page-04-figure-1.png)
+![Figure 2 — CIT-модель для α-линоленовой кислоты (ALA)](CS.SOTA.326-a.-2026-media/page-04-figure-1.png)
 *Источник: Mouhanna et al., 2026, p. 4114 (Figure 2). Первый split: total DMI ≤/> 18 кг СВ/сут (P < 0,001). Терминальные узлы с boxplot ALA. CLD (compact letter display): узлы с одинаковой буквой не различаются значимо (P > 0,05).*
 
 ---
@@ -736,7 +736,7 @@ Mouhanna A., Rey-Cadilhac L., Berton M., Eppenstein R., Gelé M., Plesch G., Mar
 ### Work Record
 
 - **Время:** ~3 ч (скачивание + извлечение + ручная переработка ~730 строк)
-- **Файлы:** CS.SOTA.326-mouhanna-2026.md + 2 PNG в media/
+- **Файлы:** CS.SOTA.326-a.-2026.md + 2 PNG в media/
 - **Проблемы:** отсутствуют
 
 ### Критерии пересмотра

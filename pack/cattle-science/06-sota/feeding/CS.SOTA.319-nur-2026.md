@@ -233,10 +233,10 @@ Meese et al. (2020) впервые связали низкий CH₄ intensity (
 
 ### 4.7. Инвентарь медиа
 
-![Figure 1](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-cahyo-2026-media/page-03-figure-1.png)
+![Figure 1](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-nur-2026-media/page-03-figure-1.png)
 *Рисунок 1. Ранняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe анализ (E). Источник: Cahyo et al., 2026, p. 3717, Fig. 1.*
 
-![Figure 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-cahyo-2026-media/page-06-figure-1.png)
+![Figure 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-nur-2026-media/page-06-figure-1.png)
 *Рисунок 2. Поздняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe анализ (E). Источник: Cahyo et al., 2026, p. 3718, Fig. 2.*
 
 ---
