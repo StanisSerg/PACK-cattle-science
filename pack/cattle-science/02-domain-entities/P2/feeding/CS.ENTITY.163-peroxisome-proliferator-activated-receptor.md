@@ -24,6 +24,7 @@ related:
 related_sota:
 - CS.SOTA.257
 - CS.SOTA.282
+- CS.SOTA.328
 ---
 
 # Peroxisome proliferator-activated receptor

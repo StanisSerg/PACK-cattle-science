@@ -11,6 +11,7 @@ abbreviation: MUS
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.288
+- CS.SOTA.328
 related_entities:
 - CS.ENTITY.018
 - CS.ENTITY.020

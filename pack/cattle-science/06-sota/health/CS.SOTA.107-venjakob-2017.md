@@ -37,9 +37,9 @@ related:
     type: foundational
     note: "Drackley 1999 — биология переходного периода"
     relevance: medium
-  - id: CS.SOTA.106
+  - id: CS.SOTA.328
     type: extends
-    note: "Duffield & LeBlanc 2009 — интерпретация Ca"
+    note: "Duffield & LeBlanc 2009 — интерпретация метаболических параметров"
     relevance: high
 ---
 

@@ -1,6 +1,5 @@
 ---
-# 1. YAML FRONTMATTER
-id: CS.SOTA.106
+id: CS.SOTA.328
 type: sota
 format_version: v1.1
 knowledge_tier: P1
@@ -10,70 +9,155 @@ subarea: metabolic-disorders
 subarea2: transition-monitoring
 category: review
 year: 2009
-authors: "Duffield, T.F., LeBlanc, S.J."
-title: "Interpretation of serum metabolic parameters around the transition period"
-journal: "Southwest Nutrition and Management Conference Proceedings"
-volume: "1"
-issue: "1"
-pages: "106-114"
-doi: ""
-publisher: "Southwest Nutrition and Management Conference"
+authors: Duffield, T.F., LeBlanc, S.J.
+title: Interpretation of serum metabolic parameters around the transition period
+journal: Southwest Nutrition and Management Conference Proceedings
+volume: '1'
+issue: '1'
+pages: 106-114
+doi: ''
+publisher: Southwest Nutrition and Management Conference
 open_access: true
-license: "Conference Proceeding"
+license: Conference Proceeding
 language: ru
-freshness_window: "2026-05-17 — 2028-05-17"
-sota_edition: "1.0"
+freshness_window: 2026-05-17 — 2028-05-17
+sota_edition: '1.0'
 derivation:
-  - source: "Duffield, T.F., LeBlanc, S.J., 2009, Southwest Nutrition and Management Conference Proceedings 1(1):106-114"
-    type: "ConservativeRetextualization (FPF A.6.3)"
-    reopen_trigger: "Conference proceeding, no DOI"
-  - source: "LeBlanc et al., 2005 — Metabolic Predictors of Displaced Abomasum"
-    type: "foundational"
-    relevance: "Исходные данные для пороговых значений NEFA"
-  - source: "Duffield et al., 2009 — Impact of Hyperketonemia in Early Lactation"
-    type: "foundational"
-    relevance: "Данные по ассоциациям BHBA с продуктивностью"
+- source: Duffield, T.F., LeBlanc, S.J., 2009, Southwest Nutrition and Management
+    Conference Proceedings 1(1):106-114
+  type: ConservativeRetextualization (FPF A.6.3)
+  reopen_trigger: Conference proceeding, no DOI
+- source: LeBlanc et al., 2005 — Metabolic Predictors of Displaced Abomasum
+  type: foundational
+  relevance: Исходные данные для пороговых значений NEFA
+- source: Duffield et al., 2009 — Impact of Hyperketonemia in Early Lactation
+  type: foundational
+  relevance: Данные по ассоциациям BHBA с продуктивностью
 tags:
-  - review
-  - transition-period
-  - metabolic-monitoring
-  - NEFA
-  - BHBA
-  - calcium
-  - herd-health
-  - diagnostic-testing
-  - cowside-test
-  - subclinical-ketosis
+- review
+- transition-period
+- metabolic-monitoring
+- NEFA
+- BHBA
+- calcium
+- herd-health
+- diagnostic-testing
+- cowside-test
+- subclinical-ketosis
 related:
-  - id: CS.SOTA.055
-    type: foundational
-    note: "Drackley 1999 — биология переходного периода"
-    relevance: high
-  - id: CS.SOTA.071
-    type: extends
-    note: "Chapinal 2011 — ассоциация метаболитов с клиническими заболеваниями"
-    relevance: high
-  - id: CS.SOTA.056
-    type: compares_programs
-    note: "Lean 2006 — гипокальциемия и DCAD"
-    relevance: medium
-  - id: CS.SOTA.327
-    type: extends
-    note: "Bruner 2025 — приемлемость анионных солей, профилактика гипокальцемии"
-    relevance: medium
-# ⚠️ POST-CREATION CHECKLIST
-# 1. ./scripts/post-sota-check.sh --last
-# 2. python3 scripts/update-entity-links.py CS.SOTA.106
-# 3. python3 scripts/reindex-sota.py
-# 4. git add -A && git commit -m "feat(sota): rebuild CS.SOTA.106-duffield-leblanc-2009 to v1.1"
-#
-# CRITERIA FOR REVISION (Revision Criterion):
-# - Публикация новых мета-анализов по пороговым значениям NEFA/BHBA
-# - Выход новых портативных анализаторов с валидацией
-# - Изменение рекомендаций NASEM по мониторингу transition cows
+- id: CS.SOTA.055
+  type: foundational
+  note: Drackley 1999 — биология переходного периода
+  relevance: high
+- id: CS.SOTA.071
+  type: extends
+  note: Chapinal 2011 — ассоциация метаболитов с клиническими заболеваниями
+  relevance: high
+- id: CS.SOTA.056
+  type: compares_programs
+  note: Lean 2006 — гипокальциемия и DCAD
+  relevance: medium
+- id: CS.SOTA.327
+  type: extends
+  note: Bruner 2025 — приемлемость анионных солей, профилактика гипокальцемии
+  relevance: medium
+related_entities:
+- CS.ENTITY.002
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.005
+- CS.ENTITY.006
+- CS.ENTITY.007
+- CS.ENTITY.008
+- CS.ENTITY.009
+- CS.ENTITY.010
+- CS.ENTITY.011
+- CS.ENTITY.012
+- CS.ENTITY.015
+- CS.ENTITY.016
+- CS.ENTITY.017
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.020
+- CS.ENTITY.021
+- CS.ENTITY.022
+- CS.ENTITY.023
+- CS.ENTITY.026
+- CS.ENTITY.027
+- CS.ENTITY.028
+- CS.ENTITY.029
+- CS.ENTITY.030
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.033
+- CS.ENTITY.036
+- CS.ENTITY.037
+- CS.ENTITY.038
+- CS.ENTITY.039
+- CS.ENTITY.041
+- CS.ENTITY.042
+- CS.ENTITY.046
+- CS.ENTITY.050
+- CS.ENTITY.051
+- CS.ENTITY.054
+- CS.ENTITY.055
+- CS.ENTITY.057
+- CS.ENTITY.060
+- CS.ENTITY.061
+- CS.ENTITY.064
+- CS.ENTITY.066
+- CS.ENTITY.072
+- CS.ENTITY.073
+- CS.ENTITY.074
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
+- CS.ENTITY.088
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.097
+- CS.ENTITY.103
+- CS.ENTITY.104
+- CS.ENTITY.105
+- CS.ENTITY.116
+- CS.ENTITY.121
+- CS.ENTITY.122
+- CS.ENTITY.127
+- CS.ENTITY.128
+- CS.ENTITY.129
+- CS.ENTITY.130
+- CS.ENTITY.132
+- CS.ENTITY.134
+- CS.ENTITY.135
+- CS.ENTITY.136
+- CS.ENTITY.138
+- CS.ENTITY.140
+- CS.ENTITY.141
+- CS.ENTITY.144
+- CS.ENTITY.163
+- CS.ENTITY.180
+- CS.ENTITY.184
+- CS.ENTITY.189
+- CS.ENTITY.190
+- CS.ENTITY.191
+- CS.ENTITY.192
+- CS.ENTITY.193
+- CS.ENTITY.194
+- CS.ENTITY.195
+- CS.ENTITY.197
+- CS.ENTITY.198
+- CS.ENTITY.199
+- CS.ENTITY.200
+- CS.ENTITY.201
+- CS.ENTITY.203
+- CS.ENTITY.205
+- CS.ENTITY.206
+- CS.ENTITY.209
+- CS.ENTITY.210
+- CS.ENTITY.214
 ---
 
-# CS.SOTA.106: Duffield & LeBlanc (2009) — Интерпретация сывороточных метаболических параметров в переходный период
+# CS.SOTA.328: Duffield & LeBlanc (2009) — Интерпретация сывороточных метаболических параметров в переходный период
 
 > **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
 
