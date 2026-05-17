@@ -10,6 +10,7 @@ name_ru: Метод in vitro
 name_en: In Vitro Technique
 abbreviation: in vitro
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.130
 - CS.SOTA.131
 - CS.SOTA.220

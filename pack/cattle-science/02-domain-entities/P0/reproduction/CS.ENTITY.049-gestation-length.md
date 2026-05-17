@@ -11,6 +11,7 @@ abbreviation: GL
 related_sota:
 - CS.SOTA.005
 - CS.SOTA.023
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.253
 - CS.SOTA.254

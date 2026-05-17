@@ -11,6 +11,7 @@ abbreviation: UT
 related_sota:
 - CS.SOTA.008
 - CS.SOTA.020
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.116
 - CS.SOTA.253

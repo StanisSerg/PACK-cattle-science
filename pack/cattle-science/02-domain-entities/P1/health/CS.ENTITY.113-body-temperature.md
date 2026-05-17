@@ -9,6 +9,7 @@ name_ru: Температура тела
 name_en: Body temperature
 abbreviation: BT
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.255
 - CS.SOTA.268

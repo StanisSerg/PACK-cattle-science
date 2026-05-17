@@ -11,6 +11,7 @@ abbreviation: DO
 related_sota:
 - CS.SOTA.019
 - CS.SOTA.022
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.118
 - CS.SOTA.200

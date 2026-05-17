@@ -9,6 +9,7 @@ name_ru: Клиническая гипокальциемия
 name_en: Clinical hypocalcemia
 abbreviation: CH
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.273
 - CS.SOTA.289

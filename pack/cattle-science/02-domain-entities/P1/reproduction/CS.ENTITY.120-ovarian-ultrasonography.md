@@ -11,6 +11,7 @@ abbreviation: USG
 related_sota:
 - CS.SOTA.027
 - CS.SOTA.031
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.253
 - CS.SOTA.254

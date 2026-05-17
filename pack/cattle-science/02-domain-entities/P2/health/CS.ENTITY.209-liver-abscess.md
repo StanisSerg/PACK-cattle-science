@@ -11,6 +11,7 @@ name_en: Liver Abscess
 abbreviation: ''
 related_sota:
 - CS.SOTA.053
+- CS.SOTA.054
 - CS.SOTA.160
 - CS.SOTA.200
 - CS.SOTA.233

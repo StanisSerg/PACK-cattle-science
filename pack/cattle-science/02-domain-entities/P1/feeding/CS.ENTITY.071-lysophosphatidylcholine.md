@@ -10,6 +10,7 @@ name_en: Lysophosphatidylcholine
 abbreviation: LPC
 related_sota:
 - CS.SOTA.012
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.255
 - CS.SOTA.268

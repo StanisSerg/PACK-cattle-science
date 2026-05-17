@@ -9,6 +9,7 @@ name_ru: Система содержания
 name_en: Housing system
 abbreviation: ''
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.106
 - CS.SOTA.197

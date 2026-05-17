@@ -10,6 +10,7 @@ name_en: Delayed ovulation
 abbreviation: DO
 related_sota:
 - CS.SOTA.016
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.253
 - CS.SOTA.254

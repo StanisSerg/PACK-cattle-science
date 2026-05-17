@@ -11,6 +11,7 @@ abbreviation: 21-d PR
 related_sota:
 - CS.SOTA.001
 - CS.SOTA.019
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.116
 - CS.SOTA.118

@@ -54,7 +54,7 @@
 | [CS.SOTA.046](../../06-sota/health/CS.SOTA.046-veenhuizen-1991.md) | Veenhuizen et al. | 1991 | P2 | field-study | `ketosis, fatty-liver, metabolic-disorders` | См. файл для деталей |
 | [CS.SOTA.047](../../06-sota/health/CS.SOTA.047-young-1977.md) | Young et al. | 1977 | P0 | review | `gluconeogenesis, propionate, glucose-metabolism` | См. файл для деталей |
 | [CS.SOTA.053](../../06-sota/health/CS.SOTA.053-bradford-transition-cow.md) | Bradford et al. | 2015 | P1 | review | `review, immunity, inflammation` | См. файл для деталей |
-| [CS.SOTA.054](../../06-sota/health/CS.SOTA.054-horst-2021.md) | Horst et al. | 2021 | P1 | review | `review, immune-activation, inflammation` | См. файл для деталей |
+| [CS.SOTA.054](../../06-sota/health/CS.SOTA.054-horst-2021.md) | Horst et al. | 2021 | P2 | review | `review, immune-activation, inflammation` | См. файл для деталей |
 | [CS.SOTA.055](../../06-sota/health/CS.SOTA.055-drackley-1999.md) | Drackley et al. | 1999 | P0 | review | `review, transition-period, lipid-metabolism` | См. файл для деталей |
 | [CS.SOTA.056](../../06-sota/health/CS.SOTA.056-lean-2006.md) | Lean et al. | 2006 | P1 | meta-analysis | `meta-analysis, hypocalcemia, milk-fever` | См. файл для деталей |
 | [CS.SOTA.058](../../06-sota/health/CS.SOTA.058-kupczynski-2020.md) | Kupczyński et al. | 2020 | P1 | review | `glycerol, ketosis-treatment, glucogenic-precursor` | **Контекст:** Глицерол — побочный продукт производства биоди... |

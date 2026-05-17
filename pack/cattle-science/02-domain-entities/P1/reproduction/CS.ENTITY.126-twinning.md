@@ -10,6 +10,7 @@ name_en: Twinning
 abbreviation: ''
 related_sota:
 - CS.SOTA.031
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.197
 - CS.SOTA.200

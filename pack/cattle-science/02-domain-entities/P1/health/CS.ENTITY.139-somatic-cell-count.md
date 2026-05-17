@@ -9,6 +9,7 @@ name_ru: Счёт соматических клеток
 name_en: Somatic cell count
 abbreviation: SCC
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.255
 - CS.SOTA.268

@@ -11,6 +11,7 @@ abbreviation: PT
 related_sota:
 - CS.SOTA.003
 - CS.SOTA.019
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.116
 - CS.SOTA.253

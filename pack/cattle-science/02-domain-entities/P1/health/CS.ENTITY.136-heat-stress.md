@@ -9,6 +9,7 @@ name_ru: Тепловой стресс
 name_en: Heat stress
 abbreviation: HS
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.197
 - CS.SOTA.200

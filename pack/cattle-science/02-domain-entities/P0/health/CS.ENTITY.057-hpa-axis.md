@@ -11,6 +11,7 @@ abbreviation: HPA axis
 related_sota:
 - CS.SOTA.009
 - CS.SOTA.053
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.256
 - CS.SOTA.268

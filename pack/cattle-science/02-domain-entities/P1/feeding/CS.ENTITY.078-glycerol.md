@@ -10,6 +10,7 @@ name_en: Glycerol
 abbreviation: GLY
 related_sota:
 - CS.SOTA.012
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.268
 - CS.SOTA.328

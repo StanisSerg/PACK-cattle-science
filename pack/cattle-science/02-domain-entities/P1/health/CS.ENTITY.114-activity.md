@@ -9,6 +9,7 @@ name_ru: Активность
 name_en: Activity
 abbreviation: ACT
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.197
 - CS.SOTA.198

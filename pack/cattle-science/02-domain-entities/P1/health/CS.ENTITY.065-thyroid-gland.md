@@ -9,6 +9,7 @@ name_ru: Щитовидная железа
 name_en: Thyroid gland
 abbreviation: THY
 related_sota:
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.106
 - CS.SOTA.199

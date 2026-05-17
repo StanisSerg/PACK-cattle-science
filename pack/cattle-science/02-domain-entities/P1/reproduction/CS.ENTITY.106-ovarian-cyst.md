@@ -10,6 +10,7 @@ name_en: Ovarian cyst
 abbreviation: OC
 related_sota:
 - CS.SOTA.016
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.253
 - CS.SOTA.254

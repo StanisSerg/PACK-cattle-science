@@ -11,6 +11,7 @@ abbreviation: LIV
 related_sota:
 - CS.SOTA.012
 - CS.SOTA.019
+- CS.SOTA.054
 - CS.SOTA.066
 - CS.SOTA.106
 - CS.SOTA.199
