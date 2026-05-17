@@ -204,10 +204,13 @@ check_file() {
     # ── FPF-разметка границ модели ──
     echo -e "\n${CYAN}── FPF A.7: Разметка границ модели ──${NC}"
     
-    local fpf_markers=$(grep -c "FPF A\.7" "$file" 2>/dev/null)
-    local outside_markers=$(grep -c "\[вне NASEM" "$file" 2>/dev/null)
+    local fpf_a7=$(grep -c "FPF A\.7" "$file" 2>/dev/null || echo 0)
+    local fpf_a63=$(grep -c "FPF A\.6\.3" "$file" 2>/dev/null || echo 0)
+    local fpf_a10=$(grep -c "FPF A\.10" "$file" 2>/dev/null || echo 0)
+    local fpf_markers=$((fpf_a7 + fpf_a63 + fpf_a10))
+    local outside_markers=$(grep -c "\[вне NASEM" "$file" 2>/dev/null || echo 0)
     
-    echo -e "${GREEN}📊 FPF-маркеров (A.7, A.6.3, A.10): $fpf_markers${NC}"
+    echo -e "${GREEN}📊 FPF-маркеров A.7: $fpf_a7, A.6.3: $fpf_a63, A.10: $fpf_a10 (всего: $fpf_markers)${NC}"
     echo -e "${GREEN}📊 Пометок [вне NASEM]: $outside_markers${NC}"
     
     if [ "$fpf_markers" -lt 2 ]; then
