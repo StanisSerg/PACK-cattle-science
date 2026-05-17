@@ -10,6 +10,7 @@ name_en: Nervous system
 abbreviation: NS
 related_sota:
 - CS.SOTA.054
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.200
 - CS.SOTA.256

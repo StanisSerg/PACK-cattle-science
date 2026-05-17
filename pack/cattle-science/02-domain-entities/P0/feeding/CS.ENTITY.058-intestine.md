@@ -10,6 +10,7 @@ name_en: Intestine
 abbreviation: INT
 related_sota:
 - CS.SOTA.012
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.106
 - CS.SOTA.201

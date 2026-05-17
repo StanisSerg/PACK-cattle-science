@@ -11,6 +11,7 @@ abbreviation: FA
 related_sota:
 - CS.SOTA.012
 - CS.SOTA.054
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.198
 - CS.SOTA.255

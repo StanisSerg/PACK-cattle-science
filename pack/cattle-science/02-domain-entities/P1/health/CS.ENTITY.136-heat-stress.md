@@ -10,6 +10,7 @@ name_en: Heat stress
 abbreviation: HS
 related_sota:
 - CS.SOTA.054
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.197
 - CS.SOTA.200

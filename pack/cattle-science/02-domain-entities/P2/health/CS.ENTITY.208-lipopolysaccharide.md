@@ -12,6 +12,7 @@ abbreviation: LPS
 related_sota:
 - CS.SOTA.053
 - CS.SOTA.054
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.160
 - CS.SOTA.199

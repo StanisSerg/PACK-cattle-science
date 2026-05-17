@@ -11,6 +11,7 @@ abbreviation: TH
 related_sota:
 - CS.SOTA.016
 - CS.SOTA.054
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.106
 - CS.SOTA.199

@@ -10,6 +10,7 @@ name_en: Subclinical hypocalcemia
 abbreviation: SCH
 related_sota:
 - CS.SOTA.054
+- CS.SOTA.056
 - CS.SOTA.066
 - CS.SOTA.273
 - CS.SOTA.286

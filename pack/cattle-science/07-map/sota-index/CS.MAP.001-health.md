@@ -56,7 +56,7 @@
 | [CS.SOTA.053](../../06-sota/health/CS.SOTA.053-bradford-transition-cow.md) | Bradford et al. | 2015 | P1 | review | `review, immunity, inflammation` | См. файл для деталей |
 | [CS.SOTA.054](../../06-sota/health/CS.SOTA.054-horst-2021.md) | Horst et al. | 2021 | P2 | review | `review, immune-activation, inflammation` | См. файл для деталей |
 | [CS.SOTA.055](../../06-sota/health/CS.SOTA.055-drackley-1999.md) | Drackley et al. | 1999 | P0 | review | `review, transition-period, lipid-metabolism` | См. файл для деталей |
-| [CS.SOTA.056](../../06-sota/health/CS.SOTA.056-lean-2006.md) | Lean et al. | 2006 | P1 | meta-analysis | `meta-analysis, hypocalcemia, milk-fever` | См. файл для деталей |
+| [CS.SOTA.056](../../06-sota/health/CS.SOTA.056-lean-2006.md) | Lean et al. | 2006 | P2 | meta-analysis | `meta-analysis, hypocalcemia, milk-fever` | См. файл для деталей |
 | [CS.SOTA.058](../../06-sota/health/CS.SOTA.058-kupczynski-2020.md) | Kupczyński et al. | 2020 | P1 | review | `glycerol, ketosis-treatment, glucogenic-precursor` | **Контекст:** Глицерол — побочный продукт производства биоди... |
 | [CS.SOTA.059](../../06-sota/health/CS.SOTA.059-kristensen-raun-2007.md) | Kristensen et al. | 2007 | P2 | field-study | `propylene-glycol, ketosis-treatment, rumen-metabolism` | **Контекст:** Пропиленгликоль (PG) широко используется для л... |
 | [CS.SOTA.060](../../06-sota/health/CS.SOTA.060-capel-2021.md) | Capel et al. | 2021 | P1 | field-study | `propylene-glycol, dextrose, hyperketonemia` | **Контекст:** Гиперкетонемия (HYK, BHBA ≥1.2 ммоль/л) встреч... |
