@@ -31,3 +31,4 @@ __pycache__/
 
 # PDF in pack content
 pack/**/**/*.pdf
+*.Identifier
