@@ -114,8 +114,8 @@
 | [CS.SOTA.290](../../06-sota/health/CS.SOTA.290-hoof-scoping-2026.md) | al. et al. | 2026 | P2 | review | `hoof-lesions, lameness, case-definitions` | См. файл для деталей |
 | [CS.SOTA.291](../../06-sota/health/CS.SOTA.291-induced-hypocalcemia-2026.md) | Frizzarini et al. | 2026 | P2 | field-study | `hypocalcemia, subclinical, transition-period` | См. файл для деталей |
 | [CS.SOTA.313](../../06-sota/health/CS.SOTA.313-frizzarini-2026.md) | Frizzarini et al. | 2026 | P2 | field-study | `calcium, hypocalcemia, transition-period` | См. файл для деталей |
-| [CS.SOTA.324](../../06-sota/health/CS.SOTA.324-c.c.-2026.md) | C.C. et al. | 2026 | P2 | primary-research | `health, antimicrobial, primary-research` | См. файл для деталей |
-| [CS.SOTA.325](../../06-sota/health/CS.SOTA.325-a.-2026.md) | A. et al. | 2026 | P2 | primary-research | `health, udder-health, primary-research` | См. файл для деталей |
+| [CS.SOTA.324](../../06-sota/health/CS.SOTA.324-martin-2026.md) | C.C. et al. | 2026 | P2 | primary-research | `health, antimicrobial, primary-research` | См. файл для деталей |
+| [CS.SOTA.325](../../06-sota/health/CS.SOTA.325-ui-chearbhaill-2026.md) | A. et al. | 2026 | P2 | primary-research | `health, udder-health, primary-research` | См. файл для деталей |
 
 ---
 
