@@ -10,6 +10,7 @@ name_en: FTIR spectroscopy
 abbreviation: FTIR
 related_sota:
 - CS.SOTA.067
+- CS.SOTA.106
 - CS.SOTA.198
 - CS.SOTA.199
 - CS.SOTA.200

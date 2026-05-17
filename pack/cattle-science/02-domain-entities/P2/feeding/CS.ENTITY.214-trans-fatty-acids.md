@@ -11,6 +11,7 @@ name_en: Trans Fatty Acids
 abbreviation: TFA
 related_sota:
 - CS.SOTA.073
+- CS.SOTA.106
 - CS.SOTA.160
 - CS.SOTA.162
 - CS.SOTA.178

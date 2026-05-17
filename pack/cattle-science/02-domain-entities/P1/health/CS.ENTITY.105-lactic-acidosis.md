@@ -11,6 +11,7 @@ abbreviation: LA
 related_sota:
 - CS.SOTA.012
 - CS.SOTA.066
+- CS.SOTA.106
 - CS.SOTA.198
 - CS.SOTA.199
 - CS.SOTA.200

@@ -75,7 +75,7 @@
 | [CS.SOTA.097](../../06-sota/health/CS.SOTA.097-cozzi-2011.md) | Cozzi et al. | 2011 | P1 | field-study | `blood-parameters, reference-values, diagnostics` | См. файл для деталей |
 | [CS.SOTA.103](../../06-sota/health/CS.SOTA.103-sadri-2025.md) | Sadri et al. | 2025 | P2 | experimental | `adipose, metabolome, omics` | См. файл для деталей |
 | [CS.SOTA.104](../../06-sota/health/CS.SOTA.104-seminara-mcart-2025.md) | Seminara et al. | 2025 | P1 | field-study | `inflammation, early-lactation, DIM` | См. файл для деталей |
-| [CS.SOTA.106](../../06-sota/health/CS.SOTA.106-duffield-leblanc-2009.md) | Duffield et al. | 2009 | P1 | review | `review, transition-period, metabolic-monitoring` | См. файл для деталей |
+| [CS.SOTA.106](../../06-sota/health/CS.SOTA.106-duffield-leblanc-2009.md) | Duffield et al. | 2009 | P2 | review | `review, transition-period, metabolic-monitoring` | См. файл для деталей |
 | [CS.SOTA.107](../../06-sota/health/CS.SOTA.107-venjakob-2017.md) | Venjakob et al. | 2017 | P1 | field-study | `field-study, hypocalcemia, subclinical-hypocalcemia` | См. файл для деталей |
 | [CS.SOTA.108](../../06-sota/health/CS.SOTA.108-okkema-2023.md) | Okkema et al. | 2023 | P2 | field-study | `field-study, udder-edema, parlor-behavior` | См. файл для деталей |
 | [CS.SOTA.110](../../06-sota/health/CS.SOTA.110-bruinje-2024.md) | Bruinjé et al. | 2024 | P2 | observational | `postpartum-health, progesterone, fertility` | См. файл для деталей |

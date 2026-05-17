@@ -10,6 +10,7 @@ name_en: Thyroid gland
 abbreviation: THY
 related_sota:
 - CS.SOTA.066
+- CS.SOTA.106
 - CS.SOTA.199
 - CS.SOTA.257
 - CS.SOTA.260

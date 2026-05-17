@@ -1,5 +1,4 @@
 ---
-# YAML FRONTMATTER (обязательно)
 id: CS.SOTA.106
 type: sota
 domain: cattle-science
@@ -7,32 +6,75 @@ area: feeding
 subarea: nitrogen-metabolism
 category: experimental
 year: 2000
-authors: "Bach, A., Calsamiglia, S., Stern, M.D."
-title: "Nitrogen Metabolism in Early Lactation Cows Fed Diets with Two Different Levels of Protein and Different Amino Acid Profiles"
-journal: "Journal of Dairy Science"
-volume: "83"
-issue: "11"
-pages: "2585-2595"
-doi: "10.3168/jds.S0022-0302(00)75137-5"
+authors: Bach, A., Calsamiglia, S., Stern, M.D.
+title: Nitrogen Metabolism in Early Lactation Cows Fed Diets with Two Different Levels
+  of Protein and Different Amino Acid Profiles
+journal: Journal of Dairy Science
+volume: '83'
+issue: '11'
+pages: 2585-2595
+doi: 10.3168/jds.S0022-0302(00)75137-5
 open_access: false
-license: ""
+license: ''
 language: ru
 tags:
-  - nitrogen-metabolism
-  - protein
-  - amino-acids
-  - early-lactation
-  - microbial-protein
-  - rumen-degradable-protein
+- nitrogen-metabolism
+- protein
+- amino-acids
+- early-lactation
+- microbial-protein
+- rumen-degradable-protein
 related:
-  - id: CS.SOTA.107
-    type: extends
-    note: "Продолжение исследований метаболизма азота Bach"
-    relevance: high
-  - id: CS.SOTA.013
-    type: foundational
-    note: "Базовые принципы метаболизма азота"
-    relevance: high
+- id: CS.SOTA.107
+  type: extends
+  note: Продолжение исследований метаболизма азота Bach
+  relevance: high
+- id: CS.SOTA.013
+  type: foundational
+  note: Базовые принципы метаболизма азота
+  relevance: high
+related_entities:
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.006
+- CS.ENTITY.014
+- CS.ENTITY.023
+- CS.ENTITY.031
+- CS.ENTITY.033
+- CS.ENTITY.038
+- CS.ENTITY.046
+- CS.ENTITY.050
+- CS.ENTITY.052
+- CS.ENTITY.056
+- CS.ENTITY.058
+- CS.ENTITY.059
+- CS.ENTITY.065
+- CS.ENTITY.066
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.084
+- CS.ENTITY.085
+- CS.ENTITY.086
+- CS.ENTITY.087
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.096
+- CS.ENTITY.105
+- CS.ENTITY.132
+- CS.ENTITY.134
+- CS.ENTITY.141
+- CS.ENTITY.189
+- CS.ENTITY.190
+- CS.ENTITY.191
+- CS.ENTITY.193
+- CS.ENTITY.194
+- CS.ENTITY.195
+- CS.ENTITY.197
+- CS.ENTITY.199
+- CS.ENTITY.201
+- CS.ENTITY.206
+- CS.ENTITY.214
 ---
 
 # 1. РЕЗЮМЕ (Abstract)
