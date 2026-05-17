@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (183 SoTA)
+> Шард индекса: feeding (184 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,9 +10,9 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 183 |
+| Всего SoTA | 184 |
 | P0 (Фундаментальные) | 20 |
-| P1 (Критически важные) | 26 |
+| P1 (Критически важные) | 27 |
 | P2 (Важные) | 137 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
@@ -21,6 +21,7 @@
 | Meta-analysis | 10 |
 | Methodology | 1 |
 | Primary-research | 2 |
+| Rct | 1 |
 | Reference-book | 19 |
 | Review | 46 |
 | Simulation | 5 |
@@ -214,6 +215,7 @@
 | [CS.SOTA.322](../../06-sota/feeding/CS.SOTA.322-nino-de-guzman-2026.md) | C. et al. | 2026 | P2 | primary-research | `feeding, silage, microbial-inoculants` | См. файл для деталей |
 | [CS.SOTA.323](../../06-sota/feeding/CS.SOTA.323-smith-2026.md) | W.A. et al. | 2026 | P2 | primary-research | `feeding, fiber, primary-research` | См. файл для деталей |
 | [CS.SOTA.327](../../06-sota/feeding/CS.SOTA.327-bruner-2025.md) | Bruner et al. | 2025 | P2 | field-study | `anionic-salt, fat-microencapsulation, palatability` | См. файл для деталей |
+| [CS.SOTA.329](../../06-sota/feeding/CS.SOTA.329-neville-2022.md) | Neville et al. | 2022 | P2 | rct | `rct, calcareous-marine-algae, cma` | См. файл для деталей |
 
 ---
 
@@ -226,4 +228,4 @@
 ---
 
 *Шард обновлён: 2026-05-17*
-*Автоматическая генерация: 183 SoTA*
+*Автоматическая генерация: 184 SoTA*
