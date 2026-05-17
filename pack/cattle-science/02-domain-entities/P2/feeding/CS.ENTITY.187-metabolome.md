@@ -31,6 +31,7 @@ related_sota:
 - CS.SOTA.282
 - CS.SOTA.286
 - CS.SOTA.290
+- CS.SOTA.319
 ---
 
 # Метаболом (Metabolome)

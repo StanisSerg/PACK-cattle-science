@@ -1,7 +1,7 @@
 ---
 id: CS.SOTA.319
 type: sota
-format_version: v1.1
+format_version: v1.2
 knowledge_tier: P2
 domain: cattle-science
 area: feeding
@@ -9,63 +9,107 @@ subarea: methane-emissions
 subarea2: microbiome-immunity
 category: field-study
 year: 2026
-authors: "Cahyo, H.N., Niu, P., Pope, P.B., Gimsa, U., Kuhla, B., Schwarm, A."
-title: "Methane category, immune response, feed efficiency, and rumen microbial community in lactating dairy cows"
-journal: "Journal of Dairy Science"
-volume: "109"
-issue: "4"
-pages: "3710-3724"
-doi: "10.3168/jds.2025-26925"
-publisher: "Elsevier on behalf of American Dairy Science Association"
+authors: Cahyo, H.N., Niu, P., Pope, P.B., Gimsa, U., Kuhla, B., Schwarm, A.
+title: Methane category, immune response, feed efficiency, and rumen microbial community
+  in lactating dairy cows
+journal: Journal of Dairy Science
+volume: '109'
+issue: '4'
+pages: 3710-3724
+doi: 10.3168/jds.2025-26925
+publisher: Elsevier on behalf of American Dairy Science Association
 open_access: true
-license: "CC BY 4.0"
+license: CC BY 4.0
 language: ru
-freshness_window: "2026-05-16 — 2028-05-16 (2 года, до выхода новых данных по механизмам CH4 × иммунитет)"
-sota_edition: "1.1"
+freshness_window: 2026-05-16 — 2028-05-16 (2 года, до выхода новых данных по механизмам
+  CH4 × иммунитет)
+sota_edition: '1.1'
 derivation:
-  - source: "Cahyo et al., 2026, JDS 109(4):3710-3724"
-    type: "ConservativeRetextualization (FPF A.6.3)"
-    reopen_trigger: "DOI: 10.3168/jds.2025-26925, страницы указаны для каждого блока"
-  - source: "NASEM 2021 Ch.4 Carbohydrates, Ch.12 Transition Cows"
-    type: "foundational"
-    relevance: "Энергетический баланс и иммунитет в transition"
+- source: Cahyo et al., 2026, JDS 109(4):3710-3724
+  type: ConservativeRetextualization (FPF A.6.3)
+  reopen_trigger: 'DOI: 10.3168/jds.2025-26925, страницы указаны для каждого блока'
+- source: NASEM 2021 Ch.4 Carbohydrates, Ch.12 Transition Cows
+  type: foundational
+  relevance: Энергетический баланс и иммунитет в transition
 tags:
-  - methane
-  - immune-response
-  - microbiome
-  - feed-efficiency
-  - early-lactation
-  - late-lactation
-  - holstein
-  - respiration-chamber
+- methane
+- immune-response
+- microbiome
+- feed-efficiency
+- early-lactation
+- late-lactation
+- holstein
+- respiration-chamber
 related:
-  - id: CS.SOTA.314
-    type: extends
-    note: "Hu 2026 — мета-анализ ингибиторов метана"
-    relevance: medium
-  - id: CS.SOTA.315
-    type: foundational
-    note: "Li 2026 — лизин и продуктивность"
-    relevance: low
-  - id: CS.SOTA.318
-    type: foundational
-    note: "Parales-Girón 2026 — крахмал и ЖК в ранней лактации"
-    relevance: medium
-# ⚠️ POST-CREATION CHECKLIST
-# 1. ./scripts/post-sota-check.sh --last
-# 2. python3 scripts/update-entity-links.py CS.SOTA.319
-# 3. python3 scripts/reindex-sota.py
-# 4. git add -A && git commit -m "feat(sota): add CS.SOTA.319-cahyo-2026"
-#
-# CRITERIA FOR REVISION (Revision Criterion):
-# - Новое исследование с n > 30 на CH4 yield × immune response в ранней лактации
-# - Публикация механизма Marvinbryantia/acetogenesis как альтернативы метаногенезу
-# - Longitudinal study отдельных коров с повторными замерами CH4 и иммунитета
+- id: CS.SOTA.314
+  type: extends
+  note: Hu 2026 — мета-анализ ингибиторов метана
+  relevance: medium
+- id: CS.SOTA.315
+  type: foundational
+  note: Li 2026 — лизин и продуктивность
+  relevance: low
+- id: CS.SOTA.318
+  type: foundational
+  note: Parales-Girón 2026 — крахмал и ЖК в ранней лактации
+  relevance: medium
+related_entities:
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.006
+- CS.ENTITY.031
+- CS.ENTITY.032
+- CS.ENTITY.033
+- CS.ENTITY.037
+- CS.ENTITY.038
+- CS.ENTITY.039
+- CS.ENTITY.046
+- CS.ENTITY.050
+- CS.ENTITY.052
+- CS.ENTITY.054
+- CS.ENTITY.056
+- CS.ENTITY.058
+- CS.ENTITY.061
+- CS.ENTITY.065
+- CS.ENTITY.066
+- CS.ENTITY.091
+- CS.ENTITY.092
+- CS.ENTITY.096
+- CS.ENTITY.099
+- CS.ENTITY.105
+- CS.ENTITY.114
+- CS.ENTITY.121
+- CS.ENTITY.122
+- CS.ENTITY.132
+- CS.ENTITY.133
+- CS.ENTITY.134
+- CS.ENTITY.135
+- CS.ENTITY.136
+- CS.ENTITY.140
+- CS.ENTITY.166
+- CS.ENTITY.187
+- CS.ENTITY.188
+- CS.ENTITY.189
+- CS.ENTITY.190
+- CS.ENTITY.191
+- CS.ENTITY.192
+- CS.ENTITY.194
+- CS.ENTITY.195
+- CS.ENTITY.197
+- CS.ENTITY.199
+- CS.ENTITY.200
+- CS.ENTITY.201
+- CS.ENTITY.205
+- CS.ENTITY.206
+- CS.ENTITY.207
+- CS.ENTITY.208
+- CS.ENTITY.210
+- CS.ENTITY.214
 ---
 
 # CS.SOTA.319: Cahyo et al. (2026) — Метан, иммунитет и микробиом
 
-> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
+> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [11. Инструменты](#11-инструменты-и-шаблоны) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
 
 ---
 
@@ -168,6 +212,9 @@ Meese et al. (2020) впервые связали низкий CH₄ intensity (
 
 **Рационы (Table 1):**
 
+![Table 1](CS.SOTA.319-cahyo-2026-media/table-1-diet-composition.png)
+*Таблица 1. Состав рационов для коров в ранней и поздней лактации. Источник: Cahyo et al., 2026, p. 3712, Table 1.*
+
 | Компонент | Ранняя лактация | Поздняя лактация |
 |-----------|-----------------|------------------|
 | Соотношение сено:концентрат | 67:33 | 65:35 |
@@ -233,10 +280,23 @@ Meese et al. (2020) впервые связали низкий CH₄ intensity (
 
 ### 4.7. Инвентарь медиа
 
-![Figure 1](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-cahyo-2026-media/page-03-figure-1.png)
+| ID | Тип | Описание | Файл | Статус |
+|----|-----|----------|------|--------|
+| M1 | Таблица | Состав рационов (ингредиенты, питательность) — ранняя и поздняя лактация | `table-1-diet-composition.png` | ✅ |
+| M2 | Таблица | Продуктивность и газообмен (LMY vs HMY) — ранняя и поздняя лактация | `table-2-performance-gas-emissions.png` | ✅ |
+| M3 | Рисунок | Ранняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe (E) | `figure-1-early-lactation-immunity-microbiome.png` | ✅ |
+| M4 | Рисунок | Поздняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe (E) | `figure-2-late-lactation-immunity-microbiome.png` | ✅ |
+
+![Table 1](CS.SOTA.319-cahyo-2026-media/table-1-diet-composition.png)
+*Таблица 1. Состав рационов для коров в ранней и поздней лактации. Источник: Cahyo et al., 2026, p. 3712, Table 1.*
+
+![Table 2](CS.SOTA.319-cahyo-2026-media/table-2-performance-gas-emissions.png)
+*Таблица 2. Продуктивность и газообразование коров с низким (LMY) и высоким (HMY) выделением CH₄ в ранней и поздней лактации. Источник: Cahyo et al., 2026, p. 3716, Table 2.*
+
+![Figure 1](CS.SOTA.319-cahyo-2026-media/figure-1-early-lactation-immunity-microbiome.png)
 *Рисунок 1. Ранняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe анализ (E). Источник: Cahyo et al., 2026, p. 3717, Fig. 1.*
 
-![Figure 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.319-cahyo-2026-media/page-06-figure-1.png)
+![Figure 2](CS.SOTA.319-cahyo-2026-media/figure-2-late-lactation-immunity-microbiome.png)
 *Рисунок 2. Поздняя лактация: иммунный ответ (A-C), β-диверситет (D), LEfSe анализ (E). Источник: Cahyo et al., 2026, p. 3718, Fig. 2.*
 
 ---
@@ -246,6 +306,9 @@ Meese et al. (2020) впервые связали низкий CH₄ intensity (
 ### 5.1. Потребление, продуктивность и газообмен
 
 **Ранняя лактация (Table 2):**
+
+![Table 2](CS.SOTA.319-cahyo-2026-media/table-2-performance-gas-emissions.png)
+*Таблица 2. Продуктивность и газообразование коров с низким (LMY) и высоким (HMY) выделением CH₄ в ранней и поздней лактации. Источник: Cahyo et al., 2026, p. 3716, Table 2.*
 
 | Показатель | LMY | HMY | SEM | P-value |
 |------------|-----|-----|-----|---------|
