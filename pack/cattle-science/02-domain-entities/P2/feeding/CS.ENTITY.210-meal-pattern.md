@@ -12,6 +12,7 @@ abbreviation: ''
 related_sota:
 - CS.SOTA.056
 - CS.SOTA.066
+- CS.SOTA.107
 - CS.SOTA.160
 - CS.SOTA.198
 - CS.SOTA.199

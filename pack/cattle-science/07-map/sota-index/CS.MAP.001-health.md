@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (85 SoTA)
+> Шард индекса: health (84 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 85 |
+| Всего SoTA | 84 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
-| P2 (Важные) | 52 |
+| P2 (Важные) | 51 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 9 |
 | Experimental-study | 2 |
-| Field-study | 44 |
+| Field-study | 43 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -75,7 +75,7 @@
 | [CS.SOTA.097](../../06-sota/health/CS.SOTA.097-cozzi-2011.md) | Cozzi et al. | 2011 | P1 | field-study | `blood-parameters, reference-values, diagnostics` | См. файл для деталей |
 | [CS.SOTA.103](../../06-sota/health/CS.SOTA.103-sadri-2025.md) | Sadri et al. | 2025 | P2 | experimental | `adipose, metabolome, omics` | См. файл для деталей |
 | [CS.SOTA.104](../../06-sota/health/CS.SOTA.104-seminara-mcart-2025.md) | Seminara et al. | 2025 | P1 | field-study | `inflammation, early-lactation, DIM` | См. файл для деталей |
-| [CS.SOTA.107](../../06-sota/health/CS.SOTA.107-venjakob-2017.md) | Venjakob et al. | 2017 | P1 | field-study | `field-study, hypocalcemia, subclinical-hypocalcemia` | См. файл для деталей |
+| [CS.SOTA.107](../../06-sota/health/CS.SOTA.107-venjakob-2017.md) | Venjakob et al. | 2017 | P2 | field-study | `field-study, hypocalcemia, subclinical-hypocalcemia` | См. файл для деталей |
 | [CS.SOTA.108](../../06-sota/health/CS.SOTA.108-okkema-2023.md) | Okkema et al. | 2023 | P2 | field-study | `field-study, udder-edema, parlor-behavior` | См. файл для деталей |
 | [CS.SOTA.110](../../06-sota/health/CS.SOTA.110-bruinje-2024.md) | Bruinjé et al. | 2024 | P2 | observational | `postpartum-health, progesterone, fertility` | См. файл для деталей |
 | [CS.SOTA.121](../../06-sota/health/CS.SOTA.121-eppe-2021.md) | Eppe et al. | 2021 | P2 | survey | `retained-fetal-membranes, rfm, treatment-protocols` | См. файл для деталей |
@@ -93,7 +93,6 @@
 | [CS.SOTA.214](../../06-sota/health/CS.SOTA.214-grohn-1998.md) | Gröhn et al. | 1998 | P1 | field-study | `survival-analysis, culling, disease-impact` | Исследование изучило влияние семи заболеваний на выбытие 752... |
 | [CS.SOTA.222](../../06-sota/health/CS.SOTA.222-krajcarski-hunt-2002.md) | Krajcarski-Hunt et al. | 2002 | P2 | field-study | `sara, subacute-ruminal-acidosis, fiber-digestion` | См. файл для деталей |
 | [CS.SOTA.235](../../06-sota/health/CS.SOTA.235-ramos-2025.md) | Ramos et al. | 2025 | P1 | review | `review, animal-welfare, hrqol` | См. файл для деталей |
-| [CS.SOTA.246](../../06-sota/health/CS.SOTA.246-venjakob-2017.md) | Venjakob et al. | 2017 | P2 | field-study | `hypocalcemia, milk-fever, subclinical-hypocalcemia` | См. файл для деталей |
 | [CS.SOTA.250](../../06-sota/health/CS.SOTA.250-akerstrom-2025.md) | Åkerström et al. | 2025 | P2 | field-study | `hoof-trimming, lameness, claw-lesions` | См. файл для деталей |
 | [CS.SOTA.255](../../06-sota/health/CS.SOTA.255-bertens-2026.md) | Bertens et al. | 2026 | P2 | field-study | `mastitis, LPS, probiotic` | См. файл для деталей |
 | [CS.SOTA.257](../../06-sota/health/CS.SOTA.257-von-riedheim-2026.md) | Riedheim et al. | 2026 | P2 | field-study | `colostrum, neonatal-calf, endocrine` | См. файл для деталей |
@@ -128,4 +127,4 @@
 ---
 
 *Шард обновлён: 2026-05-17*
-*Автоматическая генерация: 85 SoTA*
+*Автоматическая генерация: 84 SoTA*

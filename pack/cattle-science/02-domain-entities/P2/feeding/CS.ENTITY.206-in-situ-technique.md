@@ -12,6 +12,7 @@ abbreviation: in situ
 related_sota:
 - CS.SOTA.066
 - CS.SOTA.106
+- CS.SOTA.107
 - CS.SOTA.128
 - CS.SOTA.130
 - CS.SOTA.131

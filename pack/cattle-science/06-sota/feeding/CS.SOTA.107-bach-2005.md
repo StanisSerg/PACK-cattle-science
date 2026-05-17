@@ -1,5 +1,4 @@
 ---
-# YAML FRONTMATTER (обязательно)
 id: CS.SOTA.107
 type: sota
 domain: cattle-science
@@ -7,32 +6,71 @@ area: feeding
 subarea: rumen-microbiology
 category: review
 year: 2005
-authors: "Bach, A., et al."
-title: "Nitrogen Metabolism in the Rumen"
-journal: "Journal of Dairy Science"
-volume: "88"
-issue: "E-Suppl"
-pages: "E9-E21"
-doi: "10.3168/jds.S0022-0302(05)73162-9"
+authors: Bach, A., et al.
+title: Nitrogen Metabolism in the Rumen
+journal: Journal of Dairy Science
+volume: '88'
+issue: E-Suppl
+pages: E9-E21
+doi: 10.3168/jds.S0022-0302(05)73162-9
 open_access: false
-license: ""
+license: ''
 language: ru
 tags:
-  - nitrogen-metabolism
-  - rumen
-  - microbial-protein
-  - protein-degradation
-  - amino-acids
-  - rumen-microbiome
+- nitrogen-metabolism
+- rumen
+- microbial-protein
+- protein-degradation
+- amino-acids
+- rumen-microbiome
 related:
-  - id: CS.SOTA.106
-    type: foundational
-    note: "Эмпирическая база для механизмов, описанных в обзоре"
-    relevance: high
-  - id: CS.SOTA.013
-    type: extends
-    note: "Глубокое погружение в механизмы"
-    relevance: high
+- id: CS.SOTA.106
+  type: foundational
+  note: Эмпирическая база для механизмов, описанных в обзоре
+  relevance: high
+- id: CS.SOTA.013
+  type: extends
+  note: Глубокое погружение в механизмы
+  relevance: high
+related_entities:
+- CS.ENTITY.003
+- CS.ENTITY.004
+- CS.ENTITY.014
+- CS.ENTITY.023
+- CS.ENTITY.033
+- CS.ENTITY.042
+- CS.ENTITY.050
+- CS.ENTITY.056
+- CS.ENTITY.058
+- CS.ENTITY.065
+- CS.ENTITY.066
+- CS.ENTITY.081
+- CS.ENTITY.082
+- CS.ENTITY.083
+- CS.ENTITY.084
+- CS.ENTITY.085
+- CS.ENTITY.086
+- CS.ENTITY.087
+- CS.ENTITY.092
+- CS.ENTITY.096
+- CS.ENTITY.105
+- CS.ENTITY.132
+- CS.ENTITY.134
+- CS.ENTITY.189
+- CS.ENTITY.190
+- CS.ENTITY.191
+- CS.ENTITY.192
+- CS.ENTITY.193
+- CS.ENTITY.194
+- CS.ENTITY.195
+- CS.ENTITY.197
+- CS.ENTITY.199
+- CS.ENTITY.200
+- CS.ENTITY.201
+- CS.ENTITY.203
+- CS.ENTITY.206
+- CS.ENTITY.210
+- CS.ENTITY.214
 ---
 
 # 1. РЕЗЮМЕ (Abstract)
