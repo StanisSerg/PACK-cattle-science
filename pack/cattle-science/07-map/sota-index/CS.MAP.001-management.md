@@ -42,8 +42,8 @@
 | [CS.SOTA.287](../../06-sota/management/CS.SOTA.287-rumination-genetics-2026.md) | Lou et al. | 2026 | P2 | field-study | `rumination, genetics, milk-yield` | См. файл для деталей |
 | [CS.SOTA.293](../../06-sota/management/CS.SOTA.293-sop-training-2026.md) | Neukirchner et al. | 2026 | P2 | field-study | `SOP, training, calf-care` | См. файл для деталей |
 | [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy-farming, artificial-intelligence, machine-learning` | См. файл для деталей |
-| [CS.SOTA.321](../../06-sota/management/CS.SOTA.321-hemmert-2026.md) | K.J. et al. | 2026 | P2 | primary-research | `management, heifers, primary-research` | См. файл для деталей |
-| [CS.SOTA.326](../../06-sota/management/CS.SOTA.326-mouhanna-2026.md) | A. et al. | 2026 | P2 | primary-research | `management, precision-dairy, primary-research` | См. файл для деталей |
+| [CS.SOTA.321](../../06-sota/management/CS.SOTA.321-hemmert-2026.md) | K.J. et al. | 2026 | P2 | primary-research | `heifers, early-life-nutrition, milk-replacer` | См. файл для деталей |
+| [CS.SOTA.326](../../06-sota/management/CS.SOTA.326-mouhanna-2026.md) | A. et al. | 2026 | P2 | primary-research | `management, precision-dairy, machine-learning` | См. файл для деталей |
 
 ---
 
@@ -55,5 +55,5 @@
 
 ---
 
-*Шард обновлён: 2026-05-16*
+*Шард обновлён: 2026-05-17*
 *Автоматическая генерация: 16 SoTA*

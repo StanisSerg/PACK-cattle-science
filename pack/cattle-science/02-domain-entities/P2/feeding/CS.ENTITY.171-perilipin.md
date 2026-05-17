@@ -28,6 +28,7 @@ related:
 related_sota:
 - CS.SOTA.264
 - CS.SOTA.277
+- CS.SOTA.327
 ---
 
 # Перилипин (Perilipin)

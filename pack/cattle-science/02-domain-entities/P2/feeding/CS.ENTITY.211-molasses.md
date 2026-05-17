@@ -6,26 +6,27 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: feed-additives
-name_ru: "Меласса"
-name_en: "Molasses"
-abbreviation: ""
+name_ru: Меласса
+name_en: Molasses
+abbreviation: ''
 related_sota:
-  - CS.SOTA.073
-  - CS.SOTA.160
-  - CS.SOTA.247
+- CS.SOTA.073
+- CS.SOTA.160
+- CS.SOTA.247
+- CS.SOTA.327
 related_entities:
-  - CS.ENTITY.004
-  - CS.ENTITY.189
-  - CS.ENTITY.190
-  - CS.ENTITY.200
-  - CS.ENTITY.213
+- CS.ENTITY.004
+- CS.ENTITY.189
+- CS.ENTITY.190
+- CS.ENTITY.200
+- CS.ENTITY.213
 tags:
-  - molasses
-  - sugar
-  - liquid-feed
-  - palatability
-  - binding
-  - tmr
+- molasses
+- sugar
+- liquid-feed
+- palatability
+- binding
+- tmr
 ---
 
 # CS.ENTITY.211: Меласса

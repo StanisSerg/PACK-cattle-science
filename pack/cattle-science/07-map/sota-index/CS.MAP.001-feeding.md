@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (182 SoTA)
+> Шард индекса: feeding (183 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,17 +10,17 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 182 |
+| Всего SoTA | 183 |
 | P0 (Фундаментальные) | 20 |
-| P1 (Критически важные) | 24 |
+| P1 (Критически важные) | 25 |
 | P2 (Важные) | 138 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 40 |
-| Field-study | 56 |
+| Field-study | 59 |
 | In-vitro-study | 1 |
 | Meta-analysis | 10 |
 | Methodology | 1 |
-| Primary-research | 4 |
+| Primary-research | 2 |
 | Reference-book | 19 |
 | Review | 46 |
 | Simulation | 5 |
@@ -208,11 +208,12 @@
 | [CS.SOTA.314](../../06-sota/feeding/CS.SOTA.314-hu-2026.md) | Hu et al. | 2026 | P2 | meta-analysis | `methane, methane-inhibitor, meta-analysis` | См. файл для деталей |
 | [CS.SOTA.315](../../06-sota/feeding/CS.SOTA.315-li-2026.md) | Li et al. | 2026 | P2 | meta-analysis | `lysine, amino-acids, meta-analysis` | См. файл для деталей |
 | [CS.SOTA.316](../../06-sota/feeding/CS.SOTA.316-cruz-2026.md) | Cruz et al. | 2026 | P2 | meta-analysis | `silage, storage-temperature, meta-analysis` | См. файл для деталей |
-| [CS.SOTA.318](../../06-sota/feeding/CS.SOTA.318-parales-giron-2026.md) | J.E. et al. | 2026 | P2 | primary-research | `feeding, transition-cows, primary-research` | См. файл для деталей |
-| [CS.SOTA.319](../../06-sota/feeding/CS.SOTA.319-cahyo-2026.md) | Nur et al. | 2026 | P2 | primary-research | `feeding, methane, primary-research` | См. файл для деталей |
-| [CS.SOTA.320](../../06-sota/feeding/CS.SOTA.320-y.-2026.md) | Y. et al. | 2026 | P2 | meta-analysis | `feeding, minerals, meta-analysis` | См. файл для деталей |
-| [CS.SOTA.322](../../06-sota/feeding/CS.SOTA.322-nino-de-guzman-2026.md) | C. et al. | 2026 | P2 | primary-research | `feeding, silage, primary-research` | См. файл для деталей |
+| [CS.SOTA.318](../../06-sota/feeding/CS.SOTA.318-parales-giron-2026.md) | Parales-Girón et al. | 2026 | P2 | field-study | `starch, fatty-acids, transition-period` | См. файл для деталей |
+| [CS.SOTA.319](../../06-sota/feeding/CS.SOTA.319-cahyo-2026.md) | Cahyo et al. | 2026 | P2 | field-study | `methane, immune-response, microbiome` | См. файл для деталей |
+| [CS.SOTA.320](../../06-sota/feeding/CS.SOTA.320-roman-garcia-2026.md) | Roman-Garcia et al. | 2026 | P2 | meta-analysis | `chromium, trace-minerals, meta-analysis` | См. файл для деталей |
+| [CS.SOTA.322](../../06-sota/feeding/CS.SOTA.322-nino-de-guzman-2026.md) | C. et al. | 2026 | P2 | primary-research | `feeding, silage, microbial-inoculants` | См. файл для деталей |
 | [CS.SOTA.323](../../06-sota/feeding/CS.SOTA.323-smith-2026.md) | W.A. et al. | 2026 | P2 | primary-research | `feeding, fiber, primary-research` | См. файл для деталей |
+| [CS.SOTA.327](../../06-sota/feeding/CS.SOTA.327-bruner-2025.md) | Bruner et al. | 2025 | P2 | field-study | `anionic-salt, fat-microencapsulation, palatability` | См. файл для деталей |
 
 ---
 
@@ -224,5 +225,5 @@
 
 ---
 
-*Шард обновлён: 2026-05-16*
-*Автоматическая генерация: 182 SoTA*
+*Шард обновлён: 2026-05-17*
+*Автоматическая генерация: 183 SoTA*

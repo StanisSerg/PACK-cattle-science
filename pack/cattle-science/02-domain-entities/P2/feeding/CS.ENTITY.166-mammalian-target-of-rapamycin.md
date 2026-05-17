@@ -28,6 +28,7 @@ related_sota:
 - CS.SOTA.270
 - CS.SOTA.272
 - CS.SOTA.281
+- CS.SOTA.327
 ---
 
 # mTOR (Mammalian target of rapamycin)
