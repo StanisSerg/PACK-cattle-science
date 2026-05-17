@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (184 SoTA)
+> Шард индекса: feeding (182 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,13 +10,13 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 184 |
+| Всего SoTA | 182 |
 | P0 (Фундаментальные) | 20 |
 | P1 (Критически важные) | 27 |
-| P2 (Важные) | 137 |
+| P2 (Важные) | 135 |
 | P3 (Дополнительные) | 0 |
-| Experimental | 40 |
-| Field-study | 59 |
+| Experimental | 39 |
+| Field-study | 58 |
 | In-vitro-study | 1 |
 | Meta-analysis | 10 |
 | Methodology | 1 |
@@ -44,7 +44,6 @@
 | [CS.SOTA.048](../../06-sota/feeding/CS.SOTA.048-maldini-2019.md) | Maldini et al. | 2019 | P2 | experimental | `experimental, propionic-acid, feeding-behavior` | См. файл для деталей |
 | [CS.SOTA.049](../../06-sota/feeding/CS.SOTA.049-albornoz-2018.md) | Albornoz et al. | 2018 | P2 | experimental | `experimental, starch-fermentability, starch-concentration` | См. файл для деталей |
 | [CS.SOTA.057](../../06-sota/feeding/CS.SOTA.057-aschenbach-2010.md) | Aschenbach et al. | 2010 | P1 | review | `gluconeogenesis, propionate, liver-metabolism` | **Контекст:** Глюконеогенез — критический процесс для поддер... |
-| [CS.SOTA.064](../../06-sota/feeding/CS.SOTA.064-bruner-2025.md) | Bruner et al. | 2025 | P2 | experimental | `anionic-salt, dcad, transition-period` | **Контекст:** Анионные соли (для отрицательного DCAD) критич... |
 | [CS.SOTA.070](../../06-sota/feeding/CS.SOTA.070-allen-starch-availability.md) | Allen et al. | 2005 | P2 | review | `starch, ration-formulation, rumen-metabolism` | **Контекст:** Крахмал - основной источник энергии в рационах... |
 | [CS.SOTA.072](../../06-sota/feeding/CS.SOTA.072-broderick-2008.md) | Broderick et al. | 2008 | P2 | experimental | `sucrose, starch, carbohydrate` | **Контекст:** Высококрахмалистые рационы повышают риск кисло... |
 | [CS.SOTA.073](../../06-sota/feeding/CS.SOTA.073-firkins-2023.md) | Firkins et al. | 2023 | P2 | review | `rumen-modifiers, feed-additives, ionophores` | **Контекст:** Модификаторы рубца (rumen modifiers) - добавки... |
@@ -159,7 +158,6 @@
 | [CS.SOTA.224](../../06-sota/feeding/CS.SOTA.224-martel-2011.md) | Martel et al. | 2011 | P2 | field-study | `milk-fat-depression, mfd, molasses` | См. файл для деталей |
 | [CS.SOTA.225](../../06-sota/feeding/CS.SOTA.225-moore-2020.md) | Moore et al. | 2020 | P2 | field-study | `molasses, liquid-feed, automated-milking-systems` | Исследование направлено на оценку эффекта добавления патоки ... |
 | [CS.SOTA.226](../../06-sota/feeding/CS.SOTA.226-nasrollahi-2015.md) | Nasrollahi et al. | 2015 | P2 | meta-analysis | `forage-particle-size, meta-analysis, feed-intake` | Проведён комплексный мета-анализ эффекта размера частиц груб... |
-| [CS.SOTA.227](../../06-sota/feeding/CS.SOTA.227-neville-2022.md) | Neville et al. | 2022 | P2 | field-study | `calcareous-marine-algae, acid-buf, transition-period` | Исследование сравнивало эффекты известковистых морских водор... |
 | [CS.SOTA.228](../../06-sota/feeding/CS.SOTA.228-niehues-2023.md) | Niehues et al. | 2023 | P2 | review | `lysine, methionine, amino-acids` | Обзор основан на мета-анализе Arshad et al. (2023) из 13 исс... |
 | [CS.SOTA.230](../../06-sota/feeding/CS.SOTA.230-parales-2025.md) | Parales-Girón et al. | 2025 | P2 | field-study | `whole-cottonseed, fatty-acids, palmitic-acid` | Исследование оценивало эффекты цельного хлопкового семени (W... |
 | [CS.SOTA.232](../../06-sota/feeding/CS.SOTA.232-piccioli-cappelli-2014.md) | Piccioli-Cappelli et al. | 2014 | P1 | experimental | `experimental, starch-level, endocrine-metabolism` | См. файл для деталей |
@@ -228,4 +226,4 @@
 ---
 
 *Шард обновлён: 2026-05-17*
-*Автоматическая генерация: 184 SoTA*
+*Автоматическая генерация: 182 SoTA*
