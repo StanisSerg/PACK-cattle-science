@@ -196,6 +196,9 @@ related:
 
 ### 4.2. Животные и условия содержания (см. Table 1, Table 2)
 
+![Table 1 — Dietary ingredient composition; Table 2 — Analyzed nutrient composition](CS.SOTA.313-media/page-03-tables-1-2-fig1.png)
+*Источник: Frizzarini et al., 2026, p. 4606 (Table 1, Table 2). Состав рациона для сухостойных и лактирующих коров (% DM).*
+
 | Параметр | Значение |
 |----------|----------|
 | Порода | Holstein, многоплодные (multiparous) |
@@ -211,6 +214,9 @@ related:
 > **Ограничение применимости:** Только multiparous Holstein. Нет данных для primiparous, Jersey, Brown Swiss или кроссбредов. [guess: применимость к Jersey может отличаться вследствие более высокой частоты гипокальциемии и другого метаболизма Ca].
 
 ### 4.3. Интервенция / Обработка (см. Figure 1)
+
+![Figure 1 — Experimental design schematic](CS.SOTA.313-media/page-03-tables-1-2-fig1.png)
+*Источник: Frizzarini et al., 2026, p. 4606 (Figure 1). Схема рандомизированного полного блочного дизайна: 30 коров, 15/группа, инфузия EGTA 6 ч/сут с 8 дней до отёла.*
 
 | Параметр | CON | EGTA |
 |----------|-----|------|
@@ -252,169 +258,20 @@ related:
 
 > **Примечание:** Дизайн с повторными измерениями (repeated measures) требует учёта автокорреляции (AR(1) или CS). В статье не указана ковариационная структура, что ограничивает воспроизводимость.
 
-### 4.6. Медиа-инвентарь (ПОЛНЫЙ)
+### 4.6. Медиа-инвентарь
 
-> **Правило:** Скриншоты — целые страницы. Пользователь обрежет вручную.
+| ID | Тип | Описание | Файл | Статус |
+|----|-----|----------|------|--------|
+| Fig. 1 | Схема | Experimental design schematic (рандомизация, таймлайн) | `page-03-tables-1-2-fig1.png` | ✅ Встроено |
+| Table 1 | Таблица | Dietary ingredient composition (% DM) | `page-03-tables-1-2-fig1.png` | ✅ Встроено |
+| Table 2 | Таблица | Analyzed nutrient composition (% DM) | `page-03-tables-1-2-fig1.png` | ✅ Встроено |
+| Table 3 | Таблица | Blood parameters and acid-base status (LSM ± SE) | `page-07-table-3.png` | ✅ Встроено |
+| Fig. 2 | График | Blood Ca (tCa, iCa) and infusion rate — 5 панелей | `page-08-figure-2.png` | ✅ Встроено |
+| Fig. 3 | График | PTH and serotonin (5-HT) — 4 панели | `page-09-figure-3.png` | ✅ Встроено |
+| Fig. 4 | График | Milk production and composition — 4 панели + boxplot | `page-10-figure-4.png` | ✅ Встроено |
+| Table 4 | Таблица | Milk production, composition and DMI (LSM ± SE) | `page-11-table-4.png` | ✅ Встроено |
 
----
-
-**[СКРИНШОТ] Figure 1: Experimental design schematic**
-
-**Название в статье:** "Figure 1. Experimental design schematic"
-**Источник:** Frizzarini et al., 2026, стр. 4606
-**Тип:** Схема экспериментального дизайна
-**Файл:** `CS.SOTA.313-media/page-03-tables-1-2-fig1.png` (стр. 3 целиком)
-
-**Описание:**
-Схема рандомизированного полного блочного дизайна. 30 многоплодных Holstein коров распределены на 2 группы (CON, EGTA) с блокировкой по parity, предыдущей лактации и дню гестации. Показаны временные точки сбора проб: ежедневно препартум, ежечасно во время инфузии, 1–49 DIM.
-
-**Ключевые элементы для лекции:**
-- 30 коров, 15/группа, parity 3,17 ± 0,2
-- Инфузия 6 ч/сут с 8 дней до отёла
-- Блокировка: parity, молочная продуктивность, день гестации
-
-**Комментарий лектора:**
-> "Обратите внимание на дизайн: полная блокировка по трём факторам, рандомизация генератором случайных чисел. Это обеспечивает сбалансированность групп по ключевым конфаундерам."
-
----
-
-**[СКРИНШОТ] Table 1: Dietary ingredient composition of dry and lactating cow diets**
-
-**Название в статье:** "Table 1. Dietary ingredient composition of dry and lactating cow diets"
-**Источник:** Frizzarini et al., 2026, стр. 4606
-**Тип:** Таблица состава рациона
-**Файл:** `CS.SOTA.313-media/page-03-tables-1-2-fig1.png` (стр. 3 целиком)
-
-**Описание:**
-Состав рациона для сухостойных и лактирующих коров (% DM). Сухостойные: wheat straw 28 %, corn silage 40 %, canola meal 13,6 %, roasted soybean 6,2 %. Лактирующие: corn silage 31,6 %, alfalfa haylage 26,6 %, high-moisture shelled corn 21,3 %.
-
-**Ключевые элементы для лекции:**
-- Сухостойные: нейтральный DCAD (не указан точно, но подразумевается)
-- Лактирующие: типичный TMR для Holstein в США
-- Ca в premix: CaSO₄ 51,7 % (сухостойные), CaCO₃ 16 % (лактирующие)
-
-**Комментарий лектора:**
-> "Рацион сухостойных включает CaSO₄ — это важно, потому что сульфат кальция имеет низкую биодоступность. В лактирующем рационе CaCO₃ — стандартный источник."
-
----
-
-**[СКРИНШОТ] Table 2: Analyzed nutrient composition (% DM unless otherwise noted)**
-
-**Название в статье:** "Table 2. Analyzed nutrient composition (% DM unless otherwise noted)"
-**Источник:** Frizzarini et al., 2026, стр. 4606
-**Тип:** Таблица химического состава рациона
-**Файл:** `CS.SOTA.313-media/page-03-tables-1-2-fig1.png` (стр. 3 целиком)
-
-**Описание:**
-Анализированный химический состав рационов (% DM): CP, ADF, NDF, lignin, starch, sugar, fat, ash, Ca, P, Mg, K, Na, S, Cl, DCAD и др. для сухостойных и лактирующих коров.
-
-**Ключевые элементы для лекции:**
-- CP: 12,4 % (сухостойные), 17,2 % (лактирующие)
-- NDF: 50,1 % (сухостойные), 31,1 % (лактирующие)
-- Ca: 0,68 % (сухостойные), 0,90 % (лактирующие)
-- DCAD: нейтральный или слегка положительный (сухостойные)
-
----
-
-**[СКРИНШОТ] Table 3: Blood parameters and acid-base status**
-
-**Название в статье:** "Table 3. Effect of induction of subclinical hypocalcemia during the prepartum period on blood parameters and acid-base status in multiparous Holstein cows during prepartum and postpartum periods (LSM ± SE)"
-**Источник:** Frizzarini et al., 2026, стр. 4610
-**Тип:** Таблица с LSM ± SE для всех кровяных параметров
-**Файл:** `CS.SOTA.313-media/page-07-table-3.png` (стр. 7 целиком)
-
-**Описание:**
-Полная таблица с LSM ± SE для 15 параметров крови (pH, pCO₂, tCO₂, pO₂, HCO₃⁻, BE, O₂ sat, глюкоза, Na, K, iCa, гематокрит, гемоглобин) пре- и постпартум с P-значениями для treatment, day, time, lactation, block и их взаимодействий.
-
-**Ключевые элементы для лекции:**
-- iCa препартум: CON 1,24 ± 0,02 мМ vs EGTA 0,93 ± 0,01 мМ (P < 0,01)
-- iCa постпартум: CON 0,99 ± 0,03 мМ vs EGTA 1,12 ± 0,02 мМ (P < 0,01)
-- pH препартум: CON 7,42 vs EGTA 7,39 (P < 0,01)
-- Hemoglobin препартум: CON 9,05 vs EGTA 9,45 г/дЛ (P < 0,01)
-
-**Комментарий лектора:**
-> "Таблица 3 — это основа всей статьи. Обратите внимание: iCa инвертируется пре- и постпартум. Препартум EGTA ниже, постпартум EGTA выше. Это и есть эффект priming."
-
----
-
-**[СКРИНШОТ] Figure 2: Blood Ca and infusion rate**
-
-**Название в статье:** "Figure 2. Least squares means ± SE for (A) prepartum tCa, (B) prepartum iCa, (C) postpartum tCa, (D) postpartum iCa, and (E) infusion rate"
-**Источник:** Frizzarini et al., 2026, стр. 4611
-**Тип:** Панель из 5 графиков (A–E)
-**Файл:** `CS.SOTA.313-media/page-08-figure-2.png` (стр. 8 целиком)
-
-**Описание:**
-Панель графиков показывает динамику tCa, iCa и скорости инфузии EGTA. A и B: препартумное снижение Ca в EGTA-группе. C и D: постпартумное повышение Ca в EGTA-группе. E: адаптация скорости инфузии (IR 623 → 858 mL/h).
-
-**Ключевые элементы для лекции:**
-- Препартум iCa (B): EGTA ↓ с h 1 до h 7, восстановление к h 8
-- Постпартум iCa (D): EGTA ↑ d 0 h 12, d 1, d 2
-- IR (E): min 623 mL/h (1-й день), max 858 mL/h (d −3)
-
-**Комментарий лектора:**
-> "График E — ключевой. Скорость инфузии растёт, значит организм адаптируется. Чтобы поддерживать СКГ, нужно всё больше EGTA. Это доказательство активации гомеостаза."
-
----
-
-**[СКРИНШОТ] Figure 3: PTH and serotonin**
-
-**Название в статье:** "Figure 3. Least squares means ± SE for (A) prepartum PTH, (B) postpartum PTH, (C) prepartum 5-HT, and (D) postpartum 5-HT"
-**Источник:** Frizzarini et al., 2026, стр. 4612
-**Тип:** Панель из 4 графиков (A–D)
-**Файл:** `CS.SOTA.313-media/page-09-figure-3.png` (стр. 9 целиком)
-
-**Описание:**
-Панель графиков PTH и серотонина. A: препартумный PTH — EGTA ↑ на d −2 h 0 и d −1 h 0. B: постпартумный PTH — EGTA ↑ в целом (249 vs 175 pg/mL). C: препартумный 5-HT — тенденция к ↑ в EGTA (P = 0,06). D: постпартумный 5-HT — тенденция к взаимодействию (P = 0,09).
-
-**Ключевые элементы для лекции:**
-- PTH препартум: пик на d −2, d −1 (246 vs 189 pg/mL)
-- PTH постпартум: устойчивое превосходство EGTA
-- 5-HT: только тенденции, не значимость
-
-**Комментарий лектора:**
-> "PTH — надёжный маркер. Серотонин — интересный, но пока только тенденция. Не стоит строить клинические рекомендации на P = 0,06."
-
----
-
-**[СКРИНШОТ] Figure 4: Milk production and composition**
-
-**Название в статье:** "Figure 4. Least squares means ± SE for (A) daily milk production, (B) milk Ca concentration, (C) weekly milk production, and (D) total milk production"
-**Источник:** Frizzarini et al., 2026, стр. 4613
-**Тип:** Панель из 4 графиков (A–D) + boxplot
-**Файл:** `CS.SOTA.313-media/page-10-figure-4.png` (стр. 10 целиком)
-
-**Описание:**
-Панель графиков молочной продуктивности. A: дневной удой — снижение EGTA d 16, d 18–24. B: Ca в молоке — недельная динамика. C: недельный удой — снижение в wk 4. D: общий удой — boxplot, медиана и квартили.
-
-**Ключевые элементы для лекции:**
-- Дневной удой: max 53,6 кг (d 49), min 9,0 кг (d 0 h 12)
-- Снижение EGTA: d 16, d 18–24 (P < 0,01)
-- 305-d: 13 677 vs 13 242 кг (P = 0,54 — не значимо)
-- DMI: 21,3 кг/сут (не различалась)
-
-**Комментарий лектора:**
-> "Важный вывод: краткосрочное снижение удоя не влияет на 305-дневную продуктивность. Это означает, что коровы компенсируют потерю позже."
-
----
-
-**[СКРИНШОТ] Table 4: Milk production, composition and DMI**
-
-**Название в статье:** "Table 4. Effect of induction of subclinical hypocalcemia during the prepartum period on milk production and composition and DMI in multiparous Holstein cows (LSM ± SE, or mean [range])"
-**Источник:** Frizzarini et al., 2026, стр. 4614
-**Тип:** Таблица молочной продуктивности и состава
-**Файл:** `CS.SOTA.313-media/page-11-table-4.png` (стр. 11 целиком)
-
-**Описание:**
-Полная таблица с LSM ± SE для молочной продуктивности (кг/сут), жира (% и г), белка (% и г), лактозы (% и г), SNF, SCC, MUN, 305-d удоя, ECM, DMI пре- и постпартум.
-
-**Ключевые элементы для лекции:**
-- Жир г: CON 192 vs EGTA 174 (P = 0,18 общий, P = 0,01 в wk 2 и 4)
-- Белок г: CON 131 vs EGTA 118 (P = 0,08 общий, P = 0,05 в wk 4)
-- SNF г: CON 373 vs EGTA 341 (P = 0,13 общий, P = 0,05 в wk 4)
-- ECM: CON 45,7 vs EGTA 42,2 кг (P = 0,18)
-
----
+> **Примечание:** Все медиа извлечены как PNG (200 dpi). Страница 3 содержит Table 1, Table 2 и Figure 1 совместно — файл используется для всех трёх элементов. Мусорные auto-page PNG удалены.
 
 ## 5. РЕЗУЛЬТАТЫ
 
@@ -423,6 +280,9 @@ related:
 ### 5.1. Кислотно-щелочной статус и гематология (см. Table 3)
 
 **Соответствует:** Table 3 (стр. 4610)
+
+![Table 3 — Blood parameters and acid-base status](CS.SOTA.313-media/page-07-table-3.png)
+*Источник: Frizzarini et al., 2026, p. 4610 (Table 3). LSM ± SE для 15 параметров крови пре- и постпартум. Основа статьи: iCa инвертируется пре- и постпартум (эффект priming).*
 
 **Описание:**
 Препартум EGTA вызвала метаболический ацидоз: снижение pH (7,39 vs 7,42, P < 0,01), pCO₂ (38,8 vs 40,8 мм рт.ст., P = 0,02), tCO₂ (24,7 vs 27,6 мМ, P < 0,01), HCO₃⁻ (23,5 vs 26,4 мМ, P < 0,01), BE (−1,54 vs 1,88 мМ, P < 0,01). Постпартум pH инвертировался (7,44 vs 7,42, P = 0,05). Гемоглобин повышен препартум (9,45 vs 9,05 г/дЛ, P < 0,01).
@@ -442,6 +302,9 @@ related:
 ### 5.2. Ионизированный и общий кальций (см. Figure 2A–D, Table 3)
 
 **Соответствует:** Figure 2A–D, Table 3
+
+![Figure 2 — Blood Ca and infusion rate](CS.SOTA.313-media/page-08-figure-2.png)
+*Источник: Frizzarini et al., 2026, p. 4611 (Figure 2). Панель из 5 графиков: (A) препартум tCa, (B) препартум iCa, (C) постпартум tCa, (D) постпартум iCa, (E) скорость инфузии.*
 
 **Описание:**
 Препартум: iCa снижался в EGTA с h 1 до h 7 (3-way interaction treatment × day × time, P = 0,02). Постпартум: EGTA имела более высокий iCa на d 0 h 12, d 1, d 2 (treatment × day, P < 0,01). tCa инвертировался аналогично: снижение препартум, повышение постпартум на d 0–d 5 (treatment × day, P < 0,01).
@@ -464,6 +327,9 @@ related:
 
 **Соответствует:** Figure 2E
 
+![Figure 2 — Blood Ca and infusion rate (панель E)](CS.SOTA.313-media/page-08-figure-2.png)
+*Источник: Frizzarini et al., 2026, p. 4611 (Figure 2E). Скорость инфузии EGTA: мин 623 мл/ч (1-й день), макс 858 мл/ч (d −3). Доказательство активации гомеостаза.*
+
 **Описание:**
 IR была минимальной в первый день инфузии (622,68 ± 40,19 мл/ч) и максимальной на d −3 (858,48 ± 39,85 мл/ч). Минимум IR — h 0 и h 1 первого дня, h 4 на d −1 (494–527 мл/ч). Максимум — h 0 на d −1, h 0 и h 1 на d −2 (970–1006 мл/ч).
 
@@ -484,6 +350,9 @@ IR была минимальной в первый день инфузии (622,
 ### 5.4. Паращитовидный гормон (см. Figure 3A, 3B)
 
 **Соответствует:** Figure 3A, 3B
+
+![Figure 3 — PTH and serotonin](CS.SOTA.313-media/page-09-figure-3.png)
+*Источник: Frizzarini et al., 2026, p. 4612 (Figure 3). Панель из 4 графиков: (A) препартум PTH, (B) постпартум PTH, (C) препартум 5-HT, (D) постпартум 5-HT.*
 
 **Описание:**
 Препартум: общий эффект treatment (P = 0,05), EGTA > CON (194,11 ± 10,53 vs 164,18 ± 11,03 пг/мл). Пик PTH — d −2 и d −1. Treatment × day × time (P = 0,01): EGTA > CON на d −2 h 0 (246 vs 189 пг/мл) и d −1 h 0 (242 vs 169 пг/мл). Постпартум: treatment (P = 0,01), EGTA > CON (248,65 ± 17,21 vs 174,93 ± 18,29 пг/мл). Пик — d 2 (234,90 ± 15,56 пг/мл).
@@ -506,6 +375,9 @@ IR была минимальной в первый день инфузии (622,
 
 **Соответствует:** Figure 3C, 3D
 
+![Figure 3 — PTH and serotonin (панели C, D)](CS.SOTA.313-media/page-09-figure-3.png)
+*Источник: Frizzarini et al., 2026, p. 4612 (Figure 3C, 3D). Серотонин: только тенденции (P = 0,06–0,09), недостаточно для клинических выводов.*
+
 **Описание:**
 Препартум: тенденция treatment (P = 0,06), EGTA численно выше (7761,60 ± 461 vs 6409,59 ± 483 нг/мл). Постпартум: тенденция treatment × day (P = 0,09), максимум EGTA на d 1 (8264 ± 795 нг/мл), минимум CON на d 0 h 12 (5950 ± 804 нг/мл).
 
@@ -524,6 +396,12 @@ IR была минимальной в первый день инфузии (622,
 ### 5.6. Молочная продуктивность и состав (см. Figure 4A–D, Table 4)
 
 **Соответствует:** Figure 4A–D, Table 4
+
+![Figure 4 — Milk production and composition](CS.SOTA.313-media/page-10-figure-4.png)
+*Источник: Frizzarini et al., 2026, p. 4613 (Figure 4). Панель из 4 графиков: (A) дневной удой, (B) Ca в молоке, (C) недельный удой, (D) общий удой (boxplot).*
+
+![Table 4 — Milk production, composition and DMI](CS.SOTA.313-media/page-11-table-4.png)
+*Источник: Frizzarini et al., 2026, p. 4614 (Table 4). LSM ± SE для молочной продуктивности, жира, белка, лактозы, SNF, SCC, MUN, 305-d удоя, ECM, DMI.*
 
 **Описание:**
 Дневной удой: treatment × day (P < 0,01), EGTA < CON на d 16, d 18–24. Недельный удой: treatment × week (P = 0,02), EGTA < CON в wk 4 (47,8 vs 55,7 кг). Жир (г): снижение EGTA в wk 2 и 4 (P = 0,01). Белок (г): снижение в wk 4 (P = 0,05). Лактоза (г): снижение в wk 4 (P = 0,05). SNF (г): снижение в wk 4 (P = 0,05). 305-дневный удой: 13 677 vs 13 242 кг (P = 0,54). DMI: не различалась (21,3 кг/сут).
