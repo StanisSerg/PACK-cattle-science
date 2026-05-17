@@ -11,6 +11,7 @@ name_en: Endotoxin
 abbreviation: LPS
 related_sota:
 - CS.SOTA.053
+- CS.SOTA.066
 - CS.SOTA.160
 - CS.SOTA.200
 - CS.SOTA.201

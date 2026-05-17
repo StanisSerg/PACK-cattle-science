@@ -10,6 +10,7 @@ name_ru: Метод in situ
 name_en: In Situ Technique
 abbreviation: in situ
 related_sota:
+- CS.SOTA.066
 - CS.SOTA.106
 - CS.SOTA.128
 - CS.SOTA.130

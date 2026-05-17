@@ -10,6 +10,7 @@ name_en: Herd turnover rate
 abbreviation: HTR
 related_sota:
 - CS.SOTA.031
+- CS.SOTA.066
 - CS.SOTA.197
 - CS.SOTA.200
 - CS.SOTA.201

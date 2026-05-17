@@ -26,6 +26,7 @@ related:
   type: related
   note: Лактатдегидрогеназа (сопутствующий маркер)
 related_sota:
+- CS.SOTA.066
 - CS.SOTA.257
 - CS.SOTA.259
 - CS.SOTA.261

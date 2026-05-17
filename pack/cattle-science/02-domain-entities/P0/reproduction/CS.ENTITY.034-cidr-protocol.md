@@ -11,6 +11,7 @@ abbreviation: CIDR
 related_sota:
 - CS.SOTA.003
 - CS.SOTA.023
+- CS.SOTA.066
 - CS.SOTA.253
 - CS.SOTA.254
 - CS.SOTA.258

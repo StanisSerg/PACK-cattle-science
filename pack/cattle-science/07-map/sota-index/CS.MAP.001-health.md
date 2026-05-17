@@ -15,9 +15,9 @@
 | P1 (Критически важные) | 29 |
 | P2 (Важные) | 52 |
 | P3 (Дополнительные) | 0 |
-| Experimental | 10 |
+| Experimental | 9 |
 | Experimental-study | 2 |
-| Field-study | 43 |
+| Field-study | 44 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -64,7 +64,7 @@
 | [CS.SOTA.062](../../06-sota/health/CS.SOTA.062-lomander-2012.md) | Lomander et al. | 2012 | P1 | field-study | `glycerol, propylene-glycol, comparison` | **Контекст:** Глицерол (GLY) и пропиленгликоль (PG) использу... |
 | [CS.SOTA.063](../../06-sota/health/CS.SOTA.063-kristensen-raun-2007.md) | Kristensen et al. | 2007 | P2 | experimental-study | `propylene-glycol, metabolism, rumen` | **Контекст:** Пропиленгликоль (PG) используется для лечения ... |
 | [CS.SOTA.065](../../06-sota/health/CS.SOTA.065-ghaffari-2024.md) | Ghaffari et al. | 2024 | P2 | experimental | `metabolomics, liver, transition-period` | **Контекст:** Переходный период (от поздней лактации через с... |
-| [CS.SOTA.066](../../06-sota/health/CS.SOTA.066-graef-2025.md) | Graef et al. | 2025 | P2 | experimental | `hypocalcemia, subclinical-hypocalcemia, calcium-dynamics` | **Контекст:** Субклиническая гипокальциемия (SCH) — распрост... |
+| [CS.SOTA.066](../../06-sota/health/CS.SOTA.066-graef-2025.md) | Graef et al. | 2025 | P2 | field-study | `hypocalcemia, subclinical-hypocalcemia, calcium-dynamics` | См. файл для деталей |
 | [CS.SOTA.067](../../06-sota/health/CS.SOTA.067-lin-2025.md) | Lin et al. | 2025 | P2 | experimental | `machine-learning, FTIR, milk-spectra` | **Контекст:** Ранняя лактация — критический период для здоро... |
 | [CS.SOTA.068](../../06-sota/health/CS.SOTA.068-caixeta-2021.md) | Caixeta et al. | 2021 | P1 | review | `transition-period, metabolic-health, monitoring` | **Контекст:** Переходный период (перипартуриентный) характер... |
 | [CS.SOTA.071](../../06-sota/health/CS.SOTA.071-chapinal-propylene-glycol.md) | Chapinal et al. | 2011 | P2 | field-study | `propylene-glycol, ketosis, subclinical-ketosis` | **Контекст:** Переходный период характеризуется высоким риск... |

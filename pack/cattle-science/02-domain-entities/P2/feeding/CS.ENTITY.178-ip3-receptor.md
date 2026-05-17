@@ -5,17 +5,25 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: calcium-homeostasis
-tags: [ip3-receptor, ip3r, inositol-trisphosphate, calcium-release, er-membrane, signaling]
+tags:
+- ip3-receptor
+- ip3r
+- inositol-trisphosphate
+- calcium-release
+- er-membrane
+- signaling
 related:
-  - id: CS.ENTITY.177
-    type: related
-    note: Рианодиновый рецептор (другой канал Ca²⁺)
-  - id: CS.ENTITY.176
-    type: related
-    note: SERCA (захват Ca²⁺)
-  - id: CS.ENTITY.152
-    type: related
-    note: Эндоплазматический ретикулум (локализация)
+- id: CS.ENTITY.177
+  type: related
+  note: Рианодиновый рецептор (другой канал Ca²⁺)
+- id: CS.ENTITY.176
+  type: related
+  note: SERCA (захват Ca²⁺)
+- id: CS.ENTITY.152
+  type: related
+  note: Эндоплазматический ретикулум (локализация)
+related_sota:
+- CS.SOTA.066
 ---
 
 # IP3-рецептор (Инозитол-1,4,5-трисфосфатный рецептор)

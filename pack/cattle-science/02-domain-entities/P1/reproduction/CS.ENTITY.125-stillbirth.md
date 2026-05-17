@@ -10,6 +10,7 @@ name_en: Stillbirth
 abbreviation: SB
 related_sota:
 - CS.SOTA.031
+- CS.SOTA.066
 - CS.SOTA.197
 - CS.SOTA.253
 - CS.SOTA.254

@@ -11,6 +11,7 @@ abbreviation: ENDO
 related_sota:
 - CS.SOTA.008
 - CS.SOTA.032
+- CS.SOTA.066
 - CS.SOTA.200
 - CS.SOTA.253
 - CS.SOTA.254

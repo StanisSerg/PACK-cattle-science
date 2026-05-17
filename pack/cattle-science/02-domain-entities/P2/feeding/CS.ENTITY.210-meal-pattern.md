@@ -10,6 +10,7 @@ name_ru: Шаблон приёма пищи
 name_en: Meal Pattern
 abbreviation: ''
 related_sota:
+- CS.SOTA.066
 - CS.SOTA.160
 - CS.SOTA.198
 - CS.SOTA.199
