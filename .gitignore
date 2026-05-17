@@ -20,6 +20,9 @@ process/ingestion/archive/**/*.txt
 process/ingestion/*.json
 process/ingestion/new-articles/*.json
 
+# Video recordings (large files)
+video/
+
 # Python cache
 __pycache__/
 *.pyc
