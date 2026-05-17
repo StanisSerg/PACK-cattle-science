@@ -261,10 +261,10 @@ gде Dc — евклидово расстояние внутри контрол
 | Fig. 4 | График | Различия между дозами (PCoA) | `page-06-figure-4.png` | ✅ Встроено |
 | Fig. 5 | График | Корреляционная тепловая карта метана vs переменные | `page-07-figure-5.png` | ✅ Встроено |
 | Fig. 6 | График | Пороговые зависимости метана vs TVFA, ацетат, A:P | `page-08-figure-6.png` | ✅ Встроено |
-| Table S1 | Таблица | Стратегия поиска (Supplemental) | *отсутствует* | ❌ Не извлечена |
-| Table S2 | Таблица | Список включённых референсов | *отсутствует* | ❌ Не извлечена |
+| Table S1 | Таблица | Стратегия поиска (Supplemental) | `table-s1-search-strategy` | ✅ Встроено |
+| Table S2 | Таблица | Список включённых референсов (252 ст.) | `table-s2-included-references` | ✅ Встроено |
 
-> **Примечание:** Извлечены 6 PNG-изображений (Figures 1–6). Supplemental tables S1–S2 и figures S1–S7 доступны в оригинальной PDF-версии статьи (DOI: 10.3168/jds.2025-27479). Текстовые описания числовых результатов приведены в полном объёме.
+> **Примечание:** Извлечены 6 PNG-изображений (Figures 1–6) и 2 supplemental tables (S1–S2) в виде markdown-таблиц. Supplemental figures S1–S7 доступны в Zenodo-репозитории (DOI: 10.5281/zenodo.17572494, Supplementary File S2).
 
 ---
 
@@ -440,7 +440,366 @@ gде Dc — евклидово расстояние внутри контрол
 ![Figure 6 — Пороговые зависимости метана vs VFA](CS.SOTA.314-hu-2026-media/page-08-figure-6.png)
 *Источник: Hu et al., 2026, p. 3704 (Figure 6). (A) Общий тренд. (B) TVFA — порог 96,98 ммоль/л. (C) Ацетат — порог 61,26 ммоль/л. (D) A:P — порог 3,86. Q — квадратичная кривая, L — линейная. Штриховая линия — вершина параболы. Заштрихованная область — 95% CI.*
 
----
+### 5.9. Supplemental Tables
+
+**Table S1 — Стратегия поиска (Supplemental)**
+
+*Источник: Hu et al., 2026, Supplementary File S1 (Zenodo: https://doi.org/10.5281/zenodo.17572494). Subject headings, free text terms and Web of Science search string.*
+
+| Term | Synonym / Search string |
+|------|-------------------------|
+| Ruminant | Ruminantia |
+|  | Oreamnos americanus |
+|  | Goats, Mountain |
+|  | Goat, Mountain |
+|  | Mountain Goat |
+|  | Mountain Goats |
+| Cattle | Cow |
+|  | Cows |
+|  | Bos indicus |
+|  | Zebu |
+|  | Zebus |
+|  | Bos indicus Cattle |
+|  | Bos indicus Cattles |
+|  | Cattle, Bos indicus |
+|  | Cattles, Bos indicus |
+|  | Indicine Cattle |
+|  | Cattle, Indicine |
+|  | Cattles, Indicine |
+|  | Indicine Cattles |
+|  | Bos taurus |
+|  | Cow, Domestic |
+|  | Domestic Cow |
+|  | Domestic Cows |
+|  | Taurine Cattle |
+|  | Cattles, Taurine |
+|  | Cattle, Taurine |
+|  | Taurine Cattles |
+|  | Taurus Cattle |
+|  | Cattles, Taurus |
+|  | Cattle, Taurus |
+|  | Taurus Cattles |
+|  | Bos grunniens |
+|  | Yak |
+|  | Yaks |
+|  | Dairy Cow |
+|  | Cow, Dairy |
+|  | Dairy Cows |
+|  | Beef Cow |
+|  | Beef Cows |
+|  | Cow, Beef |
+|  | Holstein Cow |
+|  | Cow, Holstein |
+| sheep | Ovis |
+|  | Dall Sheep |
+|  | Sheep, Dall |
+|  | Ovis dalli |
+| Methane |  |
+| Search Strategy | (((((((((((((((((((((((((((((((((((((((((((((((((TS=(Ruminant)) OR TS=(Ruminantia)) OR TS=(Oreamnos americanus)) OR TS=(Goats, Mountain)) OR TS=(Goat, Mountain)) OR TS=(Mountain Goat)) OR TS=(Mountain Goats)) OR TS=(Cattle)) OR TS=(Cow)) OR TS=(Cows)) OR TS=(Bos indicus)) OR TS=(Zebu)) OR TS=(Zebus)) OR TS=(Bos indicus Cattle)) OR TS=(Bos indicus Cattles)) OR TS=(Cattle, Bos indicus)) OR TS=(Cattles, Bos indicus)) OR TS=(Indicine Cattle)) OR TS=(Cattle, Indicine)) OR TS=(Cattles, Indicine)) OR TS=(Indicine Cattles)) OR TS=(Bos taurus)) OR TS=(Cow, Domestic)) OR TS=(Domestic Cow)) OR TS=(Domestic Cows)) OR TS=(Taurine Cattle)) OR TS=(Cattles, Taurine)) OR TS=(Cattle, Taurine)) OR TS=(Taurine Cattles)) OR TS=(Taurus Cattle)) OR TS=(Cattles, Taurus)) OR TS=(Cattle, Taurus)) OR TS=(Taurus Cattles)) OR TS=(Bos grunniens)) OR TS=(Yak)) OR TS=(Yaks)) OR TS=(Dairy Cow)) OR TS=(Cow, Dairy)) OR TS=(Dairy Cows)) OR TS=(Beef Cow)) OR TS=(Beef Cows)) OR TS=(Cow, Beef)) OR TS=(Holstein Cow)) OR TS=(Cow, Holstein)) OR TS=(sheep)) OR TS=(Ovis)) OR TS=(Dall Sheep)) OR TS=(Sheep, Dall)) OR TS=(Ovis dalli)) AND TS=(Methane) |
+
+**Table S2 — Список включённых референсов (Supplemental)**
+
+*Источник: Hu et al., 2026, Supplementary File S3 (Zenodo: https://doi.org/10.5281/zenodo.17572494). 252 уникальных исследования, сгруппированных по типу ингибитора метана.*
+
+<details>
+<summary>📋 Раскрыть полный список включённых исследований (291 строка)</summary>
+
+| Selected article | Type of methane inhibitor |
+|------------------|---------------------------|
+| 3-NOP vs. Halogenated Compound: Methane Production, Ruminal Fermentation and Microbial Community Response in Forage Fed Cattle | 3-NOP |
+| 3-NOP vs. Halogenated Compound: Methane Production, Ruminal Fermentation and Microbial Community Response in Forage Fed Cattle | Halogenated compounds |
+| The Effects of Different Doses of 3-NOP on RuminalFermentation Parameters, Methane Production, and the Microbiota of Lambs in vitro | 3-NOP |
+| 3-Nitrooxypropanol supplementation had little effect on fiber degradation and microbial colonization of forage particles when evaluated using the in situ ruminal incubation technique | 3-NOP |
+| Application of 3-nitrooxypropanol and canola oil to mitigate enteric methane emissions of beef cattle results in distinctly different effects on the rumen microbial community | 3-NOP |
+| Application of 3-nitrooxypropanol and canola oil to mitigate enteric methane emissions of beef cattle results in distinctly different effects on the rumen microbial community | Lipid |
+| Effects of ethyl-3-nitrooxy propionate and 3-nitrooxypropanol on ruminal fermentation, microbial abundance, and methane emissions in sheep | Halogenated compounds |
+| Effects of ethyl-3-nitrooxy propionate and 3-nitrooxypropanol on ruminal fermentation, microbial abundance, and methane emissions in sheep | 3-NOP |
+| Long-term and combined effects of N-[2-(nitrooxy)ethyl]-3-pyridinecarboxamide and fumaric acid on methane production, rumen fermentation, and lactation performance in dairy goats | Fumaric acid |
+| Effect of 3-nitrooxypropanol on enteric methane emissions of feedlot cattle fed with a tempered barley-based diet with canola | 3-NOP |
+| Feeding 3-nitrooxypropanol reduces methane emissions by feedlot cattle on tropical conditions | 3-NOP |
+| Combined effects of 3-nitrooxypropanol and canola oil supplementation on methane emissions, rumen fermentation and biohydrogenation, and total tract digestibility in beef cattle | 3-NOP |
+| Combined effects of 3-nitrooxypropanol and canola oil supplementation on methane emissions, rumen fermentation and biohydrogenation, and total tract digestibility in beef cattle | Lipid |
+| Effect of 3-nitrooxypropanol alone and in combination with essential oils on rumen methane emissions and milking performance in dairy cows | 3-NOP |
+| Effect of 3-nitrooxypropanol alone and in combination with essential oils on rumen methane emissions and milking performance in dairy cows | Monensin |
+| Linseed oil and DGAT1 K232A polymorphism: Effects on methane emission, energy and nitrogen metabolism, lactation performance, ruminal fermentation, and rumen microbial composition of Holstein-Friesian cows | Lipid |
+| Corn oil supplementation enhances hydrogen use for biohydrogenation, inhibits methanogenesis, and alters fermentation pathways and the microbial community in the rumen of goats | Lipid |
+| Dietary supplemental plant oils reduce methanogenesis from anaerobic microbial fermentation in the rumen | Lipid |
+| Dose response relationships between linseed or rapeseed oils supply and rumen microbial metabolism in continuous culture on maize silage-based diet | Lipid |
+| Dose-response effects of dietary pequi oil on fermentation characteristics and microbial population using a rumen simulation technique (Rusitec) | Lipid |
+| Effect of a Low-Methane Diet on Performance and Microbiome in Lactating Dairy Cows Accounting for Individual Pre-Trial Methane Emissions | Lipid |
+| Effect of Adding Extra Virgin Olive Oil to Hair Sheep Lambs' Diets on Productive Performance, Ruminal Fermentation Kinetics and Rumen Ciliate Protozoa | Lipid |
+| Effect of coconut oil and defaunation treatment on methanogenesis in sheep | Lipid |
+| Effect of coconut oil and mangosteen peel supplementation on ruminal fermentation, microbial population, and microbial protein synthesis in swamp buffaloes | Lipid |
+| Effect of coconut oil on the population of methanogenic bacteria and its relation to other microbial groups in the rumen under in vitro conditions | Lipid |
+| Effect of Essential Oils of Eucalyptus (Eucalyptus globulus Labill) and Angelica (Heracleum persicum Desf. ex Fischer) on in vitro Ruminal Fermentation, Protozoal Population and Methane Emission Using Afshari Sheep Inoculum | Essential oil |
+| Effects of capsicum oleoresin supplementation on rumen fermentation and microbial abundance under different temperature and dietary conditions in vitro | Lipid |
+| Oral administration of Pinus koraiensis cone essential oil reduces rumen methane emission by altering the rumen microbial composition and functions in Korean native goat (Capra hircus coreanae) | Essential oil |
+| Evaluation of dietary addition of 2 essential oils from Achillea moschata, or their components (bornyl acetate, camphor, and eucalyptol) on in vitro ruminal fermentation and microbial community composition | Plant extract |
+| Evaluation of dietary addition of 2 essential oils from Achillea moschata, or their components (bornyl acetate, camphor, and eucalyptol) on in vitro ruminal fermentation and microbial community composition | Essential oil |
+| Sigla storax (Liquidambar orientalis) mitigates in vitro methane production without disturbances in rumen microbiota and nutrient fermentation in comparison to monensin | Plants containing methane inhibitors |
+| Sigla storax (Liquidambar orientalis) mitigates in vitro methane production without disturbances in rumen microbiota and nutrient fermentation in comparison to monensin | Monensin |
+| Incubation Temperature, But Not Pequi Oil Supplementation, Affects Methane Production, and the Ruminal Microbiota in a Rumen Simulation Technique (Rusitec) System | Lipid |
+| Moringa Oleifera Oil Modulates Rumen Microflora to Mediate in vitro Fermentation Kinetics and Methanogenesis in Total Mix Rations | Lipid |
+| Effects of partial replacement of maize in the diet with crude glycerin and/or soyabean oil on ruminal fermentation and microbial population in Nellore steers | Lipid |
+| Impact of feeding essential oils on feed fermentation and rumen | Essential oil |
+| Effects of Wormwood (Artemisia montana) Essential Oils on Digestibility, Fermentation Indices, and Microbial Diversity in the Rumen | Essential oil |
+| Supplementation of Rapeseed and Linseed Oilsto Sheep Rations: Effects on Ruminal Fermentation | Lipid |
+| Effects of a blend of garlic oil, nitrate and fumarate on in vitro ruminal fermentation and microbial population | Lipid |
+| Effects of a blend of garlic oil, nitrate and fumarate on in vitro ruminal fermentation and microbial population | Fumaric acid |
+| Effects of a blend of garlic oil, nitrate and fumarate on in vitro ruminal fermentation and microbial population | Nitrate |
+| Effects of Essential Oils on Methane Production and Fermentation by, and Abundance and Diversity of, Rumen Microbial Populations | Essential oil |
+| Effects of coconut and fish oils on ruminal methanogenesis, fermentation, and abundance and diversity of microbial populations in vitro | Lipid |
+| Effects of Adaptation of in vitro Rumen Culture to Garlic Oil, Nitrate, and Saponin and Their Combinations on Methanogenesis, Fermentation, and Abundances and Diversity of Microbial Populations | Lipid |
+| Effects of Adaptation of in vitro Rumen Culture to Garlic Oil, Nitrate, and Saponin and Their Combinations on Methanogenesis, Fermentation, and Abundances and Diversity of Microbial Populations | Nitrate |
+| Effects of Adaptation of in vitro Rumen Culture to Garlic Oil, Nitrate, and Saponin and Their Combinations on Methanogenesis, Fermentation, and Abundances and Diversity of Microbial Populations | Saponin |
+| Effects of garlic oil, nitrate, saponin and their combinations supplemented to different substrates on in vitro fermentation, ruminal methanogenesis, and abundance and diversity of microbial populations | Lipid |
+| Effects of garlic oil, nitrate, saponin and their combinations supplemented to different substrates on in vitro fermentation, ruminal methanogenesis, and abundance and diversity of microbial populations | Nitrate |
+| Effects of garlic oil, nitrate, saponin and their combinations supplemented to different substrates on in vitro fermentation, ruminal methanogenesis, and abundance and diversity of microbial populations | Saponin |
+| Microbial population in the rumen of swamp buffalo (Bubalus bubalis) as influenced by coconut oil and mangosteen peel supplementation | Essential oil |
+| Effects of Eucalyptus Crude Oils Supplementation on Rumen Fermentation, Microorganism and Nutrient Digestibility in Swamp Buffaloes | Lipid |
+| Intermittent feeding of citrus essential oils as a potential strategy to decrease methane production by reducing microbial adaptation | Essential oil |
+| Effects of oregano essential oil on the ruminal pH and microbial population of sheep | Essential oil |
+| Effect of nutmeg essential oil (Myristica fragrans Houtt.) on methane production, rumen fermentation, and nutrient digestibility in vitro | Essential oil |
+| Effects of blend of canola oil and palm oil on nutrient intake and digestibility, growth performance, rumen fermentation and fatty acids in goat | Tannin |
+| Effect of Ginger Essential Oil on in vitro Gas Production, Rumen Fermentation and Methane Production | Essential oil |
+| Evaluation of origanum oil, hydrolysable tannins and tea saponin in mitigating ruminant methane: in vitro and in vivo methods | Lipid |
+| Evaluation of origanum oil, hydrolysable tannins and tea saponin in mitigating ruminant methane: in vitro and in vivo methods | Tannin |
+| Evaluation of origanum oil, hydrolysable tannins and tea saponin in mitigating ruminant methane: in vitro and in vivo methods | Saponin |
+| Effect of feeding of blend of essential oils on methane production, growth, and nutrient utilization in growing buffaloes | Essential oil |
+| Effects of eucalyptus oil and anise oil supplementation on rumen fermentation characteristics, methane emission, and digestibility in sheep | Lipid |
+| Effect of supplementing total mixed ration with ajwain (Trachyspermum ammi) oil on the performance of buffalo calves | Lipid |
+| Effect of octadeca carbon fatty acids on microbial fermentation, methanogenesis and microbial flora in vitro | Lipid |
+| Effects of isobutyrate supplementation on ruminal microflora, rumen enzyme activities and methane emissions in Simmental steers | Lipid |
+| Effect of fat supplementation and stage of lactation on methane production in dairy cows | Lipid |
+| Effect of the addition of canola oil on digestibility, rumen fermentation and methane emissions in beef cattle in the Mexican tropic | Lipid |
+| Evaluation of methane production manipulated by level of intake in growing cattle and corn oil in finishing cattle | Lipid |
+| The effects of feeding liquid or pelleted formulations of Asparagopsis armata to lactating dairy cows on methane production, dry matter intake, milk production and milk composition | Plants containing methane inhibitors |
+| Supplementing the diet of dairy cows with fat or tannin reduces methane yield, and additively when fed in combination | Lipid |
+| Supplementing the diet of dairy cows with fat or tannin reduces methane yield, and additively when fed in combination | Tannin |
+| Effect of yeast supplementation on voluntary feed intake and nutrient digestibility in Thai native beef cattle. | Probiotics |
+| Effect of Bacillus subtilis C‐3102 supplementation in milk replacer on growth and rumen microbiota in preweaned calves | Probiotics |
+| Effect of fumarate reducing bacteria on in vitro rumen fermentation, methane mitigation and microbial diversity | Probiotics |
+| Effects of active dried yeast (Saccharomyces cerevisiae), a non-ionic surfactant, or their combination on gas production, rumen microbial fermentation and methane production in vitro | Probiotics |
+| Effects of active dried yeast (Saccharomyces cerevisiae), a non-ionic surfactant, or their combination on gas production, rumen microbial fermentation and methane production in vitro | Monensin |
+| Screening of bacterial direct-fed microbials for their antimethanogenic potential in vitro and assessment of their effect on ruminal fermentation and microbial profiles in sheep | Probiotics |
+| Rumen fermentation and microbial community composition influenced by live Enterococcus faecium supplementation | Probiotics |
+| Effects of nitrate and fumarate in tree leaves-based diets on nutrient utilization, rumen fermentation, microbial protein supply and blood profiles in sheep | Plants containing methane inhibitors |
+| Effects of nitrate and fumarate in tree leaves-based diets on nutrient utilization, rumen fermentation, microbial protein supply and blood profiles in sheep | Nitrate |
+| Effects of nitrate and fumarate in tree leaves-based diets on nutrient utilization, rumen fermentation, microbial protein supply and blood profiles in sheep | Fumaric acid |
+| Effects of bacterial direct-fed microbials on ruminal characteristics, methane emission, and milk fatty acid composition in cows fed high- or low-starch diets | Probiotics |
+| Evaluation of direct-fed microbials on in vitro ruminal fermentation, gas production kinetic, and greenhouse gas emissions in different ruminants' diet | Probiotics |
+| Effects of long-term diet supplementation with Gliricidia sepium foliage mixed with Enterolobium cyclocarpum pods on enteric methane, apparent digestibility, and rumen microbial population in crossbred heifers | Plants containing methane inhibitors |
+| in vitro evaluation of novel crude extracts produced by actinobacteria for modulation of ruminal fermentation | Probiotics |
+| A new strain of Saccharomyces cerevisiae in diets of lactating Holstein cows improved feed efficiency and lactation performance | Probiotics |
+| A newly developed strain of Enterococcus faecium isolated from fresh dairy products to be used as a probiotic in lactating Holstein cows | Probiotics |
+| Lactiplantibacillus plantarum BX62 reduces methane production, and improves antioxidant capacity and rumen fermentation in vitro | Probiotics |
+| Comparison of two live Bacillus species as feed additives for improving in vitro fermentation of cereal straws | Probiotics |
+| Effects of Propionibacterium strains on ruminal fermentation, nutrient digestibility and methane emissions in beef cattle fed a corn grain finishing diet | Probiotics |
+| Enteric methane emissions in response to ruminal inoculation of Propionibacterium strains in beef cattle fed a mixed diet | Probiotics |
+| Effect of bromoethanosulfonic acid (BES) on the methanogenic bacteria population and in vitro rumen fermentation | Halogenated compounds |
+| Metagenomic analysis of the rumen microbial community following inhibition of methane formation by a halogenated methane analog | Halogenated compounds |
+| Quantitation and diversity analysis of ruminal methanogenic populations in response to the antimethanogenic compound bromochloromethane | Halogenated compounds |
+| Methane Inhibition Alters the Microbial Community, Hydrogen Flow, and Fermentation Response in the Rumen of Cattle | Halogenated compounds |
+| Responses in digestion, rumen fermentation and microbial populations to inhibition of methane formation by a halogenated methane analogue | Halogenated compounds |
+| Effects of Pistacia atlantica gum essential oil on ruminal methanogen, protozoa, selected bacteria species and fermentation characteristics in sheep | Essential oil |
+| Effects of a Proprietary Kelp Blend Product on Enteric Methane Production and Tissue Residues in Cattle | Halogenated compounds |
+| Agroindustrial by-products from tomato, grape and myrtle given at low dosage to lactating dairy ewes: effects on rumen parameters and microbiota | Plants containing methane inhibitors |
+| Effect of cashew nut shell liquid feeding on fermentation and microbiota in the rumen of Thai native cattle and swamp buffaloes | Plants containing methane inhibitors |
+| Changes in vitro rumen fermentation, methane production and microbial populations in response to green tea extract | Plants containing methane inhibitors |
+| Can Marandu Grass (Urochloa brizantha) Extract Modulate Methanogenesis and Rumen Microbiota? | Plant extract |
+| Can Marandu Grass (Urochloa brizantha) Extract Modulate Methanogenesis and Rumen Microbiota? | Monensin |
+| Changes in Microbial Diversity, Methanogenesis and Fermentation Characteristics in the Rumen in Response to Medicinal Plant Extracts | Plant extract |
+| Changes in rumen protozoal community by condensed tannin fractions of different molecular weights from a Leucaena leucocephala hybrid in vitro | Plant extract |
+| Dietary citrus flavonoid extract improves lactational performance through modulating rumen microbiome and metabolites in dairy cows | Plant extract |
+| Dose-response effects of Poncirus trifoliata extract on in vitro ruminal methane production, fermentation, and microbial abundance | Plant extract |
+| EFFECT OF EUCALYPTUS GLOBULUS LEAVES EXTRACTS ON in vitro RUMEN FERMENTATION, METHANOGENESIS, DEGRADABILITY AND PROTOZOA POPULATION | Plant extract |
+| The effect of an isoflavonid-rich liquorice extract on fermentation, methanogenesis and the microbiome in the rumen simulation technique | Plant extract |
+| Effect of dietary supplementation with resveratrol on nutrient digestibility, methanogenesis and ruminal microbial flora in sheep | Plant extract |
+| Effect of plant extracts on in vitro methanogenesis, enzyme activities and fermentation of feed in rumen liquor of buffalo | Plant extract |
+| Effect of Rhodophyta extracts on in vitro ruminal fermentation characteristics, methanogenesis and microbial populations | Plant extract |
+| Effects of seaweed extracts on in vitro rumen fermentation characteristics, methane production, and microbial abundance | Plant extract |
+| Effects of Flavonoid-rich Plant Extracts on in vitro Ruminal Methanogenesis, Microbial Populations and Fermentation Characteristics | Plant extract |
+| Effects of Medicinal Herb Extracts on in vitro Ruminal Methanogenesis, Microbe Diversity and Fermentation System | Plant extract |
+| Impact of Ecklonia stolonifera extract on in vitro ruminal fermentation characteristics, methanogenesis, and microbial populations | Plant extract |
+| Effects of Phytoecdysteroids (PEDS) Extracted from Cyanotis arachnoidea on Rumen Fermentation, Enzyme Activity and Microbial Efficiency in a Continuous-Culture System | Plant extract |
+| Sarsaponin effects on ruminal fermentation and microbes, methane production, digestibility and blood metabolites in steers | Plant extract |
+| Effects of Tea Saponin Supplementation on Nutrient Digestibility, Methanogenesis, and Ruminal Microbial Flora in Dorper Crossbred Ewe | Plant extract |
+| In vitro–in vivo study on the effects of plant compounds on rumen fermentation, microbial abundances and methane emissions in goats | Plant extract |
+| Microencapsulation of Mitragyna leaf extracts to be used as a bioactive compound source to enhance in vitro fermentation characteristics and microbial dynamics | Plant extract |
+| Effects of Sugarcane-Derived Polyphenol Supplementation on Methane Production and Rumen Microbial Diversity of Second-Cross Lambs | Plant extract |
+| Methane production, fermentation characteristics, and microbial profiles in the rumen of tropical cattle fed tea seed saponin supplementation | Saponin |
+| Oregano extract fed to pre-weaned dairy calves. Part 1: Effects on intake, digestibility, body weight, and rumen and intestinal bacteria microbiota | Plant extract |
+| Supplementation of diets with tannins from Chestnut wood or an extract from Stevia rebaudiana Bertoni and effects on in vitro rumen fermentation, protozoa count and methane production | Plant extract |
+| Supplementation of diets with tannins from Chestnut wood or an extract from Stevia rebaudiana Bertoni and effects on in vitro rumen fermentation, protozoa count and methane production | Tannin |
+| Effects of Thymol Supplementation on Goat Rumen Fermentation and Rumen Microbiota in vitro | Plant extract |
+| Flavonoids from citrus peel display potential synergistic effects on inhibiting rumen methanogenesis and ammoniagenesis: a microbiome perspective | Plant extract |
+| Effects of extracts of Humulus lupulus (hops) and Yucca schidigera applied alone or in combination with monensin on rumen fermentation and microbial populations in vitro | Monensin |
+| A garlic and citrus extract: Impacts on behavior, feed intake, rumen fermentation, and digestibility in sheep | Plant extract |
+| The Efficacy of Plant-Based Bioactives Supplementation to Different Proportion of Concentrate Diets on Methane Production and Rumen Fermentation Characteristics in vitro | Plant extract |
+| Impacts of Mootral on Methane Production, Rumen Fermentation, and Microbial Community in an in vitro Study | Plant extract |
+| Effect of Allicin and Illite Supplementation on the Methane Production and Growth Performance of the Beef Cattle | Plant extract |
+| The influence of plant polyphenols from oil palm (<i>Elaeis guineensis</i> Jacq.) leaf extract on fermentation characteristics, biohydrogenation of C18 PUFA, and microbial populations in rumen of goats: <i>in vitro</i> study | Plant extract |
+| Growth performance, digestibility, blood metabolites, ruminal fermentation, and bacterial communities in response to the inclusion of gallic acid in the starter feed of preweaning dairy calves | Plant extract |
+| Comparing the Effects of a Pine (Pinus radiata D. Don) Bark Extract with a Quebracho (Schinopsis balansae Engl.) Extract on Methane Production and in vitro Rumen Fermentation Parameters | Plant extract |
+| Changes in the Rumen Microbiota of Cows in Response to Dietary Supplementation with Nitrate, Linseed, and Saponin Alone or in Combination | Plants containing methane inhibitors |
+| Changes in the Rumen Microbiota of Cows in Response to Dietary Supplementation with Nitrate, Linseed, and Saponin Alone or in Combination | Nitrate |
+| Changes in the Rumen Microbiota of Cows in Response to Dietary Supplementation with Nitrate, Linseed, and Saponin Alone or in Combination | Saponin |
+| Combinations of nitrate, saponin, and sulfate additively reduce methane production by rumen cultures in vitro while not adversely affecting feed digestion, fermentation or microbial communities | Nitrate |
+| Combinations of nitrate, saponin, and sulfate additively reduce methane production by rumen cultures in vitro while not adversely affecting feed digestion, fermentation or microbial communities | Saponin |
+| Dynamics of the ruminal microbial ecosystem, and inhibition of methanogenesis and propiogenesis in response to nitrate feeding to Holstein calves | Nitrate |
+| Effects of nitrate addition to a diet on fermentation and microbial populations in the rumen of goats, with special reference to Selenomonas ruminantium having the ability to reduce nitrate and nitrite | Nitrate |
+| Ferric citrate, nitrate, saponin and their combinations affect in vitro ruminal fermentation, production of sulphide and methane and abundance of select microbial populations | Saponin |
+| Ferric citrate, nitrate, saponin and their combinations affect in vitro ruminal fermentation, production of sulphide and methane and abundance of select microbial populations | Nitrate |
+| Effects of nitrate on methane production, fermentation, and microbial populations in in vitro ruminal cultures | Nitrate |
+| Feeding Calcium-Ammonium Nitrate to Lactating Dairy Goats: Milk Quality and Ruminal Fermentation Responses | Nitrate |
+| Effect of combining wheat grain with nitrate, fat or 3-nitrooxypropanol on in vitro methane production | Nitrate |
+| Effect of combining wheat grain with nitrate, fat or 3-nitrooxypropanol on in vitro methane production | Lipid |
+| Effect of combining wheat grain with nitrate, fat or 3-nitrooxypropanol on in vitro methane production | 3-NOP |
+| Dose-response effect of encapsulated nitrate replacing soybean meal on growth performance, ingestive behavior, and blood metabolites of feedlot finishing bulls | Nitrate |
+| EFFECT OF SUPPLEMENTARY SODIUM NITRATE AND SULPHUR ON  BASEDDIET LOW IN TRUE PROTEIN METHANE PRODUCTION AND GROWTH RATES IN SHEEP AND GOATS FED FORAGE | Nitrate |
+| Ruminal Fermentation of Anti-Methanogenic Nitrate- and Nitro-Containing Forages in vitro | Nitrate |
+| Effects of Nitrate Addition on Rumen Fermentation, Bacterial Biodiversity and Abundance | Nitrate |
+| The effect of dietary nitrate and canola oil alone or in combination on fermentation, digesta kinetics and methane emissions from cattle | Nitrate |
+| The effect of dietary nitrate and canola oil alone or in combination on fermentation, digesta kinetics and methane emissions from cattle | Lipid |
+| Changes of Microbial Population in the Rumen of Dairy Steers as Influenced by Plant Containing Tannins and Saponins and Roughage to Concentrate Ratio | Plants containing methane inhibitors |
+| Comparative analysis of macroalgae supplementation on the rumen microbial community: Asparagopsis taxiformis inhibits major ruminal methanogenic, fibrolytic, and volatile fatty acid-producing microbes in vitro | Plants containing methane inhibitors |
+| Comparison of feed intake, body weight gain, enteric methane emission and relative abundance of rumen microbes in steers fed sainfoin and lucerne silages under western Canadian conditions | Plants containing methane inhibitors |
+| Conjugated fatty acids and methane production by rumen microbes when incubated with linseed oil alone or mixed with fish oil and/or malate | Plants containing methane inhibitors |
+| Dietary fat sources affect feed intake, digestibility, rumen microbial populations, energy partition and methane emissions in different beef cattle genotypes | Plants containing methane inhibitors |
+| Dietary supplementation of Rosmarinus officinalis L. leaves in sheep affects the abundance of rumen methanogens and other microbial populations | Plants containing methane inhibitors |
+| Dose and time response of dietary supplementation with Schizochytrium sp. on the abundances of several microorganisms in the rumen liquid of dairy goats | Plants containing methane inhibitors |
+| Dose-Response Effects of Bamboo Leaves on Rumen Methane Production, Fermentation Characteristics, and Microbial Abundance in vitro | Plants containing methane inhibitors |
+| The effect of dietary Chlorella vulgaris supplementation on micro-organism community, enzyme activities and fatty acid profile in the rumen liquid of goats | Plants containing methane inhibitors |
+| Effect of Dried Leaves of Leucaena leucocephala on Rumen Fermentation, Rumen Microbial Population, and Enteric Methane Production in Crossbred Heifers | Plants containing methane inhibitors |
+| Effect of grape pomace supplement on growth performance, gastrointestinal microbiota, and methane production in Tan lambs | Plants containing methane inhibitors |
+| The Effect of Neem Leaf Supplementation on Growth Performance, Rumen Fermentation, and Ruminal Microbial Population in Goats | Plants containing methane inhibitors |
+| Sustainable impact of pulp and leaves of Glycyrrhiza glabra to enhance ruminal biofermentability, protozoa population, and biogas production in sheep | Plants containing methane inhibitors |
+| Feeding incremental amounts of ground flaxseed: effects on diversity and relative abundance of ruminal microbiota and enteric methane emissions in lactating dairy cows | Plants containing methane inhibitors |
+| Effects of Phytonutrients on Ruminal Fermentation, Digestibility, and Microorganisms in Swamp Buffaloes | Plants containing methane inhibitors |
+| Inclusion of Camelina sativa Seeds in Ewes’ Diet Modifies Rumen Microbiota | Plants containing methane inhibitors |
+| Effects of Two Sources of Tannins (Quercus L. and Vaccinium Vitis Idaea L.) on Rumen Microbial Fermentation: an in vitro Study | Plants containing methane inhibitors |
+| Effects of tannins and saponins contained in foliage of Gliricidia sepium and pods of Enterolobium cyclocarpum on fermentation, methane emissions and rumen microbial population in crossbred heifers格里西迪亚（Gliricidia sepium）树叶和环翅木荚（Enterolobium cyclocarpum）豆荚中单宁和皂苷对杂交母牛发酵、甲烷排放及瘤胃微生物群落的影响 | Plants containing methane inhibitors |
+| Impact of Chestnut and Quebracho Tannins on Rumen Microbiota of Bovines | Plants containing methane inhibitors |
+| Effects of Garlic Oil and Cinnamaldehyde on Sheep Rumen Fermentation and Microbial Populations in Rusitec Fermenters in Two Different Sampling Periods | Plant extract |
+| Saponin rich tropical fruits affect fermentation and methanogenesis in faunated and defaunated rumen fluid | Plants containing methane inhibitors |
+| Effects of oriental medicinal plants on the reduction of methane production mediated by microbial population | Plants containing methane inhibitors |
+| in vitro Screening of Plant Materials to Reduce Ruminal Protozoal Population and Mitigate Ammonia and Methane Emissions | Plants containing methane inhibitors |
+| Effects on rumen microbiome and milk quality of dairy cows fed a grass silage-based diet supplemented with the macroalga Asparagopsis taxiformis | Plants containing methane inhibitors |
+| Methane Reduction Potential of Brown Seaweeds and Their Influence on Nutrient Degradation and Microbiota Composition in a Rumen Simulation Technique | Plants containing methane inhibitors |
+| Effects of Olive (Olea europaea L.) Leaves with Antioxidant and Antimicrobial Activities on in vitro Ruminal Fermentation and Methane Emission | Plants containing methane inhibitors |
+| Sargassum mcclurei Mitigating Methane Emissions and Affecting Rumen Microbial Community in in vitro Rumen Fermentation | Plants containing methane inhibitors |
+| Protozoa population and carbohydrate fermentation in sheep fed diet with different plant additives | Plants containing methane inhibitors |
+| Increasing linseed supply in dairy cow diets based on hay or corn silage: Effect on enteric methane emission, rumen microbial fermentation, and digestion | Plants containing methane inhibitors |
+| Mitragyna speciosa Korth Leaf Pellet Supplementation on Feed Intake, Nutrient Digestibility, Rumen Fermentation, Microbial Protein Synthesis and Protozoal Population in Thai Native Beef Cattle | Plants containing methane inhibitors |
+| Rumen microorganisms, methane production, and microbial protein synthesis affected by mangosteen peel powder supplement in lactating dairy cows | Plants containing methane inhibitors |
+| Microencapsulation of lemongrass and mangosteen peel as phytogenic compounds to gas kinetics, fermentation, degradability, methane production, and microbial population using in vitro gas technique | Plants containing methane inhibitors |
+| Potency of Indian gooseberry peel supplementation for suppressing rumen methane production via alteration of rumen microbiota: Batch culture evaluations | Plants containing methane inhibitors |
+| Effects of High-Forage Diets Containing Raw Flaxseeds or Soybean on in vitro Ruminal Fermentation, Gas Emission, and Microbial Profile | Plants containing methane inhibitors |
+| Influence of mangosteen peel powder as a source of plant secondary compounds on rumen microorganisms, volatile fatty acids, methane and microbial protein synthesis in swamp buffaloes | Plants containing methane inhibitors |
+| Effects of dietary inclusion of Moringa oleifera leaf meal on nutrient digestibility, rumen fermentation, ruminal enzyme activities and growth performance of buffalo calves | Plants containing methane inhibitors |
+| Effect of dietary supplementation with Yucca schidigera powder on nutrient digestibility, rumen fermentation, ruminal enzyme activities and growth performance of buffalo calves | Plants containing methane inhibitors |
+| Enteric methane emissions in crossbred heifers fed a basal ration of low-quality tropical grass supplemented with different nitrogen sources | Plants containing methane inhibitors |
+| Potential Effect of Dietary Supplementation of Tannin-Rich Forage on Mitigation of Greenhouse Gas Production, Defaunation and Rumen Function | Plants containing methane inhibitors |
+| in vitro Assessment of Morinda lucida Benth on Methanogenesis and Fermentation Parameters in West African Dwarf Goats | Plants containing methane inhibitors |
+| Effect of oak acorn (Quercus persica) on ruminal fermentation of sheep | Plants containing methane inhibitors |
+| Evaluation of Different Brown Seaweeds as Feed and Feed Additives Regarding Rumen Fermentation and Methane Mitigation | Plants containing methane inhibitors |
+| The anti-methanogenic efficacy of Asparagopsis armata: Could it be attributable solely to its bromoform content? | Plants containing methane inhibitors |
+| Influence of Cassia fistula leaf powder on in vitro ruminal fermentation, gas production and degradability of diets for ruminants | Plants containing methane inhibitors |
+| Methane inhibition by Asparagopsis taxiformis with rumen fluid collected from ventral and central location – a pilot study | Plants containing methane inhibitors |
+| Potential of tannin-rich plants, Leucaena leucocephala, Glyricidia sepium and Manihot esculenta, to reduce enteric methane emissions in sheep | Plants containing methane inhibitors |
+| Effect of Camellia sinensis and Trigonella foenum-greacum rumen fermentation of vetch-oat hay saponins on in vitro | Plants containing methane inhibitors |
+| Enhancing Rumen Fermentation Characteristic and Methane Mitigation Using Phytonutrient Pellet in Beef Cattle | Plants containing methane inhibitors |
+| Mitigating rumen methane and enhancing fermentation using rambutan fruit peel powder and urea in lactating dairy cows | Plants containing methane inhibitors |
+| Manipulation of ruminal fermentation and methane production by supplementation of rain tree pod meal containing tannins and saponins in growing dairy steers | Plants containing methane inhibitors |
+| Effect of tannins and saponins in Samanea saman on rumen environment, milk yield and milk composition in lactating dairy cows | Plants containing methane inhibitors |
+| Effect of incremental amounts of Asparagopsis taxiformis on ruminal fermentation and methane production in continuous culture with orchardgrass herbage | Plants containing methane inhibitors |
+| Feeding meat goats mangosteen (Garcinia mangostana L.) peel rich in condensed tannins, flavonoids, and cinnamic acid improves growth performance and plasma antioxidant activity under tropical conditions | Tannin |
+| Feeding meat goats mangosteen (Garcinia mangostana L.) peel rich in condensed tannins, flavonoids, and cinnamic acid improves growth performance and plasma antioxidant activity under tropical conditions | Plant extract |
+| Effects of Allium mongolicum Regel supplementation on the digestibility, methane production, and antioxidant capacity of Simmental calves in northwest China | Plants containing methane inhibitors |
+| Supplementation of Pelleted Hazel (Corylus avellana) Leaves Decreases Methane and Urinary Nitrogen Emissions by Sheep at Unchanged Forage Intake | Plants containing methane inhibitors |
+| Chaya (Cnidoscolus aconitifolius, Mill. Johnston) pellet supplementation improved rumen fermentation, milk yield and milk composition of lactating dairy cows | Plants containing methane inhibitors |
+| Effects of Three Herbs on Methane Emissions from Beef Cattle | Plants containing methane inhibitors |
+| Rumen Function and in vitro Gas Production of Diets Influenced by Two Levels of Tannin-Rich Forage | Plants containing methane inhibitors |
+| The community structure and microbial linkage of rumen protozoa and methanogens in response to the addition of tea seed saponins in the diet of beef cattle | Saponin |
+| Effects of feeding ground pods of Enterolobium cyclocarpum Jacq. Griseb on dry matter intake, rumen fermentation, and enteric methane production by Pelibuey sheep fed tropical grass | Plants containing methane inhibitors |
+| Characterisation of the ruminal fermentation and microbiome in lambs supplemented with hydrolysable and condensed tannins | Tannin |
+| Divergence between purified hydrolysable and condensed tannin effects on methane emission, rumen fermentation and microbial population in vitro | Tannin |
+| Effect of condensed tannins from Leucaena leucocephala on rumen fermentation, methane production and population of rumen protozoa in heifers fed low-quality forage | Tannin |
+| Effects of Black Wattle (Acacia mearnsii) Condensed Tannins on Intake, Protozoa Population, Ruminal Fermentation, and Nutrient Digestibility in Jersey Steers | Tannin |
+| in vitro effects of different levels of quebracho and chestnut tannins on rumen methane production, fermentation parameters, and microbiota | Tannin |
+| Effects of Condensed Tannins Supplementation on Animal Performance, Phylogenetic Microbial Changes, and in vitro Methane Emissions in Steers Grazing Winter Wheat | Tannin |
+| Rumen fermentation and microbiota in Shami goats fed on condensed tannins or herbal mixture | Tannin |
+| Tannic acid supplementation in the diet of Holstein bulls: Impacts on production performance, physiological and immunological characteristics, and ruminal microbiota | Tannin |
+| Effects of dietary supplementing tannic acid in the ration of beef cattle on rumen fermentation, methane emission, microbial flora and nutrient digestibility | Tannin |
+| Effect of condensed tannins from Leucaena leucocephala on rumen fermentation, methane production and population of rumen protozoa in heifers fed low-quality forage | Plants containing methane inhibitors |
+| Effects of hydrolyzable tannin with or without condensed tannin on methane emissions, nitrogen use, and performance of beef cattle fed a high forage diet | Tannin |
+| Use of gallic acid and hydrolyzable tannins to reduce methane emission and nitrogen excretion in beef cattle fed a diet containing alfalfa silage | Plant extract |
+| Use of gallic acid and hydrolyzable tannins to reduce methane emission and nitrogen excretion in beef cattle fed a diet containing alfalfa silage | Tannin |
+| Effect of Lipid-Encapsulated Acacia Tannin Extract on Feed Intake, Nutrient Digestibility and Methane Emission in Sheep | Tannin |
+| Replacing urea with nitrate as a non-protein nitrogen source increases lambs' growth and reduces methane production, whereas acacia tannin has no effect | Nitrate |
+| Effects of quebracho tannin extract and activated charcoal on nutrient digestibility, digesta passage and faeces composition in goats | Tannin |
+| Effects of quebracho tannin supplementation in early lactation dairy cow rations on milk yield parameters, rumen fermentation, digestibility and blood parameters | Tannin |
+| Black Wattle (Acacia mearnsii) Condensed Tannins as Feed Additives to Lactating Dairy Cows | Tannin |
+| Effect of fumaric acid supplementation on methanogenesis and rumen fermentation in Barbari goats | Fumaric acid |
+| Effects of Fumarate and Nitroglycerin on in vitro Rumen Fermentation, Methane and Hydrogen Production, and on Microbiota | Fumaric acid |
+| Effects of fumaric acid supplementation on methane production and rumen fermentation in goats fed diets varying in forage and concentrate particle size | Fumaric acid |
+| Effects of disodium fumarate(DF) on ruminal fermentation and microbial communities in sheep fed on high-forage diets | Fumaric acid |
+| Effect of supplementation of rice bran and fumarate alone or in combination on in vitro rumen fermentation,methanogenesis and methanogens | Fumaric acid |
+| Lactation Performance and Rumen Fermentation in Dairy Cows Fed a Diet Supplemented with Monensin or Gum Arabic-Nano Montmorillonite Compost | Monensin |
+| Differential effects of monensin and a blend of essential oils on rumen microbiota composition of transition dairy cows | Monensin |
+| Dosage-dependent effects of monensin on the rumen microbiota of lactating dairy cattle | Monensin |
+| Long-Term Monensin Supplementation Does Not Significantly Affect the Quantity or Diversity of Methanogens in the Rumen of the Lactating Dairy Cow | Monensin |
+| The effects of feeding monensin on rumen microbial communities and methanogenesis in bred heifers fed in a drylot | Monensin |
+| Monensin and protein supplements on methane production | Monensin |
+| Monensin and Nisin Affect Rumen Fermentation and Microbiota Differently in vitro | Monensin |
+| Scrophularia striata Extract Supports Rumen Fermentation and Improves Microbial Diversity in vitro Compared to Monensin | Monensin |
+| Scrophularia striata Extract Supports Rumen Fermentation and Improves Microbial Diversity in vitro Compared to Monensin | Plants containing methane inhibitors |
+| Methane Emissions Regulated by Microbial Community Response to the Addition of Monensin and Fumarate in Different Substrates | Monensin |
+| Essential oil and monensin affect ruminal fermentation and the protozoal population in continuous culture | Monensin |
+| A newly developed bacteriocin like substance to replace monensin in diets of lactating ewes | Monensin |
+| The Dietary Supplemental Effect of Nitroethanol in Comparison with Monensin on Methane Emission, Growth Performance and Carcass Characteristics in Female Lambs | Monensin |
+| Effects of Flavonoids on Rumen Fermentation Activity, Methane Production, and Microbial Population | Plant extract |
+| Sargassum mcclurei Mitigating Methane Emissions and Affecting Rumen Microbial Community in in vitro Rumen Fermentation | Plants containing methane inhibitors |
+| The effects of combined essential oils along with fumarate production in vitro on rumen fermentation and methane | Essential oil |
+| Effective reduction of enteric methane production by a combination of nitrate and saponin without adverse effect on feed degradability, fermentation, or bacterial and archaeal communities of the rumen | Saponin |
+| Effective reduction of enteric methane production by a combination of nitrate and saponin without adverse effect on feed degradability, fermentation, or bacterial and archaeal communities of the rumen | Nitrate |
+| Effect of 3-nitrooxypropanol on methane and hydrogen emissions, methane isotopic signature, and ruminal fermentation in dairy cows | 3-NOP |
+| Effects of quillaja and yucca saponins on communities and select populations of rumen bacteria and archaea, and fermentation in vitro | Saponin |
+| Effects of different nitrate sources on in vitro rumen fermentation, methane production, and the microbiome | Nitrate |
+| Early life dietary intervention in dairy calves results in a long-term reduction in methane emissions | 3-NOP |
+| Inhibition of rumen methanogenesis by tea saponins with reference to fermentation pattern and microbial communities in Hu sheep | Saponin |
+| Effect of Sodium Nitrate and Cysteamine on in vitro Ruminal Fermentation, Amino Acid Metabolism and Microbiota in Buffalo | Nitrate |
+| Effects of vanillin, quillaja saponin, and essential oils on in  vitro fermentation and protein-degrading microorganisms of the rumen | Plant extract |
+| Temporal changes in total and metabolically active ruminal methanogens in dairy cows supplemented with 3-nitrooxypropanol | 3-NOP |
+| Effects of Hydrolysable Tannin with or without Condensed Tannin on Alfalfa Silage Fermentation Characteristics and in vitro Ruminal Methane Production, Fermentation Patterns, and Microbiota | Tannin |
+| Rumen microorganisms, methane production, and microbial protein synthesis affected by mangosteen peel powder supplement in lactating dairy cows | Plants containing methane inhibitors |
+| Effect of Paulownia Leaves Extract Levels on in vitro Ruminal Fermentation, Microbial Population, Methane Production, and Fatty Acid Biohydrogenation | Plant extract |
+| Screening macroalgae for mitigation of enteric methane in vitro | Halogenated compounds |
+| Screening macroalgae for mitigation of enteric methane in vitro | Plants containing methane inhibitors |
+| Influences of flavomycin, ropadiar, and saponin on nutrient digestibility, rumen fermentation, and methane emission from sheep | Saponin |
+| Effect of a garlic and citrus extract supplement on performance, rumen fermentation, methane production, and rumen microbiome of dairy cows | Plant extract |
+| Effect of Oregano Oil and Cobalt Lactate on Sheep in vitro Digestibility, Fermentation Characteristics and Rumen Microbial Community | Essential oil |
+| Metataxonomic and metabolomic profiling revealed Pinus koraiensis cone essential oil reduced methane emission through affecting ruminal microbial interactions and host-microbial metabolism | Essential oil |
+| Synergistic Effects of 3-Nitrooxypropanol with Fumarate in the Regulation of Propionate Formation and Methanogenesis in Dairy Cows in vitro | Fumaric acid |
+| Synergistic Effects of 3-Nitrooxypropanol with Fumarate in the Regulation of Propionate Formation and Methanogenesis in Dairy Cows in vitro | 3-NOP |
+| Effect of supplementation of allicin on methanogenesis and ruminal microbial flora in Dorper crossbred ewes | Plant extract |
+| Enteric methane emission of dairy cows supplemented with iodoform in a dose–response study | Halogenated compounds |
+| Response of the rumen archaeal and bacterial populations to anti-methanogenic organosulphur compounds in continuous-culture fermenters | Halogenated compounds |
+| Effects of Thymol Supplementation on Goat Rumen Fermentation and Rumen Microbiota in vitro | Plant extract |
+| Effects of combined addition of 3-nitrooxypropanol and vitamin B12 on methane and propionate production in dairy cows by in vitro-simulated fermentation | 3-NOP |
+| Effect of traditional Chinese medicine compounds on rumen fermentation, methanogenesis and microbial flora in vitro | Plants containing methane inhibitors |
+| Medicinal herbs as a potential strategy to decrease methane production by rumen microbiota: a systematic evaluation with a focus on Perilla frutescens seed extract | Plants containing methane inhibitors |
+| Ginkgo fruit extract as an additive to modify rumen microbiota and fermentation and to mitigate methane production | Plants containing methane inhibitors |
+| The potential of 3-nitrooxypropanol to lower enteric methane emissions from beef cattle | 3-NOP |
+| Winery by-products as a feed source with functional properties: dose–response effect of grape pomace, grape seed meal, and grape seed extract on rumen microbial community and their fermentation activity in RUSITEC | Plant extract |
+| Effect of Origanum vulgare L. leaves on rumen fermentation, production, and milk fatty acid composition in lactating dairy cows | Plants containing methane inhibitors |
+| The effect of ensiled paulownia leaves in a high-forage diet on ruminal fermentation, methane production, fatty acid composition, and milk production performance of dairy cows | Plants containing methane inhibitors |
+| In silico and in vitro studies revealed that rosmarinic acid inhibited methanogenesis via regulating composition and function of rumen microbiota | Plant extract |
+| Thyme and cinnamon essential oils: Potential alternatives for monensin as a rumen modifier in beef production systems | Monensin |
+| Thyme and cinnamon essential oils: Potential alternatives for monensin as a rumen modifier in beef production systems | Essential oil |
+
+</details>
+
 
 ## 6. ИНТЕРПРЕТАЦИЯ И ОБСУЖДЕНИЕ
 
