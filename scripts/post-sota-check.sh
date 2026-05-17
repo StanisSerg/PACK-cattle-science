@@ -74,10 +74,18 @@ echo ""
 # Шаг 1: Структурная валидация (только в --full режиме)
 # ═══════════════════════════════════════════════════════════════
 if [ "$FULL_MODE" = true ]; then
-    echo "═══════════════════════════════════════════════════════════════"
-    echo "  Шаг 1: Структурная валидация (Chapter-SoTA)"
-    echo "═══════════════════════════════════════════════════════════════"
-    bash scripts/validate-chapter-sota.sh "$SOTA_FILE" || true
+    # Определяем тип SoTA: Chapter если есть book_title/chapter_number/isbn, иначе Article
+    if head -30 "$SOTA_FILE" 2>/dev/null | grep -qE "book_title:|chapter_number:|isbn:"; then
+        echo "═══════════════════════════════════════════════════════════════"
+        echo "  Шаг 1: Структурная валидация (Chapter-SoTA)"
+        echo "═══════════════════════════════════════════════════════════════"
+        bash scripts/validate-chapter-sota.sh "$SOTA_FILE" || true
+    else
+        echo "═══════════════════════════════════════════════════════════════"
+        echo "  Шаг 1: Структурная валидация (Article-SoTA v1.1)"
+        echo "═══════════════════════════════════════════════════════════════"
+        bash scripts/validate-article-sota.sh "$SOTA_FILE" || true
+    fi
     echo ""
 fi
 
