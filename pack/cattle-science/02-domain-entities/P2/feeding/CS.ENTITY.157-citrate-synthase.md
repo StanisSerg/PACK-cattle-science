@@ -25,6 +25,7 @@ related:
   type: related
   note: Lactate dehydrogenase (competing pathway)
 related_sota:
+- CS.SOTA.168
 - CS.SOTA.270
 ---
 
