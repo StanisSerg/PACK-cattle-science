@@ -1,7 +1,7 @@
 ---
 id: CS.SOTA.318
 type: sota
-format_version: v1.1
+format_version: v1.2
 knowledge_tier: P2
 domain: cattle-science
 area: feeding
@@ -79,7 +79,7 @@ related:
 
 # CS.SOTA.318: Parales-Girón et al. (2026) — Крахмал и ЖК в ранней лактации
 
-> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
+> **Навигация:** [2. Аннотация](#2-аннотация-abstract) · [3. Введение](#3-введение) · [4. Методология](#4-методология) · [5. Результаты](#5-результаты) · [6. Интерпретация](#6-интерпретация-и-обсуждение) · [7. Критический анализ](#7-критический-анализ) · [8. Выводы](#8-выводы) · [9. FAQ](#9-faq) · [10. Практика](#10-практическое-применение) · [11. Инструменты](#11-инструменты-и-шаблоны) · [12. Источники](#12-источники) · [13. Журнал](#13-журнал-обработки)
 
 ---
 
@@ -238,13 +238,44 @@ related:
 - **Уровни значимости:** P ≤ 0,05 (основные эффекты), P ≤ 0,10 (взаимодействия), 0,05 < P ≤ 0,10 (тенденции основных), 0,10 < P ≤ 0,15 (тенденции взаимодействий)
 - **Пост-хок:** SLICE (для 3-факторных взаимодействий), PDIFF/PLSD (для 2-факторных)
 
-### 4.6. Инвентарь медиа
+### 4.6. Медиа-инвентарь
 
-![Figure 1A-D](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-parales-giron-2026-media/fig1a_d.png)
-*Рисунок 1. Динамика СВ, удоя молока, ECM, FCM и компонентов по группам в периодах FR и CO. Источник: Parales-Girón et al., 2026, p. 3624, Fig. 1.*
+| ID | Тип | Описание | Файл | Статус |
+|----|-----|----------|------|--------|
+| Fig. 1 | График | Динамика DMI, удоя, ECM (FR и CO) | `figure-1-dmi-milk-ecm.png` | ✅ Встроено |
+| Fig. 2 | График | Динамика жира, FCM, белка (FR и CO) | `figure-2-fat-fcm-protein.png` | ✅ Встроено |
+| Table 1 | Таблица | Состав рационов | `table-1-diet-composition.png` | ✅ Встроено |
+| Table 2 | Таблица | Производственные показатели, BW, BCS (FR) | `table-2-production-fr.png` | ✅ Встроено |
+| Table 3 | Таблица | Выход и содержание ЖК в молоке (FR) | `table-3-milk-fa-yields-fr.png` | ✅ Встроено |
+| Table 4 | Таблица | Выход и содержание ЖК в молоке (CO) | `table-4-milk-fa-yields-co.png` | ✅ Встроено |
+| Table 5 | Таблица | Метаболиты плазмы (инсулин, глюкоза, NEFA, BHB) | `table-5-plasma-metabolites.png` | ✅ Встроено |
+| Table 6 | Таблица | Производственные показатели, BW, BCS (CO) | `table-6-carryover-production.png` | ✅ Встроено |
 
-![Table 2](/home/asus/IWE/PACK-cattle-science/pack/cattle-science/06-sota/feeding/CS.SOTA.318-parales-giron-2026-media/table2.png)
-*Таблица 2. СВ, молочная продуктивность, состав молока, BW и BCS в периоде FR (d 1–23). Источник: Parales-Girón et al., 2026, p. 3625, Table 2.*
+> **Примечание:** Извлечены 2 графика (Figures 1–2) и 6 таблиц (Tables 1–6). Tables 1, 2, 5 дублированы в markdown-таблицах в разделах 4.3, 5.1, 5.3. Supplemental tables доступны в оригинальной PDF (DOI: 10.3168/jds.2025-27437).
+
+![Figure 1 — Динамика DMI, удоя молока, ECM](CS.SOTA.318-parales-giron-2026-media/figure-1-dmi-milk-ecm.png)
+*Источник: Parales-Girón et al., 2026, p. 3624 (Figure 1). (A) DMI, (B) Milk yield, (C) ECM yield. FR = d 1–23, CO = d 24–44. Вертикальная пунктирная линия — начало CO.*
+
+![Figure 2 — Динамика жира, FCM, белка](CS.SOTA.318-parales-giron-2026-media/figure-2-fat-fcm-protein.png)
+*Источник: Parales-Girón et al., 2026, p. 3624 (Figure 2). (A) Milk fat yield, (B) 3.5% FCM yield, (C) Milk protein yield.*
+
+![Table 1 — Состав рационов](CS.SOTA.318-parales-giron-2026-media/table-1-diet-composition.png)
+*Источник: Parales-Girón et al., 2026, p. 3623 (Table 1). Ингредиенты и химический состав диет LS, HS, LS+FA, HS+FA.*
+
+![Table 2 — Производственные показатели (FR)](CS.SOTA.318-parales-giron-2026-media/table-2-production-fr.png)
+*Источник: Parales-Girón et al., 2026, p. 3625 (Table 2). DMI, yield, composition, BW, BCS в период FR (d 1–23).*
+
+![Table 3 — Выход и содержание ЖК в молоке (FR)](CS.SOTA.318-parales-giron-2026-media/table-3-milk-fa-yields-fr.png)
+*Источник: Parales-Girón et al., 2026, p. 3627 (Table 3). Summation by source и individual milk fatty acids during FR.*
+
+![Table 4 — Выход и содержание ЖК в молоке (CO)](CS.SOTA.318-parales-giron-2026-media/table-4-milk-fa-yields-co.png)
+*Источник: Parales-Girón et al., 2026, p. 3628 (Table 4). Summation by source и individual milk fatty acids during CO.*
+
+![Table 5 — Метаболиты плазмы (FR)](CS.SOTA.318-parales-giron-2026-media/table-5-plasma-metabolites.png)
+*Источник: Parales-Girón et al., 2026, p. 3629 (Table 5). Инсулин, глюкоза, NEFA, BHB.*
+
+![Table 6 — Производственные показатели (CO)](CS.SOTA.318-parales-giron-2026-media/table-6-carryover-production.png)
+*Источник: Parales-Girón et al., 2026, p. 3630 (Table 6). DMI, yield, composition, BW, BCS в период CO (d 24–44).*
 
 ---
 
