@@ -39,7 +39,7 @@ language: ru
 | CS.METHOD.002 | Оценка энергетических потребностей | Расчёт NEL для разных фаз | ⏳ Planned |
 | CS.METHOD.003 | [Оценка и проектирование репродуктивной программы](../03-methods/CS.METHOD.003-reproductive-program-evaluation.md) | Алгоритм оценки + проектирования, экономика | ✅ Active |
 | CS.METHOD.004 | Оценка ценности коровы | RPO, принятие решений о выбраковке | ✅ Active |
-| CS.METHOD.005 | Симуляция репродуктивной динамики стада | Markov-модель, прогнозирование | ✅ Active |
+| CS.METHOD.005 | [Оценка уровня кальция и профилактика гипокальцемии](../03-methods/CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md) | Мониторинг tCa, фенотипирование, превентивные меры в transition period | ✅ Active |
 
 ### Репродукция и воспроизводство (100-199)
 
@@ -95,7 +95,7 @@ language: ru
 |-------|-----------|-------------|----------|-------------|
 | CS.METHOD.003 | R | — | A | R |
 | CS.METHOD.004 | C | — | A | R |
-| CS.METHOD.005 | C | — | I | R/A |
+| CS.METHOD.005 | R/A | C | I | C |
 | CS.METHOD.001 | C | R/A | I | C |
 | CS.METHOD.020 | R/A | C | I | C |
 
@@ -109,7 +109,7 @@ language: ru
 |-------|-----------|---------------|
 | CS.METHOD.003 | CS.WP.003, CS.WP.005 | — |
 | CS.METHOD.004 | CS.WP.004 | — |
-| CS.METHOD.005 | CS.WP.005 | — |
+| CS.METHOD.005 | CS.WP.002, CS.WP.005 | — |
 | CS.METHOD.001 | CS.WP.001 | — |
 | CS.METHOD.002 | CS.WP.001 | — |
 | CS.METHOD.020 | CS.WP.002 | — |
@@ -145,7 +145,7 @@ language: ru
 ---
 
 *Создан: 2026-03-12*  
-*Обновлено: 2026-03-28*  
+*Обновлено: 2026-05-18*  
 *Версия: 1.1*  
-*Методов Active: 5*  
+*Методов Active: 6*  
 *Методов Planned: 16*
