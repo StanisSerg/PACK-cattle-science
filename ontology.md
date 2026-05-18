@@ -4,7 +4,7 @@ type: ontology
 domain: cattle-science
 version: 1.0
 created: 2026-03-12
-updated: 2026-03-12
+updated: 2026-05-18
 language: ru
 ---
 
@@ -85,7 +85,7 @@ PACK-cattle-science/
 │   ├── 03-methods/
 │   │   ├── CS.METHOD.003-reproductive-economics.md
 │   │   ├── CS.METHOD.004-cow-value-assessment.md
-│   │   └── CS.METHOD.005-herd-reproductive-simulation.md
+│   │   └── CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md
 │   ├── 04-work-products/
 │   │   ├── CS.WP.003-reproduction-economic-report.md
 │   │   ├── CS.WP.004-cow-value-report.md
@@ -124,7 +124,7 @@ PACK-cattle-science/
 |----|----------|----------|--------|
 | CS.METHOD.003 | Reproductive economics | Экономическая оценка репродуктивных программ | Active |
 | CS.METHOD.004 | Cow value assessment | Оценка ценности коровы (RPO) | Active |
-| CS.METHOD.005 | Herd simulation | Симуляция репродуктивной динамики стада | Active |
+| CS.METHOD.005 | Transition health monitoring | Оценка уровня кальция и профилактика гипокальцемии в переходный период | Active |
 
 ### Рабочие продукты (Work Products)
 
