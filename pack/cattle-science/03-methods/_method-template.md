@@ -1,18 +1,18 @@
 ---
 # TEMPLATE: Method Card (Unified)
 # Domain: cattle-science
-# Version: 1.0
+# Version: 1.1
 # Based on: SPF _method-card-template.md + CS.METHOD.001/002/005 practice
-# Purpose: Unified template covering both Phase-based (005) and Numbered (002) algorithm styles
+# Style: Operational Russian + abbreviation glossary + strict tone
 # Usage: Copy to CS.METHOD.NNN-name.md, replace all placeholders
 ---
 
 ```yaml
 ---
 id: CS.METHOD.NNN
-name: "Method Name in Russian"
+name: "Название метода на русском"
 status: draft | active | deprecated
-summary: "One sentence (≤150 chars) describing this method for index and retrieval."
+summary: "Одно предложение (≤150 символов), описывающее метод для индекса и поиска."
 sota: current | deprecated-interpretation | hypothesis
 created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
@@ -35,244 +35,251 @@ tags:
 ---
 ```
 
-## [CS.METHOD.NNN] Method Name
+## [CS.METHOD.NNN] Название метода
 
-### Definition
+### Что это такое
 
-One to three sentences describing what this method is. Focus on what it does, not how to do it. Declarative, not procedural.
+Одно–три предложения, описывающие, что делает метод. Фокус на сути, не на процедуре. Декларативный тон.
 
-### Purpose
+> **Аббревиатура** = английский термин = русский термин. При первом упоминании каждой аббревиатуры.
 
-- Why does this method exist?
-- What problem does it address?
-- What does it enable?
+### Зачем нужен
 
-### Inputs
+- Какую проблему решает?
+- Что позволяет предотвратить?
+- Какой результат даёт?
 
-| Input | Description | Required? | Source |
-|-------|-------------|-----------|--------|
-| Input 1 | What it is | Yes / No | Source |
+### Что берём в работу
 
-### Outputs (Work Products)
+| Показатель | Что это | Обязательно? | Откуда |
+|------------|---------|--------------|--------|
+| Показатель 1 | Описание | Да / Нет | Источник |
 
-| Output | Link | Description |
-|--------|------|-------------|
-| CS.WP.XXX | [Name](../04-work-products/CS.WP.XXX-name.md) | Brief description |
+> **Справка по аббревиатурам:** если в таблице используются аббревиатуры, дать расшифровку ниже таблицы при первом появлении.
 
-### Roles Involved
+### Что получаем на выходе
 
-| Role | Responsibility in This Method |
-|------|------------------------------|
-| [Role](../02-domain-entities/02A-roles.md#role) | R/A/C/I — what they do |
+| Продукт | Ссылка | Что это |
+|---------|--------|---------|
+| CS.WP.XXX | [Название](../04-work-products/CS.WP.XXX-name.md) | Краткое описание |
 
-### Related Methods
+### Кто участвует
 
-| Method | Relationship |
-|--------|--------------|
+| Роль | Что делает в этом методе |
+|------|--------------------------|
+| [Роль](../02-domain-entities/02A-roles.md#role) | Ответственность |
+
+### Связь с другими методами
+
+| Метод | Связь |
+|-------|-------|
 | [CS.METHOD.YYY](./CS.METHOD.YYY-name.md) | precedes / follows / parallel / alternative / component_of |
 
-### Key Distinctions
+### Ключевые различия
 
-- **Distinction 1**: Why it matters here. Be specific to this method.
-- **Distinction 2**: Contrasts or boundaries essential for correct application.
+- **Различие 1:** Почему это важно для данного метода. Конкретно, не абстрактно.
+- **Различие 2:** Границы применимости.
 
-### Failure Modes
+> Аббревиатуры в скобках: `русский термин (АББР, английский термин)`.
 
-| Failure Mode | Link | Description |
-|--------------|------|-------------|
-| Failure 1 | [CS.FM.XXX](../05-failure-modes/CS.FM.XXX-name.md) | Brief description |
+### Режимы отказа
 
-### Tools Commonly Used
+| Режим отказа | Ссылка | Что происходит |
+|--------------|--------|----------------|
+| Отказ 1 | [CS.FM.XXX](../05-failure-modes/CS.FM.XXX-name.md) | Описание |
 
-| Tool | How Used |
-|------|----------|
-| Tool 1 | Brief note |
+### Инструменты
 
-### SoTA Status
+| Инструмент | Как используем |
+|------------|----------------|
+| Инструмент 1 | Краткое примечание |
 
-**Status**: `current` | `deprecated-interpretation` | `hypothesis`
+### Статус знания
 
-**Basis:**
-- **Author et al. Year** (CS.SOTA.XXX) — what evidence supports this method.
+**Статус:** актуальный | устаревшая-интерпретация | гипотеза
 
-**Revision criterion:**
-- What would change this status?
+**На чем основано:**
+- **Автор et al. Год** (CS.SOTA.XXX) — краткое описание доказательной базы.
 
----
-
-## Algorithm: Method Name Protocol
-
-> **Choose ONE of the two styles below based on method type:**
->
-> **Style A — Phase-based** (preferred for multi-stage methods, monitoring, prevention)
-> - Use when method spans multiple time periods or contexts
-> - Tables for actions, parameters, thresholds
-> - Example: CS.METHOD.005 (Transition Calcium Monitoring)
->
-> **Style B — Numbered** (preferred for treatment protocols, single-event methods)
-> - Use when method is a linear or branching protocol
-> - Checklists `[ ]` for executable actions
-> - Example: CS.METHOD.002 (Hypocalcemia Diagnosis and Treatment)
+**Когда пересматривать:**
+- Какие события изменят статус?
 
 ---
 
-### Style A: Phase-based Algorithm
+## Алгоритм: название протокола
+
+> **Выбери ОДИН из двух стилей в зависимости от типа метода:**
+>
+> **Стиль А — По фазам** (для многоэтапных методов, мониторинга, профилактики)
+> - Применять, когда метод охватывает несколько периодов или контекстов
+> - Таблицы для действий, параметров, порогов
+> - Пример: CS.METHOD.005 (мониторинг кальция)
+>
+> **Стиль Б — По номерам** (для протоколов лечения, однособытийных методов)
+> - Применять, когда метод — линейный или разветвляющийся протокол
+> - Чек-листы `[ ]` для исполняемых действий
+> - Пример: CS.METHOD.002 (лечение гипокальцемии)
+
+---
+
+### Стиль А: Алгоритм по фазам
 
 ```markdown
-### Phase 1: Phase Name (time range or condition)
+### Фаза 1. Название фазы (временной диапазон или условие)
 
-**Step 1.1: Sub-step name**
+#### Шаг 1.1. Подшаг
 
-| Parameter | Value | Action |
-|-----------|-------|--------|
-| Condition | Threshold | What to do |
+| Параметр | Значение | Действие |
+|----------|----------|----------|
+| Условие | Порог | Что делать |
 
-**Step 1.2: Sub-step name**
+#### Шаг 1.2. Подшаг
 
-| Parameter | Value | Action |
-|-----------|-------|--------|
-| Condition | Threshold | What to do |
+| Параметр | Значение | Действие |
+|----------|----------|----------|
+| Условие | Порог | Что делать |
 
-### Phase 2: Phase Name (time range or condition)
+### Фаза 2. Название фазы
 
-**Step 2.1: Sub-step name**
+#### Шаг 2.1. Подшаг
 
-| Parameter | Value | Action |
-|-----------|-------|--------|
-| Condition | Threshold | What to do |
+| Параметр | Значение | Действие |
+|----------|----------|----------|
+| Условие | Порог | Что делать |
 
-### Phase 3: Follow-up / Herd-level
+### Фаза 3. Поддержка / Стадный анализ
 
-| Metric | Target | Action if above target |
-|--------|--------|------------------------|
-| Metric 1 | Target value | Response |
+| Показатель | Цель | Если выше цели |
+|------------|------|----------------|
+| Метрика 1 | Целевое значение | Ответное действие |
 ```
 
 ---
 
-### Style B: Numbered Algorithm
+### Стиль Б: Нумерованный алгоритм
 
 ```markdown
-### 1. DEFINITION
+### 1. Что такое [объект]
 
-**Term:** Definition of the condition or object.
+**Термин:** Определение.
 
-**Sub-type A:** Criteria
-**Sub-type B:** Criteria
+**Подтип А:** Критерии
+**Подтип Б:** Критерии
 
-### 2. PURPOSE
+### 2. Цель протокола
 
-- Goal 1
-- Goal 2
+- Цель 1
+- Цель 2
 
-### 3. INDICATIONS
+### 3. Когда применяем
 
-#### Mandatory screening:
-- [ ] Criterion 1
-- [ ] Criterion 2
+#### Обязательный скрининг:
+- [ ] Критерий 1
+- [ ] Критерий 2
 
-#### Additional screening:
-- [ ] Criterion 3
+#### Дополнительный скрининг:
+- [ ] Критерий 3
 
-### 4. DIAGNOSIS / ASSESSMENT
+### 4. Диагностика / Оценка
 
-#### 4.1 Primary method
+#### 4.1 Основной метод
 
-**Technique:**
-1. Step 1
-2. Step 2
-3. Step 3
+**Техника:**
+1. Шаг 1
+2. Шаг 2
+3. Шаг 3
 
-| Result | Interpretation | Action |
-|--------|----------------|--------|
-| Range A | Normal | Monitor |
-| Range B | Abnormal | Treat |
+| Результат | Интерпретация | Действие |
+|-----------|---------------|----------|
+| Диапазон А | Норма | Мониторинг |
+| Диапазон Б | Отклонение | Лечение |
 
-#### 4.2 Extended diagnostics (optional)
+#### 4.2 Расширенная диагностика (опционально)
 
-- [ ] Test 1
-- [ ] Test 2
+- [ ] Тест 1
+- [ ] Тест 2
 
-### 5. TREATMENT / INTERVENTION
+### 5. Лечение / Вмешательство
 
-#### 5.1 Protocol for condition A
+#### 5.1 Протокол для состояния А
 
-**Goal:** What to achieve
+**Цель:** Чего достичь
 
-**Step 1: Immediate action**
-- [ ] Action 1
-  - *Alternative:* Action 1b
-- [ ] Action 2
+**Шаг 1: Немедленные действия**
+- [ ] Действие 1
+  - *альтернатива:* Действие 1б
+- [ ] Действие 2
 
-**Step 2: Supportive therapy**
-- [ ] Action 3
-- [ ] Action 4
+**Шаг 2: Поддерживающая терапия**
+- [ ] Действие 3
+- [ ] Действие 4
 
-**Step 3: Monitoring**
-- [ ] Control 1
-- [ ] Control 2
+**Шаг 3: Контроль**
+- [ ] Контроль 1
+- [ ] Контроль 2
 
-#### 5.2 Protocol for condition B
+#### 5.2 Протокол для состояния Б
 
-- [ ] Action 1
-- [ ] Action 2
+- [ ] Действие 1
+- [ ] Действие 2
 
-### 6. PREVENTION
+### 6. Профилактика
 
-#### 6.1 Dietary measures
-- [ ] Measure 1
-- [ ] Measure 2
+#### 6.1 Диетические меры
+- [ ] Мера 1
+- [ ] Мера 2
 
-#### 6.2 Management measures
-- [ ] Measure 3
+#### 6.2 Управленческие меры
+- [ ] Мера 3
 
-### 7. METABOLIC CASCADE (if applicable)
+### 7. Метаболический каскад (если применимо)
 
 ```
-Condition A
+Состояние А
       ↓
-Consequence B
+Последствие Б
       ↓
-Consequence C
+Последствие В
       ↓
-Consequence D
+Последствие Г
 ```
 
-**Actions:**
-- [ ] Monitor for B
-- [ ] Prevent C
+**Действия:**
+- [ ] Контролировать Б
+- [ ] Предотвращать В
 
-### 8. EFFECTIVENESS CRITERIA
+### 8. Критерии эффективности
 
-**Successful intervention:**
-- [ ] Criterion 1
-- [ ] Criterion 2
+**Успешное вмешательство:**
+- [ ] Критерий 1
+- [ ] Критерий 2
 
-**Need for correction:**
-- [ ] Warning sign 1
-- [ ] Warning sign 2
+**Необходимость корректировки:**
+- [ ] Признак 1
+- [ ] Признак 2
 ```
 
 ---
 
-## Checklist Before Committing
+## Checklist перед фиксацией
 
-- [ ] ID follows pattern `CS.METHOD.NNN`
-- [ ] Definition is declarative (not "Step 1: ...")
-- [ ] Outputs link to work product cards
-- [ ] Failure modes are listed
-- [ ] SoTA status and revision criterion specified
-- [ ] Algorithm uses ONE consistent style (Phase-based OR Numbered)
-- [ ] All tables have headers and consistent column order
-- [ ] All checklists use `[ ]` / `[x]` syntax (Numbered style only)
-- [ ] Related methods specify relationship type (precedes/follows/parallel/alternative)
-- [ ] Added to `02C-methods-index.md`
-- [ ] Added to `07-map/` (if applicable)
-- [ ] Failure mode links resolve correctly
-- [ ] Work product links resolve correctly
+- [ ] ID соответствует шаблону `CS.METHOD.NNN`
+- [ ] Описание декларативное (не «Шаг 1: ...»)
+- [ ] Выходы ссылаются на карточки продуктов работы
+- [ ] Перечислены режимы отказа
+- [ ] Указан статус знания и критерии пересмотра
+- [ ] Алгоритм использует ОДИН согласованный стиль (по фазам ИЛИ по номерам)
+- [ ] Все таблицы имеют заголовки и согласованный порядок столбцов
+- [ ] Чек-листы используют синтаксис `[ ]` / `[x]` (только стиль Б)
+- [ ] Все аббревиатуры расшифрованы при первом упоминании
+- [ ] Связанные методы содержат тип связи (precedes/follows/parallel/alternative)
+- [ ] Добавлен в `02C-methods-index.md`
+- [ ] Добавлен в `07-map/` (если применимо)
+- [ ] Ссылки на режимы отказа разрешаются корректно
+- [ ] Ссылки на продукты работы разрешаются корректно
 
 ---
 
-*Template: CS.METHOD Unified v1.0*
-*Created: 2026-05-22 (WP-83 Methods PACK)*
-*Source: SPF _method-card-template.md + CS.METHOD.001/002/005 synthesis*
+*Шаблон: CS.METHOD Unified v1.1*  
+*Обновлён: 2026-05-22 (WP-83 Methods PACK — operational Russian + abbr glossary)*
+*Источник: SPF _method-card-template.md + CS.METHOD.001/002/005 синтез*
