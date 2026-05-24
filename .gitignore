@@ -21,7 +21,17 @@ process/ingestion/*.json
 process/ingestion/new-articles/*.json
 
 # Video recordings (large files)
-video/
+video/**/*.mp4
+video/**/*.mov
+video/**/*.webm
+video/**/*.m4a
+video/**/*.mp3
+video/**/*.MP4
+video/**/*.MOV
+video/**/*.WEBM
+video/**/*.M4A
+video/**/*.MP3
+!video/transcripts/*.md
 
 # Python cache
 __pycache__/
