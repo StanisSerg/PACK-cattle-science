@@ -1,0 +1,405 @@
+# Транскрипция: WP-75 Модуль 5 Лекция 1 Minerals Requirements-1280x720-mp4a.mp4
+
+- **Модель:** small
+- **Язык:** en
+- **Длительность:** 31.9 мин
+- **Дата транскрибации:** 2026-05-24T23:03:23.559562
+
+---
+
+[0.00 -> 11.56]  Again, we'll start with a review of yesterday, and then we're going to go to minerals.
+[11.56 -> 19.20]  An intake in most situations, it's regulated by Phil, and the best single number for that
+[19.20 -> 21.44]  is forage NDF.
+[21.44 -> 29.32]  In lower producing cows, intake is often regulated by propionating the rumen, and that's a
+[29.32 -> 32.60]  function of how much fermentable starch is.
+[32.60 -> 38.40]  Rumen degradable protein affects everything, so it has to be enough.
+[38.40 -> 46.84]  On balancing carbohydrates, it's a very complicated thing, and our models are not great, but what
+[46.84 -> 55.16]  you need to look at is forage NDF, total NDF, starch, the source of starch, whether it's
+[55.16 -> 61.88]  rumen or highly rumen fermentable particle size, and you try to look at all this to make
+[61.88 -> 62.88]  decisions.
+[62.88 -> 70.40]  But in general, as you feed less forage fiber, you also have to feed less starch and more
+[70.40 -> 73.08]  total fiber.
+[73.08 -> 80.80]  On protein, for almost every cow, the major source of MP is bacteria, not RUP.
+[81.32 -> 86.48]  Again, that's why RDP is so important, but also we need fermentable energy.
+[86.48 -> 93.64]  With the new NRC, the equations are all different, and it's clearly better at estimating MP than
+[93.64 -> 96.44]  the old system.
+[96.44 -> 103.84]  In 2001, it was an MP system, and it made recommendations for just lysine and methionine.
+[103.84 -> 110.48]  The new system will still give you, again, it's based on NP, which is the same principle
+[110.48 -> 119.04]  as MP, but if you really want to take full advantage, you need to do the amino acid part.
+[119.04 -> 124.64]  Now we'll move into minerals, and minerals are going to be a little difficult.
+[124.64 -> 129.80]  I'm going to go through the stuff in the book, but I'll skip a lot, because then I'm
+[129.80 -> 132.96]  also going to talk about the new.
+[132.96 -> 137.44]  If I skip something, it means I'm probably going to talk about it when I get to the
+[137.44 -> 139.24]  new stuff.
+[139.24 -> 147.28]  This is the basic theoretical model for mineral requirements, and what we provide more and more
+[147.28 -> 154.40]  absorbed mineral, it does something good, whatever it is, until you get to a point where feeding
+[154.40 -> 156.76]  more has no more response.
+[156.76 -> 165.56]  Again, these animals are not normal, these animals are physiologically normal, they have
+[165.56 -> 173.56]  enough mineral, and then with all nutrients, but especially minerals and some vitamins, you
+[173.56 -> 178.08]  keep feeding more and more, and you're going to get to a point where now things, this cow
+[178.08 -> 187.06]  is no longer physiological normal, it's excess, and it's affected the cow.
+[187.06 -> 195.00]  We call that maximum tolerable level, and that doesn't mean the cow is going to die,
+[195.00 -> 199.16]  it just means she's starting to do things not normal.
+[199.16 -> 206.16]  As an example, if this was sodium, you get to a point where the cow, you get to the MTL
+[206.16 -> 212.16]  for sodium, the responses she stops eating, or cuts back greatly on intake, that's the
+[212.16 -> 214.64]  effect.
+[214.64 -> 222.52]  For other minerals, it might be a true toxic response, not just less intake, less milk.
+[223.04 -> 229.08]  More uncertainty here, if it's big enough we don't say requirement anymore, we say adequate
+[229.08 -> 234.52]  intake because we're really not sure exactly where that is.
+[234.52 -> 243.24]  When there's uncertainty at the requirement, when there's uncertainty, you have to say
+[243.24 -> 250.64]  is it better to feed extra or not feed enough, because you're not exactly sure where that
+[250.64 -> 251.64]  point is.
+[251.76 -> 259.80]  In almost every situation, it's better to feed a little extra than not enough.
+[259.80 -> 267.04]  The NRC requirement, if it says requirement is here, you should probably be feeding some
+[267.04 -> 268.88]  place over here.
+[268.88 -> 269.88]  Why?
+[269.88 -> 277.68]  Because, again, we don't know, the requirement isn't perfect, it could be here or here,
+[277.68 -> 280.08]  so feed a little extra.
+[280.08 -> 282.04]  For minerals?
+[282.04 -> 285.56]  Actually for everything, but mostly for minerals.
+[285.56 -> 295.92]  For minerals, a good general rule is if NRC says requirement, calcium requirement, add
+[295.92 -> 302.00]  20%, that's a good general safety, you will rarely be deficient.
+[302.00 -> 303.00]  For the new one?
+[303.00 -> 304.00]  For the new one.
+[304.00 -> 305.00]  Really?
+[305.00 -> 315.24]  Because average, if you feed average, half the cows are not going to be fed right.
+[315.24 -> 321.76]  This adequate intake, again, we don't have enough to know where this is, so sometimes,
+[321.76 -> 327.52]  and you have to read the book, sometimes adequate intake is what you should do, sometimes
+[327.52 -> 331.44]  adequate intake you should still add a little bit extra.
+[331.44 -> 335.16]  Not for requirement, 20% more, but adequate intake.
+[335.16 -> 340.60]  For requirements, I'd tack 20%.
+[340.60 -> 349.72]  Most nutritionists feed extra, they almost always feed extra, and at least in my experience,
+[349.72 -> 352.56]  most people feed too much extra.
+[352.56 -> 356.56]  That's why I keep the extra to 20%.
+[356.56 -> 363.40]  There's uncertainty at the requirement, but there's also uncertainty where this is.
+[363.40 -> 372.84]  We might say that on average, 25 would be the MTL for copper, but that's the average.
+[372.84 -> 376.96]  Some cows might have trouble at 20.
+[376.96 -> 381.84]  If there's uncertainty here, that means you want to feed less.
+[381.84 -> 387.80]  Again, just remember this NRC plus 20% in most situations.
+[387.80 -> 396.84]  The NRC model takes minerals, for most minerals, it comes up with a maintenance, a gestation,
+[396.84 -> 399.64]  a growth, and a lactation requirement.
+[399.64 -> 406.16]  The new model uses the same basic format equations of change, though.
+[406.16 -> 410.96]  This is the absorbed requirement.
+[410.96 -> 415.48]  It might be, for example, 10 milligrams of copper, or whatever.
+[415.48 -> 422.60]  What you feed isn't all absorbed, so we have to apply absorption coefficients to the diet.
+[422.60 -> 428.36]  We've updated a lot of these, but we have absorption coefficients for basal ingredients
+[428.36 -> 430.80]  and for the mineral supplements.
+[430.80 -> 433.80]  Then there's antagonism, which we're going to talk about.
+[433.80 -> 438.48]  We're going to skip this because this is out of date.
+[438.48 -> 441.12]  This will be a little bit quicker.
+[441.12 -> 445.96]  Again, these numbers are the old numbers up in the corner there.
+[445.96 -> 448.24]  You're going to give them to anyone?
+[448.24 -> 451.12]  When I get to the new stuff.
+[451.12 -> 455.20]  Potassium, and it's mostly a decad effect.
+[455.20 -> 458.60]  More milk fat, better feed efficiency.
+[458.60 -> 463.12]  These are responses, not necessarily a requirement.
+[463.12 -> 466.44]  Heat stress and minerals we're going to talk about later.
+[466.44 -> 471.68]  Eating too much potassium has a big negative effect on magnesium.
+[471.68 -> 474.88]  The extra K you feed ends up in manure.
+[474.88 -> 479.96]  If you're fertilizing with that, if your crops don't need it, you can get too high
+[479.96 -> 481.60]  potassium in your crops.
+[481.60 -> 485.68]  I'm going to skip this because this one is better.
+[485.68 -> 494.56]  This is decad, and again, I don't have it, but decad sodium plus potassium minus chloride
+[494.56 -> 496.60]  plus sulfur.
+[496.60 -> 505.72]  As we increase decad, increase milk fat, yield end percent, I could show a digestibility, which
+[505.72 -> 506.88]  I don't have the slide.
+[506.88 -> 507.88]  It increases.
+[507.88 -> 513.56]  It will increase net energy of lactation because of better digestibility.
+[513.56 -> 521.88]  This is a response, so that means economics in the U.S. with the price of potassium
+[521.92 -> 528.68]  and sodium buffers and the price of milk fat, we're at about, we're actually, we're less
+[528.68 -> 532.04]  between 200 and 300 now.
+[532.04 -> 534.16]  You have to do your own economics.
+[534.16 -> 539.32]  One thing both sodium and potassium does, but potassium does it more.
+[539.32 -> 545.68]  This is percent potassium in the diet on the bottom, and this is, we'll stick with
+[545.68 -> 551.48]  leaders, leaders of urine produced per day for a cow.
+[551.48 -> 557.92]  When you feed more sodium or more potassium, cows drink a lot more, and that means they urinate
+[557.92 -> 558.92]  a lot more.
+[558.92 -> 565.80]  As an example, if you'd go, the requirements around 1.1, if you go up to about 1.6, which
+[565.80 -> 573.36]  is very common, urine output increases almost 10 liters per day, and that means this
+[573.48 -> 576.84]  cow had to drink 10 liters more per day.
+[576.84 -> 580.84]  This is one benefit for K on heat stress.
+[580.84 -> 589.08]  It drinks water at 15 C. It produces urine at 38 C, so it's moving heat out of the
+[589.08 -> 590.08]  body.
+[590.08 -> 596.80]  Now, the problem with feeding too much K is magnesium, so diet potassium versus magnesium
+[596.80 -> 598.36]  absorption by cows.
+[599.24 -> 604.72]  Diets with lower magnesium, and this is still well above requirement, but at diets with
+[604.72 -> 613.64]  lower magnesium, every 1% increase in K, magnesium drops 7 to 8 units.
+[613.64 -> 621.12]  We can overcome some of that by feeding higher K, then it's still negative.
+[621.12 -> 622.12]  Higher magnesium.
+[622.12 -> 625.16]  See, I know it's early morning.
+[625.16 -> 632.64]  But it's still negative, but it's not as negative, and the new NRC has equations that
+[632.64 -> 640.12]  will calculate magnesium absorption based on K and diet magnesium.
+[640.12 -> 646.20]  We're going to talk about requirements, magnesium.
+[646.20 -> 652.40]  This is one mineral where deficiencies are very common, and the reason it's common
+[652.40 -> 656.68]  is because so many things negatively affect absorption.
+[656.68 -> 664.04]  We just talked about potassium, but feeding long-chain fatty acids or fat reduces absorption
+[664.04 -> 665.68]  10 to 20%.
+[665.68 -> 671.36]  This is not in the model, so if you're feeding supplemental fat, increase magnesium
+[671.36 -> 673.84]  about 20%.
+[673.84 -> 680.60]  Then this RDP, this is a little confusing or a little hard to comprehend, but diets
+[680.60 -> 688.92]  with very high RDP, and this is usually grazing with these very high protein grasses, that reduces
+[688.92 -> 692.44]  magnesium absorption.
+[692.44 -> 696.84]  It probably has to do with the electrical potential in the room in which I'm not going
+[696.84 -> 697.84]  to go into.
+[697.84 -> 698.84]  Electrical?
+[698.84 -> 704.56]  Potential, because ammonia is positive, but I'm not going to go into that.
+[704.84 -> 712.36]  What's confusing is over time, a couple of weeks, this antagonism goes away.
+[712.36 -> 719.96]  The cow adjusts to this, but these that you can feed high K forever, it still antagonizes,
+[719.96 -> 721.56]  high fat antagonizes.
+[721.56 -> 726.60]  I'm going to talk about this now, but it's in the next one, but I'm just in the
+[726.60 -> 734.36]  new version, but these are the absorption coefficients for magnesium from 2001.
+[735.36 -> 745.48]  Diet was 16% available, magox was 70%, this is a mistake, and magnesium sulfate was 90%.
+[745.48 -> 750.28]  These are wrong, there's absolutely no question these are wrong.
+[750.28 -> 755.92]  Since 2001, there's been several big studies published that allowed us to get the right
+[755.92 -> 756.92]  answers.
+[756.92 -> 759.76]  There wasn't a lot of data here, now there was a lot of data.
+[759.88 -> 764.84]  In the new version, first of all, we standardized everything to 1.2K.
+[764.84 -> 770.56]  You change K, these numbers change, but the numbers in the book assume this K.
+[770.56 -> 775.48]  Basal diets, 30% absorption, 0.3 AC, but 30%.
+[775.48 -> 779.80]  We had enough data to actually put a standard deviation on that.
+[779.80 -> 786.04]  When you really read the book here, what the book says is that they actually calculated
+[786.04 -> 795.32]  a number of 0.3, but they put in 0.16, but they actually calculated 0.3, because they
+[795.32 -> 799.36]  were so worried that if they put 0.3 in, they'd get deficiencies.
+[799.36 -> 805.20]  If there's much variation in there, you might want to go in and reduce this as a user because
+[805.20 -> 808.32]  it's a lot of variation in that number.
+[808.76 -> 817.28]  Where they ran into trouble in 2001 is in their calculations of these, because remember when
+[817.28 -> 821.48]  we do experiments, I can't feed just magnesium oxide.
+[821.48 -> 827.40]  There's magnesium from the ingredients, and so I have to calculate this number.
+[827.40 -> 831.76]  I can't measure that, and so they used the wrong number to do the calculations, which
+[831.76 -> 833.60]  is why these are so high.
+[833.60 -> 837.56]  They used this when they should have used this.
+[837.80 -> 845.44]  The supplemental magnesium absorption coefficients are much, much lower than the old ones.
+[845.44 -> 847.76]  Menensin, do you feed menensin here?
+[847.76 -> 849.40]  Yes.
+[849.40 -> 854.44]  All you have to remember is menensin will increase magnesium absorption.
+[854.44 -> 860.52]  The other thing to remember is we give you an average magnesium oxide absorption.
+[860.52 -> 864.40]  This is four sources of magnesium oxide.
+[864.40 -> 865.96]  This is the best.
+[865.96 -> 870.12]  The worst was only 10% as good as the best.
+[870.12 -> 873.92]  Again, we're going to talk about this later on.
+[873.92 -> 875.64]  Sulfur, it didn't change.
+[875.64 -> 878.52]  The new ones, 0.2%.
+[878.52 -> 883.24]  Sulfur is one that a little bit too much can cause problems, so you have to be pretty
+[883.24 -> 888.08]  close to sulfur, and I don't think you have to add 20% to that.
+[888.08 -> 890.60]  If you're at 0.2%, you're probably fine.
+[890.60 -> 896.84]  The problem with too much sulfur is it has a big negative effect on copper and selenium
+[896.84 -> 897.84]  absorption.
+[897.84 -> 905.04]  Then remember, sulfur is in the D-CAD, so more sulfur means lower D-CAD, less milk,
+[905.04 -> 906.04]  less intake.
+[906.04 -> 914.64]  Again, I'm not going to go into the numbers, but cattle, beef cows fed 0.2% or 0.5% sulfur
+[914.64 -> 922.08]  in the diet, very, very significant reduction in liver copper, which is correlated to copper
+[922.08 -> 923.92]  absorption.
+[923.92 -> 930.88]  In the new book, there's an equation to adjust for sulfur, but that's not in the model, because
+[930.88 -> 932.56]  again, the error was so high.
+[932.56 -> 937.20]  Again, if you want to use it, the equation is there.
+[937.20 -> 944.24]  This is selenium with increasing zero added sulfur, so that's at 0.2% sulfur, and
+[944.24 -> 946.92]  then we added 0.2%.
+[946.92 -> 950.12]  This is 0.2% sulfur total.
+[950.12 -> 955.56]  This is 0.4% total, because I added 0.2%.
+[955.56 -> 963.64]  This is added sulfur, but the basal diet's going to be 0.2%.
+[963.64 -> 968.28]  The grain is basal diet, no supplemental.
+[968.28 -> 972.56]  This is basal plus 0.4%, so 0.6% total.
+[972.56 -> 978.20]  All this shows is as you feed more sulfur, selenium absorption goes down.
+[978.20 -> 982.28]  This is not in the model, because this is the only experiment we have.
+[982.28 -> 988.56]  Some farms, a major source of sulfur is water, not every farm, but some farms.
+[988.56 -> 996.16]  If you take a water sample, send it to a lab, and you get back, in this example, 250
+[996.16 -> 1002.40]  milligrams per liter of sulfate sulfur based on average water intake for an average
+[1002.40 -> 1010.04]  Holstein cow, water with 250 is like adding 0.1 units to the diet.
+[1010.04 -> 1016.60]  The diet might have been 0.2%, but when you add in the water, it's acting like a 0.3 diet.
+[1016.60 -> 1021.40]  On traces, again we're going to go over this later.
+[1021.40 -> 1024.84]  A couple concepts here.
+[1024.84 -> 1030.72]  Mineral requirements are not concentrations, they're in mass, milligrams or grams, but
+[1030.76 -> 1032.68]  not concentrations.
+[1032.68 -> 1036.12]  Just as an example, and this is the old one, these numbers will change.
+[1036.12 -> 1042.56]  A dry cow needs a lot less copper than a cow producing 35 kilograms.
+[1042.56 -> 1050.64]  But if I express requirement on a concentration, it looks like the dry cow has a higher requirement.
+[1051.92 -> 1059.20]  I'm going to give some ranges for this, but remember, requirements are really milligrams or grams.
+[1059.20 -> 1067.52]  Another thing to remember is basal feeds have minerals, and when I give mineral requirements,
+[1067.52 -> 1068.52]  it's total.
+[1068.52 -> 1074.96]  It's not supplemental minerals, it's total minerals in the total diet.
+[1074.96 -> 1081.44]  If you're building a diet, don't say corn silage has no copper and corn has no copper,
+[1081.44 -> 1083.60]  put a number in.
+[1083.60 -> 1088.12]  This is about 10,000 samples of corn silage.
+[1088.16 -> 1095.52]  Silage was six parts per million, no sample had zero, every sample had some copper, but
+[1095.52 -> 1102.84]  we see for trace minerals, these very long tails keeps going and going, and 10% of these samples
+[1102.84 -> 1108.44]  had more than eight or nine parts per million copper, and there's some with 18, 20 parts
+[1108.44 -> 1109.44]  per million.
+[1109.44 -> 1112.36]  So some of these samples are really, really high in copper.
+[1112.36 -> 1116.00]  If it's really high, the question is can the cow absorb it?
+[1116.00 -> 1117.36]  Is it available?
+[1117.36 -> 1122.84]  With plant trace minerals, and I only have data for copper, but I think it's probably similar
+[1122.84 -> 1124.76]  for zinc and all the rest.
+[1124.76 -> 1132.20]  In alfalfa, about half the copper in alfalfa is actually organic copper, so that should
+[1132.20 -> 1134.28]  have good availability.
+[1134.28 -> 1140.08]  Then a portion of the copper in alfalfa is what we'd say the free metal, which is
+[1140.08 -> 1143.72]  like copper sulfate, and that has good availability.
+[1143.72 -> 1152.16]  But then in some plants, a lot of the mineral is actually soil on the outside of the plant.
+[1152.16 -> 1154.08]  This copper is unavailable.
+[1154.08 -> 1161.92]  It's copper oxide, so some is very available, some has good availability, and some has zero.
+[1161.92 -> 1167.76]  This is that same graph I showed, but just the very, very high concentrations.
+[1167.76 -> 1174.32]  It's either going to be soil outside, or if the soil has a lot of copper, sometimes the
+[1174.32 -> 1176.44]  plant actually takes it up.
+[1176.44 -> 1181.24]  If you have numbers in this normal range, don't worry about soil.
+[1181.24 -> 1182.88]  It's a minor constituents.
+[1182.88 -> 1186.44]  It's only these real high ones that might be soil.
+[1186.44 -> 1191.60]  So this is where you have to try and figure out is that high copper available or not
+[1191.60 -> 1192.60]  available?
+[1192.60 -> 1199.20]  If you have high copper, but ash is normal, you should assume normal availability.
+[1199.20 -> 1204.84]  If you have high ash, which would be probably one standard deviation above average, I'd call
+[1204.84 -> 1213.32]  that high ash, and high iron, then you should say this sample is contaminated with soil.
+[1213.32 -> 1216.92]  Let's say the sample was 15 with high ash.
+[1216.92 -> 1223.80]  When I'm formulating the diet, the lab said it's 15, but I'm going to put in the mean,
+[1223.80 -> 1228.68]  is where I'm not going to say, I'm saying all this extra copper is from the soil.
+[1228.68 -> 1232.64]  It's not available, so I would put in six.
+[1232.64 -> 1234.08]  Now I'm going to give some general.
+[1234.08 -> 1236.88]  I'm not going to get into products.
+[1236.88 -> 1240.76]  If you have nothing else, the book is the best bet.
+[1240.76 -> 1245.28]  It would be much better if you get more local data.
+[1245.28 -> 1250.56]  In other words, if you're working with 10 farms in an area, maybe take the mean of those
+[1250.56 -> 1256.28]  10 farms for minerals, not for the other stuff, and use that for everything.
+[1256.28 -> 1261.16]  If there's university or something in Brazil with tables for just Brazil, that would be
+[1261.16 -> 1263.84]  better than NRC, because that's US.
+[1263.84 -> 1269.52]  Now I'm going to talk about what I call high availability, but these would be organic
+[1269.52 -> 1277.68]  trace minerals, the hydroxy trace minerals, but not copper sulfate, or not the sulfates.
+[1277.68 -> 1285.40]  Would be specialty trace minerals, not the copper sulfate, copper chloride, and I'm going to
+[1285.40 -> 1291.16]  put all these together, but just because a company has an organic trace mineral doesn't
+[1291.16 -> 1294.68]  mean it acts the same as another company's.
+[1294.68 -> 1300.44]  So ask for specific product data, but I'm lumping them all together.
+[1300.44 -> 1305.44]  No company is going to have an absorption coefficient for their product.
+[1305.44 -> 1310.04]  It's too expensive, too hard to do, so they do not have absorption coefficient, but they
+[1310.04 -> 1314.12]  might have what's called relative absorption.
+[1314.12 -> 1318.68]  But for manganese and zinc, we don't know what to measure.
+[1318.68 -> 1324.40]  So it's hard to say what the relative availability is, because we don't know what to measure.
+[1324.44 -> 1328.92]  Some studies would look at some cell work and all, so they might have a number, but again
+[1328.92 -> 1334.20]  it's, we're less confident on relative availability of these.
+[1334.20 -> 1341.92]  So in this example, I'm going to say they did the, we'll use copper, they did the experiment
+[1341.92 -> 1347.40]  and they found out that their product was twice as available as copper sulfate.
+[1347.40 -> 1353.04]  So if that's the case, the question is, would you then feed half as much, because it's
+[1353.04 -> 1354.56]  twice as available.
+[1354.56 -> 1360.92]  If that was the case, if it's copper, copper sulfate has an AC of 5%.
+[1360.92 -> 1361.92]  5%.
+[1361.92 -> 1362.92]  5%.
+[1362.92 -> 1365.44]  I'd go in and make this product 10%.
+[1365.44 -> 1368.04]  I'm going to make it twice as good.
+[1368.04 -> 1369.04]  Balance the diet.
+[1369.04 -> 1373.48]  For selenium, we have selenium yeast and selenite.
+[1373.48 -> 1379.92]  Selenium yeast is probably 25% better than selenite, but I don't make any adjustments.
+[1379.92 -> 1385.20]  I feed the same amount of selenium if I'm feeding selenite or selenium yeast.
+[1385.20 -> 1386.88]  I do the same.
+[1386.88 -> 1391.64]  For organic manganese, I don't think, I don't adjust the AC.
+[1391.64 -> 1392.64]  It's so low.
+[1392.64 -> 1399.12]  I just would feed the same total diet manganese if it was organic or inorganic.
+[1399.12 -> 1404.80]  Zinc has question marks here, because we can use liver zinc to give, it's not as
+[1404.80 -> 1411.52]  good as copper, liver copper, but you can do this relative availability with liver zinc,
+[1411.52 -> 1413.32]  but it's not as good as copper.
+[1413.32 -> 1420.60]  If a company did this, and again in this example they say it's twice as good, I probably am
+[1420.60 -> 1423.44]  not going to adjust the absorption coefficient.
+[1423.44 -> 1429.28]  I'm going to feed the same amount of zinc, whether it's inorganic or organic.
+[1429.28 -> 1436.56]  The reason I'm going to do that is these two.
+[1436.56 -> 1442.16]  This we're just really starting to look at now, so this is kind of new.
+[1442.16 -> 1445.36]  This is an example, but again I could have picked a different product.
+[1445.36 -> 1447.08]  I just want to make a point here.
+[1447.08 -> 1449.96]  This is a relative availability assay.
+[1449.96 -> 1456.04]  Again, they have cow's fed copper sulfate, cow's fed hydroxy copper.
+[1456.04 -> 1460.84]  We want to look at liver, which is the gray bars, because that's the best measure.
+[1460.84 -> 1466.44]  If they did this experiment and the relative availability came out to one, it means the
+[1466.44 -> 1469.96]  product is the same as copper sulfate.
+[1469.96 -> 1475.12]  When they fed these cows, and I think these were beef animals, diets with molybdenum
+[1475.12 -> 1482.52]  and sulfur, which antagonizes copper absorption, the product was almost twice as good as
+[1482.52 -> 1484.28]  copper sulfate.
+[1484.32 -> 1491.04]  When they did the same experiment using animals that are deficient in copper, they were equal.
+[1491.04 -> 1494.92]  The product had the same relative availability as copper sulfate.
+[1494.92 -> 1500.92]  It's important when they show you this data, ask the conditions of the diet and the cow.
+[1500.92 -> 1506.08]  This says antagonism, it's a lot better.
+[1506.08 -> 1509.60]  Deficient or without antagonism, that might be the same.
+[1509.64 -> 1516.12]  This just shows you, we did an experiment, we fed organic zinc or zinc sulfate.
+[1516.12 -> 1519.60]  Same concentration, I think it was 70 parts per million.
+[1519.60 -> 1526.12]  We fed this, then we collected fecesamples, and we looked for bacteria, specific bacteria
+[1526.12 -> 1527.12]  in the feces.
+[1527.12 -> 1530.32]  Those cows fed the organic zinc.
+[1530.32 -> 1535.92]  There's a pathogen in feces that related to digital dermatitis.
+[1535.92 -> 1543.08]  When we fed organic zinc, the number of bacteria that caused this in the feces significantly
+[1543.08 -> 1544.08]  dropped.
+[1544.08 -> 1551.00]  This is just illustrating, some of these effects, the mineral doesn't have to be absorbed to
+[1551.00 -> 1555.64]  have effects, because this happened within the gut.
+[1555.64 -> 1562.24]  This is why I feed the same amount of zinc, whether it's organic or inorganic.
+[1562.24 -> 1565.64]  I want to concentrate on, this is a forage-based diet.
+[1565.64 -> 1568.04]  I want to concentrate on just this.
+[1568.04 -> 1575.20]  This is again, has two sulfate minerals, hydroxy minerals were the treatment.
+[1575.20 -> 1577.60]  Same concentrations in the diet.
+[1577.60 -> 1586.64]  When we measured in vivo fiber digestion, the sulfate fed cows depressed fiber digestion.
+[1586.64 -> 1593.04]  I don't think this product stimulated it, I think this product depressed it.
+[1593.04 -> 1595.08]  That is what caused the difference.
+[1595.52 -> 1602.76]  You have to remember free metals like zinc ion, copper ion, killed bacteria.
+[1602.76 -> 1608.64]  This product and a lot of the organics tend to not dissociate in the rumen, so you don't
+[1608.64 -> 1610.80]  get free copper floating around.
+[1610.80 -> 1617.80]  Again, this effect has zero to do with absorption coefficient, nothing, it's extra outside the
+[1617.80 -> 1620.16]  body or outside the cells.
+[1620.16 -> 1624.60]  This stuff we're going to talk about with later, so I'm skipping this, I'm skipping
+[1624.60 -> 1633.12]  this one I want to talk about, because copper, at least in the U.S., copper toxicity is becoming
+[1633.12 -> 1636.44]  an issue, not deficiency, but toxic.
+[1636.44 -> 1642.44]  Liver copper in a dairy cow should be about 35 milligrams per kilogram wet basis, about
+[1642.44 -> 1647.04]  100 milligrams per kilogram dry basis.
+[1647.04 -> 1654.88]  Once in this graph, this is the concentration of liver copper at the start of the experiment,
+[1654.88 -> 1660.88]  so they have some cows that would be considered marginally deficient, because it's over here,
+[1660.88 -> 1667.44]  and a lot of cows that were really high before the experiment started.
+[1667.44 -> 1672.64]  They started feeding all these cows a diet that had about 20 parts per million copper
+[1672.64 -> 1675.56]  and they fed it for a couple months.
+[1675.56 -> 1681.12]  And they measured how much the concentration in the liver changed over that couple month
+[1681.12 -> 1682.12]  period.
+[1682.12 -> 1688.28]  And what's important here is the accumulation, the actual number here isn't important.
+[1688.28 -> 1695.68]  What happened, even the accumulation was the same in cows that were marginally deficient
+[1695.68 -> 1700.12]  as cows that had a lot of excess, they kept accumulating the same amount.
+[1700.12 -> 1705.76]  So if you keep feeding excess copper, the liver keeps sucking it up.
+[1705.76 -> 1712.72]  And so the copper toxicity we're seeing isn't because they fed too much copper for a few
+[1712.72 -> 1718.68]  days or a few weeks or even a few months, they fed too much copper for years sometimes.
+[1718.68 -> 1722.60]  It just keeps going up and up and up.
+[1722.60 -> 1726.28]  Don't keep feeding too much copper, it keeps accumulating.
+[1726.28 -> 1727.52]  Is the challenge in U.S.?
+[1727.52 -> 1730.48]  Oh, it's a bit, because we feed too much.
+[1730.48 -> 1733.56]  It's a problem with formulation.
+[1733.56 -> 1739.88]  This is a graph showing the antagonism of molybdenum on copper.
+[1739.88 -> 1743.32]  Remember we want, with these units, we want a number of 100.
+[1743.32 -> 1746.56]  100 is adequate liver copper.
+[1746.56 -> 1752.44]  If we feed at about requirement, which is about 15, you have to have molybdenum
+[1752.44 -> 1756.84]  up above six parts per million for it to cause a problem.
+[1756.84 -> 1762.56]  This green bar is still almost adequate and that's six parts per million molybdenums.
+[1762.56 -> 1769.48]  So the point is, is that molybdenum is not a big antagonist as people think.
+[1769.48 -> 1772.08]  It has to be very high to cause a problem.
+[1772.08 -> 1775.48]  Sulfur is a much bigger antagonist than molybdenum.
+[1775.48 -> 1781.88]  We're going to skip this, this, this, but not, it just feed, feed enough selenium
+[1781.88 -> 1783.20]  point three.
+[1783.20 -> 1784.20]  Point three?
+[1784.20 -> 1785.20]  Point three.
+[1785.20 -> 1786.20]  At the point of diet.
+[1786.24 -> 1792.20]  Supplement, the, the, it's basal plus point three and I would just say if you, if it's
+[1792.20 -> 1795.68]  legal dry cows eat half as much.
+[1795.68 -> 1798.40]  So the concentration has to be twice as much.
+[1798.40 -> 1803.52]  You should say if, if normal situations, yeast or selenite, I don't care.
+[1803.52 -> 1806.04]  They do either one, don't matter.
+[1806.04 -> 1810.80]  If you have high sulfur water or feeding a lot of distillers, I'm probably
+[1810.80 -> 1814.04]  going to go about half selenite, half yeast.
+[1814.08 -> 1819.88]  For a dry cow, even without sulfur, I'm going to feed a mix, at least half
+[1819.88 -> 1823.64]  yeast, maybe as much as two thirds or three fourths.
+[1823.64 -> 1829.28]  And the reason you feed this mix to these cows is selen, the selen, the selenium
+[1829.28 -> 1834.20]  and selenium yeast is transferred to the fetus much more efficiently than
+[1834.20 -> 1834.88]  selenite.
+[1834.88 -> 1838.12]  So the calf is born with better selenium statin.
+[1838.12 -> 1843.76]  This just colostrum feeding selenium yeast increases selenium and colostrum,
+[1843.76 -> 1845.88]  which again is good for the calf.
+[1845.88 -> 1849.28]  Another good reason to feed dry cows some yeast.
+[1849.28 -> 1857.32]  And the reason I don't care what you feed to a lactating cow is this is mastitis.
+[1857.32 -> 1860.36]  When you feed selenium, you reduce mastitis.
+[1860.36 -> 1864.48]  The reduction is the same whether it was yeast or selenite.
+[1864.48 -> 1866.00]  We're going to talk about this later.
+[1866.00 -> 1868.32]  We're going to talk about this later.
+[1868.32 -> 1869.88]  I just want to end.
+[1869.88 -> 1874.96]  Remember, requirements are for the average cow.
+[1874.96 -> 1880.20]  I should say, when I say average, I don't mean the average of all the cows in the world.
+[1880.20 -> 1882.24]  I mean the cows that are similar.
+[1882.24 -> 1889.00]  So similar body weight, similar milk production, it's for the average of those cow.
+[1889.00 -> 1893.00]  And to me, this 20% extra, it's safe.
+[1893.00 -> 1897.20]  It's not close to the maximum tolerable level.
+[1897.40 -> 1902.64]  It's not real expensive and it'll almost always prevent deficiencies.
+[1902.64 -> 1907.92]  But if you have a lot of bad water, a lot of sulfur, et cetera, you might have to go
+[1907.92 -> 1911.92]  up to 50, but in most situations, 20% extra.
