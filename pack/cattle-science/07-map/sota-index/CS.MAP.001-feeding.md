@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (182 SoTA)
+> Шард индекса: feeding (185 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,19 +10,20 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 182 |
-| P0 (Фундаментальные) | 20 |
+| Всего SoTA | 185 |
+| P0 (Фундаментальные) | 21 |
 | P1 (Критически важные) | 27 |
-| P2 (Важные) | 135 |
+| P2 (Важные) | 137 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 39 |
+| Expert-opinion | 2 |
 | Field-study | 58 |
 | In-vitro-study | 1 |
 | Meta-analysis | 10 |
 | Methodology | 1 |
 | Primary-research | 2 |
 | Rct | 1 |
-| Reference-book | 19 |
+| Reference-book | 20 |
 | Review | 46 |
 | Simulation | 5 |
 
@@ -214,6 +215,9 @@
 | [CS.SOTA.323](../../06-sota/feeding/CS.SOTA.323-smith-2026.md) | W.A. et al. | 2026 | P2 | primary-research | `feeding, fiber, primary-research` | См. файл для деталей |
 | [CS.SOTA.327](../../06-sota/feeding/CS.SOTA.327-bruner-2025.md) | Bruner et al. | 2025 | P2 | field-study | `anionic-salt, fat-microencapsulation, palatability` | См. файл для деталей |
 | [CS.SOTA.329](../../06-sota/feeding/CS.SOTA.329-neville-2022.md) | Neville et al. | 2022 | P2 | rct | `rct, calcareous-marine-algae, cma` | См. файл для деталей |
+| [CS.SOTA.330](../../06-sota/feeding/CS.SOTA.330-nasem-2021-young-calf.md) | Cattle et al. | 2021 | P0 | reference-book | `-` | См. файл для деталей |
+| [CS.SOTA.331](../../06-sota/feeding/CS.SOTA.331-weiss-2024-transition-minerals-vitamins.md) | Weiss et al. | 2024 | P2 | expert-opinion | `expert-opinion, video-source, transition-cows` | См. файл для деталей |
+| [CS.SOTA.332](../../06-sota/feeding/CS.SOTA.332-weiss-2024-minerals-requirements-absorption.md) | Unknown et al. | N/A | P2 | expert-opinion | `minerals, absorption-coefficients, copper-toxicity` | См. файл для деталей |
 
 ---
 
@@ -225,5 +229,5 @@
 
 ---
 
-*Шард обновлён: 2026-05-17*
-*Автоматическая генерация: 182 SoTA*
+*Шард обновлён: 2026-05-24*
+*Автоматическая генерация: 185 SoTA*
