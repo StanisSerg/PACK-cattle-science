@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (185 SoTA)
+> Шард индекса: feeding (186 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,15 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 185 |
+| Всего SoTA | 186 |
 | P0 (Фундаментальные) | 21 |
 | P1 (Критически важные) | 27 |
-| P2 (Важные) | 137 |
+| P2 (Важные) | 138 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 39 |
 | Expert-opinion | 2 |
 | Field-study | 58 |
+| Fpf-audit | 1 |
 | In-vitro-study | 1 |
 | Meta-analysis | 10 |
 | Methodology | 1 |
@@ -33,6 +34,7 @@
 
 | ID | Статья | Год | Приоритет | Тип | Теги | Ключевой результат |
 |----|--------|-----|-----------|-----|------|-------------------|
+| [CS.ANALYSIS.001](../../06-sota/feeding/CS.ANALYSIS.001-weiss-minerals-fpf-audit.md) | Unknown et al. | N/A | P2 | fpf-audit | `-` | См. файл для деталей |
 | [CS.SOTA.012](../../06-sota/feeding/CS.SOTA.012-drackley-1991.md) | Drackley et al. | 1991 | P2 | experimental | `experimental, liver-metabolism, fatty-acid-oxidation` | См. файл для деталей |
 | [CS.SOTA.013](../../06-sota/feeding/CS.SOTA.013-raboisson-2017.md) | Raboisson et al. | 2017 | P1 | meta-analysis | `meta-analysis, urea, pregnancy-rate` | См. файл для деталей |
 | [CS.SOTA.015](../../06-sota/feeding/CS.SOTA.015-schuler-2013.md) | Schuler et al. | 2013 | P2 | experimental | `experimental, propionate, rumen-infusion` | См. файл для деталей |
@@ -230,4 +232,4 @@
 ---
 
 *Шард обновлён: 2026-05-24*
-*Автоматическая генерация: 185 SoTA*
+*Автоматическая генерация: 186 SoTA*
