@@ -112,13 +112,27 @@ updated: 2026-05-26
 
 ---
 
-## Part G — SoTA Kit
+## Part G — SoTA Kit (Полный набор)
+
+Part G — это операционный набор паттернов для сбора, характеризации, сравнения, публикации и обновления SoTA (state-of-the-art). Если Part A — это философия, а Part B — доверие, то Part G — это **практика**: как собрать знания, сравнить методы, опубликовать результаты и поддерживать их актуальность.
 
 | ID | Название | 🎯 | ⏱️ | Статус | Краткое описание | Теги |
 |---|---|---|---|---|---|---|
-| **G.0** | CG-Spec & CN-Spec | 🔴 | 50м | ⬜ | Спецификации для сравнения и характеризации: как объявить, по каким правилам сравнивать, что делать с неизвестными. | спецификации, сравнение, характеристики |
-| **G.2** | Tradition Atlas View | 🔴 | 45м | ⬜ | Как традиции и практики образуют «атлас» — карту знаний, где каждая точка имеет координаты и связи. Для тех, кто систематизирует большие объёмы SoTA. | атлас, традиции, карты |
-| **G.5** | Set-Return Selection & Pareto | 🔴 | 45м | ⬜ | Почему выбор «одного лучшего» — чаще всего ошибка. Как возвращать множество кандидатов с явными компромиссами (Pareto-фронт). | выбор, Парето, компромиссы |
+| **G.Core** | Part G Core Invariants | 🔴 | 40м | ⬜ | Дедупликационный хаб для Part G. Определяет invariant'ы, которые используют все G.x: crossing visibility, tri-state guards, penalty routing, RSCR triggers. Читать первым перед любыми G.x. | invariants, ядро, делегация |
+| **G.0** | CG-Spec & CN-Spec | 🔴 | 50м | ⬜ | Спецификации для сравнения и характеризации: как объявить ComparatorSet, по каким правилам сравнивать, что делать с неизвестными. **Legality gate** для всего Part G. | спецификации, сравнение, характеристики |
+| **G.1** | CG-Frame-Ready Generator | 🔴 | 45м | ⬜ | Шасси для создания CG-Frame: соединяет scope anchor, SoTA set, variant pool, shortlist и publication bindings в воспроизводимый scaffold. Не метод — а каркас для методов. | генератор, шасси, каркас |
+| **G.2** | SoTA Harvester & Synthesis | 🔴 | 45м | ⬜ | Как систематически собирать литературу из plural traditions, сохраняя семантические границы. Выход: SoTA Synthesis Pack — consumable, citation-ready, refreshable. | сбор, синтез, литература |
+| **G.3** | CHR Authoring | 🔴 | 50м | ⬜ | Авторинг характеристик, шкал, уровней, координат. Публикует CHR Pack — lawful measurement primitives. Без этого нельзя сравнивать яблоки с яблоками. | измерения, шкалы, CHR |
+| **G.4** | CAL Authoring | 🔴 | 50м | ⬜ | Авторинг операторов, acceptance clauses, evidence wiring. CAL Pack определяет, какие операции lawful над CHR-типами и какие evidence требуются. | операторы, acceptance, wiring |
+| **G.5** | Multi-Method Dispatcher | 🔴 | 45м | ⬜ | Реестр method families и диспетчер выбора. Возвращает Shortlist/RankedShortlist, а не один скалярный победитель. Сохраняет plurality. | диспетчер, выбор, методы |
+| **G.6** | Evidence Graph & Provenance Ledger | 🔴 | 45м | ⬜ | Типизированный граф доказательств с addressable PathId/PathSliceId. Каждое решение можно проверить: какие anchors, crossings, freshness windows использовались. | доказательства, граф, provenance |
+| **G.7** | Cross-Tradition Bridge Calibration | 🔴 | 50м | ⬜ | Калибровка мостов между traditions: BridgeMatrix → BridgeCards + BCT + Sentinels. Материализует cross-context reuse в auditable артефакты. | калибровка, мосты, traditions |
+| **G.8** | SoS-LOG Bundles & Maturity Ladders | 🔴 | 45м | ⬜ | Упаковка rule bundles и maturity ladders для selector'а. Сохраняет tri-state admissibility и citable links к evidence/crossings. | зрелость, bundles, лестницы |
+| **G.9** | Parity / Benchmark Harness | 🔴 | 45м | ⬜ | Сравнение rival method families под одним baseline с явными comparator, normalization, bridge pins. Публикует ParityReport, а не opaque score. | сравнение, parity, benchmark |
+| **G.10** | SoTA Pack Shipping | 🔴 | 40м | ⬜ | Граница упаковки: как ship Part G outputs как SoTA-Pack. Предотвращает format-as-spec, editionless hand-offs, pack smuggling semantics. | shipping, публикация, граница |
+| **G.11** | Telemetry-Driven Refresh & Decay | 🔴 | 45м | ⬜ | Оркестратор обновлений: telemetry → refresh queue → selective re-computation → republication. Не «rerun everything», а targeted refresh по RSCR triggers. | обновление, telemetry, decay |
+| **G.12** | DHC Dashboards | 🔴 | 40м | ⬜ | Генерация discipline-health dashboards без illicit arithmetic, hidden re-aggregation, scalar winners. Edition-pinned, evidence-citable, refresh-aware. | дашборды, DHC, health |
+| **G.13** | External Interop Hooks | 🔴 | 40м | ⬜ | Интероп с внешними scholarly indexes, concept registries, dataset stores. Сохраняет Part G invariants при ingestion из внешних источников. | интероп, внешние, hooks |
 
 ---
 
@@ -206,7 +220,7 @@ updated: 2026-05-26
 | E — Authoring | 5 | 0 | 5 | 0% |
 | F — Bridges | 4 | 2 | 2 | 50% |
 | G — SoTA Kit | 3 | 0 | 3 | 0% |
-| **ИТОГО** | **47** | **11** | **36** | **23%** |
+| **ИТОГО** | **58** | **26** | **32** | **45%** |
 
 ---
 
