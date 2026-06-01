@@ -1,0 +1,1444 @@
+ Hi, everyone, I'm Comtrude K here from AMTS.
+ We're going to talk about hackers.
+ We're going to do some really interesting things as we go through this presentation.
+ You know, basically, what are we going to try to accomplish?
+ Is one of the stages of growth, some historical things.
+ Some, I guess, some, you can come, gotchas, things to pay attention to.
+ I think that that's the best way to describe it.
+ We're going to go through the stages of growth when the animal is the most efficient,
+ where the person is the least efficient.
+ Talk about how she grows in both terms of growth curves and body composition.
+ We're going to come back to how we actually feed these, these seppers
+ and really try and hammer home the concept of that we should be looking at,
+ least cost per pound or kilo of gain versus just least cost per day.
+ Now, before we get going into this, do have to apologize.
+ The numbers you're going to see on most of the tables, most of the graphs are in imperial units,
+ specifically body weight in pounds.
+ I just...
+ Being lazy and getting them transferred over into metric units.
+ So my apologies and we'll go from there.
+ So what are we trying to accomplish with peppers?
+ What we really want is a fresh cow that weighs at least 80% of mature weight.
+ A modest body condition score.
+ Notice I'm not saying a number.
+ We'll come back and talk about why I'm not saying a specific number.
+ And really, an animal that's had the minimum number of insults during her life.
+ What are insults?
+ Overcrowding heat stress.
+ Nomonia, any disease,
+ poor nutrition,
+ anything that helps and management
+ place upon her that is going to limit her growth, her immune system,
+ and really keep her from being able to exhibit her true genetic potential.
+ And then what's the... I got to change the slide.
+ It shouldn't say the lowest cost,
+ the most profitable way to achieve this.
+ Okay, that comes back to efficiency.
+ We're going to spend a fair amount of time on some of that efficiency type stuff.
+ All right, a big problem that we have in the industry.
+ Well, no, this is...
+ We don't know what our animals weigh.
+ We don't...
+ How many farms have scales for any animal?
+ Especially the halfers.
+ Well, they're getting bigger.
+ Okay, there's just no way around this.
+ I just went back to give some examples.
+ So I went into the literature.
+ Okay, Journal of Dairy Science.
+ I went two years, 1984.
+ Okay, and this is out of West Virginia.
+ Whole things.
+ You notice milk production, 30, 26 kilos.
+ Your body weight, 5.34, 5.37.
+ Pretty small cows.
+ If we go to 2024, this is out of Penn State.
+ Notice it's 11, 6.40 kilos.
+ Okay?
+ So it's 100 kilo change in body weight over time at university farms.
+ And you notice milk production, you know, 41, 38, 39 kilos.
+ Well, no this, okay?
+ But we don't stop and think about what impact does all of this have.
+ And to give you an idea of what kind of impact.
+ So when I was a kid, we had really nice whole things.
+ And they were probably...
+ I remember a lot of them were in that 13, 14 hundred pound range.
+ And whenever we'd get a cow, let's say it was given 110 pounds of milk,
+ we were like, wow, what a cow.
+ And this would have been like 70s or 80s.
+ Okay?
+ So that 13 hundred pound cow, given 110 pounds of milk,
+ that was 8.5 percent of body weight.
+ Well, if we look at where some of today's cows are,
+ and we'll pick on these 1900 pound cows, this is an easy row.
+ All right?
+ That 110 pounds is only 5.8 percent of body weight.
+ We got to be 150 pounds, it's only 7.9.
+ And it really looks like genetically,
+ that these girls have the capacity to reach peak melts
+ at around 12 to 13 percent of body weight.
+ Well, if we use an easier number, 11.5 percent.
+ Okay.
+ On that 1900 pound cow, that's 100 kilos of milk, folks.
+ Go back to that 13 hundred pound cow.
+ That's only 150 pounds, that's 70 kilos.
+ So there's 30 kilos, potentially more milk,
+ potential at the same percent of body weight
+ because we have any bigger cows.
+ And this is not just some pigment of my imagination
+ that these girls are getting bigger.
+ Okay?
+ Ten years ago, Cornell did some work.
+ And they went back and looked at this was actually for an extension meeting.
+ Actually, it was the advanced dairy nutrition short course.
+ They went back and they looked at the in 1993,
+ when Van Amber was working out as PhD, actually.
+ That's why they had these numbers.
+ And the mature herd, mature way to the herd at that point,
+ is 1472 pounds.
+ 2016, 1710.
+ All right.
+ So there's 150 kilos difference in mature weight
+ at the Cornell Research Farm, this genetics.
+ Okay.
+ Reading program stayed pretty much the same.
+ Sure, there was a change in housing,
+ but because the cows were bigger and they needed new housing.
+ And this is this results about a 1% per year increase in mature size.
+ This is real, okay?
+ And a great way, if we don't have scales,
+ but we know milk weights on animals.
+ If we look at what the first calf peppers are milking in relation to the mature cows,
+ whatever that percentage is, it's a really good index to tell us where our first calving weights were.
+ Again, this is Cornell data.
+ This was out of a study that that Sam Fesidon had when he was working on his PhD.
+ At the time, okay, if we look at the graph on the right,
+ this is milk production, and this is weak of trial.
+ It's not weak of lactation, so this is all just weak of trial.
+ And you can see that those first calf peppers were average in 78% of mature cows in terms of milk production.
+ In this case, Sam, mature cows are three plus third and greater lactation.
+ When they look at body weight, you can see over only 79% of mature weight.
+ Okay, so if we don't have scales, we're working on a solution for that using an iPad.
+ You'll hear more about that next year.
+ We can get a good indication at least of our half or smaller than they should be.
+ And I can tell you the vast majority of farms it's true, they are.
+ And again, looking at milk production is a great diagnostic to see if we need to look at this closely.
+ Now, the other thing is, they've really changed the breeds on us.
+ Okay, this is a paper from a couple years ago where they looked at the genetic progress
+ before genomics was introduced versus after genomics.
+ Kurt Van Tassel, one of the authors here, brilliant guy, brilliant.
+ I did his PhD at Cornell when I was working on my Masters.
+ He worked with Bob Debert, who was an amazing animal breeder.
+ And Kurt went to USDA pond finishing, spent his entire career there.
+ And he was one of the co-founders, co-inventers, I guess we could say, of the genomic chips that we use.
+ So some of this I put blame strictly on Kurt for changing the breed, not really telling us.
+ Okay, this is huge. They did an amazing job.
+ They responded to the changes in market where suddenly milk fat was considered valuable again.
+ And boy, did they ever change the animals.
+ So this is US average breeding values.
+ Here is milk, milk fat, milk protein, somatic cell.
+ There's a little gray line here that's really hard to see. It's right here.
+ Okay, that's 2009.
+ That is when genomics was introduced to the sire industry.
+ And if we look at the slope before 2009 and after 2009 for milk production, there's no difference.
+ We just keep selecting for more milk.
+ For protein, okay, you can see here's 2009.
+ You can see there's an increase here.
+ So we're selecting, I want to say it's one point, the slope is 1.24 times faster for protein now than we were before genomics.
+ Milk fat, those were really 2.4 times faster selection for milk fat.
+ I'm not sure where a lot of herds are in South America right now, milk fat.
+ So I can tell you in the US, China, because they've done a lot of, they did a lot of IVF work during COVID.
+ We're dealing with hosting herds, average in 40 plus kilos of milk.
+ And if you're below 4243 fat, people are asking why you're low.
+ Notice I said low, 4242 fat on hosting.
+ Many many herds now, 446, even some of over 48, if they've been really pushing genomics.
+ And I love the milk.
+ It's crazy.
+ They have changed the animal.
+ Now, at the same time, historically we would see changes like that, but it would be 10, 15 years before we started to really see that impact in commercial herd.
+ But because the genomics, they've also been able to shorten the generation intervals on bulls.
+ And you notice happening with cows now too.
+ And that's what this panel shows.
+ This is prior to genomics.
+ A generation out of bull was seven to nine years.
+ So the bull that the calf that hits the ground today, by the time they went through traditional proving systems and survived and everything, seven to nine years.
+ Now is genomics.
+ We're gone in that two-year range.
+ And again, this is data that's six years old now.
+ So I don't know where it is right now.
+ We could be down where the genetics.
+ It's the herd.
+ On one hand, I want to say it'd be hard to be below two years because of just raising a calf and getting no production.
+ But if we're doing it purely off genomics, we could be really quick because they can genomic test that calf, that bull calf when it's born.
+ We could get to puberty, get a team and out of it, get it into a cow and still be 18 months, okay?
+ 15-18 months really.
+ It's probably going to be as low as we can go on that once we get into working with genomics on embryos, which who knows.
+ But think about it this way.
+ It used to take us, you know, five, six, seven years to really start to see shifts in herds.
+ Herds that are really aggressive with using genomics.
+ We can be seeing massive shifts in that genetic base in two, three years.
+ Whereas it used to be for one change in one generation.
+ Now in that same amount of time, we're on our fourth generation.
+ That's how quick this is changing.
+ So we have to be updating our, what we consider our goals for everything on a regular basis.
+ At the same time, this is a paper out of Germany where they looked at the genetics on German Holstein's and surprise, surprise.
+ As we select for more milk, this is genetic correlations.
+ Look at what happens to body, this is body depth.
+ We're selecting for figure cows.
+ This data set would also say taller cows, but notice it's a lower.
+ But we're definitely selecting for deeper cows, okay?
+ So lots of body capacity.
+ Now, there are some people talking about that they're selecting for more efficiency and selecting for smaller cows.
+ I haven't seen data to support that as much as they're selecting for shorter cows, okay?
+ And I think that so that they can fit in the robots and fit in parlors, not really changing body weight.
+ Because if we select for smaller body weights, hey, we're going to have less milk.
+ At least that's what the data says now.
+ Could we find some odd ball genetic strains where that was different?
+ Yeah, probably.
+ But our genetic base is pretty small, so it's going to be hard to really find that.
+ Anyway, let's all this talent us.
+ Our targets that we use for body weights, for breeding, for first calving, for milk production, for stall dimensions when we build barns, for dimensions in robots and parlors.
+ One concern I have with a lot of the milk and equipment company that we're still using sizes for parlors that I think are too small because they're from cows in the 90s.
+ But they don't want to resize them because suddenly if we take a hundred cow rotary and really make it wider and taller to represent these cows, that same amount of space is probably only going to fit 80 cows.
+ So there's real challenges across the entire industry.
+ This pace of change has accelerated. We're changing these animals quick.
+ And we really need to be reevaluating our goals for all of these things.
+ I'd love to say every year, but realistically, if we can be come back and updating these targets every other year,
+ I think that's going to be a huge step in the right direction.
+ Now, what kind of impact does it have on our happers?
+ Well, there's a lot of numbers in this table. Let's just focus on the two rows that are molded.
+ So this is for pre-breeding happers.
+ We're assuming here's a 90-day wait.
+ So basically, I said we're going to triple birth weight by 90 days, which is the target.
+ No more of this, double body birth weight by 60 days.
+ Let's talk about, it just gets us through the transition period.
+ Let's get triple body weight by 90 days, very achievable.
+ Correct milk feeding program.
+ Lots of milk, a great cast starter, good transition, easy.
+ All right.
+ We do not, if we want to change age of first cabin.
+ The only tip way that we can do that is by changing our growth rate pre-breeding.
+ There is no reason anywhere in the world for anyone to be having age of first cabin.
+ Obviously, over 24 months, I'd love to say greater than 22 or 23 months.
+ But if you're dealing with her, 27, 28 months,
+ by golly people, you're spending a lot of money on raising happers.
+ And you're giving up productive days because she's only got so many productive days.
+ And if it means that she's more productive as a heifer growing because you're growing them slow,
+ you're going to get less milk and it's going to be more expensive.
+ Okay.
+ So let's look at a couple of examples here.
+ We go back to that 1,400 pound mature weight cow.
+ Saying she's got to be that heifer's got to be 770 pounds at breeding.
+ And if we want a 24 month age of first cabin from 90 days to breeding, so 15 months,
+ she's got to average about 700 grams today, 1.54 pounds per day.
+ We come up to this 1,800 pound mature weight, which a lot of these whole things are now, okay.
+ That heifer's got to be 990. She's got to basically be 445 kilos of breeding.
+ Massive animals.
+ And we're still at 24 months age of first cabin.
+ So only we got to be talking 900 grams today again.
+ If we want to get them down into the 21 month, we've got to be growing them at 1.2, 1.3 kilos today.
+ Okay.
+ You can do it.
+ Just feeding them right and managing them right.
+ Okay, we'll get into some more of this.
+ Once she's bred, that clock is ticking.
+ She's only got that number of days till she calves.
+ Again, we go that 1,400 pound mature weight.
+ She got away. She herself has to weigh 1,150 pounds of cabin.
+ She's got to average about 600 grams a day.
+ Easy, easy, easy.
+ At 1,800 pound mature weight.
+ She's got to weigh almost 1,500 pounds of cabin.
+ You know, over 700 kilos.
+ She's got to average about 800 to 120 grams a day.
+ For herself.
+ We look at that last trimester.
+ If we're running them across scales, suddenly that last trimester,
+ she's got to average 1.3, 1.35.
+ Okay.
+ So we've got to grow these things appropriately.
+ Now, if we look at these growth curves.
+ Okay, so I did this, I kind of modeled this where I took a real diet,
+ real heifers, and did models them every day.
+ Okay.
+ So I took whatever was, you know, the energy,
+ your protein allowable gain for this heifer today.
+ Added that to her body weight.
+ So tomorrow's numbers, that was her body weight,
+ was yesterday's name plus body weight.
+ And this is pretty telling here.
+ Okay.
+ So the solid line here, this is her.
+ This is the heifer herself.
+ And the dotted line is her plus the conceptus, the gravity uterus.
+ And you notice we get out here, you know, ready for a cabin.
+ There's a significant spread here, right?
+ But the more important one is, if we look at what happens somewhere in this period,
+ she slows down, she actually appears to stop growing.
+ Okay.
+ Her, she's actually, we're needing to rethink of when we should say they should be reaching that target cabin weight.
+ We're going to come back to this in a few slides.
+ The cool thing too is when we think about efficiency of growth.
+ Okay.
+ So this is the efficiency of metabolizable protein to net protein.
+ So what's in the blood versus what actually gets the positive?
+ And you notice that we are the most efficient in terms of protein utilization on these younger, these leger heppers.
+ And that's amazing because it gives us a couple, it gives us huge opportunity.
+ This is when her protein requirements are the highest.
+ It is these really young, young ages.
+ This is when the majority of our frame growth occurs, when the majority of our muscle growth are skeletal growth.
+ So it's really, as she is, as the man is really high, her efficiency of use is really high.
+ Which means also then we can really, really, if we feed them, they will grow and we feed them correctly
+ and they will have the right body composition.
+ All right.
+ If we look more at just growth curves, so here's body composition curves.
+ This is classic data from the 60s and 70s where they get a lot of stereo slaughter studies.
+ The types of trials that nobody could do today because of costs in some countries
+ because of animal welfare regulations but costs, these are expensive studies.
+ So if we look, we'll come back to this one.
+ If we look on the right panel, so in this bottom one, this is body protein.
+ And if you notice, it's pretty much linear up until about here.
+ Somewhere in this box and then it starts to slow down.
+ We'll get body fat, not a lot of body fat being accumulated until we hit this period
+ and there's an inflection point where she starts depositing a lot more fat.
+ That point where that inflection occurs is pretty much where puberty is.
+ So if we think about what we could potentially do, growth flies, pre-peural.
+ So in this phase, it's really hard to get these little kids fat if it's a well-balanced diet.
+ They just want to grow.
+ They want to grow frame, they want to grow muscle.
+ And then we get puberty, puberty is kind of a combination of initiation of puberty,
+ little bit of age, hormones.
+ The hormones are also back related to body composition.
+ So it's really related to body composition.
+ And then they start to increase in body fat and protein requirements go down
+ and our efficiency of protein use goes down as well.
+ So we really should focus on how can we really capitalize on maximizing that
+ that need to show accretion, pre-purity.
+ Body condition.
+ Okay, why don't I talk about it a lot?
+ Why don't I give numbers?
+ Oh, exactly, not a huge fan of it.
+ This is actual data.
+ This is actual slaughter data.
+ There were five breed to cattle in this study.
+ One of which was Holstein's.
+ And then four beef reeds.
+ Three people.
+ I'll train the same way to do body condition scoring.
+ And then they slaughtered them in did body composition.
+ And you can see there's not a correlation.
+ If they were perfect, they'd be on that solid line.
+ Okay, so look, here's an animal that's basically a three.
+ But really only has the body fat content of an animal that would be 1.5, 1.3.
+ Body condition score.
+ It's really hard to tell anything other than right the way I do it.
+ The tooth in.
+ They're too fat.
+ And once I'm on the side of honor, just right.
+ Okay.
+ And this really, let's explain this a little bit why body condition score
+ is really only looking at sub-totainous fat.
+ Okay.
+ It's really not telling us what is, what will tell us some also on
+ marbling and, okay, external.
+ Okay.
+ Outside of the skeleton.
+ So much of this fat deposition that occurs, though, is internal.
+ And we can really have big shifts in body composition and never see it
+ because it's mesenteric fat.
+ And if we think about this relation to fresh cow health,
+ that mesenteric fat is very, very metabolic reactive,
+ very much related to insulin responsiveness, sensitivity,
+ and even overall insulin production because as mesenteric fat increases,
+ it infiltrates the pancreas and the pancreas doesn't get any bigger.
+ Okay.
+ So it's basically active pancreatic tissue gets smaller,
+ so insulin production goes down, a whole cascade of events.
+ So we need to come up something.
+ I wish I could stand here and say there's something, you know,
+ far superior to do in body condition.
+ I think a lot of it really comes back to as we understand how to form
+ like these diets better, we can avoid creating some of that mesenteric fat.
+ No.
+ Okay.
+ We'll talk about that a little bit more.
+ Now, how does this fit with haphers?
+ So back to that day step modeling that I did.
+ Okay.
+ Well, let's let's look at it a little bit differently.
+ So the way I determined gain was what was first limiting?
+ M-E-R-M-P.
+ And I took the minimum of that.
+ So let's say M-E was 800 grams and M-P was 900 grams.
+ Well, then the actual gain I took was 800 grams.
+ If it was the opposite, where M-E was greater than M-P.
+ So let's say we were 900 grams of M-E and only 800 grams of M-P.
+ And I said that that extra 100 grams of energy allowable gain.
+ Basically was going data post was going to that that position.
+ Okay. That's what these lines are.
+ So the solid line is we could say protein allowable growth.
+ Okay.
+ And the dash line is energy allowable.
+ So we get here.
+ We're starting to see where we're seeing some small increases in body condition.
+ But notice what happens about three, four weeks before calving.
+ And if we think about this cleanly intake goes down.
+ Okay.
+ We all know these intakes are starting to come down.
+ And her requirements are going up because Amanda Genesis increased demand of the gravity uterus.
+ Okay.
+ Remember that that calf is that fetus is still growing about 600 grams today.
+ Huge demands.
+ But her intake goes down.
+ So she's actually going into some negative energy and protein balance the last three or four weeks.
+ Do we see it?
+ And not always.
+ Sometimes we do.
+ And it's really hard to tell.
+ You think about these tapers.
+ They're changing.
+ Their pelvic shape is changing.
+ All their ligaments are starting to loosen up.
+ Everything's changing as we look at them.
+ And they do look like they lose condition.
+ I always thought it was.
+ Yeah.
+ It was probably just because he's loosening up and changing.
+ But I really have to plan with this type of data.
+ I'm really beginning to think that yeah, they probably they are losing condition.
+ Is there anything we can do about it?
+ No.
+ I think it's I think it's normal.
+ Okay.
+ I think we need to get over ourselves and thinking that we can prevent and then treat any disease, fresh out disease, whatever.
+ I think we've got we go too far sometimes.
+ I think some of this is just normal physiological shifts as you go through different production steps.
+ And they're needed to trigger hormone responses, metabolism shifts, all of these things.
+ So I think we kind of sometimes set ourselves up for unrealistic goals.
+ Okay.
+ So really looks like she's not growing.
+ Okay.
+ And that timeline of how long she's not growing.
+ Well, that's a little debatable.
+ I'm going to show you one more graph.
+ Then I got to switch presentations to show a couple of things.
+ And I'll explain more of that.
+ If we say that she's growing the entire time that she's pregnant.
+ Okay.
+ That's these late blue bars.
+ Okay.
+ And let's say that she needs to be 1,640 pounds at cabin.
+ Well, she's growing that full nine months that she's pregnant.
+ She's only got average 1.9 pounds a day, 900 grams.
+ If she's only growing though for the first eight months, then she's got to average over a kilo a day.
+ But if we say, you know what, she's really not growing the last six weeks of gestation.
+ She's got to do 1.1 kilos a day.
+ And if we look at this, if I, my back calculated this, if she's only growing for the first seven and a half months,
+ I mean, her cabin weight is going to be 77% of mature weight.
+ She's grown for eight months, 78%.
+ Where do our, a lot of our herds end up in milk production on those first half peppers?
+ 75 to 78% of mature weight.
+ Okay. And at all, I'm convinced anymore.
+ It's all because we have been assuming that they grow during the last one to two months of pregnancy as halfers when it really looks like they don't.
+ So now bear with me while I change the slide.
+ Okay.
+ So this was a poster.
+ I was challenged on this thinking by Japanese.
+ Okay. So by one of our clients and recurring.
+ And they went back, we went back from their research farm.
+ They, they pulled some of their data together.
+ And then we also went back and looked at the equations that are in the, in the model.
+ The 2001 air-energy and the 2021 nasum.
+ And we calculated, okay, some weight is here.
+ So here is based on whatever equation you want to use.
+ What the calculated, gravity, uterine weight.
+ Okay. So that's placenta, fetus, all the fluids.
+ And you can see there's differences in what equations they work from.
+ Okay.
+ Nasum 2021 was a re-evaluation of the 2001 NRC.
+ The 2001 NRC, Alan Bell's work at Cornell.
+ Pregnancy magically started at 191 days of gestation.
+ And, and we know that's not real.
+ Now, how did he end up, how did Alan end up doing that, saying that.
+ Just because he didn't, he didn't start slaughtering any dry cows, any, any pregnant cows before that.
+ So that's just the beginning of his data.
+ Okay.
+ Now, if we take those numbers and we subtract off from body weights, okay.
+ And these are body weights of the animals that were weighed on scales.
+ Here's what our actual step-to-sfree body weights look like.
+ And you notice, we're back here, 195 days pregnant.
+ Okay, so we're talking three months.
+ And you look, these girls, these curves, plateau, they actually get flat, pretty much flat.
+ So, after going through all of that, what we, oops, sorry.
+ What we have kind of come up with is, we really should be looking at meeting first-caving target weights
+ at a minimum of 60 days pre-caving.
+ And actually, looking at that data, we think it should really be 60 to 70 days.
+ So suddenly, so 70 days is, is a little over two months, let's say two months.
+ Now, if we go back to this graph, okay.
+ This is only six weeks.
+ That's the PowerPoint.
+ I'm sorry, folks.
+ PowerPoint sometimes is just the craziest program in the world.
+ You tell us to do something and it does something at once.
+ We only did six weeks here.
+ If I take that back, another two weeks or another three weeks.
+ All right, so we're going to have to begin in 2.3, 2.5 pounds a day, so 1,200 grams a day.
+ Okay, and that would probably get us into that, see if two weeks was another percent.
+ So another two weeks would take us down to 76 percent.
+ Yeah, our heifers, bread heifers, we need to be growing them faster so that we can get the performance out of them.
+ If you want to do that while they're lactating, feel free.
+ You're going to give up a lot of milk, okay.
+ And it's, it's, from a cost perspective, we can grow them right
+ and get more milk out of them in that first lactation.
+ It really is better, okay.
+ So how do we do this?
+ Well, we got to think about what we're feeling.
+ We're going to talk a little bit about NDF sugars and starches.
+ We're going to talk, you know, amino acid.
+ You notice I'm not talking protein.
+ It's really amino acid, rumin ammonia.
+ To make sure we can meet the nitrogen needs of the bugs in the rumin.
+ And then minerals and vitamins.
+ Hey, I don't care.
+ NRC or nasal requirements.
+ Really no reason to feed more than that.
+ Unless you've got interference, you know, high molybdenum or really high sulfur water,
+ where you're going to have some antagonistic effects on absorption on some other minerals.
+ Kind of slightly specific, but to, but to, but to just blanket, say,
+ you should feed, you know, 300% of requirement of, of, of,
+ manganese, no, no, okay.
+ Let's, let's, there's a cost associated with, with those type of recommendations.
+ Ammonia, okay.
+ Nothing about food protein.
+ Food protein meaningless.
+ Forget food protein, okay.
+ We're only talking about, that's just total nitrogen.
+ We should be talking about amino acids.
+ And rumin needs that ammonia, okay.
+ So that's what we really should be thinking.
+ I really want you to think as nutritionists, as we're going through this stuff.
+ I want you to understand.
+ We don't feed cows, okay.
+ First and foremost, we're microbial nutritionists.
+ So we want to focus.
+ We really need to be thinking about how can we maximize what comes out of the room?
+ And that's our cheapest source of, of amino acids.
+ That's our cheapest source of energy to the, to the animal.
+ And then we supplement.
+ Now, that does get tricky because now we've got to get into.
+ What kind of NDF are we feeding?
+ What's our quality of forages?
+ So this, this is really kind of meat data.
+ Now, first of all, remember.
+ I have the two thirds of the microbial protein that's coming out of the room.
+ It is coming from, for menable NDF.
+ And we also have, you know, so the higher the quality of NDF,
+ the more fermentability, the more microbial yields will get.
+ If we have low, so we'll be entering to low quality NDF.
+ So it's 60s and higher or, or NDF digestibility is very terrible.
+ Then we're going to run into room and fill issues.
+ So there, there's this balancing act here.
+ I think it's also kind of an interesting one.
+ Here's a meat paper.
+ Okay, this is from 2023, where they showed that that, okay,
+ oh boy, you know, hot topic.
+ Let's limit feed heifers because our forages are too good.
+ Wow, I think this is a meat one.
+ Limit feeding heifers, okay, higher rates of cross suckling.
+ So let's think about this.
+ Especially, you know, we take those young heifers,
+ limit feed them.
+ Come on, they're like teenagers.
+ They're looking to get into trouble.
+ So what are they going to do?
+ Wow, they're going to go suck on each other so that they have something in their mouth.
+ Wow, okay.
+ And here's how some of that data looks, okay?
+ So restriction on day two.
+ So that simulate limit feeding.
+ Look at what happened to those cross suckling events.
+ And it took them time afterwards, you know,
+ it really took them two days to come back to normal, okay?
+ So I think that's a negative.
+ That's a big negative for me on doing limit feeding.
+ My goal on these girls is, you know,
+ anywhere from one to 1.3% of body weight as forage and deff, okay?
+ And we'll come back and talk about that a little bit more.
+ Sugar's in starches.
+ Notice I throw in here like the acid.
+ Okay.
+ Sugar's what's the end product of sugar fermentation.
+ Acidic butyric in some probe.
+ Not bad.
+ All good.
+ Okay.
+ Acidic goes a lot for adipose metabolism.
+ Butyric adipose metabolism.
+ And a lot of it's used in the room and all.
+ Okay.
+ A lot of it doesn't even get into the bloodstream because the room uses it as a synergy source.
+ And probe goes to glucose,
+ which then goes for energy requirements.
+ Starch is a lot more complex.
+ It really depends on where it's being digested.
+ If it's fermentable, good.
+ Primarily going to propinate.
+ Okay.
+ If it's not fermentable,
+ but it's digested in the small intestine,
+ it goes right to glucose.
+ But because of where it is absorbed,
+ about more than 40% of it is used for adipose metabolism in the GI tract.
+ So it doesn't even reach the liver.
+ It never leans that the GI,
+ the gut basically,
+ and is being used for adipose.
+ And even that does get out of the liver.
+ It's just because of the way room and its systems are put together.
+ A lot of it ends up being used for adipose metabolism.
+ Okay.
+ So it's really,
+ we really want these end-products,
+ these VFAs coming out of the room.
+ Good fermentable fiber sources,
+ supplement with the right type of starch,
+ or sugar,
+ and grow bugs.
+ Lactic acid.
+ What's all this crap about lactic acid?
+ This is kind of a fun one.
+ If we look at ranges, okay,
+ corn silage will range three to nine percent lactic acid.
+ Alpha silage is one and a half to eight and a half.
+ And this is looking across
+ dairy land data,
+ as well as some of
+ and dairy one data.
+ Small grains, grasses,
+ anywhere from two to ten.
+ It really depends on the stage of maturity of the grass.
+ If it's high sugar,
+ at harvest,
+ it could be ten, fifteen percent.
+ It could be ten, fifteen lactic that high in Europe.
+ Really immature grass harvested,
+ a little wet,
+ and awesome fermentation,
+ all lactic acid.
+ Is that good or bad?
+ Well, a little lactating cow,
+ it's not terrible,
+ because that lactic,
+ some of it will get converted to glucose
+ or propionate in the room in by a specific bug.
+ And half or so,
+ and in feedlite cattle,
+ it's a good thing,
+ you'll see,
+ it goes to marbling.
+ And halfers though,
+ it could be a really bad thing.
+ So this is actually,
+ this is hosting cow data,
+ where they looked at two different fat pools,
+ so intra-muscular and subcutaneous,
+ and where those carbon units
+ and the fatty acids and the fats come from.
+ You notice,
+ you know,
+ when we talk about subcutaneous,
+ two thirds of it basically comes from acetate,
+ and about a third of it comes from black tape.
+ Intramuscular,
+ yeah, depending on the energy level,
+ okay,
+ we'll get,
+ we can get a fair amount of it coming from black tape.
+ Real data,
+ you know,
+ 1984,
+ Journal of Nutrition,
+ but again,
+ this is actual cow data.
+ That always intrigued me,
+ and then what intrigued me more,
+ was one of Danny Fox's grad students,
+ and he was still at Michigan,
+ who missed his PhD work with the year 1979,
+ and this is with hosting steers.
+ And the whole idea was,
+ there were primarily crop farms grow a lot of corn,
+ and they would feed cattle,
+ they'd buy a bunch of steers in the fall
+ and feed them,
+ and they were doing it with corn silings.
+ And their thinking was,
+ if they amoninated the corn silage at harvest,
+ it would increase the crude protein content,
+ make cheaper diets,
+ yeah, yeah, yeah.
+ All right.
+ Perferent chart?
+ They steers here.
+ Untreated,
+ couple different levels of ammonia.
+ Okay,
+ so that's where we're really looking at.
+ We can just look at this 7.8 versus 15.6.
+ And when we look at the lactic concentrations
+ of the silage,
+ 3.8 versus 5.5 to 6.
+ And they slaughtered them.
+ Okay.
+ So our control,
+ the lactic,
+ carcass fat, 25%.
+ And you see,
+ as that lactic comes up in that silage,
+ look at what happens to carcass fat.
+ 27, 28.
+ Okay, here,
+ blowing up down here,
+ so it's easier to see.
+ Okay.
+ Another trial.
+ So we're looking at going from 4.9 to 7.3
+ to 8% lactic acid.
+ And when we look at carcass fats,
+ okay,
+ so we won't worry about,
+ this is menensen level 0,
+ 16, 33 ppm.
+ Doesn't really matter.
+ It's kind of been independent variable here.
+ But look,
+ lower lactic,
+ 30, mid lactic,
+ 32,
+ high lactic, 33.
+ All right.
+ So it's really looking like we can think of it this way.
+ Every point,
+ over 4% lactic acid,
+ okay, we could start there.
+ So 3.8.
+ So every point,
+ over that,
+ over 4,
+ we can see a couple of points in carcass fat.
+ You want to make heifer's fat?
+ Feed down a diet that's,
+ we could say lower in protein,
+ okay,
+ we can limit a little bit of protein here.
+ But let's feed him a lot of lactic acid.
+ And feed him a diet that's successful.
+ Feed him a diet that's 6, 7%.
+ I can guarantee you,
+ even if they're around breeding age heifers,
+ within a month,
+ where we're doing the AI
+ or doing bread checks,
+ is going to come in,
+ complainin' that you've got fat heifers.
+ And we'll look at that,
+ while internal.
+ Then there,
+ it's actually really wild.
+ There's a lot of fun,
+ we can change body composition
+ because of lactic acid.
+ So selecting the right forage,
+ harvesting it correctly,
+ really, really important.
+ All right.
+ I love this graph.
+ Kind of shows us the requirements
+ on the efficiency
+ throughout lifetime.
+ So the brown section in back here
+ is the calculated
+ ME required.
+ I put them on a kilo of dry matter intake.
+ The green bars are MP required
+ per kilo of dry matter intake.
+ Start off with a two-month-old heifer,
+ like I did 800 grams a day gain.
+ Okay, every month,
+ here is a far-off dry cow,
+ close-up dry cow,
+ and then some lactating.
+ First lactation animal,
+ given three kilos
+ and having to grow 500 grams,
+ 30, 40, 50 kilos of milk on a mature cow.
+ So we're hundreds of kilo cow.
+ I want you to notice a few things here.
+ We look at these two
+ and three-month-old half-lips.
+ We look at their protein requirements.
+ There is not,
+ that is greater than a cow given,
+ which size?
+ That's greater than a cow given 50 kilos.
+ This is the most
+ protein-intensive
+ and most protein-assistant
+ use, time-of-use,
+ in the animal's lifespan.
+ We can take advantages,
+ so much growth here, cheap growth.
+ Because they're so efficient.
+ Then we get into these girls.
+ We'll say three, four, five, six months.
+ Okay, we draw a line here.
+ We take this four-month-old half-er
+ and come straight across.
+ Equivalent to a cow given 45-50 kilos of milk.
+ Okay, that's how strong,
+ high of a demand these young ladies have.
+ We get out there,
+ and we get into where about
+ puberty. Okay, we're still talking cows
+ given 30 kilos or so.
+ We hit puberty.
+ Okay, we start to see that our protein requirements
+ are coming down.
+ Get them bred.
+ Our bred halfers,
+ this is the lowest time protein requirements we'll ever have.
+ Last trimester with that concept is growing,
+ and then mammogenesis.
+ We spike back up.
+ And then that last month,
+ because of mammogenesis, really,
+ they have densities equal to
+ or greater than cows given 50 kilos.
+ We can't feed
+ peppers, close-up peppers
+ to meet the requirements.
+ Okay, and keep an achieves everything else
+ that we want in terms of
+ room and fill,
+ and not pushing them into
+ the potential for negative energy balance,
+ post-caving and everything.
+ Okay, it's just a fact of life
+ that these animals in this last three or four weeks
+ we can't meet the requirements.
+ So we have to make sure we have the size
+ and scale of
+ right body composition before we get to that point.
+ So the real challenge here is,
+ oh, and I also want you to notice this,
+ that two months before cabin.
+ Okay, those peppers have the same requirements
+ as close-up dry cows.
+ Okay, so really can we be looking at
+ how do we feed these peppers?
+ Well, it depends on her size
+ and grouping strategies.
+ And let's talk about this.
+ How can we do this?
+ I'll tell you right now,
+ if you're doing one pepper diet
+ or one bread pepper diet
+ and basing it off of the average
+ bread pepper,
+ that's about here.
+ You're losing your protein deficient
+ and a lot of that growth phase
+ and you're getting smaller peppers
+ than it should be.
+ So, last and six months.
+ Okay, very similar to cows
+ given greater than 40 kilos of milk.
+ Phase, maximum frame,
+ and muscle development.
+ Very high efficiency of growth.
+ Feeding to high levels,
+ correct growth,
+ lowest cost per kilo of gain.
+ There's no way around it.
+ We can be so efficient with these little kids.
+ I'll start with a calf starter.
+ Okay, again,
+ we set our goal
+ at triple birth weight by 90 days.
+ The best starter,
+ is cow calf starters.
+ It should look like
+ a lactating cow's KMR
+ for the support,
+ 45 kilos of milk in a pellet.
+ Okay?
+ Huh? What's that mean?
+ Not cheap.
+ Okay?
+ Good starters are not cheap.
+ Anyone who just buy starters based on price,
+ you're buying something
+ that's got a lot of starch in it
+ and you end up making
+ rumens that look like this.
+ Okay?
+ This is
+ trials that a colleague
+ in mind I did a number of years ago
+ comparing calf starters.
+ Lower starch,
+ high sugar, higher NDF.
+ Typical high starch calf starters.
+ You can see
+ the differences in the rumen papilla.
+ Okay, rumen pH is
+ significantly different.
+ You know, greater than 575 or
+ 575.
+ Here's some more.
+ Okay?
+ There's one where there's no growth.
+ But look at these. These are burnt.
+ We're making
+ these high starch
+ starters
+ make calves
+ subclinically acidotic.
+ And we are getting rumen damage.
+ What impact does that have
+ like time in the animal?
+ I don't know.
+ There's a lot of people
+ that grow a lot of hosting
+ steers,
+ or even now in the US
+ with all the hosting
+ angus crosses.
+ We've got a lot of dairy beef,
+ half dairy beef.
+ These long-fed calves
+ or calves that come off
+ with dead calf programs.
+ They're performance
+ and the feed lots a lot.
+ There's some data out there showing
+ through weaning or, you know,
+ first month post-weaning
+ has lifetime impacts
+ on performance.
+ Okay?
+ So all starts with calves
+ starters that we get good healthy rumen
+ development
+ so that we can then get them
+ onto diets where they can grow.
+ Okay, so here's an example.
+ If we take
+ we're going to use this example
+ of a few different ways.
+ Okay?
+ So we've got a balanced diet.
+ One where I just, instead of using
+ any type of protein source,
+ I'm just going to use your real.
+ Okay? You could use
+ an soybean meal.
+ Or I'm going to do
+ health alpha hay
+ based. Or I'm only going to feed
+ corn silos in health alpha hay
+ in minerals. Nothing else.
+ So same dry matter
+ intake.
+ Okay? And look at this one
+ with no true protein sources in there
+ but we're using urea.
+ That's our lowest performing animals.
+ If we look at our costs,
+ okay? Yes.
+ The balanced ones are a little bit more expensive
+ than urea.
+ And actually the
+ corn silos self alpha hay one
+ using market prices ended up being
+ the most expensive.
+ But if we look at the gains
+ and if we take the minimum of energy
+ in a allowable gain
+ and have a value of the animal
+ to represent an income,
+ our income over feed cost.
+ Getting that balanced diet to get
+ up around that kilo a day gain
+ is actually our highest
+ return on investment.
+ And when we look at
+ just taking this
+ to a couple of examples
+ we're only going to do
+ 700 grams a day
+ versus a kilo.
+ Well, to go from
+ beginning weight of 300 pounds
+ and ending weight
+ at 650, okay?
+ So call this
+ close meaning to breeding
+ or prebreeding.
+ There's
+ the number of days.
+ Okay? So we knocked off
+ three months on our feeding cycle
+ by feeding them
+ for higher performance.
+ They are feed costs are higher.
+ But look at our total cost.
+ It actually ends up being cheaper
+ because there's less days on feed.
+ Not only that,
+ by getting them
+ turning them over faster like that,
+ we just increased our capacity
+ of the system by 30%.
+ Just because we can get them out
+ of that section of the facility
+ that much faster.
+ Okay?
+ So what happens
+ if we were to
+ feed
+ a pretty decent diet
+ to three month old peppers?
+ Okay.
+ So here is
+ corn tileage,
+ 3.3 pounds dry matter,
+ 4 pounds of grass hay,
+ 1.7 pounds of
+ rolled corn,
+ ground corn,
+ cork root ground.
+ So by past soy
+ and some minerals.
+ Well,
+ that gets us to
+ gains of, you know,
+ 900 grams.
+ Okay?
+ If we look at that diet
+ and we were to blow this up
+ and instead of feeding it at 10 pounds,
+ we were to feed it
+ at 10 pounds.
+ 28 kilos of dry matter.
+ That diet
+ would support
+ just about 44 kilos of milk.
+ Interesting how that works out, isn't it?
+ Goes back to
+ this graph.
+ Okay? We're here trying to feed this
+ to try to get the performance here.
+ It's the same requirement
+ basically as these cows
+ giving 45 kilos of milk.
+ Okay?
+ So,
+ if we look at it,
+ let's look at some things here.
+ That based balance diet,
+ kind of balanced 18% protein.
+ Ah, using urea
+ with grass hay,
+ only 15% protein,
+ alpha alpha instead of grass,
+ and urea 13 and a half
+ corn silo gel alpha hay,
+ 12.4% protein,
+ using grass hay,
+ 12.7%.
+ There's our MP gram
+ for kilo of intake,
+ MEs, okay?
+ But here's our game.
+ So,
+ a little over a kilo,
+ a little over 900 grams,
+ 65 grams.
+ Feed cost per day.
+ Yes, that is the cheapest diet.
+ Actually, with grass hay,
+ it's the second cheapest.
+ It's the cheapest diet.
+ No.
+ That doesn't matter.
+ Cost per pound again.
+ We look at it from an
+ environmental perspective too.
+ And this is a really,
+ really important one that
+ you need to be thinking about.
+ Okay?
+ Is it the cheapest diet?
+ No.
+ That doesn't matter.
+ Cost per pound again.
+ We need to be thinking about it.
+ Okay?
+ If we look at our methane emissions,
+ so MCAL is a methane
+ for pound of average year of gains
+ or an intensity standpoint.
+ You can see,
+ this urea with grass hay is our highest.
+ The corn silo gel alpha hay only is the second highest.
+ Not much difference here between alpha and grass.
+ Look at our manure nitrogen too.
+ So we're feeding less nitrogen.
+ Okay? We're treating less nitrogen.
+ Sorry.
+ My fingers are slipping down my mouth.
+ And we can reduce phosphorus.
+ And from a feed efficiency standpoint,
+ I can give us the best efficiencies too.
+ Again, treating growing
+ happers similar to how we think about
+ definitely more along the lines of how
+ beef people think about efficiency.
+ Okay?
+ That's what we need to do.
+ So what do I do?
+ Well, it really depends.
+ A lot of the times,
+ I'm just doing something like this,
+ where I've got a diet that is from
+ weeding to six months.
+ Okay?
+ And to me, the best way to do that is just to give them
+ that they are formulated for
+ 40 to 50 kilos of milk.
+ And then I'll have one that is for everyone else.
+ Okay? But I've formulated
+ for those happers that are like seven, eight months of age.
+ Why do I do that?
+ It's, again, it's what can be easily implemented on farm.
+ And there's a couple other reasons as well.
+ Okay? So, if we have happers on a dairy,
+ so not just the upper growers,
+ feed their little girls that I got a TMR,
+ a couple of weeks transition from calf starter to TMR.
+ I don't feed extra hay or like that.
+ It's just, let's get them onto the TMR.
+ That's with the right calf starter.
+ If we don't have calf,
+ if we don't have cows,
+ okay, if it's just the ever growing operation,
+ fine, then we just formulate a diet that looks like the hike out TMR.
+ Okay?
+ From seven months to about six or eight weeks pre-caving,
+ it's tricky because it depends on how many animals we're talking
+ and how big of a TMR mixture I have.
+ If I have a big enough TMR mixture
+ that I'm going to do full batches,
+ I can do full batches of TMR.
+ I'll do three diets.
+ Okay? Seven months of breeding.
+ It's about 180 days pregnant,
+ then 180 days pregnant to pre-caving or cabin.
+ Okay? So basically taking that graph
+ and you can kind of splitting it out into these three periods.
+ Okay?
+ That's if I can make big batches of TMR.
+ And this is something where a lot of South America
+ and other parts of the world,
+ guys buy small and the farms have small TMR mixers
+ and boy, it is so inefficient.
+ Why?
+ Why is it inefficient?
+ It's expensive.
+ Okay? If we take these are American prices.
+ Okay? So if we value the person
+ loading that mixture, running a loader,
+ or a skid steer, or a private loader on a tractor,
+ the loader and the person operating at $90 per hour,
+ which if you had to go rent one,
+ or hire an operator,
+ would be pretty fair,
+ about $1.50 a minute,
+ and it takes about 15 minutes to load the TMR.
+ There's $22.50 in cost.
+ If we take that mixer,
+ okay,
+ valued at $180 per hour,
+ so that's $3 a minute.
+ And it doesn't matter what size mixture it is.
+ Okay? It takes about 30 minutes
+ to load, mix, deliver,
+ drive, unload, come back.
+ All right?
+ 30 minutes is probably a short amount of time
+ in a lot of these operations.
+ That's $90.
+ So that's $112 just in labor and equipment
+ to make a load.
+ Now, if I can feed 245 heifers off of that load,
+ my equipment and labor cost is $0.46 per heifer per day.
+ If I'm doing half batches,
+ I'm like, oh, I'm going to feed this group specific disk.
+ It's only a half batch of TMR.
+ Well, I got to make a choice of number of batches
+ and my time really doesn't change.
+ So now I'm talking $92 an animal a day
+ and labor and equipment costs just for feeding.
+ All right?
+ If we say soybean meal, $360 a ton,
+ that's equivalent to $2.6 pounds of soybean meal.
+ Okay?
+ So 1.2 is 1.3 kilos of soybean meal in labor costs
+ and equipment costs by not having full batches.
+ Okay?
+ So you tell me, Mr. Nutritionist,
+ I want you to save my diet,
+ my heifer diet is 10 cents an animal a day,
+ but I'm going to have to feed more loads.
+ I actually cost the farm money.
+ So we need to be thinking about
+ how can we really efficiently feed these animals
+ to reduce overall costs.
+ Okay?
+ And all of you with vertical mixers
+ or farms with vertical mixers,
+ those things are meant to work with full batches.
+ They do not do anything less than two-thirds of a batch.
+ They do not mix with the dam.
+ I don't care what the company says.
+ They're meant to be full.
+ And if you're working with dry hay or billage,
+ those are the most expensive ways to process bills.
+ Okay?
+ If you're going to feed dry hay,
+ you're going to feed straw,
+ get a hammer mill.
+ Have the farms get a hammer mill.
+ You can blast through with some of these hammer milled processors.
+ You can blast through,
+ they can make a pile 30-40 tons of dry hay in an hour.
+ And then it's using the mixer just a blend,
+ which is what they're designed for.
+ You start doing this trying to process a bail,
+ and suddenly you got that mixer sitting there running
+ for 45 minutes to an hour just to break up a bail.
+ At three bucks a minute.
+ Wow.
+ You can pay for a bill processor pretty quick.
+ Okay?
+ Effect formulation.
+ So again, it comes back to farm size,
+ mixer size, number of loads.
+ I'll look at a couple of different options.
+ I'll do two, two heifer diets.
+ And it could be a pre-breeding
+ and last trimester is one mix.
+ And early mid is the second.
+ So really taking advantage of those differences in requirements.
+ Smaller farms.
+ I think this is great.
+ I love doing it this way, actually,
+ where I'll have one heifer diet,
+ where I'll either have it formulated for these younger heifers,
+ recognizing I'm overfeeding some of these girls,
+ or I'll formulate it for the average for these early bread heifers.
+ But then I'll top-dress a concentrate
+ at like two, two and a half kilos per animal
+ on these younger heifers
+ and on these late gestation heifers.
+ Okay?
+ That's a management decision.
+ Can the farm manage, you know,
+ can we separate out these heifers?
+ Can we separate out these later gestation heifers
+ to top-dress
+ and same with these younger heifers?
+ It could take a little bit more time.
+ You guys deliver the grain and like that.
+ But it could work really, really well.
+ Here's some examples.
+ So if I take a diet that where I formulated it for nine-month old heifers,
+ and I fed it to all heifers,
+ nine months and older.
+ Okay?
+ So here's what the amount of grain will look like
+ at 918 and 21 months of age.
+ Okay?
+ And this is that corn silage, grass hay.
+ I just did distillers in this example.
+ Okay?
+ And for a GNDF as a percent of body weight, you know,
+ 1.25, 1.26, 1.2,
+ about a kilo of energy level gain,
+ 1.1 kilos, protein level gain,
+ those young heifers.
+ Look at that last couple of months.
+ We're still really good gains.
+ We're overfeeding a little bit.
+ So we're growing them a little bit faster here
+ in that early, like, early gestation.
+ That's okay.
+ If I instead were to do it for the bid,
+ for the average pregnant heifers,
+ so 140 days to carry cash,
+ and I said, then doll.
+ Okay?
+ So there, I'm good, you know, 1.1 kilos in that phase.
+ Look, I'm actually protein deficient
+ on these nine-month-old heifers.
+ Huh?
+ Start to see a little bit of adipose accumulation.
+ Which was, look at my breath, look at my last couple of months,
+ only 800 grams.
+ And we got to be up around a kilo.
+ Okay?
+ So we're going to have this light-caving,
+ we're going to be pretty underweight at cabin.
+ But, if I were to then take,
+ and say I'm going to keep that 240-day pregnant
+ for as my base diet,
+ then I'm going to top-dressed.
+ You know, either a little, you know,
+ 1.2 kilos of top-dressed on the young heifers
+ and a kilo, or two and a half kilos,
+ and light gestation.
+ I can maintain that performance, you know?
+ So I'm 1.1 kilos,
+ 900 grams.
+ Again, it can work economically.
+ Okay, so nine-month,
+ I do that diet for the nine-month heifers,
+ and feed it to everyone.
+ Okay, here's my number of days at the different periods,
+ 420 days in total.
+ I told feed costs about $1,300.
+ My average daily gain across the whole periods,
+ 2.4 pounds.
+ And my cost per pound of gains,
+ $1,28.
+ If I do it for the mid gestation heifers,
+ suddenly I've got to feed him for 463 days.
+ This is to get to the same weights, okay?
+ My feed cost isn't much different,
+ 1267.
+ My gain is only 2.03 pounds.
+ My cost per pound of gains is actually $1,35.
+ If I use that diet,
+ though, and then top-dressed the two ends,
+ I can get back to that 418, 420 days total period.
+ My feed cost, 1223.
+ My cost per pound of gain,
+ $1,28.
+ Okay, so it's really just feeding the wrong diet,
+ most expensive in terms of cost per pound of gain,
+ but there are some opportunities here
+ to either feed them as all the younger heifers
+ or to be a little bit more precise to top-dressing.
+ Now, that extra 45 days here
+ that we're talking,
+ about 10% more capacity in terms of being able to raise
+ hoffers with the same infrastructure, all right?
+ So the overall profitability of the system can go up as well.
+ So what am I looking at when I'm evaluating this diet?
+ My intake, you know,
+ plus or minus five percent predicted,
+ ME is a percent of requirement,
+ you know, 95 to 105 percent requirement.
+ And my MP, I should change this,
+ because I've got to express a little differently now.
+ I try and I will keep my MP allowable gain
+ to any allowable gain greater than one.
+ You know, one to one point two, you know,
+ so it's really always keep my MP gains greater
+ than my ME gains.
+ That's important.
+ Room and ammonia is I want to be greater than 110 percent.
+ Forage NDF is a percent of body weight between one and 1.3.
+ PNDF I don't really worry about,
+ or the hours below 5.8.
+ Sugar starts, you know,
+ I'm very flexible on those,
+ because it depends on my forged quality.
+ The big one is,
+ my lactic acid less than 4 percent.
+ And make sure that when signing,
+ lysine are greater than 100 percent of requirements.
+ Okay.
+ These are pretty easy diets to do,
+ especially if you have forages
+ that you can allocate to specific groups of efforts.
+ So, take advantage of the efficiency of growth
+ in these young habits.
+ Feed them for more gain.
+ Maximize your correct style of growth.
+ It's the most efficient,
+ it's the most profitable way to grow efforts.
+ We have to be continuing to adjust our target weights
+ and production expectations
+ because of genetics changes.
+ Focus on cost per kilo of gain.
+ And you can expand by growing them faster
+ and not having to build more structure or anything.
+ And it also does improve your environmental footprint.
+ Okay.
+ Because we're using,
+ we're capturing more of those nutrients
+ as product i.e. gain
+ than we would otherwise.
+ Bread halfers,
+ they really look like they don't grow
+ that last six to ten weeks of pregnancy.
+ Okay.
+ So, we need to reach our target
+ counting weights
+ six to ten weeks.
+ Let's say eight weeks.
+ If we can be reaching that target first-caving weight,
+ eight weeks pre-caving,
+ we're going to make some pretty big improvements on halfers.
+ And weigh animals.
+ Okay.
+ You can buy cheap load cells.
+ Okay.
+ We're working on a way to use an iPad.
+ Like I said,
+ we're going to start a limited release of that later this year,
+ and then really take it to a larger market starting next year.
+ And it's really cool,
+ but then you don't have to catch the halfer up.
+ You can just walk through animals
+ and take pictures, basically.
+ You've got to be within like two, three meters of them.
+ And they've got to be standing in the right orientation.
+ It's pretty simple,
+ and it's really cool.
+ It gives us both not only body weight, but height.
+ So we get hip heights and wither heights doing that.
+ Come into it.
+ All right.
+ Thanks.
+ Questions.
+ You know,
+ I think there's going to be some time for discussion.
+ But also don't hesitate to email me.
+ We chat.
+ What's up?
+ You know,
+ I don't have my number on there.
+ Sorry.
+ My number on that slide real quick.
+ You guys can add me that way.
+ If you just look up this number on any of those platforms,
+ they can type.
+ Okay.
+ Okay.
+ You can find me on any of those systems.
+ Have fun.
+ Thanks for being here and talk to everyone later.
+ Ciao.
