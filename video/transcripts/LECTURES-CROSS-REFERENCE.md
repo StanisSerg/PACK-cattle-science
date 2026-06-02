@@ -9,7 +9,8 @@ source_lectures:
   - LECTURE.001: "Tom (AMTS) — Heifer Growth"
   - LECTURE.002: "Bill Weiss — Transition Minerals & Vitamins"
   - LECTURE.003: "Bill Weiss — Mineral Requirements Fundamentals"
-date: "2026-06-01"
+  - LECTURE.004: "Bill Weiss et al. — Trace Mineral Nutrition Practical Guide"
+date: "2026-06-02"
 language: ru
 ---
 
@@ -28,6 +29,7 @@ language: ru
 | LECTURE.001 | Tom (AMTS) | Выращивание тёлок | 77 мин | Industry expert, 40+ лет, software developer |
 | LECTURE.002 | Bill Weiss (Ohio State) | Минералы/vitamins transition | 63 мин | Academic, NASEM 2021 co-author |
 | LECTURE.003 | Bill Weiss (Ohio State) | Минеральные требования (fundamentals) | 32 мин | Academic, NASEM 2021 co-author |
+| LECTURE.004 | Bill Weiss et al. | Trace Mineral Nutrition (panel) | 65 мин | Academic + industry panel |
 
 ### 1.2. Типы взаимодействий
 
@@ -291,7 +293,56 @@ CS.METHOD.0XX-mg-transition:
 
 ---
 
-## 13. ЖУРНАЛ
+## 13. LECTURE.004: Trace Mineral Nutrition Panel (Weiss et al.)
+
+### 13.1. Позиционирование
+
+| Параметр | Значение |
+|----------|----------|
+| **ID** | LECTURE.004 |
+| **Формат** | Панельная дискуссия (подкаст) |
+| **Длительность** | 65 мин |
+| **Уровень** | Practical application + research translation |
+| **Связь с LECTURE.002–003** | Расширение и углубление тем Cu, Zn, Mn, Se, I, Co; логистика; added vs total |
+
+### 13.2. Новые claims по сравнению с LECTURE.002–003
+
+| Тема | LECTURE.002–003 | LECTURE.004 | Статус |
+|------|----------------|-------------|--------|
+| **NASEM = requirements, не recommendations** | Упомянуто | 🔍 Детализировано и обосновано | 🔄 Дополнение |
+| **Added vs total minerals** | Не обсуждено | 🎯 Уникальная тема | 🎯 Уникальность |
+| **Logistics (mixer, bins, bags)** | Не обсуждено | 🎯 Уникальная тема | 🎯 Уникальность |
+| **Iodine: human health > hoof health** | Не обсуждено | 🎯 Уникальная тема | 🎯 Уникальность |
+| **Selenite vs selenomethionine** | Organic Se preferred | ⚠️ Конфликт: Weiss предпочитает selenite для лактирующих | ⚠️ Конфликт |
+| **Cobalt: 0.15 ppm (beef NASEM)** | Не обсуждено | 🎯 Уникальная тема + разногласие Weiss/Hansen | 🎯⚠️ Уникальность + Конфликт |
+| **Sulfates → NDF digestibility** | Sulfates bad (general) | 🔍 Механизм: электростатическая связь Zn²⁺ с клетчаткой | 🔍 Иерархия |
+| **High ash forages: soil minerals unavailable** | Упомянуто | 🔍 Fe³⁺→Fe²⁺ в silage/baleage; «revert to mean» | 🔍 Иерархия |
+| **Liver biopsy limitations** | Полезен для Cu/Se | 🔍 Детальный разбор: не хранилище для Mn/Zn; dead animal bias | 🔍 Иерархия |
+| **Water testing frequency** | Не обсуждено | 🎯 1×/month → 1×/year | 🎯 Уникальность |
+
+### 13.3. Конфликты, требующие верификации
+
+1. **Селен:** LECTURE.002 рекомендует organic Se (yeast) для dry cows — LECTURE.004 Weiss рекомендует selenite для lactating. Требуется верификация по controlled studies.
+2. **Кобальт:** Weiss «почти не добавляет» vs Hansen «0.15 ppm необходимо». Разногласие экспертов.
+
+---
+
+## 14. РЕКОМЕНДАЦИИ ПО ИНТЕГРАЦИИ В PACK (обновлено)
+
+### 14.1. Новые приоритетные ID
+
+| Приоритет | ID | Тема | Основной источник | Supporting |
+|-----------|-----|------|------------------|------------|
+| **P0** | CS.SOTA.356 | Trace mineral logistics (mixer, premix, bins) | Weiss Panel (Steve Martin) | — |
+| **P0** | CS.SOTA.357 | Added vs total mineral specification | Weiss Panel | — |
+| **P1** | CS.SOTA.358 | Sulfates and NDF digestibility mechanism | Weiss Panel | Meta-analysis |
+| **P1** | CS.SOTA.359 | Iodine: human health safety limits | Weiss Panel | FDA |
+| **P2** | CS.SOTA.360 | Selenite vs selenomethionine strategy | Weiss Panel | Controversial |
+| **P2** | CS.SOTA.361 | High ash forages: Fe redox and availability | Hansen (in panel) | PhD data |
+
+---
+
+## 15. ЖУРНАЛ
 
 | Дата | Действие | Результат |
 |------|----------|-----------|
