@@ -1,0 +1,773 @@
+Good evening, everyone, and welcome to the Real Science Exchange, the public asks for
+leading scientists and industry professionals, meet over a few drinks to discuss latest
+ideas and trends in animal nutrition.
+In this episode, Dr. Kelly Nichols of UC Davis breaks down nitrogen efficiency, and it's
+growing importance for sustainability, high-performing dairy nutrition programs.
+Alongside, co-host Jonas D'Souza and Ben Winter from Feedworks, we here to have a discussion
+that connects nutrient utilization within environmental and economic outcomes.
+So, Kelly, this is not your first time to the pub, so welcome, but it is your first time
+in person.
+Yeah, it is.
+Yeah, thank you for joining us.
+Thank you for having me.
+And Dr. Jonas D'Souza, you're going to be the co-host today, tell us a little bit about
+yourself, sir.
+Yeah.
+So, not my first time here.
+No.
+Yeah, I'm originally from Brazil, moved to the U.S. 12 years ago, actually, doing my master,
+I work on Ben's PhD project, so it's a very small world, right?
+Yes, it is.
+We've just firking the Ohio State, then I did my PhD, Michigan State, and in 2018, I joined
+Purdue.
+First, in a technical role, moved to the West Coast, primarily helped on the West's side
+of our business, and then moved back to the residing Florida, and I lead our technical
+energy team for Purdue and the administration.
+Yeah, not that far from here, right?
+Not far from here.
+Not far from here.
+Yes, I'm about 15 minutes down the road.
+Okay, very well.
+Dr. Ferkins was my daughter's advisor for a small while.
+She went to Ohio State and kind of dropped out during COVID, so trying to get her back.
+Dr. Ben winner, tell us about yourself, sir, this is your first time at the pub, and so
+welcome.
+It is.
+And I'm drinking water.
+You're drinking water so much, though.
+Some people will be surprised later, right?
+Yes.
+Yeah.
+So, yeah, Jonas made a nice trivia to the first time we met, which was a really great summer.
+And I had just finished a master's actually in swine, that people don't know that I did
+some work in swine before I found the bright side and came back over to Derry.
+So I did a PhD with not Bill, but Norm and Ferkins and Hanigan, and actually a couple other
+great microbiologists there at Ohio State as EG and U, and was kind of a stacked group,
+and went to work for Purdue afterwards in technical service, and we almost crossed over,
+maybe by a couple of weeks, and taught at Ohio State, and many students actually probably
+called it a day during COVID, and it was a very different student environment.
+Yes, tough times.
+It was.
+And after 2024, I left and came over to feed work, so all things technical at this point
+for feed works on their room and its side.
+Yeah.
+There's another gentleman at feed works by name of Tom Elliott.
+I've asked him to come on the podcast several times.
+He's not done it yet, but he does have a lot of advice for me.
+I think I've got opinions.
+You can get the two of us on sometime together.
+I'll do that.
+Absolutely.
+Kelly, let's get started.
+Why don't you tell us a little bit about the presentation that you've given here at
+the Florida Ruminant Nutrition Symposia.
+Balchem is invested decades, perfecting the art of nutrients and encapsulation.
+And now, no amina surex cell is setting a new standard, delivering 35% more metabolizable
+lysine than leading competitors.
+With amina surex cell, you can provide your cows with a more consistent and higher quality
+source of metabolizable lysine, leading to improved and more dependable results.
+A recent meta-analysis found that feeding room and protected lysine led to an increase
+in milk fat percentage and 4.4 more pounds of energy-corrected milk.
+Feed new amina surex cell to your cows and have confidence that you're using the most
+consistent, reliable, and cost-effective source of lysine on the market today.
+Learn more at balchem.com-slash-excel.
+Yeah, sure.
+So my talk this morning focused on protein efficiency, nitrogen efficiency, really with
+a focus on reducing nitrogen excretion from dairy cattle.
+So I made reference to I'm Canadian.
+I did my undergrad at my masters at the University of Guelph, and that's when I kind of started
+this trajectory on looking at protein metabolism in dairy cattle and the interaction with energy,
+source, and supply.
+But at that time when I was learning how to position this work, it was very much focused
+on from the efficiency side how to optimize these expensive ingredients.
+So the protein rich resources, interaction, to make sure that as much as possible is going
+into milk, and then you're wasting less money essentially having it come out under the
+tail of the cow.
+I then moved to the Netherlands where I did my PhD of Atherning University, and when
+I moved there, it was kind of at the height of one of their more recent waves of concern
+around nitrogen emission in northwestern Europe.
+And I got a quick pivot in terms of how to position that type of work, which is actually
+doesn't have very much to do with the cost of rations, but the intense pressure that farmers
+faced around reducing the amount of nitrogen in manure.
+Because they're just simply, they were being charged a lot of money and fined and forced
+to, in some cases, actually close their family farms because they couldn't deposit all of
+the nitrogen that was coming out in manure.
+So after spending all those years working at the university on that topic, very closely
+related or working with industry, and then also joined industry myself for a few years,
+I really figured out how to kind of position optimizing protein nutrition with that story
+of reducing nitrogen excretion.
+Now that I'm over here in the United States again, or back in the US, back in North America,
+in a place like California, where I was told that all of the environmental concerns that
+start in northwestern Europe, they come across the ocean, they land first in California.
+So it was the same thing with methane, and now it's again happening with nitrogen.
+So in my region where I work now, it's kind of the same story.
+Of course, costs in the US is still probably more important here than it is currently in
+the Netherlands, for example, but certainly the excretion side, it's starting to become
+a bigger part of the picture.
+So the talk I gave this morning was ways that we can, well, first of all, just raising
+awareness around the potentially looming importance and growing importance of regulation
+around nitrogen excretion from agriculture, from dairy farms, but then also looking at
+some of the strategies we have in terms of currently based on our current knowledge, manipulating
+rations, thinking about ways to reduce total crude protein content, and maybe optimize
+that with energy supply and source, and then looking to the future, some of the ways that
+with more research, we can hopefully optimize that even further, like on the rumored nitrogen
+balance, urea recycling, looking, learning even more than we already do about amino acid
+efficiencies, those types of things.
+Okay, and what kind of strategies did you share some strategies today with the audience?
+Yeah, so I talked about three main things.
+So one being the impact of energy source.
+So I guess the main take home message from that is we're starting to represent amino acid
+requirements on a gram per energy basis, so MCAL of ME, for example, does the source
+of that ME really matter?
+So is it coming more from glucogenic sources, like corn silage, heavy ration, or more
+lipogenic sources, so a more fiber-based ration or fat supplementation, what we see across
+the literature work from my group and others, Jonas as well, looking at the differences in
+terms of the metabolic response of dairy cows to energy source, and have the impact of
+that on protein efficiency.
+So that's one of them.
+The second one was kind of a maybe more loose point around rumored nitrogen balance.
+So when I was working in the Netherlands, we kind of saw that as a bit of the low-hanging
+fruit in terms of impractice, a lot of dairy nutritionists probably overfeed rum-integratable
+protein pretty considerably, and in a kind of climate like that where you're really
+focused on reducing urinary nitrogen, that's an area where just raising the awareness
+of particularly in your really well-managed herds, can you start to dial that back?
+Do you really need to add in an extra, you know, so many grams of urea to just keep the
+bugs happy?
+Where are kind of the margins there?
+And then that links to my own interest in urea recycling.
+So starting to understand more about how that mechanism is working in particularly lactating
+dairy cattle.
+Historically, most of the research has been in ruminants, has been in growing cattle and
+sheep.
+Of course, the diets for feeding these animals are completely different, the way they're
+managed like young animals, completely different in a lot of cases.
+So is there more we can learn about the regulation of urea recycling in lactating dairy cows that
+could potentially position endogenous nitrogen, mainly urea, as a source that we can rely
+on a little bit more as basically a room in available nitrogen source.
+So that's a little bit, we're doing some work on that at UCD of us currently, but that's
+maybe a bit of an outlook for the future.
+And then the third one was focusing on flexibility in terms of mammary gland and amino acid utilization.
+This is something that, yeah, there's been a lot of incredible research on this for many
+years, long before I was involved in any of it.
+Something that I highlighted is the idea that there's a lot of intramamory flexibility around
+essential amino acid use.
+So we have these different groups of amino acids, pretty characteristically the group ones
+being taken up in a one-to-one ratio with their output in milk.
+That has our histidine, methionine and lysine, or sorry, histidine, methionine in particular.
+So those are ones we can currently feed as room in protected products.
+Then we have the rest of the essentials, basically, that can be taken up kind of, they're taken
+up and usually excess relative to their output in milk, but what we've seen is there's a lot
+of flexibility in their utilization within the mammary gland.
+So is there an opportunity to start looking at digestible amino acid supply, not necessarily
+focusing so much on those individual group two amino acids, but more as a group.
+And if we could target their supply as a group, is there enough flexibility within them
+that we don't have to put so much emphasis on them as individuals?
+And does that give us then more flexibility in our actual formulation?
+And starting to think about some of the ingredients that we feed, how well characterized are
+they in terms of their contribution to digestible amino acid supply of basically amino acids
+other than methionine and histidine?
+So those were the three main areas that I kind of touched on in position around how
+that could ultimately influence nitrogen efficiency dairy cows.
+And so one last question, and I will turn it over to you guys, and you guys, if you've
+listened to the podcast before, you know I can get carried away with the question.
+So elbow your way in, I won't be offended.
+But I'm kind of curious, how do you measure nitrogen efficiency?
+Is it nitrogen excretion per unit of milk or per cow or how do you do that?
+Yeah, I mean, the most classic is feed nitrogen relative to milk nitrogen.
+So that's the measure that you're probably seeing most often in any kind of published
+papers.
+And that's still from a, even from a in practice standpoint, you know at least the crude
+protein content of your diet.
+And you can make some kind of estimate of feed intake and you know what's coming out in
+your bulk tank.
+Like that calculation, how from I think it may be depend the situation you're in in terms
+of what are you targeting more that transfer into milk that you want to optimize or reducing
+the excretion in manure.
+That would influence what type of efficiency you're looking at in theory.
+We would want to say that if more is going into milk less is going out in manure, but
+that's actually not the case.
+You can jack up crude protein content and you'll get more in milk, but you'll also get
+more out in in manure.
+So if you're really looking at efficiency, it can depend if you're a dairy farmer in
+the Central Valley of California trying to, you know, you're being impacted by nitrate
+regulations, you might be more concerned about how much is going out in manure, whereas
+if you don't have those types of concerns, your protein efficiency in terms of the value
+of what you're putting in feed relative to the value you're getting out of milk, that's
+going to be what you're more concerned about.
+Yeah.
+Okay.
+So if I can lead off with a question, I asked you earlier, so you've not been surprised.
+But when you're talking about the glucogenic pathways, right, and you kind of emphasize
+that when we have a glucogenic pathway, we have less mammary lipogenesis and more non-memory
+lipogenesis.
+Did I get that right?
+Yeah.
+There's more non-memory or there's signaling to non-memory lipogenetic issues.
+Yeah.
+Okay.
+That's closer than I thought I was going to get.
+And so then the question I had asked, and I think people would be interested in hearing
+about, was if there was a difference in room and degradable starch that led to propionate
+versus the glucogenic, you know, where we absorb glucose through the small intestine, if
+you want to revisit that.
+Yeah, yeah, sure.
+So, yeah, that's a great point.
+When we talk about glucogenic diet, what does that mean, and same thing, lipogenic diet,
+what does that mean?
+And of course, when we're looking at practical diets, nothing can be characterized as 100%
+one or 100% the other.
+So the future of this work would also be the nuance and kind of the gradient of lipogenic,
+glucogenic, and then the metabolites that come from that.
+So that's what your question is getting out on the glucogenic side.
+So what we've seen, so the response that I showed in my presentation where we see this,
+when you increase glucose concentration in the blood through these glucogenic diets, you
+decrease, a pre-distinct decrease in arterial concentration of branch chain amino acids and
+in our lipogenic precursors like acetate and BHB. We see that in studies whether they have fed
+a star-trich diet, whether they've done ruminal infusions of propionate, arterial or sort of
+jugular infusions of glucose, or post-ruminal, so omasilar, abamasilar infusions of glucose.
+So it seems to be the ultimate glucose metabolite, regardless of how it gets there,
+that seems to trigger this response. Yeah, and it's somewhat similar as well on the lipogenic
+side, I would say, but it's really not been well characterized in terms of there's just far far
+fewer studies that have looked at the response of feeding fat or infusing something like acetate
+into the ruminal or the blood on amino acid metabolism, protein efficiency, any of it.
+I think you think more on, so your question, what you were thinking is like about
+site of digestum basically, right? I thought that would matter, and it sounds like from the data
+it probably doesn't. Interesting. Yeah, because I assume the same, right? So if you have more
+fermentable starch into rumine, you also might influence microbial protein synthesis, right? So
+how do you differentiate that? But yeah, it's interesting to think that, regardless, it seems
+that there's a glucose regulation, maybe insulin-driven or some signaling after, right?
+Yeah, it's certainly very post-absorbed of what's happening before you, like you say,
+there could be a whole host of other influences from the feeding versus obviously infusing
+when I'm doing that in practice. Yeah, of course. Well, it's just interesting, because there's been
+some of that feedback from the field that said, oh, well, if I push my rumina gradeable starch
+for more bypass, I tend to end up with calcium or back fats that are more milk production,
+right? Like there's this perception, I have more blood glucose, because the glucose was
+absorbed in the hind gut instead of in the rumine, as prokenate. And it sounds like maybe,
+that's not, that's just a perception in the field and maybe not reality.
+Yeah, and what else could be going on there that's causing the responses they're seeing that
+actually is not related to this mechanism. If they're absorbing a lot of glucose from the hind gut,
+there might be something else going on there. Yeah. So, when you define sustainable nutrition,
+are you talking specifically about excretion meant into the environment, or is there a nuance
+definition for that? Yeah, no, I think you can look at it. What first comes to my discussion
+on the protein side, and I guess you could think of this for all nutrients that we're trying to
+get into cows. There's the excretion side of it, but also looking at what we're putting in our
+diets. And I think I mentioned in one of the early slides cost, but also availability. And that's
+a big one. We have certainly living in California. I've seen a whole host of diverse ingredients
+that I'd never had any experience with. Sometimes this work that I do feels like a drop in the bucket
+when a nutritionist is dealing with a different batch of agricultural waste byproduct every week
+coming to a farm. How do you even account for that? Much less worry about your digestible amino
+acid supply. But the point is, I think some of these, when I talk about metabolic flexibility and
+really raising awareness around that, how does that actually help us in the future when
+resource, common resource supplies, their shortages, or like, for example, when I was in Europe,
+depending on the political climate, where you are, what normal resource feed resources are
+available based on what can get across a board or what costs more all of a sudden. These types
+of challenges that are very real, no matter where you live at the moment, it seems. Does that give
+more flexibility for nutritionists for producers to include different ingredients and rations without
+this assumption that there's going to be a huge hit or a huge change in how their animals are
+able to digest and ultimately absorb and metabolize those nutrients. So kind of cracking open some
+of these areas around that flexibility and understanding the scope of it does that then give us more
+flexibility in our ration formulation as well without those worries. So that, to me, is also sustainability.
+It's sustainability of being able to feed the cows and keep doing what we're doing. Yeah.
+Would you revisit for me one of the graphs that I immediately saw because it said sheep, right?
+That's probably what it was. But they had the sheep and they had the dry cows and at the lactating
+cows and had the data for different nitrogen recycling. And would you mind revisiting that because
+it was interesting to me the spread related to the data and also the variation in efficiencies.
+Yeah. So that was just a summary of data that I put together for review paper that I wrote during
+my time at Trion Nutrition. So it represents the proportion of urea nitrogen that gets recycled
+to the gastrointestinal tract and Jose called me out and asked, yeah, is that the rumen or is it
+the hanga and how much? And I did not have a good answer for him. Unfortunately, apparently the majority
+goes to the rumen was not refined enough, but that is the best that I can say. So the proportion that
+gets recycled to the gastrointestinal tract, I would say the majority of the rumen, relative to the
+nitrogen intake of those animals. And it was a spread of all the studies that I could find at
+the time where urea recycling had been measured in either sheep, non-lectating cattle,
+some mostly growing beef animals or dairy cows. And each dot represented a study and then you
+have the spread of that magnitude with the averages there. So for sheep and non-lectating cattle,
+the main thing that usually strikes people is there's a lot more dots than in the column with
+the dairy cows and the spread of that is a lot wider as well. So the spread, I think for the sheep,
+the averages 1.09 or something, which basically means that as much digestible nitrogen intake that
+they consume gets recycled. It's like a 1 to 1 in sheep, non-lectating cattle, I think it's 0.8.
+And then in cattle, it was 0.6 or something around those numbers with slightly smaller spreads and
+a very small spread for dairy cows. So that's what that's showing that our sheep seem to have this
+greater capacity to recycle nitrogen. There's a few different kind of things you have to think about
+based on what the data is showing. The nitrogen intake of those animals is, I mean, this is relative
+to nitrogen intake. So the sources of that, the sources of the carbohydrates in those diets,
+how much in total we're feeding of nitrogen to sheep growing cattle versus our high producing
+lactating dairy cows, I think that accounts for some of the difference in those means.
+But then the other striking thing is just how few studies are actually part of that pile of data
+from lactating cows. So there's only a handful of studies that have really started to look into
+that. And I think there's enough differences in the types of diets we're feeding and how those
+animals are raised to really question, like you can't say they're just less efficient at recycling
+nitrogen. There's probably some reasons for that. At least that's kind of what I came to after
+diving into all that data and thinking about where do we need to go next to look at your
+re-recycling in dairy cows. Well, and if you look through JDS in the 50s, 60s, 70s, a lot of those
+animals were sheep, right? Yeah. A lot of the JDS research animals were sheep. And I guess I was
+curious. Someone even had names in it. And I was just curious if maybe some of that bias with all
+the extra data and sheep was because we were using the sheep for a dairy model. Because I was surprised,
+I would have, when I taught students, I would have stereotyped that the dairy cow was probably one
+of the best researched livestock production systems there was. We have so much data on the dairy
+cow. Yeah, at least on the re-recycling side. I don't know why it's been biased that way.
+I mean, the studies are hard to do. So maybe that's why. But I think also the grazing aspect,
+and that's how I got into this question was some work we had going on at Trowel looking at
+tropical grazing in Brazil. And they, you know, they really rely on that, that infrequent protein
+supplementation when animals are on pasture. How can they optimize, get that nitrogen intake into
+those animals and allow it to actually just do its thing and be recycled and be used for microbial
+protein synthesis. So as someone who up till that point essentially perhended that the room and
+didn't exist, that all cracked open all kinds of questions for me. But again, that all came out
+of this this grazing model. So perhaps that's why as well. It's more relevant when you have animals
+on pasture and you want to decide can we actually give them their protein concentrate once a week,
+twice a week. How does this recycling mechanism allow us to have some more utility there?
+Of course, in intensively managed dairy cows, that's not a question we have.
+It's interesting. And now maybe we are a little bit to be blamed by this, but every time I do
+recommendations in the field, you know, I usually say don't short RDP, right? And maybe this
+is a big wise effect. I've seen this many of his presentations and if you look to some of his
+papers and his diets, he usually overfeed RDP because it doesn't want to short the room in, right?
+When we do that, we definitely are not taking advantage of the recycling. And so are we going too far
+in terms of RDP or what should there be or go in terms of should we always focus on having a zero
+room in nitrogen balance? That's my question. Or we start to be in some situations limiting
+other growth and other digestibility, for example. Yeah, I'm super fascinated. This is something where
+I'm not a room in microbiologist, like I said, have spent very little time actually considering
+the room in the whole thing. So I'm curious, would you think Ben about this from the more
+room in expert side? Because indeed, you can't play around too much with reducing there. And
+when I give that story, I always want to caveat it with there's so it's always, well, it depends
+on every situation. But in this case, it's very true, right? Also, coming from a European experience
+where some places don't have that much access to corn silage. That's certainly not the base of
+diets in every case over there. I have to remember over here, we're putting in so much for
+medical carbohydrate. If our diets are based on corn silage, they can probably handle a lot more
+room in degradable protein, whereas like I started out saying in, for example, the Netherlands,
+you have rations based on grass silage, where they're putting more and more urea on top. And I'm
+just not sure that that's doing anything, especially like I said, when you really want to reduce
+nitrogen excretion, but yeah, we can't do that at the expense of functioning room in. So I'm
+curious what you think about that. We can't all be that good at growing forages, right?
+You know, it's just a good answer. Looking at the diet for a farm in Ireland last week.
+And I couldn't find a, it's like, don't you have any lower protein forage options that we could
+put in here? So you were looking for some straw. That's why they were looking nice. And he says,
+well, we have to import the straw. Yeah. I told him to just take a tree and run it through a wood
+chipper. And that would probably work. And that led to some interesting stories. I don't,
+I don't know. I think, and Jonas probably knows this, but my initial feat to the fire
+response is probably always going to be room in degradability first, right? So if I prioritize
+room in degradability of starch and room in degradability of fiber and room in degradability
+of protein, probably in more than one form, then I have maximized the efficiency of the,
+the thing that makes the animal special, right? Because what I would always argue is if I really
+truly cared about nitrogen efficiency, I wouldn't raise cows, right? What makes them so unique is
+that they can take all these alternative products. And so you think systemically about sustainability
+and about environmental impact. And I think I have to be willing to accept some nitrogen
+and efficiency, despite what the Californians are, you know, worried about to extend some carbon
+sustainability and also provide, you know, a high quality product to people which has its own
+sustainability impact. But if I can prioritize room in degradability first, I can drive more
+microbial protein. And that might be the question I think you have to decide at your core before
+you decide where to go first. So, right, if I think about an RDP limit and I say it's got to be 10%
+or 9.5 or 10.5, we can argue about that. And Peter Yoder and I had done that project where we,
+when we were still at Purdue, where we tried to feed urea versus peptides at different doses and
+then it just didn't work at all. And that one still actually keeps me up because I really expected
+that when we, when we fed a better protein source that we would get a better response and we
+didn't and then we had a quadratic response and why did the mid grade do what it did.
+All this to go back and say if I focus on multiple protein sources and I hit that RDP in the tens,
+I'm going to hit a spot where my, at least in the models and I believe it to be true,
+my microbial protein as a percent of total MP breaks over 60. And what scares me about the sheep
+is I know that the sheep that you balance diets for or goats, I can hit a, of my bacterial
+percentage at 65, right? It's almost a 70% microbial protein is the system efficient.
+The sheep is, the room in is really efficient, right, at all that recycling and I can make the cow
+that efficient. But the cow also represents, you know, this overhead that Norman would always
+push us to think about and we have to maximize production because we got the lights on and we got
+the milk and machines and we got the later room, we got the trucks and and I don't know what our
+target is, but we have to probably settle on some sort of a target. What percentage of the diet
+should be MP from bacteria before we start supplementing our bypass amino acids. And that's really
+maybe the question I would spit back. My number when I meet with people is 55%. If I'm over 55%,
+I probably left something on the table with bypass amino acids. If I'm under 55, I probably have
+work to do to improve my room in nitrogen efficiency. Yeah, yeah, I love that way of looking at it
+because it really pairs like the whole...
+system. We say what we're trying to do, the real utility of a ruminant of a dairy cow.
+Yeah, and as a minor acid person, I always think about that digestible minor acid profile.
+Also, if you are putting, if too much of that MP is coming from microbial, how much
+play do you then have with adjusting that digestible profile because we can't, yeah, the microbial
+protein brings the non-essentials, which, yeah, they need some of those as well, but you
+just have less space to then play with your essential minor acids, talking about what
+I mentioned today about the digestible profile, meeting or matching that of casing, and that's
+what you can do with your RUP. And then all of a sudden, now you're feeding way more
+total group protein than you need if you're trying to hit all those targets. So, yeah.
+And in related to that, when I was listening to you talk about the isolucine,
+lucine and valine, right? And that group two, if I'm going to call it that, and I've got
+my group three, what really hit me was that my microbial protein is not balanced, right?
+Microbial protein is not ideal to hit those targets that you threw out, because I'm going
+to be short, methionine, and my group one. So, I'm going to probably need to supplement
+some of that regardless of how I maximize. And then if I get into my group two, my
+lucine and lysine should be really high, well, lysine is group two, right? Lucine is group
+three. Lucine, those are all, they're all group two, group three be the non-essentials
+by like conventions. Okay. And so then my isolucine, though, is going to be kind of on the
+low side, right? And I think you threw up a couple of options of how to try to push some
+isolucine into that system, because that's the one when I go to balance it in the model
+right now. It's really hard to come up with isolucine. So, if there's ideas from the
+group about how to hit an isolucine number, or maybe you guys are going to bring that
+room and protect it and isolucine, that would be ideal, right? Yeah. But my understanding
+is it's pretty hard to come by. Yeah. I think it is. And the, I guess the characterization
+of those ingredients that we're feeding on the, what are they providing on a digestible
+amino acid supply? How does, you know, is there any capacity to influence the amino acid
+profile of microbial protein? That's maybe like a whole other box we could get into. But
+yeah, it's a challenge. We, in theory, when we do these infusion models and we provide
+the, my essential amino acids in the profile of casing, we get these wild, marginal protein
+efficiencies. So if we could do that, that would be a very efficient way to use our, our
+UP fraction of the, of the, of the diet. But yeah, we're, we're limited currently in our
+ability to do that from the raw materials we have, from the room and protected resources
+that we have. But I don't think it's impossible given kind of where technology is going and
+more awareness around, around this. And, and I would push it back to that into the table
+with a question related to efficiencies and energy. And the two of you proceeded each
+other, right? You, you both back to back with presentations. And I saw different grams
+per megacall of energy recommendations from both of you. And I would be curious and
+perspective on where they both in our C or C, I know, Jonas is what C and CPS driven,
+were they different because of the different systems? Are they different because of the
+way that we think about optimizing differently versus maximizing and just curious the take
+from, from that into the table about that.
+Yeah. Well, I think the numbers that Cali put in are the numbers that Cornell is recommending
+right, like basically the Van Amber paper. The numbers we put in, you know, are more
+like what a technical team thinks it should be. So our targets for metinding, lysine and
+histidine are different than what Cornell, you have to consider the way the Cornell derivate
+those equations using non-linear approach, right? And try to solve for the third derivative.
+So what they're doing is what's the maximum response that you can get. It doesn't mean
+that's the most economical response, right? And as we go into response and not requirements
+where we should go, that's kind of I think where the numbers I come from. So I think the
+number needs to be revisit, you know, based on economics as well, right? Right now, if
+we are going to get on this wave that the world need more protein and protein is, you
+know, when we're going to have to push more protein, yeah, maybe we should push those amino
+acids if economically, you know, to the maximum side of the curve. But I think that's the
+optimization that you need to do. So I think those are where the discrepancy of the numbers
+may become from, you know, like I would say it's very hard for me to see really people
+in the field heating exactly those numbers. And you and I think had this discussion, if
+you go and try to heat all of them, you can't do it, you know, or, you know, you're going
+to have to open another bank account, you know, just to fund that, right? So, yeah, so
+I think the knowledge there is is is you know, I think the recommendations make sense in
+terms of, I agree with Kelly in terms of, I think you need to consider the energy piece,
+right? And I think what I tried to say on some of my talk is if you're going to balance
+for amino acid, make sure you have covered the energy first, right? So that's I think
+is a principle. Sometimes I think we go do this research or even try on farm application
+of amino acid balance in your lactation and not even correct energy. And you don't get
+the results you're expecting, right? And you know, protein synthesis is a very energy-driven
+process. So you do need the energy, right? So, but I think I think that's where the discrepancy
+is on the data, right? And you know, just the way we're expressing, right? Maybe more economically
+versus theoretically numbers, right? But I do have a question for you, you know, since we are
+back and forth on questions, right? Really interesting with the paper that you into Hackman had in
+Georgia science. Oh, sure. And I think it ties up with this efficiency, you know? And I have a
+very, very easy question for you, you know, and you can answer in 30 seconds. Why do,
+why it appears that bugs grow inefficiently? Why we can't really move about their theoretical
+growth. They are growing between one third and two third of the theoretical growth. So you're
+just asking mostly about energy spilling, right? Yeah. And and this is where we were talking,
+I would personally, I'm biased, obviously, but love to see you and Tim collaborating,
+because I think you can bring that microbiology and that systemic nutrient piece together.
+Of what he listened to. Well, yeah. So I'll send him a link and I'll make sure.
+Yeah. No, I think when what was really interesting about that paper, of course, is that when they
+were grown on the pure cellulose or the glucose, they grew at the same efficiency, but not an
+efficiency of, you know, optimum or one or even close. And I think this just gets back to
+a basic biological rule that I try to impart to kids when I'm working with them is that nature is
+selfish, right? So in the same way in microbiology, the microbes are selfish. And in their selfishness,
+they waste energy, right? So they're always trying to grow and outcompete. One of the things that I
+learned from furcans probably too late in my time there is that they'll even build up sugar and
+then deposit it on the outside of the cells, right? So extracellular matrices of energy. So it'll show
+up as there was poor starch digestibility when in reality, it was digested and then rebuilt and
+stored in their own competitive matrix is what they're trying to do. So microbes are are breaking
+things down and then hiding them away from their competitors and they would rather run a cycle
+to degrade things and burn it than to allow their competitors to get nested a little buggers.
+Well, and if you can draw whatever correlation you want to, human society, nature is selfish, right?
+So basically you need to come off a GLP drug for the bugs, you know, so they don't run these
+inefficient cycles and that's the way to do that. Yeah, yeah, or and I think that's why sometimes we
+see these room and modifiers have some effect that's maybe unexpected and you know, one of the
+probably the things I was the most skeptic about 10 years ago and less skeptic now is essential oils
+and the way that essential oils can disrupt membranes and some of that I learned just with the
+palmitic fatty acid story over the last few years, right? And how we've we've been reading about
+palmitic fatty acid and how I can infiltrate membranes or be used as energy and microbes in the way
+they respond. But if you'd asked me 10 years ago if I thought that fat would improve fiber digestibility,
+I'd probably get laughed out of a room in 2016. I think it happened to me once. Yeah, and so
+in the same way now, I think you have these room and modifiers that could be affecting microbial
+membranes or their efficiency or their maybe their their drive for degradation or fermentation,
+but actually sometimes when we negatively impact a microbial population, we make them more efficient.
+If we don't kill them off, and I think that's kind of what I was driving out with that protein
+degradation question afterwards, but that would assume that the protein you fed in the first place
+is good, right? If you prevent it from being broken down, it better not be because I was joking
+with Jonas, it better not be distillers grain protein entirely, right? It serves its own purpose,
+but I don't want that to be 100% of my RUP. So yeah, I think we can with what we're developing from
+a genomic standpoint, the database that we're building. I say we, not me, I barely know how to
+read it, let alone generate it, but what we're developing from a genomic understanding of bacteria,
+I think we can design kind of designer feed additives in the next generation that we can use to target
+specific bad actors, and not kill them off, but just limit them a little bit and protozoa, a great
+example, everybody wanted to nuke them and wipe them off the face of the planet, but the reality is
+that they serve positive purposes if we can hold them back a little bit from being too wasteful.
+Yeah. Do you think there's opportunity there to actually manipulate the amino acid profile of
+microbial protein and like make that more ideal? Because that's where my brain goes first as a
+post absorptive amino acid person. I think the potential capacity there would be huge.
+The amino acid balance, the amino acid composition of microbial membranes varies by species.
+I think the answer is yes. In first, I was reading about fatty acids.
+That's the same thing. If you want to take a deep dive, I've got a spare copy of
+Hunggates book, I can mail it to you, and it's quite a read. It's a fresh up, so.
+If you read through there, you'll see so many times we see things that we probably should have known,
+but we forgot 20 or 30 years ago, or we didn't believe it because it was sheep's study instead of
+a cow study, so we got to rerun it. I think in that book, the first thing that struck me was
+actually the fatty acid membrane composition, and we had this big resurgence in the 20 teens about
+fatty acid composition, and I thought, oh, wow, this is really cool. I can feed different fats and
+shift the microbial fatty acid composition, and then you go back and Hunggates book and
+they already knew that in the 60s, right? Maybe the 70s. I think if you can do that for fats,
+you can do that for amino acids, too. Whether or not you can get the ones you actually want.
+But even just the idea that back then, it might not have even been a relevant question,
+right? If we weren't so concerned about the efficiency of it all, why would that stand out?
+But now we're pushing and finding every squeezing out every drop we can, and now all of a sudden,
+that's something that for 30 years we've been working on it, but back then, no one would have
+really, it wouldn't have jumped out to anybody. But now, sort of the next frontier of where can we
+find those opportunities for efficiency? Yeah, I think it's super interesting.
+So on the third part of your presentation, you went on, you know, probably your favorite topic,
+you know, memory flexibility and all that. For me, it was very interesting. I have a,
+remember I work for a chicken company, right? So, you know, sometimes you sit with them and
+chicken, so you have so much available amino acids and you're okay, you want more of these,
+you can just add, right? But I guess my question is like, for example, some other,
+terms of your branch chain amino acids, you eyes are losing, valine, and losing.
+Eyes are losing, I agree if you're as a pain, you know, like in terms of ingredients that we
+have available, how do we really change our losing? Losing corn protein, great source, right?
+Vailing, you know, very by ingredients as well. When you did some of your work and most of the work
+I've seen, you know, usually feed those branch chains and raise you all together, right? Is that
+one that's more important or you're just trying to hit all of them, you know? So, or, you know,
+should we really focus on the eyes of losing or, you know, in a way, valine, and losing kind of
+do the job, you know, just, yeah. I think there's quite a bit of the, from the, how to answer,
+from the nitrogen and carbon balance in the memory gland and how it's used for
+making what it needs to make milk protein, I suspect there's quite some interchange there,
+but we also do know from work, I haven't done the individual amino acid infusion work,
+but the work from Marcanigan, Peter Yoder, they've done more looking at individual amino acids and
+losing certainly even, you know, from outside of just milk protein synthesis, but we know how
+stimulatory it is for mTOR, in muscle, in memory gland, all the things. So, from a signaling standpoint,
+losing is super important. From a precursors for milk protein synthesis, I suspect that there
+is some interchange there, same thing with arginine-3inine lysine. If you put those all together,
+there's probably a lot of flexibility. If you, I do still think if you favor one or a few over the
+others too much, there might be some, because you have to also think of the transporters coming into
+cells, potentially some competition there, which there's been some work looking at that.
+So, that would be something to look to if you're getting really heavily biased towards one or the
+other, how if that could really happen and-
+practice when you're feeding, you're never isolating the supply of one so much when you feed.
+You see that more with the infusion work where we're feeding super low crude protein and
+so much of it's coming from infused amino acids.
+But yeah, I think that there's from a mild protein synthesis, standpoint, nitrogen and
+carbon.
+There's probably a lot of flexibility from the signaling of the protein synthesis pathway.
+Lucene seems to have quite a bit of an impact.
+Are you going to affect, okay?
+Yeah.
+That's great news because I can get a lot of that one in microbial protein.
+Yeah.
+There you go.
+That's good.
+Yeah.
+Yeah.
+So Kelly, I think implied in the title of your talk, nitrogen efficiency implications for
+sustainable dairy nutrition, how would you characterize where we are today relative to nitrogen
+efficiency?
+Where do we want to go?
+And then how would you prioritize your strategies in getting us there?
+I don't think I'm old enough to answer that question.
+I've been doing this long enough.
+No, I think how I would respond to that, maybe this is a bit biased from just my experience
+so far in my career, but I would like to be able to say that perhaps the North American
+picture is going to start maybe putting more emphasis on the environmental sustainability
+side.
+And that's not necessarily from what comes out under the tail of the cow, but also simply
+from the resources available, the pressures, whether that's economic or social pressures
+around agriculture in general.
+So I do think the conversation is starting to shift.
+Again, that might be a bias because I currently live in California, but let's see how that
+translates to the rest of the country with that sort of northwestern experience as an
+example.
+So I guess I would say that we've made big improvements, I think, sometimes you look
+at what we're looking a bit of what we were just saying about the microbial cell membranes
+and things.
+Things that in theory were written in books 30 years ago.
+Now we're looking at that thinking, wow, what an opportunity.
+We just never needed to see it as an opportunity before.
+So I think that's a really positive outlook.
+It's great job security.
+We have a lot of work to do.
+And yeah, we can always keep improving that flexibility in our room and it's what can't
+we put into them and see what happens.
+So I think the outlook is bright.
+If we keep going down that path, we've come a long way and there's always more to do.
+But yeah, on the sustainability side, I think the conversation is shifting.
+Yeah, let's see where that goes.
+Did you say we're at a five on a scale one to ten today and I'm just kind of curious,
+you know, how much runway is there in a dairy cow for improving efficiency?
+Yeah, I mean, I'll call out an exercise done by one of my PhD advisors, Jan Dijkstra,
+who says that the maximum protein efficiency or maximum nitrogen efficiency of a dairy
+cow is I think it's 43% based on some calculations that he did not with some years ago.
+Yeah, I wouldn't trust anyone as much as I trust Jan to make those types of calculations.
+So and where are we sitting now on commercial farms in around the US?
+I'm not even 100% sure again, like what those numbers would be.
+But I would say we're probably at least 10% below that.
+And again, that maximal theoretical efficiency, it is just that it's theoretical.
+So if we're target, we're not probably not over targeting 43%.
+So are we out of five or are we at a six?
+I think it's just so variable across operations.
+And again, how you define efficiency.
+Right.
+Yeah, you could be having some impact on relatively more impact on nitrogen
+excretion, but you're doing that from a place of really truly upcycling nutrients
+that would be creating perhaps bigger problems if they were in a landfill.
+So it's a really hard one to fully find a balance on.
+Yeah.
+It's more of a life cycle assessment kind of a thing.
+Yeah, and yeah.
+Great conversation so far.
+Any big rocks that we've not unearthed yet?
+Tonight's last call question is brought to you by Nitrusher, Precision Release Nitrogen.
+Nitrusher delivers a complete TMR for the room in microbiome, helping you feed the microbes
+that feed your cows.
+To learn more about maximizing microbial protein output while reducing your carbon footprint,
+visit balcum.com slash Nitrusher.
+Well, Kelly, I was curious in your big picture perspective, we talked about collaborating
+with Tim, for example, and he does a lot more in vitro work.
+How do you see as you move forward in this nitrogen efficiency discussion and you have
+this physiological, you know, whole cow experience?
+How do you attack that?
+How do you balance your in vitro needs with your in vivo needs?
+Like what are the next big, big hurdles or the, you know, you're kind of a USDA panel
+now.
+That's what I'm hearing.
+Yeah, why not?
+What?
+He's asking like a USDA panel, you know, like the fender, the fender, the fender, your
+line of work.
+Yeah, yeah, yeah.
+Well, I just curious, you know, if you think forward in your vision, what's the hurdle?
+Do you have the models that you need?
+Do we need other research models to address what you're after?
+Are you able to measure today what you need to measure in order to advance or do you not
+even have the tools maybe yet to do that?
+Yeah, I think we're at an interesting point with some of the like big omics, like I don't
+know how to do it.
+I don't know how to read it, just like what you said, but those that do, I think are at
+a good spot because that cracks open a lot of things that maybe we couldn't access
+before on the microbial side and being able to maybe do things in vivo, but less invasively
+than we maybe had to do them in the past.
+Personally, I'd also like to do a lot more with isotope work.
+So of course, I talked about the urea recycling work, but then even on the amino acid side,
+I think if we can get other than the fact, some of them are super expensive, but if we
+can get creative with looking at that quantitatively and being creative with isotope use, how can
+we get more information about this sort of black box of post-absorptive metabolism
+and understand, and then like I foresee very practical feeding studies that represent
+what's being done in certain regions or if we can come to these kind of typical diets
+for certain regions, things like that, and really look at, okay, what are the amino acid
+efficiencies under these conditions that are actually practical?
+I'm not infusing anything, just cows are eating, but we're also able to put them maybe
+in individual housing for a couple of days, put some isotope in them, really measure those
+fluxes, and then put them back out and run that through bigger groups of cows, and really
+try to match the practical conditions as much as possible, at least in terms of diet,
+with starting to understand where are these things going to just have a better picture?
+That's, I don't know if that answers your question, but that's kind of where I would like
+to see these things go, not just in vitro or really intensive in vivo for metabolism work,
+how can we, like I started doing that even in my PhD, doing mammary gland net balances
+on cows in free stalls, like 60 cows, it was insane, but yeah, no one was doing that,
+and it gives you sometimes kind of weird data, but it's real, it's not cows and tie stalls
+being infused and five animals, you know?
+So how can we start to get some of these, be creative, get some more metabolic data under
+relatively practical dietary and management conditions?
+I think that's what, you know, answers the questions of the producers and the nutritionists
+and the consultants in the room, you stand up here and present, and they have all these
+questions, and then you think, oh yeah, that's actually what you need to know to be able
+to apply any of this that I just said, so I'd like to be able to get there.
+Well, and there was this chart today that really struck me with the groundwater contamination,
+right?
+And it got me thinking after you and I spoke and after lunch, what's the lifetime of
+nitrate or other nitrogen poised, you know, toxicity, contamination of groundwater?
+How many years does it take for this to, we fix our game today, and we're 98% efficient,
+you know?
+Yeah, yeah, that's a question I can't answer, luckily I'm now sitting with a bunch of
+really excellent kind of nutrient management on the environmental side at UC Davis, and
+that's another aspect of do we have all the tools we need to really assess the impact
+of changes that we're putting so much pressure on, nutritionists to do now, and all these
+new targets, can we turn around and say it's really going to have X, Y, or Z impact?
+And I think that's another to your previous question, perhaps we should start looking at
+that a bit more on the system side and considering the impacts of feeding on, yeah, what's happening
+with, I mean, nitrogen is so difficult because it can go so many places, it's actually
+a much more challenging thing to handle than methane ever will be, because of that reason.
+So yeah, I don't have a good answer to that specific question, but I think that that's
+also going to be important if I'm going to stand up, if we're going to stand up there
+and show these figures, having some, what is the value of making these changes in
+formulations on ultimately that environmental impact?
+Well, and I think that you kind of read where I was going with this, you know, we know
+the lifetime of methane, for example, is much shorter than CO2, but we've kind of hyperfixated
+on methane until recently.
+And coming from someone who, you know, our company makes some money selling a methane inhibitor
+historically, but I think big picture does the methane problem concern you or is this
+water contamination maybe actually truly a bigger problem, because, you know, which is
+going to kill me first, right, like, bad water, or an extra degree.
+Yeah, well, and from the dairy farm perspective too, like we have farms in the central valley
+who have to pay for bottled water for surrounding communities, not because they're malicious
+and want to pollute with nitrate, but that's just the reality of that region.
+So I would say that probably from a farm standpoint, they're going to be more concerned about
+that aspect on their, on their bottom line versus, yeah, the methane that they're emitting.
+I mean, they're usually doing a pretty good job of capturing that as well, but yeah, I'm
+biased, but the nitrogen side concerns me more.
+So then why have we done such a poor job, you know, like from an awareness standpoint,
+yeah, you go and talk about to go to grocery store and ask people about, they talk about
+methane, right?
+So how have we missed or like what, what are we doing wrong that we have focused so much
+on the thing that in your biased opinion, which is great, is, is not the bigger problem?
+Yeah.
+That's a good one.
+I don't know.
+I think part of it is because it's, I think it's a more challenging story to tell because
+it can go so many places and it, it's contributed by so many places, even on the, even on the
+carbon side, you know, agriculture gets this bad rep, but actually there's a lot of contributors
+to carbon pollution, whether that's methane or other or CO2, it is the same for nitrogen.
+So those figures I showed, that's, that's not only because of, of agricultural pollution,
+it's other things as well.
+So the same thing is true, and I don't know why it's been kind of like flying under the
+radar.
+So you don't know, certainly in, in the Netherlands, for example, it has not been flying under
+the radar since like before I was born, it's always been a discussion.
+So why here is it just, it's been more of a slow role, it's, it's never, never come
+to such a head.
+I mean in California, it is starting to come to a head now.
+So that might change it might just have taken so much longer for it to become to a point
+that now regulators are really concerned, legislators are really concerned and they can't
+ignore it again, depending on the region.
+So we'll see.
+It seems to me like several years ago that nitrogen, phosphorus, those kinds of things were
+a lot bigger conversation, and now we're talking about climate change, and now it's all
+about carbon, and so maybe there's just not enough oxygen in the room to be able to talk
+about nitrogen.
+I'm going to suck one.
+You're going cycles, right?
+And then we come back.
+Yeah.
+Yeah.
+Let's spend a while since the lake in Ohio turned green.
+That's right.
+Yeah.
+Yeah.
+Very good.
+Listen, this has been a great conversation.
+I really appreciate it.
+Thank you for joining in person this time.
+Yeah.
+We'll certainly have you back.
+This is a subject that's not going to go away.
+We're going to be learning a lot more about it and a lot more research in the future.
+So looking forward to having you back, Jonas.
+Thank you for joining us.
+Thank you.
+Ben, you're an amazing guest.
+We're going to have you back, dude.
+I appreciate what you did today.
+Lots of fun.
+Yeah.
+Thank you.
+Thank you for joining us as well.
+Hope you learned something.
+Hope you had some fun.
+Hope to see you next time here at Real Science Exchange, where it's always happy hour.
+And you're always among friends.
+We'd love to hear your comments or ideas for topics and guests.
+So please reach out via email at anh.marketing at bellchem.com with any suggestions.
+And we'll work hard to add them to the schedule.
+Don't forget to leave a five-star rating on your way out.
+You can request your Real Science Exchange t-shirt in just a few easy steps.
+Just like or subscribe to the Real Science Exchange and send us a screenshot along with
+your address and t-shirt size to anh.marketing at bellchem.com.
+Bellchem's Real Science Lecture series of webinars takes place on the first Tuesday of
+every month with the top research and nutrition topics that will impact your business.
+We also include small ruminant, monogastric, and companion animal-focused topics throughout
+the year.
+Visit bellchem.com slash Real Science to see the upcoming topics and to register for
+future webinars.
+You can also access past webinars and search for the topics most important to you.

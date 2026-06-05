@@ -1,0 +1,874 @@
+I'd like to introduce our next speaker, Dr. Tom Overton, Professor of Dairy Management
+and Chair of the Department of Animal Sciences at Cornell University.
+Tom is very widely recognized as and for his research and extension efforts related to
+the traditional physiology of the transition to every town.
+So I think Dr. Mormons talks a great lead into this one.
+Tom received his bachelor's degree from Cornell University,
+his master's and PhD from the University of Illinois,
+and it has been an honor to be at Cornell for a number of years now.
+So let's welcome Dr. Tom Overton.
+Thanks, Clay. I'm actually going to stay down here.
+I've got some alums, we've got alums from our program that I can harass and things like that.
+Anyways, thanks to Clay, thanks to Valcom for the invitation.
+And so Clay said, I want you to talk about methionine.
+And methionine actually is part of most talks that I give,
+but rarely do I actually talk focused on methionine.
+Okay, so we're going to start here up front.
+And so these are generally kind of recommendations from a thionine pre-fresh and MP.
+You see, we've got about 1200 or 400 grams of MP.
+This would be for a mature Holstein, lysing these levels.
+And those look like lactating cow recommendations, or at least the older ones.
+We can certainly be newer.
+I want you and Michael to talk later, I'm sure, about grams of lysing thionine for MCAL and ME.
+They don't necessarily get us a lot of drought-sweets from places.
+And I think the thing with the transition cow has been,
+the research, and I'll take you through it, is it's more like unsupplement versus supplement.
+We haven't done a lot of the titration type work,
+and otherwise when no protein is really the predominant fate of amino acids,
+like we have lactating cow, and that's really where lysing thionine work was established.
+And so frankly, we go with the lactating cow kind of numbers,
+in part because we don't really have anything different to work with.
+And so again, it tends to be against supplemented versus unsupplemented.
+I'll show you some stuff. Patrick French, who I have always admired,
+did a bit of a review of literature, regression analysis,
+and brought us up to say somewhere around 1300 grams of MP,
+30 grams per day of thionine, 90 grams per day of lysine.
+One of the things we do harp on is using RUP sources primarily to meet those MP needs.
+Maybe not exclusively, right?
+But focusing that protein supplementation to get us to that 1200, 1300, 1400 grams of MP
+with RUP sources.
+And part of that is to meet those requirements more efficiently.
+The other part is that the cow metabolically doesn't really deal well with excess nitrogen
+at the time of calving, right?
+So if you've got a lot of nitrogen in the system, the liver's got to deal with,
+that liver's trying to make glucose, the liver's a cumulative triglyceride, maybe, right?
+At least to some extent.
+And it sort of appears like triglyceride accumulation gets in the way of the ability of the liver
+to detoxify ammonia to urea, right?
+So we kind of want to do that efficiently.
+Some of you have been around some older work out of Penn State, actually.
+Back in the 90s, when there was a lot of initial focus on protein,
+had fed cows fairly high protein diets prepartum.
+This is Gabrielle Vargas group.
+Dana Putnam, I think, was the lead author on a bunch of it.
+And I think they're up to 17% protein, most of the RDP sources,
+and those cows really struggled, right?
+So I think there is something there about making sure we're doing it efficiently
+and with sources that are, and the sources that are going to be well utilized.
+And so in general, you know, we can get pretty easily to these levels of MP
+with diets that aren't crazy in their group protein content, right?
+So you might end up at 14, 14 and a half, 13 and a half, right?
+Again, if you're focusing on using RDP sources, you know, that can work pretty well.
+All right, Patrick French has met our kind of meta regression, right?
+So Patrick kind of summarized studies, again, looking at pre-fresh MP supply.
+This would be seen in CPS numbers.
+This is not a few years ago.
+There's no protein yield, and did see a bit of a linear relationship anyway.
+They took them up to this, you know, 1200 grams or more of MP, okay?
+Whoops, okay.
+One of the things that I want to caution you though on is any time that you see any graphs like this, right,
+where you've got some aspect of supply.
+Whoops, my bad.
+Some aspect of supply on the x-axis is you're always confound with the dry matter intake, right?
+So you're always confound with the dry matter intake.
+So I don't care what it is, we could probably put manganese.
+I'm not sure if you have manganese here, right?
+But I mean, put manganese on that x-axis and we might see the same kind of thing
+because we're probably confound with the intake there, right?
+So just that's just a quick caveat.
+That's not a criticism of what Patrick did, but just something to keep in mind.
+Whenever we see graphs where the x-axis is intake of something, right?
+We always got to remember, is that actually that nutrient of interest, right?
+Or is it reflective of increased dry matter intake?
+All right, Joseph Santos, his group did a more formal meta-analysis.
+I'm looking at pre-part of dietary MP.
+These would be predictions off of the 2001 dairy NRC, okay?
+And what they did is they broke it out both by first lactation animals.
+This would be milk yield and fat-corrected milk down here.
+So first calf heifers here on this side, older cows on this side.
+And what you see here pretty clearly is heifers in general responding to more MP, right?
+In terms of post-partum performance, right?
+Obviously their intakes are lower, cows more equivocal, although in the same paper
+they do report that some positive relations between pre-partum dietary MP
+and post-partum milk protein yield, right?
+So there's some of that there in that paper.
+But part of me also wonders sometimes when I see this is, you know,
+our recommendations for 1,200 to 1,400 grams of MP,
+at least I seem to be pretty comfortable with most of the time, okay?
+Against CNCPS-based models, predictions of that.
+How much of that's covering the needs of the heifers, right?
+Because, again, by and large, we heard that I encounter in the Northeast,
+we're still largely co-mingled, pre-fresh cows and heifers, right?
+So again, so how much of that is we're covering those animals' needs
+and maybe the cows don't need quite all the MP that we're throwing at them,
+especially if their intakes are good, okay?
+So just to summarize, again, I've used this slide before and I'm going to expand on it
+because there are some newer studies out there and, again, you look here.
+And so you've got somebody, maybe Overton, in the mid-90s at grad school
+did a side project with the Thione.
+This is actually before the transition cow was kind of getting me at the thing, right?
+And then you've got six other studies here with different forms of, whoops,
+different forms of methionine, use this pointer, different forms of methionine.
+This is a methionic lysine.
+This is an analog of methionine.
+That's a folic acid here, analog, again, but a lot of these using,
+you're a pretty conventional room-protected methionine sources, right,
+delivering methionine in a protected form.
+And by and large, we see responses in terms of milk yield, right?
+Again, so fairly consistent responses here, some fairly large, right,
+in terms of milk yield differences, right?
+All right, so this is one of the first studies done, actually, right?
+So this was, again, I was working at Jimmy Clark for my master's project,
+and this was not my master's project, but in grad school,
+Jimmy was always good at getting to do additional projects beyond what you actually needed for your degree,
+but that was just kind of the way it worked, right, and it was fine, okay?
+So I'll just take you through this.
+Again, we had, again, we had, you know, basically two treatments.
+We had methionine, we had control, okay?
+So 24 cows, right, which we would never do a study anymore with 12 cows per treatment.
+Okay, again, this is back when the transition cow was not even quite a thing yet, okay?
+Seven to 10 days before calving, until 18 weeks after calving,
+we had zero versus 21 to 20 grams per day of protected methionine by top dress.
+It was 85% methionine by weeks, okay, the source that we used.
+This part gets me now, right, because I look back on this stuff and the pre-cabbing diet,
+this was the entire description of the pre-cabbing diet.
+All cows are fed once daily, typical dry cow ration.
+This is a grass hay, about five kilos, that's about 11 to 12 pounds.
+Corn silage, that would be about eight pounds dry matter, okay?
+A concentrate mixture consisting of ground shell to corn,
+soybean, meal, minerals, vitamins, and a pre-cabbing conditioner,
+which I don't even know what that, how the heck that is, okay?
+And so if I were a reviewer these days, this paper would have been rejected outright, right?
+And I'm embarrassed actually to show this is how we actually described this diet from this study, okay?
+But it was what it was at the time, okay?
+And so, but what's interesting though is this diet, let's see,
+11 to 12 pounds dry matter of grass hay, corn silage, a grain mix, right?
+What's that kind of look like?
+Oh, it's like a control energy diet, right?
+Very rough, right?
+So again, we're blending in dry hay, right?
+Or, you know, we have to use more straw now, but dry hay with corn silage and a grain mix, okay?
+But here's our lactating diet, okay?
+Very simple Illinois diet, you know, about the silage, corn silage, ground shelled corn, soybean meal, okay?
+You're not seeing a trace of an actual RUP source.
+The little soybean hulls, Illinois got those free from ADM, so we had soils in every single diet that we ever fed.
+And then minerals from there and you kind of see the specs there, okay?
+And so interestingly enough though, right?
+We actually had some responses and driven a lot by some trends here towards the fat responses.
+We had significant milk fat response here in these postpartum cows.
+You know, we had about 2. something kilos here of fat corrected milk increase.
+We did not see any milk protein increase in the study.
+But again, clearly we're not amino acid balanced.
+We were adding methide, right?
+But that was really the only thing we were doing to really balance amino acid in the study, okay?
+So I guess even a blind dog finds a bone every now and again, right?
+So Mike saw how I was working on this part of his PhD.
+And again, this was kind of their base diet, corn silage, mixed silage, some hay, corn meal, soybean meal, some whole soybeans, okay?
+And you know, when they provided that lice, right?
+They had increased the annuals of our corrected milk.
+So again, early data here, you know, showing, and again, this was published in 2005, but was done in the mid-90s.
+And again, showing some responses to amino acids in transition.
+All right.
+All right, some work that we did also early.
+This was with an analog and methionine.
+These are CPM dairy numbers, actually.
+So we remember CPM dairy.
+Again, largely we did do a bit of a dose titration here.
+It had generally quadratic responses.
+So we saw some responses to some addition of the analog.
+And again, but did not see any responses or any further response for the high end.
+And so again, you know, the intermediate level of that increased milk yield didn't affect nephers or ketones.
+At this time, and I'll show you a couple other studies at this time in the kind of the early, you know, late 1990s, early 2000s,
+we still were thinking about methionine having mostly a liver-lipid metabolism effect, right?
+VLDL synthesis, accretion, things like that.
+And I think our understanding is, as you'll see of the biology, I think of methionine,
+it's probably evolved since that time, right?
+And so I think, you know, again, we think about, and I'll talk about it toward the end of the talk,
+and we think about things like coli, much more on a liver-lipid metabolism standpoint,
+as well as other things that we do with methionine, okay?
+All right.
+So Rick Gromer, this was in a, you know, this was HMTBA, again, the analog methionine.
+And again, they used a number of different studies.
+They used basically a fasting model, right, with non-lactating cows to look at liver triglyceride accumulation
+and then look at how nutrients responded to it.
+And so, you know, again, at least the analog did not affect any liver triglyceride concentrations during the feed restriction
+or when those cows were refed.
+And again, this was done in Canada, right?
+So, protective methionine with a lot, with a lot of folic acid.
+No effect of methionine on milk yields.
+They did see a little bit of milk protein response.
+And actually liver concentrations of triglyceride were actually increased
+and cows fed methionine in that particular study, right?
+So, again, going even opposite of what, you know, one might have previously speculated.
+And Ryan Ordway, again, Ryan's work here.
+He looked at a basal diet or diet supplement with the isopropyl ester of the analog
+or protective methionine.
+Again, did not see any effects on milk or fat corrected milk.
+They did see increased milk protein percentage.
+Did not do anything with liver composition or other metabolites.
+And then Illinois started doing some work in this area.
+So, this is Johan Osorio, part of his graduate work here.
+And so, what Johan did, again, 30, well, Tipper is hosting cows.
+He had three treatments, about three before cabin to 30 days post.
+Again, had an unsupplemented diet or not completely supplemented methionine.
+NRC 2001 at 1.8% of MP.
+HMB, the isopropyl ester of HMB, these would be the numbers here.
+NRC numbers as well.
+And then protective methionine here.
+And you see the numbers there as well.
+And again, here, lysine was probably reasonable prepartum.
+It was pretty low postpartum.
+They had a nice milk yield response, had a nice intake response in the study
+to methionine or methionine supplementation.
+But they started looking at some other things relative to what else
+could methionine be affecting.
+And so, these cows fed methionine both pre and post, right?
+They tended to have greater neutrophilophageous ketosis
+21 days after calving, right?
+So indicative of, perhaps, better immune function.
+Lower plasocereoplasma, serominoid A, so maybe related to inflammation
+or less inflammation, oxidative stress, greater oxidative radical absorbance capacity,
+more glutathione, carnitine.
+So again, this whole oxidative metabolism, inflammatory response story
+kind of emerging here with methionine.
+And then, again, another workout.
+We had one war's lab with Fernanda Betzestel.
+You know, again, they had 60 cows in the study.
+Treatments were 28 days before calving to 60 days post.
+Again, NRC numbers here.
+You know, again, unsupplemented versus supplemented, right?
+And obviously, these numbers in general are going to run lower
+than we're seeing CPS, you know, modern-day numbers are going to run, okay?
+Even at the same level of dietary methionine and things like that.
+But again, lysine here, you see it's 6.5 versus 6.364
+and about 2.8 ratio of lysine and methionine, okay?
+And those are supplemented.
+All right, so again, look at their data.
+This is prepartum dry matter intake.
+And again, prepartum dry matter intake.
+Here's milk yield, right?
+Here's postpartum dry matter intake.
+And again, you know, this would be a basic energy yield.
+And again, see nice positive responses to cows to protect the methionine, okay?
+This study, actually, I think I like a little better.
+The production responses from the Osorio study,
+the Osorio study, the controls didn't necessarily look all that great.
+It's really got a nice response to the methionine here.
+I think both groups of cows look good and they got responses to the methionine.
+So again, a nice overall productive response.
+There's been interest in methionine relative to also its role in epigenetics, right?
+So again, it's a nutrient that may have some roles in helping determine how genes are actually expressed, right?
+Or environmental factors that, again, alter expression of the genome in the cow.
+And so, you know, this gets you back into how do we integrate in, you know, the calf, you know, the calf.
+Things that relate to the calf with how we're feeding mom, right?
+I think, you know, again, Jackie, you know, some of the stuff that you're thinking about and stuff like that.
+We're late, obviously, these things as well, right?
+And obviously, there's been lots of great work, not nutrition related per se,
+but all that heat stress work here in Florida, right, with heat stress during the dry period,
+and having, you know, between Jeff Dalvin and Laporta having, you know, effects on those calves,
+or at least three of their lactations.
+And by the way, the daughters are also affected negatively.
+If mom was heat stressed before, mom was born, interestingly enough, right?
+So, just wild stories that we're just still scraping the surface on from the standpoint of understanding
+what we do with mom and how that might affect the calf.
+So, in this study here, you know, this is methionine supplementation, right?
+So, pre-partum methionine did increase calf birth weight a little bit in this study,
+up-regulated amino acid transport, and again, the signaling pathway that usually responds to insulin in the placentome, right?
+So, again, beginning to see some indication there.
+DUNS, they did some other work, too, right?
+So, again, you know, unsupplement versus supplement, essentially with methionine, you know,
+20-odd days before calving and calving.
+In this case, there was similar birth weight and average daily gain, okay?
+Cow's fed, or had those calves from the cow's fed methionine had lower reactive oxygen
+and trend filled with seroplasma, again, kind of consistent with some of the other things
+relative to how methionine may be working, right?
+And then, you know, changes may be in liver methionine,
+choline homocysteine, as well as insulin signaling.
+So, again, I think a lot of the stuff, it gets pretty complicated to sort this stuff out to be, to be honest with you, right?
+Because there's a lot of things we don't fully understand about how development happens, you know, in these animals,
+and so we're kind of feeling our way through it, I would say, in general, and that'll continue to kind of happen.
+All right, I'll show you some newer data, right?
+So, this is, you know, again, some of the previous slides I've shown before a number of times.
+There's some slides I pulled together in the last few days.
+This was a joint study between Wisconsin and Cornell.
+It had 470 multipers holstein cows.
+And you see, again, these are actually CMCPS numbers.
+You know, UW had control, met a 2.3% of MP, prepartum, 2.1, postpartum, 2.8, 2.6, right?
+Cornell control met with here 2.2, 2.2, 2.8, 2.6, right?
+And so, you know, again, and so they wanted to look at this, they also wanted to look at reproduction.
+And there are some data, I don't have them really in here.
+There are some data, certainly it would suggest that methionine supplementation also may affect embryo development.
+You know, there are some indications of maybe some beneficial repro effects.
+It's kind of a little bit of a mixed bag, though, right?
+Not everything, not everything shows that, right?
+So, but there are some indications there of that, okay?
+And so, looking here, just the performance data from this study.
+Again, you look at this here.
+You look at milk, okay?
+Not much effect on milk yield per se, right?
+But they did see some advantage here in, you know, this was a milk fat percentage, right?
+And also in milk protein percentage.
+So they did see responses anyway on production milk components and cows fed methionine, you know,
+basically during the transition period and early lactation.
+And then some more recent work.
+This is brand, this is actually quite newly published work.
+This is out of University of Illinois.
+Phil Cardoso's group with Jim Drakeley.
+And again, they had just the number of cows they had here.
+And here we've got kind of the first studies where they're actually saying,
+okay, let's express, you know, our amino acid supply is a ratio with energy, right?
+So integrating in that grams of amino acid for MCAL of energy.
+And so they had three treatments here.
+They had a controlled energy without some amino acids.
+So there were about 2.94 grams for MCAL of enemy of lysine, 0.96 mcals of grams that have been withiding.
+And then two amino acids supplemented treatments here targeting 3.2 and 1.21,
+which would be, you know, approximately, I think we're, you know, maybe slightly higher or approximately,
+or Mike, I think would come.
+Mike, they never would come in on some of those numbers and things like that, okay?
+And actually this ratio works out to about the 2.7 that I think he's still saying.
+Where's Mike in the room?
+Mike in the room?
+Call him out.
+Okay, maybe not.
+That's fine.
+We'll talk in the way of what we wrote down together.
+Postpartum, right?
+Again, kind of unsupplement versus supplemented here.
+Again, using kind of the lactating cow numbers, right?
+For lack of having anything really more refined to use, you know, not just in the pre-caving cow,
+but also even that post-fresh cow, maybe as well.
+Looking here at their data, right?
+This is week one to four milk yield, okay?
+You know, interestingly, they actually had, had actually, you know,
+the way they did the stats were kind of interesting, right?
+So they looked at the comparison of the control of this versus this, right?
+And then this versus this, right?
+So, and not necessarily doing a lot of supplement versus unsupplement comparisons and things like that.
+You know, that said, right?
+So you see some indication here for better milk yield.
+Actually, those cows fed higher energy before calving, right?
+With amino acid supplementation.
+Again, they don't have necessarily negative control on the higher energy side.
+And they saw some real protein response here in cows fed the control of energy with amino acid supplementation versus without.
+Okay, so did see some responses there.
+All right, then I found this study as well.
+So again, back to the calf.
+And so this was done actually in China.
+They had 80 heifer calves from dams fed one to four pre-part dietary treatments.
+So basically 20 calves for treatment.
+They had a control.
+They had a protected lysine treatment.
+They had a protective thionine treatment.
+And again, a little hard to get, you know, for the ratios and things like that out of this paper.
+Okay.
+And then they had a combination of lysine plus methionine.
+Okay.
+And so interestingly, I apologize.
+That's a little small to see the graph on the left.
+Okay.
+But I was circled down here.
+They looked at classroom quality, which was better in cows fed any of the amino acid supplement treatments compared to the control.
+Okay, so classroom quality was better.
+At least the indication that they used.
+And then they looked at your total proteins and then number of calves that were that had.
+I read better over here.
+Number of calves that had adequate passive immunity.
+Right.
+So 83% of the control 93 with the thionine 93 with lysine and 97 with the combination.
+Right.
+And then the indication that, you know, okay, you know, we're seeing better, better passive transfer in those, in those calves that were born to mops fed amino acids or both either methionine lysine or both.
+Okay.
+And then again, if you look at IGGs in those calves here on the right.
+Okay.
+We've got, we have again in all, all three amino acid treatments compared to the control.
+They had better, you know, higher IGGs.
+Right.
+So again, nice data setting and maybe linking the amino acid side on to, you know, again, what's going on in the calf.
+Right.
+Getting her off to maybe a better start there as well.
+And then they also looked at growth.
+Right.
+So birth weights were all essentially the same at about 38.5 kilos.
+Right.
+And again, looking here at average daily gain, you know, weaning weights.
+Right.
+They were all basically higher.
+You know, average daily gain was higher .73 kilos.
+Right.
+So you're pushing 1718 pounds per day.
+You know, that jumped up to about .85 to .9.
+Right.
+Per day.
+Total weight gain was, was higher.
+Okay.
+Weaning weight was kind of same-ish or a little bit higher, but actually with fewer days,
+fewer days to weaning.
+Right.
+So you're 10 less days there.
+The controls here were about 69 days of weaning.
+I don't know exactly.
+I don't remember exactly how to determine that.
+The age at, you know, when they decided to, to why that was, but about 10 days fewer to weigh more.
+Right.
+So again, some, some responses there in growth rate of those calves.
+Again, fed for moms, fed methionine or lacing or both for calving.
+All right.
+So I get the question a lot.
+And Clay, how am I going to do them on time?
+Actually, I'll ask you after this.
+I don't know if I'm standing up there with confidence models.
+I'd have the time in my, in my face.
+How much time do I have?
+Roughly?
+Oh, okay.
+I've got plenty of time.
+Is that including questions?
+You asked Jackie a lot of questions.
+So I'm kind of, you know, a little scared about that.
+Okay.
+All right.
+So I get the question.
+All right.
+We got methionine.
+We got choline.
+Right.
+You hear at times, right?
+Well, you don't need choline.
+Just need more methionine.
+Right.
+And I don't often hear the other way around.
+Right.
+But again, you know, as you'll see, we connect them in biology.
+Right.
+But the question is, you know, how interchangeable are they really?
+And my quick answer is they're not that interchangeable.
+Okay.
+Right.
+They definitely appear to work differently.
+I'll kind of walk you through some of that and then happy to kind of go from there.
+Okay.
+So certainly they are connected biologically, right?
+They both have roles in the male metabolism, right?
+So you've got methionine here with protein synthesis, cysteine biosynthesis.
+Again, you know, methyl donors.
+They're both methyl donors.
+That's kind of where they converge and have one-carb metabolism.
+You know, choline's got roles in fat metabolism, acetylcholine, or cell
+infrastructure through phosphatilcholine.
+Right.
+And they both have key roles in metabolism.
+And you connect them.
+Right.
+So there'll be a quiz on this at the end.
+But you've got choline here, right, through betaine.
+You know, again, the re-bethylation of homocysteine and methionine.
+Okay.
+You've got acetyl-cyl-methionine, you know, taking phospholethanolamine, eventually to
+phosphocoline.
+Right.
+You've got some direct pathways here.
+So again, you can connect these things.
+Right.
+And, you know, there is some evidence of some conversion, right?
+This is an old study now.
+It would be fun to do something like this.
+This was done in goats.
+It would be fun to do this in the cows someday just because of the standpoint we
+will actually get at quantitatively how much interrelationship is there really.
+Okay.
+And so, you know, methionine, you know, certainly was forming some choline, you know,
+and forming a bit of a choline pool in goats.
+And so, again, you've got choline.
+It's actually an entry or a reverse loss.
+It's quantitative, you know, quantitative flux.
+You don't see any much choline going toward methionine, but there's some methionine going
+to a choline.
+But it's not a huge amount, right?
+But it's at least in these goats it was there.
+So just some thoughts on this, right?
+So I think it's certainly a reasonable, you know, it's a reasonable hypothesis, right?
+That there could be some connection here, right?
+It could be some conversions.
+It could be some interrelationships there.
+You know, supplying the thionine might meet some of the needs for choline.
+You know, choline might be able to meet some of the needs for thionine, right?
+But what does the literature actually tell us?
+Okay.
+So if you look at choline research, and again, I can take you through it.
+I'm not really going to take you through all the literature here.
+But, you know, you got the meta-analysis done a few years ago by Arshad, right?
+I actually don't have this in here.
+I probably should have tucked it in here.
+You know, the meta-analysis on feeding choline to cows also shows,
+actually shows really consistent responses.
+Positive responsive milk yield to choline supplementation, right?
+Again, you don't have to be a statistician to look at that meta-analysis
+and see all those lines going like in the same positive direction, right?
+It says people supply more choline in studies.
+The mechanism across a number of different studies now, right,
+is certainly consistent with better fat metabolism in the liver, right?
+And increased export is VLDL, right?
+So if you're looking at saliva proteins, choline is required, you know,
+for that, you know, assembly and secretion of VLDL from the liver.
+Again, you know, and it's certainly been shown multiple times
+in these feed restriction models,
+and otherwise to lower liver triglyceride accumulation, right?
+So again, choline does that.
+It's also well documented.
+Other species does the same thing, okay?
+And again, this was actually the original mechanism
+that was proposed from a thiamine, right?
+And it really certainly appears there's really no evidence of literature
+or no meaningful evidence of literature
+that the thiamine actually really works in that way, right?
+It looks like it works in other ways, again, relative to...
+But it's immunity, inflammation, oxidative stress,
+and there's more attention there all the time, right?
+I would say for choline, the effect on blood metabolites is inconsistent, right?
+So sometimes, right, you might see lower NEPAs
+or BH for blood ketones, right?
+But that's pretty inconsistent, right?
+And again, that makes sense because, you know, choline does...
+You know, I think it does some other things now.
+There's been some things shown that mean function inflammation
+and things like that, but not...
+But, you know, not, you know, being directly anti-ketogenic.
+It's also not going to be directly antipolitic either, right?
+And it does something with a liver fat metabolism,
+does something fairly specific,
+and that's how that liver deal with the fat that it takes up
+in the bloodstream and sends it back out in the blood
+where it's usually productive,
+and also interfered less with metabolic processes in the liver.
+Overall summary of feeding the analogs,
+I probably need to parse this out a little bit, right?
+So, again, I also see, you know, especially the milk protein yield, right?
+Milk yield, milk protein, percentile protein yield,
+interlactation doesn't seem to relate to the liver,
+fatty acid metabolism, and again, back to thoughts on...
+It's doing other things, you know, that help that liver,
+you know, during lactation, that help the cow systemically
+and things like that, okay?
+So, again, so again, I think they're different.
+So, okay, what do the data tell us, though,
+about what these interrelationships may be?
+Interactions, okay?
+A couple of studies I'll show, or a couple of things I'll show you.
+This is out of Heather White's group.
+Okay, this was done in vitro.
+Tony Chandler was the PhD student on it.
+And what they're looking at was looking at VLDL,
+basing excretion from coaline hepatocytes in vitro.
+We're actually looking at liver cells.
+In vitro, what they did is they supplied them
+with increasing amounts of either choline chloride in vitro
+or methionine, and what you see here is, again,
+you get a pretty nice linear-ish response here
+to more choline supplied in vitro on VLDL secretion export,
+or VLDL secretion anyway.
+No relationship here with methionine supply in this system.
+Not a lot of studies out there doing both.
+This was done in China.
+They had four treatments here.
+They had a control, had protecting methionine.
+You see the amounts of choline chloride,
+protected choline, methionine, and then both.
+And, again, fed them 21 days before expecting
+cabin through 21 days after cabin.
+So, in this case, you know, both protected choline
+and choline increase pre-part or post-partum intake.
+They decreased countries and even the ketones,
+increased glucose.
+You know, similar effects on various indices
+that they looked at for oxidative status.
+The interaction in terms of generally not significant
+suggesting maybe there's additivity there, right?
+Okay. So, maybe opportunities for both here in the diet.
+Okay. And then, more recently, this Rich Erdman's group,
+you know, again, they had first-halfers, older cows.
+You know, they had treatments for three before cabin
+to five weeks after cabin.
+They had control with either no protected methionine or choline.
+Again, here were your lysine levels in this study,
+pre-partum and post-partum.
+So, those are reasonable protected choline.
+This much choline ion, protected methionine,
+nine grants per day, pre-partum,
+third and a half, again, this is of choline and of methionine,
+and then the combination of the two.
+All right. A little bit more of, again,
+you look at fat-corrected milk yield here,
+and this is, you know, with methionine, without methionine.
+And again, you know, seeing a nice overall response
+in milk and performance here.
+And cows fed the methionine during transition
+or lactation.
+And, you know, again, this is, and if you look here at,
+I'm not sure if that's the right thing.
+Okay. Whoops.
+And here, you know, breaking it out a little bit further here, right?
+So, button.
+You know, seeing here, again, arguably,
+maybe this combination was probably the better treatment,
+but, you know, a little more mixed,
+a little more mixed bag relative to response.
+Okay. So, again, I think could you, you know,
+again, could use more definition in the area.
+So, just to summarize, conclude,
+and then Clay is going to probably have about 20 minutes of questions.
+Maybe not quite. He said 20 minutes, I think, before.
+So, protective methionine, right?
+Again, I think, you know, clearly we expect better performance, right?
+And again, the mechanism, I think,
+relates probably more along the lines of,
+of oxidative tabloids that we function,
+their functionality.
+Seeing some more recent stuff suggesting maybe
+gut health-related mechanisms and things like that as well.
+So, there's a few different things there.
+They're kind of on the table with, with, with pthionine,
+you know, protected pthionine and leicene submitations.
+You know, we're getting one study that I showed you,
+suggesting maybe better passive transfer and calf performance, right?
+And so, again, research like me have been guilty over time
+of we feed these diets, these cows,
+and we don't bother to follow the calves, right?
+We're just doing more where we're following the calves, right?
+In a lot of the work that we do,
+because we think that's been a gap anyway,
+relative to how we've, how we've done the work.
+And so, we are doing more of that for sure, right?
+And then, you know, again, I think at the end of the day,
+protecting pthionine and choline, they work differently in the cow.
+And, and I would just say they're,
+they're not going to immediately substitute for each other.
+So, I think that conversation, the data just doesn't support that,
+well, you know, just feed one pthionine, for example, right?
+Because I think, again, I think both are, both are important.
+All right, I appreciate the opportunity to play.
+I'm happy to take whatever questions you care to throw.
+All right, thank you, Tom.
+Next one.
+Yes.
+I have no idea what the question is.
+You want me to read it?
+No, I've got it here.
+What level of MP grams would you suggest for far off and pre-fresh diets?
+Yeah, well, of MP grams, again, I'm going to come back to, you know,
+probably to, you know, whatever the math is.
+So, for pre-fresh, right?
+Whatever the math is between that, you know,
+you know, two-sixth and two-eight percent of MP
+and that thirteen hundred grams of MP.
+I'm not quick enough through the math in my head to get that to, to grant.
+You know, somewhere in that range.
+Far off, I don't think we really know, right?
+And that's very intrigued by what Jackie's talking about here,
+relative to looking at MP in far off cows, you know,
+and because oftentimes, you know,
+we don't feed them a whole lot of MP in most scenarios, right?
+So I think what Jackie was talking about there about studying that further,
+studying amino acids,
+because I just don't think we have early any data to really go on
+with amino acids and far off cows, right?
+So, so I'll be intrigued as she and her group do their work
+and hopefully get us some further guidance.
+I will say, you know, again, I'm going to share,
+you always have unpublished stuff, right?
+And do this mine or others and so we've done, we've done,
+when I got to Cornell a long time ago, right,
+I'd done some protein metabolism work during my PhD
+that I haven't published, straightfully books me about that
+about every three years.
+And, but then we also were doing some work trying to look at,
+it was related to that bell paper, you know,
+where we're trying to look at, you know,
+feeding very different protein levels during the whole dry period
+and then looking at like post, like how much nitrate,
+you know, things they mobilize, nitrate balance, stuff like that.
+So I'll share, you know, PhD things,
+I'll just say to share with you, but there's just,
+it's amazing how much we don't fully, you know, understand.
+I mean, I'll show you some data this afternoon during this,
+I'll hijack the Q&A session.
+So, we'll pull a little bit of a neighbor here,
+we'll take it in this direction.
+So, maybe Mike's back in the room.
+So, you know, we'll talk later,
+I'll show some of the, let's talk to PhD data,
+we're looking at protein feeding.
+Some of it, obviously there's a pre-partner component,
+we're going to focus on the post-partner component
+and we, you know, I'll show you that, you know,
+we supply the same amount of lysine and methionine
+in grams per day, right,
+because the way we balance those diets,
+yeah, we supply a lot more MP,
+supply other things and got, just like Jackie,
+Jackie showed you with that case study,
+a big nuclear response, right.
+So, again, so what, you know, back to this notion
+of what is truly going on with protein metabolism,
+you know, in this cow in that pre-fresh
+and immediate post-fresh period,
+and how can we influence that further, right.
+So, I think it's still, you know,
+our amino acid requirements that we have,
+we're still based largely on cows
+and established lactation, right,
+and not so much on cows in transition
+where you've got all these different moving parts going on,
+and so I think, again, it's, it'd be fascinating
+to be fascinated to watch this area go forward.
+Yeah.
+So, there are a couple of questions related
+to cholesterol production.
+Yes, so, some berries don't produce enough cholesterol.
+Is the work you presented suggesting
+we aren't meeting close-up dry cow MP requirements
+for lysanthin?
+So, and again, that study was largely
+unsupplemented versus supplemented, right,
+and so, you know, I think if we're not supplementing at all,
+right, that could be true, right.
+You know, certainly there's data with other nutrients
+and there's data with coal lead
+suggesting approved cholesterol production.
+You know, we, in a recent study we did
+looking at D-CAD and calcium levels,
+we had higher cholesterol production
+when we combined a more aggressive D-CAD
+with a higher calcium level in the diet,
+and we said higher calcium,
+we're talking one and a half percent
+of that pre-partum diet,
+but I think, you know, again,
+I think it's been a little bit equivocal relative
+to showing direct relationships of MP supply
+with cholesterol production.
+That's kind of what we all do, right,
+so, you know, we, at the farm level,
+right, we're getting out of the classroom production.
+If you get through November
+and you haven't seen severe classroom issues,
+you're like, okay, that's great
+because maybe we're through the,
+what seems to be seasonality associated with it,
+and that was really hard to pin down, honestly, right,
+so things that truly affect classroom production.
+Usually we, you know,
+what I often do is we drop down,
+if we're overfeeding energy far off,
+because I do worry some about, you know,
+this calorie being a little sluggish,
+metabolically, we drop that down
+and we boost the MP,
+and we figure we've got about 30 days or so
+to hopefully the cows are going to get out of it
+on their own, right,
+that's a little secret here, right,
+so, but hopefully they get out of this on their own
+because we just haven't figured that one out, obviously.
+Others may have better answers than that, right,
+but that's kind of my view of it.
+If you had to feed a one group dry cow diet,
+would you feed, where would we protect a culling
+and where would we protect them with dieting?
+So, yeah, I probably would.
+Yeah, I'm recognizing a lot of you, you know,
+and certainly we'll answer in New York
+that also would be one group dry cows, right,
+I do, I will always caveat my answer to say
+I prefer two group dry cow systems, right,
+because that really allows you to focus your,
+you know, whether it's your calcium approach, right,
+especially D-CAD, you know, if you're thinking about,
+because there are handful of herds
+maybe feeding a binder for a full dry period,
+I'm pretty hesitant on that one without some data,
+you know, to kind of back that one up,
+but there are herds feeding D-CAD for a full dry period
+and that seems to be okay,
+maybe not quite as aggressive as some of the levels
+we might be in a two group system,
+allows us to focus our RUP supplementation
+and maybe more, you know, some of the things
+we might do otherwise nutritionally
+on that close-up group, right,
+so I prefer that and I think we get probably
+little better outcomes there.
+That said, right, what the question is,
+I am going to be a one group dry cow program,
+yes or no?
+I'm going to say yes, right,
+and I think I would say that,
+but I might not be quite as aggressive on the MP,
+might be down there in that 1,200, 1,300 gram range
+and probably not much more than that, right,
+so we would use some of that,
+some of that, I'll say cost savings on RUP
+and things like that to maybe,
+and it would also be probably less aggressive
+on the DECAD, right, so there's ways
+to kind of balance that one out a little bit.
+Okay, so to tie into that,
+from a practical standpoint,
+what economic return can producers expect
+from incorporating methionine
+in transition cow diets?
+I'm sure you can answer that question, right?
+You and your team can answer that question
+probably quite effectively, right?
+So, you know, again,
+you see the data there, right,
+you know, pretty consistent,
+you know, three to four pounds of milk anyway
+in relaxation, right,
+and so, you know, and again,
+do that math, right,
+so again, you know, back to, again,
+this notion of transition, right,
+we know in general that if we get them out of the gate
+better, right, we're going to get carryover response,
+you know, we're going to boost that lactation, right,
+we're not just boosting 21 days
+or 28 days worth of milk yield,
+we're going to boost that lactation.
+Okay, one final question here.
+What level of eminence
+are you recommending prepartum
+to then set the percent of methionine
+like you see here, all of this eminence?
+So, we would be...
+I'll try to do the math in my head.
+So, we're going to be,
+I'm going to give you some numbers there
+because I don't necessarily think in ME all the time, right,
+so we're going to run 16%, 18% starch, right,
+we're going to run 43%, 44% NDF, right,
+again, my preference would be for, you know,
+strong corn silage, grain mix based diet.
+I do maintain those,
+I just don't want to say something wrong
+because I'm not pulling out my head.
+We do maintain, I do maintain,
+sheet of nutrient recommendations
+for dry and lactating cows
+that have all those numbers with ME on them,
+that have all the ratios on,
+there are things like that.
+Anybody here sends me an email at TRO2, right,
+I'll be glad to share that, right,
+we share it with those that,
+every year they take our short course,
+you know, the short course we do at Cornell
+and it's on demand for anybody who wants it,
+so please, if you're interested
+in the more detailed nutrient recommendations and specs
+for posting cows far off, close up, fresh and high,
+right, please just send me an email
+to that email address
+and I'll be glad to reply to you with that, okay.
+All right, and with that, let's thank Dr. Herbert.
+Thanks.
+Thank you.
