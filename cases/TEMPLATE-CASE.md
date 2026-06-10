@@ -9,6 +9,7 @@ author: [кто зафиксировал]
 category: [metabolic|reproduction|nutrition|economics]
 tags: [ketosis, bhb, dmi, bcs]
 status: raw|processed|archived
+fpf_context: []  # Автоматически заполняется агентом через fpf_reference
 ---
 ```
 
@@ -76,6 +77,13 @@ status: raw|processed|archived
 
 **Связанные кейсы:**
 - CASE-XXX: [ссылка]
+
+## FPF-основание
+
+> **Автоматически подобрано через `fpf_reference`:**
+> - IDs: 
+> - Constraints: 
+> - Gaps: 
 
 ---
 

@@ -12,6 +12,7 @@ category: [metabolic|reproduction|nutrition|economics]
 tags: [ketosis, bhb, threshold]
 status: draft|active|deprecated|experimental
 confidence: high|medium|low  # Насколько валидировано
+fpf_context: []  # Автоматически заполняется агентом через fpf_reference
 ---
 ```
 
@@ -117,6 +118,13 @@ confidence: high|medium|low  # Насколько валидировано
 |------|--------------|-------|
 | YYYY-MM-DD | Создано | [имя] |
 | YYYY-MM-DD | Добавлен LIMITS по [условию] | [имя] |
+
+## FPF-основание
+
+> **Автоматически подобрано через `fpf_reference`:**
+> - IDs: 
+> - Constraints: 
+> - Gaps: 
 
 ---
 

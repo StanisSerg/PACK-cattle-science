@@ -8,6 +8,7 @@ date: YYYY-MM-DD
 author: [кто принял решение]
 category: [metabolic|reproduction|nutrition|economics]
 status: draft|validated|rejected|superseded
+fpf_context: []  # Автоматически заполняется агентом через fpf_reference
 ---
 ```
 
@@ -85,6 +86,13 @@ status: draft|validated|rejected|superseded
 
 **Связанное правило:**
 - RULE-XXX: [ссылка, если создано]
+
+## FPF-основание
+
+> **Автоматически подобрано через `fpf_reference`:**
+> - IDs: 
+> - Constraints: 
+> - Gaps: 
 
 ---
 
