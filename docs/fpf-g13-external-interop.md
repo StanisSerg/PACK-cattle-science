@@ -3,15 +3,14 @@ type: fpf-study
 pattern: G.13
 title: "External Interop Hooks: как импортировать внешнее знание, не разрушая структуру"
 domain: cattle-science
-difficulty: hard
+difficulty: advanced
 reading_time: 18 min
 created: 2026-05-26
 ---
 
-# G.13 — External Interop Hooks (Интеграция с внешними научными индексами)
+# G.13 — External Interop Hooks: как импортировать внешнее знание, не разрушая структуру
 
 ## 1. Зачем это читать
-
 Если вы когда-нибудь копировали данные из PubMed, Google Scholar или ветеринарной базы знаний в свой PACK — и не задумывались, **что происходит с этими данными внутри вашей системы** — вы столкнулись с проблемой G.13. Этот паттерн не про то, **где искать статьи**. Он про то, **как встроить внешние источники в FPF-пайплайн так, чтобы они не стали теневой спецификацией**.
 
 В мире software импорт данных из внешних API часто приводит к «утечке семантики»: формат JSON заменяет спецификацию, внешние id начинают жить своей жизнью, а через год никто не помнит, что означает импортированное поле. В мире ферм — когда вы импортируете PubMed-цитаты о кетозе, вы должны сохранить: какая редакция источника, как произведено сопоставление понятий, какие evidence-пути ведут к импортированным данным.
@@ -20,10 +19,7 @@ created: 2026-05-26
 
 **С G.13:** каждый внешний источник зарегистрирован, сопоставление задокументировано, производные признаки типизированы, а изменения во внешнем источнике порождают RSCR-триггеры для обновления.
 
----
-
 ## 2. История одной ошибки
-
 Ферма «Волжское» создавало PACK по управлению переходным периодом. Зоотехник нашёл 47 статей в PubMed по ключевым словам «dairy cow transition period ketosis». Импортировал их в справочник фермы:
 
 - Названия статей
@@ -46,12 +42,8 @@ created: 2026-05-26
 
 FPF G.13 говорит: *внешние данные — это не evidence, пока они не типизированы, не привязаны к путям и не обновляются*.
 
----
-
-## 3. Core concepts
-
+## 3. External Interop Hooks: как импортировать внешнее знание, не разрушая структуру — полное описание
 ### 3.1 ExternalIndexCard@Context — регистрация внешнего источника
-
 Прежде чем использовать внешний источник, его нужно **зарегистрировать** — создать «карточку источника».
 
 ```
@@ -82,7 +74,6 @@ FreshnessWindow: 90 days
 **Ключевой принцип:** downstream артефакты цитируют `ExternalIndexRef.edition`, а не копируют snapshot id. Это позволяет отслеживать, какая версия источника была использована, даже если провайдер изменил схему.
 
 ### 3.2 ClaimMapperCard@Context — рецепт сопоставления
-
 `ClaimMapperCard` — это концептуальный «рецепт преобразования», который создаёт FPF-нативные артефакты из внешнего источника.
 
 ```
@@ -120,7 +111,6 @@ ScaleEmbeddingSpecRef: SCALE-OVINE-TO-BOVINE-2024
 ```
 
 ### 3.3 SoSFeatureTransform@Context — типизация внешних сигналов
-
 ```
 SoSFeatureTransform@Context := ⟨
   SoSFeatureTransformId,
@@ -143,7 +133,6 @@ SoSFeatureTransform@Context := ⟨
 **Важно:** преобразование — это **типизация + происхождение**. Оно не вводит новых компараторов и не создаёт новых governance cards.
 
 ### 3.4 IndexTelemetryPin — обновление по изменению источника
-
 ```
 IndexTelemetryPin := ⟨
   triggerKindId: RSCRTriggerKindId,
@@ -164,10 +153,7 @@ IndexTelemetryPin := ⟨
 
 Это попадает в `G.11 RefreshQueue` и планирует пересчёт затронутых claim sheets.
 
----
-
-## 4. Антипаттерны
-
+## 4. Почему смешивать / игнорировать — значит рисковать
 | Антипаттерн | Проявление на ферме | Почему опасно | Как исправить |
 |---|---|---|---|
 | **CN/CG Spec-Ref Leakage** | «В статье сказано 85% — значит, у нас тоже 85%» | Внешние числа трактуются как законные score без привязки к CHR/CAL/CG | Типизировать через `SoSFeatureTransform` с `CharacteristicId/ScaleId` |
@@ -177,10 +163,7 @@ IndexTelemetryPin := ⟨
 | **Format-as-Norm** | «У нас RO-Crate — это и есть спецификация» | Формат заменяет концептуальную поверхность | Сериализация — в Annex/Interop; норматив — в conceptual surfaces |
 | **Shadow Governance** | Импортированные данные начинают определять «что считать правильным» | Внешний источник становится теневым legality gate | Все решения — через `G.5` + `G.Core`, не через импорт |
 
----
-
-## 5. Пример на ферме: импорт PubMed-цитат в PACK
-
+## 5. Как это выглядит на ферме: импорт PubMed-цитат в PACK
 **Контекст:** Ферма «Волжское» создаёт PACK по протоколу переходного периода. Нужно интегрировать внешние исследования как inputs для SoTA-авторинга.
 
 **Step 1 — Регистрация источника:**
@@ -266,10 +249,7 @@ IndexTelemetryPin: ⟨
 - `RerunParity` для методов, использовавших Smith et al. 2019
 - `ReshipPack` с обновлённым `InteropSurfaceId`
 
----
-
-## 6. Практика: с чего начать
-
+## 6. Практическое применение: с чего начать
 **Шаг 1. Зарегистрируйте один внешний источник.**
 Выберите один источник, который вы используете (PubMed, CAB Abstracts, внутренняя база консультанта). Создайте `ExternalIndexCard` с указанием edition, coverage и freshness window.
 
@@ -285,10 +265,7 @@ IndexTelemetryPin: ⟨
 **Шаг 5. Настройте обновление.**
 Запишите `IndexTelemetryPin` для случая, когда внешний источник изменится. Какие `PathSlice` затронуты? Какие действия нужны?
 
----
-
 ## 7. Проверь себя
-
 | Вопрос | Если ответ «не знаю» — проблема |
 |---|---|
 | Можете ли вы назвать редакцию внешнего источника, который использовали месяц назад? | Edition Drift |
@@ -298,31 +275,20 @@ IndexTelemetryPin: ⟨
 | Можете ли вы через год восстановить, как именно PubMed-статья повлияла на протокол? | Отсутствие EvidenceGraph |
 | Считаете ли вы формат импорта (JSON, CSV, RO-Crate) спецификацией? | Format-as-Norm |
 
+## 8. Связь с другими паттернами
+| Паттерн | Связь |
+|---|---|
+| G.Core | Part-G инварианты, `TriggerAliasMap`, Default Governing Definition Index. |
+| G.2 (SoTA Harvest) | ClaimSheets и BridgeHints из `ClaimMapperCard` попадают в harvest. |
+| G.3 (CHR Pack) | `SoSFeatureSet` формализуется как CHR-типизированные характеристики. |
+| G.5 (Selector) | селектор потребляет произведённые артефакты под своими governing spec refs. |
+| G.6 (EvidenceGraph) | `EvidenceGraphId` + `PathSliceId` обеспечивают трассировку. |
+| G.7 (Bridge Sentinels) | `PlaneMapRef` и `CrossingBundle` управляют кросс-контекстными переходами. |
+| G.9 (Parity) | parity может сравнивать методы с указанием evidence-depth из внешних источников. |
+| G.10 (Shipping) | `InteropSurface@Context` включается в shipped pack как cited payload. |
+| G.11 (Refresh) | `IndexTelemetryPin` эмитирует RSCR-триггеры для обновления. |
+| A.19 / G.0 | CN-Spec и CG-Spec; interop не вводит теневых legality gates. |
 ---
 
-## 8. Связи
-
-- **G.Core** — Part-G инварианты, `TriggerAliasMap`, Default Governing Definition Index.
-- **G.2 (SoTA Harvest)** — ClaimSheets и BridgeHints из `ClaimMapperCard` попадают в harvest.
-- **G.3 (CHR Pack)** — `SoSFeatureSet` формализуется как CHR-типизированные характеристики.
-- **G.5 (Selector)** — селектор потребляет произведённые артефакты под своими governing spec refs.
-- **G.6 (EvidenceGraph)** — `EvidenceGraphId` + `PathSliceId` обеспечивают трассировку.
-- **G.7 (Bridge Sentinels)** — `PlaneMapRef` и `CrossingBundle` управляют кросс-контекстными переходами.
-- **G.9 (Parity)** — parity может сравнивать методы с указанием evidence-depth из внешних источников.
-- **G.10 (Shipping)** — `InteropSurface@Context` включается в shipped pack как cited payload.
-- **G.11 (Refresh)** — `IndexTelemetryPin` эмитирует RSCR-триггеры для обновления.
-- **A.19 / G.0** — CN-Spec и CG-Spec; interop не вводит теневых legality gates.
-
----
-
-## 9. Что читать дальше
-
-- **G.13:Ext.ExternalIndexProviderWiring** — провайдеро-специфичная проводка (OpenAlex, Crossref, ORKG)
-- **G.13:Ext.EmbeddingBasedAlignment** — выравнивание на основе эмбеддингов (Phase-3 seed)
-- **G.13:Ext.EntityResolutionAndAliasDocking** — разрешение сущностей и докирование алиасов
-- **FPF-Spec.md §G.13** — полная нормативная версия
-
----
-
-*Этот capture создан в рамках WP-1 (Саморазвитие — изучение FPF) для PACK-cattle-science.*
-*Цель: сделать архитектурный паттерн читаемым без погружения в 50 страниц спецификации.*
+*Capture создан в рамках изучения FPF.*
+*FPF Source: FPF/FPF-Spec.md §G.13*
