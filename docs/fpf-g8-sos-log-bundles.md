@@ -3,15 +3,14 @@ type: fpf-study
 pattern: G.8
 title: "SoS-LOG бандлы и лестницы зрелости: от бумажного журнала до ИИ-мониторинга"
 domain: cattle-science
-difficulty: medium
+difficulty: intermediate
 reading_time: 19 min
 created: 2026-05-26
 ---
 
-# G.8 — SoS-LOG Bundles & Maturity Ladders
+# G.8 — SoS-LOG бандлы и лестницы зрелости: от бумажного журнала до ИИ-мониторинга
 
 ## 1. Зачем это читать
-
 Если вы когда-нибудь говорили: *«Наша программа здоровья стада на уровне 4 из 5»* — но не могли объяснить, что такое «уровень 4», кем он определён, на чём основан, и что нужно для «уровня 5» — вы использовали **нематериализованную зрелость**.
 
 G.8 превращает разрозненные «программы», «чек-листы» и «уровни развития» в **проверяемые, цитируемые артефакты**:
@@ -21,10 +20,7 @@ G.8 превращает разрозненные «программы», «че
 
 Этот паттерн — **иммунитет против «мы вроде как продвинутые»**.
 
----
-
 ## 2. История одной ошибки
-
 Ферма «Надежда» заявила, что её «программа мониторинга здоровья стада» находится на «уровне 4 — цифровой мониторинг». Инвестор, проводивший due diligence, увидел цифру и поверил.
 
 Аудит показал:
@@ -43,12 +39,8 @@ G.8 требует:
 4. Правила (`SoSLogRuleId`) — tri-state: `pass` / `degrade(mode=...)` / `abstain`.
 5. Решения записываются в `AdmissibilityLedger` с полным audit trail.
 
----
-
-## 3. Core concepts
-
+## 3. SoS-LOG бандлы и лестницы зрелости: от бумажного журнала до ИИ-мониторинга — полное описание
 ### 3.1 SoS-LOG.Rule — правило с тремя исходами
-
 `SoS-LOG.Rule` — это исполняемая схема решения с три-state доменом:
 - **pass** (допустить / admit) — метод проходит все пороги
 - **degrade(mode=...)** (деградировать) — метод допустим с ограничениями; требуется указать режим
@@ -62,7 +54,6 @@ G.8 требует:
 - `Rule_003`: «Метод генетического отбора для текущей задачи — `abstain` (горизонт не подходит)»
 
 ### 3.2 SoS-LOGBundle@Context — упаковка для селектора
-
 `SoS-LOGBundle@Context` — это UTS-публикуемый объект, который связывает:
 - `MethodFamilyId` (какое семейство методов)
 - `SoSLogRuleId[]` (какие правила применять)
@@ -78,7 +69,6 @@ G.8 требует:
 - Не создаёт shadow specs
 
 ### 3.3 AdmissibilityLedger@Context — журнал runtime-решений
-
 `AdmissibilityLedger` — это runtime-представление, которое записывает:
 - `MethodFamilyId` + `SoSLogRuleId`
 - `GuardDecision ∈ {pass | degrade | abstain}`
@@ -91,7 +81,6 @@ G.8 требует:
 **На ферме:** каждое решение селектора о том, допустить ли метод, записывается в ledger с обоснованием. Через год можно проверить: почему метод X был отвергнут? Ответ: `PathId-123` + `Rule_007` + `abstain` по `AcceptanceClause_003`.
 
 ### 3.4 MethodFamily.MaturityCardDescription — лестница зрелости как poset
-
 Лестница зрелости публикуется как отдельный, цитируемый артефакт:
 - **Closed rungs** — UTS-регистрируемые идентификаторы ступеней
 - **Scale kind = ordinal** — не cardinal, не ratio
@@ -111,15 +100,11 @@ G.8 требует:
 Переход `Rung_003 → Rung_004` требует: `PathId` доказательства, что интеграция работает; `AcceptanceClause` для порога сбоев; `Rule` для режима `degrade` при отказе сети.
 
 ### 3.5 Separation rule — разделение метод-специфики
-
 Метод- или генератор-специфичные пины (QD, OEE, open-ended) НЕ находятся в core bundle. Они появляются только в `GPatternExtension` блоках, когда соответствующий extension активен.
 
 **На ферме:** если вы используете QD-archive для мониторинга разнообразия показателей стада, edition pins (`DescriptorMapRef.edition`, `DistanceDefRef.edition`) появляются только через extension `QD_OEE_TelemetryPins`, а не в основном бандле.
 
----
-
-## 4. Антипаттерны
-
+## 4. Почему смешивать / игнорировать — значит рисковать
 | Антипаттерн | Почему опасно | Как выглядит на ферме |
 |---|---|---|
 | **«Скалярная зрелость» (Scalar Maturity)** | Зрелость выражается числом или процентом, маскируя частичный порядок. | «Наша программа здоровья — 4.2 из 5» — без определения, что такое 4.2. |
@@ -128,15 +113,11 @@ G.8 требует:
 | **«Телеметрия без гигиены» (Telemetry Contamination)** | QD/OEE/illumination сигналы используются как dominance inputs без явных policy pins. | «Алгоритм выбрал DCAD, потому что illumination высокий» — но illumination не должен доминировать без политики. |
 | **«Вечный бандл» (Eternal Bundle)** | Bundle публикуется без edition pins и RSCR wiring; изменения не отслеживаются. | «У нас есть программа здоровья» — но она 2018 года, а edition не pinned, и никто не знает, что изменилось. |
 
----
-
-## 5. Пример на ферме: лестница зрелости для «программы здоровья стада"
-
+## 5. Как это выглядит на ферме: лестница зрелости для «программы здоровья стада"
 **MethodFamily:** `HerdHealthProgram`
 **Context:** `Farm_A_Transition_Barn_2026`
 
-### MaturityCardDescription (ordinal/poset)
-
+### 5.1 MaturityCardDescription (ordinal/poset)
 ```
 MaturityCardRef: MAT-HHP-001
 ReferencePlane: Farm_Operational_World
@@ -170,8 +151,7 @@ Rungs (closed set):
 
 **Примечание:** poset, не линейный порядок. Например, ферма может перейти `Rung_002 → Rung_004` (скипнув сырые датчики), если сразу внедряет интегрированную платформу. Но `Rung_005` требует `Rung_004`.
 
-### SoS-LOGBundle для Rung_004 (IntegratedDashboard)
-
+### 5.2 SoS-LOGBundle для Rung_004 (IntegratedDashboard)
 ```
 SoS-LOGBundleRef: BUNDLE-HHP-FarmA-004
 Edition: 2026-05-26
@@ -205,8 +185,7 @@ PortfolioMode: Standard
 DominanceRegime: Pareto
 ```
 
-### AdmissibilityLedger (runtime snapshot)
-
+### 5.3 AdmissibilityLedger (runtime snapshot)
 ```
 ⟨ MethodFamilyId: HHP-001
   SoSLogRuleId: RULE-HHP-001
@@ -229,10 +208,7 @@ DominanceRegime: Pareto
 - Аудитор видит: «ALT-002 отвергнут по RULE-HHP-003, вот PathId».
 - Менеджер видит: «Для перехода на Rung_005 нужно пройти ACC-003, ACC-004, вот обоснования».
 
----
-
-## 6. Практика
-
+## 6. Практическое применение: с чего начать
 **Шаг 1. Определите MethodFamily.**
 Выберите одну программу/метод, который хотите «оценить зрелость» (например, программа воспроизводства).
 
@@ -251,10 +227,7 @@ DominanceRegime: Pareto
 **Шаг 6. Запустите AdmissibilityLedger.**
 Каждое runtime-решение записывайте: метод, правило, исход, доказательства. Это ваш аудит-след.
 
----
-
 ## 7. Проверь себя
-
 | Вопрос | Если ответ «да» — проблема |
 |---|---|
 | Выражаете ли вы зрелость числом (1–5, 0–100%)? | Scalar Maturity |
@@ -263,22 +236,20 @@ DominanceRegime: Pareto
 | Используете ли вы «сигналы системы» (QD, illumination) для выбора метода без явной политики? | Telemetry Contamination |
 | Изменяли ли вы правила/лестницу без обновления edition и RSCR wiring? | Eternal Bundle |
 
+## 8. Связь с другими паттернами
+| Паттерн | Связь |
+|---|---|
+| G.Core | универсальные инварианты Part-G: tri-state guard, penalties→R_eff, P2W split, типизированные RSCR triggers. |
+| C.23 (SoS-LOG) | семантика правил `pass/degrade/abstain`; G.8 только упаковывает их ids. |
+| C.22 (TaskSignature) | сигнатуры задач, к которым привязываются бандлы. |
+| G.4 (Acceptance) | thresholds и `AcceptanceClauseId`, которые бандл цитирует, не встраивает. |
+| G.6 (Evidence Graph) | `PathId/PathSliceId` для обоснования rung transitions и решений. |
+| G.5 (Method Dispatcher) | потребитель `SoS-LOGBundle` для registry/selection. |
+| G.11 (Refresh Orchestration) | потребитель RSCR triggers при изменении bundle/ledger. |
+| G.10 (Shipping Boundary) | бандл может пересекать границу публикации/shipping. |
+| F.9 (BridgeCard) | если reuse across context, crossing pins подключаются через `G.8:Ext.BridgeReuseWiring`. |
+| F.17 (UTS) | публикация bundle, ledger, maturity card как UTS rows. |
 ---
 
-## 8. Связи
-
-- **G.Core** — универсальные инварианты Part-G: tri-state guard, penalties→R_eff, P2W split, типизированные RSCR triggers.
-- **C.23 (SoS-LOG)** — семантика правил `pass/degrade/abstain`; G.8 только упаковывает их ids.
-- **C.22 (TaskSignature)** — сигнатуры задач, к которым привязываются бандлы.
-- **G.4 (Acceptance)** — thresholds и `AcceptanceClauseId`, которые бандл цитирует, не встраивает.
-- **G.6 (Evidence Graph)** — `PathId/PathSliceId` для обоснования rung transitions и решений.
-- **G.5 (Method Dispatcher)** — потребитель `SoS-LOGBundle` для registry/selection.
-- **G.11 (Refresh Orchestration)** — потребитель RSCR triggers при изменении bundle/ledger.
-- **G.10 (Shipping Boundary)** — бандл может пересекать границу публикации/shipping.
-- **F.9 (BridgeCard)** — если reuse across context, crossing pins подключаются через `G.8:Ext.BridgeReuseWiring`.
-- **F.17 (UTS)** — публикация bundle, ledger, maturity card как UTS rows.
-
----
-
-*Этот capture создан в рамках изучения FPF Part G для PACK-cattle-science.*
-*Цель: сделать архитектурный паттерн читаемым без погружения в 50 страниц спецификации.*
+*Capture создан в рамках изучения FPF.*
+*FPF Source: FPF/FPF-Spec.md §G.8*
