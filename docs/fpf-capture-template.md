@@ -1,11 +1,11 @@
 ---
-type: fpf-study
-pattern: {{PATTERN_ID}}
+type: "fpf-study-template"
+pattern: "{{PATTERN_ID}}"
 title: "{{PATTERN_TITLE: principle in plain language for cattle-science}}"
-domain: cattle-science
-difficulty: {{beginner|intermediate|advanced}}
-reading_time: {{X}} min
-created: {{YYYY-MM-DD}}
+domain: "cattle-science"
+difficulty: "{{beginner|intermediate|advanced}}"
+reading_time: "{{X}} min"
+created: "{{YYYY-MM-DD}}"
 ---
 
 # {{PATTERN_ID}} — {{PATTERN_TITLE}}
