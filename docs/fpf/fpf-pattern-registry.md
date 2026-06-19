@@ -118,21 +118,21 @@ Part G — это операционный набор паттернов для 
 
 | ID | Название | 🎯 | ⏱️ | Статус | Краткое описание | Теги |
 |---|---|---|---|---|---|---|
-| **G.Core** | Part G Core Invariants | 🔴 | 40м | ⬜ | Дедупликационный хаб для Part G. Определяет invariant'ы, которые используют все G.x: crossing visibility, tri-state guards, penalty routing, RSCR triggers. Читать первым перед любыми G.x. | invariants, ядро, делегация |
-| **G.0** | CG-Spec & CN-Spec | 🔴 | 50м | ⬜ | Спецификации для сравнения и характеризации: как объявить ComparatorSet, по каким правилам сравнивать, что делать с неизвестными. **Legality gate** для всего Part G. | спецификации, сравнение, характеристики |
-| **G.1** | CG-Frame-Ready Generator | 🔴 | 45м | ⬜ | Шасси для создания CG-Frame: соединяет scope anchor, SoTA set, variant pool, shortlist и publication bindings в воспроизводимый scaffold. Не метод — а каркас для методов. | генератор, шасси, каркас |
-| **G.2** | SoTA Harvester & Synthesis | 🔴 | 45м | ⬜ | Как систематически собирать литературу из plural traditions, сохраняя семантические границы. Выход: SoTA Synthesis Pack — consumable, citation-ready, refreshable. | сбор, синтез, литература |
-| **G.3** | CHR Authoring | 🔴 | 50м | ⬜ | Авторинг характеристик, шкал, уровней, координат. Публикует CHR Pack — lawful measurement primitives. Без этого нельзя сравнивать яблоки с яблоками. | измерения, шкалы, CHR |
-| **G.4** | CAL Authoring | 🔴 | 50м | ⬜ | Авторинг операторов, acceptance clauses, evidence wiring. CAL Pack определяет, какие операции lawful над CHR-типами и какие evidence требуются. | операторы, acceptance, wiring |
-| **G.5** | Multi-Method Dispatcher | 🔴 | 45м | ⬜ | Реестр method families и диспетчер выбора. Возвращает Shortlist/RankedShortlist, а не один скалярный победитель. Сохраняет plurality. | диспетчер, выбор, методы |
-| **G.6** | Evidence Graph & Provenance Ledger | 🔴 | 45м | ⬜ | Типизированный граф доказательств с addressable PathId/PathSliceId. Каждое решение можно проверить: какие anchors, crossings, freshness windows использовались. | доказательства, граф, provenance |
-| **G.7** | Cross-Tradition Bridge Calibration | 🔴 | 50м | ⬜ | Калибровка мостов между traditions: BridgeMatrix → BridgeCards + BCT + Sentinels. Материализует cross-context reuse в auditable артефакты. | калибровка, мосты, traditions |
-| **G.8** | SoS-LOG Bundles & Maturity Ladders | 🔴 | 45м | ⬜ | Упаковка rule bundles и maturity ladders для selector'а. Сохраняет tri-state admissibility и citable links к evidence/crossings. | зрелость, bundles, лестницы |
-| **G.9** | Parity / Benchmark Harness | 🔴 | 45м | ⬜ | Сравнение rival method families под одним baseline с явными comparator, normalization, bridge pins. Публикует ParityReport, а не opaque score. | сравнение, parity, benchmark |
-| **G.10** | SoTA Pack Shipping | 🔴 | 40м | ⬜ | Граница упаковки: как ship Part G outputs как SoTA-Pack. Предотвращает format-as-spec, editionless hand-offs, pack smuggling semantics. | shipping, публикация, граница |
-| **G.11** | Telemetry-Driven Refresh & Decay | 🔴 | 45м | ⬜ | Оркестратор обновлений: telemetry → refresh queue → selective re-computation → republication. Не «rerun everything», а targeted refresh по RSCR triggers. | обновление, telemetry, decay |
-| **G.12** | DHC Dashboards | 🔴 | 40м | ⬜ | Генерация discipline-health dashboards без illicit arithmetic, hidden re-aggregation, scalar winners. Edition-pinned, evidence-citable, refresh-aware. | дашборды, DHC, health |
-| **G.13** | External Interop Hooks | 🔴 | 40м | ⬜ | Интероп с внешними scholarly indexes, concept registries, dataset stores. Сохраняет Part G invariants при ingestion из внешних источников. | интероп, внешние, hooks |
+| **G.Core** | Part G Core Invariants | 🔴 | 40м | ✅ | Дедупликационный хаб для Part G. Определяет invariant'ы, которые используют все G.x: crossing visibility, tri-state guards, penalty routing, RSCR triggers. Читать первым перед любыми G.x. | invariants, ядро, делегация |
+| **G.0** | CG-Spec & CN-Spec | 🔴 | 50м | ✅ | Спецификации для сравнения и характеризации: как объявить ComparatorSet, по каким правилам сравнивать, что делать с неизвестными. **Legality gate** для всего Part G. | спецификации, сравнение, характеристики |
+| **G.1** | CG-Frame-Ready Generator | 🔴 | 45м | ✅ | Шасси для создания CG-Frame: соединяет scope anchor, SoTA set, variant pool, shortlist и publication bindings в воспроизводимый scaffold. Не метод — а каркас для методов. | генератор, шасси, каркас |
+| **G.2** | SoTA Harvester & Synthesis | 🔴 | 45м | ✅ | Как систематически собирать литературу из plural traditions, сохраняя семантические границы. Выход: SoTA Synthesis Pack — consumable, citation-ready, refreshable. | сбор, синтез, литература |
+| **G.3** | CHR Authoring | 🔴 | 50м | ✅ | Авторинг характеристик, шкал, уровней, координат. Публикует CHR Pack — lawful measurement primitives. Без этого нельзя сравнивать яблоки с яблоками. | измерения, шкалы, CHR |
+| **G.4** | CAL Authoring | 🔴 | 50м | ✅ | Авторинг операторов, acceptance clauses, evidence wiring. CAL Pack определяет, какие операции lawful над CHR-типами и какие evidence требуются. | операторы, acceptance, wiring |
+| **G.5** | Multi-Method Dispatcher | 🔴 | 45м | ✅ | Реестр method families и диспетчер выбора. Возвращает Shortlist/RankedShortlist, а не один скалярный победитель. Сохраняет plurality. | диспетчер, выбор, методы |
+| **G.6** | Evidence Graph & Provenance Ledger | 🔴 | 45м | ✅ | Типизированный граф доказательств с addressable PathId/PathSliceId. Каждое решение можно проверить: какие anchors, crossings, freshness windows использовались. | доказательства, граф, provenance |
+| **G.7** | Cross-Tradition Bridge Calibration | 🔴 | 50м | ✅ | Калибровка мостов между traditions: BridgeMatrix → BridgeCards + BCT + Sentinels. Материализует cross-context reuse в auditable артефакты. | калибровка, мосты, traditions |
+| **G.8** | SoS-LOG Bundles & Maturity Ladders | 🔴 | 45м | ✅ | Упаковка rule bundles и maturity ladders для selector'а. Сохраняет tri-state admissibility и citable links к evidence/crossings. | зрелость, bundles, лестницы |
+| **G.9** | Parity / Benchmark Harness | 🔴 | 45м | ✅ | Сравнение rival method families под одним baseline с явными comparator, normalization, bridge pins. Публикует ParityReport, а не opaque score. | сравнение, parity, benchmark |
+| **G.10** | SoTA Pack Shipping | 🔴 | 40м | ✅ | Граница упаковки: как ship Part G outputs как SoTA-Pack. Предотвращает format-as-spec, editionless hand-offs, pack smuggling semantics. | shipping, публикация, граница |
+| **G.11** | Telemetry-Driven Refresh & Decay | 🔴 | 45м | ✅ | Оркестратор обновлений: telemetry → refresh queue → selective re-computation → republication. Не «rerun everything», а targeted refresh по RSCR triggers. | обновление, telemetry, decay |
+| **G.12** | DHC Dashboards | 🔴 | 40м | ✅ | Генерация discipline-health dashboards без illicit arithmetic, hidden re-aggregation, scalar winners. Edition-pinned, evidence-citable, refresh-aware. | дашборды, DHC, health |
+| **G.13** | External Interop Hooks | 🔴 | 40м | ✅ | Интероп с внешними scholarly indexes, concept registries, dataset stores. Сохраняет Part G invariants при ingestion из внешних источников. | интероп, внешние, hooks |
 
 ---
 
@@ -215,15 +215,15 @@ Part G — это операционный набор паттернов для 
 |---|---|---|---|---|
 | A — Kernel | 18 | 18 | 0 | 100% |
 | B — Trust/Evolution | 5 | 5 | 0 | 100% |
-| C — Domain | 10 | 2 | 8 | 20% |
+| C — Domain | 11 | 1 | 10 | 9% |
 | D — Ethics | 2 | 0 | 2 | 0% |
 | E — Authoring | 5 | 0 | 5 | 0% |
-| F — Bridges | 4 | 2 | 2 | 50% |
-| G — SoTA Kit | 3 | 0 | 3 | 0% |
-| **ИТОГО** | **58** | **44** | **14** | **76%** |
+| F — Bridges | 4 | 1 | 3 | 25% |
+| G — SoTA Kit | 15 | 15 | 0 | 100% |
+| **ИТОГО** | **60** | **40** | **20** | **67%** |
 
 ---
 
 *Реестр создан для целенаправленного выбора паттернов FPF к изучению.*  
-*Для углублённого изучения конкретного паттерна — читать FPF-Spec.md по ссылке в столбце ID.*  
-*Capture'ы в PACK: B.3, A.6.B, C.28, B.4, F.9, A.15, A.7, B.1, B.5, B.5.1.*
+*Capture'ы находятся в `docs/fpf/part-*/`.*  
+*Для углублённого изучения конкретного паттерна — читать FPF-Spec.md по ссылке в столбце ID.*
