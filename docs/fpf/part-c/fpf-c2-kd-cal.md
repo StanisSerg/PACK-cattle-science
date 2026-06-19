@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.2
-title: "Knowledge Definition: знание — это не факт, а структурированный claim с границами применимости"
+title: "KD-CAL: знание — это не факт, а структурированный claim с границами применимости"
 domain: cattle-science
 difficulty: intermediate
 reading_time: 35 min
 created: 2026-06-19
 ---
 
-# C.2 — Knowledge Definition
+# C.2 — KD-CAL
 
 ## 1. Зачем это читать
 

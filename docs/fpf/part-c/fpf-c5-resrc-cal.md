@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.5
-title: "Resource Characterization: ресурс — это не название, а профиль доступности и ограничений"
+title: "Resrc-CAL: ресурс — это не название, а профиль доступности и ограничений"
 domain: cattle-science
 difficulty: intermediate
 reading_time: 35 min
 created: 2026-06-19
 ---
 
-# C.5 — Resource Characterization
+# C.5 — Resrc-CAL
 
 ## 1. Зачем это читать
 

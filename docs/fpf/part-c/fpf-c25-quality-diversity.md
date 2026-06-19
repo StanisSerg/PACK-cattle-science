@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.25
-title: "Q-Bundle: распутывание сложных family labels на ферме"
+title: "Quality Diversity: распутывание сложных family labels на ферме"
 domain: cattle-science
 difficulty: intermediate
 reading_time: 35 min
 created: 2026-06-19
 ---
 
-# C.25 — Q-Bundle
+# C.25 — Quality Diversity
 
 ## 1. Зачем это читать
 

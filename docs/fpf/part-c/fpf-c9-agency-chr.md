@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.9
-title: "Agency Characterization: кто действует и за что отвечает"
+title: "Agency-CHR: кто действует и за что отвечает"
 domain: cattle-science
 difficulty: intermediate
 reading_time: 35 min
 created: 2026-06-19
 ---
 
-# C.9 — Agency Characterization
+# C.9 — Agency-CHR
 
 ## 1. Зачем это читать
 

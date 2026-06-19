@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.16
-title: "Measurement & Metrics: измерять так, чтобы цифры можно было доверять"
+title: "Measurement & Evidence: измерять так, чтобы цифры можно было доверять"
 domain: cattle-science
 difficulty: intermediate
 reading_time: 40 min
 created: 2026-06-19
 ---
 
-# C.16 — Measurement & Metrics Characterization
+# C.16 — Measurement & Evidence
 
 ## 1. Зачем это читать
 

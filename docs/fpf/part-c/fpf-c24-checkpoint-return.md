@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.24
-title: "Agent-Tools-CAL: согласование человека, агента и инструмента на ферме"
+title: "CheckpointReturn: согласование человека, агента и инструмента на ферме"
 domain: cattle-science
 difficulty: advanced
 reading_time: 45 min
 created: 2026-06-19
 ---
 
-# C.24 — Agent-Tools-CAL
+# C.24 — CheckpointReturn
 
 ## 1. Зачем это читать
 

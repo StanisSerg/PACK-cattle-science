@@ -1,14 +1,14 @@
 ---
 type: fpf-study
 pattern: C.1
-title: "System Characterization: описывать систему через её измеримые роли, а не через название"
+title: "Sys-CAL: описывать систему через её измеримые роли, а не через название"
 domain: cattle-science
 difficulty: intermediate
 reading_time: 35 min
 created: 2026-06-19
 ---
 
-# C.1 — System Characterization
+# C.1 — Sys-CAL
 
 ## 1. Зачем это читать
 
