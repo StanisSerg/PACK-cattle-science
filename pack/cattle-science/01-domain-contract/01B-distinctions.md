@@ -100,6 +100,25 @@
 
 ---
 
+## D.008: Justified Decision vs. Opinion
+
+| Aspect | Justified Decision | Opinion |
+|--------|-------------------|---------|
+| **Definition** | Claim backed by explicit source and decision criteria | Personal preference or intuition without reviewable basis |
+| **Source** | Research, norm, farm historical data, or framed hypothesis with verification plan | «I feel», «I always do it this way», «it works» |
+| **Testability** | Can be disputed on evidence; success/failure can be measured | Cannot be falsified; any outcome confirms it |
+| **Transferability** | Can be taught, reviewed, and replicated | Locked in individual experience |
+
+**Decision rule:** A technologist may propose a change, but must be able to answer:
+1. What is the source? (research / norm / farm data / hypothesis)
+2. What outcome do you predict?
+3. When and how will we measure it?
+4. What is the criterion to rollback?
+
+If at least one of these is missing, the claim is an opinion, not a justified decision.
+
+---
+
 ## Distinction Maintenance
 
 | Distinction | Last Reviewed | Status |
@@ -111,6 +130,7 @@
 | D.005 Biological vs. Economic | 2026-03-01 | Active |
 | D.006 Acute vs. Chronic | 2026-03-01 | Active |
 | D.007 Model vs. Reality | 2026-03-01 | Active |
+| D.008 Justified Decision vs. Opinion | 2026-06-21 | Active |
 
 ---
 

@@ -51,8 +51,10 @@ This principle is one of the core motivations for applying FPF to cattle science
 
 1. **Methods must be first-class artifacts.** A method is not «what Ivan does well» — it is a documented, scoped, reviewable MethodDescription.
 2. **Every claim needs a source.** A recommendation must be backed by evidence, model, or explicit authority — not just seniority.
-3. **Context must be explicit.** A practice that works in one farm must carry its bounded context; transfer to another farm requires a bridge, not blind copying.
-4. **Work must be recorded.** What was planned, who did it, by what method, and with what result — this is the loop that turns intuition into organizational learning.
+3. **A hypothesis must be falsifiable.** If a technologist cannot cite research or a norm, the decision must be framed as a candidate claim with predicted outcome, timeframe, measurement method, and rejection criteria.
+4. **Historical farm data is valid evidence.** A decision can be justified by explicit records from the same farm under comparable conditions — but the period, group, and outcome must be named, not implied.
+5. **Context must be explicit.** A practice that works in one farm must carry its bounded context; transfer to another farm requires a bridge, not blind copying.
+6. **Work must be recorded.** What was planned, who did it, by what method, and with what result — this is the loop that turns intuition into organizational learning.
 
 ## Examples
 
@@ -68,6 +70,10 @@ This principle is one of the core motivations for applying FPF to cattle science
 - **Tacit:** «They always argue; the owner decides by gut feeling.»
 - **Explicit FPF form:** Conflict framed as different bounded contexts (feeding vs health) with explicit claims, evidence, and decision criteria.
 
+### Example 4: Ration change proposed by feed technologist
+- **Tacit:** «Lower CP to 15.5%. I always do it this way — it works.»
+- **Explicit FPF form:** Candidate claim with source (NASEM norm / historical farm data / pilot experiment), predicted outcome, measurement schedule, and decision rule for rollback.
+
 ## Validation Criteria
 
 A knowledge artifact in this pack should reduce dependence on individual tacit expertise by making at least one of the following explicit:
@@ -76,6 +82,7 @@ A knowledge artifact in this pack should reduce dependence on individual tacit e
 3. The method for applying it.
 4. The evidence for trusting it.
 5. The work record for verifying it.
+6. The source of justification for any recommendation that affects animal nutrition, health, or farm economics.
 
 ---
 
