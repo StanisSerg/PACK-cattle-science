@@ -13,6 +13,7 @@
 | CS.METHOD.001 | [ketosis-diagnosis-treatment.md](./CS.METHOD.001-ketosis-diagnosis-treatment.md) | Диагностика и лечение кетоза | 🟢 Active |
 | CS.METHOD.002 | [hypocalcemia-diagnosis-treatment.md](./CS.METHOD.002-hypocalcemia-diagnosis-treatment.md) | Диагностика и лечение гипокальцемии | 🟢 Active |
 | CS.METHOD.005 | [calcium-monitoring-hypocalcemia-prevention.md](./CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md) | Мониторинг кальция и профилактика гипокальцемии | 🟢 Active |
+| CS.METHOD.006 | [farm-visit-feeding-assessment.md](./CS.METHOD.006-farm-visit-feeding-assessment.md) | Системная оценка кормления при визите на ферму | 🟡 Draft |
 
 ---
 
