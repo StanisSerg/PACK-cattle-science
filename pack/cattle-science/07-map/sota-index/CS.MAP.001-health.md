@@ -10,19 +10,19 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 84 |
+| Всего SoTA | 87 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 29 |
 | P2 (Важные) | 51 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 9 |
 | Experimental-study | 2 |
-| Field-study | 43 |
+| Field-study | 45 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
 | Primary-research | 2 |
-| Review | 22 |
+| Review | 23 |
 | Survey | 2 |
 
 ---
@@ -115,6 +115,9 @@
 | [CS.SOTA.324](../../06-sota/health/CS.SOTA.324-martin-2026.md) | C.C. et al. | 2026 | P2 | primary-research | `health, antimicrobial, primary-research` | См. файл для деталей |
 | [CS.SOTA.325](../../06-sota/health/CS.SOTA.325-ui-chearbhaill-2026.md) | A. et al. | 2026 | P2 | primary-research | `health, udder-health, milking-technology` | См. файл для деталей |
 | [CS.SOTA.328](../../06-sota/health/CS.SOTA.328-duffield-leblanc-2009.md) | Duffield et al. | 2009 | P2 | review | `review, transition-period, metabolic-monitoring` | См. файл для деталей |
+| [CS.SOTA.333](../../06-sota/health/CS.SOTA.333-martins-2019.md) | Martins et al. | 2019 | P2 | field-study | `calcium-propionate, transition-period, milk-yield` | **Контекст:** 200 г/сут Ca-пропионата повышает FCM, белок, лактозу и жир молока в ранней лактации у Holstein. |
+| [CS.SOTA.334](../../06-sota/health/CS.SOTA.334-peralta-2011.md) | Peralta et al. | 2011 | P2 | field-study | `calcium-propionate, propylene-glycol, fertility` | **Контекст:** Смесь Ca-пропионат + пропиленгликоль повышает сывороточный Ca, но не влияет на NEFA и удой; микроэлементы снижают services per conception. |
+| [CS.SOTA.335](../../06-sota/health/CS.SOTA.335-zhang-2020.md) | Zhang et al. | 2020 | P1 | review | `calcium-propionate, review, transition-period` | **Контекст:** Обзор механизмов Ca-пропионата: глюконеогенез, профилактика гипокальцемии, антигрибковый эффект, развитие рубца; доза ~200 г/сут. |
 
 ---
 

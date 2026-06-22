@@ -1,0 +1,579 @@
+
+--- Page 1 ---
+Acta Scientiae Veterinariae, 2019. 47: 1691.
+	
+RESEARCH ARTICLE
+    Pub. 1691
+ISSN 1679-9216
+1
+DOI: 10.22456/1679-9216.97154
+Received: 26 June 2019                                                                Accepted: 28 September 2019                                                         Published: 26 October 2019
+1Programa de Pós-graduação em Ciência Animal com ênfase em bioativos & 3Faculdade de Medicina Veterinária, Universidade Paranaense (UNIPAR), 
+Umuarama, PR, Brazil. 2Departmento de Medicina Veterinária, Universidade Estadual de Maringá (UEM), Maringá, PR. CORRESPONDENCE: W.D.C. 
+Martins [wdelconte03@gmail.com]. Faculdade de Medicina Veterinária, UNIPAR. Estrada da Paca s/n. CEP 87.502-970 Umuarama, PR, Brazil.
+Calcium Propionate Increased Milk Parameters in Holstein Cows
+William Del Conte Martins1,2, Sérgio Henrique Mioso Cunha1, André Giarola Boscarato1, Jonathan Soares de Lima3, 
+Jair Dario Esteves Junior3, Gian Carlo Uliana3, Mateus Pedrini3 & Luiz Romulo Alberton1
+ABSTRACT
+Background: In the early lactation, dairy cows go through a period of negative energy balance because they do not intake 
+enough food to supply the energetic demand of milk production. In this period, dairy cows are susceptible to metabolic 
+disorders, although has little evidence that milk production contribute to increase diseases occurrence. Some alternatives 
+to minimize metabolic disorders, that reduce milk yield, has been suggested, as increase energy density in the diet of dry 
+cows 21 days before the parturition and include additives in the diet pre and post-partum. The aim of this study was to 
+measure the productive parameters in dairy cows fed calcium salts as energetic source.
+Materials, Methods & Results: Two Latin square 4x4 were used, whereas one comprehended of early lactation cows and 
+the other of mid lactation cows. Animals of 2nd and 3rd parity were used only. Parity was distributed evenly among groups. 
+The trial consisted of 4 groups with 4 treatments as follow: T1: 300 g of calcium acetate, T2: 200 g of calcium propionate, 
+T3: 200 g of calcium salts of fatty acids, and T4: control without any calcium additive. The animals were milked twice a 
+day, the first milking at 07:00 am and the second milking at 05:00 pm. Milk samples were collected in plastic containers 
+with potassium dichromate. These samples were sent to the Laboratory of Milk Analysis of the Paranaense Association of 
+Breeders of the Holstein Breed for analysis of fat, protein, lactose and total solids through the infrared method. Throughout 
+the experimental period, the daily production of the animals under study was recorded. The production of milk (kg) was 
+corrected to 3.5% fat using the formula PLA 3.5% = (0.432 + kg milk) + (0.1623 x kg milk x fat content).
+Discussion: Greater supply of glucose or propionate stimulate milk protein production, but the mechanism of this stimula-
+tion is unclear. Milk protein is dependent on energy supply, and deficient energy intake reduces milk protein levels. Cal-
+cium propionate provided enough energy supply and increased milk protein levels. The synthesis of lactose has influence 
+in water absorption in mammary gland and lactose determine milk osmolarity. The lactose levels vary according blood 
+glucose, somatic cells count and energy availability for physiological processes. In the literature, rarely has been found 
+greater lactose concentration caused by feed intake, becoming very important the results found in this work. The diet 
+energy concentration and consumption rate determine energy intake, which limit milk yield. Dairy cows in early lactation 
+has marked increased of nutrient requirements to support milk production. Support milk lactose synthesis in the mammary 
+gland is the one of responsible for increase of nutrients requirements. In this period, the glucose demands increases 2 times 
+more than during late gestation. Propionate is converted to glucose in the liver and it will be support lactose synthesis in the 
+mammary gland. Propionate supplementation in this work provided better energetic supply and it is possible to consider, 
+evaluating the milk yield. It was concluded that calcium propionate increased milk parameters like: milk protein, lactose 
+and milk fat. Holstein cows fed calcium propionate had greater milk yield than other groups. 
+Keywords: calcium propionate, dairy cows, milk yield, milk compounds.
+
+--- Page 2 ---
+2
+                                                                                                           
+W.C. Martins, S.H.M. Cunha, A.G. Boscarato, et al. 2019. Calcium Propionate Increased Milk Parameters in Holstein Cows.	
+                                                                                                                  Acta Scientiae Veterinariae. 47: 1691.
+INTRODUCTION
+In the early lactation, dairy cows go through 
+a period of negative energy balance because they do 
+not intake enough food to supply the energetic demand 
+of milk production [23]. In this period, dairy cows are 
+susceptible to metabolic disorders, although has little 
+evidence that milk production contribute to increase 
+diseases occurrence [4]. Some alternatives to minimi-
+ze metabolic disorders has been suggested as increase 
+energy density in the diet of dry cows 21 days before the 
+parturition and include additives in the diet pre and post-
+-partum [11]. In this context, to increase energy density 
+in diet it is used fat supplementation with calcium salts of 
+fatty acid (CSFA). This supplementation has increased 
+milk production of cows in confined systems receiving 
+total mixed ration [26]. Calcium propionate (CP) is other 
+additive used as energetic source. The propionate pro-
+duced by ruminal fermentation is the main glycogenesis 
+precursors during transition period [21]. Dairy cows fed 
+CP showed higher levels of milk protein, extract non 
+fatty and fat-corrected milk yield to 3.5% [1].  Com-
+plementing this work, seek to study de calcium acetate, 
+other additive recently added to ruminants nutrition for 
+reduce metabolic disorders in early lactation, because 
+many tissues use acetate as energy source, in reaction 
+that acetate is converted in Acetyl-coenzyme A within 
+Krebs circle [25]. This statement is true because dairy 
+cows in early lactation feeding CA had lower levels 
+of β-hidroxibutirate (BHBA), concluding that calcium 
+acetate were an important energetic source for dairy 
+cows in early lactation [19]. The aim of this study was 
+to measure the productive parameters in dairy cows fed 
+calcium salts as energetic source.
+MATERIALS AND METHODS
+Animals and experimental design
+The study was carried out in campus 2 of Univer-
+sidade Paranaense, Umuarama, state of Paraná, Brazil. 
+All procedures in this experiment were approved by the 
+Ethical Committee of Universidade Paranaense. Eight 
+Holstein cows, average body weight 540 +/- 30 kg and 
+5 years old were used. The animals were allocated in two 
+latin square (4x4). One group had cows that were in their 
+7th lactation day (early lactation). The other group had 
+mid lactation cows (~110 days). There were 4 treatments 
+per group as follow: T1= supplementation with 300 g of 
+calcium acetate obtained from chemical reaction:
+Ca (OH)2 +2. (CH3COOH) = 2. (CH3COO)
+Ca + 2.H2O; 
+The pureness of calcium acetate were checked 
+by the Chemistry Laboratory of Universidade Pa-
+ranaense. T2= supplementation with 200 g of calcium 
+propionate (Propimpex®)1; T3= supplementation with 
+300 g of calcium salts of fatty acids salts (Megalac-
+E®)2; T4= Control group without supplementation. Ani-
+mals were housed in individual pens, the supplementa-
+tion was added to the concentrated feed offered once a 
+day after morning milking. Animals were milked twice 
+a day at 7 am and 5 pm. The amount of concentrate 
+begun with 5 kg and were increased by 0.5 kg/day until 
+reach the maximum of 8 kg/animal/day and keep the 
+proportion concentrate/bulky 40:60.  Silage was given 
+3 times per day. Feed was weighted before serving 
+and left over feed was calculated. Left over feed were 
+sampled and subjected to bromatological analysis in 
+the Laboratory of Bromatology of Escola Superior de 
+Agricultura Luiz de Queiroz da Universidade de São 
+Paulo. The diet was formulated based on NRC [23] 
+(2001) recommendations for a 540-kg cow to produce 
+20 kg/day of milk containing 3.4% of milk fat and 3.2% 
+protein. Ingredients and chemical composition of the 
+basal diet are shown in Table 1.
+The trial period was 21 days whereas the 
+initial period comprehends of 14 days for adaptation 
+and the remaining 7 days were the sampling period. 
+Samples were collected in the 1st, 3rd, 5th and 7th day of 
+the sampling period. 
+Measurements and collection of samples
+The animals were milked twice a day, the first 
+milking at 07:00 am and the second milking at 05:00 
+pm. Milk samples were collected in plastic containers 
+with potassium dichromate. These samples were sent to 
+the Laboratory of Milk Analysis of the Paranaense As-
+sociation of Breeders of the Holstein Breed for analysis 
+of fat, protein, lactose and total solids through the 
+infrared method. Throughout the experimental period, 
+the daily production of the animals under study was 
+recorded. The production of milk (kg) was corrected 
+to 3.5% fat using the formula PLA 3.5% = (0.432 + kg 
+milk) + (0.1623 x kg milk x fat content) [5].
+Calculations and statistical analysis
+The results were obtained after statistical 
+analysis with General Linear Models (GLM) of 
+MiniTab 17® [28] with 5% probability in reference to 
+
+--- Page 3 ---
+3
+                                                                                                           
+W.C. Martins, S.H.M. Cunha, A.G. Boscarato, et al. 2019. Calcium Propionate Increased Milk Parameters in Holstein Cows.	
+                                                                                                                  Acta Scientiae Veterinariae. 47: 1691.
+the following formula: Y = μ + α + β + γ(β) + p + ε, 
+where μ is the general mean, α is the fixed effect of 
+treatment, β is the random effect of square, γ(β) is the 
+random effect of animal within square, p is the random 
+effect of period and ε is the random error. Comparisons 
+between means were performed using Tukey test with 
+5% probability.
+RESULTS
+Milk protein was higher in CP and CG than 
+CA and CSFA in early lactation (Table 2). During the 
+mid-lactation, there was significant difference between 
+CP and CSFA (P < 0.05). During mid-lactation, lactose 
+levels was higher in CP group than CSFA (Table 2). 
+Dairy cows fed CSFA during mid-lactation had lower 
+levels of milk fat than other groups (P < 0.05). During 
+early lactation, CP group had greater levels of milk fat 
+than CG and CSFA groups (P < 0.05) [Table 2]. Total 
+solids value in the early lactation were higher in CP 
+group than CSFA group. During mid-lactation, this 
+value were higher in CP and GC group than CSFA 
+group (Table 2). During early lactation, dry matter 
+intake (DMI) was lower in CP group (Table 2). During 
+early lactation, fat-corrected milk yield were higher in 
+CP group (21,5; P < 0.05) than other groups (Table 2). 
+Moreover, fat-corrected milk yield in CA group were 
+higher than CG and CSFA group (18,31 vs 15,67; 
+15,26). In the mid-lactation, CSFA group presented 
+lower fat-corrected milk yield than other groups.
+DISCUSSION
+Dairy cows fed CP had greater values of milk 
+protein than CA and CSFA. Greater supply of glucose 
+or propionate stimulate milk protein production, the 
+mechanism of this stimulation is unclear [2]. Milk 
+protein is dependent on energy supply, and deficient 
+energy intake reduces milk protein levels [32], this 
+confirm the results found in this study. Studies reports 
+that dairy cows fed calcium propionate had higher 
+levels of milk protein [1,20], the same results of our 
+work. Calcium propionate provided enough energy 
+supply and increased milk protein levels in this study.
+The synthesis of lactose has influence in water 
+absorption in mammary gland and lactose determine 
+milk osmolarity. The lactose levels vary according 
+blood glucose, somatic cells count and energy avai-
+lability for physiological processes [9]. During mid-
+-lactation, lactose levels of dairy cows fed CP was 
+higher than other groups. Greater lactose concentration 
+caused by feed intake is found rarely in literature 
+[24], becoming very important the results found in 
+this work. Glucose is the main precursor of lactose 
+and propionate, produced by ruminal fermentation of 
+carbohydrates, is the main precursor of glucose [14]. 
+Dairy cows fed propionate had been tendency to lactose 
+level be greater (P < 0.07), this trend is indicative of 
+greater energy supply [24]. This statement corroborates 
+the results found in the present study and propionate 
+may be provided as a source of energy intake for cows 
+during the mid-lactation. 
+Dairy cows fed CSFA during mid-lactation had 
+lower levels of milk fat than other groups (P < 0.05) 
+and during early lactation, milk fat of CSFA was lower 
+than CP group. It is known that the milk fat is reduced 
+by CSFA, the level of milk fat can reduced from 2.9 to 
+2.14% [22]. The microbial inefficiency to use the lipids 
+as a source of growth triggers a series of alterations in 
+the ruminal environment. One of the main deleterious 
+effects of the inclusion of high lipid concentrations is 
+the reduction in ruminal digestion of the fiber [7]. Thus, 
+the amounts and proportions of volatile fatty acids 
+(VFA) produced in the rumen are altered negatively, 
+reducing the milk production and milk fat [30]. The 
+increased of linoleic acid C18:1 trans-10 and C18:2 
+cis-12 concentration, decrease milk fat levels in dairy 
+cows fed CSFA [8]. Intermediate fatty acids formation 
+from rumen biohydrogenation reduced levels of milk 
+fat in dairy cows fed CSFA [16]. 
+The total solids content in milk represents the 
+sum of all the constituents of milk and fat is the major 
+responsible for its alteration. This statistical difference 
+between the groups could be explained based on the 
+fat levels of the CP and CG groups that were higher 
+than those of the CSFA group, consolidating a higher 
+value of total solids.
+Feed intake is essential for animal nutrition 
+because it determines the level of nutrients intake and, 
+therefore, animal response. The feed intake is regu-
+lated and limited by the metabolic and physiological 
+requirements of animals. Any reduction in volunta-
+ry feed intake has significant effect on production 
+efficiency [18]. The amount of dry matter intake by 
+animals depends on many factors, including levels 
+of milk production, stage of lactation, environmental 
+conditions, live weight, handling, type and quality of 
+foods [3]. Dry matter intake (DMI) was lower in CP 
+
+--- Page 4 ---
+4
+                                                                                                           
+W.C. Martins, S.H.M. Cunha, A.G. Boscarato, et al. 2019. Calcium Propionate Increased Milk Parameters in Holstein Cows.	
+                                                                                                                  Acta Scientiae Veterinariae. 47: 1691.
+Table 1. Ingredient and chemical composition of the basal diet (in g/kg dry matter).
+Nutrient
+CG
+CA
+CP
+CSFA
+Ingredients g kg-1
+Corn Silage
+800
+792.7
+795.2
+792.7
+Corn grain
+117.6
+117.6
+117.6
+117.6
+Soybean meal
+70
+70
+70
+70
+Limestone
+1 
+1
+1
+1
+Sodium Clhoride
+1.4
+1.4
+1.4
+1.4
+Minerals and Vitamins*
+10
+10
+10
+10
+Calcium Acetate
+7.3
+Calcium Propionate
+4.8
+CSFA
+7.3
+Nutrient
+Dry matter g kg-1
+368
+372
+371
+372
+Neutral detergente fiber 
+476
+473
+475
+473
+Crude Protein
+109.5
+108.9
+108.9
+108.9
+Total digestible nutrients
+68.28
+67.90
+68.1
+67.9
+Ethereal extract
+24.66
+24.5
+24.6
+30.7
+NE (kcal g-1)
+3995.2
+3992
+4000
+3992
+*Calcium 220 g/kg; Phosphorus 60 g/kg; Sulfur 20 g/kg; Magnesium 20 g/kg; Potassium 35 g/kg; Sodium 70 g/kg; Cobalt 15 mg/kg; Copper 700 mg/
+kg; Chrome 10.00 mg/kg; Iron 700 mg/kg; Iodine 40 mg/kg; Manganese 1600 mg/kg; Selenium 19 mg/kg; Zinc 2500 mg/kg; Vitamin A 400000 UI/kg; 
+Vitamin D3 100000 UI/kg; Vitamin E 2400 UI/kg.
+Table 2. Productive parameters of lactating dairy cows feeding energetic sources in the calcium salts forms.
+Early Lactation
+Mid-lactation
+CA
+CP
+CSFA
+CG
+CA
+CP
+CSFA
+CG
+Lactose (g L-1)
+4.49a
+4.37a
+4.40a
+4.39a
+4.31ab
+4.37a
+4.27b
+4.30ab
+Milk Protein (g L-1)
+2.98b
+3.12a
+2.99b
+3.14a
+3.10a
+3.24a
+3.14a
+3.13a
+Milk Fat (g L-1)
+3.23ab
+3.47a
+2.84b
+3.04b
+3.23a
+3.34a
+2.83b
+3.50a
+Total Solids (g L-1)
+11.7ab
+11.96a
+11.20b
+11.49ab
+11.6ab
+11.92a
+11.20b
+11.89a
+DMI* (kg)
+15.43ab
+15.16b
+15.53a
+15.55a
+15.23a
+14.78a
+15a
+15.18a
+FCM** (L)
+18.31b
+21.13a
+15.26c
+15.67c
+17.09a
+15.91a
+13.2b
+16.50a
+*Dry matter intake. **Fat corrected milk 3.5%.
+group (Table 2) during early lactation. Propionate 
+infusion in puerperal dairy cows decrease dry matter 
+intake [29]. The hypophagic effect of propionate in 
+puerperal cows is greater than cows in mid-lactation, 
+as found in this study. This occurs because propionate 
+may stimulate satiety by oxidation via conversion to 
+Acetyl-Coenzyme A or if uptake by the liver exceeds 
+the neoglycogenic flow. Lower dry matter intake in 
+dairy cows fed CP is still controversial, because some 
+studies report no difference in dry matter intake [15] 
+and in others trend of higher dry matter intake in dairy 
+cows supplemented with propionate [16]. It is neces-
+sary more studies to confirm this statement. 
+Dairy cows in early lactation has marked 
+increased of nutrient requirements to support milk 
+production [17]. Support milk lactose synthesis in the 
+mammary gland is the one of responsible for increase 
+of nutrients requirements. In this period, the glucose 
+demands increases 2 times more than during late 
+gestation [21]. Propionate produced from ruminal fer-
+mentation is quantitatively the greatest contributor to 
+gluconeogenesis during the periparturient period [27]. 
+
+--- Page 5 ---
+5
+                                                                                                           
+W.C. Martins, S.H.M. Cunha, A.G. Boscarato, et al. 2019. Calcium Propionate Increased Milk Parameters in Holstein Cows.	
+                                                                                                                  Acta Scientiae Veterinariae. 47: 1691.
+In ruminants, propionate has been used as an energetic 
+source and can act as metabolic mediator of nutritional 
+status [15]. In our study, dairy cows fed CP had higher 
+milk yield than other groups, what other authors have 
+already found [1]. In contrast, other authors reported 
+no difference in milk yield in dairy cows fed calcium 
+propionate [13,15], but in one of this studies dairy cows 
+received CP in three moments: at calving, 24 h after 
+calving and 7 days after calving [13]. Propionate is 
+converted to glucose in the liver and it will be support 
+lactose synthesis in the mammary gland. Propionate 
+supplementation in this work provided better energetic 
+supply and it is possible to consider, evaluating the 
+milk yield.
+Volatile fatty acids is the main products of 
+ruminal fermentation of carbohydrates [12] and acetate 
+is the major end product of rumen fermentation in the 
+cow [31]. Acetate oxidation rather than glucose plays 
+the important role in energy metabolism in ruminant 
+[12]. It is responsible for lipid synthesis in ruminants 
+adipose and mammary gland and acetate supply could 
+affected milk fat yield in lactating cows [31].  The 
+greater fat-corrected milk yield found in CA group in 
+this work, during early lactation; prove the importance 
+of acetate in energy metabolism of dairy cows. Milk 
+yield was higher in dairy cows that received infusion 
+of acetate during 4 days [31], this corroborates with 
+results found in this work. Theoretically, supply ace-
+tate improve milk yield because provides energy for 
+dairy cows in early lactation and mammary gland can 
+use blood glucose to produces lactose, increasing the 
+milk production. 
+The diet energy concentration and consump-
+tion rate determine energy intake, which limit milk 
+yield. CSFA supplementation has been used to increase 
+energy concentration of dairy cows diet, although may 
+interfere with ruminal metabolism by reducing the di-
+gestibility of the fiber, hampering the microbial attack 
+and provoking toxic effects on certain microorganisms 
+[3]. There is also the formation of intermediary fatty 
+acids from biohydrogenation, which results in lower 
+production and availability of fatty acids for milk 
+and milk fat synthesis [6]. Literature confirmed this 
+statement [6], but the addition of CSFA decrease milk 
+yield in dairy cows fed high-quality forage [10]. This 
+fact also helps explain the lower milk yield in CSFA 
+group in this study. 
+CONCLUSIONS
+Calcium propionate, despite reduced dry mat-
+ter intake during early lactation, it increased milk yield 
+in this study. The propionate supply increased milk 
+protein, lactose and milk fat and total solids during 
+early lactation. It demonstrates that calcium propionate 
+is a good additive for use in dairy cows during early 
+lactation. Calcium acetate increased milk yield during 
+early lactation, could be other option to provide a dairy 
+cows in this period of lactation, but, calcium acetate 
+supplementation requires further investigation. 
+MANUFACTURERS
+1Impextraco Latin America Com. e Ind. de Produtos para Nutrição 
+Ltda. Curitiba, PR, Brazil.
+2Elanco Saúde Animal Ltda. São Paulo, SP, Brazil.
+Acknowledgements. We thank the Universidade Paranaense for 
+granting the animals and the necessary structure for research 
+and CAPES by scholarship.
+Declaration of interest. The authors report no conflicts of 
+interest. The authors alone are responsible for the content and 
+writing of the paper.
+REFERENCES
+1	Alberton L.R., Fanin M., Oro M., Savanhago R. & Martins W.D.C. 2013. Efeito da suplementação de vacas com 
+propionato de cálcio na dieta sobre a glicemia, produção e composição do leite. Enciclopédia Biosfera. 17: 1202-1212. 
+2	Bajramaj D.L., Curtis R.V., Kim J.J.M., Corredig M., Doelman J., Wright T.C. & Osborne V.R. 2017. Addition 
+of glycerol to lactating cow diets stimulates dry matter intake and milk protein yield to a greater extent than addition 
+of corn grain. Journal of Dairy Science. 100: 1-12.
+3	Duarte L.M.D., Stumpf Junior W., Fischer V. & Salla L.E. 2005. Efeito de diferentes fontes de gordura na dieta de 
+vacas Jersey sobre o consumo, a produção e a composição do leite. Revista Brasileira de Zootecnia. 34(6): 2020-2028.
+4	Drackley J.K. & Cardoso F.C. 2014. Prepartum and postpartum nutritional management to optimize fertility in high-
+yielding dairy cows in confined TMR systems. Animal. 8(1): 5-14.
+5	Evans E.H., Yoston S.A. & Binnendyk D.V. 1993. Numerous factors affect milk protein percentage. Feedstuffs. 15: 
+14-21.
+
+--- Page 6 ---
+6
+                                                                                                           
+W.C. Martins, S.H.M. Cunha, A.G. Boscarato, et al. 2019. Calcium Propionate Increased Milk Parameters in Holstein Cows.	
+                                                                                                                  Acta Scientiae Veterinariae. 47: 1691.
+6	Freitas-Júnior J.E., Rennó F.P., Silva L.F.P., Gandra J.R., Maturana-Filho M., Foditsch C. & Venturelli B.C. 2010. 
+Parâmetros sanguíneos de vacas leiteiras suplementadas com diferentes fontes de gordura. Ciência Rural. 40(4): 950-956. 
+7	Goularte S.R., Ítavo L.C.V., Santos G.T., Ítavo C.C.B.F., Oliveira L.C.S., Favaro S.P., Dias A.M., Torres-Junior 
+R.A.A. & Bittar C.M.M. 2011. Ácidos graxos voláteis no rúmen de vacas alimentadas com diferentes teores de 
+carboidrato na dieta. Arquivo Brasileiro de Medicina Veterinária e Zootecnia. 63(6): 1479-1486.
+8	Harvatine K.J. & Allen M.S. 2006. Effect of fatty acid suplements on milk yeld and energy balance of lactating dairy 
+cows. Journal of Dairy Science. 89(3): 1081-1091.
+9	Henao-Velásquez A.F., Múnera-Bedoya O.D., Herrera A.C., Agudelo-Trujillo J.H. & Cerón-Muñoz M.F. 2014. 
+Lactose and milk urea nitrogen: fluctuations during in Hosltein cows. Revista Brasileira de Zootecnia. 43(9): 479-484. 
+10	 Hu Z.Y., Yin Z.Y., Lin X.Y., Yan Z.G. & Wang Z.H. 2015. Effects of feeding fatty acid calcium and the interac-
+tion of forage quality on production performance and biochemical indexes in early lactation cow. Journal of Animal 
+Physiology and Animal Nutrition. 99(5): 899-904.
+11	 Juchem S.O., Santos F.A.P., Imaizumi H., Pires A.V. & Barnabé E.C. 2004. Production and blood parameters of 
+Holstein cows treated prepartum with sodium monensin or propylene glycol. Journal of Dairy Science. 87(3): 680-689. 
+12	 Kaneko J.J. 2008. Carbohydrate metabolism and its diseases. In: Kaneko J.J., Harvey J.W. & Bruss M.L. (Eds). Clini-
+cal Biochemistry of Domestic Animals. 6th edn. San Diego: Elsevier, pp.45-80. 
+13	 Kara Ç., Orman A., Udum D., Yavuz H.M. & Kovanlikaya A. 2009. Effects of calcium propionate by different 
+numbers of applications in first week postpartum of dairy cows on hypocalcemia, milk production and reproductive 
+disorders. Italian Journal of Animal Science. 8(2): 259-270.
+14	 Lemosquet S., Raggio G., Lobley G.E., Rulquin H., Guinard-Flament J. & Lapierre H. 2009. Whole-body glucose 
+metabolism and mammary energetic nutrient metabolism in lactating dairy cows receiving digestive infusions of casein 
+and propionic acid. Journal of Dairy Science. 92(12): 6068-6082.
+15	 Liu Q., Wang C., Yang W.Z., Guo G., Yang X.M., He D.C., Dong K.H. & Huang Y.X. 2010. Effects of calcium 
+propionate supplementation on lactation performance, energy balance and blood metabolites in early lactation dairy 
+cows. Journal of Animal Physiology and Animal Nutrition. 94(5): 605-614.
+16	 MacNamara J.P. & Valdez F. 2005. Adipose tissue metabolism and production responses to calcium propionate and 
+chromium propionate. Journal of Dairy Science. 88(7): 2498-2507. 
+17	 Mann S., Leal Yepes F.A., Overton T.R., Wakshlag J.J., Lock A.L., Ryan C.M. & Nydam D.V. 2015. Dry period 
+plane of energy: Effects on feed intake, energy balance, milk production, and composition in transition dairy cows. 
+Journal of Dairy Science. 98: 3366-3382.
+18	 Maggioni D., Marques J.A., Rotta P.P., Zawadzki F., Ito R.H. & Prado I.N. 2009. Ingestão de alimentos. Semina. 
+30(4): 963-974. 
+19	 Martins W.D.C., Cunha S.H.M., Boscarato A.G., Lima J.S., Esteves-Junior J.D., Uliana G.L.T., Pedrini M.T. & 
+Alberton L.R. 2018. Blood parameter of lactating dairy cows fed calcium salts as energetic sources. Acta Scientiae 
+Veterinariae. 46: 1599. 7p.   dx.doi.org/ 10.22456/1679-9216.85932.
+20	 Matras J., Klebaniuk R. & Kovalczuk-Vasilev E. 2012. Impact of glucogenic additive in transition dairy cow diets 
+varying ruminal starch degrability on yeld and composition of milk and reproductive parameters. Czech Journal Animal 
+Science. 57(7): 301-311.
+21	 McCarthy M.M., Piepenbrink M.S. & Overton T.R. 2015. Associations between hepatic metabolism of propionate 
+and palmitate in liver slices from transition dairy cows. Journal of Dairy Science. 98(10): 7015-7024.
+22	 Medeiros S.R., Oliveira D.E., Aroeira L.J.M., McGuire M.A., Bauman D.E. & Lanna D.P. 2010. Effects of dietary 
+supplementation of rumen-protected conjugated linoleic acid to grazing cows in early lactation, Journal of Dairy Sci-
+ence. 93(3): 1126-1137. 
+23	 National Research Council - NRC. 2001. Nutrient Requeriments of Dairy Cattle. 7th edn. Washington D.C.: NRC, 381p.
+24	 Patton R.S., Sorenson C.E. & Hippen R. 2004. Effects of dietary precursors and fat on feed intake and carbohydrate 
+status of transition dairy cows. Journal of Dairy Science. 87(7): 2122-2129. 
+25	 Osorio J.H. & Vinazco J. 2010. El metabolismo lipídico bovino y su relación com la dieta, condicion corporal, estado 
+productivo y patologias asociadas. Biosalud.  9(2): 52-56.
+26	 Rabiee A.R., Breinhild K., Scott W., Golder H.M., Block E. & Lean I.J. 2012. Effect of fat additions to diets of 
+dairy cattle on milk production and components: A meta-analysis and meta-regression. Journal of Dairy Science. 
+95(6): 3225-3247.
+
+--- Page 7 ---
+7
+                                                                                                           
+W.C. Martins, S.H.M. Cunha, A.G. Boscarato, et al. 2019. Calcium Propionate Increased Milk Parameters in Holstein Cows.	
+                                                                                                                  Acta Scientiae Veterinariae. 47: 1691.
+1691
+http://seer.ufrgs.br/ActaScientiaeVeterinariae
+27	 Reynolds C.K., Aikman P.C., Lupoli B., Humphries D.J. & Beever D.E. 2003. Splanchnic metabolism of dairy 
+cows during the transition from late gestation through early lactation. Journal of Dairy Science. 86(4): 1201-1217. 
+28	 Ryan B.F. & Joiner B.L. 1994. Minitab handbook. 3rd edn. Belmont: Duxbury Press, 448p. 
+29	 Stockes S.E. & Allen M.S. 2012. Hypophagic effects of propionate increase with elevated hepatic acetyl coenzyme A 
+concentration for cows in the early postpartum period. Journal of Dairy Science. 95(6): 3259-3268.
+30	 Theurer M.L., Block E., Sanchez W.K. & McGuire M.A. 2009. Calcium salts of polyunsatured fatty acids deliver 
+more esencial fatty acids to the lactating dairy cows. Journal of Dairy Science. 92(5): 2051-2056. 
+31	 Urrutia N.L. & Harvatine K.J. 2017. Acetate Dose-Dependently Stimulates Milk Fat Synthesis in Lactating Dairy 
+Cows. The Journal of Nutrition. 147(5): 763-769.
+32	 Wittwer F. 2000. Marcadores bioquímicos no controle de problemas metabólicos nutricionais em gado de leite. In: 
+Gonzáles F.H.D; Barcelos J., Patiño H.O. & Ribeiro L.A.O. (Eds). Perfil Metabólico em Ruminantes. Seu uso em 
+Nutrição e Doenças Nutricionais. Porto Alegre: UFRGS, pp.53-62. 

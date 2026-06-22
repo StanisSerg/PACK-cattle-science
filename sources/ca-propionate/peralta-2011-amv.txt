@@ -1,0 +1,667 @@
+Arch Med Vet 43, 65-71 (2011) 
+COMMUNICATION 
+Supplementing transition cows with calcium propionate-propylene glycol drenching or 
+organic trace minerals: implications on reproductive and lactation performances# 
+Suplementación de vacas en periodo de transición con propionato-propilen glicol o minerales 
+traza orgánicos: implicancias para la eficiencia reproductiva y la lactancia 
+OA Peraltaa*, D Monardesb, M Duchensb, L Moragab, and RL Nebela 
+aDepartment of Dairy Science, Virginia Polytechnic Institute and State University, Blacksburg, VA, 24061, USA. 
+bFacultad de Ciencias Veterinarias y Pecuarias, Universidad de Chile, Santiago, Chile. 
+RESUMEN 
+El objetivo del presente estudio fue el de evaluar los efectos de una suplementación de propionato de calcio-propilen glicol y una formulación 
+de minerales traza orgánicos (4-Plex) en la eficiencia reproductiva y productiva de vacas durante el periodo postparto. En el ensayo 1 se suplementó 
+aleatoriamente a vacas en lactancia (n = 37) con una mezcla de propionato de calcio-propilen glicol (DR) o con un control (CODR), al parto (día 0) 
+y al pico de lactancia (día 30). En el ensayo 2 se trató a las vacas (n = 33) con una fórmula de minerales trazas (TM) o un placebo (COTM) durante 
+el postparto. Los niveles de calcio, fósforo y ácidos grasos no esterificados (NEFA) fueron detectados en suero. Se evaluó la composición de grasa, 
+proteína, células somáticas y cuerpos cetónicos en la leche. Los estros fueron detectados utilizando un sistema HeatWatch y las ovulaciones fueron 
+estimadas mediante detección de progesterona en la leche. La suplementación de DR resultó en mayores (P < 0,05) concentraciones de calcio en suero 
+comparado con CODR. No se detectaron diferencias en la composición de la leche entre los grupos tratados. La suplementación de TM resultó en un 
+menor (P < 0,0001) número de servicios por concepción comparado con COTM. Por lo tanto, la suplementación de DR fue efectiva en aumentar los 
+niveles de calcio en suero; sin embargo, no fue suficiente para inducir otras respuestas metabólicas, reproductivas o productivas. La suplementación 
+diaria de minerales redujo el número de servicios requeridos para la concepción; sin embargo, no mostró otros efectos reproductivos o productivos. 
+Key words: calcium propionate, propylene glycol, trace minerals, fertility. 
+Palabras clave: propionato de calcio, propilen glicol, minerales traza, fertilidad. 
+INTRODUCTION 
+calving and 12 h after calving has been shown to reduce the 
+number of cows suffering from subclinical hypocalcemia 
+Lactating dairy cows undergo important changes in 
+(Goff et al 1996). Propionate plays a major glucogenic 
+energy and mineral metabolism during the transition 
+effect as a volatile fatty acid in the rumen and can decrease 
+period corresponding from the last three weeks of ges-
+beta-hydroxy butyrate (BHB) and non-esterified fatty 
+tation until the first three weeks post-partum (Grummer 
+acids (NEFA) during the first 2 days post-partum (Goff 
+1993). These changes are consequence of the increased 
+et al 1996). Similarly, propylene glycol as an oral drench 
+nutritional demand associated with the later stages in fetal 
+can reduce concentrations of NEFA and BHB (Christensen 
+development followed by the onset in milk production. 
+et al 1997) and increase levels of glucose and insulin 
+Furthermore, the gradual decrease in dry matter intake 
+before parturition (Studer et al 1993). Nevertheless, the 
+results in considerable mobilization of body reserves and 
+effect of energy precursor has also been tested in fertility 
+deterioration of body condition (Butler and Smith 1989). 
+performance during post-partum in dairy cows. Oral 
+Nutritional status of high producing dairy cattle during 
+supplementation of calcium propionate plus propylene 
+transition period has important implications for fertility 
+glycol showed no effect on fertility performance in cows 
+performance and productive state (Butler 2000). 
+fed anionic diets (Melendez et al 2003). However, pro-
+Calcium and energy precursors such as calcium pro-
+pylene glycol administration during post-partum improved 
+pionate and propylene glycol have been used for several 
+ovarian activity as showed by earlier first ovulation and 
+years for prevention of metabolic disorders in transition 
+longer first luteal phase after calving (Miyoshi et al 2001). 
+cows (Johnson 1954). Feeding calcium propionate at 
+We hypothesized that supplementation of a calcium pro­
+pionate and propylene glycol drenching at parturition and 
+Accepted: 18.08.2010. 
+peak of lactation may have a positive metabolic effect 
+# 
+Financed by College of Agriculture and Life Sciences, Virginia 
+and improve reproductive and productive performance 
+Polytechnic Institute and State University y Zinpro Corporation, 
+in lactating dairy cows. Supplementation at parturition 
+Eiden Prairie, MN, USA. 
+may help in reducing NEB, while administration at Day 
+* 
+Edificio Federico Saelzer, 4to piso, Campus Isla Teja, Valdivia, 
+Chile; oscarperalta@uach.cl 
+30 post-partum may impact over the physiology of first 
+65 
+
+---PAGE---
+OA PERALTA ET AL 
+ovulation and the start of luteal activity (Beam and Butler 
+1998, Vries and Veerkamp 2000). 
+Trace minerals such as zinc, magnesium, copper and 
+cobalt have important roles in protein synthesis, vitamin 
+metabolism and immune function (Spears and Weiss 2008). 
+The final impact of mineral supplementation to dairy cows; 
+however, may depend on the presence of a dietary mineral 
+imbalance or deficiency (Vanegas et al 2004). Particularly, 
+copper supplementation at the dry period has showed to 
+improve fertility during post-partum (Black and French 
+2004). The role of copper in the immune function may have 
+a beneficial effect in the resumption of the reproductive 
+performance after calving (Torre et al 1996). Trace minerals 
+has also been reported to improve lactation performance 
+by increasing milk production and reducing somatic cells 
+count (Nocek et al 2006). Thus, our second hypothesis 
+for this study postulates that daily TM supplementation 
+during two months of the post-partum period may improve 
+reproductive and productive performances. The aim of 
+this study was to evaluate the metabolic, reproductive and 
+productive impacts of two different dietary supplements 
+1) calcium propionate-propylene glycol drenching, and 
+2) commercial organic trace mineral formulation during 
+the post-partum period. 
+MATERIAL AND METHODS 
+COWS AND TREATMENT PROTOCOLS 
+This study was conducted at the Virginia Tech Dairy 
+Center using 70 Holstein cows fed twice daily a TMR 
+of corn silage, alfalfa hay, and cotton seed (table 1). No 
+anionic salts were included in the diet. Mean milk yield for 
+the herd was 9500 kg/year with 380 kg of fat and 280 kg 
+of protein using twice daily milking and freestall barn 
+housing. Cows were randomly assigned to each dietary 
+supplement group. In trial 1, the drenched group (DR; 
+n = 18) received 3 liters of a mixture of calcium propionate, 
+propylene glycol, water, and minerals (table 1), and the 
+control group was administered 3 liters of a saline solution 
+(NaCl 0.9%) (CODR; n = 19). Both groups were dosed 
+12 h post-partum and at 30 days in milk (DIM) using a 
+Cattle Pump System (Springer Magrath Company, Mc 
+Cook, Nebraska). In trial 2, cows were supplemented daily 
+with one gel cap bolus containing 14 g of a trace mineral 
+(TM; n = 17) formula (4-Plex, Zinpro Corporation, Eden 
+Praire, MN) or with an empty bolus as a control (COTM, 
+n = 16) from 12 hrs post-partum until 60 DIM (table 1). 
+Boluses were administered orally using a plastic balling 
+Table 1. 
+Nutrient composition of basal diet1 and propionate-propylene glycol (DR) and trace minerals (TM) supplements for 
+lactating cows. 
+Composición nutricional de la dieta basal1 y suplementos de propionato-propilen glicol (DR) y minerales trazas (TM) para vacas en 
+lactancia. 
+Basal Diet 
+Supplements 
+Components 
+(DM basis) 
+Lactating 
+cow diet 
+NRC1 
+requirements 
+Components 
+DR 
+TM 
+Crude protein (%) 
+16 
+14.1 
+Calcium propionate2 (g) 
+375 
+NEL (Mcal/kg) 
+0.32 
+0.28 
+Propylene glycol (g) 
+400 
+Fiber (ADF) (%) 
+25 
+17 to 21 
+NaCl (g) 
+50 
+Ca (%) 
+1.2 
+0.62 
+Ca3 (g) 
+97.8 
+P (%) 
+0.38 
+0.32 
+P4 (g) 
+26.5 
+Mg (%) 
+0.32 
+0.2 
+Mg5 (g) 
+15 
+K (%) 
+1.78 
+1.0 
+Mn (mg/kg) 
+> 14,300 
+S (%) 
+0.24 
+0.3 
+Zn (mg/kg)
+ > 25,800 
+Na (%) 
+0.4 
+0.22 
+Cu (mg/kg)
+ > 9,000 
+Zn (mg/kg) 
+60 
+43 
+Co (mg/kg)
+ > 1,800 
+Mn (mg/kg) 
+71 
+13 
+Methionine (mg/kg)
+ > 82,100 
+Cu (mg/kg) 
+8 
+11 
+Lysine (mg/kg)
+ > 38,000 
+Co (mg/kg) 
+1 
+0.11 
+66 
+1 
+NRC requirements for a Holstein cow, 680 kg BW, 25 kg/d of milk production. Dry matter intake of 20 kg/d. 
+2 
+98% purity and 80.6 g of Ca. 
+3 
+in 100 g of Monocalcium Phosphate and 375 g of Calcium propionate. 
+4 
+in 100 g of Monocalcium Phosphate. 
+5 
+in 25 g of Magnesium oxide. 
+
+---PAGE---
+CALCIUM PROPIONATE, PROPYLENE GLYCOL, TRACE MINERALS, FERTILITY 
+gun. All animal experimentation was performed according 
+to the Institutional Animal Care and Use Committee at 
+Virginia Tech. 
+SAMPLING AND ANALYSES 
+Blood samples for calcium and phosphorus concen­
+trations were obtained at 0, 6 and 12 h post-treatment 
+administration corresponding to 12, 18, and 24 h post­
+partum, respectively. Analysis for calcium and phosphorus 
+was performed using a colorimetric enzymatic kit (Olympus 
+diagnostica GnbH Irish Branch, Lismeehan, O’Callaghan’s 
+Mills, Co. Clare, Ireland). Serum samples for NEFA analy­
+sis were taken by venipuncture of the median coccygeal 
+vein or artery using vaccutainer tubes (Becton Dickinson, 
+Franklin Lakes, NJ) at 7 days before partum, at calving, 
+at treatment administration, and weekly during 9 weeks 
+post-partum. Samples were allowed to clot for 4 hrs and 
+spun at 900 x g for 15 min. Serum was decanted and 
+frozen at -20 ºC. NEFA was measured using a colorimetric 
+enzymatic kit (Wako NEFA C kit, Wako chemicals Inc., 
+Osaka, Japan). Milk samples were taken 3 times weekly 
+until 60 DIM for determination of acetoacetate using a 
+qualitative test for detection of ketone bodies (Ketocheck 
+test, Great States, Animal Health, St. Joseph, MO). Liver 
+biopsies were taken 30 days before and 30 days after 
+parturition for determination of trace mineral content. 
+Liver samples were obtained trans-cutaneously between 
+the 11th and 12th ribs on the right side of the cow using a 
+reverse cutting custom made biopsy instrument. Element 
+analysis was conducted by inductively coupled plasma­
+atomic emission spectrometry (ICP-AES). Progesterone 
+concentration was measured in milk 3 times weekly from 
+7 days post-partum until 60 DIM for estimation of the time 
+of ovulation using a non extraction progesterone assay kit 
+(Coat-A-Coat, Diagnostic products Corp., Los Angeles, 
+CA). An increase in milk progesterone concentrations of 
+> 1 ng mL-1 for a period of 2 to 3 days was considered as 
+an indication of ovulation 3 to 4 days before. A HeatWatch 
+transmitter (DDx Inc., Denver, CO) was installed by 10 
+DIM to determine time of onset of estrus and number of 
+standing events. Cows were artificially inseminated (AI) 
+after voluntary waiting period (60 DIM) and pregnancies 
+were diagnosed by palpation per rectum. Daily milk yield 
+and weekly somatic cells, fat and protein content were 
+estimated until 70 DIM. 
+DATA AND STATISTICAL ANALYSIS 
+All statistical analyses were performed using SAS 
+software package (SAS version 9.1.3., SAS Institute, Inc., 
+Cary, NC). Serum concentrations of calcium, phosphorous, 
+NEFA, copper and zinc content, and somatic cell score 
+were compared between treatments using a linear mixed 
+model appropriate for repeated measurements per subject 
+(animal) with the compound symmetry for modeling the 
+error covariance structure. The fixed effects part of the 
+model included the effects of treatment, day of sampling, 
+parity and interactions between variables. Intervals of days 
+from calving to first ovulation and first detected estrus were 
+compared between groups using the Lifetest analysis. The 
+survival data curves were compared using a log-rank test. 
+The Phreg procedure was used for calculation of the equality 
+of the survivor function and risk ratios for ovulation and 
+estrus occurrence considering treatment, parity, and service 
+number effects. Control cows were considered to have a 
+risk ratio of 1. Milk yield, fat, and protein accumulated 
+until 60 DIM were compared between groups using the 
+GLM procedure including treatment, parity, and interactions 
+between variables. Presence of acetoacetate was compared 
+between groups using a logistic regression analysis. The 
+level of significance was determined at P < 0.05. 
+RESULTS AND DISCUSSION 
+We first analyzed metabolic response of lactating 
+cows supplemented with DR at parturition. Calcium 
+levels increased (P < 0.05) at 6 h and remained higher 
+for 12 h after DR supplementation (Figure 1A). Other 
+studies have shown a rise in calcium concentration within 
+30 and 60 min of calcium propionate administration and 
+then sustained levels within the next 6 to 8 h (Goff and 
+Horst 1994). Sustained levels of calcium in serum for the 
+initial 6 h may be explained by the slow gastrointestinal 
+absorbance of the calcium propionate constituent of the 
+DR formula (Goff and Horst 1994). Goff et al (1996) 
+reported higher levels of calcium 12 h after treatment 
+in cows supplemented with two doses of calcium pro­
+pionate at calving and 12 h later. Our data showed that 
+a single dose of calcium propionate 12 h after calving 
+was sufficient to increase calcium concentrations for at 
+least 12 h. Although, there was not a clear effect after 
+treatment administration, lower values of phosphorous 
+in cows supplemented with DR (Figure 1C) may be a 
+homeostatic response after increased concentrations of 
+calcium. Supplementation of this glycogenic formula at 
+12 h post-partum was not effective in reducing NEFA 
+concentrations (Figure 2A). The acute increase of NEFA 
+values at calving are associated with fat mobilization 
+consequence of decreased DMI and increased NEB 
+before parturition (Grummer 1993, Gerloff and Herdt 
+1999). Previous studies have supplemented propylene 
+glycol for more than10 days during pre-partum in order to 
+increase glycemia and subsequently reduce NEFA levels 
+during transition period (Studer et al 1993, Grummer 
+et al 1994, Goff et al 1996, Stockes and Goff 2001). 
+However, this data indicate that a single day supple­
+mentation is insufficient to reduce fat mobilization and 
+consequent NEFA levels in cows under NEB. Moreover, 
+concentrations of NEFA in our herd were within normal 
+values during post-partum indicating that an energeti­
+cally balanced diet may have minimized the effect of 
+67 
+
+---PAGE---
+OA PERALTA ET AL 
+Figure 1. Serum calcium (a,b) and phosphorous (c,d) concentrations at 0, 6, and 12 h post-treatment (12, 18, and 24 h post-partum, 
+respectively) for cows supplemented with drench (DR, 
+) or trace minerals (TM, 
+). Control cows (CODR, 
+; COTM, 
+) for each 
+respective treatment. Different superscripts indicate significant (P < 0.05) difference between hours (1, 2) and treatments (a, b). 
+Concentraciones de calcio (a,b) y fósforo (c,d) a las 0, 6 y 12 h post-tratamiento (12, 18 y 24 h post-tratamiento, respectivamente para vacas 
+suplementadas con propionato de calcio-propilen glicol (DR, ) y minerales trazas (TM, ). Vacas control (CODR, 
+; COTM, ) para cada tratamiento 
+respectivo. Superíndices diferentes indican diferencias significativas (P < 0,05) entre horas (1,2) y tratamientos (a,b). 
+Figure 2. Serum NEFA concentrations detected at pre- and post-partum for cows treated with (a) drench (DR, 
+) or (b) trace minerals 
+(TM, 
+). Control cows (CODR, 
+; COTM, 
+) for each treatment. Different superscripts indicate significant (P < 0.05) difference 
+treatments (a, b). 
+Concentraciones de NEFA en suero detectadas durante el pre- y post-parto para vacas tratadas con (a) mezcla propionato de calcio-propilen 
+glicol (DR, ) o (b) minerales trazas (TM, ). Vacas control (CODR, 
+; COTM, ) para cada tratamiento. Superíndices diferentes indican diferencias 
+significativas (P < 0,05) entre horas (1,2) y tratamientos (a,b). 
+68 
+
+---PAGE---
+CALCIUM PROPIONATE, PROPYLENE GLYCOL, TRACE MINERALS, FERTILITY 
+energy supplements. We do not have a clear explanation 
+for the higher NEFA concentrations at day 35 in cows 
+supplemented with DR. The metabolic response of TM 
+supplementation in lactating cows during post-partum 
+showed no differences for calcium, phosphorus and 
+NEFA concentrations (Figures 1B-D and Figures 2B). 
+Analyses of trace mineral in liver showed no differences 
+in zinc and copper content between treatments groups; 
+however, cows supplemented with TM showed an in-
+crease (P < 0.05) in copper levels from 220 ppm at the 
+dry period to 319 ppm at lactation period compared with 
+268 and 280 ppm in the dry and lactation periods in the 
+COTM group. Prevalence of ketosis was not significantly 
+different between groups (DR = 4.67, CODR = 3.54%; 
+TM = 5.50%; COTM = 3.08%). 
+We analyzed the return of ovarian activity using a 
+HeatWatch electronic estrus detection system and pro­
+gesterone measurements in milk. Supplementation of DR 
+at parturition and at peak of lactation had no significant 
+impact over reproductive variables (table 2). Similarly, 
+Melendez et al (2003), using 161 cows found no effect 
+of a single supplementation of a similar drench on several 
+reproductive variables including conception rates, calving 
+to conception interval, and services per conception. As 
+described above, the lack of a significant effect of DR 
+supplementation on reproduction performance may be 
+associated to the limited metabolic impact of the admi­
+nistration of a single dose of this supplement separated 
+by a 30-day interval during post-partum. Depending on 
+the concentration present on the diet, supplementation of 
+trace minerals has showed a positive effect on reproductive 
+performance in dairy cows (Campbell et al 1999, Vanegas 
+et al 2004). In our study, cows supplemented with TM dis­
+played lower (P < 0.0001) services per conception (1.14) 
+compared to COTM (2.10) cows (table 2). Previous trials 
+using different supplements containing copper during the 
+dry period have showed significant improvements in ferti­
+lity (Black and French 2004). The physiological effect of 
+copper on the reproductive physiology of dairy cows is not 
+completely understood; however, copper mediation of the 
+immune function may have a beneficial effect on cellular 
+processes occurring during post-partum including uterine 
+involution, ovarian activity and embryonic development 
+(Torre et al 1996). There were no significant differences in 
+milk yield, fat, protein and somatic cell count at 60 DIM 
+between treatments groups (table 3). Previous reports 
+have showed inconsistent results of a similar glycogenic 
+drench administration on productive variables with studies 
+Table 2. 
+Reproductive parameters for cows supplemented with drench (DR), trace minerals (TM), and respective controls (CODR 
+and COTM) during early lactation. 
+Parámetros reproductivos para vacas suplementadas con mezcla de propionato de calcio-propilen glicol (DR), minerales trazas (TM) y 
+controles respectivos (CODR y COTM) durante la lactancia temprana. 
+Variable 
+DR 
+CODR 
+TM 
+COTM 
+SEM1 
+Conception rate 
+41.9 
+44.1 
+45.8 
+47.6 
+Days to first ovulation 
+Mean 
+32.8 
+31.7 
+29.7 
+30.5 
+2.73 
+Median 
+29 
+22.5 
+22 
+21.7 
+Risk ratio 
+0.8 
+1 
+0.87 
+1 
+Days to first estrus 
+Mean 
+45.7 
+46.4 
+42.7 
+45.3 
+6.96 
+Median 
+46 
+66 
+42 
+68 
+Risk ratio 
+0.60 
+1 
+0.57 
+1 
+Standing events at first estrus (no) 
+2.3 
+3.1 
+4.3 
+3.3 
+0.50 
+First to second estrus interval (d) 
+46.2 
+35.6 
+38.6 
+36 
+7.35 
+Standing events at second estrus (no) 
+3.5 
+4.4 
+4.8 
+4.2 
+0.10 
+Days to first service 
+Mean 
+98 
+108 
+90 
+103 
+7.04 
+Median 
+94 
+105 
+92 
+98 
+Risk ratio 
+0.68 
+1 
+0.71 
+1 
+Services per conception 
+2.21 
+2.06 
+1.14a 
+2.10b 
+0.26 
+Different superscripts (a,b) indicate significant (P < 0.05) difference. 
+1 
+Standard error of the mean. 
+Superíndices diferentes (a,b) indican diferencias significativas (P < 0,05). 
+1 
+Error estándar de la media. 
+69 
+
+---PAGE---
+OA PERALTA ET AL 
+Table 3. 
+Milk yield, fat and protein composition, and somatic cell score for cows supplemented with drench (DR), trace minerals 
+(TM) and respective controls (CODR and COTM) cows during early lactation. 
+Producción de leche y composición de grasa, proteína e índice de células somáticas en vacas suplementadas con mezcla de propionato de 
+calcio-propilen glicol (DR), minerales trazas (TM) y controles respectivos (CODR y COTM) durante la lactancia temprana. 
+Variable 
+DR 
+CODR 
+TM 
+COTM 
+SEM1 
+Milk yield2 (kg) 
+2.181 
+2.270 
+2.204 
+2.189 
+122.9 
+Fat2 (kg) 
+87.1 
+94.1 
+89.4 
+88.4 
+2.99 
+Protein2 (kg) 
+60.1 
+66.12 
+60.64 
+58.3 
+4.29 
+Somatic cells (Score) 
+2.5 
+1.73 
+2.28 
+2.23 
+1.35 
+Different superscripts (a, b) indicate significant (P < 0.05) difference. 
+1 
+Standard error of the mean. 
+2 
+Accumulated until 70 days in milk. 
+indicating a positive effect (Higgins et al 1996, Stockes and 
+Goff 2001) or no effect (Melendez et al 2003). Similarly, 
+supplementation of TM has showed a positive effect on 
+milk yield and somatic cell count (Kellog and Lane 1996) 
+or no effect on milk production and composition (Kellog 
+et al 1996, Campbell et al 1999). 
+In conclusion, supplementation of a calcium propionate­
+propylene glycol drenching at parturition and at peak of 
+lactation was effective in increasing calcium in serum 
+shortly after treatment; however, was not sufficient in 
+inducing other metabolic, reproductive or productive 
+responses. Administration of TM during 60 days after 
+calving resulted in lower number of services required per 
+conception; however, this supplementation showed no effect 
+on other reproductive or productive variables. The impact 
+of DR and TM supplementation on lactation cows during 
+transition period might have been minimized by the proper 
+diet management of the herd used in this study. 
+SUMMARY 
+The aim of this study was to estimate the effect of the supplementation 
+of a calcium propionate-propylene glycol drenching and a commercial 
+organic trace mineral formulation (4-Plex) on reproductive and 
+lactation performances in cows during the post-partum period. In 
+trial 1, lactating dairy cows (n = 37) were randomly assigned either 
+to a calcium propionate-propylene glycol drenching (DR) or to a 
+control (CODR). Both groups were treated at 12 h post-partum 
+and at 30 DIM. In trial 2, (n = 33) cows were treated with either a 
+trace mineral (TM) formula or a placebo (COTM) daily from 12 h 
+post-partum until 60 DIM. Blood samples were collected to evaluate 
+calcium, phosphorus and non-esterified fatty acids serum levels. Milk 
+samples were obtained for fat, protein, somatic cell, and ketone bodies 
+composition. Liver biopsies were taken for zinc and copper content. 
+Estruses were detected using a HeatWatch system and ovulations were 
+estimated by detecting progesterone concentrations in milk samples. 
+Supplementation with DR resulted in higher (P < 0.05) concentrations 
+of calcium compared to the control group. There were no differences 
+in NEFA, ketone bodies, milk yield, protein, fat and somatic cell 
+count between treatment groups. Supplementation of TM resulted in 
+less (P < 0.0001) services per conception compared to COTM. Thus, 
+DR supplementation during post-partum was effective in increasing 
+calcium in serum shortly after treatment; however, was not sufficient 
+to induce other metabolic, reproductive or productive responses. Daily 
+trace mineral supplementation resulted in lower services required per 
+conception; however, this supplementation showed no effect on other 
+reproductive or productive variables. 
+REFERENCES 
+Beam SW, WR Butler. 1998. Energy balance, metabolic hormones, and 
+early postpartum follicular development in dairy cows fed prilled 
+lipid. J Dairy Sci 81, 121-131. 
+Black DH, NP French. 2004. Effects of three types of trace element 
+supplementation on the fertility of three commercial dairy herds. 
+Vet Rec 154, 652-658. 
+Butler WR. 2000. Nutritional interactions with reproductive performance 
+in dairy cattle. Anim Reprod Sci 60-61, 449-457. 
+Butler WR, RD Smith. 1989. Interrelationships between energy balan­
+ce and post partum reproductive function in dairy cattle. J Dairy 
+Sci 72, 767-783. 
+Campbell MH, JK Miller, FN Schrick. 1999. Effect of additional Cobalt, 
+Copper, Manganese, and Zinc on reproduction and milk yield of 
+lactating dairy cows receiving bovine somatotropin. J Dairy Sci 82, 
+1019-1025. 
+Christensen JO, RR Grummer, FE Rasmussen, SJ Bertics. 1997. Effect 
+of method of delivery of propylene glycol on plasma metabolites 
+of feed-restricted cattle. J Dairy Sci 80, 563-568. 
+de Vries MJ, Veerkamp RF. 2000. Energy balance of dairy cattle in relation 
+to milk production variables and fertility. J Dairy Sci 83, 62-69. 
+Gerloff BJ, TH Herdt. 1999. Fatty liver in dairy cattle. In: Howard J, Smith 
+R (eds). Current Veterinary Therapy 4, Food Animal Practice. W. B. 
+Saunders Company, Philadelphia, Pennsylvania. USA, Pp 230-233. 
+Goff JP, RL Horst. 1994. Calcium salts for treating hypocalcemia: car­
+rier effects, acid-base balance, and oral versus rectal administration. 
+J Dairy Sci 77, 1451-1456. 
+Goff JP, RL Horst, PW Jardon, C Borelli, J Wedam. 1996. Field trials 
+of an oral calcium propionate paste as an aid to prevent milk fever 
+in periparturient dairy cows. J Dairy Sci 79, 378-383. 
+Grummer RR. 1993. Etiology of lipid related metabolic disorders in 
+periparturient dairy cows. J Dairy Sci 76, 3882-3896. 
+Grummer RR, JC Winkler, SJ Bertics, VA Studer. 1994. Effect of pro­
+pylene glycol dosage during feed restriction on metabolites in blood 
+of prepartum Holstein heifers. J Dairy Sci 77, 3618-3623. 
+Higgins JJ, WK Sanchez, MA Guy, ML Anderson. 1996. An oral gel of 
+calcium propionate plus propylene glycol is effective in elevating 
+calcium and glucose levels in periparturient dairy cows. J Dairy 
+Sci 79 (Suppl. 1), 130. 
+Johnson RB. 1954. The treatment of ketosis with glycerol and propylene 
+glycol. Cornell Vet 44, 6-21. 
+70 
+
+---PAGE---
+CALCIUM PROPIONATE, PROPYLENE GLYCOL, TRACE MINERALS, FERTILITY 
+Kellog DW, A Lane. 1996. Effect of supplementing 4-Plex to lactating 
+Holstein cows. In: Technical Bull. Zinpro Corp., Eden Prairie, MN, 
+USA, Pp 34-38. 
+Melendez P, GA Donovan, GA Risco, R Littel, JP Goff. 2003. Effect of 
+calcium-energy supplement on calving-related disorders, fertility 
+and milk yield during the transition period in cows fed anionic diets. 
+Theriogenology 60, 843-854. 
+Miyoshi S, JL Pate, DL Palquist. 2001. Effects of propylene glycol 
+drenching on energy balance, plasma glucose, plasma insulin, 
+ovarian function and conception in dairy cows. Anim Reprod 
+Sci 68, 29-43. 
+Nocek JE, MT Socha, DJ Tomlinson. 2006. The effect of trace mineral 
+fortification level and source on performance of dairy cattle. J Dairy 
+Sci 89, 2679-2693. 
+NRC, National Research Council. 2001. Nutrient Requirements of Dairy 
+Cattle. 7th ed. National Academy Press, Washington DC., USA. 
+SAS Institute. 2006. Base SAS® 9.1.3 Procedures Guide. 2nd ed. Volumes 
+1, 2, 3 and 4. Cary, NC, USA. 
+Spears JW, WP Weiss. 2008. Role of antioxidants and trace elements in 
+health and immunity of transition dairy cows. Vet J 176, 70-76. 
+Stockes SR, JP Goff. 2001. Case study: Evaluation of calcium propionate 
+and propylene glycol administered into the esophagus of dairy cattle 
+at calving. The Professional Animal Scientist 17, 115-122. 
+Studer VA, RR Grummer, SJ Bertics. 1993. Effect of prepartum propylene 
+glycol administration on periparturient fatty liver in dairy cows. J 
+Dairy Sci 76, 2931-2939. 
+Torre PM, RJ Harmon, RW Hemken, TW Clark, DS Trammell, BA Smith. 
+1996. Mild dietary copper insufficiency depresses blood neutrophil 
+function in dairy cattle. J Nutr Immunol 4, 3-24. 
+Vanegas JA, J Reynolds, ER Atwill. 2004. Effect of an injectable trace mi­
+neral supplement on first-service conception rate of dairy cows. J 
+Dairy Sci 87, 3665-3671. 
+71 
+
+---PAGE---

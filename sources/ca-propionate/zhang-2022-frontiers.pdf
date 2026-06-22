@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <title>503 - Service Unavailable</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="https://www.frontiersin.org/favicon.ico">    
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1" />
+    <meta
+      data-hid="robots"
+      name="robots"
+      content="noindex, nofollow" />
+    <link rel="stylesheet" href="https://static2.frontiersin.org/static-resources/_errorPages.css">
+  </head>
+
+  <body cz-shortcut-listen="true">
+    <div id="__nuxt">
+      <!---->
+      <div id="__layout">
+        <main data-v-17faeaec="" class="ErrorPage">
+          <div
+            data-v-17faeaec=""
+            class="ErrorPage__icon ErrorPage__icon--service-not-available"></div>
+          <h1 data-v-17faeaec="">503 - Service Unavailable</h1>
+          <p data-v-17faeaec="">Our website is currently under maintenance.</p>
+          <p data-v-17faeaec="">Please try again later.</p>
+          <button
+            data-v-17faeaec=""
+            data-event="btn-action"
+            class="Button Button--outline Button--grey Button--medium Button--icon Button--reload Button--right"
+            onclick="window.location.reload()">
+            Reload the page
+          </button>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+

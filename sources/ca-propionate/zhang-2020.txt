@@ -1,0 +1,1160 @@
+Research on the Applications of Calcium Propionate in Dairy Cows: A Review - PMC
+Skip to main content
+Official websites use .gov
+A
+.gov
+website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Animals (Basel)
+. 2020 Aug 3;10(8):1336. doi:
+10.3390/ani10081336
+Research on the Applications of Calcium Propionate in Dairy Cows: A Review
+Fan Zhang
+Fan Zhang
+1
+State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China; 18813015831@139.com (F.Z.); xuemeinan@126.com (X.N.); wanghui_lunwen@163.com (H.W.)
+2
+State Key Laboratory of Animal Nutrition, College of Animal Science and Technology, China Agricultural University, Beijing 100193, China; guoyum@cau.edu.cn
+Find articles by
+Fan Zhang
+1,
+2,
+†
+,
+Xuemei Nan
+Xuemei Nan
+1
+State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China; 18813015831@139.com (F.Z.); xuemeinan@126.com (X.N.); wanghui_lunwen@163.com (H.W.)
+Find articles by
+Xuemei Nan
+1,
+†
+,
+Hui Wang
+Hui Wang
+1
+State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China; 18813015831@139.com (F.Z.); xuemeinan@126.com (X.N.); wanghui_lunwen@163.com (H.W.)
+Find articles by
+Hui Wang
+1
+,
+Yuming Guo
+Yuming Guo
+2
+State Key Laboratory of Animal Nutrition, College of Animal Science and Technology, China Agricultural University, Beijing 100193, China; guoyum@cau.edu.cn
+Find articles by
+Yuming Guo
+2
+,
+Benhai Xiong
+Benhai Xiong
+1
+State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China; 18813015831@139.com (F.Z.); xuemeinan@126.com (X.N.); wanghui_lunwen@163.com (H.W.)
+Find articles by
+Benhai Xiong
+1,
+*
+Author information
+Article notes
+Copyright and License information
+1
+State Key Laboratory of Animal Nutrition, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing 100193, China; 18813015831@139.com (F.Z.); xuemeinan@126.com (X.N.); wanghui_lunwen@163.com (H.W.)
+2
+State Key Laboratory of Animal Nutrition, College of Animal Science and Technology, China Agricultural University, Beijing 100193, China; guoyum@cau.edu.cn
+*
+Correspondence:
+xiongbenhai@caas.cn
+; Tel.: +86-10-6281-6017; Fax: +86-10-6281-1680
+†
+The first two authors contributed to this manuscript equally.
+Received 2020 Jun 7; Accepted 2020 Jul 30; Collection date 2020 Aug.
+© 2020 by the authors.
+Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (
+http://creativecommons.org/licenses/by/4.0/
+).
+PMC Copyright notice
+PMCID: PMC7460323  PMID:
+32756296
+Abstract
+Simple Summary
+In modern dairy cattle production systems, the mycotoxins in feed and metabolic disease, such as ketosis and milk fever, seriously affect the health and milk production of dairy cows. Calcium propionate is a safe and reliable food and additive that is widely used. It can be employed in silage and total mixed rations (TMR) against mycotoxin production. In the perinatal period, many cows cannot adjust to the tremendous metabolic, endocrine, and physiological changes, resulting in ketosis and fatty liver due to a negative energy balance or milk fever induced by hypocalcemia, which damages their health and reduces the production performance. Studies have revealed that calcium propionate can play an active role in solving these problems. It can also regulate rumen development in calves. This paper reviews the recent research progress regarding the application of calcium propionate in dairy cows and dairy calves. The key findings and mechanisms are summarized and potential further studies are suggested.
+Abstract
+Calcium propionate is a safe and reliable food and feed additive. It can be metabolized and absorbed by humans and animals as a precursor for glucose synthesis. In addition, calcium propionate provides essential calcium to mammals. In the perinatal period of dairy cows, many cows cannot adjust to the tremendous metabolic, endocrine, and physiological changes, resulting in ketosis and fatty liver due to a negative energy balance (NEB) or milk fever induced by hypocalcemia. On hot weather days, cow feed (TMR or silage) is susceptible to mildew, which produces mycotoxins. These two issues are closely related to dairy health and performance. Perinatal period metabolic disease significantly reduces cow production and increases the elimination rate because it causes major glucose and calcium deficiencies. Feeding a diet contaminated with mycotoxin leads to rumen metabolic disorders, a reduced reproductive rate (increased abortion rate), an increased number of milk somatic cells, and decreased milk production, as well as an increased occurrence of mastitis and hoof disease. Propionic acid is the primary gluconeogenic precursor in dairy cows and one of the safest mold inhibitors. Therefore, calcium propionate, which can be hydrolyzed into propionic acid and Ca
+2+
+in the rumen, may be a good feed additive for alleviating NEB and milk fever in the perinatal period of dairy cows. It can also be used to inhibit TMR or silage deterioration in hot weather and regulate rumen development in calves. This paper reviews the application of calcium propionate in dairy cows.
+Keywords:
+calcium propionate, dairy cow, perinatal period, NEB, mycotoxin
+1. Introduction
+There are many important challenges in dairy production, including reducing the feed intake and metabolic diseases caused by a negative energy balance (NEB) [
+1
+] and milk fever [
+2
+] during the perinatal period and mycotoxin pollution [
+3
+] of feed induced by environmental and climatic conditions, which have negative effects on milk production and quality and pose a potential threat to human health. In particular, ketosis and hypocalcemia represent two potentially devastating insults to the lactating dairy cow [
+4
+]. Appropriate dosages of calcium propionate as a feed additive can effectively alleviate these difficulties and serve the dairy industry.
+Since calcium propionate does not inhibit yeast growth, it is one of the most useful antimicrobial preservatives in the fermented foods industry, especially in bread and fermented dairy products; in aqueous solution, it can dissociate to propionic acid (the active antifungal ingredient) and calcium ions [
+5
+]. It can be used as a feed preservative, growth promoter, intestinal microbiota enhancer, or appetite suppressant in animal nutrition [
+6
+]. In the dairy cow industry, calcium propionate can also be applied in many cases to inhibit mycotoxin production and as a metabolite precursor additive.
+Propionic acid and Ca
+2+
+are basic components in the rumen fluid [
+7
+], which means that calcium propionate is safe to add to the feed of dairy cows. It is approved by the World Health Organization (WHO) and the United Nations Food and Agriculture Organization (FAO) for use in food or feed additives. Therefore, it is used as a safe and valuable additive in the dairy cow industry. To update our knowledge on calcium propionate application for dairy cow performance and metabolism, we reviewed the effects of calcium propionate supplementation on decreasing feed mycotoxins, alleviating dairy cow NEB and milk fever, and promoting rumen development in dairy calves.
+2. Properties of Calcium Propionate
+2.1. Physical and Chemical Characteristics of Calcium Propionate
+Calcium propionate is an organic salt formed by the reaction between calcium hydroxide and propionic acid [
+8
+] and has the molecular formula (CH
+3
+CH
+2
+COO)
+2
+Ca. The compound exists in either crystalline or powder form. Calcium propionate is soluble in water and can be hydrolyzed into Ca
+2+
+and propionic acid. The solution is alkaline, but exerts bacteriostatic effects in acidic media. It is mainly synthesized through the reaction between a calcium source (CaCO
+3
+, CaO, Ca(OH)
+2
+, egg, or oyster shell) and propionic acid. Through the reaction, the generated calcium propionate is concentrated, dried, and dehydrated to obtain qualified products.
+2.2. Antibacterial Properties of Calcium Propionate
+Calcium propionate is a strong preservative with little or no flavor with normal use that can be effective against mold and bacteria and is widely used in foods, feeds, and pharmaceuticals [
+9
+]. It has the ability to inhibit the growth of molds and other microorganisms without an obvious inhibition of yeasts [
+8
+]. The antimicrobial properties of calcium propionate are dependent upon the corresponding undissociated acids in solution and involve the uncoupling of microbial substrate transport and oxidative phosphorylation from the electron transport system [
+10
+]. When exhibiting the same bacteriostatic effect, the effective dose of calcium propionate has been shown to be lower than that of sodium propionate. Calcium propionate has no teratogenic activity or reproductive toxicity, and propionic acid can be excreted in urine; thus, there is no risk of accumulation in the human body, even at large doses [
+5
+].
+Propionic acid can interfere with the electrochemical gradients in the cell membrane, disrupt transport processes, and inhibit the uptake of substrate molecules, such as phosphate and amino acids [
+11
+]. The high-affinity potassium transporter in the cell membrane of yeasts enables the maintenance of pH homeostasis and stabilization of membrane potential by potassium uptake and accumulation, so the yeasts can develop tolerance to propionic acid [
+12
+]. However, the molds are susceptible to propionic acid. The antimicrobial activity of calcium propionate is due to the neutral undissociated propionic acid form, which is lipophilic and readily soluble in fungal cell membranes [
+5
+]. Therefore, the antimicrobial effect of calcium propionate depends on the pH value of the product because the undissociated acid has a better antimicrobial effect than the dissociated acid [
+13
+]. Compared to 71% undissociated propionic acid at pH 4.5, only 7% of the propionic acid can be undissociated at pH 6. An enhanced inhibitory effect of calcium propionate at a lower pH is expected, and the maximum pH at which calcium propionate exerts measurable antimicrobial activity is approximately 5.0–5.5 [
+13
+]. Therefore, a lower pH is beneficial to the improvement of the antibacterial properties of calcium propionate under appropriate conditions. Many antibacterial actions of calcium propionate have been found, and it can reduce the count of
+Aspergillus flavus
+[
+14
+],
+Escherichia coli
+O157:H7,
+Salmonella enterica
+serovar Typhimurium [
+15
+], Clostridia [
+16
+], and so on. Because of its antimicrobial properties, calcium propionate can also reduce mold and act as a preservative in many industries.
+In the feed industry, a warm and humid climate and a long postharvest period favor mold growth and the production of mycotoxins [
+9
+]. Molds can cause economic losses and health problems due to the production of mycotoxins. Aflatoxins, which are potent mycotoxins mainly produced by
+Aspergillus flavus
+and
+Aspergillus parasiticus
+, have carcinogenic, mutagenic, teratogenic, and growth inhibiting effects on animals and humans [
+17
+]. Calcium propionate is a well-established chemical mold inhibitor that can be used in the feed industry to inhibit mold growth and reduce the incidence of aflatoxicosis in animals. Moreover, because of less feed spoilage, the heat production in feed is also reduced, preventing energy loss and poor palatability of the feed, which the cattle may refuse to eat. Bintvihok and Kositcharoenkul [
+14
+] indicated that aflatoxin B
+1
+–calcium propionate-supplemented diet groups showed increased body weight gain, feed consumption, and feed conversion, but decreased residual levels of aflatoxin B1 and aflatoxin M1 in muscle and liver tissues compared with those of aflatoxin B1-supplemented groups. Therefore, calcium propionate is a reliable additive for silage and TMR in dairy cows.
+In other fields, calcium propionate has been used for paper preservation [
+5
+], increasing the fruit shelf life [
+18
+], and inhibiting bread spoilage [
+19
+], due to its antibacterial properties, and can also be used as an additive for silage and TMR in dairy cows.
+2.3. Nutritive Properties of Calcium Propionate
+As described above, calcium propionate can be hydrolyzed into Ca
+2+
+and propionic acid. Calcium and propionic acid in solution are indispensable sources of nutrients for ruminants.
+It is well-known that calcium is essential for the formation of skeletal tissue, transmission of nervous tissue, muscle contractility, and essential minerals for blood and milk. In contrast, the role of calcium with respect to the immune function and intermediary metabolism explains the contribution of subclinical hypocalcemia to the development of several diseases observed in early lactation and underlines its importance in high-performing dairy cows [
+20
+]. Oral calcium supplementation with calcium propionate, which is a calcium source in solution, can be greatly absorbed by the rumen and increase the ionized calcium concentration in the blood.
+An increase in digestible energy intake has been shown to increase the posthepatic glucose supply [
+21
+]. Propionate, which is produced from the ruminal fermentation of starch and other organic matter, is the primary glucose precursor for ruminants [
+22
+]. Propionic acid, which is hydrolyzed from calcium propionate and formed under acidic conditions in the rumen, is absorbed by the rumen epithelium, passes to the liver through the portal vein, and synthesizes glucose. In fed cows, propionate is the major precursor of glucose, and the liver removal of propionate contributes to up to 60% of glucose hepatic release [
+23
+]. Propionate is an obligatory anaplerotic metabolite for the tricarboxylic acid (TCA) cycle [
+24
+]. It enters the TCA cycle through succinate, thus providing carbons that can either remain within the TCA cycle or be extracted from the cycle for gluconeogenesis [
+25
+]. Therefore, calcium propionate can be used as a good additive in ruminants for gluconeogenesis, and this property has been found to improve lamb performance [
+26
+], act as an energy source for finishing lambs [
+27
+], and improve beef quality [
+28
+]. Therfore, it is a favorable nutrient additive for dairy cows.
+3. The Application of Calcium Propionate in Dairy Cows
+As mentioned above, calcium propionate can be metabolized and absorbed by animals, providing them with essential calcium and glucose precursors, which are advantages that are not offered by other anti-mildew agents. Furthermore, it is generally regarded as safe (GRAS) in the United States, where upper limits only exist for its use in specific human food items [
+10
+]. Therefore, it is widely used in dairy cows as an antimicrobial agent, glucose precursor, and calcium provider.
+3.1. Application in Silage to Resist Mildew
+Silage is one of the most common ingredients in the diets of dairy cows and is an important source of nutrients. However, poorly made or contaminated silage can also be a source of pathogenic bacteria that may decrease the dairy cow performance, reduce the safety and quality of dairy products, and compromise animal and human health [
+29
+]. Molds identified in fermented feeds include
+Aspergillus
+sp.,
+Cladosporium
+sp.,
+Fusarium
+sp.,
+Mucor
+sp., and
+Penicillium
+sp., and their adverse effects may occur through either their deleterious effects on the nutrient quality or their production of mycotoxins [
+30
+]. Several mycotoxins have been detected in corn silage, including aflatoxin B1, citrinin, deoxynivalenol, gliotoxin, and zearalenone [
+31
+].
+To enhance the quality of silage, fermentation and the aerobic stability can be improved by adding silage additives. Propionic acid-based products, which are compatible with microbial inoculants, can be used as a silage additive. The combined use of propionic acid-based products and microbial inoculants can result in improvements in silage fermentation and the aerobic stability [
+32
+]. Propionic acid has excellent antifungal activity and has little impact on the activity of lactic acid bacteria. The application of propionic acid presents some problems due to its corrosive and hazardous nature, but its salt—calcium propionate—also has antimicrobial effects; additionally, it is safe and easy to handle [
+33
+]. Calcium propionate is an effective tool for suppressing the germination, growth rate, and aflatoxin production of
+Aspergillus flavus
+(A-2092) in different substrates [
+34
+]. Therefore, calcium propionate has the potential, as an additive in silage, to inhibit the growth of molds and decrease the mycotoxin contents in silage.
+Alfalfa is a protein-rich forage that is widely cultivated and has become a major protein source of diets for dairy cows. Fresh alfalfa silage is prone to clostridia spoilage because of its low dry matter, low sugar contents, and high buffering capacity [
+33
+]. Dong et al. [
+33
+] demonstrated that the amount of enterobacteria, molds, and clostridia decreased linearly with an increasing calcium propionate proportion in alfalfa silage, while lactic acid bacteria counts quadratically increased; calcium propionate can improve the fermentation quality and aerobic stability of proteolysis alfalfa silage, and the recommended additive level is 10 g/kg fresh weight. Wen et al. [
+16
+] evaluated the potential of calcium propionate as an alfalfa silage additive and found that calcium propionate decreased the butyric acid content and dry matter loss and increased the water-soluble carbohydrate content. However, the pH decreased slowly at the start of ensilage, possibly because of the alkaline properties of calcium propionate. After 30 days of storage, calcium propionate increased the concentrations of lactic, acetic, propionic, and total organic acids and the microbial populations of lactic acid bacteria, but decreased the enterobacteria, mold, and clostridia populations [
+35
+]. The lower population of molds and clostridia may be related to the antimicrobial effects of calcium propionate. Clostridium is a kind of undesirable microorganism that is harmful to animal health. It not only destroys lactic acid, but also leads to an increase in the pH value and a decrease in the nutritional value of silage [
+16
+]. In conclusion, calcium propionate is a good additive for silage, which can act as a significant inhibitor for the growth of molds and clostridia.
+3.2. Application in TMR to Increase the Aerobic Stability
+Warm and humid conditions are favorable for mold growth and can result in increased mycotoxin production. The spoilage of TMR in summer is an important factor affecting the production efficiency. To reduce the influence of TMR mold growth and its metabolites on the production performance, health, and milk quality of cows, appropriate methods, including chemical additives, water content control, increasing the number of fresh feed deliveries per day, and the timely cleaning of leftovers, must be used. As mentioned above, calcium propionate is a safe and effective inhibitor of mold, and can improve the aerobic stability of feed. Mold growth can be prevented in coarse texture feeds and other high moisture feeds by the addition of calcium propionate [
+14
+]. The addition of calcium propionate to TMR inhibits feed spoilage. Therefore, the proper addition of calcium propionate in TMR feed may have the function of preventing feed corruption. However, research on the recommended amount of calcium propionate added to TMR to prevent feed spoilage is needs to be further explored.
+3.3. Application as a Gluconeogenic Precursor to Alleviate NEB in the Perinatal Period
+The perinatal period from late pregnancy to early lactation is a critical period in a dairy cow’s life due to the rapidly increased drain of nutrients from the mother towards the fetus and into the colostrum and milk [
+36
+]. After calving, with a high yield of milk, the nutrient intake of dairy cows is large under the need to supply the output of milk, resulting in a negative nutrient balance that requires the mobilization of body reserves. The metabolic diseases fatty liver and ketosis are due to the extent of glucose deficit that induces the excessive mobilization of body fat. In addition, during the perinatal period, the dry matter intake of dairy cows is reduced due to the diminution in rumen volume induced by the growth of the fetus and other hormonal changes [
+37
+]. The high energy demands of lactation, coupled with a reduction in the dry matter intake around calving, means that the majority of dairy cows enter the state of NEB in early lactation [
+38
+]. Cows showing excessive NEB utilize their body fat as a source of energy to maintain the rapidly increasing milk yield, which leads to excessive body fat mobilization, ketosis, and fatty liver syndrome. Metabolic or infectious diseases, including fatty liver syndrome and ketosis, affect dairy cow production during the perinatal period [
+39
+] and further impact the welfare, productive lifespan, and economic outcomes of dairy cows [
+36
+].
+Strategies for supplying energy are one way of mitigating NEB. Based on a large amount of data on cattle and other species, glucose is known to reduce the fatty acids mobilized from adipose tissue [
+40
+]. The failure of cows to meet their glucose demands for lactation leads to an impaired immune response and an increased risk of disease that may affect milk production and profitability [
+41
+]. For cow rearing, the dietary energy can be improved through fat or concentrate supplementation to alleviate NEB, but excess fat supplementation inhibits rumen microbial growth, decreases the rumen pH value, and increases the rate of subclinical ruminal acidosis [
+42
+].
+Glucose precursors, such as propylene glycol and calcium propionate, have been used in dairy cattle to correct metabolic problems [
+43
+]. Propionate can directly regulate its own metabolism in isolated bovine hepatocytes through upregulation of the mRNA expression of cytosolic phosphoenolpyruvate carboxykinase (PCK1), mitochondrial phosphoenolpyruvate carboxykinase (PCK2), and pyruvate carboxylase (PC), which are the key enzymes required for the stimulation of gluconeogenesis from propionate in ruminants [
+44
+]. Propionate is the major glucose precursor in ruminants that has a positive energy balance and anti-ketogenic effects [
+45
+]. It is used as a readily available energy source to correct metabolic problems in dairy cattle [
+46
+]. Propionate, whose liver uptake is preferential and highly efficient, can inhibit hepatic lipid oxidation and the production of ketones [
+47
+].
+During the perinatal period, calcium propionate is a good available energy source for preventing metabolic disorders in dairy cows, so it can be incorporated into the diet and increase the rumen concentration of propionate, which is the main precursor for glucose synthesis in the liver [
+27
+]. Abdel-Latif et al. [
+39
+] found that the supplementation of calcium propionate in primiparous Egyptian buffalo cows during late gestation and early lactation significantly improved the body weight, reproductive parameters such as first estrus postpartum, days open, and number of services per conception; it also significantly decreased the blood metabolites of nonesterified fatty acids (NEFAs) and increased the glucose and insulin concentrations. The beta-hydroxybutyrate (BHBA) can be considered an indicator of a negative energetic balance due to its correlation with the energetic demand and energy reserves [
+48
+]. In the study of Martins et al. [
+48
+], the calcium propionate-supplemented group had a lower amount of blood BHBA because the propionate is the principal source of gluconeogenesis in peripartum cows. Maintaining or increasing the DM intake is also crucial for alleviating NEB in the perinatal period. The effects of calcium propionate on the DM intake in dairy cows are controversial; some studies have reported no difference [
+46
+], and some have reported a higher DM intake with calcium propionate [
+40
+]. McNamara and Valdez [
+40
+] showed that cows fed 0.125 kg/d calcium propionate increased their DM intake by 11% and 13% in the prepartum and postpartum groups, respectively, compared with that of the control group, and showed reduced net lipolysis, but increased adipose tissue lipogenesis, at postpartum. Martins et al. [
+49
+] confirmed that, during early lactation, 200 g/d calcium propionate provided a better energetic supply for dairy cows, which can also increase the milk yield and protein, lactose, fat, and total solids contents in milk, despite the reduced dry matter intake. Propionate is converted to glucose in the liver, supporting lactose synthesis in the mammary gland [
+49
+]. Liu et al. [
+46
+] observed that increasing the supplementation of calcium propionate improved the energy status, as indicated by the higher blood glucose, lower blood BHBA and NEFA, and lower urine ketones. In ruminants, an increase in glucose precursors, such as propionate, could optimize nutrient use and improve milk production [
+50
+]. The concentration of oxaloacetate determines whether acetyl-CoA enters the TCA-cycle or ketogenesis occurs. The antiketogenic effect of calcium propionate is also related to the increase of the oxaloacetate content in the mitochondria of the liver. Calcium propionate can be incorporated into the diet or fed per cow per day for cows in early lactation. The optimum dose was approximately 200 g per cow per day in the experimental conditions of Liu et al. [
+46
+]. In conclusion, calcium propionate can act as a good glucose precursor to alleviate NEB in dairy cows. However, the maximum dose available in cows still needs to be studied because calcium propionate can depress appetite [
+6
+].
+3.4. Application as a Source of Calcium to Prevent Milk Fever in the Perinatal Period
+Milk fever is a metabolic disease characterized by clinical symptoms due to a reduction in the blood calcium concentration (hypocalcemia) during peripartum, which affects high-yielding multiparous cows [
+51
+]. It is one of the most common periparturient abnormalities afflicting dairy cows [
+52
+]. Milk fever can decrease the dry matter intake, milk production, and reproductive performance and increase the risk of secondary diseases, such as ketosis, a retained placenta, displaced abomasum, mastitis, and the incidence of dystocia and uterine disorders [
+53
+,
+54
+]. When the concentration of blood calcium falls below a critical threshold, it results in clinical and subclinical milk fever [
+54
+,
+55
+]. Serum calcium levels of 2 and 1.4 mmol/L have been proposed as thresholds of subclinical and clinical hypocalcemia, respectively, but the external signs may not be displayed in dairy cows [
+56
+]. Improving the mobilization of calcium from bone and the absorption of calcium from the diet are two major processes that prevent the decrease in blood calcium in dairy cows. The mobilization of calcium from bone can be accomplished by feeding a calcium-deficient diet or negative dietary cation-anion difference in the pre-calving period [
+57
+]. In addition, the infusion of 5-hydroxytryptophan can also improve blood calcium concentrations around parturition [
+58
+].
+However, after calving, it is important to improve the available calcium in the diet for absorption. It is well-accepted that calcium can be absorbed across the rumen wall of sheep and goats if the soluble calcium concentration is high [
+59
+,
+60
+]. Schroder et al. [
+61
+] proved that calcium can be absorbed across the cattle rumen epithelium in vitro. Calcium absorption by the rumen appears to be a key factor in calcium homeostasis at the onset of lactation, and its failure causes uncontrolled hypocalcemia, leading to parturient paresis [
+62
+]. Calcium sources that are soluble at a slightly acidic pH may result in more absorption from the rumen, intestine, or both, than insoluble calcium sources [
+63
+]. To increase the calcium absorption, an effective method is to increase the concentration of ionized calcium within the rumen by the given supplement [
+61
+]. Providing a highly soluble source of oral calcium induces high concentrations of ionized calcium in the lumen of the gastrointestinal tract. The high concentrations of ionized calcium in the rumen lumen induce a chemical gradient that passively transports ionized calcium from the mucosa through the tight junctions towards the extracellular space on the serosa side, increasing the concentrations of ionized calcium in the blood [
+64
+]. The administration of a ruminal calcium bolus (approximately 43 g of calcium) has been used to restore blood calcium concentrations [
+57
+] by improving the amount of calcium that can be absorbed from feed.
+Calcium chloride solutions and gel products offer good calcium sources that are very soluble, very concentrated (36% calcium), and rapidly absorbed, making them generally effective in reducing the incidence of milk fever [
+65
+]. Large amounts of propionic acid are produced in the rumen by carbohydrate metabolism, and there are no obvious adverse effects, so calcium propionate might also be a satisfactory source of calcium [
+66
+]. Although its effects on blood calcium are not as rapid as those of calcium chloride, calcium propionate can be used in the form of calcium propionate paste and given at calving or after calving in dairy cows to prevent milk fever. Pehrson et al. [
+66
+] showed that the incidence of milk fever in a calcium propionate-treated (120 g of calcium in total) group of cows that experienced milk fever during previous calving was 25.3%, which was lower than that in untreated cows (36.0%), but similar to that in the calcium chloride-treated group (23.2%). Therefore, calcium propionate is considered a satisfactory alternative to calcium chloride for the prevention of milk fever [
+66
+]. Goff et al. [
+65
+] also demonstrated that calcium propionate paste treatment was beneficial in reducing subclinical hypocalcemia and could reduce the incidence of milk fever from 50% in control cows to 29% in treated cows. Calcium propionate is less soluble in water than calcium chloride, but its solubility is adequate and more soluble than that of calcium lactate, calcium sulfate, and calcium carbonate. Calcium propionate is neutral in taste and has no erosive effect on the digestive tract mucosa [
+66
+]. To prevent milk fever, calcium propionate is usually administered orally around the time of the calving of cows. Kara et al. [
+67
+] found that giving cows two drenches (each drench contained 0.68 kg calcium propionate) at calving and 24 h after calving was beneficial in treating milk fever. In summary, calcium propionate can act as a source of calcium to prevent milk fever in dairy cows during the perinatal period.
+3.5. Application in Dairy Calves to Regulate Rumen Development or Improve Growth
+The rumen is a vital digestive organ that plays a key role in the growth, production performance, and health of ruminants. Therefore, promoting rumen development has always been a key target of calf nutrition [
+68
+]. The papilla length of the rumen is the most important factor for the evaluation of rumen development [
+68
+]. Rumen epithelium development plays a very important role in the absorption, metabolism, and transportation of volatile fatty acids (VFAs). VFAs, such as propionic and butyric, provide the main chemical stimuli for the proliferation of the rumen epithelium if the amount is sufficient [
+69
+], indicating that additives of propionate may be used in calf feed as rumen growth promoters. As one kind of propionate, the additive of calcium propionate may also stimulate the epithelium development of calves. G protein-coupled receptors (GPRs) are integral membrane proteins which are activated by an external signal in the form of a ligand or other signal mediator [
+7
+]. Zhang et al. [
+7
+] found that calves supplemented with 5% calcium propionate (mixed in milk replacer and starter ration) in the diet had a greater rumen papillae length and improved mRNA expression of G protein-coupled receptor 41 (GPR41), GPR43, and cyclin D1 after feeding for 160 days, which indicated that propionate acted as a signaling molecule to improve the rumen epithelium. Propionate can be converted into glucose in the liver, and higher glucose concentrations mean that high energy can be used to increase the body weight of calves. Zhang et al. [
+70
+] pointed out that there were no differences in DMI with the different feeding levels of calcium propionate, but the addition of calcium propionate improved the growth performance and gastrointestinal tract traits of Jersey calves; thus, adding 10% calcium propionate to the feed before 90 days and 5% for 90 to 160 days was beneficial for calves. Cao et al. [
+71
+] also verified that calcium propionate supplementation (5% dry matter) can improve body weight gain and rumen growth both pre- and postweaning. Monensin is an ion carrier that can change the number of rumen microorganisms, reduce the amount of methane production, increase propionate in the rumen, decrease the intake of dry matter, and improve the efficiency of milk production and weight gain of dairy cows [
+72
+]. However, as an antibiotic, the use of monensin in animal feed as a growth promoter may enhance the risk of antibiotic-resistant strains, so it is important to seek alternatives to this compound [
+73
+]. Ferrerra and Bittar [
+74
+] revealed that employing calcium propionate as an additive in starter feeds of calves resulted in an equal animal performance before and after weaning in comparison to that of sodium monensin, which suggests that sodium monensin may be replaced by calcium propionate. Therefore, calcium propionate can be used as a good additive to promote the rumen development and growth of dairy calves.
+4. Limitation of Calcium Propionate in Application
+However, the use of calcium propionate in dairy cows should be controlled at appropriate doses because an overdose has a hypophagic effect in ruminants [
+27
+] and may decrease the DMI of dairy cows. It has also been reported that calcium propionate induces a negative causation state while reducing the feed intake in broiler breeders [
+6
+], rats [
+75
+], and steers [
+63
+] at high doses. The metabolic feedback theory contends that when the absorption of nutrients, principally energy and protein, exceeds the requirements, negative metabolic feedback impacts DMI. Calcium propionate is an important energy provider when working as an additive to alleviate NEB in dairy cows. Therefore, propionic acid is the fuel most likely to stimulate satiety and reduce the feed intake in dairy cows [
+76
+] because it has a high energy concentration. Propionic acid can stimulate the oxidation of acetyl CoA in the liver [
+24
+]. According to the oxidation theory, the oxidation of fuels in the liver can stimulate satiety by transmitting signals via hepatic vagal afferents to feeding centers in the brain [
+77
+]. Oba and Allen [
+78
+] confirmed that a propionate infusion linearly decreased the DMI of dairy cows at higher doses. When feeding calcium propionate at a high level, the TCA cycle intermediates increase, stimulating the oxidation of acetyl CoA, likely affecting the feeding behavior and satisfaction. However, propionate had a smaller hypophagic effect at low plasma glucose concentrations and had a greater hypophagic effect at elevated plasma glucose concentrations [
+79
+]. Therefore, when appetite reduction occurs in cows, the supply of calcium propionate suppresses the requirement for gluconeogenesis. However, the maximum dose available in cows remains to be determined.
+5. Conclusions
+Calcium propionate is a safe and reliable food and feed additive. The calcium ions and propionic acid generated by calcium propionate hydrolysis are the basic components in the rumen of dairy cows. The application of calcium propionate in dairy cows is summarized in
+Figure 1
+. Calcium propionate can be used as a silage additive to inhibit the growth of mildew, reduce mycotoxins, and improve the aerobic stability. Adding calcium propionate to TMR feed can inhibit the putrefaction of the feed in hot weather; thus, calcium propionate can also be used as a preservative in feed. Propionic acid generated by the hydrolysis of calcium propionate is the main glucose precursor in dairy cows. Adding calcium propionate to the diet during the perinatal period can effectively alleviate the nutritional metabolic disease caused by NEB in dairy cows, and the calcium ions generated by hydrolysis can serve as a calcium source to effectively alleviate paralysis caused by milk fever. Calcium propionate can also promote dairy calves’ rumen epithelium development to promote calf growth through propionic acid. Proper feeding is beneficial to the health of dairy cows, but excessive feeding may inhibit the appetite and limit the intake. In summary, the applications of calcium propionate in dairy cows mainly include the inhibition of feed mildew, alleviation of NEB, prevention of milk fever, and promotion of the rumen epithelial development of dairy calves.
+Figure 1.
+Open in a new tab
+Summary of the calcium propionate applications in dairy cows. The effects of supplementation with calcium propionate in dairy cows can be divided into the functions of hydrolyzed Ca
+2+
+and propionic acid. Ca
+2+
+, as a water-soluble calcium source, can reduce the incidence of milk fever by increasing the calcium content in the blood of perinatal dairy cows. Propionic acid is mainly used to inhibit the growth of mildew in silage or total mixed rations (TMR) or as a glucose precursor to inhibit a negative energy balance (NEB). Propionate can also promote the development of the rumen epithelium of calves. However, at very high doses, calcium propionate may lead to a decrease in appetite.
+The following are some of the limitations of the current research and areas to be explored:
+(1)
+Currently, research on calcium propionate in dairy cows has been mainly carried out by oral feeding alone, which is not convenient for application in practical production. Therefore, to improve the application effectiveness of calcium propionate in dairy cows, more studies are needed to determine the optimal feeding level when calcium propionate is mixed with TMR. When calcium propionate is used to prevent NEB and milk fever, the optimal feeding ratio should be revealed according to a cows’ milk production level and body condition;
+(2)
+Excessive calcium propionate feeding has been shown to inhibit the appetite and limit the intake. To avoid its adverse effects, the maximum feeding level, influencing factor, and adverse impact of calcium propionate in dairy cows need to be further studied;
+(3)
+Calcium propionate can be used as an anti-mildew additive in silage and can also be directly added to feed to prevent several metabolic diseases of dairy cows during the perinatal period. However, few studies on the effects of silage with calcium propionate on perinatal dairy cows have been conducted. Therefore, research in this field is worth exploring.
+Acknowledgments
+We thank the National Agricultural Information System, Chinese Academy of Agricultural Sciences (CAAS), Beijing 100193, China for providing access to the literature during the period of the COVID-19 pandemic.
+Author Contributions
+The authors’ contributions are as follows: F.Z. wrote the manuscript; X.N. and H.W. amended the English grammar and designed the figures; Y.G. and B.X. discussed and revised the draft. All authors have read and agreed to the published version of the manuscript.
+Funding
+This work was funded by the National Key R&D Program of China (2017YFD0701604), basic scientific research fund of CAAS (2019-YWF-YTS-10, 2019-YWF-YB-04), and Key R&D Program of Guangdong province (2019B020215002-3).
+Conflicts of Interest
+The authors declare no conflict of interest.
+References
+1.
+Moore S.M., DeVries T.J. Effect of diet-induced negative energy balance on the feeding behavior of dairy cows. J. Dairy Sci. 2020;103:7288–7301. doi: 10.3168/jds.2019-17705.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Goff J.P., Hohman A., Timms L.L. Effect of subclinical and clinical hypocalcemia and dietary cation-anion difference on rumination activity in periparturient dairy cows. J. Dairy Sci. 2020;103:2591–2601. doi: 10.3168/jds.2019-17581.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+Rodríguez-Blanco M., Ramos A.J., Sanchis V., Marín S. Mycotoxins occurrence and fungal populations in different types of silages for dairy cows in Spain. Fungal Biol. UK. 2019 doi: 10.1016/j.funbio.2019.08.006.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Weaver S.R., Prichard A.S., Maerz N.L., Prichard A.P., Endres E.L., Hernandez-Castellano L.E., Akins M.S., Bruckmaier R.M., Hernandez L.L. Elevating serotonin pre-partum alters the Holstein dairy cow hepatic adaptation to lactation. PLoS ONE. 2017;12:e0184939.  doi: 10.1371/journal.pone.0184939.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Sequeira S.O., Phillips A.J.L., Cabrita E.J., Macedo M.F. Antifungal treatment of paper with calcium propionate and parabens: Short-term and long-term effects. Int. Biodeter. Biodegr. 2017;120:203–215. doi: 10.1016/j.ibiod.2017.03.005.
+[
+DOI
+] [
+Google Scholar
+]
+6.
+Arrazola A., Torrey S. Conditioned place avoidance using encapsulated calcium propionate as an appetite suppressant for broiler breeders. PLoS ONE. 2019;14:e206271.  doi: 10.1371/journal.pone.0206271.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Zhang X.Z., Chen W.B., Wu X., Zhang Y.W., Jiang Y.M., Meng Q.X., Zhou Z.M. Calcium propionate supplementation improves development of rumen epithelium in calves via stimulating G protein-coupled receptors. Animal. 2018;12:2284–2291. doi: 10.1017/S1751731118000289.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Pongsavee M. Effects of 3300 del A-1061 Ter BRCA1 frameshift mutation and calcium propionate on oxidative stress and breast carcinogenesis. Int. J. Mol. Epidemiol. Genet. 2019;10:47–52.
+[
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Alam S., Shah H.U., Afzal M., Magan N. Influence of calcium propionate, water activity and storage time on mold incidence and aflatoxins production in broiler starter feed. Anim. Feed Sci. Tech. 2014;188:137–144. doi: 10.1016/j.anifeedsci.2013.11.010.
+[
+DOI
+] [
+Google Scholar
+]
+10.
+Saftner R.A., Bai J., Abbott J.A., Lee Y.S. Sanitary dips with calcium propionate, calcium chloride, or a calcium amino acid chelate maintain quality and shelf stability of fresh-cut honeydew chunks. Postharvest Biol. Tech. 2003;29:257–269. doi: 10.1016/S0925-5214(03)00041-3.
+[
+DOI
+] [
+Google Scholar
+]
+11.
+O’Connell C.A., Dollimore D. A study of the decomposition of calcium propionate, using simultaneous TG-DTA. Thermochim. Acta. 2000;357–358:1–334.
+[
+Google Scholar
+]
+12.
+Xu X., Williams T.C., Divne C., Pretorius I.S., Paulsen I.T. Evolutionary engineering in Saccharomyces cerevisiae reveals a TRK1-dependent potassium influx mechanism for propionic acid tolerance. Biotechnol. Biofuels. 2019;12:97. doi: 10.1186/s13068-019-1427-6.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Suhr K.I., Nielsen P.V. Effect of weak acid preservatives on growth of bakery product spoilage fungi at different water activities and pH values. Int. J. Food Microbiol. 2004;95:67–78. doi: 10.1016/j.ijfoodmicro.2004.02.004.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+14.
+Bintvihok A., Kositcharoenkul S. Effect of dietary calcium propionate on performance, hepatic enzyme activities and aflatoxin residues in broilers fed a diet containing low levels of aflatoxin B1. Toxicon. 2006;47:41–46. doi: 10.1016/j.toxicon.2005.09.009.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+Kwak T.Y., Kim N.H., Rhee M.S. Response surface methodology-based optimization of decontamination conditions for Escherichia coli O157:H7 and Salmonella Typhimurium on fresh-cut celery using thermoultrasound and calcium propionate. Int. J. Food Microbiol. 2011;150:128–135. doi: 10.1016/j.ijfoodmicro.2011.07.025.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Wen A., Yuan X., Wang J., Desta S.T., Shao T. Effects of four short-chain fatty acids or salts on dynamics of fermentation and microbial characteristics of alfalfa silage. Anim. Feed Sci. Tech. 2017;223:141–148. doi: 10.1016/j.anifeedsci.2016.11.017.
+[
+DOI
+] [
+Google Scholar
+]
+17.
+Moretti A.F., Gamba R.R., Puppo J., Malo N., Gómez-Zavaglia A., Peláez Á.L., Golowczyc M.A. Incorporation of Lactobacillus plantarum and zeolites in poultry feed can reduce aflatoxin B1 levels. J. Food Sci. Technol. 2018;55:431–436. doi: 10.1007/s13197-017-2923-y.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Quiles A., Hernando I., Perez-Munuera I., Lluch M.A. Effect of calcium propionate on the microstructure and pectin methy-lesterase activity in the parenchyma of fresh-cut Fuji apples. J. Sci. Food Agr. 2007;87:511–519. doi: 10.1002/jsfa.2749.
+[
+DOI
+] [
+Google Scholar
+]
+19.
+Ryan L.A.M., Dal Bello F., Arendt E.K. The use of sourdough fermented by antifungal LAB to reduce the amount of calcium propionate in bread. Int. J. Food Microbiol. 2008;125:274–278. doi: 10.1016/j.ijfoodmicro.2008.04.013.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Wilkens M.R., Nelson C.D., Hernandez L.L., McArt J.A.A. Symposium review: Transition cow calcium homeostasis—Health effects of hypocalcemia and strategies for prevention. J. Dairy Sci. 2020;103:2909–2927. doi: 10.3168/jds.2019-17268.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Lemosquet S., Delamaire E., Lapierre H., Blum J.W., Peyraud J.L. Effects of glucose, propionic acid, and nonessential amino acids on glucose metabolism and milk yield in Holstein dairy cows. J. Dairy Sci. 2009;92:3244–3257. doi: 10.3168/jds.2008-1610.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Lemosquet S., Raggio G., Lobley G.E., Rulquin H., Guinard-Flament J., Lapierre H. Whole-body glucose metabolism and mammary energetic nutrient metabolism in lactating dairy cows receiving digestive infusions of casein and propionic acid. J. Dairy Sci. 2009;92:6068–6082. doi: 10.3168/jds.2009-2018.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Duplessis M., Lapierre H., Ouattara B., Bissonnette N., Pellerin D., Laforest J.P., Girard C.L. Whole-body propionate and glucose metabolism of multiparous dairy cows receiving folic acid and vitamin B12 supplements. J. Dairy Sci. 2017;100:8578–8589. doi: 10.3168/jds.2017-13056.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Maldini G., Kennedy K.M., Allen M.S. Temporal effects of ruminal infusion of propionic acid on hepatic metabolism in cows in the postpartum period. J. Dairy Sci. 2019;102:9781–9790. doi: 10.3168/jds.2019-16437.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+White H.M. The role of TCA cycle anaplerosis in ketosis and fatty liver in periparturient dairy cows. Animals. 2015;5:793–802. doi: 10.3390/ani5030384.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+26.
+Martinez-Aispura J.A., Sanchez-Torres M.T., Mendoza-Martinez G.D., Cordero-Mora J.L., Figueroa-Velasco J.L., Ayala-Monter M.A., Crosby-Galvan M.M. Addition of calcium propionate to finishing lamb diets. Veterinaria Mexico. 2018;5:3. doi: 10.22201/fmvz.24486760e.2018.4.470.
+[
+DOI
+] [
+Google Scholar
+]
+27.
+Lee-Rangel H.A., Mendoza G.D., González S.S. Effect of calcium propionate and sorghum level on lamb performance. Anim. Feed Sci. Tech. 2012;177:237–241. doi: 10.1016/j.anifeedsci.2012.08.012.
+[
+DOI
+] [
+Google Scholar
+]
+28.
+Zhang X.Z., Meng Q.X., Lu L., Cui Z.L., Ren L.P. The effect of calcium propionate supplementation on performance, meat quality, and mRNA expression of finishing steers fed a high-concentrate diet. J. Anim. Feed Sci. 2015;24:100–106. doi: 10.22358/jafs/65634/2015.
+[
+DOI
+] [
+Google Scholar
+]
+29.
+Queiroz O.C.M., Ogunade I.M., Weinberg Z., Adesogan A.T. Silage review: Foodborne pathogens in silage and their mitigation by silage additives. J. Dairy Sci. 2018;101:4132–4142. doi: 10.3168/jds.2017-13901.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Tapia M.O., Stern M.D., Soraci A.L., Meronuck R., Olson W., Gold S., Koski-Hulbert R.L., Murphy M.J. Patulin-producing molds in corn silage and high moisture corn and effects of patulin on fermentation by ruminal microbes in continuous culture. Anim. Feed Sci. Tech. 2005;119:247–258. doi: 10.1016/j.anifeedsci.2004.12.002.
+[
+DOI
+] [
+Google Scholar
+]
+31.
+Lanier C., Richard E., Heutte N., Picquet R., Bouchart V., Garon D. Airborne molds and mycotoxins associated with handling of corn silage and oilseed cakes in agricultural environment. Atmos. Env. 2010;44:1980–1986. doi: 10.1016/j.atmosenv.2010.02.040.
+[
+DOI
+] [
+Google Scholar
+]
+32.
+Kung L., Myers C.L., Neylon J.M., Taylor C.C., Lazartic J., Mills J.A., Whiter A.G. The effects of buffered propionic acid-based additives alone or combined with microbial inoculation on the fermentation of high moisture corn and whole-crop barley. J. Dairy Sci. 2004;87:1310–1316. doi: 10.3168/jds.S0022-0302(04)73280-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Dong Z., Yuan X., Wen A., Desta S.T., Shao T. Effects of calcium propionate on the fermentation quality and aerobic stability of alfalfa silage. Asian Austral. J. Anim. 2017;30:1278–1284. doi: 10.5713/ajas.16.0956.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Alam S., Shah H.U., Magan N. Effect of calcium propionate and water activity on growth and aflatoxins production by Aspergillus flavus. J. Food Sci. 2010;75:M61–M64. doi: 10.1111/j.1750-3841.2009.01462.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Yuan X., Wen A., Desta S.T., Dong Z., Shao T. Effects of four short-chain fatty acids or salts on the dynamics of nitrogen transformations and intrinsic protease activity of alfalfa silage. J. Sci. Food Agr. 2017;97:2759–2766. doi: 10.1002/jsfa.8103.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Ceciliani F., Lecchi C., Urh C., Sauerwein H. Proteomics and metabolomics characterizing the pathophysiology of adaptive reactions to the metabolic challenges during the transition from late pregnancy to early lactation in dairy cows. J. Proteomics. 2018;178:92–106. doi: 10.1016/j.jprot.2017.10.010.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+Ingvartsen K.L., Andersen J.B. Integration of metabolism and intake regulation: A review focusing on periparturient animals. J. Dairy Sci. 2000;83:1573–1597. doi: 10.3168/jds.S0022-0302(00)75029-6.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Macrae A.I., Burrough E., Forrest J., Corbishley A., Russell G., Shaw D.J. Prevalence of excessive negative energy balance in commercial United Kingdom dairy herds. Vet. J. 2019;248:51–57. doi: 10.1016/j.tvjl.2019.04.001.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Abdel-Latif M.A., El-Gohary E.S., Gabr A.A., El-Hawary A.F., Ahmed S.A., Ebrahim S.A., Fathala M.M. Impact of supplementing propylene glycol and calcium propionate to primiparous buffalo cows during the late gestation and early lactation period on reproductive performance and metabolic parameters. Alex. J. Vet. Sci. 2016;51:114–121.
+[
+Google Scholar
+]
+40.
+McNamara J.P., Valdez F. Adipose tissue metabolism and production responses to calcium propionate and chromium propionate. J. Dairy Sci. 2005;88:2498–2507. doi: 10.3168/jds.S0022-0302(05)72927-1.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Ingvartsen K.L., Moyes K. Nutrition, immune function and health of dairy cattle. Animal. 2013;71:112–122. doi: 10.1017/S175173111200170X.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Lin X., Liu G., Yin Z., Wang Y., Hou Q., Shi K., Wang Z. Effects of supplemental dietary energy source on feed intake, lactation performance, and serum indices of early-lactating Holstein cows in a positive energy balance. Adv. Biosci. Biotech. 2017;8:68–77. doi: 10.4236/abb.2017.82005.
+[
+DOI
+] [
+Google Scholar
+]
+43.
+Mendoza-Martinez G.D., Pinos-Rodriguez J.M., Lee-Rangel H.A., Hernandez-Garcia P.A., Rojo-Rubio R., Relling A. Effects of dietary calcium propionate on growth performance and carcass characteristics of finishing lambs. Anim. Prod. Sci. 2016;56:1194–1198. doi: 10.1071/AN14824.
+[
+DOI
+] [
+Google Scholar
+]
+44.
+Zhang Q., Koser S.L., Donkin S.S. Propionate induces mRNA expression of gluconeogenic genes in bovine calf hepatocytes. J. Dairy Sci. 2016;99:3908–3915. doi: 10.3168/jds.2015-10312.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+45.
+Drackley J.K. Biology of dairy cows during the transition period: The final frontier? J. Dairy Sci. 1999;82:2259–2273. doi: 10.3168/jds.S0022-0302(99)75474-3.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+46.
+Liu Q., Wang C., Yang W.Z., Guo G., Yang X.M., He D.C., Dong K.H., Huang Y.X. Effects of calcium propionate supplementation on lactation performance, energy balance and blood metabolites in early lactation dairy cows. J. Anim. Physiol. N. 2010;94:605–614. doi: 10.1111/j.1439-0396.2009.00945.x.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+47.
+Patton R.S., Sorenson C.E., Hippen A.R. Effects of dietary glucogenic precursors and fat on feed intake and carbohydrate status of transition dairy cows. J. Dairy Sci. 2004;87:2122–2129. doi: 10.3168/jds.S0022-0302(04)70031-4.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+48.
+Martins W.D.C., Cunha S.H.M., Boscarato A.G., Lima J.S.D., Esteves Junior J.D., Uliana G.L.T., Pedrini M.T., Alberton L.R. Blood parameters of lactating cows fed calcium salts as energetic source. Acta Sci. Vet. 2018;46:1599. doi: 10.22456/1679-9216.88161.
+[
+DOI
+] [
+Google Scholar
+]
+49.
+Martins W.D.C., Mioso Cunha S.H., Boscarato A.G., de Lima J.S., Esteves Junior J.D., Uliana G.C., Pedrini M., Alberton L.R. Calcium propionate increased milk parameters in Holstein cows. Acta Sci. Vet. 2019;47 doi: 10.22456/1679-9216.97154.
+[
+DOI
+] [
+Google Scholar
+]
+50.
+Alberto Miranda L., Aaron Lee-Rangel H., David Mendoza-Martinez G., Magdalena Crosby-Galvan M., Enrique Relling A., Manuel Pinos-Rodriguez J., Rojo Rubio R., Gonzalez Hernandez M. Influence of calcium propionate on in vitro fermentation of sorghum-based diets. Rev. Fac. Cienc. Agrar. 2017;49:185–192.
+[
+Google Scholar
+]
+51.
+Saborío-Montero A., Vargas-Leitón B., Romero-Zúñiga J.J., Camacho-Sandoval J. Additive genetic and heterosis effects for milk fever in a population of Jersey, Holstein × Jersey, and Holstein cattle under grazing conditions. J. Dairy Sci. 2018;101:9128–9134. doi: 10.3168/jds.2017-14234.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+52.
+Neves R.C., Leno B.M., Bach K.D., McArt J.A.A. Epidemiology of subclinical hypocalcemia in early-lactation Holstein dairy cows: The temporal associations of plasma calcium concentration in the first 4 days in milk with disease and milk production. J. Dairy Sci. 2018;101:9321–9331. doi: 10.3168/jds.2018-14587.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+53.
+Mulligan F.J., O’Grady L., Rice D.A., Doherty M.L. A herd health approach to dairy cow nutrition and production diseases of the transition cow. Anim. Reprod. Sci. 2006;96:331–353. doi: 10.1016/j.anireprosci.2006.08.011.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+54.
+Goff J.P. The monitoring, prevention, and treatment of milk fever and subclinical hypocalcemia in dairy cows. Vet. J. 2008;176:50–57. doi: 10.1016/j.tvjl.2007.12.020.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+55.
+Curtis C.R., Erb H.N., Sniffen C.J., Smith R.D., Powers P.A., Smith M.C., White M.E., Hillman R.B., Pearson E.J. Association of parturient hypocalcemia with eight periparturient disorders in Holstein cows. J. Am. Vet. Med. Assoc. 1983;183:559–561.
+[
+PubMed
+] [
+Google Scholar
+]
+56.
+Martín-Tereso J., Martens H. Calcium and magnesium physiology and nutrition in relation to the prevention of milk fever and tetany (dietary management of macrominerals in preventing disease) Vet. Clin. North America: Food Anim. Pract. 2014;30:643–670. doi: 10.1016/j.cvfa.2014.07.007.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+57.
+Hernandez-Castellano L.E., Hernandez L.L., Bruckmaier R.M. Review: Endocrine pathways to regulate calcium homeostasis around parturition and the prevention of hypocalcemia in periparturient dairy cows. Animal. 2020;14:330–338. doi: 10.1017/S1751731119001605.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+58.
+Hernandez-Castellano L.E., Hernandez L.L., Sauerwein H., Bruckmaier R.M. Endocrine and metabolic changes in transition dairy cows are affected by prepartum infusions of a serotonin precursor. J. Dairy Sci. 2017;100:5050–5057. doi: 10.3168/jds.2016-12441.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+59.
+Wilkens M.R., Mrochen N., Breves G., Schröder B. Gastrointestinal calcium absorption in sheep is mostly insensitive to an alimentary induced challenge of calcium homeostasis. Comp. Biochem. Phys. Part B Biochem. Mol. Biol. 2011;158:199–207. doi: 10.1016/j.cbpb.2010.11.008.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+60.
+Wilkens M.R., Richter J., Fraser D.R., Liesegang A., Breves G., Schröder B. In contrast to sheep, goats adapt to dietary calcium restriction by increasing intestinal absorption of calcium. Comp. Biochem. Physiol. Part A Mol. Integr. Physiol. 2012;163:396–406. doi: 10.1016/j.cbpa.2012.06.011.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+61.
+Schroder B., Wilkens M.R., Ricken G.E., Leonhard-Marek S., Fraser D.R., Breves G. Calcium transport in bovine rumen epithelium as affected by luminal Ca concentrations and Ca sources. Physiol. Rep. 2015;3:e12615. doi: 10.14814/phy2.12615.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+62.
+Hyde M.L., Wilkens M.R., Fraser D.R. In vivo measurement of strontium absorption from the rumen of dairy cows as an index of calcium absorption capacity. J. Dairy Sci. 2019;102:5699–5705. doi: 10.3168/jds.2018-16052.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+63.
+Spears J.W., Engle T.E., Platter W.R., Lloyd K.E., Belk K.E., Horton J. Effects of high dietary calcium propionate and dietary cation-anion balance on calcium metabolism and longissimus muscle tenderness in finishing steers. Prof. Anim. Sci. 2003;19:424–428. doi: 10.15232/S1080-7446(15)31461-3.
+[
+DOI
+] [
+Google Scholar
+]
+64.
+Martinez N., Sinedino L.D.P., Bisinotto R.S., Daetz R., Lopera C., Risco C.A., Galvão K.N., Thatcher W.W., Santos J.E.P. Effects of oral calcium supplementation on mineral and acid-base status, energy metabolites, and health of postpartum dairy cows. J. Dairy Sci. 2016;99:8397–8416. doi: 10.3168/jds.2015-10527.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+65.
+Goff J.P., Horst R.L., Jardon P.W., Borelli C., Wedam J. Field trials of an oral calcium propionate paste as an aid to prevent milk fever in periparturient dairy cows. J. Dairy Sci. 1996;79:378–383. doi: 10.3168/jds.S0022-0302(96)76375-0.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+66.
+Pehrson B., Svensson C., Jonsson M. A comparative study of the effectiveness of calcium propionate and calcium chloride for the prevention of parturient paresis in dairy cows. J. Dairy Sci. 1998;81:2011–2016. doi: 10.3168/jds.S0022-0302(98)75775-3.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+67.
+Kara C., Orman A., Udum D., Yavuz H.M., Kovanlikaya A. Effects of calcium propionate by different numbers of applications in first week postpartum of dairy cows on hypocalcemia, milk production and reproductive disorders. Ital. J. Anim. Sci. 2009;8:259–270. doi: 10.4081/ijas.2009.259.
+[
+DOI
+] [
+Google Scholar
+]
+68.
+Diao Q., Zhang R., Fu T. Review of strategies to promote rumen development in calves. Animals (Basel) 2019;9:490.  doi: 10.3390/ani9080490.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+69.
+Tamate H., McGilliard A.D., Jacobson N.L., Getty R. Effect of Various dietaries on the anatomical development of the stomach in the calf. J. Dairy Sci. 1962;45:408–420. doi: 10.3168/jds.S0022-0302(62)89406-5.
+[
+DOI
+] [
+Google Scholar
+]
+70.
+Zhang X., Wu X., Chen W., Zhang Y., Jiang Y., Meng Q., Zhou Z. Growth performance and development of internal organ, and gastrointestinal tract of calf supplementation with calcium propionate at various stages of growth period. PLoS ONE. 2017;12:e0179940.  doi: 10.1371/journal.pone.0179940.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+71.
+Cao N., Wu H., Zhang X.Z., Meng Q.X., Zhou Z.M. Calcium propionate supplementation alters the ruminal bacterial and archaeal communities in pre- and postweaning calves. J. Dairy Sci. 2020;103:3204–3218. doi: 10.3168/jds.2019-16964.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+72.
+Akbarian-Tefaghi M., Ghasemi E., Khorvash M. Performance, rumen fermentation and blood metabolites of dairy calves fed starter mixtures supplemented with herbal plants, essential oils or monensin. J. Anim. Physiol. N. 2018;102:630–638. doi: 10.1111/jpn.12842.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+73.
+Gholipour A., Shahraki A.D.F., Tabeidian S.A., Nasrollahi S.M., Yang W.Z. The effects of increasing garlic powder and monensin supplementation on feed intake, nutrient digestibility, growth performance and blood parameters of growing calves. J. Anim. Physiol. N. 2016;100:623–628. doi: 10.1111/jpn.12402.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+74.
+Ferreira L.S., Bittar C.M.M. Performance and plasma metabolites of dairy calves fed starter containing sodium butyrate, calcium propionate or sodium monensin. Animal. 2011;5:239–245. doi: 10.1017/S1751731110001965.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+75.
+Ossenkopp K., Foley K.A., Gibson J., Fudge M.A., Kavaliers M., Cain D.P., MacFabe D.F. Systemic treatment with the enteric bacterial fermentation product, propionic acid, produces both conditioned taste avoidance and conditioned place avoidance in rats. Behav. Brain Res. 2012;227:134–141. doi: 10.1016/j.bbr.2011.10.045.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+76.
+Allen M.S. Effects of diet on short-term regulation of feed intake by lactating dairy cattle. J. Dairy Sci. 2000;83:1598–1624. doi: 10.3168/jds.S0022-0302(00)75030-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+77.
+Kennedy K.M., Allen M.S. Hepatic metabolism of propionate relative to meals for cows in the postpartum period. J. Dairy Sci. 2019;102:7997–8010. doi: 10.3168/jds.2018-15907.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+78.
+Oba M., Allen M.S. Dose-Response Effects of intrauminal infusion of propionate on feeding behavior of lactating cows in early or midlactation. J. Dairy Sci. 2003;86:2922–2931. doi: 10.3168/jds.S0022-0302(03)73889-2.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+79.
+Oba M., Allen M.S. Extent of hypophagia caused by propionate infusion is related to plasma glucose concentration in lactating dairy cows. J. Nutr. 2003;133:1105–1112. doi: 10.1093/jn/133.4.1105.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+ACTIONS
+View on publisher site
+PDF (445.9 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Back to Top

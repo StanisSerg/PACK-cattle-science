@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html data-beasties-container>
+
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <title>DSpace</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta http-equiv="cache-control" content="no-store">
+<link rel="stylesheet" href="styles.cf390c6bfbe7555f.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.cf390c6bfbe7555f.css"></noscript><script id="hashed-file-mapping" type="application/json">{"assets/config.json":"assets/config.a34c3df964b3deb575ec7efe5a3baf6f.json","uludag-theme.css":"uludag-theme.d006c49775d52026f01921642050c8af.css"}</script><link rel="preload" as="fetch" href="assets/config.a34c3df964b3deb575ec7efe5a3baf6f.json" crossorigin="anonymous" class="hfm"><link rel="prefetch" as="style" href="uludag-theme.d006c49775d52026f01921642050c8af.css" class="hfm"></head>
+
+<body>
+  <ds-app></ds-app>
+<script src="runtime.e740759f7adaab98.js" type="module"></script><script src="polyfills.eb857a8d2c0a4e05.js" type="module"></script><script src="main.1a7ac1345a879c30.js" type="module"></script></body>
+
+
+
+</html>
