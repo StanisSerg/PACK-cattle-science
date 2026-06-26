@@ -1,0 +1,17 @@
+{
+  "parallel_workers": 4,
+  "tasks": [
+    {
+      "task_type": "SIMULATION_SINGLE_RUN",
+      "metadata_file_path": "PACK-cattle-science/cases/Zencht-RuFaS-animals-only/metadata.json",
+      "output_prefix": "zencht_animals_only",
+      "log_verbosity": "errors",
+      "random_seed": 42,
+      "exclude_info_maps": false,
+      "csv_output_directory": "output/zencht_animals_only/CSVs/.",
+      "json_output_directory": "output/zencht_animals_only/JSONs/.",
+      "report_directory": "output/zencht_animals_only/reports/.",
+      "graphics_directory": "output/zencht_animals_only/graphics/."
+    }
+  ]
+}
