@@ -2,9 +2,9 @@
 id: CS.ONTOLOGY.ROOT
 type: ontology
 domain: cattle-science
-version: 1.0
+version: 1.1
 created: 2026-03-12
-updated: 2026-05-18
+updated: 2026-06-27
 language: ru
 ---
 
@@ -23,7 +23,7 @@ language: ru
 | **Английское название** | Dairy Cattle Science |
 | **Версия** | 1.0.0 |
 | **Создан** | 2026-03-01 |
-| **Обновлён** | 2026-03-12 |
+| **Обновлён** | 2026-06-27 |
 | **Владелец** | Stanis Serg |
 | **Тип** | Domain Pack (L2) |
 
@@ -68,41 +68,58 @@ PACK-cattle-science/
 ├── README.md
 ├── CLAUDE.md
 ├── REPO-TYPE.md
-├── WORKPLAN.md
 ├── ontology.md                    ← Этот файл
-├── SPF-COMPLIANCE-REPORT.md
 ├── pack/cattle-science/
 │   ├── 00-pack-manifest.md
 │   ├── 01-domain-contract/
 │   │   ├── 01A-bounded-context.md
 │   │   ├── 01B-distinctions.md
-│   │   └── 01C-ontology.md        ← Детальная онтология
-│   ├── 02-domain-entities/
-│   │   ├── CS.ENTITY.001-21d-pregnancy-rate.md
-│   │   ├── 02A-roles.md           ← Роли
-│   │   ├── 02C-methods-index.md   ← Индекс методов
-│   │   └── 02D-tools-index.md     ← Индекс инструментов
+│   │   ├── 01C-ontology.md        ← Детальная онтология
+│   │   └── 01D-domain-principles.md
+│   ├── 02-domain-entities/        ← Доменные сущности
+│   │   ├── P0/                    ← Базовый уровень
+│   │   │   ├── feeding/
+│   │   │   ├── health/
+│   │   │   ├── management/
+│   │   │   └── reproduction/
+│   │   ├── P1/                    ← Промежуточный уровень
+│   │   │   ├── economics/
+│   │   │   ├── feeding/
+│   │   │   ├── genetics/
+│   │   │   ├── health/
+│   │   │   └── reproduction/
+│   │   ├── P2/                    ← Углублённый уровень
+│   │   │   ├── feeding/
+│   │   │   └── health/
+│   │   ├── 00-entities-inventory.md
+│   │   ├── 02A-roles.md
+│   │   ├── 02B-entity-interpretations-spec.md
+│   │   └── 02C-methods-index.md
 │   ├── 03-methods/
-│   │   ├── CS.METHOD.003-reproductive-economics.md
-│   │   ├── CS.METHOD.004-cow-value-assessment.md
-│   │   └── CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md
+│   │   ├── CS.METHOD.001-ketosis-diagnosis-treatment.md
+│   │   ├── CS.METHOD.002-hypocalcemia-diagnosis-treatment.md
+│   │   ├── CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md
+│   │   ├── CS.METHOD.006-farm-visit-feeding-assessment.md
+│   │   └── _method-template.md
 │   ├── 04-work-products/
-│   │   ├── CS.WP.003-reproduction-economic-report.md
-│   │   ├── CS.WP.004-cow-value-report.md
-│   │   └── CS.WP.005-reproductive-program-comparison.md
-│   ├── 05-failure-modes/          ← Режимы отказа
-│   │   ├── _failure-mode-template.md
-│   │   ├── CS.FM.001-overestimation-21d-pr.md
-│   │   └── CS.FM.002-ignoring-replacement-constraints.md
-│   ├── 06-sota/
+│   │   ├── CS.WP.001-metabolic-status-assessment-report.md
+│   │   ├── CS.WP.002-productivity-performance-report.md
+│   │   └── README.md
+│   ├── 05-failure-modes/
+│   │   ├── CS.FM.002-late-hypocalcemia-detection.md
+│   │   └── _failure-mode-template.md
+│   ├── 06-sota/                   ← State of the Art
+│   │   ├── economics/
+│   │   ├── feeding/
+│   │   ├── health/
+│   │   ├── management/
 │   │   ├── reproduction/
-│   │   │   ├── CS.SOTA.001-lauber-2025...
-│   │   │   ├── ...
-│   │   │   └── CS.SOTA.012-chebel-ribeiro-2016...
-│   │   └── feeding/
-│   │       └── CS.SOTA.010-XX-nasem...
+│   │   ├── ARCHGATE-ASSESSMENT.md
+│   │   └── CS.ANALYSIS.*          ← Временно; требует переноса
 │   └── 07-map/
-│       └── CS.MAP.001-sota-index.md
+│       ├── CS.MAP.001-sota-index.md
+│       ├── CS.MAP.002-archgate-assessment.md
+│       └── CS.MAP.002-sota-v1.1-index.md
 └── process/
     ├── ingestion/
     └── working/
@@ -114,39 +131,57 @@ PACK-cattle-science/
 
 ### Сущности (Entities)
 
-| ID | Название | Описание |
-|----|----------|----------|
-| CS.ENTITY.001 | 21-day pregnancy rate | Ключевой показатель репродуктивной эффективности |
+Формальных файлов `CS.ENTITY.*`: **214** (+1 шаблон). Полный инвентарь см. в `pack/cattle-science/02-domain-entities/00-entities-inventory.md`.
+
+| Уровень | Области | Количество | Примеры |
+|---------|---------|------------|---------|
+| P0 | feeding, health, management, reproduction | 58 | CS.ENTITY.001 21-day pregnancy rate, CS.ENTITY.002 Subclinical ketosis, CS.ENTITY.004 Rumen |
+| P1 | economics, feeding, genetics, health, reproduction | 128 | CS.ENTITY.111 Herd turnover rate, CS.ENTITY.143 Genetic selection, CS.ENTITY.053 Machine learning |
+| P2 | feeding, health | 28 | CS.ENTITY.151 Ceramides, CS.ENTITY.152 Mitochondria, CS.ENTITY.187 Metabolome |
 
 ### Методы (Methods)
 
 | ID | Название | Описание | Статус |
 |----|----------|----------|--------|
-| CS.METHOD.003 | Reproductive economics | Экономическая оценка репродуктивных программ | Active |
-| CS.METHOD.004 | Cow value assessment | Оценка ценности коровы (RPO) | Active |
-| CS.METHOD.005 | Transition health monitoring | Оценка уровня кальция и профилактика гипокальцемии в переходный период | Active |
+| CS.METHOD.001 | Ketosis diagnosis & treatment | Протокол раннего выявления и лечения кетоза | Active |
+| CS.METHOD.002 | Hypocalcemia diagnosis & treatment | Протокол диагностики и лечения гипокальцемии | Active |
+| CS.METHOD.005 | Calcium monitoring & hypocalcemia prevention | Мониторинг кальция и профилактика гипокальцемии в переходный период | Active |
+| CS.METHOD.006 | Farm-visit feeding assessment | Оценка кормления при выезде на ферму | Active |
+
+> **Примечание:** `CS.METHOD.003` и `CS.METHOD.004` объявлены в roadmap, но файлов пока нет.
 
 ### Рабочие продукты (Work Products)
 
-| ID | Название | Описание |
-|----|----------|----------|
-| CS.WP.003 | Reproduction economic report | Отчёт об экономической оценке |
-| CS.WP.004 | Cow value report | Отчёт об оценке ценности коровы |
-| CS.WP.005 | Program comparison | Сравнение репродуктивных программ |
+| ID | Название | Описание | Статус |
+|----|----------|----------|--------|
+| CS.WP.001 | Metabolic status assessment report | Отчёт об оценке метаболического статуса стада | Active |
+| CS.WP.002 | Productivity & performance report | Отчёт о продуктивности | Active |
+
+> **Примечание:** `CS.WP.001` и `CS.WP.002` требуют добавления YAML frontmatter.
 
 ### Режимы отказа (Failure Modes)
 
-| ID | Название | Описание |
-|----|----------|----------|
-| CS.FM.001 | Overestimation of 21-d PR | Завышение 21-дневного индекса стельности |
-| CS.FM.002 | Ignoring replacement constraints | Игнорирование ограничений замены |
+| ID | Название | Описание | Статус |
+|----|----------|----------|--------|
+| CS.FM.002 | Late hypocalcemia detection | Позднее выявление гипокальцемии | Active |
+
+> **Примечание:** `CS.FM.002` требует добавления YAML frontmatter. `CS.FM.001` объявлен в roadmap, но файла пока нет.
 
 ### SoTA (State of the Art)
 
-| Диапазон | Тема | Количество |
-|----------|------|------------|
-| CS.SOTA.001-099 | Reproduction | 12 |
-| CS.SOTA.010-019 | Feeding (NASEM) | 17 |
+Формальных файлов `CS.SOTA.*`: **330**.
+
+| Область | Количество | Примечание |
+|---------|------------|------------|
+| feeding | 185 | Включая NASEM-материалы и практические статьи |
+| health | 86 | Метаболические заболевания, иммунитет, переходный период |
+| reproduction | 31 | Репродуктивные программы, фертильность, менеджмент |
+| management | 16 | Алгоритмы оценки и управленческие практики |
+| economics | 9 | Экономика замены, репродуктивных программ, эффективности |
+| nutrition | 1 | Пересекающаяся область |
+| — | 2 | Требует классификации area |
+
+> **Технический долг SoTA:** 4 дубли ID, 9 посторонних файлов в `06-sota/` (анализы, обзоры, hidden-файлы).
 
 ---
 
@@ -156,11 +191,11 @@ PACK-cattle-science/
 
 | Префикс | Значение | Пример |
 |---------|----------|--------|
-| CS. | Cattle-Science (домен) | CS.METHOD.003 |
+| CS. | Cattle-Science (домен) | CS.METHOD.001 |
 | CS.ENTITY. | Сущности | CS.ENTITY.001 |
-| CS.METHOD. | Методы | CS.METHOD.003 |
-| CS.WP. | Work Products | CS.WP.003 |
-| CS.FM. | Failure Modes | CS.FM.001 |
+| CS.METHOD. | Методы | CS.METHOD.001 |
+| CS.WP. | Work Products | CS.WP.001 |
+| CS.FM. | Failure Modes | CS.FM.002 |
 | CS.SOTA. | State of the Art | CS.SOTA.001 |
 | CS.MAP. | Карты/индексы | CS.MAP.001 |
 | CS.ROLES. | Роли | CS.ROLES.001 |
@@ -242,25 +277,27 @@ PACK-cattle-science/
 
 ## Метрики Pack'а
 
-### Текущее состояние (2026-03-12)
+### Текущее состояние (2026-06-27)
 
 | Метрика | Значение | Цель |
 |---------|----------|------|
-| SoTA документов | 29 | 100+ |
-| Методов (Active) | 3 | 20+ |
-| Work Products | 3 | 10+ |
-| Failure Modes | 2 | 10+ |
-| Сущностей | 1 | 10+ |
+| SoTA документов | 330 | 500+ |
+| Сущностей | 214 | 300+ |
+| Методов (Active) | 4 | 20+ |
+| Work Products | 2 | 10+ |
+| Failure Modes | 1 | 10+ |
+| Карт/индексов | 2 | 5+ |
 | Полнота по SPF | 85% | 100% |
 
 ### Качество
 
 | Метрика | Статус |
 |---------|--------|
-| Структура соответствует SPF | ✅ 85% |
-| Все ID уникальны | ✅ |
-| Все ссылки валидны | ✅ |
+| Структура соответствует SPF | 🟡 85% — появились подпапки P0/P1/P2, требуется обновление lint |
+| Все ID уникальны | ❌ 4 дубля среди SoTA, 1 дубль CS.MAP.002 |
+| Все ссылки валидны | ❌ CS.METHOD.001 ссылается на CS.WP.003 и CS.FM.001, которых нет |
 | Нет дидактики в Pack | ✅ |
+| Frontmatter у всех CS.*.md | ❌ Отсутствует у CS.WP.001, CS.WP.002, CS.FM.002 |
 
 ---
 
@@ -268,21 +305,26 @@ PACK-cattle-science/
 
 ### Phase 1: Foundation (Q1 2026) ✅ Выполнено
 - [x] Структура Pack'а
-- [x] Базовые методы (3)
-- [x] Базовые WP (3)
-- [x] SoTA коллекция (29)
-- [x] Failure modes (2)
+- [x] Базовые методы (4)
+- [x] Базовые WP (2)
+- [x] SoTA коллекция (330)
+- [x] Сущности (214)
+- [x] Failure modes (1)
 
-### Phase 2: Completeness (Q2 2026) 🔄 В процессе
-- [ ] Методы кормления (CS.METHOD.001-002)
-- [ ] Методы репродукции (CS.METHOD.006-010)
-- [ ] Дополнительные сущности
-- [ ] Полный набор failure modes
+### Phase 2: Completeness (Q2–Q3 2026) 🔄 В процессе
+- [ ] Исправить ID-дубли (CS.SOTA.026, 107, 108, 333; CS.MAP.002)
+- [ ] Добавить frontmatter в CS.WP.001, CS.WP.002, CS.FM.002
+- [ ] Создать недостающие методы (CS.METHOD.003–004, 007–010)
+- [ ] Создать недостающие WP (CS.WP.003–005)
+- [ ] Создать недостающие FM (CS.FM.001)
+- [ ] Перенести анализы и обзоры из `06-sota/` в `process/working/` или `docs/audit/`
+- [ ] Дополнить сущности до 250+ и зафиксировать P0/P1/P2 в `01C-ontology.md`
 
-### Phase 3: Depth (Q3-Q4 2026) ⏳ Запланировано
+### Phase 3: Depth (Q4 2026) ⏳ Запланировано
 - [ ] Глубокая проработка всех категорий
 - [ ] Интеграция с другими Pack'ами
 - [ ] Валидация практикой
+- [ ] Автоматический lint ontology drift перед коммитом
 
 ---
 
@@ -322,6 +364,6 @@ PACK-cattle-science/
 ---
 
 *Создано: 2026-03-12*  
-*Версия: 1.0*  
+*Версия: 1.1*  
 *Статус: Активное развитие*  
 *Соответствие SPF: 85%*
