@@ -1,170 +1,225 @@
 ---
 type: fpf-study
 pattern: F.9
-title: "Bridges: как переносить знания из одного мира в другой, не разрушая их"
+title: "Bridges & Congruence Levels: переноси смыслы между контекстами, не смешивая их"
 domain: cattle-science
-difficulty: medium
-reading_time: 15 min
-created: 2026-05-26
+difficulty: intermediate
+reading_time: 20 min
+created: 2026-06-27
+fpf_context: ["F.9", "F.9.1", "A.1.1", "A.6.9", "A.6.3.CSC", "B.3", "F.7", "F.17", "E.10"]
 ---
 
-# F.9 — Alignment & Bridge across Contexts
+# F.9 — Bridges & Congruence Levels: переноси смыслы между контекстами, не смешивая их
+
+> **Цель capture:** объяснить, как в FPF переносят термины и утверждения из одного контекста в другой так, чтобы сохранить локальный смысл и явно записать, что при этом теряется.
+
+---
 
 ## 1. Зачем это читать
 
-Если вы когда-нибудь говорили *«в NASEM-2021 написано то же самое»* — вы построили мост. Но спросите себя: **какой именно мост?** Полностью эквивалентный? Частично перекрывающийся? Названный одинаково, но означающий другое?
+В животноводстве одно и то же слово часто означает разное в разных источниках: «требование к Mg» в NASEM-2021, у Weiss и на ферме — это разные сущности. Если молча считать их одинаковыми, рацион получится неверным, а решение — ненадёжным. F.9 учит строить между такими смыслами явные мосты: с видом связи, направлением, уровнем конгруэнтности и записями о потерях.
 
-В мире науки о кормлении это случается постоянно:
-- NASEM-2021 говорит «требование» в массе элементов, а европейские системы — в %
-- «DCAD» у Weiss (механизм, pH) и «DCAD» у формулировщика (практическая цель, mEq/kg) — разные вещи
-- Исследование в Новой Зеландии (pasture, high K) и исследование в США (TMR, controlled) — одинаковые термины, разные контексты
+> **FPF-тезис:** *«Мосты нужны не для того, чтобы доказать, что всё одинаково. Мосты нужны для того, чтобы явно записать, что теряется при переходе.»*
 
-F.9 говорит: *«Мосты нужны не для того, чтобы доказать, что всё одинаково. Мосты нужны для того, чтобы явно записать, что теряется при переходе»*.
+**Фермерский пример:**
+
+> В вебинаре Weiss сказано: «Mg 0,4–0,45 % DM в рационе pre-fresh». В NASEM-2021: «Mg requirement = 0,16 % DM». Один и тот же элемент, но разные контексты: Weiss даёт практическую рекомендацию для высоко-K рационов с учётом антагонизма, NASEM — базовое требование для средней дойной коровы. Без моста цифры выглядят противоречиво.
 
 ---
 
 ## 2. История одной ошибки
 
-Представьте зоотехника, который читает:
+Ферма внедряла протокол профилактики гипокальциемии. Зоотехник увидел две цифры:
 
-- **SoTA 1 (Weiss, webinar):** «Mg 0.4–0.45% pre-fresh для снижения гипокальциемии»
-- **SoTA 2 (NASEM-2021):** «Mg requirement = 0.16% от сухого вещества»
+- SoTA 1 (Weiss): Mg 0,4 % DM pre-fresh.
+- SoTA 2 (NASEM-2021): Mg 0,16 % DM.
 
-Зоотехник думает: «Weiss говорит 0.4%, NASEM говорит 0.16%. Кто-то неправ».
+Он решил, что одна из них ошибочна, и выбрал 0,16 %, потому что «NASEM новее». В итоге коровы на высоко-K рационе получили недостаточно Mg, и случаи гипокальциемии участились.
 
-Но это **не противоречие**. Это **разные контексты**:
-- Weiss: практическая рекомендация для **pre-fresh коров** на **high-K рационах** с учётом антагонизма K
-- NASEM: **базовое требование** для **средней дойной коровы** без учёта антагонистов
-
-Проблема не в цифрах. Проблема в **отсутствии моста** между двумя контекстами. Если бы был explicit Bridge:
-
-> «Weiss 0.4% pre-fresh → NASEM 0.16% base: **Broader-than** (Weiss включает safety margin + K antagonism). CL = Medium. Loss: K context, stage specificity, source variability.»
-
-— зоотехник понял бы: 0.4% не заменяет 0.16%, а **дополняет** её для конкретных условий.
-
-F.9 предотвращает «string-equals fallacy»: одинаковое написание ≠ одинаковое значение.
+Проблема была не в цифрах, а в отсутствии моста. Если бы был explicit Bridge Card, было бы видно: Weiss 0,4 % — более широкое (broader) понятие, которое включает safety margin и K-антагонизм; NASEM 0,16 % — базовое (narrower) требование. Переход Weiss → NASEM безопасен в части базового требования; обратный — требует проверки контекста.
 
 ---
 
-## 3. Bridge — полное описание
+## 3. Alignment and Bridge across Contexts — полное описание
 
-Bridge — это **явно объявленный перевод** между двумя локальными смыслами (SenseCells) из разных контекстов.
+### 3.1 Определение
 
-Каждый Bridge **обязан** содержать:
-1. **Два SenseCell'а:** что связываем (с контекстами)
-2. **Bridge kind:** какая связь (эквивалентность, перекрытие, включение, объяснение)
-3. **Direction:** симметрично или однонаправленно
-4. **CL (Congruence Level):** насколько смысл переносится без потерь
-5. **Loss Notes:** что именно теряется при переходе
+**Bridge (F.9)** — это явно объявленная связь между двумя локальными смыслами (`SenseCells`) из разных `U.BoundedContext`. Bridge фиксирует вид связи, направление, уровень конгруэнтности (`CL`), потери и допустимое использование при переходе из одного контекста в другой.
 
-### 3.1 Виды Bridges
+### 3.2 Почему это важно
 
-**Substitution Bridges** (сохраняют senseFamily — можно подставлять):
+Без Bridge одинаковые или похожие термины начинают работать как скрытая онтология: люди подменяют написание смыслом, переносят выводы туда, где они не применимы, и смешивают проектирование с исполнением. F.9 делает каждый переход проверяемым и ограничивает его допустимое использование.
 
-| Вид | Что означает | Пример |
-|---|---|---|
-| **Equivalence** | Почти тождество | NASEM-2021 Mg req ↔ NRC-2001 Mg req (CL=High, minor editorial differences) |
-| **Narrower-than / Broader-than** | Одно включает другое | «Weiss pre-fresh Mg» ⊃ «NASEM base Mg» — Weiss broader |
-| **Partial-overlap** | Пересечение, но ни одно не включает другое | «DCAD у Weiss» ∩ «DCAD у формулировщика» — overlap, но не identity |
-| **Disjoint** | Явное различие | «Мг требование в %» vs «Мг требование в массе» — disjoint until explicit conversion |
+### 3.3 Bridge Card — обязательные поля
 
-**Interpretation Bridges** (cross-senseFamily — только объяснение, не подстановка):
+**Определение.** `BridgeCard` — это компактная запись о мосте, который публикуется, когда cross-context use становится live. Обязательные поля: `CellA`, `CellB`, `senseFamilyA`, `senseFamilyB`, `BridgeKind`, `Direction`, `CL`, `LossNotes`, `CounterExampleOrInvariantEvidence`, `AdmittedUse`, `NonAdmittedUse`, `DirectGoverningPatternIfNotF9`, `RevisionTrigger`.
 
-| Вид | Что означает | Пример |
-|---|---|---|
-| **Design-spec → Run-trace** | Концепция ↔ её run-time проявление | «NASEM model» → «фактический рацион на ферме А» |
-| **Measure-of / Evidence-for** | Измерение ↔ то, что оно измеряет | «BHB в крови» → «кетозный статус» |
-| **Policy-implies** | Правило ↔ поведение, которое оно ограничивает | «Se limit 0.3 ppm» → «максимальная доза premix» |
+**Пояснение.** Каждый Bridge относится к паре локальных смыслов, а не к целым контекстам и не к строкам. `AdmittedUse` ограничивает сильнейшее использование, которое мост разрешает; `NonAdmittedUse` перечисляет соблазнительные overclaim'ы, которые требуют открытия прямого паттерна.
 
-### 3.2 CL — Congruence Level
+**Пример из животноводства.**
 
-CL = насколько безопасно переносить смысл.
+```text
+BridgeCard:
+  CellA: Weiss_2024 #MgPreFresh (high-K practical recommendation)
+  CellB: NASEM_2021 #MgRequirement (base requirement)
+  senseFamilyA: MethodRecommendation
+  senseFamilyB: NutrientRequirement
+  BridgeKind: Broader-than (Weiss ⊃ NASEM)
+  Direction: NASEM → Weiss safe; Weiss → NASEM unsafe without K-context check
+  CL: 2 (translatable with stated losses)
+  LossNotes: Weiss includes safety margin and K-antagonism; NASEM omits them.
+  CounterExampleOrInvariantEvidence: high-K diet without extra Mg shows hypocalcemia risk
+  AdmittedUse: naming-only row and role-description naming; no direct substitution into ration
+  NonAdmittedUse: do not replace NASEM base with Weiss value without checking K context
+  DirectGoverningPatternIfNotF9: C.16 / A.19.CHR for ration calculation; C.26 for cross-context transport
+  RevisionTrigger: K level in diet, source edition, or new counter-example
+```
 
-| CL | Название | Что позволено | Пример |
+**Ключевой признак.** Любой cross-context use сопровождается опубликованным Bridge Card с явным `CL` и Loss Notes.
+
+### 3.4 Виды мостов
+
+**Определение.** F.9 различает **substitution bridges** (в одном `senseFamily`, допускают ограниченную подстановку смысла) и **interpretation bridges** (между разными `senseFamily`, только объяснение).
+
+**Пояснение.** Substitution bridges: `Equivalence` (почти тождество, симметрично, редкость), `Narrower-than` / `Broader-than` (один смысл включает другой, направлено), `Partial-overlap` (пересечение без включения), `Disjoint` (явное различие). Interpretation bridges: `Design-spec-to-run-occurrence`, `Measurement-evidence-for`, `Policy-constraint-on`, `Viewpoint-correspondence`.
+
+**Пример из животноводства.**
+
+| Вид | Пример |
+|---|---|
+| Equivalence | `NASEM-2021 Mg req ↔ NRC-2001 Mg req` при CL=3 с незначительными редакционными различиями |
+| Broader-than | `Weiss pre-fresh Mg` ⊃ `NASEM base Mg` — Weiss шире |
+| Partial-overlap | `DCAD у Weiss (pH мочи)` ⋂ `DCAD у формулировщика (mEq/kg)` — пересечение, но не тождество |
+| Disjoint | «Mg в % DM» vs «Mg в массе элемента» — разные шкалы до явного преобразования |
+| Interpretation | `BHB в крови` → `кетозный статус` — измерение объясняет состояние, но не заменяет его |
+
+**Ключевой признак.** Substitution bridge сохраняет `senseFamily`; interpretation bridge пересекает семейства, но не допускает подстановки.
+
+### 3.5 CL scale и допустимое использование
+
+**Определение.** `Congruence Level (CL)` — ординальная шкала от 0 до 3, которая показывает, насколько безопасно переносить смысл через мост. CL определяет admitted use: Naming-only, Role-description naming, Type-structure row или Explanation-only.
+
+**Пояснение.** CL3 требует инвариантного доказательства и допускает Type-structure row. CL2 требует контр-примера и ограниченных потерь. CL1 — только Naming-only. CL0 — contrastive explanation. Низкий CL штрафует `R` в B.3, но не оправдывает подстановки.
+
+**Пример из животноводства.**
+
+| CL | Название | Что допускается | Пример |
 |---|---|---|---|
-| **CL3** | Verified equivalence | Полная подстановка | «NASEM-2021 Mg req = NRC-2001 Mg req» (verified by committee) |
-| **CL2** | Validated mapping | Подстановка с оговорками | «Weiss pre-fresh Mg ⊃ NASEM base Mg» (validated by mechanism) |
-| **CL1** | Plausible mapping | Только именование, не подстановка | «DCAD у Weiss ≈ DCAD у формулировщика» ( plausible, но разные «языки») |
-| **CL0** | Tentative guess | Только ориентация, никакой подстановки | «Возможно, NZ pasture data применимо к US TMR» (guess) |
+| 3 | Near-identity | Type-structure row, инвариантная подстановка | `NASEM-2021 Mg req = NRC-2001 Mg req` |
+| 2 | Translatable | Naming-only; role-description naming при том же senseFamily | `Weiss pre-fresh Mg ⊃ NASEM base Mg` |
+| 1 | Comparable | Только Naming-only | `DCAD` как метка без подстановки pH ↔ mEq/kg |
+| 0 | Opposed | Только контрастивное объяснение | «Mg требование в % DM» vs «в массе» до преобразования |
 
-**Ключевое правило:** Низкий CL **штрафует** aggregate trust (R_eff), но **не оправдывает** подстановки.
+**Ключевой признак.** Каждый Bridge публикует `CL` и Loss Notes; row не сильнее слабейшего Bridge.
+
+### 3.6 Weakest-link, direction guard и loss accumulation
+
+**Определение.** Row, использующий несколько Bridges, ограничен слабейшим из них: `admittedUse(row) ≤ min_i admittedUse(Bridge_i)` и `CL(row) ≤ min_i CL(Bridge_i)`. Направленные Bridge'и не инвертируются. Цепочки Bridge'ей накапливают потери и понижают CL.
+
+**Пояснение.** Это защита от scope creep: нельзя усилить утверждение за счёт комбинации мостов. Direction guard говорит, что `Narrower-than A → B` не даёт права заменять B на A. Loss accumulation говорит, что A → B с потерями L1 и B → C с потерями L2 даёт A → C с потерями L1+L2.
+
+**Пример из животноводства.**
+
+> Мост 1: `NASEM Mg req → Weiss pre-fresh Mg` (Broader-than, CL2, loss: K context).
+> Мост 2: `Weiss pre-fresh Mg → FarmA actual ration Mg` (Interpretation, CL2, loss: source variability, farm conditions).
+> Цепочка: `NASEM → FarmA` сохраняет senseFamily только при CL = min(2,2)=2, но loss notes накапливают оба набора потерь. Нельзя сказать: «поскольку NASEM рекомендует 0,16 %, ферма должна дать 0,4 %».
+
+**Ключевой признак.** Row, Bridge и цепочка Bridge'ей всегда проверяются по weakest-link и direction.
 
 ---
 
 ## 4. Почему смешивать / игнорировать — значит рисковать
 
-| Ошибка | Симптом | Пример |
+Рассмотрим типичное смешанное утверждение:
+
+> *«В NASEM-2021 и у Weiss сказано одно и то же про Mg, значит, можно взять любую цифру.»*
+
+**Разложение по F.9:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
 |---|---|---|
-| **String-equals fallacy** | Одинаковое написание = одинаковое значение | «DCAD» у Weiss и у формулировщика |
-| **Scope creep** | Naming convenience растянута до assignment | «У них работает MgCl₂, значит, и у нас будет» (NZ pasture ≠ US TMR) |
-| **Direction amnesia** | Асимметричное отношение treated as symmetric | «Weiss ⊃ NASEM» → «заменяем NASEM на Weiss» (unsafe!) |
-| **Loss blindness** | Различия не записаны | «Просто пересчитай % в массу» — без записи о потере precision |
-| **DesignRunTag jumping** | Design artifact substituted for run-time | «NASEM говорит 0.16%» → «наша корова получает 0.16%» (model ≠ reality) |
+| «одно и то же про Mg» | смешение `SenseCells` | Разные контексты, разные senseFamily |
+| «можно взять любую цифру» | несанкционированная подстановка | Нет Bridge Card с CL и Loss |
+| (скрытое) «NASEM новее» | аргумент об источнике, не о смысле | Authority bias, вместо bridge reasoning |
+
+**Основные риски смешивания:**
+
+1. **String-equals fallacy.** Одинаковое написание принимается за одинаковое значение.
+2. **Scope creep.** Naming convenience растягивается до замены рациона или назначения роли.
+3. **Direction amnesia.** Асимметричный мост используют в обе стороны.
+4. **Loss blindness.** Единицы, масштаб, методология и контекст остаются незамеченными.
+5. **DesignRunTag jumping.** Модель (NASEM) подменяет реальность (фактический рацион).
 
 ---
 
-## 5. Как это выглядит на ферме: Bridge cards
+## 5. Как это выглядит на ферме: правильное применение
 
-**Bridge Card 1: Mg requirements**
+**Ситуация:** сопоставить рекомендации по Mg и DCAD из разных источников.
 
+**Было (смешанное / нечёткое):**
+
+> «Weiss говорит 0,4 %, NASEM — 0,16 %. Возьмём среднее.»
+
+**Стало (разложенное / ясное):**
+
+**Bridge Card 1 — Mg requirements:**
+
+```text
+Bridge ID: BRIDGE-F9-001
+From: CS.SOTA.332 (Weiss) — Mg pre-fresh 0.4–0.45% DM
+To: CS.SOTA.301 (NASEM-2021) — Mg requirement 0.16% DM
+Kind: Broader-than (Weiss ⊃ NASEM)
+Direction: NASEM → Weiss safe; Weiss → NASEM unsafe without K check
+CL: 2
+Loss Notes: Weiss adds safety margin + K antagonism; NASEM is base for average cow.
+Admitted use: naming row, role-description naming, explanation.
+Non-admitted use: direct substitution into ration without K-context check.
 ```
-Bridge ID: BRIDGE.001
-From: CS.SOTA.332 #4 (Weiss) — «Mg basal 30%, MgO ~40%, MgSO4 ~50%»
-To: CS.SOTA.301 (NASEM-2021) — «Mg AC: basal 30%, oxide 40%, sulfate 50%»
-Kind: Equivalence
-Direction: Symmetric
-CL: High (CL3)
-Loss Notes: «Weiss — verbal description, NASEM — formal specification. Values match, provenance differs.»
-```
 
-**Bridge Card 2: DCAD — pH vs mEq/kg**
+**Bridge Card 2 — DCAD pH vs mEq/kg:**
 
-```
-Bridge ID: BRIDGE.002
-From: CS.SOTA.331 #5 (Weiss) — «DCAD effective if urinary pH < 7»
-To: CS.SOTA.332 #8 (Weiss) — «DCAD optimal 200–300 mEq/kg»
+```text
+Bridge ID: BRIDGE-F9-002
+From: Weiss — «DCAD effective if urinary pH < 7»
+To: Weiss — «DCAD optimal -100 to -200 mEq/kg»
 Kind: Partial-overlap
-Direction: Symmetric (but disconnected languages)
-CL: Medium (CL1)
-Loss Notes: «331 — mechanism language (pH). 332 — practical target (mEq/kg). No explicit conversion formula published. pH 6.5–6.7 ≈ mEq/kg -100 to -200? Unverified.»
+Direction: symmetric but disconnected languages
+CL: 1
+Loss Notes: pH is mechanism language; mEq/kg is practical target. No explicit conversion verified.
+Admitted use: naming-only orientation.
+Non-admitted use: automatic pH → mEq/kg substitution.
 ```
 
-**Bridge Card 3: Se yeast — transition vs dry cows**
+**Результат:**
 
-```
-Bridge ID: BRIDGE.003
-From: CS.SOTA.331 #2 — «2/3 yeast for transition»
-To: CS.SOTA.332 #14 — «≥50% yeast for dry cows»
-Kind: Narrower-than (331 ⊂ 332)
-Direction: 331 → 332 (safe), 332 → 331 (unsafe without check)
-CL: High (CL2)
-Loss Notes: «Transition cows ⊂ dry cows. 331 narrower scope. Safe to apply 332 to transition if 50% ≥ 2/3.»
-```
+- Каждый источник сохраняет свой локальный смысл.
+- Переходы документированы и ограничены.
+- Рацион рассчитывается с учётом явных потерь, а не похожих цифр.
 
 ---
 
 ## 6. Практическое применение: с чего начать
 
-**Шаг 1.** Найдите два источника в вашем PACK с «похожими» claim'ами.
+**Шаг 1.** Найдите в своём PACK два источника с «похожими» claim'ами.
 
 **Шаг 2.** Задайте вопросы:
-- Это действительно одно и то же? (Equivalence — редкость)
-- Одно включает другое? (Narrower/Broader)
-- Есть пересечение, но не тождество? (Partial-overlap)
-- Это вообще разные вещи? (Disjoint)
+- Это тождество? → `Equivalence` (редко).
+- Одно включает другое? → `Narrower-than` / `Broader-than`.
+- Есть пересечение? → `Partial-overlap`.
+- Это разные вещи? → `Disjoint`.
+- Это измерение и то, что оно объясняет? → `Interpretation` bridge.
 
-**Шаг 3.** Определите CL:
-- CL3: проверено комитетом или формальным доказательством
-- CL2: механизм объясняет связь
-- CL1: похоже, но не проверено
-- CL0: догадка
+**Шаг 3.** Определите `CL`:
+- CL3 — инварианты совпадают, нет материальных контр-примеров.
+- CL2 — механизм объясняет связь, есть контр-примеры.
+- CL1 — похоже, но не проверено.
+- CL0 — догадка или контраст.
 
-**Шаг 4.** Запишите Loss Notes. Что теряется при переходе?
-- Единицы измерения?
-- Контекст (страна, сезон, порода)?
-- Методология (observational vs RCT)?
+**Шаг 4.** Запишите `Loss Notes`: единицы, шкала, контекст, методология, порода, сезон, источник.
 
-**Шаг 5.** Создайте Bridge card. Не полагайтесь на память.
+**Шаг 5.** Создайте Bridge Card. Не полагайтесь на память или на «понятно и так».
+
+**Шаг 6.** Проверьте weakest-link: row не сильнее слабейшего Bridge.
 
 ---
 
@@ -172,25 +227,40 @@ Loss Notes: «Transition cows ⊂ dry cows. 331 narrower scope. Safe to apply 33
 
 | Вопрос | Если ответ «да» — проблема |
 |---|---|
-| Используете ли вы термины из разных источников как взаимозаменяемые? | String-equals fallacy |
-| Переносите ли результаты с NZ pasture на US TMR без оговорок? | Scope creep |
-| Считаете ли вы отношение «Weiss ⊃ NASEM» симметричным? | Direction amnesia |
-| Записываете ли вы, что теряется при переходе между источниками? | Loss blindness |
-| Подменяете ли вы модель (NASEM) реальностью (фактический рацион)? | DesignRunTag jumping |
+| Используете термины из разных источников как взаимозаменяемые? | String-equals fallacy |
+| Переносите результаты с одной фермы/региона на другую без оговорок? | Scope creep |
+| Считаете отношение «Weiss ⊃ NASEM» симметричным? | Direction amnesia |
+| Забываете записать, что теряется при переходе? | Loss blindness |
+| Подменяете модель (NASEM) фактическим рационом? | DesignRunTag jumping |
+| Row требует большего, чем разрешает weakest Bridge? | Row outruns Bridge |
 
 ---
 
 ## 8. Связь с другими паттернами
 
 | Паттерн | Связь |
-|---------|-------|
-| A.1.1 BoundedContext | Bridge связывает два BoundedContext'а |
+|---|---|
+| A.1.1 BoundedContext | Bridge связывает SenseCells из разных контекстов |
+| A.6.9 RPR-XCTX | ремонт cross-context «same/equivalent/align» |
+| A.6.3.CSC | Controlled Semantic Coarsening — граница Bridge и coarsened note |
 | B.3 F-G-R | CL штрафует R при агрегации |
-| A.6.9 RPR-XCTX | Repairing cross-context «same/equivalent/align» |
-| C.26 Cross-Context Transport | Bridges — семантическая основа для transport |
-| E.17 MVPK | Bridge card — один из видов MVPK publication |
+| F.7 Concept-Set rows | строки таблицы понятий зависят от Bridge |
+| F.9.1 Bridge Stance Overlay | stance-аннотации поверх Bridge Card |
+| F.17 UTS | публикация cross-context терминов |
+| E.10 LEX-BUNDLE | лексический триггер-скан перед Bridge |
+| C.26 Cross-Context Transport | Bridge — семантическая основа transport |
 
 ---
 
-*Capture создан в рамках WP-1 (Саморазвитие — изучение FPF).*
+## 9. Что запомнить
+
+1. Bridge — это declared correspondence между двумя локальными смыслами, не синоним и не онтология.
+2. Всегда указывайте kind, direction, CL и Loss Notes.
+3. Substitution bridges сохраняют senseFamily; interpretation bridges — только объясняют.
+4. Row не может быть сильнее слабейшего Bridge (weakest-link).
+5. Одинаковое написание не доказывает одинаковое значение.
+
+---
+
+*Capture создан в рамках изучения FPF.*
 *FPF Source: FPF/FPF-Spec.md §F.9*

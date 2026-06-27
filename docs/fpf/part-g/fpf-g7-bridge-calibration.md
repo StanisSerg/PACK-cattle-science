@@ -1,222 +1,255 @@
 ---
 type: fpf-study
 pattern: G.7
-title: "Калибровочный набор междутрадиционных мостов: когда одно и то же — не одно и то же"
+title: "Bridge Calibration: калибровка мостов между традициями в скотоводстве"
 domain: cattle-science
 difficulty: advanced
-reading_time: 22 min
-created: 2026-05-26
+reading_time: 30 min
+created: 2026-06-27
+fpf_context: ["G.7", "G.2", "G.Core", "F.9", "G.9", "G.11"]
 ---
 
-# G.7 — Калибровочный набор междутрадиционных мостов: когда одно и то же — не одно и то же
+# G.7 — Bridge Calibration: калибровка мостов между традициями в скотоводстве
+
+> **Цель capture:** объяснить, как паттерн G.7 превращает предварительные строки BridgeMatrix в калиброванные BridgeCards, BridgeCalibrationTable, RegressionSet и SentinelSet, пригодные для безопасного повторного использования между традициями.
+
+---
 
 ## 1. Зачем это читать
-Если вы когда-нибудь сравнивали «уровень мастита на своей ферме» с «уровнем мастита в Нидерландах» и думали, что говорите об одном и том же — вы, скорее всего, ошибались.
 
-В США «мастит» может учитываться по клиническим случаям, записанным дояркой. В Новой Зеландии — по соматическим клеткам в баклаборатории. В России — по визуальной оценке ветеринара. Это **три разных конструкта**, замаскированных под одно слово.
+В скотоводстве одно и то же понятие часто встречается в разных традициях: «субклинический кетоз» у ветеринара означает BHB в крови, у нутрициолога — энергетический дефицит в рационе, у генетика — полигенный риск. SoTA Harvester (G.2) фиксирует эти сходства в BridgeMatrix, но для безопасного использования их нужно откалибровать: явно задать scope, уровень доверия, потери и политики штрафов. G.7 выполняет эту калибровку.
 
-G.7 учит, как **материализовать** сравнение между контекстами в проверяемые артефакты: `BridgeCard`, `BridgeCalibrationTable (BCT)`, `CalibrationLedger`, `RegressionSet`, `SentinelSet` — вместо того чтобы полагаться на «ну, это же очевидно».
+> **FPF-тезис:** *«Сравнимость между традициями — не синонимия, а откалиброванный мост с явными потерями и политиками.»*
 
-## 2. История одной ошибки
-Консалтинговая компания «AgriGlobal» разработала для фермы «Молочная река» норматив по маститу: *«Держите уровень ниже 20%»*. Норматив был позаимствован из новозеландского отчёта, где 20% считалось по SCC > 200 000, с лабораторным контролем каждую неделю.
+**Фермерский пример:**
 
-На «Молочной реке»:
-- Учёт вёлся по клиническим случаям (не SCC).
-- Лаборатория работала раз в месяц.
-- Доярки не записывали лёгкие случаи.
+> Фермер хочет использовать молочный тест на кетоновые тела вместо лабораторного BHB для скрининга. Поставщик говорит, что «это практически одно и то же». G.7 требует создать BridgeCard, в котором указано: row scope = «бинарная классификация риска кетоза», RowCL_min = 2 ( guarded reuse ), LossNote = «теряется количественное значение BHB», RegressionSet = «проверка чувствительности при смене порога».
 
-Результат: ферма «держала 15%» и считала себя в безопасности. На самом деле, если бы пересчитать по SCC с еженедельным контролем, показатель был бы 35%+. Ферма пропустила вспышку субклинического мастита, потому что **мост между NZ-контекстом и своим фермерским контекстом был не откалиброван**.
-
-Если бы G.7 был применён, `BridgeCard` для «мастита» содержал бы:
-- `ReferencePlane(src)` = NZ_dairy_SCC_weekly
-- `ReferencePlane(tgt)` = RU_farm_clinical_monthly
-- `RowCL_min = 1` (NOT admissible без явного `Waiver`)
-- `LossNote`: «разные определения случая, разная частота контроля, разная чувствительность"
-
-Компания бы увидела: переход запрещён или только guarded. Вместо этого она увидела «20%» и успокоилась.
-
-## 3. Калибровочный набор междутрадиционных мостов: когда одно и то же — не одно и то же — полное описание
-### 3.1 BridgeMatrix → BridgeCards: от намёток к артефактам
-`BridgeMatrix` (из G.2) — это инвентарь «сопоставимых конструктов» между традициями с предварительными заметками. Но потребители (селекторы, логгеры, аудиторы) **не могут** безопасно использовать матрицу, пока переходы не **материализованы** в явные артефакты.
-
-`BridgeCard` (из F.9) — это проверяемый артефакт для конкретного `SenseCell`-уровня выравнивания. Он не говорит «это почти то же самое». Он говорит: «вот точное соответствие, вот потери, вот `CL`, вот политика».
-
-**На ферме:** не «мастит в NZ ≈ мастит в RU», а:
-- `BridgeCard_Mastitis_NZ_RU_001`: SCC>200k_weekly_lab ↔ clinical_signs_monthly_visual
-- Потери: чувствительность к лёгким случаям, регулярность, объективность
-- `CL = 1` — reuse только под явным waiver
-
-### 3.2 BCT (Bridge Calibration Table) — таблица калибровки
-`BCT` — это реестр откалиброванных записей для пары традиций. Каждая запись (`RowEntry`) содержит:
-
-| Поле | Смысл |
-|---|---|
-| `RowEntryId` | Идентификатор записи |
-| `ComparableConstructId` | Что сравнивается (например, «уровень мастита») |
-| `BridgeCardId[]` | Какие BridgeCards материализуют переход |
-| `RowCL_min` | Минимальный CL в строке (bottleneck) |
-| `LossNoteRef[]` | Потери — не информативные сноски, а первоклассные цитаты |
-| `CounterExampleRef[]` | Контрпримеры, если CL ≤ 2 |
-| `PolicyPins` | `Φ(CL)`, `Ψ(CL^k)?`, `Φ_plane?` — идентификаторы политик |
-| `PlanePins` | `ReferencePlane(src)`, `ReferencePlane(tgt)` |
-
-**Правило bottleneck:** если строка агрегирует несколько bridge cells, итоговый CL — **минимум**, не среднее.
-
-### 3.3 CalibrationLedger — аудируемая «история строки»
-`CalibrationLedger` — это запись о том, что было откалибровано, что было потеряно, какие артефакты и политики это подтверждают.
-
-**На ферме:** для строки «мастит NZ↔RU» ledger содержит:
-- Дата калибровки
-- Какие BridgeCards использовались
-- Почему `CL = 1`
-- Какие waiver были применены
-- Результаты regression run (если проводился)
-
-### 3.4 RegressionSet — регрессионные пробы
-`RegressionSet` — это небольшой набор тестов, которые можно запустить против BCT для обнаружения дрейфа:
-- Изменения bridge
-- Изменения политик
-- Изменения плоскостей
-- Изменения edition pins
-
-**На ферме:** если NZ изменила определение мастита (новое издание стандарта), `RegressionSet` обнаружит, что `BridgeCard_Mastitis_NZ_RU_001` больше не валиден, и выдаст RSCR trigger.
-
-### 3.5 SentinelSet & BridgeSentinel — дозорные
-`BridgeSentinel` следит за изменениями в калибровке и генерирует типизированные RSCR-триггеры для затронутых `PathId/PathSliceId`.
-
-**Ключевой момент:** триггеры — **путь-локальные**, не pack-wide. Если изменился один BridgeCard, пересчитывается только связанный с ним путь, а не весь пакет.
-
-### 3.6 CL / CL^k / CL^plane — режимы допустимости
-| Уровень | Значение | Допустимость |
-|---|---|---|
-| `RowCL_min = 3` | Полное доверие | Admissible, но всё равно с `LossNote` если присутствует |
-| `RowCL_min = 2` | Ограниченное доверие | Admissible с guards |
-| `RowCL_min = 1` | Низкое доверие | **NOT admissible** без явного `WaiverRef[]`; reuse только guarded |
-| `RowCL_min = 0` | Запрещено | Forbidden; остаётся в BCT как документированный non-bridge |
-
-**Kind channel (`CL^k`):** если переход затрагивает kind (например, метод → измерение), требуется `RowCL_k_min` и `Ψ(CL^k)`.
-
-**Plane guard (`CL^plane`):** если `ReferencePlane(src) ≠ ReferencePlane(tgt)`, требуется `RowCL_plane_min` и `Φ_plane`. Плоскость **не переписывает** `CL/CL^k`; её эффект маршрутизируется через политики.
-
-### 3.7 Honesty rule — правило честности
-- Если `RowCL_min ≤ 2` — нужен хотя бы один `CounterExampleRef`
-- Если `RowCL_min = 3` и нет контрпримеров — нужен `CounterExampleAbsenceRef` (явное «искали — не нашли»)
-- Если есть `LossNoteRef[]`, строка **не может** быть представлена как «free substitution"
-
-## 4. Почему смешивать / игнорировать — значит рисковать
-| Антипаттерн | Почему опасно | Как выглядит на ферме |
-|---|---|---|
-| **«Синонимия» (Informal Synonymy)** | Полагаться на «это же одно и то же» без материализации моста. | «Мастит и мастит — везде мастит» — без учёта разных определений. |
-| **«Средний CL» (Averaged CL)** | Усреднение CL по строке вместо bottleneck (минимум). | «В среднем доверие 2.5» — когда один cell даёт CL=1, а другой CL=3. |
-| **«Скрытая плоскость» (Hidden Plane)** | Игнорирование разницы в `ReferencePlane` (мир ↔ концепт ↔ эпистема). | Сравнение «практического опыта фермера» (world) с «лабораторным исследованием» (episteme) без явного plane guard. |
-| **«Вечный мост» (Eternal Bridge)** | BridgeCard без edition pins и freshness window — дрейф не обнаруживается. | Использование моста 2015 года без проверки, изменились ли определения в источнике или приёмнике. |
-| **«Waiver как лекарство» (Waiver Abuse)** | Понижение CL до 1 и использование waiver для обхода проверки. | «Ну, CL=1, но мы подпишем waiver» — без понимания, что reuse всё равно guarded-only. |
-
-## 5. Как это выглядит на ферме: калибровка «уровня мастита» между США и Новой Зеландией
-**Сравниваемые конструкты:** «уровень мастита» в US Midwest dairy research и NZ dairy industry reports.
-
-**Шаг 1. Материализация BridgeCards**
-
-| SenseCell | US (src) | NZ (tgt) | Loss Notes |
-|---|---|---|---|
-| Определение случая | Клинические признаки + ветеринарный осмотр | SCC > 200 000 (лаборатория) | NZ не ловит лёгкие клинические случаи; US зависит от квалификации ветеринара |
-| Частота контроля | По факту случая | Еженедельная лаборатория | Разная чувствительность к вспышкам |
-| Порода | Преимущественно Holstein | Преимущественно Jersey | Разная восприимчивость к маститу |
-| Кормовая база | Corn silage + alfalfa | Пастбищная система | Разная метаболическая нагрузка |
-
-**BridgeCards:**
-- `BC-Mastitis-Def-US-NZ-001`: определение случая → `CL=1`
-- `BC-Mastitis-Freq-US-NZ-001`: частота → `CL=1`
-- `BC-Mastitis-Breed-US-NZ-001`: порода → `CL=2`
-- `BC-Mastitis-Diet-US-NZ-001`: корм → `CL=1`
-
-**Шаг 2. BCT RowEntry**
-
-```
-RowEntryId: RE-Mastitis-US-NZ-001
-ComparableConstructId: Mastitis_Rate
-BridgeCardId: [BC-Mastitis-Def-001, BC-Mastitis-Freq-001, BC-Mastitis-Breed-001, BC-Mastitis-Diet-001]
-RowCL_min: 1  // bottleneck: min(1,1,2,1)
-RowCL_k_min: 1
-RowCL_plane_min: 1  // world (US фермы) → episteme (NZ отчёты)
-LossNoteRef: [LN-001, LN-002, LN-003, LN-004]
-CounterExampleRef: [CE-2019-NZ-SCC-underestimation]
-WaiverRef: []  // нет waiver — reuse запрещён
-PolicyPins: Φ(CL)=POL-TRUST-MASTITIS-001, Ψ(CL^k)=POL-KIND-001, Φ_plane=POL-PLANE-001
-PlanePins: ReferencePlane(src)=US_Farm_World, ReferencePlane(tgt)=NZ_Report_Episteme
-```
-
-**Шаг 3. CalibrationLedger**
-
-```
-LedgerId: CL-Mastitis-US-NZ-2026
-Entry:
-  - RowEntryId: RE-Mastitis-US-NZ-001
-  - BridgeCards: [BC-001, BC-002, BC-003, BC-004]
-  - CL-minima: [1,1,2,1]
-  - Bottleneck: 1
-  - Losses: 4 notes, 1 counterexample
-  - Waiver: none
-  - UTS rows: published
-  - RegressionRunRef: RR-2026-05-15 (all failed — expected)
-```
-
-**Шаг 4. SentinelSet**
-
-```
-BridgeSentinel:
-  SentinelId: SENT-Mastitis-US-NZ
-  watchedBridgeIds: [BC-001, BC-002, BC-003, BC-004]
-  watchedScope: [PathSliceId-Mastitis-001, PathSliceId-Mastitis-002]
-  payloadPins: {BCT.id=BCT-Mastitis-US-NZ, RegressionSetId=RS-001, FreshnessWindowRef=FW-2026}
-```
-
-**Итог:** любой потребитель, который хочет использовать «уровень мастита» из NZ для US-контекста, видит: **запрещено (CL=0/1)** или **guarded-only с явным waiver**. Никаких «ну, это же стандартный показатель».
-
-## 6. Практическое применение: с чего начать
-**Шаг 1. Выберите пару контекстов.**
-Возьмите два контекста, которые вы обычно смешиваете (например, «европейские исследования» и «моя ферма»).
-
-**Шаг 2. Найдите один comparable construct.**
-Один термин, который встречается в обоих контекстах (например, «конверсия корма», «уровень мастита»).
-
-**Шаг 3. Разложите на SenseCells.**
-На каком уровне детализации термины совпадают? Определение? Метод измерения? Частота? Порода?
-
-**Шаг 4. Создайте BridgeCards.**
-Для каждого SenseCell: что в src, что в tgt, какие потери. Назначьте CL честно (не оптимистично).
-
-**Шаг 5. Вычислите bottleneck.**
-`RowCL_min = min(CL всех cells)`. Не усредняйте.
-
-**Шаг 6. Запишите LossNotes и CounterExamples.**
-Если CL ≤ 2 — обязательны контрпримеры. Если CL = 3 без контрпримеров — запишите `CounterExampleAbsenceRef`.
-
-**Шаг 7. Опубликуйте и подключите SentinelSet.**
-Создайте `RegressionSet` для проверки дрейфа и `SentinelSet` для RSCR-триггеров.
-
-## 7. Проверь себя
-| Вопрос | Если ответ «да» — проблема |
-|---|---|
-| Сравниваете ли вы показатели с других ферм/стран без явной калибровки? | Informal Synonymy |
-| Усредняете ли вы «доверие» к нескольким аспектам перехода? | Averaged CL |
-| Считаете ли вы, что «практический опыт» и «научное исследование» сравнимы без оговорок? | Hidden Plane |
-| Используете ли вы мосты, созданные более 3 лет назад, без перепроверки? | Eternal Bridge |
-| Применяете ли вы waiver, чтобы «пропустить» сомнительный переход? | Waiver Abuse |
-
-## 8. Связь с другими паттернами
-| Паттерн | Связь |
-|---|---|
-| G.Core | универсальные инварианты: penalty routing к R_eff, tri-state guard, типизированные RSCR triggers. |
-| G.2 (SoTA Synthesis) | поставщик `BridgeMatrix`, который G.7 материализует в `BridgeCards`. |
-| F.9 (BridgeCard + CL) | семантика BridgeCard и confidence level; G.7 добавляет калибровку. |
-| F.3/F.7 (SenseCell) | anchoring на уровне SenseCell; bottleneck discipline. |
-| G.6 (Evidence Graph) | `PathId/PathSliceId` цитируют BridgeCards в графах доказательств. |
-| G.5 (Method Dispatcher) | потребитель калиброванных переходов для eligibility/selection. |
-| G.11 (Refresh Orchestration) | потребитель RSCR triggers от SentinelSet. |
-| C.21 (DHC) | `AlignmentDensity` и другие метрики, если bridge используется для QD. |
-| E.18/A.21 (GateCrossing) | проверка crossing bundles через harness. |
 ---
 
-*Capture создан в рамках изучения FPF.*
+## 2. История одной ошибки
+
+Хозяйство внедрило новый онлайн-сервис, который обещал «переводить» результаты молочного кетонового теста в BHB. Сервис использовал неявное соответствие без BridgeCard. Через несколько месяцев выяснилось, что при низких удоях тест давал ложноположительные результаты, а при высоких — ложноотрицательные. Поскольку соответствие не было откалибровано, потери не были видны, и фермер принимал неверные решения о лечении.
+
+---
+
+## 3. Bridge Calibration — полное описание
+
+### 3.1 Определение
+
+**Bridge Calibration** — это паттерн, который превращает строки BridgeMatrix из G.2 в явные BridgeCards (F.9), публикует BridgeCalibrationTable (BCT), CalibrationLedger, RegressionSet и SentinelSet, и настраивает typed RSCR triggers для отслеживания изменений.
+
+### 3.2 Почему это важно
+
+Неявные соответствия между традициями создают иллюзию эквивалентности. G.7 заставляет автора явно указать: что именно считается сопоставимым, какие потери возникают, какой уровень доверия допустим и какие policy pins управляют штрафами. Это делает cross-tradition reuse аудитоспособным и обновляемым.
+
+### 3.3 BridgeCalibrationTable (BCT)
+
+**Определение.** BCT — это таблица калибровки мостов для пары традиций, содержащая RowEntry для каждого сопоставимого конструкта.
+
+**Пояснение.** Каждая RowEntry связывает ComparableConstructId, BridgeCardId[], RowCL_min, PlanePins, PolicyPins, RegressionSetId и SentinelSetId. BCT делает калибровку проверяемым объектом, а не описанием в тексте.
+
+**Пример из животноводства.**
+
+```text
+BCT-001: BridgeCalibrationTable
+  TradPairId: veterinary ↔ nutrition
+  RowEntry RE-001:
+    - ComparableConstructId: subclinical_ketosis_risk
+    - BridgeCardId: [BC-001, BC-002]
+    - RowCL_min: 2
+    - RowScopeId: binary_risk_classification
+    - PlanePins: ReferencePlane(src)=world, ReferencePlane(tgt)=world
+    - PolicyPins: Φ(CL)=POL-001
+    - RegressionSetId: RS-001
+    - SentinelSetId: SS-001
+```
+
+**Ключевой признак.** BCT содержит RowEntryId, BridgeCardId[], RowCL_min, RowScopeId и policy pins.
+
+### 3.4 BridgeCard
+
+**Определение.** BridgeCard — это артефакт F.9, который фиксирует SenseCell-уровневое соответствие между двумя понятиями, включая уровень доверия CL, потери и политики.
+
+**Пояснение.** BridgeCard не утверждает, что понятия «одинаковы». Он заявляет, что при определённом scope и с учётом явных потерь их можно использовать совместно.
+
+**Пример из животноводства.**
+
+```text
+BC-001: BridgeCard
+  - source: Lab_BHB (mmol/L)
+  - target: Milk_Ketone_Test (positive / negative)
+  - scope: binary classification of ketosis risk in Holstein cows days 1–30
+  - CL: 2
+  - LossNoteRef: LN-001 (quantitative BHB value lost)
+  - SenseCell anchors: BHB molecule detection
+```
+
+**Ключевой признак.** BridgeCard имеет source, target, scope, CL, LossNoteRef и SenseCell anchors.
+
+### 3.5 RowCL_min и admissibility regime
+
+**Определение.** RowCL_min — минимальный уровень доверия для строки BCT. Admissibility regime: CL ≥ 2 разрешает guarded reuse; CL = 1 требует WaiverRef и допускает только guarded-only reuse; CL = 0 запрещает reuse.
+
+**Пояснение.** CL (confidence level) идёт от F.9. G.7 задаёт правила допустимости: только мосты с достаточным уровнем доверия могут использоваться в downstream сравнениях.
+
+**Пример из животноводства.**
+
+| RowCL_min | Интерпретация | Пример |
+|---|---|---|
+| 3 | free substitution | BHB крови ↔ BHB плазмы при одном методе |
+| 2 | guarded reuse | BHB крови ↔ молочный кетоновый тест |
+| 1 | reuse только с waiver | BHB ↔ визуальная оценка риска |
+| 0 | reuse запрещён | BHB ↔ показатель иммунитета |
+
+**Ключевой признак.** RowCL_min принимает значения {3,2,1,0}, и каждое значение имеет явные условия reuse.
+
+### 3.6 CL^k и CL^plane
+
+**Определение.** CL^k — уровень доверия в kind-канале; CL^plane — уровень доверия при переходе между ReferencePlane. Ψ(CL^k) и Φ_plane — соответствующие policy pins.
+
+**Пояснение.** Если мост использует kind-канал (например, сравнение разных видов кетоза) или переходит между плоскостями (например, от лабораторного измерения к фермерскому наблюдению), должны быть явно указаны дополнительные CL и policy pins.
+
+**Пример из животноводства.** Переход от понятия «кетоз как клиническое заболевание» (kind) к «субклинический кетоз как метаболический риск» требует CL^k и Ψ(CL^k), потому что это разные категории заболевания.
+
+**Ключевой признак.** При kind-bridge или plane-bridge в BCT присутствуют RowCL_k_min / RowCL_plane_min и соответствующие policy pins.
+
+### 3.7 RegressionSet
+
+**Определение.** RegressionSet — это набор регрессионных проверок, которые выявляют drift при изменении моста, policy pins или edition pins.
+
+**Пояснение.** Calibration без regression быстро устаревает. RegressionSet содержит TestCaseId[], ExpectedOutcomesRef и RegressionRunRef. Он показывает, что мост остаётся валидным после изменений.
+
+**Пример из животноводства.**
+
+```text
+RS-001: RegressionSet
+  - TestCaseId: [TC-001, TC-002, TC-003]
+  - TC-001: при BHB 1,4 молочный тест должен быть positive
+  - TC-002: при BHB 0,8 молочный тест должен быть negative
+  - TC-003: смена порога BHB с 1,2 на 1,0 не должна повышать RowCL_min
+```
+
+**Ключевой признак.** RegressionSet содержит конкретные проверки и ожидаемые результаты для каждого моста.
+
+### 3.8 SentinelSet
+
+**Определение.** SentinelSet — это набор sentinels, которые отслеживают изменения в bridge calibration и эмитируют typed RSCR triggers для затронутых PathSliceId или PatternScopeId.
+
+**Пояснение.** SentinelSet позволяет G.11 планировать выборочный refresh. Когда меняется BridgeCard, policy pin или edition pin, sentinel эмитирует trigger с scope и payload pins.
+
+**Пример из животноводства.**
+
+```text
+SS-001: SentinelSet
+  - Sentinel S-001:
+    - watchedBridgeIds: [BC-001]
+    - watchedScope: [PS-001, PS-002]
+    - payloadPins: {BCT-001, RS-001, Φ(CL)=POL-001}
+```
+
+**Ключевой признак.** SentinelSet связывает BridgeCardId с PathSliceId и RSCRTriggerKindId.
+
+---
+
+## 4. Почему смешивать / игнорировать — значит рисковать
+
+Рассмотрим типичное смешанное утверждение:
+
+> *«Молочный тест на кетоновые тела — то же самое, что BHB в крови, только дешевле.»*
+
+**Разложение по G.7:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
+|---|---|---|
+| «молочный тест» | MethodFamilyId | Должен быть в ComparatorSet |
+| «BHB в крови» | MethodFamilyId | Должен быть в ComparatorSet |
+| «то же самое» | BridgeCard claim | Требует RowCL_min, RowScopeId и LossNoteRef |
+| «дешевле» | economic criterion | Относится к CAL/selector, не к bridge |
+
+**Основные риски смешивания:**
+
+1. **Скрытые потери.** Количественная точность BHB теряется, но это не зафиксировано.
+2. **Неправильный reuse.** Молочный тест используется как free substitution, хотя CL = 2.
+3. **Неотслеживаемые изменения.** Смена порога или метода не вызывает пересчёта downstream решений.
+
+---
+
+## 5. Как это выглядит на ферме: правильное применение
+
+**Ситуация:** калибровка перехода от лабораторного BHB к молочному кетоновому тесту.
+
+**Было (смешанное / нечёткое):**
+> «Молочный тест заменяет BHB.»
+
+**Стало (разложенное / ясное):**
+
+**BridgeCard BC-001:**
+> source: Lab_BHB; target: Milk_Ketone_Test; scope: binary risk classification days 1–30; CL = 2; LossNoteRef LN-001.
+
+**BCT RowEntry RE-001:**
+> ComparableConstructId: subclinical_ketosis_risk; RowCL_min = 2; RowScopeId = binary_risk; PolicyPins Φ(CL) = POL-001.
+
+**RegressionSet RS-001:**
+> TC-001: BHB 1,4 → milk test positive; TC-002: BHB 0,8 → milk test negative.
+
+**SentinelSet SS-001:**
+> S-001 watches BC-001, scope PS-001, payload {BCT-001, RS-001, POL-001}.
+
+**Результат:**
+- Переход между методами явен и проверяем.
+- Потери зафиксированы и не скрываются.
+- Любое изменение моста вызывает typed RSCR trigger.
+
+---
+
+## 6. Практическое применение: с чего начать
+
+**Шаг 1.** Возьмите BridgeMatrix из G.2 и для каждой строки определите RowScopeId.
+
+**Шаг 2.** Создайте BridgeCards с SenseCell anchors, CL и LossNoteRef.
+
+**Шаг 3.** Соберите BCT с RowCL_min, PlanePins, PolicyPins, RegressionSetId и SentinelSetId.
+
+**Шаг 4.** Определите RegressionSet с проверками на drift.
+
+**Шаг 5.** Настройте SentinelSet для typed RSCR triggers с PathSliceId scope.
+
+---
+
+## 7. Проверь себя
+
+| Вопрос | Если ответ «да» — проблема |
+|---|---|
+| Между традициями нет BridgeCard? | Переход незаконен; возможны скрытые потери. |
+| RowCL_min не указан или преувеличен? | Reuse может быть неоправданным. |
+| LossNoteRef отсутствует при CL ≤ 2? | Нарушена honesty rule. |
+| RegressionSet не задан? | Drift моста останется незамеченным. |
+| SentinelSet не связан с PathSliceId? | Обновления потребуют полного пересчёта. |
+
+---
+
+## 8. Связь с другими паттернами
+
+| Паттерн | Связь |
+|---|---|
+| G.2 SoTA Harvester | предоставляет BridgeMatrix |
+| F.9 BridgeCard | определяет семантику BridgeCard и CL |
+| G.Core | обеспечивает bridge-only crossings и penalty routing |
+| G.9 Parity Harness | использует откалиброванные bridges для сравнения |
+| G.11 Telemetry Refresh | потребляет sentinel triggers |
+
+---
+
+## 9. Что запомнить
+
+1. G.7 превращает BridgeMatrix в калиброванные BridgeCards и BCT.
+2. Каждая строка BCT имеет RowCL_min, RowScopeId, LossNoteRef и policy pins.
+3. Admissibility regime: CL ≥ 2 — guarded reuse, CL = 1 — только с waiver, CL = 0 — запрещено.
+4. RegressionSet проверяет drift; SentinelSet эмитирует typed RSCR triggers.
+5. BridgeCard — не заявление об эквивалентности, а явное сопоставление с потерями.
+
+---
+
+*Capture создан в рамках изучения Part G FPF.*
 *FPF Source: FPF/FPF-Spec.md §G.7*

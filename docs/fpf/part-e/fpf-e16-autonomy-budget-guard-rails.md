@@ -4,25 +4,28 @@ pattern: E.16
 title: "Autonomy Budget & Guard Rails: автономия только в рамках бюджета"
 domain: cattle-science
 difficulty: intermediate
-reading_time: 25 min
-created: 2026-06-19
+reading_time: 30 min
+created: 2026-06-27
+fpf_context: ["E.16", "A.2", "A.15", "A.21", "C.9", "C.16", "E.8", "E.10", "E.18", "F.17"]
 ---
 
 # E.16 — Autonomy Budget & Guard Rails: автономия только в рамках бюджета
 
+> **Цель capture:** объяснить, как в FPF оформляется любое заявление об автономности, чтобы оно было проверяемым, ограниченным и останавливаемым.
+
+---
+
 ## 1. Зачем это читать
 
-Если на вашей ферме появляется робот, ИИ-советчик или автоматическая система, которая принимает решения без постоянного контроля человека, — вы уже в зоне E.16. Этот паттерн учит **делать любое заявление об автономии проверяемым, ограниченным и останавливаемым**.
+Если на ферме появляется робот, ИИ-советчик или автоматическая система, которая принимает решения без постоянного контроля человека, — вы уже в зоне E.16. В животноводстве автономные системы становятся обычным делом: кормораздатчики, роботы-дояры, сенсоры отёла, ИИ-рекомендации по лечению. Без E.16 «автономность» превращается в чёрный ящик: система делает что-то, но никто не может сказать, в рамках какого разрешения и что делать при превышении лимита.
 
-**FPF-тезис:** *«Автономия — не право действовать без ограничений. Автономия — это выделенный бюджет с явными guard rails, ledger и процедурой override.»*
-
-В животноводстве автономные системы становятся обычным делом: кормораздатчики, роботы-дояры, сенсоры отёла, ИИ-рекомендации по лечению. Без E.16 «автономность» превращается в чёрный ящик: система делает что-то, но никто не может сказать, в рамках какого разрешения и что делать при превышении лимита.
+> **FPF-тезис:** *«Автономия — не право действовать без ограничений. Автономия — это выделенный бюджет с явными guard rails, ledger и процедурой override.»*
 
 **Фермерский пример:**
 
 > Ферма купила автономный кормораздатчик, который сам решает, сколько корма давать каждой группе. Через месяц оказалось, что он недокормил высокопродуктивных коров в жару, потому что «решение» основывалось на средних показателях. Никто не знал: какой у него бюджет решений, кто может его остановить, какие guard rails действуют.
 
-E.16 требует: перед запуском автономной системы опубликовать `AutonomyBudgetDecl` — с scope, quota, guard, override protocol и ledger.
+---
 
 ## 2. История одной ошибки
 
@@ -31,25 +34,30 @@ E.16 требует: перед запуском автономной систе
 - **Бюджета не было.** Сколько рекомендаций в день? Какие риски допустимы? Неизвестно.
 - **Guard rails отсутствовали.** Система предложила антибиотик корове с аллергией, потому что не проверяла историю.
 - **Override было не ясно.** Ветеринар мог отменить рекомендацию, но эта отмена не фиксировалась; система продолжала учиться на отменённых случаях.
-- **Ledger не вёлся.** Нельзя было аудиторски восстановить: сколько решений принято, сколько отменено, по каким причинам.
+- **Ledger не вёлся.** Нельзя было аудиторски восстановить, сколько решений принято, сколько отменено, по каким причинам.
 
-E.16 предлагает оформить автономию как **declared, versioned, auditable contract**:
-- `AutonomyBudgetDecl` — что разрешено;
-- `Aut-Guard policy` — при каких условиях;
-- `OverrideProtocol` — кто и как останавливает;
-- `AutonomyLedger` — журнал каждого решения.
+E.16 предлагает оформить автономию как declared, versioned, auditable contract: `AutonomyBudgetDecl`, guard policy, `OverrideProtocol`, `AutonomyLedger`.
+
+---
 
 ## 3. RoC-Autonomy Budget & Enforcement — полное описание
 
-> **Соответствие с FPF-Spec.** В реестре паттерн назван *Autonomy Budget & Guard Rails*. В спецификации FPF он развивается под именем *RoC-Autonomy Budget & Enforcement* — см. §E.16.
+### 3.1 Определение
 
-### 3.1 Условие применения
+**Autonomy Budget & Guard Rails (E.16)** — это паттерн Rule-of-Constraints, который делает любое заявление об автономном поведении тестируемым и принудимым через опубликованный `AutonomyBudgetDecl`, guarded enactment, override SpeechActs с separation of duties и Work-anchored `AutonomyLedger`.
 
-**Вопрос:** Когда E.16 обязателен?
+### 3.2 Почему это важно
 
-**Ответ:** Всякий раз, когда `Role`, `Method` или `Service` заявляет об **автономном поведении** — то есть принимает решение или совершает действие без непрерывного подтверждения человеком в момент исполнения. Чисто рекомендательные системы, где каждое действие подтверждает человек, не подпадают.
+Без явного бюджета «автономно» становится меткой, которую нельзя проверить. Системы действуют вне remit, ответственность растворяется, две автономные системы несравнимы. E.16 превращает автономию в измеримый контракт: сколько действий, в каких risk bands, какие ресурсы, кто останавливает, что записывается.
 
-**На ферме:**
+### 3.3 Условие применения
+
+**Определение.** E.16 обязателен всякий раз, когда `Role`, `Method` или `Service` заявляет об **автономном поведении** — то есть принимает решение или совершает действие без непрерывного подтверждения человеком в момент исполнения. Чисто рекомендательные системы, где каждое действие подтверждает человек, не подпадают.
+
+**Пояснение.** Автономность — это не свойство системы в целом, а свойство конкретного шага метода или роли. Если робот доит без подтверждения — это autonomy. Если дашборд только показывает данные — нет.
+
+**Пример из животноводства.**
+
 | Система | Автономия? | Почему |
 |---|---|---|
 | Робот-дояр | Да | Совершает физические действия без подтверждения |
@@ -58,30 +66,24 @@ E.16 предлагает оформить автономию как **declared,
 | ИИ-рекомендация лечения | Да, если назначает без ветеринара | Решение о лечении без подтверждения |
 | Дашборд аналитики | Нет | Только отображает данные |
 
-**Ключевой признак:** если система действует без immediate human confirmation — нужен `AutonomyBudgetDecl`.
+**Ключевой признак.** Если система действует без immediate human confirmation — нужен `AutonomyBudgetDecl`.
 
-### 3.2 AutonomyBudgetDecl — обязательный артефакт
+### 3.4 AutonomyBudgetDecl — обязательный артефакт
 
-**Вопрос:** Что должно быть в декларации?
+**Определение.** `AutonomyBudgetDecl` — это named, versioned объект в том же `U.BoundedContext`, который декларирует: `scope` (`ClaimScope`), `budget` (action tokens, decision tokens, risk bands, resource caps, time window), `AdmissibilityConditionsId` (guard policy), `overrideProtocolRef`, `telemetrySpecRef` и `editionPins`.
 
-**Ответ:**
-- `id` и `version` — идентификация и edition pin;
-- `scope` — `ClaimScope`, где бюджет действует;
-- `budget` — typed quota: action tokens, decision tokens, risk bands, resource caps, time window;
-- `AdmissibilityConditionsId` — политика guard rails;
-- `overrideProtocolRef` — протокол SpeechActs для pause/resume/escalate;
-- `telemetrySpecRef` — что записывать в ledger;
-- `editionPins` — привязка к Role, Method, CHR refs.
+**Пояснение.** Бюджет — это не абстрактное «не навреди», а набор типизированных quota и условий. Без публикации этого артефакта autonomy claim не считается admitted.
 
-**На ферме:**
+**Пример из животноводства.**
+
 ```text
 AutonomyBudgetDecl: AutoFeeder_v3_FarmA
   scope: FarmA.LactatingCows.HighYieldGroup
   budget:
     action_tokens: 48 dispenses/day
     decision_tokens: 24 ration_adjustments/day
-    risk_bands: {BCS_deviation ≤ 0.25, MilkYield_drop ≤ 5%}
-    resource_caps: {feed_inventory ≥ 2 days, energy ≥ baseline}
+    risk_bands: {MilkYield_7d_drop ≤ 5%; BCS_change ≤ 0.1/14d}
+    resource_caps: {feed_inventory ≥ 2 days; energy ≥ baseline}
     time_window: 24h rolling
   AdmissibilityConditionsId: AutGuard_AutoFeeder_v3
   overrideProtocolRef: AutoFeeder_Override_Protocol_v1
@@ -89,88 +91,102 @@ AutonomyBudgetDecl: AutoFeeder_v3_FarmA
   editionPins:
     RoleRef: AutoFeederRole_v2
     MethodDescRef: AutoFeeding_v3
-    CHR refs: FeedAllocationCHR, BodyConditionCHR
+    CHR refs: MilkYieldCHR, BCSCHR
 ```
 
-**Ключевой признак:** бюджет — это не абстрактное «не навреди», а набор типизированных quota и условий.
+**Ключевой признак.** Бюджет содержит типизированные quota, risk bands, resource caps и time window.
 
-### 3.3 Guarded enactment и ledger
+### 3.5 Guarded enactment и AutonomyLedger
 
-**Вопрос:** Как система узнаёт, что ей можно действовать?
+**Определение.** Перед каждым автономным действием выполняется **Green-Gate**: проверяются валидность `RoleAssignment`, остаток бюджета в текущем `Γ_time` окне и guard checks из `AdmissibilityConditionsId`. Каждое допущенное действие записывается в `AutonomyLedgerEntry`.
 
-**Ответ:** Через **Green-Gate**: перед каждым действием проверяются:
-- валидность `RoleAssignment`;
-- остаток бюджета в текущем `Γ_time` окне;
-- guard checks из `AdmissibilityConditionsId`.
+**Пояснение.** Если любая проверка не проходит, действие **блокируется** (нет «soft warning»). Ledger entry привязывается к `U.Work` и содержит deltas, guard verdicts, path ids.
 
-Если любая проверка не проходит — действие **блокируется** (нет «soft warning»).
+**Пример из животноводства.**
 
-Каждое допущенное действие записывается в `AutonomyLedgerEntry`:
-- `workId`, `performedBy: RoleAssignmentId`;
-- `budgetId`, `version`, `time`;
-- deltas по tokens, risk, resources;
-- `guardVerdicts`;
-- `pathIds` / `pathSliceIds` для parity/refresh.
+> Перед каждой выдачей корма робот проверяет:
+> 1. `RoleAssignment` активен.
+> 2. `action_tokens > 0` в текущем 24h окне.
+> 3. `MilkYield_7d_drop ≤ 5%` и `BCS_change ≤ 0.1/14d`.
+> 4. `feed_inventory ≥ 48h`.
+> Если хоть одно нарушено — выдача блокируется, отправляется `DepletionNotice` или `Escalate`.
 
-**Ключевой признак:** без ledger entry автономное действие не считается admitted Work.
+```text
+AutonomyLedgerEntry:
+  workId: W-2026-0619-AF-003
+  performedBy: AutoFeederRole#Unit_07
+  budgetId: ABD-AutoFeeder-HY-FarmA
+  deltas: action_tokens −1; decision_tokens 0; risk band within limit
+  guardVerdicts: all pass
+  pathSliceId: PS-HY-2026-06-19
+```
 
-### 3.4 Override и Separation of Duties
+**Ключевой признак.** Без ledger entry автономное действие не считается admitted Work.
 
-**Вопрос:** Кто может остановить автономную систему?
+### 3.6 Override и Separation of Duties
 
-**Ответ:** Любая роль, объявленная в `OverrideProtocolRef`, но **не та же `RoleAssignment`, которая потребляет бюджет**. Canonical SpeechActs:
-- `PauseAutonomy(budgetId)` — немедленная остановка;
-- `ResumeAutonomy(budgetId)` — возобновление после условий;
-- `NarrowAutonomy(budgetId, Δscope)` — ужесточение лимитов;
-- `Escalate(budgetId)` — передача supervisor.
+**Определение.** Override выполняет любая роль, объявленная в `OverrideProtocolRef`, но **не та же `RoleAssignment`, которая потребляет бюджет**. Canonical SpeechActs: `PauseAutonomy(budgetId)`, `ResumeAutonomy(budgetId)`, `NarrowAutonomy(budgetId, Δscope)`, `Escalate(budgetId)`.
 
-**На ферме:**
-> `HerdManagerRole` может вызвать `PauseAutonomy(AutoFeeder_v3_FarmA)`, если робот-дояр начинает доить корову с клиническим маститом. `HerdManagerRole` и `AutoFeederRole` — disjoint (SoD).
+**Пояснение.** Override — это Work (SpeechAct) с ledger entry и проверкой SoD. Это предотвращает ситуацию, когда система сама себя разрешает продолжать.
 
-**Ключевой признак:** override — это Work (SpeechAct) с ledger entry и проверкой SoD.
+**Пример из животноводства.**
 
-### 3.5 Исчерпание бюджета
+> `HerdManagerRole#Ivanov` вызывает `PauseAutonomy(AutoFeeder_v3_FarmA)`, если робот-дояр начинает доить корову с клиническим маститом. `HerdManagerRole` и `AutoFeederRole` — disjoint (SoD).
 
-**Вопрос:** Что происходит, когда бюджет закончился?
+**Ключевой признак.** override — это SpeechAct с ledger entry; потребитель бюджета и overrider — разные роли.
 
-**Ответ:**
-- Блокировка дальнейших автономных действий в том же `Γ_time` окне;
-- Эмиссия `DepletionNotice`;
-- Либо `Escalate`, либо `Park` согласно политике;
-- Возобновление только через `ResumeAutonomy` SpeechAct от допустимой роли после прохождения guard checks.
+### 3.7 Исчерпание бюджета
+
+**Определение.** Когда бюджет исчерпан (нет tokens, превышен envelope, нарушен cap), дальнейшие автономные действия в том же `Γ_time` окне блокируются, эмитируется `DepletionNotice`, и либо `Escalate`, либо `Park` согласно политике. Возобновление — только через `ResumeAutonomy` SpeechAct от допустимой роли после прохождения guard checks.
+
+**Пояснение.** Depletion behavior — не предупреждение, а hard stop. Это гарантирует, что система не действует вне объявленных лимитов.
+
+**Пример из животноводства.**
+
+> Если `decision_tokens` исчерпаны из-за частых изменений рациона, автокормушка переходит в режим ожидания и страница supervisor получает `DepletionNotice`. Раздатчик не возобновляет работу, пока `HerdManagerRole` не вызовет `ResumeAutonomy` и не подтвердит новые условия.
+
+**Ключевой признак.** Исчерпание бюджета блокирует автономные шаги до governed resume.
+
+---
 
 ## 4. Почему смешивать / игнорировать — значит рисковать
 
-Возьмём фразу: *«Наша система автономно управляет кормлением.»*
+Рассмотрим типичное смешанное утверждение:
+
+> *«Наша система автономно управляет кормлением.»*
 
 **Разложение по E.16:**
 
-| Часть утверждения | Что это в FPF | Почему |
+| Часть утверждения | Что это в FPF | Почему важно разделять |
 |---|---|---|
 | «система» | `U.Service` / performer | Нужен `RoleAssignment` |
 | «автономно управляет» | autonomy claim | Нужен `AutonomyBudgetDecl` |
 | «кормлением» | `U.Work` / `U.Method` | Нужен MethodRef и WorkPlan |
 | (скрытое) «безопасно» | guard claim | Нужен `AdmissibilityConditionsId` |
 
-**Что плохого в смешивании:**
+**Основные риски смешивания:**
 
 1. **Нетестируемость.** «Автономно» без бюджета нельзя проверить.
 2. **Риск неконтролируемых действий.** Система может действовать вне remit.
 3. **Растворение ответственности.** Если что-то пошло не так, непонятно, кто отвечал.
 4. **Несравнимость.** Нельзя сравнить две автономные системы без опубликованных UTS-полей.
 
+---
+
 ## 5. Как это выглядит на ферме: правильное применение
 
-**Задача:** внедрить автономный кормораздатчик для высокопродуктивных коров.
+**Ситуация:** внедрить автономный кормораздатчик для высокопродуктивных коров.
 
 **Было (смешанное / нечёткое):**
+
 > «Робот сам решает, сколько корма давать, исходя из данных.»
 
 **Стало (разложенное / ясное):**
 
 **AutonomyBudgetDecl:**
+
 > `id`: ABD-AutoFeeder-HY-FarmA
-> `version`: 2026-06-19-v1
+> `version`: 2026-06-27-v1
 > `scope`: `FarmA.LactatingCows.HighYieldGroup`
 > `budget`:
 > - `action_tokens`: 48 dispenses/24h
@@ -184,28 +200,25 @@ AutonomyBudgetDecl: AutoFeeder_v3_FarmA
 > `editionPins`: `AutoFeederRole_v2`, `AutoFeedingMethod_v3`, `MilkYieldCHR`, `BCSCHR`
 
 **Green-Gate example:**
+
 > Перед каждой выдачей корма робот проверяет:
 > 1. `RoleAssignment` активен.
 > 2. `action_tokens > 0` в текущем 24h окне.
 > 3. `MilkYield_7d_drop ≤ 5%` и `BCS_change ≤ 0.1/14d`.
 > 4. `feed_inventory ≥ 48h`.
-> Если хоть одно нарушено — выдача блокируется, отправляется `DepletionNotice` или `Escalate`.
-
-**AutonomyLedgerEntry example:**
-> `workId`: W-2026-0619-AF-003
-> `performedBy`: `AutoFeederRole#Unit_07`
-> `budgetId`: ABD-AutoFeeder-HY-FarmA
-> `deltas`: action_tokens −1; decision_tokens 0; risk band within limit
-> `guardVerdicts`: all pass
-> `pathSliceId`: PS-HY-2026-06-19
+> Если хоть одно нарушено — выдача блокируется.
 
 **Override:**
+
 > `HerdManagerRole#Ivanov` вызывает `PauseAutonomy(ABD-AutoFeeder-HY-FarmA)` при обнаружении неисправности. SoD: `HerdManagerRole ⊥ AutoFeederRole`.
 
-**Что это даёт:**
+**Результат:**
+
 - Любой аудитор видит, в рамках какого контракта действует робот.
 - Превышение лимита останавливает систему, а не игнорируется.
 - Ответственность за override чётко распределена.
+
+---
 
 ## 6. Практическое применение: с чего начать
 
@@ -223,6 +236,8 @@ AutonomyBudgetDecl: AutoFeeder_v3_FarmA
 
 **Шаг 7.** Проведите drill: смоделируйте исчерпание бюджета и убедитесь, что система блокируется и эскалирует.
 
+---
+
 ## 7. Проверь себя
 
 | Вопрос | Если ответ «да» — проблема |
@@ -234,20 +249,32 @@ AutonomyBudgetDecl: AutoFeeder_v3_FarmA
 | Бюджет исчерпан, но система продолжает работать? | Depletion behavior не реализован; E.16‑S5 нарушен. |
 | UTS row не содержит autonomy-полей? | Несравнимость; E.16‑S6 нарушен. |
 
+---
+
 ## 8. Связь с другими паттернами
 
 | Паттерн | Связь |
 |---|---|
-| A.2 Role Taxonomy | роли потребителя и overrider бюджета. |
-| A.15 Role–Method–Work Alignment | Work и ledger entries. |
-| A.21 Gate Profile | Green-Gate и gate checks. |
-| C.9 Agency-CHR | измерение автономии и ответственности. |
-| C.16 Measurement | типизация budget deltas через MM-CHR. |
-| E.8 Pattern Authoring Discipline | шаблон оформления autonomy pattern. |
-| E.10 LEX-BUNDLE | лексические правила: «автономно» — trigger word. |
-| E.18 Transformation Flow Structure | scout/probe/commit partition при bounded specialization. |
-| F.17 UTS | публикация autonomy-полей для parity/selection. |
-| G.5/G.9/G.10 | method authoring, parity и shipping с учётом autonomy. |
+| A.2 Role Taxonomy | роли потребителя и overrider бюджета |
+| A.15 Role–Method–Work Alignment | Work и ledger entries |
+| A.21 Gate Profile | Green-Gate и gate checks |
+| C.9 Agency-CHR | измерение автономии и ответственности |
+| C.16 Measurement | типизация budget deltas через MM-CHR |
+| E.8 Pattern Authoring Discipline | шаблон оформления autonomy pattern |
+| E.10 LEX-BUNDLE | лексические правила: «автономно» — trigger word |
+| E.18 Transformation Flow Structure | scout/probe/commit partition при bounded specialization |
+| F.17 UTS | публикация autonomy-полей для parity/selection |
+| G.5 / G.9 / G.10 | method authoring, parity и shipping с учётом autonomy |
+
+---
+
+## 9. Что запомнить
+
+1. Автономия требует опубликованного `AutonomyBudgetDecl` в том же `U.BoundedContext`.
+2. Guard checks — hard gates; depletion — hard stop.
+3. Каждое admitted Work создаёт `AutonomyLedgerEntry`.
+4. Override — SpeechAct с SoD; потребитель и overrider — разные роли.
+5. UTS rows для автономных систем должны содержать autonomy-поля.
 
 ---
 

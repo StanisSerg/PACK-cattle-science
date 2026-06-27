@@ -1,231 +1,248 @@
 ---
 type: fpf-study
 pattern: G.12
-title: "DHC Dashboards: как строить дашборды, не врут ли цифры"
+title: "DHC Dashboards: дисциплинарно-здоровые дашборды с evidence-путями"
 domain: cattle-science
-difficulty: intermediate
-reading_time: 17 min
-created: 2026-05-26
+difficulty: advanced
+reading_time: 28 min
+created: 2026-06-27
+fpf_context: ["G.12", "C.21", "G.Core", "G.6", "G.11", "G.3"]
 ---
 
-# G.12 — DHC Dashboards: как строить дашборды, не врут ли цифры
+# G.12 — DHC Dashboards: дисциплинарно-здоровые дашборды с evidence-путями
+
+> **Цель capture:** объяснить, как паттерн G.12 превращает DHC slots из C.21 в edition-pinned, evidence-citable time series и view-only dashboard slices, которые можно обновлять выборочно.
+
+---
 
 ## 1. Зачем это читать
-Если вы когда-нибудь видели на ферме Excel-таблицу с «средним уровнем здоровья стада» — вы столкнулись с проблемой G.12. Этот паттерн не про то, **какие графики рисовать**. Он про то, **как вычислять значения для дашборда так, чтобы они были законными, воспроизводимыми и не обманывали**.
 
-В мире software дашборды часто смешивают шкалы, скрывают пересчёты и выдают «средний балл» там, где среднее не имеет смысла. В мире ферм — «средний BHB по стаду» может скрывать критическую группу коров с кетозом, а «средний класс тела» — это ординальная шкала, которую нельзя усреднять.
+В скотоводстве дашборды часто превращаются в набор красивых графиков без явной связи с источниками и методами. «Средний BHB по стаду», «уровень зрелости протокола», «плотность bridge'ов» — все эти метрики могут быть полезны, но только если видно, как они получены, какие шкалы используются и какие edition pins зафиксированы. G.12 делает дашборды reproducible artefacts, а не screenshots.
 
-**Без G.12:** дашборд становится инструментом самообмана — красивые цифры без понимания, что за ними стоит.
+> **FPF-тезис:** *«Dashboard value имеет смысл только вместе с DHC slot, method edition, evidence path и reference plane.»*
 
-**С G.12:** каждое значение на дашборде — это `DHCRow@Context` с закреплённой редакцией метода, evidence-путем и stance (pass/degrade/abstain). Дашборд — это **вид**, а не новая реальность.
+**Фермерский пример:**
 
-## 2. История одной ошибки
-Ферма «Берёзовая» внедрила систему мониторинга метаболического здоровья. Дашборд показывал три показателя:
+> Фермер видит на дашборде, что «средний BHB стада снизился за месяц». Без G.12 он не знает, какой метод измерения использовался, какие коровы входили в выборку, и какой freshness window применялся. С G.12 каждая точка ряда сопровождается DHCMethodRef.edition, PathSliceId и Γ_time, и фермер может проверить вычисление.
 
-- **BHB** (ммоль/л) — непрерывная шкала
-- **Класс тела** (1–5) — ординальная шкала
-- **Статус мастита** (здоров/субклинический/клинический) — категориальная шкала
-
-Зоотехник решил «упростить» и ввёл **«Индекс метаболического здоровья»** (ИМЗ):
-
-```
-ИМЗ = (BHB × 0.4) + (Класс тела × 0.3) + (Статус мастита × 0.3)
-```
-
-Где «здоров» = 0, «субклинический» = 1, «клинический» = 2.
-
-Дашборд стал показывать «средний ИМЗ по стаду = 1.2 — в норме». Владелец был доволен.
-
-Через два месяца — вспышка субклинического кетоза. Аудит показал:
-
-- **BHB** — непрерывная шкала, умножение на коэффициент законно. Но порог «нормы» варьируется по стадии лактации.
-- **Класс тела** — ординальная шкала. Разница между 2 и 3 **не равна** разнице между 3 и 4. Умножение на 0.3 — **запрещённая арифметика**.
-- **Статус мастита** — категориальная шкала. Присвоение чисел (0, 1, 2) ввело **фиктивный порядок**. «Субклинический × 0.3» — бессмыслица.
-- «Средний ИМЗ» — усреднение смеси шкал с разной природой. Это как складывать температуру и цвет.
-
-FPF G.12 говорит: *дашборд не может изобретать новые законы арифметики. Каждая шкала — со своими правилами. Ординальные — только для сравнения. Категориальные — только для подсчёта частот*.
-
-## 3. DHC Dashboards: как строить дашборды, не врут ли цифры — полное описание
-### 3.1 DHCSeries@Context — временной ряд
-`DHCSeries@Context` — это **UTS-публикуемый временной ряд** вычисленных DHC-показаний для конкретной дисциплины и среза контекста.
-
-```
-DHCSeries@Context := ⟨
-  DHCSeriesId,
-  CG-FrameContext,
-  describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
-  TargetSlice,                         // USM-кортеж; время варьируется по Γ_time
-  DHCSlotId[],                         // типизированные DHC-слоты из C.21
-  DHCMethodSpecRef.edition,
-  CNSpecRef.edition, CGSpecRef.edition,
-  EvidenceGraphId?,
-  DashboardSliceId[]?,
-  TelemetryPinSetId?                   // wiring к refresh
-⟩
-```
-
-**На ферме:** DHCSeries для «метаболического здоровья переходного периода» включает слоты:
-
-- `DHC-BHB-PLASMA` (непрерывная, ммоль/л)
-- `DHC-NEFA-SERUM` (непрерывная, мэкв/л)
-- `DHC-BODY-CONDITION-SCORE` (ординальная, 1–5, **compareOnly**)
-- `DHC-MASTITIS-STATUS` (категориальная, {здоров, субклинический, клинический})
-
-### 3.2 DHCRow@Context — одна строка ряда
-```
-DHCRow@Context := ⟨
-  DHCRowId,
-  DHCSeriesId,
-  Γ_time,                              // временное окно
-  DHCSlotId,
-  value, units/scaleRef?, compareOnly?, // compareOnly=true для ординальных
-  stance ∈ {pass|degrade|abstain},
-  DHCMethodRef.edition, DHCMethodSpecRef.edition,
-  PathSliceId[], PathId[]?, EvidenceGraphId?,
-  evidenceLaneTags? := {TA|VA|LA},     // теоретическая/валидная/легальная линия
-  crossingPins?                        // Bridge/CL/Φ при кросс-контексте
-⟩
-```
-
-**Ключевое правило:** `compareOnly?` обязателен для ординальных и категориальных шкал. Это означает: **можно сравнивать (больше/меньше), но нельзя складывать, умножать, усреднять**.
-
-### 3.3 DashboardSlice@Context — вид, а не новая реальность
-`DashboardSlice@Context` — это **проекция** над уже вычисленными строками. Она **не вводит новой агрегации, не переопределяет легальность, не создаёт скалярных победителей**.
-
-```
-DashboardSlice@Context := ⟨
-  DashboardSliceId(UTS),
-  DHCSeriesId(UTS)[],
-  SliceAnnotations?,                  // метки, группировка, пояснения
-  ViewSpecId?,                        // шаблон вида (policy-bound, без семантики)
-  IncludedRowIds?
-⟩
-```
-
-**Аналогия:** `DHCSeries` — это полный протокол лаборатории. `DashboardSlice` — это распечатка для врача, на которой выделены только нужные строки. Распечатка не меняет результаты анализов.
-
-### 3.4 «Запрещённая арифметика» (Illicit Arithmetic)
-G.12 запрещает:
-
-| Шкала | Можно | Нельзя |
-|---|---|---|
-| **Непрерывная** (BHB, NEFA) | Складывать, усреднять, сравнивать | — |
-| **Интервальная** (температура, °C) | Сравнивать, вычитать | Умножать, делить (нет абсолютного нуля) |
-| **Ординальная** (BCS, класс тела) | Сравнивать (больше/меньше) | Складывать, усреднять, умножать |
-| **Категориальная** (статус мастита) | Подсчитывать частоты | Любая арифметика |
-
-**Особо опасно:** «нормализованный скор» без указания метода нормализации. G.12 требует: если используется нормализация — объявить `UNM_id` и `NormalizationMethodRef.edition`.
-
-## 4. Почему смешивать / игнорировать — значит рисковать
-| Антипаттерн | Проявление на ферме | Почему опасно | Как исправить |
-|---|---|---|---|
-| **Illicit Arithmetic** | «Средний BCS = 3.2» | BCS — ординальная; среднее бессмысленно | Использовать медиану, распределение, или `compareOnly` |
-| **Hidden Re-aggregation** | Дашборд показывает «средний BHB за год» без исходных строк | Потеряна детализация; скрыты выбросы | Хранить `DHCRow@Context` с `PathSliceId` |
-| **Scalar Winner** | «Индекс здоровья = 8.5 из 10» | Частичный порядок свёрнут в скаляр | Возвращать множества (selected set), не скаляры |
-| **Edition Drift** | Дашборд 2024 vs дашборд 2026 — разные методы расчёта, но одинаковые названия | Несравнимость во времени | `DHCMethodSpecRef.edition` + `EditionBumpLog` |
-| **Shadow Spec** | Дашборд вводит локальные правила «нормы» | Фрагментация спецификации | Правила — только через `CNSpecRef` и `CGSpecRef` |
-| **Implicit Latest** | «Последнее значение BHB» без явного Γ_time | Неоднозначность; разные интерпретации | Γ_time явный в каждой строке; нет «latest» по умолчанию |
-
-## 5. Как это выглядит на ферме: метаболический дашборд для стада
-**Контекст:** Ферма «Красный маяк», 1200 голов. Нужен дашборд метаболического здоровья для переходного периода.
-
-**Step 1 — Выбор DHC-слотов (C.21):**
-
-```
-DHCSlotId[]: [
-  DHC-BHB-PLASMA,           // непрерывная, ммоль/л
-  DHC-NEFA-SERUM,           // непрерывная, мэкв/л
-  DHC-GLUCOSE-SERUM,        // непрерывная, ммоль/л
-  DHC-BODY-CONDITION-SCORE, // ординальная, 1–5, compareOnly=true
-  DHC-RETAINED-PLACENTA,    // категориальная, {да, нет}
-  DHC-DISPLACED-ABOMASUM    // категориальная, {да, нет}
-]
-```
-
-**Step 2 — Закрепление governance и метода:**
-
-```
-CNSpecRef.edition: NASEM-2021.v2
-CGSpecRef.edition: CG-METABOLIC-2024.v1
-DHCMethodSpecRef.edition: DHC-METABOLIC-METHOD-2024.v1
-DHCMethodRef.edition: DHC-METABOLIC-CALC-2024.v1
-```
-
-**Step 3 — Вычисление строк (run-time):**
-
-```
-DHCRow_2026-01: ⟨
-  DHCSlotId: DHC-BHB-PLASMA,
-  value: 0.85, units: ммоль/л,
-  stance: pass,              // < 1.0 по POLICY-BHB-THRESHOLD
-  PathSliceId: [Slice_Jan2026_TP]
-⟩
-
-DHCRow_2026-01: ⟨
-  DHCSlotId: DHC-BODY-CONDITION-SCORE,
-  value: 3,
-  compareOnly: true,         // НЕЛЬЗЯ усреднять!
-  stance: pass,
-  PathSliceId: [Slice_Jan2026_TP]
-⟩
-```
-
-**Step 4 — Создание DashboardSlice (вид):**
-
-```
-DashboardSliceId: DS-METABOLIC-2026-Q1
-DHCSeriesId: [DS-METABOLIC-2026]
-SliceAnnotations: {
-  title: "Метаболическое здоровье, переходный период, Q1 2026",
-  note: "BCS — ординальная шкала, медиана = 3.0, IQR = [2.5, 3.5]"
-}
-IncludedRowIds: [Row_001, Row_002, ..., Row_120]
-```
-
-**Что видит пользователь:**
-
-- График BHB по неделям (непрерывная — можно тренд).
-- Гистограмма BCS (ординальная — частоты, не среднее).
-- Таблица частот: РП/смещение сычуга (категориальная — проценты).
-- **Нет «Индекса здоровья».** Нет «среднего BCS». Нет «нормализованного скора» без метода.
-
-## 6. Практическое применение: с чего начать
-**Шаг 1. Перечислите показатели.**
-Какие показатели вы сейчас отслеживаете на ферме? Для каждого определите шкалу: непрерывная, интервальная, ординальная, категориальная.
-
-**Шаг 2. Проверьте арифметику.**
-Где вы усредняете? Где складываете? Если среднее берётся от ординальной или категориальной шкалы — это illicit arithmetic. Замените на медиану, распределение или частоты.
-
-**Шаг 3. Закрепите методы.**
-Для каждого показателя запишите: как он вычисляется, какая редакция метода, какая редакция NASEM/CG. Это `DHCMethodSpecRef.edition`.
-
-**Шаг 4. Привяжите evidence.**
-Каждое значение на дашборде должно иметь `PathSliceId` — откуда взяты данные. Если данных нет — `stance: abstain`, не ноль.
-
-**Шаг 5. Проверьте виды.**
-Убедитесь, что `DashboardSlice` не вводит новой агрегации. Это проекция, не вычисление.
-
-## 7. Проверь себя
-| Вопрос | Если ответ «не знаю» — проблема |
-|---|---|
-| Усредняете ли вы класс тела (BCS) или другие ординальные шкалы? | Illicit Arithmetic |
-| Есть ли на вашем дашборде «индексы» или «скоры» без метода расчёта? | Scalar Winner / Shadow Spec |
-| Можете ли вы для каждой цифры на дашборде указать источник данных? | Hidden Re-aggregation |
-| Изменился ли метод расчёта показателя за последние 2 года? | Edition Drift |
-| Используете ли вы слово «последнее» без явной даты? | Implicit Latest |
-| Показывает ли дашборд «нормы», которых нет в NASEM/CG? | Shadow Spec |
-
-## 8. Связь с другими паттернами
-| Паттерн | Связь |
-|---|---|
-| C.21 (DHC Slots) | определяет, какие DHC-слоты законны; G.12 превращает их в вычисляемые ряды. |
-| G.Core | три-state guards, `GCorePinSetId.PartG.CrossingVisibilityPins`, UTS/Path дисциплина. |
-| G.6 (EvidenceGraph) | `PathSliceId[]` и `EvidenceGraphId` для трассировки каждого значения. |
-| G.7 (Bridge Sentinels) | при кросс-контекстном использовании данных требуются `CrossingPins`. |
-| G.11 (Refresh Orchestrator) | `DHCTelemetryPin` эмитирует RSCR-триггеры для slice-scoped refresh. |
-| G.10 (Shipping) | `DashboardSliceId` может включаться в shipped pack. |
-| A.19 / G.0 | governance card и legality gate; дашборд не вводит локальных «норм». |
 ---
 
-*Capture создан в рамках изучения FPF.*
+## 2. История одной ошибки
+
+Хозяйство внедрило dashboard метаболического здоровья. Один из показателей — «средний уровень риска кетоза» — строился по ординальной шкале риска, и система вычисляла среднее. Никто не заметил, что ординальная шкала не допускает усреднения. Руководство принимало решения на основе тренда «среднего риска», который математически не имел смысла. G.12 мог бы запретить такую агрегацию через legality matrix.
+
+---
+
+## 3. DHC Dashboards — полное описание
+
+### 3.1 Определение
+
+**DHC Dashboards** — это паттерн, который определяет dashboard kit surfaces (DHCSeries@Context, DHCRow@Context, DashboardSlice@Context, DHCTelemetryPin) для вычисления и публикации discipline-health time series, привязанных к C.21 slots, с evidence paths и edition-aware refresh.
+
+### 3.2 Почему это важно
+
+Dashboards часто смешивают шкалы, скрывают нормализацию и превращают множественные результаты в scalar headlines. G.12 запрещает недопустимую арифметику, требует pinned method editions и сохраняет set-return semantics. Это делает dashboards auditable и refreshable.
+
+### 3.3 DHCSeries@Context
+
+**Определение.** DHCSeries@Context — это UTS-published time series для заданного Discipline × ContextSlice, построенная из C.21 DHC slots и привязанная к method/spec editions.
+
+**Пояснение.** Series фиксирует TargetSlice (USM tuple), DHCSlotId[], DHCMethodSpecRef.edition, WindowSpec и ReferencePlane. Она не содержит interpretation thresholds; они живут в CAL.
+
+**Пример из животноводства.**
+
+```text
+DS-001: DHCSeries@Context
+  - TargetSlice: FarmA, Holstein, transition_period
+  - DHCSlotId: [SLOT-001 BHB, SLOT-002 BCS, SLOT-003 ReproducibilityRate]
+  - DHCMethodSpecRef.edition: 1.3
+  - CNSpecRef.edition: 1.2
+  - CGSpecRef.edition: 1.0
+  - WindowSpec: 7-day rolling
+```
+
+**Ключевой признак.** DHCSeries содержит TargetSlice, DHCSlotId[], method/spec editions и ReferencePlane.
+
+### 3.4 DHCRow@Context
+
+**Определение.** DHCRow@Context — это одна временная точка/окно в DHCSeries с value, scale/unit, stance (pass/degrade/abstain), method editions и PathSliceId.
+
+**Пояснение.** Каждая строка — это run-time Work/Audit-citable artefact. Stance не означает acceptance decision; он показывает, может ли строка быть вычислена/доверена при текущих evidence.
+
+**Пример из животноводства.**
+
+```text
+DR-001: DHCRow@Context
+  - DHCSeriesId: DS-001
+  - Γ_time: 2026-06-19
+  - DHCSlotId: SLOT-001 BHB
+  - value: 1.1
+  - units: mmol/L
+  - stance: pass
+  - DHCMethodRef.edition: 2.1
+  - PathSliceId: [PS-001]
+```
+
+**Ключевой признак.** DHCRow имеет value, stance, method edition и PathSliceId.
+
+### 3.5 DashboardSlice@Context
+
+**Определение.** DashboardSlice@Context — это view-only grouping over DHCSeries/DHCRow. Она не вводит новой агрегации или legality semantics.
+
+**Пояснение.** Slice — это проекция уже вычисленных строк. Она может группировать, аннотировать и визуализировать, но не может пересчитывать значения или изменять scale legality.
+
+**Пример из животноводства.**
+
+```text
+DASH-001: DashboardSlice@Context
+  - DHCSeriesId: [DS-001]
+  - IncludedRowIds: [DR-001, DR-002, DR-003]
+  - SliceAnnotations: «BHB trend, FarmA, June 2026»
+```
+
+**Ключевой признак.** DashboardSlice содержит series/row ids и annotations; не содержит operators.
+
+### 3.6 DHCTelemetryPin
+
+**Определение.** DHCTelemetryPin — это emitted refresh input с canonical RSCRTriggerKindId, scope (PathSliceId/PatternScopeId) и payload pins (editions, policies, UTS row ids).
+
+**Пояснение.** DHCTelemetryPin позволяет G.11 планировать slice-scoped refresh. Он не является частью dashboard view; он — wiring pin.
+
+**Пример из животноводства.**
+
+```text
+TP-001: DHCTelemetryPin
+  - triggerKindId: EditionPinChange
+  - scope: PS-001
+  - payloadPins: {DHCMethodRef.edition=2.1→2.2, policy-id=POL-003}
+```
+
+**Ключевой признак.** DHCTelemetryPin несёт canonical trigger kind, scope и payload pins.
+
+### 3.7 No illicit arithmetic
+
+**Определение.** Dashboard pipeline не должен выполнять недопустимую арифметику над ординальными или категориальными шкалами; любая операция должна быть разрешена CN-Spec/CG-Spec и ссылаться на scale-legal operator.
+
+**Пояснение.** «Средний уровень зрелости» или «средний BCS» — типичные ошибки. G.12 требует, чтобы каждая агрегация была явно разрешена и имела operator id.
+
+**Пример из животноводства.** Для BHB (ratio scale) допустим weekly mean. Для BCS (ordinal scale) допустима только медиана или rank comparison; mean запрещён.
+
+**Ключевой признак.** Каждая числовая операция имеет scale-legal operator ref и SCP permission.
+
+### 3.8 Set-return preserved
+
+**Определение.** Если dashboard потребляет selector set-result outputs, он должен сохранять set-return semantics; scalar headline — это view projection, не legality-bearing decision.
+
+**Пояснение.** Dashboard может визуализировать Pareto-архив или shortlist, но не должен скрыто выбирать «победителя». Любое продвижение telemetry в dominance требует CAL policy id.
+
+**Пример из животноводства.** Dashboard показывает Pareto-набор методов профилактики кетоза по осям cost/efficacy. Он не может объявить «лучший метод» без CAL policy.
+
+**Ключевой признак.** Selector-derived dashboard panels сохраняют множественность и цитируют DominanceRegime/PortfolioMode defaults.
+
+---
+
+## 4. Почему смешивать / игнорировать — значит рисковать
+
+Рассмотрим типичное смешанное утверждение:
+
+> *«На дашборде видно, что средний риск кетоза снизился.»*
+
+**Разложение по G.12:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
+|---|---|---|
+| «средний риск» | illicit arithmetic | Риск — ординальная/категориальная шкала; mean недопустим |
+| «снизился» | trend claim | Требует pinned method edition и Γ_time |
+| «на дашборде» | DashboardSlice | View-only projection |
+
+**Основные риски смешивания:**
+
+1. **Ложная тенденция.** Среднее по ординальной шкале создаёт видимость тренда.
+2. **Edition drift.** Без pinned method edition изменение метода выглядит как изменение phenomenon.
+3. **Telemetry→dominance.** Trend превращается в решение безявной политики.
+
+---
+
+## 5. Как это выглядит на ферме: правильное применение
+
+**Ситуация:** dashboard метаболического здоровья для переходного периода.
+
+**Было (смешанное / нечёткое):**
+> «Средний риск кетоза по стаду за месяц.»
+
+**Стало (разложенное / ясное):**
+
+**DHCSeries DS-001:**
+> TargetSlice = FarmA, Holstein, transition_period
+> DHCSlotId = [SLOT-001 BHB, SLOT-002 BCS]
+> DHCMethodSpecRef.edition = 1.3
+
+**DHCRow DR-001:**
+> Γ_time = 2026-06-19, SLOT-001 BHB, value 1.1, stance pass, PathSliceId PS-001.
+
+**DHCRow DR-002:**
+> Γ_time = 2026-06-19, SLOT-002 BCS, value median=3, stance pass, PathSliceId PS-002.
+
+**DashboardSlice DASH-001:**
+> series DS-001, rows DR-001..DR-030, annotation «BHB trend, FarmA, June 2026».
+
+**DHCTelemetryPin TP-001:**
+> EditionPinChange, scope PS-001, payload DHCMethodRef.edition.
+
+**Результат:**
+- Каждая точка привязана к методу и evidence path.
+- Ординальные шкалы не усредняются.
+- Refresh возможен по slice.
+
+---
+
+## 6. Практическое применение: с чего начать
+
+**Шаг 1.** Выберите DHCSlotId[] из C.21 для вашей дисциплины.
+
+**Шаг 2.** Определите TargetSlice, ReferencePlane и Γ_time regime.
+
+**Шаг 3.** Закрепите DHCMethodSpecRef.edition и DHCMethodRef.edition для каждого slot.
+
+**Шаг 4.** Вычисляйте rows, используя scale-legal operators, и сохраняйте PathSliceId.
+
+**Шаг 5.** Публикуйте DashboardSlice как view-only projection и emit DHCTelemetryPin для G.11.
+
+---
+
+## 7. Проверь себя
+
+| Вопрос | Если ответ «да» — проблема |
+|---|---|
+| Dashboard выполняет арифметику над ординальными шкалами? | Нарушение no-illicit-arithmetic. |
+| DHCRow не содержит PathSliceId? | Значение не проверяемо. |
+| Method edition не закреплён? | Невозможно отличить тренд от drift. |
+| DashboardSlice пересчитывает значения? | Slice должна быть view-only. |
+| Telemetry не keyed by PathSliceId? | Refresh становится глобальным. |
+
+---
+
+## 8. Связь с другими паттернами
+
+| Паттерн | Связь |
+|---|---|
+| C.21 | определяет DHC slots и методы |
+| G.3 CHR Authoring | предоставляет характеристики и шкалы для DHCSlotId |
+| G.6 Evidence Graph | предоставляет PathSliceId для rows |
+| G.11 Telemetry Refresh | потребляет DHCTelemetryPin |
+| G.Core | гарантирует set-return, no-illicit-arithmetic и default citation |
+
+---
+
+## 9. Что запомнить
+
+1. DHC Dashboards строятся из C.21 DHC slots.
+2. Каждая DHCRow pinned к method edition и PathSliceId.
+3. DashboardSlice — view-only projection, не пересчитывает значения.
+4. Ординальные/категориальные шкалы не допускают illicit arithmetic.
+5. DHCTelemetryPin делает dashboards refreshable через G.11.
+
+---
+
+*Capture создан в рамках изучения Part G FPF.*
 *FPF Source: FPF/FPF-Spec.md §G.12*

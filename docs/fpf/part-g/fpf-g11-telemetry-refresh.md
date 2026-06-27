@@ -1,249 +1,240 @@
 ---
 type: fpf-study
 pattern: G.11
-title: "Telemetry-Driven Refresh: как обновлять знание, не пересчитывая всё"
+title: "Telemetry-Driven Refresh: выборочное обновление SoTA-упаковок"
 domain: cattle-science
 difficulty: advanced
-reading_time: 18 min
-created: 2026-05-26
+reading_time: 28 min
+created: 2026-06-27
+fpf_context: ["G.11", "G.Core", "G.6", "G.7", "G.10", "G.12"]
 ---
 
-# G.11 — Telemetry-Driven Refresh: как обновлять знание, не пересчитывая всё
+# G.11 — Telemetry-Driven Refresh: выборочное обновление SoTA-упаковок
+
+> **Цель capture:** объяснить, как паттерн G.11 превращает telemetry, edition drift и bridge evolution в slice-scoped refresh plans и reports, избегая полной перестройки SoTA-упаковок.
+
+---
 
 ## 1. Зачем это читать
-Если вы когда-нибудь слышали на ферме фразу *«вышла новая версия NASEM — давайте всё пересчитаем»* — вы столкнулись с проблемой G.11. Этот паттерн не про то, **когда обновлять**. Он про то, **что именно обновлять, почему, и как делать это целенаправленно, а не методом «всё снести и построить заново»**.
 
-В мире software это называется selective re-computation: при изменении одной библиотеки пересобирается только то, что от неё зависит. В мире ферм — при выходе NASEM-2025 не нужно переписывать все протоколы. Нужно понять: **какие расчёты затронуты, какие evidence-пути изменились, какие pack требуют обновления**.
+В скотоводстве знание и методы быстро устаревают: появляются новые исследования по кетозу, меняются пороги BHB, обновляются лабораторные протоколы, пересматриваются рекомендации по кормлению. Без явного refresh orchestration команда либо перестраивает всё после каждого малого изменения, либо продолжает использовать устаревшие pack'и. G.11 предлагает orchestration kit, который планирует выборочные обновления на основе typed RSCR triggers.
 
-**Без G.11:** либо всё устаревает молча, либо каждое изменение вызывает глобальный пересчёт, который невозможно аудитировать.
+> **FPF-тезис:** *«Обновление должно быть таким же scoped и auditable, как и первоначальное создание pack'а.»*
 
-**С G.11:** телеметрия → очередь обновления → выборочный пересчёт → публикация новой редакции. Каждый шаг отслеживается, каждый шаг обоснован.
+**Фермерский пример:**
 
-## 2. История одной ошибки
-Ферма «Орловское» использовала NASEM-2001 для расчёта энергетических потребностей дойного стада. В 2021 году вышла NASEM-2021 с обновлёнными коэффициентами переваримости и новой моделью предсказания сухого вещества.
+> В лаборатории обновился протокол измерения BHB. Без G.11 команда могла бы пересобрать все отчёты, дашборды и parity-отчёты. G.11 находит PathSliceId, затронутые этим изменением, и планирует refresh только для них, оставляя остальные pack'и неизменными.
 
-Зоотехник сказал: «Нужно всё пересчитать». И начал:
-
-- Пересчитал **все** рационы для **всех** групп — от телок до высокопродуктивных.
-- Обновил **все** протоколы переходного периода.
-- Пересмотрел **все** нормы минералов и витаминов.
-- Потратил три месяца.
-
-Аудит через полгода показал:
-
-- NASEM-2021 **значимо изменила** только модель для **высокопродуктивных коров > 45 кг молока** и **коэффициенты для кукурузного силоса**.
-- Рационы для сухостойных и телок **не изменились** существенно — но их тоже пересчитали.
-- При пересчёте **не было зафиксировано**, какие именно коэффициенты изменились, и почему принято то или иное решение.
-- Несколько протоколов **были обновлены ошибочно** — потому что пересчитывали всё подряд, а не по мере необходимости.
-
-FPF G.11 говорит: *не «пересчитывай всё», а «пересчитывай только то, что затронуто, и документируй почему»*.
-
-## 3. Telemetry-Driven Refresh: как обновлять знание, не пересчитывая всё — полное описание
-### 3.1 RSCR-Trigger — триггер обновления
-`RSCRTrigger` (Refresh / Selective Computation / Re-publication Trigger) — это **типизированная причина обновления** с каноническим идентификатором, областью действия и полезными штифтами.
-
-Типичные триггеры в cattle-science:
-
-| Trigger Kind | Что случилось | Пример |
-|---|---|---|
-| `EvidenceSurfaceEdit` | Изменилась evidence-поверхность | Новое исследование по кетозу опубликовано в PubMed |
-| `EditionPinChange` | Вышла новая редакция спецификации | NASEM-2025 заменяет NASEM-2021 |
-| `PolicyPinChange` | Изменилась политика | Новый порог BHB на ферме |
-| `TelemetryDelta` | Изменилась телеметрия | Показатели мастита за квартал отклонились от baseline |
-| `FreshnessOrDecayEvent` | Окно свежести истекло | Данные 2023 года больше не считаются свежими |
-| `CrossingBundleEdit` | Изменился мост между контекстами | Новая ферма вошла в холдинг, требуется перекалибровка Bridge |
-| `BaselineBindingEdit` | Изменилась базовая линия | Золотой стандарт диагностики заменён на новый |
-
-**Ключевой принцип:** триггер несёт **канонический id**, а не текстовое описание («вышла новая NASEM»). Это позволяет машине понять, что делать, а человеку — аудитировать.
-
-### 3.2 RefreshQueue — очередь на обновление
-`RefreshQueue` — концептуальная очередь кандидатов на обновление, ключированная по `PathSliceId` или `PatternScopeId`.
-
-```
-RefreshQueueItem := ⟨
-  QueueItemId,
-  scope: PathSliceId[] | PatternScopeId,
-  triggerKindId: RSCRTriggerKindId,
-  payloadPins: {EditionPins, PolicyPins, UTS/Path pins},
-  priority?,  // policy-bound
-  batchTag?   // для группировки
-⟩
-```
-
-**На ферме:** при выходе NASEM-2025 очередь получает элементы:
-
-- `PathSliceId: RATION-HIGH-YIELD-2024` → `EditionPinChange: NASEM-2001→2025`
-- `PathSliceId: RATION-DRY-COW-2024` → `TelemetryDelta: разница < 2%, отложить`
-- `PathSliceId: PROTOCOL-TRANSITION-2024` → `EvidenceSurfaceEdit: новое исследование по DCAD`
-
-### 3.3 RefreshPlan@Context — план обновления
-`RefreshPlan@Context` — это **WorkPlanning-объект**, который объявляет, что будет обновлено, но **не выполняет Work** и **не принимает gate-решения**.
-
-```
-RefreshPlan@Context := ⟨
-  RefreshPlanId,
-  describedEntity, ReferencePlane,
-  TargetScope := PathSliceId[] | PatternScopeId[],
-  PlannedTriggers := RSCRTrigger[],
-  PlannedActions := RefreshAction[],
-  RequiredPins := {EditionPins, PolicyPins, UTS/Path pins},
-  PlanItemRefs := SlotFillingsPlanItemRef[]?
-⟩
-```
-
-**Действия (RefreshAction):**
-
-| Действие | Делегируется |
-|---|---|
-| `RerunHarvest` | G.2 / G.1 |
-| `RerunParity` | G.9 |
-| `RecomputeSelectionOrSetSurface` | G.5 |
-| `RebindBridgeOrCrossing` | G.7 |
-| `UpdateEvidenceBindings` | G.6 |
-| `ReshipPack` | G.10 |
-| `UpdateDashboardSlice` | G.12 |
-| `EmitDeprecationNotice` | G.11 (локально) |
-
-### 3.4 RefreshReport@Context — отчёт об обновлении
-```
-RefreshReport@Context := ⟨
-  RefreshReportId,
-  ExecutedActions[]
-    → ссылки на новые артефакты (ParityReportId, PackId и т.д.)
-  ObservedDeltas
-    → telemetry deltas, legality changes, evidence-path changes
-  RSCRRefs[]
-    → задействованные RSCR/regression harness
-  EmittedNotices[]
-    → DeprecationNoticeId[], EditionBumpLogId[]
-⟩
-```
-
-**На ферме:** после обновления NASEM-2001 → NASEM-2025 отчёт говорит:
-
-- «Обновлены рационы для групп ВЫСОКАЯ и СРЕДНЯЯ (12 PathSlice). Рационы СУХОСТОЙНЫХ — без изменений (delta < ε). Протокол переходного периода — дополнен разделом DCAD (новое evidence). Отчёт опубликован как RRPT-2026-001».
-
-## 4. Почему смешивать / игнорировать — значит рисковать
-| Антипаттерн | Проявление на ферме | Почему опасно | Как исправить |
-|---|---|---|---|
-| **Full-Rerun Mania** | «Вышла NASEM-2025 — пересчитываем всё» | Тратятся ресурсы на неизменённое; риск внесения ошибок | Scope closure: считать минимальное замыкание зависимостей |
-| **Editionless Telemetry** | «Показатели изменились» — без указания редакции | Невозможно воспроизвести или сравнить | Каждый сигнал несёт `…Ref.edition` |
-| **Alias-as-Semantics** | «Триггер Т3 сработал» — без канонического id | Фрагментация семантики; разные команды понимают по-разному | Использовать `RSCRTriggerKindId` из `G.Core` |
-| **Silent Crossings** | Обновление меняет контекстные предположения без видимого CrossingBundle | Результат неприменим в другом контексте | Публиковать `CrossingBundle` при каждом обновлении |
-| **Orchestration Smuggling** | «Для удобства» вводятся новые правила доминирования | Скрытая фрагментация спецификации | Политики — только через `PolicyId`, не через «удобство» |
-| **Audit-Only Posture** | «Мы не обновляем, просто фиксируем устаревание» | Растёт эпистемический долг; решения принимаются на невалидных данных | RefreshQueue + RefreshPlan с планированием обновлений |
-
-## 5. Как это выглядит на ферме: выход NASEM-2025
-**Контекст:** Ферма «Орловское», 1500 голов, использует NASEM-2001 + дополнения. В январе 2026 выходит NASEM-2025.
-
-**Step 1 — Ingestion (приём триггеров):**
-
-```
-RSCRTrigger := ⟨
-  triggerKindId: RSCRTriggerKindId.EditionPinChange,
-  scope: PatternScopeId.NASEM-BASED-RATIONS-2024,
-  payloadPins: {
-    oldEdition: NASEM-2001.v2,
-    newEdition: NASEM-2025.v1,
-    affectedCharacteristicIds: [ENERGY-REQ, DMI-PREDICTION, FATTY-ACID-PROFILE],
-    sourcePath: PathSliceId_2026_01_NASEM_RELEASE
-  }
-⟩
-```
-
-**Step 2 — Scope Closure (замыкание зависимостей):**
-
-Система анализирует EvidenceGraph и находит все PathSlice, которые зависят от NASEM-2001:
-
-- `RATION-HIGH-YIELD-2024` → зависит от ENERGY-REQ, DMI-PREDICTION → **включить**
-- `RATION-MEDIUM-YIELD-2024` → зависит от ENERGY-REQ → **включить**
-- `RATION-DRY-COW-2024` → зависит от ENERGY-REQ, но FATTY-ACID-PROFILE не используется → **проверить delta**
-- `RATION-HEIFER-2024` → не зависит от изменённых характеристик → **исключить**
-- `PROTOCOL-TRANSITION-2024` → зависит от DCAD → **включить** (новое evidence в NASEM-2025)
-
-**Step 3 — Planning (формирование плана):**
-
-```
-RefreshPlanId: RPLAN-2026-NASEM-001
-TargetScope: [
-  PathSliceId.RATION-HIGH-YIELD-2024,
-  PathSliceId.RATION-MEDIUM-YIELD-2024,
-  PathSliceId.PROTOCOL-TRANSITION-2024
-]
-PlannedTriggers: [RSCR-2026-001]
-PlannedActions: [
-  RecomputeSelectionOrSetSurface (G.5) для рационов,
-  UpdateEvidenceBindings (G.6) для протокола,
-  ReshipPack (G.10) для обновлённых pack
-]
-RequiredPins: {
-  NASEM-2025.v1,
-  POLICY-ENERGY-CALC.v3,
-  UTS-ROW-2026-001
-}
-```
-
-**Step 4 — Execution + Audit:**
-
-Выполнение фиксируется как Work:
-
-- Дата: 2026-02-15
-- Исполнитель: `Petrova#NutritionistRole:Orlovskoye`
-- Действия: пересчёт рационов, обновление evidence, переиздание pack
-- Результат: `RefreshReportId: RRPT-2026-001`
-
-**Step 5 — Deprecation + Edition Bump:**
-
-```
-DeprecationNoticeId: DEP-2026-001
-  scope: RATION-HIGH-YIELD-2024 (old edition)
-  reason: EditionPinChange (NASEM-2001 → NASEM-2025)
-  successor: RATION-HIGH-YIELD-2026
-
-EditionBumpLogId: EBL-2026-001
-  oldEdition: NASEM-2001.v2
-  newEdition: NASEM-2025.v1
-  justification: RSCR-2026-001
-```
-
-## 6. Практическое применение: с чего начать
-**Шаг 1. Выберите один источник изменений.**
-Что у вас регулярно меняется? Новые редакции NASEM? Сезонные данные? Изменения в стаде? Выберите один источник и опишите его как `RSCRTriggerKindId`.
-
-**Шаг 2. Найдите зависимости.**
-Возьмите один протокол или рацион. Какие evidence-пути от него ведут к изменяемому источнику? Запишите `PathSliceId`.
-
-**Шаг 3. Сформируйте RefreshPlan.**
-Не выполняйте обновление сразу. Сначала создайте план: что обновляется, почему, какие штифты нужны. Это `RefreshPlan@Context`.
-
-**Шаг 4. Выполните и зафиксируйте.**
-Сделайте обновление. Запишите результат как `RefreshReport@Context` с `ExecutedActions`, `ObservedDeltas`, `RSCRRefs`.
-
-**Шаг 5. Опубликуйте DeprecationNotice.**
-Если старая версия протокола устаревает — опубликуйте уведомление с указанием причины и преемника. Это предотвращает использование устаревших данных.
-
-## 7. Проверь себя
-| Вопрос | Если ответ «не знаю» — проблема |
-|---|---|
-| При выходе новой NASEM вы пересчитываете всё или только затронутое? | Full-Rerun Mania |
-| Знаете ли вы, какие именно PathSlice зависят от NASEM-2001? | Отсутствие EvidenceGraph |
-| Фиксируете ли вы причины обновления с каноническими id? | Alias-as-Semantics |
-| Можете ли вы через год воспроизвести, почему был обновлён конкретный протокол? | Отсутствие RefreshReport |
-| Публикуете ли вы уведомления об устаревании старых версий? | Audit-Only Posture |
-| Проверяете ли вы, что обновление не меняет контекстных предположений скрытно? | Silent Crossings |
-
-## 8. Связь с другими паттернами
-| Паттерн | Связь |
-|---|---|
-| G.Core | каталог RSCR-триггеров, `TriggerAliasMap`, Default Governing Definition Index. |
-| G.6 (EvidenceGraph) | `PathId/PathSliceId` — основа scope closure. |
-| G.7 (Bridge Sentinels) | при обновлении Bridge/CL/Φ требуется `RebindBridgeOrCrossing`. |
-| G.9 (Parity Harness) | parity rerun может быть запланирован через RefreshPlan. |
-| G.10 (Shipping) | `ReshipPack` — одно из действий обновления. |
-| G.12 (Dashboards) | `UpdateDashboardSlice` — обновление срезов дашбордов. |
-| B.3.4 (Freshness/Decay) | триггеры `FreshnessOrDecayEvent` поступают отсюда. |
-| A.15 (Role–Method–Work) | выполнение RefreshPlan — это Work с трассировкой. |
 ---
 
-*Capture создан в рамках изучения FPF.*
+## 2. История одной ошибки
+
+Хозяйство использовало систему мониторинга метаболического статуса. Когда вышло новое исследование, изменившее рекомендуемый порог BHB, IT-отдел запустил полную перестройку всех dashboard'ов, parity reports и recommendation packs. Процесс занял две недели, и часть pack'ов была случайно пересобрана на новых данных, а часть — на старых. В результате фермер получил противоречивые рекомендации. G.11 мог бы создать slice-scoped RefreshPlan и обновить только affected slices.
+
+---
+
+## 3. Telemetry-Driven Refresh — полное описание
+
+### 3.1 Определение
+
+**Telemetry-Driven Refresh** — это паттерн, который превращает typed RSCR triggers в scoped RefreshPlan@Context и RefreshReport@Context, публикует DeprecationNotice@Context и EditionBumpLog@Context, и координирует downstream actions через делегирование governing patterns.
+
+### 3.2 Почему это важно
+
+Полная перестройка SoTA-pack'ов при любом изменении непрактична и рискованна. С другой стороны, игнорирование drift приводит к использованию устаревших решений. G.11 находит баланс: вычисляет минимальную dependency closure, планирует обновление и публикует auditable report.
+
+### 3.3 RefreshQueue
+
+**Определение.** RefreshQueue — это очередь refresh-кандидатов, keyed by PathSliceId (preferred) или PatternScopeId, каждый из которых несёт канонический RSCRTriggerKindId.
+
+**Пояснение.** RefreshQueue не выполняет действия; она накапливает триггеры для планирования. Ordering и prioritization — policy-bound, но каждый item должен иметь канонический trigger kind.
+
+**Пример из животноводства.**
+
+```text
+RefreshQueue:
+  - item 1: PathSliceId PS-001, trigger EditionPinChange, payload DHCMethodRef.edition
+  - item 2: PathSliceId PS-002, trigger PolicyPinChange, payload Φ(CL)=POL-001
+  - item 3: PathSliceId PS-003, trigger TelemetryDelta, payload illumination
+```
+
+**Ключевой признак.** Queue items содержат canonical RSCRTriggerKindId и scope.
+
+### 3.4 RefreshPlan@Context
+
+**Определение.** RefreshPlan@Context — это WorkPlanning plan item, который декларирует scope, planned triggers, planned actions и required pins. Он не выполняет Work.
+
+**Пояснение.** RefreshPlan разделяет планирование и исполнение. Он указывает, какие slices затронуты, какие actions делегируются каким паттернам, и какие pins нужны для rerun.
+
+**Пример из животноводства.**
+
+```text
+RP-001: RefreshPlan@Context
+  - TargetScope: [PS-001, PS-002]
+  - PlannedTriggers: [EditionPinChange, PolicyPinChange]
+  - PlannedActions:
+    - RecomputeSelectionOrSetPublication → G.5
+    - UpdateEvidenceBindings → G.6
+    - ReshipPack → G.10
+  - RequiredPins: {DHCMethodRef.edition, Φ(CL)=POL-001, PathSliceId[]}
+```
+
+**Ключевой признак.** RefreshPlan — planning object с делегированием actions; не содержит gate decisions.
+
+### 3.5 RefreshReport@Context
+
+**Определение.** RefreshReport@Context — это Work или Audit artefact, фиксирующий executed actions, observed deltas, RSCR refs, emitted notices и canonical trigger kinds.
+
+**Пояснение.** RefreshReport отвечает на вопрос: «Что было сделано и почему?» Он связывает действия с триггерами и evidence.
+
+**Пример из животноводства.**
+
+```text
+RR-001: RefreshReport@Context
+  - ExecutedActions:
+    - G.5 recompute → new selector outcome REF-002
+    - G.10 reship → PACK-002
+  - ObservedDeltas: DHCMethodRef.edition 2.1 → 2.2
+  - RSCRRefs: [RSCR-001]
+  - EmittedNotices: [EditionBumpLog EBL-001]
+```
+
+**Ключевой признак.** RefreshReport содержит executed actions, deltas, RSCR refs и emitted notices.
+
+### 3.6 DeprecationNotice и EditionBumpLog
+
+**Определение.** DeprecationNotice@Context — это controlled-evolution artefact, который объясняет scope, reason class и successor refs для deprecated artefact'ов. EditionBumpLog@Context — это запись edition increment и pins, которые его обосновывают.
+
+**Пояснение.** Эти artefacts сохраняют ID-continuity. Вместо удаления старого понятия или порога система публикует deprecation или bump, чтобы старые pack'и оставались интерпретируемыми.
+
+**Пример из животноводства.**
+
+```text
+EBL-001: EditionBumpLog
+  - artefact: DHCMethodRef BHB measurement
+  - old edition: 2.1
+  - new edition: 2.2
+  - reason: RSCRTriggerKindId.EditionPinChange
+  - affectedPathSliceIds: [PS-001, PS-002]
+
+DN-001: DeprecationNotice
+  - artefact: AC-001 (BHB ≥ 1.2)
+  - reason: new evidence suggests threshold 1.0
+  - successor: AC-002
+```
+
+**Ключевой признак.** DeprecationNotice и EditionBumpLog содержат reason class, scope и successor refs.
+
+### 3.7 Scope closure
+
+**Определение.** Scope closure — это минимальная dependency closure over cited evidence, source relations, crossings и pinned references, которая определяет affected slices.
+
+**Пояснение.** Closure — это planning-time claim, не Work-time output. Она гарантирует, что refresh не слишком узок (пропускает зависимости) и не слишком широк (перестраивает всё).
+
+**Пример из животноводства.** Изменение DHCMethodRef для BHB затрагивает: observation nodes в EG-001, acceptance clauses AC-001 и AC-002, dashboard rows PS-001, parity report PR-001. Closure не затрагивает, например, копытное здоровье, если BHB не используется там.
+
+**Ключевой признак.** Closure rationale фиксируется в RefreshPlan.
+
+---
+
+## 4. Почему смешивать / игнорировать — значит рисковать
+
+Рассмотрим типичное смешанное утверждение:
+
+> *«Поменялся порог BHB, пересоберём все отчёты.»*
+
+**Разложение по G.11:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
+|---|---|---|
+| «поменялся порог BHB» | RSCRTriggerKindId.EditionPinChange | Нужен canonical trigger и payload pins |
+| «пересоберём все отчёты» | full-rerun | Требуется closure rationale; обычно избыточно |
+
+**Основные риски смешивания:**
+
+1. **Full-rerun mania.** Любое изменение влечёт дорогую перестройку.
+2. **Editionless refresh.** Обновление происходит без фиксации edition pins.
+3. **Alias-as-semantics.** Текстовые причины вместо canonical trigger kinds.
+
+---
+
+## 5. Как это выглядит на ферме: правильное применение
+
+**Ситуация:** обновление порога BHB и его влияние на pack.
+
+**Было (смешанное / нечёткое):**
+> «Порог BHB поменялся, пересоберём отчёты.»
+
+**Стало (разложенное / ясное):**
+
+**Trigger:**
+> TR-001: RSCRTriggerKindId.EditionPinChange, payload {DHCMethodRef.edition 2.1→2.2}, scope PS-001.
+
+**Scope closure:**
+> PS-001 (dashboard rows), PS-002 (acceptance clauses), PS-003 (parity report).
+
+**RefreshPlan RP-001:**
+> TargetScope = [PS-001, PS-002, PS-003]
+> PlannedActions = [UpdateEvidenceBindings → G.6, RecomputeSelection → G.5, ReshipPack → G.10]
+
+**RefreshReport RR-001:**
+> ExecutedActions = [G.6 update, G.5 recompute, G.10 reship]
+> EmittedNotices = [EBL-001]
+
+**Результат:**
+- Обновление ограничено затронутыми slices.
+- Каждый шаг делегирован соответствующему паттерну.
+- ID-continuity сохранена через EditionBumpLog.
+
+---
+
+## 6. Практическое применение: с чего начать
+
+**Шаг 1.** Настройте ingestion канонических RSCR triggers из telemetry hooks, bridge sentinels и freshness events.
+
+**Шаг 2.** Вычислите scope closure over evidence, crossings и pinned refs.
+
+**Шаг 3.** Создайте RefreshPlan@Context с TargetScope, PlannedTriggers и PlannedActions.
+
+**Шаг 4.** Выполните actions как Work и опубликуйте RefreshReport@Context.
+
+**Шаг 5.** При необходимости опубликуйте DeprecationNotice или EditionBumpLog.
+
+---
+
+## 7. Проверь себя
+
+| Вопрос | Если ответ «да» — проблема |
+|---|---|
+| Refresh не scoped к PathSliceId? | Риск full-rerun и избыточных затрат. |
+| Триггеры используют локальные aliases вместо canonical ids? | Семантика размывается между командами. |
+| RefreshPlan содержит gate decisions? | Нарушено P2W boundary; planning ≠ work. |
+| RefreshReport не фиксирует RSCRRefs? | Невозможно проверить обоснование обновления. |
+| Изменения понятий не сопровождаются EditionBumpLog? | Теряется ID-continuity. |
+
+---
+
+## 8. Связь с другими паттернами
+
+| Паттерн | Связь |
+|---|---|
+| G.Core | предоставляет RSCR trigger catalogue и Default Governing Definition Index |
+| G.6 Evidence Graph | предоставляет PathId/PathSliceId для scope closure |
+| G.7 Bridge Calibration | отправляет sentinel triggers через BridgeSentinel |
+| G.10 SoTA Pack Shipping | получает ReshipPack action |
+| G.12 DHC Dashboards | предоставляет dashboard telemetry pins |
+
+---
+
+## 9. Что запомнить
+
+1. G.11 — thin orchestration kit для refresh; semantics делегируются другим паттернам.
+2. RefreshQueue и RefreshPlan@Context scoped to PathSliceId.
+3. Все triggers — canonical RSCRTriggerKindId; aliases — только labels.
+4. RefreshReport фиксирует actions, deltas, RSCR refs и notices.
+5. DeprecationNotice и EditionBumpLog сохраняют ID-continuity.
+
+---
+
+*Capture создан в рамках изучения Part G FPF.*
 *FPF Source: FPF/FPF-Spec.md §G.11*

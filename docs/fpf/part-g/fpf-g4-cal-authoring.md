@@ -1,265 +1,271 @@
 ---
 type: fpf-study
 pattern: G.4
-title: "CAL Authoring: законные операции, приёмка и свидетельства"
+title: "CAL Authoring: операторы, acceptance и пороги решений"
 domain: cattle-science
 difficulty: advanced
-reading_time: 20 min
-created: 2026-05-26
+reading_time: 28 min
+created: 2026-06-27
+fpf_context: ["G.4", "G.3", "G.5", "G.Core", "G.0"]
 ---
 
-# G.4 — CAL Authoring: законные операции, приёмка и свидетельства
+# G.4 — CAL Authoring: операторы, acceptance и пороги решений
+
+> **Цель capture:** объяснить, как в паттерне G.4 создаются операторы, acceptance clauses, flows, evidence profiles и proof ledger, и почему именно здесь живут пороги принятия решений.
+
+---
 
 ## 1. Зачем это читать
-Если вы когда-нибудь спрашивали: **«А можно ли усреднить BHB за неделю? А можно ли сравнить BHB с BCS? А что делать, если лаборатория не прислала результаты?»** — вы стоите на границе между CHR (типизированными измерениями) и CAL (законными операциями над ними).
 
-G.4 — это не «настройка формул в Excel». Это **аудируемая публикация операторов**, которые знают, какие CHR-типы они принимают, какие гарды проверяют, что считают приёмлемым, и к каким свидетельствам привязаны. Если CHR говорит «BHB — ratio, ммоль/л, полярность ↓», то CAL говорит: «Оператор WeeklyMean_BHB lawful при едином ReferencePlane и N ≥ 5. Оператор Compare_BHB_BCS — незаконен. Классификатор Acceptable_BHB — порог 1.2 ммоль/л, свежесть данных 48 часов, при пропуске — abstain».
+В скотоводстве измерения превращаются в действия только через пороги и правила: при BHB ≥ 1,2 начать профилактику, при удое ниже нормы — пересмотреть рацион. CAL (Computation and Acceptance Logic) — это паттерн, в котором эти правила формализуются. В отличие от CHR, который описывает, что измеряется, CAL говорит, какие значения требуют каких действий, и на каких основаниях.
 
-В мире ферм CAL — это **различие между протоколом и его имплементацией**, между «измерили» и «решили», между «похоже на правду» и «доказуемо приемлемо».
+> **FPF-тезис:** *«Пороги — это acceptance clauses в CAL, а не определения характеристик в CHR.»*
 
-## 2. История одной ошибки
-Ферма «Молочный берег» внедрила автоматическую систему раннего оповещения. Датчики молока измеряли BHB на каждой дойке. Система считала **среднее BHB за 3 дня** и, если оно превышало 1.0 ммоль/л, отправляла ветеринару алерт: «Корова в группе риска».
+**Фермерский пример:**
 
-Проблема 1: среднее BHB — это `CAL.Operator: RollingMean`. Но BHB измерялся с разной частотой: в дойке 2 раза в день, но если доярка пропускала дойку — данных не было. Система считала среднее по **имеющимся точкам**, не учитывая пропуски. Получался смещённый RollingMean — оператор не декларировал своё поведение при Missingness.
+> Ветеринар замеряет BHB коровы. Значение 1,4 ммоль/л само по себе не говорит, что делать. CAL-правило гласит: «Если BHB ≥ 1,2, то применить оральный пропиленгликоль; если BHB ≥ 1,4, то вызвать ветеринара». Пороги 1,2 и 1,4 живут в CAL, а BHB — в CHR.
 
-Проблема 2: порог 1.0 ммоль/л был выбран «по умолчанию из статьи». Но статья исследовала Jersey на пастбище. Ферма держала Holstein в стойле. **Acceptance Clause** не декларировал `BoundedContext` порога и не связывал его с evidence profile.
-
-Проблема 3: когда BHB в одной дойке был 2.5 ммоль/л, а в другой 0.3 (норма), система усредняла в 1.4 и алертил. Но ** Flow ** (композиция операторов) не содержал Acceptance Clause на внутреннюю вариативность. Оператор считал скаляр, где lawful был бы selected-set («возможно, есть выброс; нужен осмотр»).
-
-Результат: ветеринар получал 15–20 ложных алертов в неделю. Через месяц он перестал на них реагировать. Через три месяца настоящий случай кетоза (BHB стабильно 2.1) был пропущен, потому что ветеринар не открыл письмо.
-
-G.4 говорит: *«Операторы, приёмка и Flow должны быть опубликованы, типизированы и привязаны к свидетельствам — иначе это не система поддержки решений, это генератор шума»*.
-
-## 3. CAL Authoring: законные операции, приёмка и свидетельства — полное описание
-### 3.1 CAL.Charter@Context — хартия операций
-**CAL.Charter** — якорь scope для CAL Pack. Он цитирует `CG-FrameContext`, `describedEntity`, `ReferencePlane`, governance card (`CNSpecRef`, `CGSpecRef`) и **предположительный конверт** (assumption envelope), на который опираются acceptance predicates.
-
-**На ферме:** `CAL.Charter@Farm_MB_MetabolicHealth_2026` декларирует:
-- «Все операции в этом pack применимы к Holstein-Friesian, стойловое содержание, 0–21 день postpartum»
-- «Пороги acceptance основаны на NASEM-2021 и Drackley 2018; при несоответствии контекста — abstain»
-- «Evidence lanes: F (фермерские наблюдения), G (лабораторные данные), R (литература)»
-
-### 3.2 CAL.Operator — типизированный, законный оператор
-Каждый оператор — UTS-опубликованная единица с:
-- `OperatorId (UTS)` — стабильный идентификатор
-- `Signature` over CHR types — какие характеристики принимает
-- `Preconditions` — ссылки на CHR guard macros
-- `Postconditions / invariants` — что гарантируется на выходе
-- `EvidenceProfileRef[]` — к каким свидетельствам привязан
-- `FailureBehaviorRef` — что делать при деградации
-
-**На ферме:**
-
-```
-CAL.Operator: WeeklyMean_BHB_Serum
-- Signature: BHB_Serum_Postpartum[] → BHB_Serum_Postpartum (scalar)
-- Preconditions: UNIT_CHECK, REFPLANE_UNIFORM, N_MIN_5
-- Postconditions: RESULT_IS_RATIO, UNCERTAINTY_PROPAGATED
-- EvidenceProfileRef: EP_Lab_VetLab_Ivanovo_2024
-- FailureBehaviorRef: FB_DEGRADE_TO_MEDIAN_IF_OUTLIERS
-```
-
-Если входные данные содержат BHB из разных ReferencePlane — оператор **блокируется**.
-
-### 3.3 CAL.Acceptance — типизированные предикаты приёмки
-**Acceptance Clause** — UTS-опубликованный предикат с:
-- `ClauseId (UTS)` — для цитирования
-- `CharacteristicRefs` — какие CHR использует
-- `PredicateRef` — логика приёмки (threshold, range, pattern)
-- `Freshness envelope` — окно свежести + decay/Γ_time selector
-- `UnknownHandling` — tri-state: accept / reject / abstain
-- `FailureBehaviorRef` — что делать при неопределённости
-- `GateCrossingId[]` — если клауза опирается на cross-context импорт
-
-**На ферме:**
-
-```
-CAL.Acceptance: Acceptable_BHB_Serum
-- CharacteristicRefs: BHB_Serum_Postpartum
-- PredicateRef: BHB < 1.2 mmol/L
-- Freshness envelope: 48 hours from sampling
-- UnknownHandling: ABSTAIN (если данных нет — не accept, не reject — abstain)
-- FailureBehaviorRef: FB_ALERT_VET_FOR_MANUAL_CHECK
-```
-
-Порог 1.2 ммоль/л — **не встроен в CHR**. Он живёт в CAL.Acceptance, потому что пороги — политика, а не измерение.
-
-### 3.4 CAL.Flow — композиция с проверкой легальности
-**CAL.Flow** компонует операторы в DAG (направленный ациклический граф) и декларирует:
-- какие Acceptance clauses gate the flow,
-- какие выходы decision-relevant, а какие report-only,
-- **result kind** — scalar только где lawful; иначе selected-set / set-surface.
-
-**На ферме:**
-
-```
-CAL.Flow: TransitionRiskAssessment
-- DAG: RawBHB → WeeklyMean_BHB → Classify_BHB_Category
-- Gate: Acceptable_BHB_Serum
-- Result kind: SELECTED_SET (не scalar!)
-  - {LOW_RISK, MEDIUM_RISK, HIGH_RISK, MANUAL_CHECK_REQUIRED}
-```
-
-Если BHB неоднозначен (на границе категорий) — Flow возвращает **множество**, не скаляр. Это предотвращает ложную уверенность.
-
-### 3.5 CAL.EvidenceProfile — поверхность свидетельственной проводки
-**EvidenceProfile** делает привязку к свидетельствам явной:
-- `lane tags` (F/G/R) — для каждого вклада evidence
-- `provenance anchor references` (A.10-style carriers)
-- `freshnessPolicyPins` — окно свежести + decay selectors
-- `penaltyPolicyPins` — куда маршрутизировать штрафы (только в R_eff, per G.Core)
-
-**На ферме:**
-
-```
-CAL.EvidenceProfile: EP_Lab_VetLab_Ivanovo_2024
-- Lane G: лабораторные данные BHB, NEFA
-- Anchors: VetLab-Cert-2024, ProficiencyTest-Q2-2024
-- Freshness: 48h from sampling, 2-year protocol validity
-- Penalty routing: Φ(CL) → R_eff (если данные просрочены — штраф в effective risk, не в доминантный вывод)
-```
-
-### 3.6 CAL.ProofLedger — книга доказательств
-**ProofLedger** связывает каждый оператор/flow/clause с:
-- legality proof refs (включая CSLC refs для numeric comparison/aggregation),
-- monotonicity/boundedness proofs для penalty/aggregation policies,
-- явными условиями деградации (что происходит, когда предположения ломаются).
-
-**На ферме:** `WeeklyMean_BHB` требует proof ref: «Mean lawful для ratio-scale при едином ReferencePlane». Если ReferencePlane различается — ProofLedger указывает на доказательство, что оператор **должен деградировать** в `ReturnSet` или `Abstain`.
-
-## 4. Почему смешивать / игнорировать — значит рисковать
-| Анти-паттерн | Проявление на ферме | Почему опасно |
-|---|---|---|
-| **Implicit Cardinalization** (Неявная кардинализация) | «BHB-категория 1=низкий, 2=средний, 3=высокий; считаем среднее» | Ordinal → число → mean. Легальность нарушена. Результат — ложные алерты. |
-| **Threshold Laundering** (Отмывание порогов) | «Порог 1.2 взят из статьи» — без указания контекста статьи | Acceptance не трассируется. Порог может быть неприменим к вашей породе/системе. |
-| **Silent Lane Mixing** (Смешение дорожек) | «У нас есть данные лаборатории + наблюдения доярки + статья — всё в одну кучу» | F/G/R lanes смешаны. Penalties маршрутизируются неправильно. Доверие не учтено. |
-| **Scalar Obsession** (Одержимость скаляром) | «Система выдаёт одно число — риск 73%» | Flow должен возвращать selected-set, если порядок частичный. Скаляр создаёт ложную уверенность. |
-| **Tool-as-Semantics** (Инструмент как семантика) | «Excel считает AVERAGE — значит lawful» | Инструмент не знает о шкалах и ReferencePlane. Семантика определяется CAL, не Excel. |
-| **Missingness-as-Zero** (Пропуск как ноль) | «Нет данных за день = 0» | Tri-state обработка нарушена. Abstain превращается в Reject. |
-
-## 5. Как это выглядит на ферме: какие агрегаторы lawful для BHB? Можно ли усреднять ординалы?
-**Контекст:** Ферма «Молочный берег», CG-Frame `Farm_MB_MetabolicHealth_2026`. CHR Pack уже опубликован (см. G.3). Теперь нужен CAL Pack для оперативных решений.
-
-### 5.1 C1 — CAL Charter
-`CAL.Charter@Farm_MB_MetabolicHealth_2026`:
-- Scope: Holstein-Friesian, стойловое, 0–21 день postpartum
-- Cites: CHR Pack `CHR_Farm_MB_2026`, NASEM-2021, Drackley 2018
-- Assumption envelope: «Все операции предполагают единый ReferencePlane (VetLab_Ivanovo_2024). При смене лаборатории — пересмотр CAL Pack.»
-- TaskMap: связывает задачи с eligible Flows, gating clauses, evidence profiles
-
-### 5.2 C2 — Operator Cards
-**Operator: DailyMean_BHB**
-- Signature: BHB_Serum_Postpartum[2..N] → BHB_Serum_Postpartum
-- Preconditions: `UNIT_CHECK`, `REFPLANE_UNIFORM`, `N_MIN_2`
-- Postconditions: scalar, ratio preserved
-- EvidenceProfile: EP_Lab_VetLab_Ivanovo_2024
-- **Lawful: ДА** (ratio-scale, один ReferencePlane)
-
-**Operator: WeeklyMean_BHB_CrossLab**
-- Signature: BHB_Serum_Postpartum[] → BHB_Serum_Postpartum
-- Preconditions: `UNIT_CHECK`, `REFPLANE_UNIFORM`
-- **Lawful: НЕТ** — требуется GateCrossing, если ReferencePlane различаются. Блокируется.
-
-**Operator: Average_BCS**
-- Signature: BCS_Ordinal_1to5[] → scalar
-- Preconditions: `CSLC_PROOF_REQUIRED(BCS)`
-- **Lawful: НЕТ** — Guard Macro отклоняет. BCS — ordinal. Mean незаконен.
-- Fallback: `Median_BCS` — lawful (ordinal, rank-preserving)
-
-### 5.3 C3 — Acceptance Clauses
-**Acceptance: Normal_BHB_Range**
-- BHB_Serum_Postpartum < 1.2 ммоль/л → ACCEPT
-- 1.2–1.5 ммоль/л → PARTIAL (selected-set: {MONITOR, RECHECK_24H})
-- > 1.5 ммоль/л → REJECT (требуется ветеринарное вмешательство)
-- Missing / stale (> 48h) → ABSTAIN (vet manual check)
-
-**Acceptance: Optimal_BCS_Range**
-- BCS_Ordinal_1to5 ∈ {3, 3.5} → ACCEPT
-- BCS ∈ {2, 4} → PARTIAL
-- BCS ∈ {1, 5} → REJECT
-- Missing → ABSTAIN
-
-### 5.4 C4 — Flow
-**Flow: MetabolicAlert_Daily**
-- DAG: RawBHB → DailyMean_BHB → Classify_BHB_Category
-- Gate: Normal_BHB_Range
-- Result kind: SELECTED_SET
-  - Output: {NORMAL, ELEVATED, CRITICAL, MANUAL_CHECK}
-- Decision-relevant outputs: ELEVATED, CRITICAL
-- Report-only: NORMAL (логируется, не алертит)
-
-**Flow: BodyCondition_Weekly**
-- DAG: BCS_Records → Median_BCS → Classify_BCS_Category
-- Gate: Optimal_BCS_Range
-- Result kind: SELECTED_SET (ordinal → нет scalar dominance)
-  - Output: {OPTIMAL, LOW_MONITOR, HIGH_MONITOR, CRITICAL}
-
-### 5.5 C5 — Evidence Wiring
-**EvidenceProfile: EP_Farm_MB_2026**
-- Lane G (лаборатория): BHB, NEFA, Glucose
-  - Anchors: VetLab-Cert-2024, QC-Sample-Log
-- Lane F (фермерские наблюдения): BCS, аппетит, манура
-  - Anchors: ObserverTrainingCert-2023, BCS-Calibration-Log
-- Lane R (литература): пороги из NASEM-2021
-  - Anchors: NASEM-2021-ISBN, Drackley-2018-DOI
-- Freshness: G — 48h; F — 7 дней; R — 5 лет (литература)
-- Penalty routing: stale G-data → R_eff elevated; stale F-data → R_eff moderate
-
-### 5.6 C6 — ProofLedger (фрагмент)
-| Flow/Operator | Legality Proof | Boundedness | Degradation Condition |
-|---|---|---|---|
-| DailyMean_BHB | CSLC-Ratio-Mean-001 | mean bounded [0, ∞) | If N < 2 → degrade to ABSTAIN |
-| Median_BCS | CSLC-Ordinal-Median-002 | median rank-preserving | If N < 5 → degrade to MANUAL_CHECK |
-| MetabolicAlert | Threshold-NASEM-2021-1.2 | tri-state bounded | If stale data → ABSTAIN + alert vet |
-
-### 5.7 C7 — Publication
-CAL Pack опубликован в UTS:
-- Name Cards для всех OperatorId, ClauseId, FlowId
-- RSCR tests:
-  - Попытка Average_BCS — отклонена (illegal ordinal arithmetic detected)
-  - Попытка CrossLab mean — отклонена (REFPLANE_UNIFORM failed)
-  - Abstain на stale данных — подтверждён
-- Worked examples: Path/PathSlice для каждого Flow
-- Deprecation notice: «При смене лаборатории — edition bump + review Acceptance clauses»
-
-## 6. Практическое применение: с чего начать
-**Шаг 1. Назовите один оператор, который вы сейчас используете.**
-«Средний удой», «суммарный корм», «сравнение с порогом». Запишите: какие входные данные он принимает?
-
-**Шаг 2. Проверьте легальность через CHR.**
-Есть ли у вас CHR Pack? Какие guard macros применимы? Если mean(BCS) — система должна сказать «нет».
-
-**Шаг 3. Определите одну Acceptance Clause.**
-Возьмите один порог (BHB, соматика, pH). Запишите: что = ACCEPT, что = REJECT, что = ABSTAIN при пропуске?
-
-**Шаг 4. Проверьте EvidenceProfile.**
-Откуда данные? Какая у них свежесть? Что происходит, если данные просрочены? Куда идёт penalty?
-
-**Шаг 5. Проверьте, что Flow возвращает.**
-Если результат неоднозначен — возвращает ли ваша система scalar (одно число) или selected-set (множество вариантов)? Selected-set — безопаснее.
-
-## 7. Проверь себя
-| Вопрос | Если ответ «не знаю» — проблема |
-|---|---|
-| Можете ли вы назвать 3 оператора в вашей системе и их CHR-сигнатуры? | Операторы не типизированы — риск illicit ops |
-| Есть ли явные пороги ACCEPT/REJECT/ABSTAIN для каждого показателя? | Acceptance scattered — решения непредсказуемы |
-| Что ваша система делает при пропуске данных? | Missingness-as-Zero или Silent Degrade |
-| Возвращает ли система scalar, когда порядок частичный? | Scalar Obsession — ложная уверенность |
-| Привязаны ли пороги к конкретным источникам (статьям, протоколам)? | Threshold Laundering — пороги невоспроизводимы |
-| Может ли ваша система отклонить операцию «средний BCS»? | Tool-as-Semantics — инструмент решает вместо CAL |
-
-## 8. Связь с другими паттернами
-| Паттерн | Связь |
-|---|---|
-| G.3 CHR Authoring | поставщик типизированных характеристик, scale, legality matrix, guard macros. CAL потребляет CHR Pack. |
-| G.2 SoTA Harvester | поставщик Claim Sheets и MethodFamilyCards, на основе которых CAL строит acceptance и evidence profiles. |
-| G.5 Selector & Dispatch | потребитель TaskMap@Context. CAL Pack передаёт selector'у eligible flows, gating clauses, evidence profiles. |
-| G.Core | универсальные инварианты: tri-state guard, penalties→R_eff-only, set-return semantics, GateCrossing discipline. |
-| B.3 Trust / Freshness / Decay | управляет freshness envelopes, lane tags, penalty routing в evidence profiles. |
-| A.10 Provenance Anchors | обеспечивает addressable evidence surfaces для CAL.EvidenceProfile. |
-| E.18 / A.21 / F.9 / F.17 / E.17 | GateCrossing / CrossingBundle harnesses. CAL блокирует publication, если required crossing artefacts отсутствуют. |
-| G.11 Refresh Orchestration | потребляет edition/policy pins из CAL Pack для пересмотра при drift. |
 ---
 
-*Capture создан в рамках изучения FPF.*
+## 2. История одной ошибки
+
+Хозяйство автоматизировало рекомендации по метаболическому риску. Пороги BHB были зашиты в коде расчёта «индекса риска» вместо того, чтобы быть вынесены в acceptance clauses. Когда ветеринар решил изменить порог, разработчикам пришлось искать по всей системе, где он используется. В одном месте порог остался старым, и две группы коров получили противоречивые рекомендации. CAL Pack централизует пороги и делает их видимыми.
+
+---
+
+## 3. CAL Authoring — полное описание
+
+### 3.1 Определение
+
+**CAL Authoring** — это паттерн создания CAL Pack@CG-Frame, который содержит Operators, Acceptance clauses, Flows, EvidenceProfiles, ProofLedger и опциональный NQD (non-quality-diversity) профиль. CAL Pack определяет, какие действия следуют из значений характеристик, и обеспечивает аудитоспособность этих решений.
+
+### 3.2 Почему это важно
+
+Без CAL пороги разбросаны по документам, коду и договорённостям. Это приводит к противоречивым решениям, невозможности аудита и скрытым изменениям. CAL собирает все acceptance clauses и flows в одном месте, связывает их с evidence и передаёт TaskMap в G.5 для dispatch.
+
+### 3.3 Operators
+
+**Определение.** Operators — это именованные вычислительные операторы, которые принимают характеристики из CHR и порождают новые значения или решения.
+
+**Пояснение.** Operators должны быть scale-legal: каждый оператор ссылается на SCP из CG-Spec и не выполняет недопустимых операций. Они могут быть простыми (сравнение с порогом) или сложными (многокритериальная свёртка).
+
+**Пример из животноводства.**
+
+```text
+OP-001: GreaterThanOrEqual
+  - inputs: BHB (SC-001), threshold parameter
+  - output: boolean
+  - scaleLegalityRef: SCP-001
+
+OP-002: ParetoDominance
+  - inputs: {cost, efficacy, labor}
+  - output: dominance relation
+  - scaleLegalityRef: SCP-002
+```
+
+**Ключевой признак.** Каждый operator имеет идентификатор, входы, выход и ссылку на scale legality.
+
+### 3.4 Acceptance clauses
+
+**Определение.** Acceptance clauses — это условия вида «если X, то Y», где X — выражение над характеристиками, а Y — действие, статус или переход.
+
+**Пояснение.** Acceptance clause — это единственное место, где живут пороги. Оно явно указывает: значение какой характеристики, при каком условии и с каким действием связано. Это позволяет изменять пороги, не трогая определения характеристик.
+
+**Пример из животноводства.**
+
+```text
+AC-001: «IF BHB ≥ 1.2 mmol/L THEN trigger_propylene_glycol_protocol"
+AC-002: «IF BHB ≥ 1.4 mmol/L AND BCS ≤ 2 THEN escalate_veterinarian"
+AC-003: «IF MilkYield < 25 kg/day AND BHB ≥ 1.2 THEN flag_energy_deficit"
+```
+
+**Ключевой признак.** Acceptance clause содержит явный threshold, characteristic refs, action и policy id.
+
+### 3.5 Flows
+
+**Определение.** Flows — это композиции acceptance clauses и operators, которые описывают последовательность принятия решения.
+
+**Пояснение.** Flow соединяет несколько clauses в единый процесс: сначала скрининг, затем подтверждение, затем действие. Flow фиксирует, какие ветви возможны и какие guard-решения применяются.
+
+**Пример из животноводства.**
+
+```text
+FL-001: KetosisRiskFlow
+  - step 1: AC-001 (screening)
+  - step 2: IF AC-001 pass → AC-002 (escalation check)
+  - step 3: IF AC-002 abstain → monitor
+  - guard outcomes: pass / degrade / abstain
+```
+
+**Ключевой признак.** Flow содержит упорядоченные шаги, ссылки на acceptance clauses и трихотомию guard-решений.
+
+### 3.6 EvidenceProfiles
+
+**Определение.** EvidenceProfiles — это профили, указывающие, какие evidence требуются для каждого acceptance clause или operator.
+
+**Пояснение.** EvidenceProfile не заменяет EvidenceGraph, а декларирует, какие типы evidence нужны. Это позволяет проверить, достаточно ли evidence для применения CAL-правила.
+
+**Пример из животноводства.**
+
+```text
+EP-001: EvidenceProfile for AC-001
+  - required: BHB observation (PathSliceId), SOP ref, freshness window ≤ 7 days
+  - optional: BCS observation
+```
+
+**Ключевой признак.** EvidenceProfile содержит список required/optional evidence и их freshness requirements.
+
+### 3.7 ProofLedger
+
+**Определение.** ProofLedger — это аудиторская книга, фиксирующая, какие acceptance clauses были применены, к каким характеристикам, на каком основании и с каким результатом.
+
+**Пояснение.** ProofLedger делает каждое CAL-решение проверяемым. Он связывает acceptance clause, evidence path, operator run и guard outcome.
+
+**Пример из животноводства.**
+
+```text
+PL-001:
+  - acceptanceClause: AC-001
+  - subject: cow #1847
+  - observation: BHB 1.4 mmol/L (PathSliceId PS-001)
+  - operator: OP-001
+  - outcome: pass → trigger propylene glycol protocol
+  - evidenceProfile: EP-001
+```
+
+**Ключевой признак.** ProofLedger содержит clause id, subject, observation refs, operator id и outcome.
+
+### 3.8 NQD profile
+
+**Определение.** NQD (non-quality-diversity) profile — это опциональный профиль, который указывает, что CAL-операторы не используют QD-семантику (archive, illumination), и сохраняют обычный acceptance flow.
+
+**Пояснение.** NQD нужен, когда в CG-Frame присутствуют QD-паттерны, но конкретный CAL Pack к ним не относится. Это предотвращает неявное смешение QD и non-QD логики.
+
+**Пример из животноводства.** CAL Pack для линейного протокола лечения кетоза помечается NQD, чтобы отличить его от QD-архива методов профилактики.
+
+**Ключевой признак.** NQD profile присутствует, когда CAL не использует QD/illumination semantics.
+
+### 3.9 TaskMap handoff to G.5
+
+**Определение.** TaskMap — это карта, которая передаёт CAL-задачи в Method Dispatcher (G.5), указывая, какие TaskSignature, MethodFamily и acceptance gates должны быть применены.
+
+**Пояснение.** CAL не выбирает методы; он формулирует задачи и критерии. G.5 выполняет dispatch, сохраняя set-return semantics.
+
+**Пример из животноводства.**
+
+```text
+TM-001: TaskMap
+  - taskSignature: metabolic_support_protocol
+  - methodFamilies: {propylene_glycol, ration_adjustment, iv_glucose}
+  - acceptanceGates: {AC-001, AC-002}
+  - handoff to G.5
+```
+
+**Ключевой признак.** TaskMap содержит TaskSignatureRef, MethodFamilyId[] и AcceptanceClauseId[], и передаёт управление G.5.
+
+---
+
+## 4. Почему смешивать / игнорировать — значит рисковать
+
+Рассмотрим типичное смешанное утверждение:
+
+> *«Если корова худощавая и BHB высокий, нужно срочно лечить.»*
+
+**Разложение по G.4:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
+|---|---|---|
+| «худощавая» | BCS level (CHR) | Требует scale-legal оператора |
+| «BHB высокий» | BHB value + acceptance threshold (CAL) | Порог должен быть явным |
+| «срочно лечить» | action (CAL acceptance clause) | Требует policy id и escalation flow |
+
+**Основные риски смешивания:**
+
+1. **Неявные пороги.** «Высокий BHB» без числа приводит к разным интерпретациям.
+2. **Смешение шкал.** BCS и BHB требуют scale-legal оператора и явного coordinate.
+3. **Отсутствие аудита.** Решение не фиксируется в ProofLedger.
+
+---
+
+## 5. Как это выглядит на ферме: правильное применение
+
+**Ситуация:** автоматизация рекомендаций при субклиническом кетозе.
+
+**Было (смешанное / нечёткое):**
+> «Если BHB высокий и корова худощавая — лечим.»
+
+**Стало (разложенное / ясное):**
+
+**CHR (G.3):**
+> CH-001: BHB (ratio, ммоль/л); CH-002: BCS (ordinal, 1–5).
+
+**CAL Operators:**
+> OP-001: BHB ≥ threshold; OP-002: BCS ≤ threshold.
+
+**Acceptance clauses:**
+> AC-001: IF BHB ≥ 1.2 THEN start propylene glycol protocol.
+> AC-002: IF BHB ≥ 1.4 AND BCS ≤ 2 THEN escalate to veterinarian.
+
+**Flow:**
+> FL-001: screening → AC-001 → if pass then AC-002 → outcome pass/degrade/abstain.
+
+**ProofLedger:**
+> PL-001: cow #1847, BHB 1.4, BCS 2, AC-002 triggered, outcome escalate.
+
+**Результат:**
+- Пороги централизованы и легко изменяются.
+- Каждое решение фиксируется с evidence.
+- G.5 получает TaskMap для выбора конкретного метода.
+
+---
+
+## 6. Практическое применение: с чего начать
+
+**Шаг 1.** Соберите характеристики из CHR Pack.
+
+**Шаг 2.** Определите operators, проверив их scale legality по SCP.
+
+**Шаг 3.** Авторизуйте acceptance clauses с явными thresholds и actions.
+
+**Шаг 4.** Постройте flows, соединяющие clauses в guard-aware последовательности.
+
+**Шаг 5.** Создайте EvidenceProfiles и ProofLedger, затем сформируйте TaskMap для G.5.
+
+---
+
+## 7. Проверь себя
+
+| Вопрос | Если ответ «да» — проблема |
+|---|---|
+| Пороги находятся в CHR или в коде? | Их место — в CAL acceptance clauses. |
+| Acceptance clause не имеет policy id? | Решение нельзя аудитировать и обновлять. |
+| Operator смешивает ординальные и количественные шкалы? | Нарушение SCP и scale legality. |
+| ProofLedger не фиксирует outcome? | Решение не проверяемо. |
+| TaskMap передаёт не в G.5, а напрямую выбирает метод? | Нарушено разделение CAL и dispatch. |
+
+---
+
+## 8. Связь с другими паттернами
+
+| Паттерн | Связь |
+|---|---|
+| G.3 CHR Authoring | предоставляет характеристики и шкалы |
+| G.5 Method Dispatcher | получает TaskMap и возвращает selected set |
+| G.0 CG-Spec | задаёт SCP и ComparatorSet для scale legality |
+| G.6 Evidence Graph | предоставляет evidence paths для ProofLedger |
+| G.Core | обеспечивает tri-state guard и set-return semantics |
+
+---
+
+## 9. Что запомнить
+
+1. CAL — это место для acceptance clauses, operators и flows.
+2. Пороги живут в CAL, а не в CHR.
+3. Каждый operator должен быть scale-legal.
+4. ProofLedger фиксирует каждое CAL-решение с evidence.
+5. TaskMap передаёт задачи в G.5, не выбирая методы самостоятельно.
+
+---
+
+*Capture создан в рамках изучения Part G FPF.*
 *FPF Source: FPF/FPF-Spec.md §G.4*

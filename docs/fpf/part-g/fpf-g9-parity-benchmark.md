@@ -1,187 +1,233 @@
 ---
 type: fpf-study
 pattern: G.9
-title: "Parity / Benchmark Harness: как честно сравнивать соперничающие методы"
+title: "Parity Harness: сравнение методов под одним baseline"
 domain: cattle-science
 difficulty: advanced
-reading_time: 18 min
-created: 2026-05-26
+reading_time: 28 min
+created: 2026-06-27
+fpf_context: ["G.9", "G.5", "G.0", "G.7", "G.Core", "G.11"]
 ---
 
-# G.9 — Parity / Benchmark Harness: как честно сравнивать соперничающие методы
+# G.9 — Parity Harness: сравнение методов под одним baseline
+
+> **Цель capture:** объяснить, как паттерн G.9 сравнивает методы под единым baseline, freshness window и comparator set, публикуя ParityPlan@Context и ParityReport@Context, которые можно воспроизвести.
+
+---
 
 ## 1. Зачем это читать
-Если вы когда-нибудь видели, как на конференции или в ветеринарной лаборатории объявляют *«наш метод лучше»* — без объяснения, при каких условиях, на какой выборке и с каким компаратором — вы столкнулись с проблемой G.9.
 
-Этот паттерн не про то, **какой метод выбрать**. Он про то, **как сравнивать методы так, чтобы сравнение было воспроизводимым, а не манипуляцией**. В мире software это называется benchmark harness. В мире ферм это — сравнение методов диагностики, протоколов лечения, систем мониторинга под одной заявленной базовой линией с явными компараторами, нормализацией и связующими штифтами.
+В скотоводстве часто сравнивают методы, которые изначально оценивались в разных условиях: разные временные окна, разные породы, разные исходы. Без явного baseline и pinned comparator set такое сравнение некорректно. Parity Harness фиксирует всё, что должно быть постоянным, чтобы сравнение было воспроизводимым и CSLC-законным.
 
-**Без G.9:** вы получаете таблицу «наш сенсор лучше культуры» — и непонятно, при каких условиях, с какой нормализацией, и что вообще сравнивалось.
+> **FPF-тезис:** *«Parity возможна только тогда, когда baseline, freshness, comparator и bridge pins зафиксированы заранее.»*
 
-**С G.9:** вы получаете `ParityReport@Context` — документ, из которого можно восстановить всё: базовую линию, окно свежести, компаратор, нормализацию, штифты. Это не оценка. Это **прозрачный механизм сравнения**.
+**Фермерский пример:**
 
-## 2. История одной ошибки
-Ферма «Зелёная долина» решила выбрать систему раннего обнаружения мастита. Три претендента:
+> Фермер сравнивает две системы раннего выявления кетоза: анализатор BHB в крови и молочный тест. ParityPlan фиксирует: baseline set = коровы FarmA, Holstein, дни 1–30 лактации; freshness window = 2023–2025; ComparatorSpecRef.edition = 1.0; bridge pins = BC-001 (BHB ↔ молочный тест). Без этого плана сравнение чувствительности и специфичности было бы некорректным.
 
-- **Культуральный анализ** (лаборатория, 48 часов, высокая точность)
-- **ПЦР-скрининг** (лаборатория, 6 часов, дорого)
-- **Электронный сенсор** (встроен в доильный аппарат, реальное время, дешево)
-
-Поставщик сенсора предоставил «бенчмарк»: «Наша система обнаруживает 94% случаев, культура — только 87%». Ферма купила сенсоры на 500 голов.
-
-Через полгода — вспышка субклинического мастита, которую сенсор не заметил. Аудит показал:
-
-- «Бенчмарк» поставщика сравнивал сенсор с **культурой на одном конкретном штамме** при высокой нагрузке, а не с золотым стандартом.
-- Базовая линия была **разной** для разных методов: культура проводилась утром, ПЦР — вечером, сенсор — в реальном времени.
-- Не было **явного компаратора** — просто три цифры в одной таблице.
-- Не было **нормализации** по стаду, сезону, стадии лактации.
-
-FPF G.9 говорит: *сравнение без явной базовой линии — это не сравнение, это маркетинг*.
-
-## 3. Parity / Benchmark Harness: как честно сравнивать соперничающие методы — полное описание
-### 3.1 ParityPlan@Context — план сравнения
-Прежде чем запускать любой benchmark, нужно зафиксировать **что сравнивается и при каких условиях**. В FPF это `ParityPlan@Context`.
-
-Минимальные поля:
-
-| Поле | Значение на ферме |
-|---|---|
-| `BaselineSet` | Какие методы/протоколы входят в сравнение |
-| `BaselineBindingRef` | Доказательная база, почему это считается базовой линией |
-| `FreshnessWindows` | Временное окно данных (например, «отёлы 2024–2025») |
-| `CNSpecRef.edition` | Закреплённая редакция нормативной спецификации (NASEM, ICAR) |
-| `CGSpecRef.edition` | Закреплённая редакция legality gate |
-| `ComparatorSpecRef.edition` | Закреплённая редакция компаратора (как именно считать «лучше/хуже») |
-| `UNM_id?` | Метод нормализации, если сравниваются разные шкалы |
-| `ParityPinSet` | Набор штифтов для воспроизводимости |
-
-**Аналогия:** прежде чем сравнивать три сорта корма, вы фиксируете: возраст коров, стадию лактации, сезон, метод забора проб, лабораторию. Если одна группа коров паслась на лугу, а другая стояла в стойле — вы сравниваете не корма, а условия содержания.
-
-### 3.2 ParityReport@Context — отчёт о сравнении
-Результат parity run — не одно число «победитель», а **структурированный отчёт** с активными штифтами:
-
-```
-ParityReport@Context := ⟨
-  ParityReportId(UTS),
-  ParityPlanId,
-  BaselineSet, FreshnessWindows,
-  CNSpecRef.edition, CGSpecRef.edition, ComparatorSpecRef.edition,
-  OutcomeRefs,              // выборочные множества, не скалярный победитель
-  AbstainReasons[]?,       // почему сравнение воздержалось или деградировало
-  TelemetrySummary?,        // illumination/coverage/regret — только телеметрия
-  EvidenceTrace,            // EvidenceGraphId + PathId[]
-  CrossingPins?,            // штифты кросс-контекстного переиспользования
-  EditionPinsDelta?,        // какие редакции были активны
-  PolicyPinsDelta?,         // какие политики были активны
-  RSCRRefs[]                // триггеры для будущего обновления
-⟩
-```
-
-**Ключевой принцип G.9:** отчёт публикует **множество результатов** (selected set), а не один скалярный победитель. Если метод А лучше по скорости, а метод Б — по точности, это **частичный порядок**, и его нельзя свернуть в одну цифру без явной политики.
-
-### 3.3 Три типа «победителя», которые G.9 запрещает
-1. **Скалярный победитель без политики.** «Метод А — лучший» без объяснения, по какому критерию и каким ComparatorSpecRef.
-2. **Сравнение разных базовых линий.** Культура на утренней пробе vs сенсор на вечерней доении.
-3. **Скрытая нормализация.** «Нормализованный скор» без указания UNM_id и метода нормализации.
-
-## 4. Почему смешивать / игнорировать — значит рисковать
-| Антипаттерн | Проявление на ферме | Почему опасно | Как исправить |
-|---|---|---|---|
-| **Scalar Winner** | «ПЦР лучше культуры» — одна цифра в презентации поставщика | Частичный порядок свёрнут в скаляр; потеряны компромиссы скорость/стоимость/точность | Публиковать `OutcomeRefs` как множество; скаляр только при явной политике |
-| **Mixed Windows** | Сравнение данных за разные сезоны или стадии лактации | Результат отражает сезон, а не метод | Фиксировать `FreshnessWindows` единым для всех методов в `ParityPlan` |
-| **Hidden Normalization** | «Нормализованный индекс мастита» без метода нормализации | Несравнимость с другими фермами; невозможно воспроизвести | Объявлять `UNM_id` и `NormalizationMethodId[]` в плане |
-| **Implicit Comparator** | «Точность 94%» — но без указания, по сравнению с чем | 94% относительно чего? Золотого стандарта? Самого себя? | Закреплять `ComparatorSpecRef.edition` |
-| **Edition Drift** | Отчёт 2024 года сравнивается с отчётом 2026 без пересчёта | Методы изменились, базовые линии — тоже; сравнение лжёт | `EditionPinsDelta` фиксирует активные редакции; RSCR-триггеры планируют обновление |
-| **Cross-Context Smuggling** | «На ферме А сенсор работает» → «значит, на ферме Б тоже» | Без явных CrossingPins и Bridge/CL потеряна применимость | Публиковать `CrossingPins` с указанием штрафов `R_eff` |
-
-## 5. Как это выглядит на ферме: сравнение трёх методов диагностики мастита
-**Контекст:** Ферма «Красный маяк», 1200 голов, круглогодичный стойловый период. Задача — выбрать метод раннего обнаружения субклинического мастита для внедрения в протокол.
-
-**Step 1 — ParityPlan@Context:**
-
-```
-ParityPlanId: PPARITY-2026-001
-BaselineSet: {
-  MethodFamily.Culture_SomaticCellCount,
-  MethodFamily.PCR_MastitisPanel_16pathogens,
-  MethodFamily.Sensor_ElectricalConductivity_Inline
-}
-BaselineBindingRef: REF-BASE-2026-001
-  → EvidenceGraph: «Золотой стандарт: культура + клинические признаки»
-describedEntity: ⟨HolsteinDairyHerd, RedBarn_Farm_2026⟩
-FreshnessWindows: {calving_0_30d, lactation_1_3}
-CNSpecRef.edition: NASEM-2021.v2
-CGSpecRef.edition: CG-VET-MASTITIS-2024.v1
-ComparatorSpecRef.edition: COMP-SENS-SPEC-COST-2024.v1
-UNM_id: UNM-MASTITIS-SCORE-2024
-  → NormalizationMethodId: [NORM-LACTATION-STAGE, NORM-SEASON]
-ParityPinSet: {EditionPins, PolicyPins, UTS/Path pins}
-```
-
-**Step 2 — Execution:**
-
-Все три метода применяются к **одной и той же выборке** коров (n=200, отёлы январь–март 2026). Каждая проба: утренняя доильная проба, одна и та же лаборатория, один и тот же ветеринарный протокол.
-
-**Step 3 — ParityReport@Context:**
-
-```
-ParityReportId: PRPT-2026-001
-OutcomeRefs: {
-  Set_001: {Sensor}  // по скорости обнаружения (часы)
-  Set_002: {PCR}     // по специфичности (16 возбудителей)
-  Set_003: {Culture} // по чувствительности при низкой нагрузке
-}
-AbstainReasons: [
-  «Culture vs Sensor: разные шкалы измерения (CFU vs mS/cm) — 
-   требуется UNM, но интерпретация нормализованного значения 
-   не является клинически валидированной»
-]
-TelemetrySummary: ⟨
-  illumination: {Sensor: 0.94, PCR: 0.89, Culture: 0.91},
-  coverage: 200/200 проб,
-  regret: 0.03
-⟩
-EvidenceTrace: ⟨EVG-2026-001, [PathId_1847, PathId_1848, PathId_1849]⟩
-RSCRRefs: [RSCR-EDITION-2026-001]  // NASEM-2025 выйдет → пересчёт
-```
-
-**Что важно:** отчёт не говорит «купите сенсор». Он говорит: «при этих условиях, с этой базовой линией, с этим компаратором — вот множество результатов. Выбор зависит от вашей политики приоритетов».
-
-## 6. Практическое применение: с чего начать
-**Шаг 1. Зафиксируйте базовую линию.**
-Выберите один процесс на ферме (например, диагностика кетоза). Перечислите все методы, которые сейчас используются или рассматриваются. Запишите: что считается «базой» — золотой стандарт, текущий протокол, или внешний эталон?
-
-**Шаг 2. Объявите окно свежести.**
-Какие данные войдут в сравнение? «Все отёлы 2025 года»? «Переходный период, октябрь–март»? Окно должно быть **одинаковым** для всех методов.
-
-**Шаг 3. Закрепите компаратор.**
-Как вы будете считать «лучше»? По чувствительности? По стоимости на голову? По времени до результата? Запишите это как политику с `PolicyId`.
-
-**Шаг 4. Проверьте нормализацию.**
-Если методы дают результат в разных шкалах (ммоль/л vs мг/дл, градусы vs баллы), объявите метод нормализации. Если нормализация невозможна — зафиксируйте это как `AbstainReason`.
-
-**Шаг 5. Опубликуйте ParityReport.**
-Не просто «метод А — лучше». Опубликуйте отчёт с активными штифтами: редакции, политики, PathId, EvidenceGraph. Это позволит через год проверить: актуален ли отчёт или требует обновления.
-
-## 7. Проверь себя
-| Вопрос | Если ответ «не знаю» — проблема |
-|---|---|
-| Можете ли вы назвать три метода на вашей ферме, которые никогда не сравнивались по одной базовой линии? | Отсутствие parity discipline |
-| Есть ли у вас отчёт о сравнении, из которого можно восстановить редакции спецификаций? | Edition drift |
-| Сравниваете ли вы методы по одному скалярному показателю (например, «точность»)? | Scalar Winner |
-| Знаете ли вы, какая политика определяет «лучший» метод у вас на ферме? | Implicit Comparator |
-| Привязаны ли ваши сравнения к конкретному стаду, сезону, стадии лактации? | Mixed Windows |
-| Можете ли вы через год воспроизвести условия сравнения? | Отсутствие ParityPinSet |
-
-## 8. Связь с другими паттернами
-| Паттерн | Связь |
-|---|---|
-| G.5 (Selector & Set-Returning Dispatch) | parity делегирует выбор множества результатов селектору; не сворачивает в скаляр. |
-| G.7 (Bridge Sentinels) | при сравнении методов из разных контекстов (ферма А vs ферма Б) требуются явные CrossingPins. |
-| G.10 (SoTA Pack Shipping) | ParityReport входит в состав shipped pack как один из цитируемых артефактов. |
-| G.11 (Telemetry-Driven Refresh) | когда выходит новая редакция NASEM или новый компаратор, RSCR-триггеры планируют повторный parity run. |
-| B.3 (F-G-R) | оценка доверия к OutcomeRefs; parity report может быть воспроизводимым, но результаты ненадёжны при низком F. |
-| A.15 (Role–Method–Work) | parity run — это Work, выполняемая назначенной ролью (ветеринар, зоотехник) по методу `CS.METHOD.PARITY.001`. |
 ---
 
-*Capture создан в рамках изучения FPF.*
+## 2. История одной ошибки
+
+Хозяйство решило заменить лабораторный BHB на новый молочный тест, потому что «исследования показывают хорошую чувствительность». При проверке выяснилось, что исследование молочного теста проводилось на Jersey в позднюю лактацию, а лабораторный BHB — на Holstein в раннюю лактацию. Baseline set и freshness window не совпадали, поэтому сравнение чувствительности не имело смысла. Parity Harness мог бы потребовать единый baseline до начала сравнения.
+
+---
+
+## 3. Parity Harness — полное описание
+
+### 3.1 Определение
+
+**Parity Harness** — это паттерн, который планирует и выполняет сравнение методов под явно зафиксированным baseline, freshness window, comparator set и bridge pins, публикуя ParityPlan@Context и ParityReport@Context.
+
+### 3.2 Почему это важно
+
+Сравнения методов часто оказываются невоспроизводимыми, потому что разные исследования используют разные окна, породы и исходы. Parity Harness делает эти параметры явными и pinned, чтобы downstream потребитель мог понять, что было постоянным, а что — telemetry.
+
+### 3.3 ParityPlan@Context
+
+**Определение.** ParityPlan@Context — это planning record, который фиксирует: entity of concern, ReferencePlane, BaselineSet, BaselineBindingRef, FreshnessWindows, CNSpecRef.edition, CGSpecRef.edition, ComparatorSpecRef.edition, SCPRef.edition, MinimalEvidenceRef.edition, ParityPinSet и optional планируемые slot fillings.
+
+**Пояснение.** ParityPlan — это не результат, а условия сравнения. Он говорит: «мы будем сравнивать эти методы при этих фиксированных условиях».
+
+**Пример из животноводства.**
+
+```text
+PP-001: ParityPlan@Context
+  - entityOfConcern: cows FarmA, Holstein, days 1–30 lactation
+  - ReferencePlane: world
+  - BaselineSet: {Lab_BHB, Milk_Ketone_Test}
+  - BaselineBindingRef: BBR-001 (herd records 2023–2025)
+  - FreshnessWindows: 2023-01-01..2025-12-31
+  - CGSpecRef.edition: 1.0
+  - ComparatorSpecRef.edition: 1.0
+  - ParityPinSet: {BridgeCard BC-001, Φ(CL)=POL-001}
+```
+
+**Ключевой признак.** ParityPlan содержит все pins, необходимые для воспроизведения сравнения.
+
+### 3.4 ParityPinSet
+
+**Определение.** ParityPinSet — это набор идентификаторов edition, policy и bridge, необходимых для воспроизводимости parity run.
+
+**Пояснение.** ParityPinSet включает ComparatorSpecRef.edition, bridge pins (BridgeCardId, CL, Φ/Ψ/Φ_plane), normalization method ids (UNM_id), и mode-specific pins (DHC, QD, OEE) через Extensions.
+
+**Пример из животноводства.**
+
+```text
+ParityPinSet for PP-001:
+  - ComparatorSpecRef.edition = 1.0
+  - BridgeCardId = BC-001
+  - CL = 2
+  - Φ(CL) = POL-001
+  - DHCMethodRef.edition = 2.1 (if DHC parity used)
+```
+
+**Ключевой признак.** ParityPinSet содержит только id-значения; семантика определяется в referenced patterns.
+
+### 3.5 ParityReport@Context
+
+**Определение.** ParityReport@Context — это publication record, который фиксирует результат parity run: baseline, freshness, active pins, outcome refs, abstain reasons, telemetry summary, guard outcome trace, evidence trace, crossing pins, edition/policy deltas и RSCR refs.
+
+**Пояснение.** ParityReport не является gate decision или audit performance; он документирует, что произошло под зафиксированными условиями. Он должен позволить rerun.
+
+**Пример из животноводства.**
+
+```text
+PR-001: ParityReport@Context
+  - ParityPlanId: PP-001
+  - BaselineSet: {Lab_BHB, Milk_Ketone_Test}
+  - OutcomeRefs: Pareto-shortlist {Lab_BHB, Milk_Ketone_Test}
+  - AbstainReasons: []
+  - TelemetrySummary: sensitivity difference = +5% (report-only)
+  - EvidenceTrace: EG-001, PathId [P-001, P-002]
+  - CrossingPins: BC-001, CL=2, Φ(CL)=POL-001
+  - EditionPinsDelta: none
+  - RSCRRefs: [RSCR-001]
+```
+
+**Ключевой признак.** ParityReport echo'ит все активные pins и outcome shape.
+
+### 3.6 Equal windows and budgets
+
+**Определение.** ParityPlan должен объявить единое FreshnessWindows для всех baseline; если используется Budgeting, оно должно быть общим.
+
+**Пояснение.** Сравнение методов под разными окнами или бюджетами некорректно. ParityPlan фиксирует единое окно, чтобы исключить это искажение.
+
+**Пример из животноводства.** Если Lab_BHB оценивался на данных 2020–2024, а Milk_Ketone_Test — на 2023–2025, ParityPlan требует пересечение или явное justification для неравных окон.
+
+**Ключевой признак.** FreshnessWindows одинаково применяется ко всем BaselineSet.
+
+### 3.7 Telemetry vs dominance
+
+**Определение.** Illumination, coverage, regret и другие telemetry signals остаются report-only по умолчанию. Любое продвижение telemetry в dominance требуетявной CAL policy id.
+
+**Пояснение.** Parity Harness не превращает вспомогательные метрики в критерии выбора. Если фермер хочет, чтобы coverage влиял на выбор, это должно быть явно объявлено в CAL и зафиксировано в audit pins.
+
+**Пример из животноводства.** Разница в чувствительности 5% — это telemetry. Она не делает один метод доминирующим, если в CAL нет policy, которая это утверждает.
+
+**Ключевой признак.** Telemetry summary отделена от outcome/dominance; promotion требует CAL policy id.
+
+---
+
+## 4. Почему смешивать / игнорировать — значит рисковать
+
+Рассмотрим типичное смешанное утверждение:
+
+> *«Новый тест лучше, потому что в последнем исследовании у него чувствительность 95 %.»*
+
+**Разложение по G.9:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
+|---|---|---|
+| «новый тест» | MethodFamilyId | Должен быть в BaselineSet |
+| «лучше» | dominance claim | Требует ParityPlan с общим baseline |
+| «последнее исследование» | freshness window | Должно совпадать с другими baseline |
+| «95 %» | telemetry metric | Не доминирование без CAL policy |
+
+**Основные риски смешивания:**
+
+1. **Разные окна.** «Последнее исследование» может относиться к другому контексту.
+2. **Скрытое доминирование.** Одна метрика превращается в общий вывод.
+3. **Невоспроизводимость.** Без ParityPinSet нельзя повторить сравнение.
+
+---
+
+## 5. Как это выглядит на ферме: правильное применение
+
+**Ситуация:** сравнение двух методов скрининга кетоза.
+
+**Было (смешанное / нечёткое):**
+> «Новый молочный тест лучше, потому что чувствительность выше.»
+
+**Стало (разложенное / ясное):**
+
+**ParityPlan PP-001:**
+> BaselineSet = {Lab_BHB, Milk_Ketone_Test}
+> entity of concern = FarmA Holstein days 1–30
+> FreshnessWindows = 2023–2025
+> ComparatorSpecRef.edition = 1.0
+> ParityPinSet = {BC-001, CL=2, Φ(CL)=POL-001}
+
+**ParityReport PR-001:**
+> Outcome = Pareto-shortlist {Lab_BHB, Milk_Ketone_Test}
+> Telemetry = sensitivity difference +5% (report-only)
+> EvidenceTrace = EG-001, PathId [P-001, P-002]
+> RSCRRefs = [RSCR-001]
+
+**Результат:**
+- Сравнение проводится под едиными условиями.
+- Telemetry не превращается в dominance.
+- Отчёт можно перепроверить rerun.
+
+---
+
+## 6. Практическое применение: с чего начать
+
+**Шаг 1.** Определите BaselineSet и зафиксируйте BaselineBindingRef.
+
+**Шаг 2.** Установите единое FreshnessWindows и ComparatorSpecRef.edition.
+
+**Шаг 3.** Укажите ParityPinSet: bridge pins, normalization ids, mode-specific pins.
+
+**Шаг 4.** Запустите selector (G.5) и зафиксируйте outcome refs.
+
+**Шаг 5.** Опубликуйте ParityReport@Context со всеми активными pins и evidence trace.
+
+---
+
+## 7. Проверь себя
+
+| Вопрос | Если ответ «да» — проблема |
+|---|---|
+| BaselineSet не зафиксирован или не опирается на evidence? | Сравнение некорректно. |
+| FreshnessWindows различается для разных baseline? | Сравнение методов несопоставимо. |
+| ParityReport не echo'ит ParityPinSet? | Результат невоспроизводим. |
+| Telemetry используется как dominance без CAL policy? | Нарушена telemetry-vs-dominance separation. |
+| Crossing pins отсутствуют при cross-tradition parity? | Нарушена bridge visibility. |
+
+---
+
+## 8. Связь с другими паттернами
+
+| Паттерн | Связь |
+|---|---|
+| G.5 Method Dispatcher | предоставляет selected-set outcomes для parity |
+| G.0 CG-Spec | задаёт ComparatorSet, SCP, MinimalEvidence |
+| G.7 Bridge Calibration | предоставляет BridgeCards и BCT для cross-tradition parity |
+| G.11 Telemetry Refresh | потребляет RSCRRefs из ParityReport |
+| G.Core | гарантирует set-return, equal handling и default citation |
+
+---
+
+## 9. Что запомнить
+
+1. ParityPlan фиксирует baseline, freshness, comparator и bridge pins.
+2. ParityReport echo'ит активные pins и outcome shape.
+3. FreshnessWindows и Budgeting должны быть общими для всех baseline.
+4. Telemetry остаётся report-only; promotion в dominance требует CAL policy.
+5. Parity — это method of obtaining outputs, а не gate decision.
+
+---
+
+*Capture создан в рамках изучения Part G FPF.*
 *FPF Source: FPF/FPF-Spec.md §G.9*

@@ -1,202 +1,249 @@
 ---
 type: fpf-study
 pattern: G.10
-title: "SoTA Pack Shipping: как передать знание, не потеряв смысл"
+title: "SoTA Pack Shipping: публикация упаковки без подмены семантики"
 domain: cattle-science
-difficulty: intermediate
-reading_time: 16 min
-created: 2026-05-26
+difficulty: advanced
+reading_time: 26 min
+created: 2026-06-27
+fpf_context: ["G.10", "G.Core", "G.5", "G.9", "G.11", "G.12"]
 ---
 
-# G.10 — SoTA Pack Shipping: как передать знание, не потеряв смысл
+# G.10 — SoTA Pack Shipping: публикация упаковки без подмены семантики
+
+> **Цель capture:** объяснить, как паттерн G.10 определяет единственную shipping surface для Part G — SoTA-Pack(Core) — и как сделать shipped pack selector-ready, audit-citable и refreshable.
+
+---
 
 ## 1. Зачем это читать
-Если вы когда-нибудь получали от коллеги папку с протоколом и слышали *«вот, у нас так работает»* — вы столкнулись с проблемой G.10. Этот паттерн не про то, **что** передавать. Он про то, **как передавать так, чтобы принимающая сторона могла использовать результат без переизобретения семантики**.
 
-В мире software это называется «shipping boundary»: когда вы публикуете библиотеку, она должна включать не только код, но и версии, зависимости, лицензии, инструкции. В мире ферм — когда вы передаёте протокол переходного периода с фермы А на ферму Б, вместе с ним должны «путешествовать» редакции, политики, штифты, контекстные привязки.
+В скотоводстве результаты работы — SoTA-упаковки, отчёты parity, evidence graphs, dashboard slices — часто передаются между командами, публикуются для фермеров или отправляются в внешние системы. Без явного shipping boundary «передача» превращается в ad-hoc export, который может подменить семантику, потерять edition pins или скрыть crossings. G.10 фиксирует, что именно должно быть в shipped pack.
 
-**Без G.10:** вы получаете PDF с протоколом — без указания редакции NASEM, без политик приёмки, без трассировки evidence. Ферма Б внедряет «по картинке» — и получает другой результат.
+> **FPF-тезис:** *«Shipping — это не формат файла, а citation surface с обязательными pins, paths и MOO-disclosure.»*
 
-**С G.10:** вы получаете `SoTA-Pack(Core)` — структурированную упаковку, которая включает селекторный реестр, цитирование путей, телеметрические штифты и контекстные переходы.
+**Фермерский пример:**
 
-## 2. История одной ошибки
-Ферма «Солнечная» разработала отличный протокол управления переходным периодом. Результаты за два года: снижение кетоза с 18% до 4%, улучшение плодовитости, экономия на ветеринарных препаратах. Владелец решил «поделиться опытом» с фермой «Луговая» — купил её, хотел внедрить тот же подход.
+> Фермер получает «пакет рекомендаций» по профилактике кетоза. В пакете должны быть не только итоговые советы, но и ссылки на CG-Spec, ComparatorSet, BridgeCards, EvidenceGraph paths, selector outcomes и telemetry pins. Без этого фермер не сможет проверить, почему выбран именно этот метод, и не сможет обновить пакет, когда изменится evidence.
 
-Передали: PDF-файл протокола, список препаратов, график кормления.
-
-Через год на «Луговой» результаты были хуже, чем до внедрения. Аудит показал:
-
-- Протокол был рассчитан на **стадо 800 голов**, а на «Луговой» — 2500. График кормления не масштабировался.
-- На «Солнечной» использовалась **NASEM-2001 с дополнениями 2015**, на «Луговой» применили **NASEM-2021** — без пересчёта норм.
-- Политика приёмки (`CAL`) на «Солнечной» требовала BHB < 1.0 ммоль/л, на «Луговой» оставили старую политику < 1.2 — и пропустили субклинические случаи.
-- Не было **Bridge-описания**: разный климат, разный кормовой базис, разная генетика — всё это «перешло» молча.
-
-FPF G.10 говорит: *передача без упаковки — это не помощь, это передача ответственности за интерпретацию*.
-
-## 3. SoTA Pack Shipping: как передать знание, не потеряв смысл — полное описание
-### 3.1 SoTA-Pack(Core) — объект передачи
-`SoTA-Pack(Core)` — это **нотационно-независимый объект передачи**, который цитирует все вышестоящие артефакты по стабильным идентификаторам и экспонирует минимальные штифты для потребления, аудита и обновления.
-
-```
-SoTA-Pack(Core) := ⟨
-  PackId(UTS),
-  publicationScopeId,
-  contextSliceId?,
-  CG-FrameContext,
-  describedEntity := ⟨GroundingHolon, ReferencePlane⟩,
-
-  CNSpecRef := ⟨A.19 ref, CNSpecRef.edition⟩,
-  CGSpecRef := ⟨G.0 ref, CGSpecRef.edition⟩,
-
-  PortfolioRosterId?,        // селекторный реестр
-  SoTAHarvestPackId?,        // G.2
-  CHRPackId?,                // G.3
-  CALPackId?,                // G.4
-  EvidenceGraphId?,          // G.6
-  BridgeMatrixId?,           // G.7
-  ParityReportId?,           // G.9
-  DashboardSliceId?,         // G.12
-  InteropSurfaceId?,         // G.13
-
-  PathIds := PathId[]?,      // цитирование путей
-  PathSliceIds := PathSliceId[]?,
-
-  PlanItemRefs := SlotFillingsPlanItemRef[]?,  // planned baseline
-  AuditPins := { id pins… }, // редакции, политики, UTS/Path
-  CrossingBundleIds := CrossingBundleId[]?,    // переходы
-  TelemetryPinIds := TelemetryPinId[]?,        // телеметрия для refresh
-  MOOManifestId?             // disclosure: как получены результаты
-⟩
-```
-
-**На ферме:** когда вы передаёте протокол, вы передаёте не PDF. Вы передаёте упаковку, в которой указано: какая редакция NASEM, какая политика приёмки, какие evidence-пути подтверждают решения, какие контекстные переходы нужно учитывать.
-
-### 3.2 Portfolio Roster — лицо к селектору
-`PortfolioRoster@Context` — это **селекторно-ориентированный реестр** внутри упаковки. Он не переопределяет семантику выбора (это G.5), но предоставляет метаданные:
-
-- `portfolioMode` — в каком режиме сформировано множество
-- `dominanceRegime` — какой режим доминирования используется
-- `MethodFamilyIds` — какие семейства методов включены
-- `ParityReportId` — какой parity-отчёт лежит в основе
-
-**Аналогия:** когда вы покупаете семена, на упаковке указан сорт, год урожая, регион происхождения, ГОСТ. Это не инструкция по выращиванию, но без этих данных вы не можете принять решение о посеве.
-
-### 3.3 MOO-Disclosure — честность о происхождении
-`MOOManifestId` (Method of Obtaining Output) раскрывает **каким механизмом получены результаты**. Это не «что внутри», а «как это было произведено».
-
-**На ферме:** «Нормы кормления в этом протоколе получены через NASEM-2021.v2 с применением политики нормализации NORM-LACTATION-STAGE, проверены по данным стада 2023–2025, с кросс-контекстным переходом через Bridge-BASIS-RU-2024».
-
-## 4. Почему смешивать / игнорировать — значит рисковать
-| Антипаттерн | Проявление на ферме | Почему опасно | Как исправить |
-|---|---|---|---|
-| **Format-as-Spec** | «Вот PDF — это и есть протокол» | Формат (PDF) заменяет управляющую спецификацию; теряются редакции и политики | Использовать `SoTA-Pack(Core)` с `AuditPins` |
-| **Editionless Hand-off** | Передача протокола без указания редакции NASEM/ICAR | Получатель не знает, какая версия норм лежит в основе | Закреплять `CNSpecRef.edition` и `CGSpecRef.edition` |
-| **Pack Smuggling** | «Удобные» правила внутри упаковки, противоречащие спецификации | Скрытая фрагментация нормативной базы | Проверять `AuditPins` на соответствие `G.Core` |
-| **Invisible Crossings** | «У нас работает → у вас тоже будет» без учёта различий | Потеря применимости при другом климате/генетике/кормовой базе | Экспонировать `CrossingBundleIds` с `BridgeMatrixId` |
-| **No MOO** | Результаты без раскрытия механизма получения | Невозможно аудитировать и воспроизвести | Прикреплять `MOOManifestId` |
-| **Refresh Orphaning** | Переданный pack не содержит `TelemetryPinIds` и `PathSliceId` | Через год невозможно понять, что устарело | Включать `TelemetryPinIds` для планирования RSCR-обновлений |
-
-## 5. Как это выглядит на ферме: передача протокола переходного периода
-**Контекст:** Ферма «Солнечная» (800 голов, центральный регион, силосно-сенажное кормление) передаёт ферме «Луговая» (2500 голов, южный регион, зернофуражное кормление) протокол управления переходным периодом.
-
-**Что передаётся НЕправильно (без G.10):**
-
-- PDF «Протокол переходного периода Солнечная 2024»
-- Excel с нормами кормления
-- Список препаратов и дозировок
-
-**Что передаётся правильно (SoTA-Pack):**
-
-```
-PackId(UTS): PACK-2026-TP-001
-publicationScopeId: TRANSITION-PROTOCOL-SHARED
-describedEntity: ⟨DairyHerd, CentralRegion_800hd_SilageBased⟩
-
-CNSpecRef: ⟨NASEM-2021, edition: v2.1⟩
-CGSpecRef: ⟨CG-TRANSITION-2024, edition: v1.3⟩
-
-PortfolioRosterId: PR-2026-TP-001
-  portfolioMode: set-returning
-  dominanceRegime: epsilon-threshold-0.05
-  MethodFamilyIds: [CS.METHOD.TP.001, CS.METHOD.TP.002]
-
-SoTAHarvestPackId: HARV-2026-TP-001
-CHRPackId: CHR-2026-TP-001
-CALPackId: CAL-2026-TP-001
-EvidenceGraphId: EVG-2026-TP-001
-
-PathIds: [PathId_2101, PathId_2102, PathId_2103]
-PathSliceIds: [Slice_2024_Q1, Slice_2024_Q2]
-
-AuditPins: {
-  NASEM-2021.v2.1,
-  CG-TRANSITION-2024.v1.3,
-  POLICY-BHB-THRESHOLD-1.0.v1,
-  POLICY-RETENTION-90DAYS.v2
-}
-
-CrossingBundleIds: [CB-CENTRAL-TO-SOUTH-2024]
-  // BridgeMatrixId: BRIDGE-BASIS-RU-2024
-  // CL penalty: 0.12 (разница в кормовом базисе)
-  // Φ_plane policy: SILAGE-TO-GRAIN.v1
-
-TelemetryPinIds: [TPIN-2026-001, TPIN-2026-002]
-  // scope: PathSliceId_2024_Q3
-  // trigger: RSCRTriggerKindId.EvidenceSurfaceEdit
-
-MOOManifestId: MOO-2026-TP-001
-  // «Нормы получены через NASEM-2021.v2.1,
-  //  адаптированы под силосно-сенажный базис,
-  //  проверены на данных 2023–2025 (n=800),
-  //  BHB-threshold зафиксирован на 1.0 ммоль/л
-  //  по политике POLICY-BHB-THRESHOLD-1.0.v1»
-```
-
-**Что делает ферма «Луговая» при получении:**
-
-1. Смотрит `CrossingBundleIds` — понимает, что нужен переход с силосного на зернофуражный базис (штраф CL = 0.12).
-2. Сверяет `CNSpecRef.edition` — NASEM-2021.v2.1. Проверяет, совместима ли эта редакция с её системой.
-3. Читает `MOOManifestId` — понимает, что нормы получены на стаде 800 голов, и требуется масштабирование.
-4. Проверяет `CALPackId` — видит политику BHB < 1.0, сравнивает со своей текущей (< 1.2) и принимает решение.
-5. Регистрирует `TelemetryPinIds` — планирует проверку актуальности при выходе NASEM-2025.
-
-## 6. Практическое применение: с чего начать
-**Шаг 1. Соберите и зафиксируйте.**
-Возьмите один протокол или метод на вашей ферме. Перечислите все вышестоящие артефакты: какая редакция NASEM, какие CHR/CAL-пакеты, какой EvidenceGraph. Запишите их как `AuditPins`.
-
-**Шаг 2. Соберите SoTA-Pack.**
-Сформируйте объект `SoTA-Pack(Core)` с `PackId(UTS)`. Не нужен софт — достаточно структурированного документа с полями.
-
-**Шаг 3. Опубликуйте Portfolio Roster.**
-Опишите, что внутри упаковки с точки зрения селектора: какие методы, какой режим, какой parity-отчёт. Это «лицо» упаковки для получателя.
-
-**Шаг 4. Закрепите пути и переходы.**
-Укажите `PathId/PathSliceId` для ключевых evidence. Если упаковка покидает контекст (передаётся другой ферме) — добавьте `CrossingBundleIds` с описанием различий.
-
-**Шаг 5. Добавьте телеметрию.**
-Запишите `TelemetryPinIds` — что может измениться и какие триггеры должны сработать при обновлении.
-
-## 7. Проверь себя
-| Вопрос | Если ответ «не знаю» — проблема |
-|---|---|
-| Можете ли вы передать свой главный протокол вместе с редакциями спецификаций? | Editionless hand-off |
-| Знает ли получатель, каким методом получены нормы в вашем протоколе? | No MOO |
-| Есть ли в вашей «передаче» описание различий контекстов? | Invisible Crossings |
-| Может ли получатель через год понять, что устарело в вашей упаковке? | Refresh Orphaning |
-| Содержит ли ваша передача скрытых правил, противоречащих общей спецификации? | Pack Smuggling |
-| Передаёте ли вы формат (PDF) вместо управляющей спецификации? | Format-as-Spec |
-
-## 8. Связь с другими паттернами
-| Паттерн | Связь |
-|---|---|
-| G.Core | все Part-G инварианты (три-state guards, crossing visibility, penalty routing) делегированы через `GCoreLinkageManifest`. |
-| G.2 (SoTA Harvest) | `SoTAHarvestPackId` цитирует результаты сбора палитры. |
-| G.6 (EvidenceGraph) | `EvidenceGraphId` и `PathId/PathSliceId` обеспечивают трассировку. |
-| G.7 (Bridge Sentinels) | `CrossingBundleIds` и `BridgeMatrixId` управляют межконтекстными переходами. |
-| G.9 (Parity Harness) | `ParityReportId` может входить в состав shipped pack. |
-| G.11 (Refresh Orchestrator) | `TelemetryPinIds` позволяют планировать обновления. |
-| A.15 (Role–Method–Work) | сборка и публикация pack — это Work, выполняемая назначенной ролью. |
 ---
 
-*Capture создан в рамках изучения FPF.*
+## 2. История одной ошибки
+
+Консалтинговая фирма отправила фермеру PDF-отчёт с рекомендациями по управлению метаболическим риском. PDF содержал красивые графики, но не включал ссылки на использованные CG-Spec, BridgeCards и ParityReport. Через полгода вышло новое исследование, изменившее порог BHB. Фермер не мог понять, какие части отчёта нужно пересмотреть, потому что shipping surface не содержала PathSliceId и RSCR hooks. G.10 требует, чтобы pack нёс эти pins.
+
+---
+
+## 3. SoTA Pack Shipping — полное описание
+
+### 3.1 Определение
+
+**SoTA-Pack(Core)** — это pack-governed shipping surface, который цитирует все upstream артефакты по stable ids/refs и exposes минимальные pins, необходимые для: (a) потребления через selection, (b) аудита через path citations и crossing bundles, (c) refresh через typed RSCR triggers.
+
+### 3.2 Почему это важно
+
+Naive shipping либо превращает формат файла в governing spec, либо теряет edition/policy pins, либо скрывает crossings. SoTA-Pack(Core) предотвращает это, делая pack conceptual object'ом с явными ссылками. Он не задаёт формат файла; он задаёт, что должно быть цитируемым.
+
+### 3.3 SoTA-Pack(Core) object model
+
+**Определение.** SoTA-Pack(Core) — это объект, содержащий PackId(UTS), publicationScopeId, CG-FrameContext, entityOfConcern, CNSpecRef.edition, CGSpecRef.edition, PortfolioRosterId, cited payload pack ids, PathIds, PathSliceIds, AuditPins, CrossingBundleIds, TelemetryPinIds и MOOManifestId.
+
+**Пояснение.** Pack цитирует upstream артефакты (harvest pack, CHR pack, CAL pack, evidence graph, bridge calibration, SoS-LOG bundle, parity report, dashboard slice) без дублирования их семантики. AuditPins содержит edition pins, policy ids, UTS/Path pins и crossing pins.
+
+**Пример из животноводства.**
+
+```text
+SoTA-Pack(Core) PACK-001:
+  - PackId(UTS): PACK-001
+  - publicationScopeId: public_farmA_ketosis_2026
+  - CGFrameContext: ketosis_prevention_FarmA
+  - CNSpecRef.edition: 1.2
+  - CGSpecRef.edition: 1.0
+  - PortfolioRosterId: PR-001
+  - SoTAHarvestPackId: HARVEST-001
+  - CHRPackId: CHR-001
+  - CALPackId: CAL-001
+  - EvidenceGraphId: EG-001
+  - BridgeCalibrationTableId: BCT-001
+  - ParityReportId: PR-001
+  - PathIds: [P-001, P-002]
+  - PathSliceIds: [PS-001, PS-002]
+  - CrossingBundleIds: [CB-001]
+  - TelemetryPinIds: [TP-001]
+  - MOOManifestId: MOO-001
+```
+
+**Ключевой признак.** Pack цитирует upstream ids и expose'ит AuditPins, PathIds, CrossingBundleIds и TelemetryPinIds.
+
+### 3.4 PortfolioRoster@Context
+
+**Определение.** PortfolioRoster@Context — это selector-facing roster token внутри shipped pack, который содержит metadata о selector outcomes (setResultFamily, handoffKind, derivedViewKind, basePaletteRef, shortlistId), но не переопинирует selection semantics.
+
+**Пояснение.** PortfolioRoster позволяет потребителю pack понять, какой вид результата он видит: palette, front, archive, shortlist, ranked shortlist. Roster не является publication face kind; он — metadata внутри shipping form.
+
+**Пример из животноводства.**
+
+```text
+PortfolioRoster PR-001:
+  - selectorOutcomeKind: SetResultOutcome
+  - setResultFamily: ParetoShortlist
+  - sourceSetFamily: MethodFamilyPool
+  - derivedViewKind: TraditionFront
+  - basePaletteRef: PALETTE-001
+  - shortlistId: SL-001
+```
+
+**Ключевой признак.** PortfolioRoster использует controlled tokens и cited ids; не вводит новых semantics.
+
+### 3.5 MOOManifest
+
+**Определение.** MOOManifest (Method-of-Obtaining-Output Manifest) — это disclosure, который перечисляет mechanism/policy/edition ids, использованные для получения shipped outcomes.
+
+**Пояснение.** MOOManifest отвечает на вопрос: «Какие механизмы и политики произвели этот результат?» Он не раскрывает формат, а раскрывает provenance.
+
+**Пример из животноводства.**
+
+```text
+MOO-001:
+  - selectorMethodRef: G.5-SELECT-001
+  - dominanceRegimeRef: CC-G5.28
+  - parityHarnessRef: PR-001
+  - bridgeCalibrationRef: BCT-001
+  - policyPins: [POL-001, POL-002]
+```
+
+**Ключевой признак.** MOOManifest содержит ids механизмов и политик, а не narrative explanation.
+
+### 3.6 CrossingBundle exposure
+
+**Определение.** Для каждого GateCrossing, relevant к shipped artefacts, pack должен expose CrossingBundleIds; missing/non-conformant bundles вызывают fail-fast.
+
+**Пояснение.** CrossingBundle (E.18) содержит pins, необходимые для проверки cross-context reuse. G.10 не проверяет crossing semantics; он требует, чтобы bundles были видны.
+
+**Пример из животноводства.** Если pack включает сравнение Lab_BHB и Milk_Ketone_Test, CrossingBundle CB-001 должен содержать BridgeCard BC-001, CL, Φ(CL) policy id и UTSRowId.
+
+**Ключевой признак.** CrossingBundleIds присутствуют в pack для всех asserted crossings.
+
+### 3.7 Telemetry pins for refresh
+
+**Определение.** Pack должен emit PathSlice-keyed telemetry pins с policy-id и active edition pins, чтобы G.11 мог планировать slice-scoped refresh.
+
+**Пояснение.** Telemetry не превращается в dominance; она служит для refresh planning. Каждый telemetry pin содержит RSCRTriggerKindId, scope и payload pins.
+
+**Пример из животноводства.**
+
+```text
+TelemetryPin TP-001:
+  - triggerKindId: RSCRTriggerKindId.EditionPinChange
+  - scope: PS-001
+  - payloadPins: {DHCMethodRef.edition=2.1, policy-id=POL-003}
+```
+
+**Ключевой признак.** Telemetry pins keyed by PathSliceId и несут policy/edition payload.
+
+---
+
+## 4. Почему смешивать / игнорировать — значит рисковать
+
+Рассмотрим типичное смешанное утверждение:
+
+> *«Мы отправили фермеру PDF с рекомендациями.»*
+
+**Разложение по G.10:**
+
+| Часть утверждения | Что это в FPF | Почему важно разделять |
+|---|---|---|
+| «PDF» | serialization / publication form | Формат не является governing spec |
+| «рекомендации» | selector outcome / CAL actions | Требуют citation surface |
+| «фермеру» | consumer | Потребитель pack |
+
+**Основные риски смешивания:**
+
+1. **Format-as-spec.** PDF становится «pack», теряются pins и provenance.
+2. **Hidden edition drift.** Без edition pins нельзя понять, какая редакция CG-Spec использовалась.
+3. **Refresh orphaning.** Без PathSliceId обновление требует полного пересбора.
+
+---
+
+## 5. Как это выглядит на ферме: правильное применение
+
+**Ситуация:** публикация pack для фермера по управлению метаболическим риском.
+
+**Было (смешанное / нечёткое):**
+> «Отправим фермеру PDF с рекомендациями.»
+
+**Стало (разложенное / ясное):**
+
+**SoTA-Pack(Core) PACK-001:**
+> PackId = PACK-001
+> PortfolioRosterId = PR-001
+> CGSpecRef.edition = 1.0, CNSpecRef.edition = 1.2
+> PathIds = [P-001, P-002]
+> CrossingBundleIds = [CB-001]
+> TelemetryPinIds = [TP-001]
+> MOOManifestId = MOO-001
+
+**PortfolioRoster PR-001:**
+> setResultFamily = ParetoShortlist
+> sourceSetFamily = MethodFamilyPool
+> shortlistId = SL-001
+
+**MOOManifest MOO-001:**
+> selector = G.5-SELECT-001, parity = PR-001, bridge = BCT-001.
+
+**Результат:**
+- Pack можно проверить, обновить и повторно использовать.
+- Формат PDF является одной из publication forms, но не governing spec.
+- Фермер получает не только советы, но и адреса для аудита.
+
+---
+
+## 6. Практическое применение: с чего начать
+
+**Шаг 1.** Соберите все upstream artefact ids и проверьте required pins.
+
+**Шаг 2.** Составьте SoTA-Pack(Core) с CG-FrameContext, entityOfConcern, spec refs.
+
+**Шаг 3.** Создайте PortfolioRoster@Context с корректными set-result metadata.
+
+**Шаг 4.** Добавьте PathIds, CrossingBundleIds, AuditPins и TelemetryPinIds.
+
+**Шаг 5.** Сформируйте MOOManifestId и опубликуйте pack в UTS.
+
+---
+
+## 7. Проверь себя
+
+| Вопрос | Если ответ «да» — проблема |
+|---|---|
+| Pack представлен только как файл без conceptual object? | Format-as-spec; теряются pins. |
+| Отсутствуют PathIds / PathSliceIds? | Refresh будет глобальным и неуправляемым. |
+| CrossingBundleIds не exposed? | Cross-context reuse не аудитоспособен. |
+| MOOManifestId отсутствует? | Непонятно, как был получен результат. |
+| Telemetry pins не keyed by PathSliceId? | G.11 не может планировать slice-scoped refresh. |
+
+---
+
+## 8. Связь с другими паттернами
+
+| Паттерн | Связь |
+|---|---|
+| G.5 Method Dispatcher | предоставляет selector outcomes для PortfolioRoster |
+| G.9 Parity Harness | предоставляет ParityReportId |
+| G.7 Bridge Calibration | предоставляет BridgeCalibrationTableId и CrossingBundle |
+| G.11 Telemetry Refresh | потребляет TelemetryPinIds |
+| G.Core | определяет shipping boundary и universal invariants |
+
+---
+
+## 9. Что запомнить
+
+1. SoTA-Pack(Core) — это conceptual shipping surface, а не файл.
+2. Pack цитирует upstream artefact ids и expose'ит AuditPins, PathIds, CrossingBundleIds.
+3. PortfolioRoster@Context описывает selector outcome shape без переопределения semantics.
+4. MOOManifest раскрывает mechanism/policy/edition ids, использованные для получения outcomes.
+5. Telemetry pins делают pack refreshable через G.11.
+
+---
+
+*Capture создан в рамках изучения Part G FPF.*
 *FPF Source: FPF/FPF-Spec.md §G.10*
