@@ -1,3 +1,11 @@
+---
+type: fpf-meta
+subject: "MVP-внедрение FPF в PACK-cattle-science"
+domain: cattle-science
+created: 2026-04-18
+updated: 2026-06-27
+---
+
 # MVP-внедрение FPF в PACK-cattle-science
 
 > **Цель:** Получить 80% практической пользы от FPF за 20% времени.  

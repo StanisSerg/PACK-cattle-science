@@ -1,3 +1,11 @@
+---
+type: fpf-meta
+subject: "Практическая ценность FPF / G.2 / R4 для PACK-cattle-science"
+domain: cattle-science
+created: 2026-04-18
+updated: 2026-06-27
+---
+
 # Практическая ценность FPF / G.2 / R4 для PACK-cattle-science
 
 > **Контекст:** Сессия 2026-04-18. Объяснение, что даёт применение принципов FPF к Decision Layer для управления молочным стадом.

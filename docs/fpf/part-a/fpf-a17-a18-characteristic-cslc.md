@@ -8,7 +8,7 @@ reading_time: 50 min
 created: 2026-06-19
 ---
 
-# A.17–A.18 — Characteristic & CSLC: измерять правильно
+# A.17—A.18 — Characteristic & CSLC: измерять правильно
 
 ## 1. Зачем это читать
 «Средний балл риска 3.2», «корова оценена как 4», «BHB = 1.4» — цифры ничего не значат без явного ответа: *измерение чего, по какой шкале, какой полярности*. A.17 фиксирует термин Characteristic. A.18 задаёт CSLC: Characteristic → Scale → Level → Coordinate.
