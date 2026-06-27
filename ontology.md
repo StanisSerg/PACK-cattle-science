@@ -219,11 +219,12 @@ PACK-cattle-science/
 
 ### Внутренние различения домена
 
-| Понятие 1 | Понятие 2 | Различение | Где документировано |
-|-----------|-----------|------------|---------------------|
-| Conception | Pregnancy | Conception = момент; Pregnancy = состояние | 01B-distinctions.md |
-| Service Rate | Conception Rate | SR = % осеменённых; CR = % забеременевших | 01B-distinctions.md |
-| Method | Tool | Method = как; Tool = чем | 01B-distinctions.md |
+Детальные различения домена описаны в двух файлах:
+
+- `pack/cattle-science/01-domain-contract/01C-ontology.md` — §4 «Различения» (5 hard distinctions: Conception/Pregnancy, Service Rate/Conception Rate, Method/Tool, Lactating/Dry, Clinical/Subclinical).
+- `pack/cattle-science/01-domain-contract/01B-distinctions.md` — расширенный реестр hard distinctions (D.001–D.008), включая Norm/Recommendation, Input/Output, Individual/Herd, Biological Potential/Economic Optimum, Acute/Chronic, Model/Reality, Justified Decision/Opinion.
+
+В корневой `ontology.md` различия не дублируются, чтобы избежать рассинхронизации.
 
 ### Различения FPF/SPF в контексте
 
