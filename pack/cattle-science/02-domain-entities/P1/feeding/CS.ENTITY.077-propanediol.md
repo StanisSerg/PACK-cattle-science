@@ -5,27 +5,30 @@ fpf_type: U.Characteristic
 domain: cattle-science
 area: feeding
 subarea: metabolites
-name_ru: "Пропандиол"
-name_en: "Propanediol"
-abbreviation: "1,2-PD"
+name_ru: Пропандиол
+name_en: Propanediol
+abbreviation: 1,2-PD
 related_sota:
-  - CS.SOTA.012
-  - CS.SOTA.066
+- CS.SOTA.012
+- CS.SOTA.066
+- CS.SOTA.336
+- CS.SOTA.338
+- CS.SOTA.339
 related_entities:
-  - CS.ENTITY.007
-  - CS.ENTITY.018
-  - CS.ENTITY.019
-  - CS.ENTITY.066
-  - CS.ENTITY.078
-  - CS.ENTITY.079
-  - CS.ENTITY.080
+- CS.ENTITY.007
+- CS.ENTITY.018
+- CS.ENTITY.019
+- CS.ENTITY.066
+- CS.ENTITY.078
+- CS.ENTITY.079
+- CS.ENTITY.080
 tags:
-  - propanediol
-  - 1-2-propanediol
-  - propylene-glycol
-  - gluconeogenesis
-  - ketosis-treatment
-  - energy-metabolism
+- propanediol
+- 1-2-propanediol
+- propylene-glycol
+- gluconeogenesis
+- ketosis-treatment
+- energy-metabolism
 ---
 
 # CS.ENTITY.077: Пропандиол (Propanediol)

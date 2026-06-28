@@ -1,0 +1,502 @@
+
+--- Page 1 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+Review 
+9 
+Physiological and Metabolic Changes During the Transition Period and the Use of 
+Calcium Propionate for Prevention or Treatment of Hypocalcemia and Ketosis in 
+Periparturient Cows 
+ 
+Çağdaş KARA* 
+Uludağ University, Faculty of Veterinary Medicine, Department of Animal Nutrition and Nutritional Diseases, 16059 Görükle, Bursa, 
+TURKEY 
+ 
+Received: 05.09.2012; Accepted: 05.09.2012; Available Online: 27.05.2013 
+ 
+ABSTRACT 
+The transition from late gestation to early lactation is regarded as the most critical period of the production cycle in dairy cows. 
+Most of metabolic disorders and infectious diseases occur during the transition period because of metabolic and physiological 
+changes, metabolic stress of pregnancy, calving and lactation, a sudden and marked increase of nutrient requirements for milk 
+production and a lack of dry matter intake. Milk fever, subclinical hypocalcemia, ketosis, fatty liver syndrome, retained fetal 
+membranes, metritis, mastitis and displaced abomasum primarily affect dairy cows during this period. Calcium propionate, as a 
+source of both calcium and energy, has been used for preventing or treating hypocalcemia and ketosis in dairy cows. In this review, 
+different administration ways of calcium propionate in transition dairy cows were summarized and efficacy of calcium propionate in 
+prevention or treatment of metabolic disorders was evaluated. 
+ 
+Key Words: Calcium Propionate, Hypocalcemia, Ketosis 
+ 
+Geçiş Dönemindeki Fizyolojik ve Metabolik Değişimler ile Doğum Sonrası Süt 
+İneklerinde Hipokalseminin ve Ketozisin Engellenmesi veya Tedavisinde Kalsiyum 
+Propiyonatın Kullanımı 
+ 
+ÖZET 
+Süt ineklerinin yaşam döngüsünde ileri gebelikten laktasyon dönemine geçiş en kritik dönem olarak görülmektedir. Metabolik ve 
+fizyolojik değişimler, gebeliğin, buzağılamanın ve laktasyonun oluşturduğu stres, süt üretimi için besin maddesi gereksinimlerinin 
+birden ve belirgin artışı ve kuru madde tüketimindeki yetersizlik sebebiyle metabolik rahatsızlıkların ve enfeksiyöz hastalıkların 
+birçoğu bu geçiş dönemi sırasında meydana gelmektedir. Süt humması, subklinik hipokalsemi, ketozis, karaciğer yağlanması, 
+retensiyo sekundinarum, metritis, mastitis ve abomazum deplasmanı, geçiş döneminde süt ineklerini etkileyen başlıca 
+rahatsızlıklardır. Hem kalsiyum hem de bir enerji kaynağı olan kalsiyum propiyonat, süt ineklerinde hipokalsemi ve ketozisin 
+engellenmesi veya tedavisi amacıyla kullanılmıştır. Bu derlemede, geçiş dönemindeki süt ineklerinde kalsiyum propiyonatın farklı 
+uygulama yolları özetlenmiştir ve kalsiyum propiyonatın metabolik rahatsızlıkların engellenmesinde veya tedavisindeki etkinliği 
+değerlendirilmiştir. 
+ 
+Anahtar Kelimeler: Kalsiyum Propiyonat, Hipokalsemi, Ketozis 
+ 
+INTRODUCTION 
+ 
+The transition period, from 3 weeks before to 3 weeks after parturition, is critically important for health, 
+production and profitability of dairy cows (Grummer 1995, Drackley 1999). This period is characterized by 
+tremendous metabolic and endocrine adjustments that the cows must experience from late gestation to the early 
+lactation (Drackley et al. 2001, DeFrain et al. 2005). The most important physiological changes occurring during 
+this period are the reduction in dry matter intake around parturition and a sudden increase in nutrients that the 
+cows need for milk production (Drackley 1999, Ingvartsen and Andersen 2000). 
+During late pregnancy, the growing uterus occupies an increasing amount of the abdominal cavity and 
+leads to the physical compression of the rumen, which reduces the volume of rumen. After calving, the uterus 
+retracts back toward the pelvic inlet (Goff and Horst 1997, Ingvartsen and Andersen 2000). 
+                                                          
+* Corresponding author: cagdaskara@uludag.edu.tr 
+
+--- Page 2 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+ 
+10 
+The concentration of plasma insulin continually declines in the transition period until calving while 
+plasma somatotropin concentration rapidly rises during the period from the late stages of pregnancy to the first 
+days of lactation. Progesterone is the dominant hormone of pregnancy. On the day before parturition, the 
+concentration of plasma progesterone rapidly falls to nearly undetectable level. In addition, there is a transitory 
+elevation in plasma estrogen and cortisol concentrations in the periparturient period. Estrogen and cortisol have 
+their highest plasma concentrations at day 3 before parturition and parturition day, respectively, after which the 
+concentrations decline to their normal postpartum levels within few days (Grummer 1995, Goff and Horst 1997, 
+Ingvartsen and Andersen 2000). 
+The reduction in volume of rumen by the growing fetus and above-mentioned hormonal changes reduce 
+dry matter intake of dairy cows around parturition (Grummer 1995, Ingvartsen and Andersen 2000). Physical 
+and metabolic stress of pregnancy, calving and lactation contributes to a reduction in resistance of cows (Goff 
+and Horst 1997, Melendez 2006). Milk fever, subclinical hypocalcemia, ketosis, fatty liver syndrome, retained 
+fetal membranes, metritis, mastitis and displaced abomasum primarily affect dairy cows during the transition 
+period (Drackley 1999, Melendez 2006).  
+Milk fever (parturient paresis) is a hypocalcemic disorder associated with the onset of lactation in dairy 
+cows (Goff and Horst 1994, Goff and Horst 1997). Hypocalcemia may be clinical or subclinical (Goff and Horst 
+1997). Clinical hypocalcemia, also known as milk fever, is a particular concern in the newly calved cow. Most of 
+cases of milk fever occur within 24 hours of calving (Goff 2008). Generally, cows with milk fever are recumbent 
+and are unable to rise as a result of low blood Ca (Goff 1999), whereas cows with subclinical hypocalcemia have 
+no clinical signs of hypocalcemia (Reinhardt et al. 2011). Hypocalcemia reduces dry matter intake, milk 
+production and fertility and increases the risk of secondary diseases such as ketosis, retained fetal membranes, 
+displaced abomasum and mastitis and the incidence of dystocia and uterine prolapse (Goff and Horst 1997, 
+Mulligan et al. 2006a, Goff 2008). Prevention of hypocalcemia, not just milk fever, should be a major goal of 
+dairy farms (Goff 2008). 
+Most dairy cows in the early lactation experience a period of negative energy balance due to the 
+reduction in dry matter intake and a metabolic priority for milk production (Baird 1982, Mulligan et al. 2006b). 
+As a result, the cows utilize body fat as a source of energy, which leads to excessive body fat mobilization. 
+Ketosis is caused by negative energy balance and excessive body fat mobilization (Goff and Horst 1997, de Roos 
+et al. 2007). Ketosis is defined as a metabolic disease characterized by high levels of ketone bodies in blood, 
+milk and urine. The ketone bodies, acetone, acetoacetate and ß-hydroxybutyrate (BHBA), are formed in the liver 
+during oxidation of fatty acids (nonesterified fatty acids-NEFA) (Goff and Horst 1997, Mandebvu et al. 2003, de 
+Roos et al. 2007). There is a close relationship between ketosis and fatty liver syndrome. Extreme rates of body 
+fat mobilization because of negative energy balance lead to increased triglyceride accumulation in the liver and 
+if this fat infiltration becomes severe, fatty liver syndrome may result (Drackley 1999, Mulligan et al. 2006b).  
+Adaptation of rumen to lactation diet that is high in energy density, enhancing dry matter intake, 
+maintenance of normocalcemia and maintenance of a strong immune system would greatly reduce the incidence 
+of periparturient diseases in dairy cows (Goff and Horst 1997).  
+Oral administration of Ca salts prior to and at parturition has been suggested to prevent hypocalcemia in 
+dairy cows (Goff and Horst 1994, Goff 2008). The use of a source of Ca that has no adverse effects, such as 
+necrotic lesions in the abomasum, on the digestive tract is preferable. Large amounts of propionate produced in 
+the rumen as a result of carbohydrate metabolism have no adverse effects. Therefore, calcium propionate might 
+be expected to be a satisfactory source of Ca (Pehrson et al. 1998). Propionate is the major glucose precursor in 
+ruminants that are in positive energy balance and is antiketogenic (Pehrson et al. 1998, Drackley 1999). 
+Depressed dry matter intake during the transition period leads to a lack of propionate supplied for glucose 
+synthesis in the liver (Drackley 1999, DeFrain et al. 2005). Nutritionally, propionate can be supplied orally in the 
+form of calcium propionate (Mandebvu et al. 2003, Melendez 2006, Hernández et al. 2009). Calcium propionate 
+is a white crystalline powder. Molecular formula, molecular weight, density and pH of calcium propionate are 
+C6H10CaO4, 186.22, 0.56 g/cm3 and 8.5 to 10, respectively (Kara 2009). Calcium propionate, as a source of both 
+Ca and energy, has been administered to transition dairy cows for prevention and / or treatment of hypocalcemia 
+and ketosis (Goff et al. 1996, Stokes and Goff 2001, Kara et al. 2009). Calcium propionate can be used by oral 
+
+--- Page 3 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+11 
+drenching (Stokes and Goff 2001, Kara et al. 2009), adding to total mixed ration or concentrate mixture 
+(Mandebvu et al. 2003, Liu et al. 2010) and in a paste or gel form (Goff et al. 1996, Higgins et al. 1996).  
+In this review, different administration ways of calcium propionate in dairy cows were summarized and 
+efficacy of calcium propionate in prevention and treatment of metabolic disorders was evaluated.   
+ 
+MILK FEVER AND SUBCLINICAL HYPOCALCEMIA 
+ 
+As the sudden demand for Ca of colostrum and milk production cannot be met by dietary Ca absorption, bone Ca 
+mobilization and renal Ca resorption, most dairy cows have some degree of hypocalcemia (milk fever or 
+subclinical) during the early postpartum (Penner et al. 2008, DeGaris and Lean 2009). Hypocalcemia occurs 
+because Ca leaves the extracellular fluid pool to enter the mammary gland faster than it can be replaced by 
+intestinal Ca absorption, bone Ca mobilization and renal Ca resorption (Goff and Horst 1997, DeGaris and Lean 
+2009).  
+Blood Ca in the adult cows is maintained between 8.5 and 10 mg/dl (2.0 and 2.5 mmol/L) (Goff 2008). 
+Maintenance of blood Ca within the acceptable range is a balancing act between the Ca demand of milk 
+production and the cow’s homeostatic mechanisms to maintain blood Ca (Taylor et al. 2008). Clinical signs of 
+milk fever (clinical hypocalcemia, parturient paresis) often are not seen until serum Ca concentration is about 4 
+mg/dl (Goff and Horst 1997). Subclinical hypocalcemia is defined as <7.5mg/dl serum Ca concentration (Goff et 
+al. 1996, Oetzel 1996). 
+Intestinal Ca absorption and bone Ca resorption are controlled by parathyroid hormone, which is 
+secreted by the parathyroid glands, and 1,25-dihydroxyvitamin D, which is produced in the kidney (Horst et al. 
+1994). As there is a decline in blood Ca concentration, parathyroid hormone concentration is increased. When 
+blood Ca is within the normal range, parathyroid hormone secretion is decreased (Goff 2008, Taylor et al. 2008). 
+Parathyroid hormone initiates renal production of 1,25-dihydroxyvitamin D to permit Ca homeostasis (Goff et al. 
+2004). In addition, renal resorption of Ca is enhanced by parathyroid hormone (Goff 2008, Taylor et al. 2008).  
+Metabolic alkalosis blunts the response of the cow to parathyroid hormone and predisposes dairy cows 
+to milk fever and subclinical hypocalcemia. Metabolic alkalosis largely occurs as the result of diets high in 
+cations, especially sodium and potassium, and low in anions, especially chlorine and sulfur. Precalving diets 
+high in anions and low in cations or containing anionic salts such as ammonium sulfate, magnesium sulfate and 
+ammonium chloride can decrease the occurrence of hypocalcemia (Goff 2008, DeGaris and Lean 2009). In 
+addition, many strategies including feeding a precalving diet containing a low Ca concentration, administration 
+of vitamin D at approximately 1 week before calving and supplementation of Ca at calving have been used for 
+the prevention of hypocalcemia (Roche et al. 2003).  
+Cows in first lactation almost never experience milk fever. They may have some degree of 
+hypocalcemia during the first days of lactation. Their intestine and bone rapidly adapt to the Ca demand of 
+lactation. As cows age, Ca homeostatic mechanisms react more slowly to the Ca demand of lactation (Horst et al. 
+1994). 
+Hypocalcemia reduces smooth muscle contraction, which results in reduced ruminal and abomasal 
+motility leading to reduced dry matter intake and displaced abomasum (Jorgensen et al. 1998, Goff 2008). The 
+reduction in dry matter intake at the first days of lactation is exacerbated by hypocalcemia, which increases the 
+energy deficit of the cow and the risk of ketosis and fatty liver (Goff and Horst 1997, Stokes and Goff 2001). In 
+addition, tissue uptake of glucose is inhibited since hypocalcemia prevents the secretion of insulin. Reduced 
+glucose uptake would exacerbate lipid mobilization during the early lactation, thus increasing the risk of ketosis 
+(Goff and Horst 1997).  
+Milk fever or subclinical hypocalcemia has been related to dystocia, uterine prolapse and retained fetal 
+membranes (Mulligan et al. 2006a, b). The loss of muscle tone in the uterus due to hypocalcemia increases the 
+incidence of dystocia, uterine prolapse and retained fetal membranes (Stokes and Goff 2001, Mulligan et al. 
+2006b). Dystocia is a risk factor for retained fetal membranes. Retained fetal membranes predispose dairy cows 
+to metritis (Mulligan et al. 2006a, Melendez 2006). The clear links between hypocalcemia, dystocia and retained 
+fetal membranes, together with the link between hypocalcemia and periparturient immunosuppression, provide a 
+
+--- Page 4 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+ 
+12 
+strong basis for the association between hypocalcemia and metritis (Kimura et al. 2006). Hypocalcemia reduces 
+contraction of the teat sphincter muscle responsible for closure of the teat orifice after milking and may 
+exacerbate the immunosuppression ordinarily present at calving, which increases the risk of mastitis (Goff and 
+Horst 1997, Kimura et al. 2006, Goff 2008).  
+ 
+KETOSIS 
+ 
+During the early lactation, dairy cows experience a typical negative energy balance characterized by 
+mobilization of NEFA from adipose tissue (Herdt 2000), which is explained by low dry matter intake around 
+parturition and a slower increase in dry matter intake than in milk production during the early lactation. Energy 
+required for maintenance and milk production exceeds the amount of energy that dairy cows can obtain from 
+dietary sources (Goff and Horst 1997, Mulligan et al. 2006b, Oliveira et al. 2004). The lowest dry matter intake 
+occurs at calving. Milk production typically peaks between week 5 to 7 postpartum while maximum dry matter 
+intake is reached between week 8 and 22 after calving. The rate of an increase in dry matter intake after calving 
+are affected by the diet fed during lactation, prepartum feeding and body condition score of periparturient cows 
+(Ingvartsen and Andersen 2000). 
+Depressed dry matter intake during the early lactation leads to a lack of ruminal propionate supply to 
+the liver (Drackley 1999, DeFrain et al. 2005). Propionate produced in the rumen after fermentation of 
+carbohydrates is the major glucogenic volatile fatty acid (DeFrain et al. 2005). Propionate stimulates insulin 
+secretion, which suppresses NEFA mobilization (Pehrson et al. 1998, Drackley 1999). After propionate is 
+absorbed by the rumen epithelial wall, it is transported via the portal vein to the liver. Propionate is incorporated 
+into the tricarboxylic acid cycle through succinyl coenzyme A and is converted to glucose via pyruvate and 
+oxaloacetate by the liver (Melendez 2006, Allen et al. 2009). Propionate deficiency due to low dry matter intake 
+and increased lactational demand for energy leads to a lack of oxaloacetate which is used to convert acetate, 
+butyrate and NEFA to energy in the tricarboxylic acid cycle. As a result, the acetyl-coenzyme A synthesized 
+from acetate, butyrate and NEFA cannot enter into the tricarboxylic acid cycle and is converted to ketone bodies 
+(acetone, acetoacetate and BHBA) (Goff and Horst 1997, Kara 2009).  
+Excessive body fat mobilization occurring as a result of negative energy balance leads to increased 
+amount of NEFA oxidized by the liver or exported from liver as very low density lipoprotein (Goff and Horst 
+1997, Drackley 1999, Liu et al. 2010). However, there is a limit to the amount of NEFA that can be oxidized to 
+completion by the tricarboxylic acid cycle of the liver or exported from the liver. When the limited capacity of 
+liver is reached, triglycerides accumulate within the hepatocytes and impairing their function (Goff and Horst 
+1997, Liu et al. 2010). 
+Ketosis is a typical metabolic disease explained by low dry matter intake, a low level of glucose, 
+negative energy balance and a high level of fat mobilization in early postpartum cows (Herdt 2000, Guo et al. 
+2008). Dairy cows are susceptible to ketosis during especially the first 6 to 8 weeks after calving. High 
+producing cows are more susceptible to ketosis than low producing ones (Melendez 2006, de Roos et al. 2007, 
+Guo et al. 2008). Although increased concentrations of plasma ketone bodies are normal around calving, 
+abnormally increased concentrations can lead to clinical or subclinical ketosis (Duffield et al. 2009, Goldhawk et 
+al. 2009). Subclinical ketosis is defined as serum BHBA concentration above 1.0 mmol/L (Duffield 2000, 
+Goldhawk et al. 2009). Clinical ketosis may start at serum BHBA concentration above 2.6 mmol/L (Duffield 
+2000). In addition, serum NEFA concentration is generally higher than 1.0 mmol/L in the cows having ketosis 
+and fatty liver (Grummer 1993, Herdt and Gerloff 1999). However, these levels are extremely variable among 
+animals (Duffield 2000).  
+Body condition score at calving is a measure of adipose tissue reserves that can be used during lactation 
+to supply energy and precursors for milk fat. Excessive body condition at calving increases losses in body 
+condition during the lactation and decreases dry matter intake and milk production (Roche et al. 2009). Fat cows 
+are in a greater negative energy balance and have higher plasma concentration of NEFA (Melendez et al. 2003). 
+Excessive body condition at calving contributes to the development of metabolic diseases such as fat cow 
+syndrome, mastitis and metritis (Roche et al. 2009).  
+
+--- Page 5 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+13 
+Increased plasma NEFA concentrations during the last 7 days before calving are associated with greater 
+incidence of ketosis, displaced abomasum and retained fetal membranes (Grummer 1995, Ospina et al. 2010). 
+High plasma concentration of NEFA may lead to mastitis due to its negative effect on the immune system 
+(Lacetera et al. 2005, Melendez et al. 2009). Ketosis characterized by increased NEFA and BHBA 
+concentrations leads to a loss in milk production, a greater incidence of cystic ovaries, increased days open and 
+increased culling (Melendez et al. 2003, Melendez 2006).  
+ 
+USE OF CALCIUM PROPIONATE IN DAIRY COWS 
+ 
+The studies with calcium propionate in dairy cows were presented in a chronological order. 
+Goff and Horst (1994) tested the effect of a water soluble carrier (propylene glycol) versus a water insoluble 
+carrier (soybean oil) on the ability of a single oral dose of calcium chloride and calcium propionate to increase 
+plasma Ca concentration in nonpregnant and nonlactating Jersey cows. A paste was made by adding 300 ml of 
+either propylene glycol or soybean oil to 75 g of Ca as either the chloride or propionate salt. 208 g of calcium 
+chloride containing 36 % Ca and 349 g of calcium propionate containing 21.5 % Ca provided 75 g of elemental 
+Ca. The paste of calcium chloride made in propylene glycol increased plasma Ca concentration more rapidly 
+than did the paste of calcium propionate made in propylene glycol. However, the increase in plasma Ca was 
+sustained longer with calcium propionate. For cows treated with Ca salts administered in soybean oil, plasma Ca 
+concentrations were not statistically increased over pretreatment concentrations. Goff and Horst (1994) reported 
+that a water insoluble carrier (soybean oil) decreased the availability of the Ca for absorption, which was likely 
+because insoluble Ca soaps were formed. The amount of Ca absorbed after oral administration of various Ca 
+salts depended on the solubility of Ca salt in water (Goff and Horst 1994). Goff and Horst (1994) suggested that 
+propylene glycol can be used to form a paste that is readily soluble in water. At the same study, Ca salts were 
+also rectal1y administered to nonpregnant Jersey cows. The cow receiving 97 g of Ca as calcium propionate (463 
+g) in 4 L of water exhibited a rapid and sustained increase in plasma Ca concentration. Goff and Horst (1994) 
+observed blood-tinged feces at 6 hours after rectal administration of calcium propionate and the cow exhibited 
+tenesmus. Mean plasma Ca concentrations of three cows receiving 116 g of calcium propionate (25 g of Ca) 
+dissolved in 500 ml of water were not significantly increased. No signs of hemorrhage or necrosis were evident 
+in these cows.  
+Goff et al. (1996) administered the paste of calcium propionate containing 74 g of Ca and 268 g of 
+propionate at calving and again 12 hours after calving to Holstein cows. Treating the cows with calcium 
+propionate significantly decreased the number of cows with subclinical hypocalcemia at 12 and 24 hours after 
+calving. However, administration of calcium propionate had no significant effect on plasma Ca, NEFA and 
+BHBA concentrations. In the same study, calcium propionate administered to Jersey cows increased plasma Ca 
+concentration and decreased the incidences of subclinical hypocalcemia and milk fever, plasma NEFA and 
+BHBA concentrations at 24 hours after calving.     
+Pehrson et al. (1998) conducted a comparative study of the effectiveness of calcium propionate and 
+calcium chloride for the prevention of milk fever in Swedish Red and White and Swedish Friesian cows. The 
+cows in experimental group received 6 boluses of calcium propionate (each containing 20 g Ca and about 85 g 
+propionate) between 24 hours before and 24 hours after calving. The cows in control group received 4 doses of 
+calcium chloride (each containing 54 g of Ca) during the same period. Pehrson et al. (1998) reported that 
+calcium propionate might be a satisfactory alternative to calcium chloride for the prevention of milk fever.  
+Calcium chloride is slightly more effective and takes up less volume than calcium propionate. It also is 
+an acidifying agent (Goff and Horst 1993, Goff and Horst 1994). A mild metabolic acidosis can help enhance Ca 
+homeostasis. However, a severe metabolic acidosis can occur when repeated treatments of calcium chloride are 
+administered. In addition, calcium chloride is very irritating to mucous membranes and lesions can be caused in 
+the upper digestive tract. Since calcium propionate does not induce metabolic acidosis, larger amounts of Ca can 
+be given (Goff and Horst 1994, Goff 2008). Oral treatments of calcium propionate can increase plasma Ca 
+concentration within 30 to 60 minutes of administration and plasma Ca concentration remains elevated for about 
+6 hours (Goff 1999, Melendez 2006). 
+
+--- Page 6 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+ 
+14 
+Jonsson et al. (1998) investigated the effect of drenching with 349 g of calcium propionate in 200 ml 
+molasses on plasma Ca and glucose concentrations in lactating and nonlactating Jersey cows. Drenching with 
+calcium propionate increased plasma Ca concentration by 10 % for periods less than 7 hours and plasma glucose 
+concentration was also elevated by 11 % for less than 3 hours after the treatment with calcium propionate in 
+molasses. 
+Stokes and Goff (2001) reported that 680 g of calcium propionate administered orally to Holstein cows 
+as two doses at calving and again 24 hours after calving had no significant effect on plasma Ca, glucose, NEFA 
+and BHBA concentrations and milk production. However, drenching with calcium propionate significantly 
+decreased the incidence of metritis in this study. Stokes and Goff (2001) observed that the number of cows with 
+displaced abomasum was more in the group receiving calcium propionate in comparison to control group. 
+Propionate within the abomasum inhibits contractility of abomasum, thus increasing the risk of displaced 
+abomasum. In this study, the increased incidence of displaced abomasum was not related to administrations of 
+calcium propionate (per drench containing 146 g Ca and 7.3 moles glucose precursor) since possible deleterious 
+effects of propionate in the abomasum could be offset by the beneficial effects of Ca entering the blood to 
+maintain abomasal motility (2001). 
+Mandebvu et al. (2003) observed that 110 g/day of calcium propionate (78.43 % propionate and 21.36 
+% Ca) added into total mixed ration for last 3 weeks prepartum and first 3 weeks postpartum decreased 
+subclinical ketonuria during week 1 and 2 postpartum in Holstein cows. In this study, Feeding total mixed ration 
+containing calcium propionate lowered milk fat percentage during weeks 1 to 3 postpartum and tended to 
+decrease serum NEFA concentration during week 1 postpartum. Lowered milk fat percentage in the cows 
+receiving calcium propionate can be explained by the reduction in circulating NEFA utilized for milk fat 
+synthesis by mammary gland. Mandebvu et al. (2003) reported that supplementation of calcium propionate did 
+not affect milk production and variation of body condition score. 
+Melendez et al. (2003) administered a single oral dose of 510 g calcium propionate, containing 110 g 
+Ca, plus 400 g propylene glycol within 6 hours after calving to dairy cows fed anionic diets (-80 mEq/kg dry 
+matter) during 21 days before expected calving time. The treatment with calcium propionate plus propylene 
+glycol was not effective in reducing the incidence of calving-related disorders such as milk fever, ketosis, fatty 
+liver, retained fetal membranes, metritis and displaced abomasum. Pregnancy rate, calving to conception interval 
+and services per conception were not also affected by the treatment. In addition, administration of calcium 
+propionate plus propylene glycol did not improve milk production and body condition score.  
+In the study conducted by Oliveira et al. (2004), daily oral administration of 500 g calcium propionate, 
+from 11 days before the estimated calving date until 51 days postpartum, did not affect plasma NEFA 
+concentration, variation of body condition score and the number of days to first postpartum estrus in Holstein 
+cows. 
+McNamara and Valdez (2005) investigated the effects of 125 g/day of calcium propionate and 
+chromium propionate to supply 10 mg of chromium/day on dry matter intake, milk production and composition, 
+serum glucose and NEFA concentrations in Holstein cows treated from 21 days prepartum to 35 days 
+postpartum. Propionate salts (calcium propionate, chromium propionate and calcium propionate plus chromium 
+propionate) added into total mixed ration had no effect on milk production, body condition score, serum glucose 
+and NEFA concentrations. Milk fat percentage was lower in the groups with calcium propionate and chromium 
+propionate. Treating cows with calcium propionate tended to increase dry matter intake in both prepartum and 
+postpartum period. In this study, addition of either calcium propionate or chromium propionate did not increase 
+rates of lipogenesis during 21 days prepartum. After calving, all cows had a large drop in lipogenesis. However, 
+rates of lipogenesis in the cows treated with calcium propionate and chromium propionate were much greater 
+than in control cows at 14, 28, and 56 days postpartum.  
+Kara et al. (2009) reported that drenching with 680 g of calcium propionate (per drench containing 143 
+g of Ca) did not affect dry matter intake, body condition score, milk production, the incidence of retained fetal 
+membranes, serum NEFA and glucose concentrations in lactating Holstein cows. Kara et al. (2009) observed that 
+two drenches of calcium propionate at calving and 24 hours after calving were beneficial in treating milk fever. 
+
+--- Page 7 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+15 
+In the same study, three drenches of calcium propionate at calving, 24 hours after calving and 7 days after 
+calving significantly decreased the incidence of metritis. 
+Liu et al. (2010) observed that different amounts of calcium propionate (100 g/day, 200 g/day and 300 
+g/day) added into total mixed ration during first 63 days of lactation were not affected on dry matter intake, milk 
+production and composition in Holstein cows. In this study, feeding all supplementation levels of calcium 
+propionate tended to increase body weight at a higher rate relative to feeding control diet (no calcium 
+propionate). Increasing supplementation of calcium propionate improved energy status, as indicated by the levels 
+of higher blood glucose, lower blood BHBA and NEFA and lower urine ketones. Liu et al. (2010) reported that 
+the optimum dose of calcium propionate was approximately 200 g/day/cow and further increase to 300 
+g/day/cow was not beneficial to improve concentration of urine ketones. 
+Peralta et al. (2011) administered a mixture of calcium propionate, propylene glycol and minerals as a 
+drench in water within 12 hours after calving and at 30 days in milk to Holstein cows. Drenching with the 
+mixture containing 375 g of calcium propionate and 400 g of propylene glycol increased plasma Ca 
+concentration but was not effective in reducing plasma NEFA concentration. In addition, Peralta et al. (2011) 
+reported that administration of the drenches had no significant effect on milk production and milk component, 
+conception rate, days to first ovulation, days to first estrus, days to first service and services per conception.  
+Feeding calcium propionate requires less labor in comparison with oral administration of calcium 
+propionate as a drench or paste and reduces stress. However, the amount of calcium propionate added into total 
+mixed ration or concentrate mixture is limited since it is unpalatable. Oral administration of calcium propionate 
+as a drench or paste provides greater amounts of Ca and propionate at once compared with feeding calcium 
+propionate. To prepare an oral drench, calcium propionate is mixed with warm water (Kara et al. 2009) or 
+molasses (molasses + water) (Jonsson et al. 1998) and then this solution is delivered into the esophagus via an 
+esophageal feeder tube. Oral paste of calcium propionate is prepared by mixing with less water in comparison to 
+preparing drench (Goff et al. 1996) or mixing with propylene glycol or soybean oil (Goff and Horst 1994) and is 
+packaged into the tube designed for delivery with a caulking gun.  
+Ca absorption in the rumen is less efficient than in the intestine because the volume of fluid in rumen 
+will rapidly dilute Ca concentration to a value less than 6 mmol/L required for passive absorption. Pastes reduce 
+the amount of Ca likely to bypass the rumen. Thus, more Ca must be administered by paste to reach the rise in 
+plasma Ca concentration obtained by an oral Ca drench. Drenches can lead to severe aspiration pneumonia since 
+some cows can aspirate the solution (Jonsson et al. 1998, Melendez 2006). 
+ 
+CONCLUSIONS 
+ 
+Nutrition and management of dairy cows during the transition period have received tremendous interest in recent 
+years because of the increased risk of metabolic disorders such as hypocalcemia and ketosis during this critical 
+period. Hypocalcemia and ketosis have an etiological role in the reduction in dry matter intake and milk 
+production, the development of reproductive disorders, fertility problems and infectious diseases. Thus, these 
+metabolic disorders should be prevented or treated immediately. Calcium propionate has been used for the 
+prevention and treatment of hypocalcemia and ketosis in dairy cows. The effects of calcium propionate in dairy 
+cows have been variable due to different breed, body condition, physiological state, milk production and parity 
+of dairy cows used in the studies, the ratio of concentrate to forage in the diet, the amounts and absorption rates 
+of Ca and propionate administered as calcium propionate and the quality of calcium propionate product used. 
+According to the results of studies summarized in this review, administration of calcium propionate mostly had 
+no significant effect on plasma NEFA and glucose concentrations, milk production, dry matter intake, body 
+condition score and reproductive parameters. However, calcium propionate was beneficial in increasing plasma 
+Ca concentration and preventing or treating milk fever and subclinical hypocalcemia.  
+ 
+ 
+ 
+ 
+
+--- Page 8 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+ 
+16 
+REFERENCES  
+ 
+Allen M.S, Bradford B.J and Oba M (2009). The hepatic oxidation theory of the control of feed intake and its application to ruminants. J. 
+Anim. Sci., 87: 3317–3334. 
+Baird D.G (1982). Primary ketosis in the high producing dairy cow: Clinical and subclinical disorders, treatment, prevention and outlook. J. 
+Dairy Sci., 65: 1–10. 
+DeFrain J.M, Hippen A.R, Kalscheur K.F and Patton R.S (2005). Effects of feeding propionate and calcium salts of long-chain fatty acids on 
+transition dairy cow performance. J. Dairy Sci., 88: 983–993. 
+DeGaris P.J and Lean I.J (2009). Milk fever in dairy cows: A review of pathophysiology and control principles. Vet. J., 176: 58–69. 
+de Roos A.P.W, van den Bijgaart H.J.C.M, Hørlyk J and de Jong G (2007). Screening for subclinical ketosis in dairy cattle by fourier 
+transform infrared spectrometry. J Dairy Sci., 90: 1761–1766. 
+Drackley J.K (1999). Biology of dairy cows during the transition period: the final frontier. J. Dairy Sci., 82: 2259–2273. 
+Drackley J.K, Overton T.R and Douglas G.N (2001). Adaptations of glucose and long-chain fatty acid metabolism in liver of dairy cows 
+during the periparturient period. J. Dairy Sci., 84 (Suppl E): 100–112. 
+Duffield T.F (2000). Subclinical ketosis in lactating dairy cattle. Vet. Clin. North Am. Food Anim. Pract., 16: 231–253. 
+Duffield T.F, Lissemore K.D, McBride B.W and Leslie K.E (2009). Impact of hyperketonemia in early lactation dairy cows on health and 
+production J. Dairy Sci., 92: 571–580. 
+Goff J.P and Horst R.L (1993). Oral administration of calcium salts for treatment of hypocalcemia in cattle. J. Dairy Sci., 76: 101–108. 
+Goff J.P and Horst R.L (1994). Calcium salts for treating hypocalcemia: carrier effects, acid-base balance, and oral versus rectal 
+administration. J. Dairy Sci., 77: 1451–1456. 
+Goff J.P, Horst R.L, Jardon P.W, Borelli C and Wedam J (1996). Field trials of an oral calcium propionate paste as an aid to prevent milk 
+fever in periparturient dairy cows. J. Dairy Sci., 79: 378–383. 
+Goff J.P and Horst R.L (1997). Physiological changes at parturition and their relationship to metabolic disorders. J. Dairy Sci., 80: 1260–
+1268. 
+Goff J.P (1999). Treatment of calcium, phosphorus, and magnesium balance disorders. Vet. Cl. North Amer. Food. Anim. Pract., 15: 619–
+639. 
+Goff J.P, Ruiz R and Horst R.L (2004). Relative acidifying activity of anionic salts commonly used to prevent milk fever. J. Dairy Sci., 87: 
+1245–1255. 
+Goff J.P 2008. The monitoring, prevention, and treatment of milk fever and subclinical hypocalcemia in dairy cows. Vet. J., 176: 50–57. 
+Goldhawk C, Chapinal N, Veira D.M, Weary D.M and von Keyserlingk M.A.G (2009). Prepartum feeding behavior is an early indicator of 
+subclinical ketosis. J. Dairy Sci., 92: 4971–4977. 
+Grummer R.R (1993). Etiology of lipid-related metabolic disorders in periparturient dairy cows. J. Dairy Sci., 76: 3882–3896. 
+Grummer R.R (1995). Impact of changes in organic nutrient metabolism on feeding the transition dairy cow. J. Anim. Sci., 73: 2820–2833. 
+Guo J, Peters R.R and Kohn R.A (2008). Evaluation of a mechanistic model of glucose and lipid metabolism in periparturient cows. J. Dairy 
+Sci., 91: 4293–4300. 
+Herdt T.H and Gerloff B.J (1999). Ketosis. In: Current veterinary therapy 4: food animal practice (Eds.: J. Howard and R. Smith). WB 
+Saunders Company, Philadelphia, USA, pp: 226–230. 
+Herdt T.H (2000). Ruminant adaptation to negative energy balance. Influences on the etiology of ketosis and fatty liver. Vet. Clin. North 
+Am. Food Anim. Pract., 16: 215–230. 
+Hernández E.G.S, Bouda J, García J.A and Hernández J.A.N (2009). Effect of postpartum administration of calcium salts and glucose 
+precursors on serum calcium and ketone bodies in dairy cows. Vet. Méx., 40: 17-26. 
+Higgins J.J, Sanchez W.K and Guy M.A (1996). An oral gel of calcium propionate plus propylene glycol is effective in elevating calcium 
+and glucose levels in periparturient dairy cows. J. Dairy Sci., 79 (Suppl. 1): 130 (Abstr.). 
+Horst R.L, Goff J.P and Reinhardt T.A (1994). Calcium and vitamin D metabolism in the dairy cow. J. Dairy Sci., 77: 1936–1951. 
+Ingvartsen K.L and Andersen J.B (2000). Integration of metabolism and intake regulation: a review focusing on periparturient animals. J. 
+Dairy Sci., 83: 1573–1597. 
+Jonsson N.N, Daniel R.C.V, Mayer D and Verrall R (1998). Effects of oral dosing with calcium propionate on total calcium and glucose 
+concentrations in the plasma of the cow. J. Vet. Med., 45: 127–136. 
+Jorgensen R.J, Nyengaard N.R, Hara S, Enemark J.M and Andersen P.H (1998). Rumen motility during induced hyper- and hypocalcaemia. 
+Acta. Vet. Scand., 39: 331–338. 
+Kara Ç (2009). Süt sığırlarının geçiş dönemlerinde kalsiyum propiyonat katkısının süt verimi ve bileşimi ile ketozis, hipokalsemi ve bazı döl 
+verimi parametrelerine etkileri. The Degree of Doctor of Philosophy Thesis, U. Ü. Veteriner Fakültesi, Bursa, Turkey. 
+Kara Ç, Orman A, Udum D, Yavuz H.M and Kovanlıkaya A (2009).  Effects of calcium propionate by different numbers of applications in 
+first week postpartum of dairy cows on hypocalcemia, milk production and reproductive disorders Ital. J. Anim. Sci., 8: 259-270. 
+Kimura K, Reinhardt T.A and Goff J.P (2006). Parturition and hypocalcaemia blunts calcium signals and immune cells of dairy cattle. J. 
+Dairy Sci., 89: 2588–2595. 
+Lacetera N, Scalia D, Bernabucci U, Ronchi B, Pirazzi D and Nardone A (2005). Lymphocyte functions in overconditioned cows around 
+parturition. J. Dairy Sci., 88: 2010–2016. 
+Liu Q, Wang C, Yang W.Z, Guo G, Yang X.M, He D.C, Dong K.H and Huang Y.X (2010). Effects of calcium propionate supplementation 
+on lactation performance, energy balance and blood metabolites in early lactation dairy cows. J. Anim. Physiol. Anim. Nutr., 94: 
+605–614. 
+
+--- Page 9 ---
+J. BIOL. ENVIRON. SCI.,  
+2013, 7(19), 9-17 
+17 
+Mandebvu P, Ballard C.S, Sniffen C.J, Tsang D.S, Valdez F, Miyoshi S and Schlatter L (2003). Effect of feeding an energy supplement 
+prepartum and postpartum on milk yield and composition, and incidence of ketosis in dairy cows. Anim. Feed. Sci. Tech., 105: 
+81–93. 
+McNamara J.P and Valdez F (2005). Adipose tissue metabolism and production responses to calcium propionate and chromium propionate. 
+J. Dairy Sci., 88: 2498–2507. 
+Melendez P, Donovan G.A, Risco C.A, Littell R and Goff J.P (2003). Effect of calcium-energy supplements on calving-related disorders, 
+fertility and milk yield during the transition period in cows fed anionic diets. Theriogenology, 60: 843–854. 
+Melendez P (2006). Nutritional management of the transition period to optimize fertility in dairy cattle. In: Proceedings 3rd Florida and 
+Georgia Dairy Road Show Conference, Tifton, GA, USA, March 7, pp: 1–50. 
+Melendez P, Marin M.P, Robles J, Rios C, Duchens M and Archbald L (2009). Relationship between serum nonesterified fatty acids at 
+calving and the incidence of periparturient diseases in Holstein dairy cows. Theriogenology, 72: 826–833. 
+Mulligan F.J, O’Grady L, Rice D and Doherty M (2006a). Production diseases of the transition cow: Milk fever and subclinical 
+hypocalcaemia. Irish Vet. J., 59: 697-702. 
+Mulligan F.J, O’Grady L, Rice D and Doherty M (2006b). A herd health approach to dairy cow nutrition and production diseases of the 
+transition cow. Anim. Reprod. Sci., 96: 331–353. 
+Oetzel G.R (1996). Effect of calcium chloride gel treatment in dairy cows on incidence of periparturient diseases. J. Am. Vet. Med. Assoc., 
+209: 958–961. 
+Oliveira P.G, Pires A.V, Meyer P.M, Susin I, Villarreta E.T, Rodrigues P.H.M and Santos F.A.P (2004). Gluconeogenic supplements do not 
+affect production, reproductive traits and blood metabolite of Holstein cows during the transition period. Scientia Agricola 
+(Piracicaba, Braz), 61: 376–385. 
+Ospina P.A, Nydam D.V, Stokol T and Overton T.R (2010). Evaluation of nonesterified fatty acids and betahydroxybutyrate in transition 
+dairy cattle in the northeastern United States: Critical thresholds for prediction of clinical diseases. J. Dairy Sci., 93: 546-554. 
+Pehrson B, Svensson C and Jonsson M (1998). A Comparative study of the effectiveness of calcium propionate and calcium chloride for the 
+prevention of parturient paresis in dairy cows. J. Dairy Sci., 81: 2011–2016. 
+Penner G.B, Tremblay G.F, Dow T and Oba M (2008). Timothy hay with a low dietary cation-anion difference improves calcium 
+homeostasis in periparturient Holstein cows. J. Dairy Sci., 91: 1959–1968. 
+Peralta O.A, Duchens D.M, Moraga L and Nebe R.L (2011). Supplementing transition cows with calcium propionate-propylene glycol 
+drenching or organic trace minerals: implications on reproductive and lactation performances. Arch. Med. Vet., 43: 65-71.  
+Reinhardt T.A, Lippolis J.D, McCluskey B.J, Goff J.P and Horst R.L (2011). Prevalence of subclinical hypocalcemia in dairy herds. Vet. J., 
+188: 122–124. 
+Roche J.R, Dalley D, Moate P, Grainger C, Rath M and O’Mara F (2003). A low dietary cation-anion difference precalving and calcium 
+supplementation postcalving increase plasma calcium but not milk production in a pasture-based system.  J. Dairy Sci., 86: 2658-
+2666. 
+Roche J.R, Friggens N.C, Kay J.K, Fisher M.W, Stafford K.J and Berry D.P (2009). Body condition score and its association with dairy cow 
+productivity, health, and welfare. J. Dairy Sci., 92: 5769–5801. 
+Stokes R.S and Goff J.P (2001). Case study: evaluation of calcium propionate and propylene glycol administrated in to esophagus of dairy 
+cattle at calving. Prof. Anim. Sci., 17: 115–122. 
+Taylor M.S, Knowlton K.F, McGilliard M.L, Seymour W.M and Herbein J.H (2008). Blood mineral, hormone, and osteocalcin responses of 
+multiparous Jersey cows to an oral dose of 25-hydroxyvitamin D3 or vitamin D3 before parturition. J. Dairy Sci., 91: 2408–2416. 
+ 

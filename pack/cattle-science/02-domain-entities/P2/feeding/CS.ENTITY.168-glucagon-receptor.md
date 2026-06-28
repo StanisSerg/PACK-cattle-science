@@ -5,17 +5,26 @@ priority: P2
 domain: cattle-science
 area: feeding
 subarea: metabolic-regulation
-tags: [glucagon-receptor, gpcr, gluconeogenesis, glycogenolysis, catabolism]
+tags:
+- glucagon-receptor
+- gpcr
+- gluconeogenesis
+- glycogenolysis
+- catabolism
 related:
-  - id: CS.ENTITY.046
-    type: related
-    note: Glucagon (ligand)
-  - id: CS.ENTITY.167
-    type: related
-    note: Insulin receptor (opposing pathway)
-  - id: CS.ENTITY.165
-    type: related
-    note: AMPK (convergent catabolic signaling)
+- id: CS.ENTITY.046
+  type: related
+  note: Glucagon (ligand)
+- id: CS.ENTITY.167
+  type: related
+  note: Insulin receptor (opposing pathway)
+- id: CS.ENTITY.165
+  type: related
+  note: AMPK (convergent catabolic signaling)
+related_sota:
+- CS.SOTA.336
+- CS.SOTA.338
+- CS.SOTA.339
 ---
 
 # Glucagon receptor

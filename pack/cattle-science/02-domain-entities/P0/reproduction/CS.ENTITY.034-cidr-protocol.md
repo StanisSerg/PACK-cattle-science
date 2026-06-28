@@ -20,6 +20,8 @@ related_sota:
 - CS.SOTA.290
 - CS.SOTA.292
 - CS.SOTA.293
+- CS.SOTA.338
+- CS.SOTA.340
 related_entities:
 - CS.ENTITY.025
 - CS.ENTITY.003

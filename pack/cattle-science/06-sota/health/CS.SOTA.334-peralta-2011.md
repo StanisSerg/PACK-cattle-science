@@ -42,6 +42,26 @@ related:
     type: foundational
     note: "Zhang et al. 2020 — обзор механизмов Ca-propionate"
     relevance: high
+  - id: CS.SOTA.336
+    type: extends
+    note: "Zhang et al. 2022 — рубцовая микробиота при Ca-propionate"
+    relevance: medium
+  - id: CS.SOTA.337
+    type: foundational
+    note: "Kara 2013 — обзор transition period и Ca-propionate"
+    relevance: medium
+  - id: CS.SOTA.338
+    type: foundational
+    note: "Goff et al. (1996) — пероральная Ca-пропионатная паста; ранняя работа по пероральным Ca-интервенциям"
+    relevance: medium
+  - id: CS.SOTA.339
+    type: foundational
+    note: "Pehrson et al. (1998) — сравнение Ca-пропионат vs CaCl₂ для профилактики молочной лихорадки"
+    relevance: medium
+  - id: CS.SOTA.340
+    type: foundational
+    note: "Liu et al. (2010) — Ca-пропионат в ранней лактации, метаболические эффекты"
+    relevance: medium
 ---
 
 # CS.SOTA.334: Peralta et al. (2011) — Ca-пропионат + пропиленгликоль в transition period

@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (84 SoTA)
+> Шард индекса: health (92 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,19 +10,19 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 87 |
+| Всего SoTA | 92 |
 | P0 (Фундаментальные) | 4 |
-| P1 (Критически важные) | 29 |
-| P2 (Важные) | 51 |
+| P1 (Критически важные) | 31 |
+| P2 (Важные) | 57 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 9 |
 | Experimental-study | 2 |
-| Field-study | 45 |
+| Field-study | 49 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
 | Primary-research | 2 |
-| Review | 23 |
+| Review | 24 |
 | Survey | 2 |
 
 ---
@@ -115,9 +115,14 @@
 | [CS.SOTA.324](../../06-sota/health/CS.SOTA.324-martin-2026.md) | C.C. et al. | 2026 | P2 | primary-research | `health, antimicrobial, primary-research` | См. файл для деталей |
 | [CS.SOTA.325](../../06-sota/health/CS.SOTA.325-ui-chearbhaill-2026.md) | A. et al. | 2026 | P2 | primary-research | `health, udder-health, milking-technology` | См. файл для деталей |
 | [CS.SOTA.328](../../06-sota/health/CS.SOTA.328-duffield-leblanc-2009.md) | Duffield et al. | 2009 | P2 | review | `review, transition-period, metabolic-monitoring` | См. файл для деталей |
-| [CS.SOTA.333](../../06-sota/health/CS.SOTA.333-martins-2019.md) | Martins et al. | 2019 | P2 | field-study | `calcium-propionate, transition-period, milk-yield` | **Контекст:** 200 г/сут Ca-пропионата повышает FCM, белок, лактозу и жир молока в ранней лактации у Holstein. |
-| [CS.SOTA.334](../../06-sota/health/CS.SOTA.334-peralta-2011.md) | Peralta et al. | 2011 | P2 | field-study | `calcium-propionate, propylene-glycol, fertility` | **Контекст:** Смесь Ca-пропионат + пропиленгликоль повышает сывороточный Ca, но не влияет на NEFA и удой; микроэлементы снижают services per conception. |
-| [CS.SOTA.335](../../06-sota/health/CS.SOTA.335-zhang-2020.md) | Zhang et al. | 2020 | P1 | review | `calcium-propionate, review, transition-period` | **Контекст:** Обзор механизмов Ca-пропионата: глюконеогенез, профилактика гипокальцемии, антигрибковый эффект, развитие рубца; доза ~200 г/сут. |
+| [CS.SOTA.333](../../06-sota/health/CS.SOTA.333-martins-2019.md) | Martins et al. | 2019 | P2 | field-study | `calcium-propionate, transition-period, early-lactation` | См. файл для деталей |
+| [CS.SOTA.334](../../06-sota/health/CS.SOTA.334-peralta-2011.md) | Peralta et al. | 2011 | P2 | field-study | `calcium-propionate, propylene-glycol, transition-period` | См. файл для деталей |
+| [CS.SOTA.335](../../06-sota/health/CS.SOTA.335-zhang-2020.md) | Zhang et al. | 2020 | P2 | review | `calcium-propionate, review, transition-period` | См. файл для деталей |
+| [CS.SOTA.336](../../06-sota/health/CS.SOTA.336-zhang-2022-calcium-propionate-rumen-microbiota.md) | Zhang et al. | 2022 | P2 | field-study | `calcium-propionate, rumen-microbiota, transition-period` | См. файл для деталей |
+| [CS.SOTA.337](../../06-sota/health/CS.SOTA.337-kara-2013-calcium-propionate-transition-review.md) | Kara et al. | 2013 | P2 | review | `calcium-propionate, transition-period, hypocalcemia` | См. файл для деталей |
+| [CS.SOTA.338](../../06-sota/health/CS.SOTA.338-goff-1996-calcium-propionate-paste-milk-fever.md) | Goff et al. | 1996 | P2 | field-study | `calcium-propionate, milk-fever, hypocalcemia` | См. файл для деталей |
+| [CS.SOTA.339](../../06-sota/health/CS.SOTA.339-pehrson-1998-calcium-propionate-vs-calcium-chloride.md) | Pehrson et al. | 1998 | P2 | field-study | `calcium-propionate, calcium-chloride, milk-fever` | См. файл для деталей |
+| [CS.SOTA.340](../../06-sota/health/CS.SOTA.340-liu-2010-calcium-propionate-early-lactation.md) | Liu et al. | 2010 | P2 | field-study | `calcium-propionate, early-lactation, energy-balance` | См. файл для деталей |
 
 ---
 
@@ -129,5 +134,5 @@
 
 ---
 
-*Шард обновлён: 2026-05-24*
-*Автоматическая генерация: 84 SoTA*
+*Шард обновлён: 2026-06-28*
+*Автоматическая генерация: 92 SoTA*

@@ -28,6 +28,9 @@ related_sota:
 - CS.SOTA.281
 - CS.SOTA.327
 - CS.SOTA.328
+- CS.SOTA.336
+- CS.SOTA.337
+- CS.SOTA.340
 ---
 
 # Фруктозо-2,6-бисфосфат (F2,6BP)

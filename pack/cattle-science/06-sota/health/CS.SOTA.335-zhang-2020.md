@@ -47,6 +47,26 @@ related:
     type: foundational
     note: "Duffield & LeBlanc 2009 — общая модель transition cow disease"
     relevance: medium
+  - id: CS.SOTA.336
+    type: extends
+    note: "Zhang et al. 2022 — рубцовая микробиота при Ca-propionate"
+    relevance: medium
+  - id: CS.SOTA.337
+    type: foundational
+    note: "Kara 2013 — обзор transition period и Ca-propionate"
+    relevance: medium
+  - id: CS.SOTA.338
+    type: foundational
+    note: "Goff et al. (1996) — пероральная Ca-пропионатная паста; цитируется Zhang et al. (2020)"
+    relevance: high
+  - id: CS.SOTA.339
+    type: foundational
+    note: "Pehrson et al. (1998) — сравнение Ca-пропионат vs CaCl₂; цитируется Zhang et al. (2020)"
+    relevance: high
+  - id: CS.SOTA.340
+    type: foundational
+    note: "Liu et al. (2010) — Ca-пропионат в ранней лактации, метаболические эффекты; цитируется Zhang et al. (2020)"
+    relevance: high
 ---
 
 # CS.SOTA.335: Zhang et al. (2020) — Обзор применения Ca-пропионата у дойных коров

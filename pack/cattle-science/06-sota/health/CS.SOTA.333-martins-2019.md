@@ -46,6 +46,26 @@ related:
     type: foundational
     note: "Duffield & LeBlanc 2009 — transition cow disease framework"
     relevance: medium
+  - id: CS.SOTA.336
+    type: extends
+    note: "Zhang et al. 2022 — рубцовая микробиота и Ca-propionate в ранней лактации"
+    relevance: medium
+  - id: CS.SOTA.337
+    type: foundational
+    note: "Kara 2013 — обзор transition period и применения Ca-propionate"
+    relevance: high
+  - id: CS.SOTA.338
+    type: foundational
+    note: "Goff et al. (1996) — пероральная Ca-пропионатная паста для профилактики молочной лихорадки"
+    relevance: medium
+  - id: CS.SOTA.339
+    type: foundational
+    note: "Pehrson et al. (1998) — сравнение Ca-пропионат vs CaCl₂ для профилактики молочной лихорадки"
+    relevance: medium
+  - id: CS.SOTA.340
+    type: foundational
+    note: "Liu et al. (2010) — Ca-пропионат в ранней лактации, метаболические эффекты; цитируется в Martins et al. (2019)"
+    relevance: high
 ---
 
 # CS.SOTA.333: Martins et al. (2019) — Ca-пропионат повышает молочные параметры у Holstein
