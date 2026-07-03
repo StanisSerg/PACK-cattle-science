@@ -39,7 +39,8 @@ PACK-cattle-science/
 │   ├── 04-work-products/            # Рабочие продукты (рационы, отчёты)
 │   ├── 05-failure-modes/            # Типовые ошибки
 │   ├── 06-sota/                     # SoTA-аннотации научных статей
-│   └── 07-map/                      # Навигационная карта
+│   ├── 07-map/                      # Навигационная карта
+│   └── 08-dpf/                      # Domain Principle Frameworks
 ├── README.md
 ├── REPO-TYPE.md
 └── CLAUDE.md                        # Инструкции для AI

@@ -78,6 +78,19 @@
 | Failure Modes | [05-failure-modes/](05-failure-modes/) |
 | SoTA | [06-sota/](06-sota/) |
 | Map | [07-map/](07-map/) |
+| Domain Principle Frameworks | [08-dpf/](08-dpf/) |
+
+## Domain Principle Frameworks
+
+| ID | Description | Related entities |
+|----|-------------|------------------|
+| CS.DPF.001 | CNCPS Feeding Model Principles Framework | CS.ENTITY.191, CS.ENTITY.193, CS.ENTITY.197 |
+
+## Maps
+
+| ID | Description | Related WP |
+|----|-------------|------------|
+| CS.MAP.003 | ArchGate assessment for CNCPS-DPF | WP-100 |
 
 ---
 
