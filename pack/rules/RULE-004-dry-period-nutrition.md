@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — prevention protocol  
 > **Maturity:** conceptual (v4.0) — основано на Litherland 2025  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-004](../../DS-cattle-operations/decisions/DL-004.md)  
+> **Источник:** DL-004  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, фаза: prepartum  
 > **SoTA:** CS.SOTA.XXX (Litherland 2025), CS.SOTA.YYY (Drackley)

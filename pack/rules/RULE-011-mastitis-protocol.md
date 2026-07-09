@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — udder health intervention  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-011](../../DS-cattle-operations/decisions/DL-011.md)  
+> **Источник:** DL-011  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: health, фаза: lactation  
 > **SoTA:** CS.SOTA.XXX (Mastitis treatment guidelines), CS.SOTA.YYY (SCC-based management)

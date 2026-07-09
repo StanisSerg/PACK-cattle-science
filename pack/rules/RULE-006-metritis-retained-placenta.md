@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — postpartum reproductive intervention  
 > **Maturity:** conceptual (v1.0) — основано на reproductive herd-health literature  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-006](../../DS-cattle-operations/decisions/DL-006.md)  
+> **Источник:** DL-006  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: reproductive, фаза: early postpartum  
 > **SoTA:** CS.SOTA.XXX (Postpartum uterine health), CS.SOTA.YYY (Antibiotic stewardship in dairy)

@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — productivity monitoring  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-012](../../DS-cattle-operations/decisions/DL-012.md)  
+> **Источник:** DL-012  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: productivity, фаза: lactation  
 > **SoTA:** CS.SOTA.284 (dairy analytics), CS.ENTITY.031 (Milk yield)

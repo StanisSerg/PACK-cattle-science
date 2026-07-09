@@ -52,8 +52,8 @@ production_criteria:
 > **Тип:** executable decision operator  
 > **Maturity:** pilot-ready (v3.3)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-001](../../DS-cattle-operations/decisions/DL-001-bhb-threshold.md)  
-> **Валидация:** [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md)  
+> **Источник:** DL-001  
+> **Валидация:** [CASE-001](../../DS-cattle-cases/cases/CASE-001-bhb-threshold/CASE-001-bhb-threshold.md)  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, взаимодействует с RULE-003, RULE-002, RULE-004
 
 ---
@@ -542,7 +542,7 @@ ROBOTIC_MILKING:
 
 | Кейс | Исход | Дата | Ферма | Case Outcome | Rule Confidence |
 |------|-------|------|-------|--------------|-----------------|
-| [CASE-001](../../DS-cattle-operations/cases/CASE-001-bhb-threshold.md) | ✅ Успех | 2026-03 | Пилот-01 | Confirmed | **MEDIUM** |
+| [CASE-001](../../DS-cattle-cases/cases/CASE-001-bhb-threshold/CASE-001-bhb-threshold.md) | ✅ Успех | 2026-03 | Пилот-01 | Confirmed | **MEDIUM** |
 
 **Примечание:** Rule confidence = MEDIUM потому что 1 кейс. Case outcome = Confirmed потому что внутри кейса всё сработало.
 

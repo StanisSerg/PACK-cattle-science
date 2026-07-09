@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — prevention & emergency treatment  
 > **Maturity:** conceptual (v1.0) — основано на DCAD research (Goff, Horst, Roche)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-005](../../DS-cattle-operations/decisions/DL-005.md)  
+> **Источник:** DL-005  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, фаза: transition  
 > **SoTA:** CS.SOTA.XXX (DCAD diets), CS.SOTA.YYY (Calcium homeostasis)

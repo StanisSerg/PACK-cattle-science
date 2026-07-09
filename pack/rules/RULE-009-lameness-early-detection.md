@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — welfare & production screening  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-009](../../DS-cattle-operations/decisions/DL-009.md)  
+> **Источник:** DL-009  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: welfare, фаза: lactation
 

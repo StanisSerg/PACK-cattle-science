@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — diagnostic screening  
 > **Maturity:** conceptual (v4.0) — основано на Chapinal 2011, требует валидации  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-002](../../DS-cattle-operations/decisions/DL-002.md)  
+> **Источник:** DL-002  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic  
 > **SoTA:** CS.SOTA.071 (Chapinal), CS.SOTA.054 (Horst), CS.SOTA.055 (Drackley)

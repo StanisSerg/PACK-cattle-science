@@ -58,8 +58,8 @@ production_criteria:
 > **Тип:** executable decision operator  
 > **Maturity:** {maturity} (v{version})  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-NNN](../../DS-cattle-operations/decisions/DL-NNN.md)  
-> **Валидация:** [CASE-NNN](../../DS-cattle-operations/cases/CASE-NNN.md)  
+> **Источник:** DL-NNN  
+> **Валидация:** [CASE-NNN](../../DS-cattle-cases/cases/CASE-NNN/)  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: {zone}
 
 ---

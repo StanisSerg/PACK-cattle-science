@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — environmental management  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-008](../../DS-cattle-operations/decisions/DL-008.md)  
+> **Источник:** DL-008  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: environmental, фаза: lactation
 

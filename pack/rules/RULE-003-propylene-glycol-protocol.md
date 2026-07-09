@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — treatment protocol  
 > **Maturity:** conceptual (v4.0) — основано на RCT (Duffield, McArt, Chapinal)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-003](../../DS-cattle-operations/decisions/DL-003.md)  
+> **Источник:** DL-003  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic  
 > **SoTA:** CS.SOTA.071, CS.SOTA.093, CS.SOTA.092, CS.SOTA.106

@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — economic threshold rule  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-010](../../DS-cattle-operations/decisions/DL-010.md)  
+> **Источник:** DL-010  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: economic, фаза: any lactation
 

@@ -52,7 +52,7 @@ production_criteria:
 > **Тип:** executable decision operator — early risk screening  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** [DL-007](../../DS-cattle-operations/decisions/DL-007.md)  
+> **Источник:** DL-007  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, фаза: early postpartum
 
