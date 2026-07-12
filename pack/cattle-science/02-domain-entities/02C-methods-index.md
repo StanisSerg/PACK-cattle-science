@@ -4,7 +4,7 @@ type: methods-registry
 domain: cattle-science
 version: 1.2
 created: 2026-03-12
-updated: 2026-06-20
+updated: 2026-07-12
 language: ru
 ---
 
@@ -41,6 +41,7 @@ language: ru
 | CS.METHOD.004 | Оценка энергетических потребностей | Расчёт NEL для разных фаз | ⏳ Planned |
 | CS.METHOD.005 | [Оценка уровня кальция и профилактика гипокальцемии](../03-methods/CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md) | Мониторинг tCa, фенотипирование, превентивные меры в transition period | ✅ Active |
 | CS.METHOD.006 | [Системная оценка кормления при визите на ферму](../03-methods/CS.METHOD.006-farm-visit-feeding-assessment.md) | Сбор, проверка и связывание данных кормового блока в field visit | 🟡 Draft |
+| CS.METHOD.007 | [Система решения типовых проблем технолога по кормлению через FPF](../03-methods/CS.METHOD.007-feeding-technologist-problem-solving-system.md) | Диагностика и решение проблем кормления через FPF-паттерны | 🟡 Draft |
 
 > **Примечание:** CS.METHOD.001/002 размещены в диапазоне 001-099, потому что кетоз и гипокальцемия напрямую управляются через нутриционный менеджмент. Клинические протоколы совмещены с метаболическим контролем.
 
@@ -104,6 +105,7 @@ language: ru
 | CS.METHOD.004 | — | C | A | R |
 | CS.METHOD.005 | R/A | C | I | C |
 | CS.METHOD.006 | C | R/A | A | R |
+| CS.METHOD.007 | C | C | R/A | C |
 | CS.METHOD.020 | R/A | C | I | C |
 
 **Легенда:** R = Использует, A = Ответственный, C = Консультирует, I = Информируется
@@ -118,6 +120,7 @@ language: ru
 |-------|-----------|---------------|
 | CS.METHOD.001 | CS.WP.001 | — |
 | CS.METHOD.002 | CS.WP.001 | — |
+| CS.METHOD.007 | CS.WP.001, CS.WP.002 | — |
 | CS.METHOD.003 | CS.WP.001 | — |
 | CS.METHOD.004 | CS.WP.004 | — |
 | CS.METHOD.005 | CS.WP.002, CS.WP.005 | — |
