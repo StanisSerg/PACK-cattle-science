@@ -155,4 +155,4 @@ related:
 **Как изменился рабочий ход:**
 > Вместо немедленного ответа «да/нет» следующий шаг — заполнить пространство сравнения по характеристикам. Только после этого можно ответственно выбрать вариант или зафиксировать, что данных недостаточно.
 
-**Файл capture:** `PACK-cattle-science/docs/fpf/FPF_practical/seminar-02/capture-2026-07-16-option-comparison-training-system.md`
+**Файл capture:** `PACK-cattle-science/docs/fpf/FPF_practical/seminar-01/capture-2026-07-16-option-comparison-training-system.md`
