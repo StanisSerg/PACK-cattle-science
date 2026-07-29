@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (189 SoTA)
+> Шард индекса: feeding (197 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,17 +10,17 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 189 |
+| Всего SoTA | 197 |
 | P0 (Фундаментальные) | 21 |
-| P1 (Критически важные) | 27 |
-| P2 (Важные) | 141 |
+| P1 (Критически важные) | 28 |
+| P2 (Важные) | 148 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 39 |
 | Expert-opinion | 3 |
-| Field-study | 58 |
+| Field-study | 64 |
 | Fpf-audit | 2 |
 | In-vitro-study | 1 |
-| Meta-analysis | 10 |
+| Meta-analysis | 12 |
 | Methodology | 1 |
 | Number-verification | 1 |
 | Primary-research | 2 |
@@ -224,6 +224,14 @@
 | [CS.SOTA.331](../../06-sota/feeding/CS.SOTA.331-weiss-2024-transition-minerals-vitamins.md) | Weiss et al. | 2024 | P2 | expert-opinion | `expert-opinion, video-source, transition-cows` | См. файл для деталей |
 | [CS.SOTA.332](../../06-sota/feeding/CS.SOTA.332-weiss-2024-minerals-requirements-absorption.md) | Unknown et al. | N/A | P2 | expert-opinion | `minerals, absorption-coefficients, copper-toxicity` | См. файл для деталей |
 | [CS.SOTA.333](../../06-sota/feeding/CS.SOTA.333-tom-2026-heifer-growth-efficiency-feeding.md) | (AMTS) et al. | 2026 | P2 | expert-opinion | `expert-opinion, video-source, heifer-rearing` | См. файл для деталей |
+| [CS.SOTA.342](../../06-sota/feeding/CS.SOTA.342-zanotti-2026.md) | Zanotti et al. | 2026 | P2 | field-study | `milk-minerals, calcium, phosphorus` | См. файл для деталей |
+| [CS.SOTA.343](../../06-sota/feeding/CS.SOTA.343-almeida-2026.md) | Almeida et al. | 2026 | P2 | meta-analysis | `holstein, jersey, meta-analysis` | См. файл для деталей |
+| [CS.SOTA.344](../../06-sota/feeding/CS.SOTA.344-zhao-2026.md) | Zhao et al. | 2026 | P2 | field-study | `milk-urea-nitrogen, mun, fecal-microbiome` | См. файл для деталей |
+| [CS.SOTA.345](../../06-sota/feeding/CS.SOTA.345-martineau-2026.md) | Martineau et al. | 2026 | P2 | meta-analysis | `essential-amino-acids, eaa, transorgan-flux` | См. файл для деталей |
+| [CS.SOTA.346](../../06-sota/feeding/CS.SOTA.346-ortega-2026.md) | Ortega et al. | 2026 | P2 | field-study | `abomasal-infusion, essential-amino-acids, nonessential-amino-acids` | См. файл для деталей |
+| [CS.SOTA.350](../../06-sota/feeding/CS.SOTA.350-fitzpatrick-2026.md) | Fitzpatrick et al. | 2026 | P2 | field-study | `dry-matter-intake, white-clover, pasture` | См. файл для деталей |
+| [CS.SOTA.353](../../06-sota/feeding/CS.SOTA.353-zhai-2026.md) | Zhai et al. | 2026 | P2 | field-study | `holstein, montbeliarde, crossbreeding` | См. файл для деталей |
+| [CS.SOTA.366](../../06-sota/feeding/CS.SOTA.366-fukami-2026.md) | Fukami et al. | 2026 | P2 | field-study | `calf, milk-replacer, fat` | См. файл для деталей |
 
 ---
 
@@ -235,5 +243,5 @@
 
 ---
 
-*Шард обновлён: 2026-06-28*
-*Автоматическая генерация: 189 SoTA*
+*Шард обновлён: 2026-07-30*
+*Автоматическая генерация: 197 SoTA*

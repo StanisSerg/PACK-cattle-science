@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (92 SoTA)
+> Шард индекса: health (104 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 92 |
+| Всего SoTA | 104 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 31 |
-| P2 (Важные) | 57 |
+| P2 (Важные) | 69 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 9 |
 | Experimental-study | 2 |
-| Field-study | 49 |
+| Field-study | 61 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -123,6 +123,18 @@
 | [CS.SOTA.338](../../06-sota/health/CS.SOTA.338-goff-1996-calcium-propionate-paste-milk-fever.md) | Goff et al. | 1996 | P2 | field-study | `calcium-propionate, milk-fever, hypocalcemia` | См. файл для деталей |
 | [CS.SOTA.339](../../06-sota/health/CS.SOTA.339-pehrson-1998-calcium-propionate-vs-calcium-chloride.md) | Pehrson et al. | 1998 | P2 | field-study | `calcium-propionate, calcium-chloride, milk-fever` | См. файл для деталей |
 | [CS.SOTA.340](../../06-sota/health/CS.SOTA.340-liu-2010-calcium-propionate-early-lactation.md) | Liu et al. | 2010 | P2 | field-study | `calcium-propionate, early-lactation, energy-balance` | См. файл для деталей |
+| [CS.SOTA.348](../../06-sota/health/CS.SOTA.348-swartz-2026.md) | Swartz et al. | 2026 | P2 | field-study | `lameness, hoof-lesion, locomotion-score` | См. файл для деталей |
+| [CS.SOTA.349](../../06-sota/health/CS.SOTA.349-swartz-2026-part1.md) | Swartz et al. | 2026 | P2 | field-study | `lameness, hoof-lesion, machine-learning` | См. файл для деталей |
+| [CS.SOTA.356](../../06-sota/health/CS.SOTA.356-fokken-2026.md) | Fokken et al. | 2026 | P2 | field-study | `cholecalciferol, vitamin-d, hypocalcemia` | См. файл для деталей |
+| [CS.SOTA.357](../../06-sota/health/CS.SOTA.357-ida-2026.md) | Ida et al. | 2026 | P2 | field-study | `antimicrobial-stewardship, mastitis, milk-culturing` | См. файл для деталей |
+| [CS.SOTA.358](../../06-sota/health/CS.SOTA.358-hapukotuwa-2026.md) | Hapukotuwa et al. | 2026 | P2 | field-study | `colostrum, igg, calf-health` | См. файл для деталей |
+| [CS.SOTA.359](../../06-sota/health/CS.SOTA.359-kurban-2026.md) | Kurban et al. | 2026 | P2 | field-study | `intramammary-infection, staphylococcus, scc` | См. файл для деталей |
+| [CS.SOTA.360](../../06-sota/health/CS.SOTA.360-fonseca-2026.md) | Fonseca et al. | 2026 | P2 | field-study | `intramammary-infection, non-staphylococcus, streptococcus` | См. файл для деталей |
+| [CS.SOTA.361](../../06-sota/health/CS.SOTA.361-kovacs-2026.md) | Kovacs et al. | 2026 | P2 | field-study | `dairy-beef, crossbred-calves, calf-health` | См. файл для деталей |
+| [CS.SOTA.364](../../06-sota/health/CS.SOTA.364-sparks-2026.md) | Sparks et al. | 2026 | P2 | field-study | `periparturient-period, adipose-tissue, innervation` | См. файл для деталей |
+| [CS.SOTA.365](../../06-sota/health/CS.SOTA.365-erkinger-2026.md) | Erkinger et al. | 2026 | P2 | field-study | `colostrum, fat, newborn-calf` | См. файл для деталей |
+| [CS.SOTA.367](../../06-sota/health/CS.SOTA.367-he-2026.md) | He et al. | 2026 | P2 | field-study | `calf, insulin-resistance, brown-adipose-tissue` | См. файл для деталей |
+| [CS.SOTA.368](../../06-sota/health/CS.SOTA.368-debruijn-2026.md) | Bruijn et al. | 2026 | P2 | field-study | `milk-yield, disease, dynamic-indicator` | См. файл для деталей |
 
 ---
 
@@ -134,5 +146,5 @@
 
 ---
 
-*Шард обновлён: 2026-06-28*
-*Автоматическая генерация: 92 SoTA*
+*Шард обновлён: 2026-07-30*
+*Автоматическая генерация: 104 SoTA*

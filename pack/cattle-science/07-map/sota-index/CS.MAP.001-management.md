@@ -1,6 +1,6 @@
 # CS.MAP.001-management: SoTA Index — Менеджмент
 
-> Шард индекса: management (16 SoTA)
+> Шард индекса: management (21 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,15 +10,15 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 16 |
+| Всего SoTA | 21 |
 | P0 (Фундаментальные) | 0 |
-| P1 (Критически важные) | 2 |
-| P2 (Важные) | 14 |
+| P1 (Критически важные) | 3 |
+| P2 (Важные) | 18 |
 | P3 (Дополнительные) | 0 |
-| Field-study | 6 |
+| Field-study | 10 |
 | Framework | 1 |
 | Primary-research | 2 |
-| Review | 4 |
+| Review | 5 |
 | Simulation | 1 |
 | Survey | 2 |
 
@@ -44,6 +44,11 @@
 | [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy-farming, artificial-intelligence, machine-learning` | См. файл для деталей |
 | [CS.SOTA.321](../../06-sota/management/CS.SOTA.321-hemmert-2026.md) | K.J. et al. | 2026 | P2 | primary-research | `heifers, early-life-nutrition, milk-replacer` | См. файл для деталей |
 | [CS.SOTA.326](../../06-sota/management/CS.SOTA.326-mouhanna-2026.md) | A. et al. | 2026 | P2 | primary-research | `management, precision-dairy, machine-learning` | См. файл для деталей |
+| [CS.SOTA.341](../../06-sota/management/CS.SOTA.341-woiwode-2026.md) | Woiwode et al. | 2026 | P2 | review | `cattle-handling, handler-skill, stockmanship` | См. файл для деталей |
+| [CS.SOTA.347](../../06-sota/management/CS.SOTA.347-tambadou-2026.md) | Tambadou et al. | 2026 | P2 | field-study | `dairy-farmer, mental-health, well-being` | См. файл для деталей |
+| [CS.SOTA.351](../../06-sota/management/CS.SOTA.351-upton-2026.md) | Upton et al. | 2026 | P2 | field-study | `milking, automatic-cluster-removal, dynamic-pulsation` | См. файл для деталей |
+| [CS.SOTA.352](../../06-sota/management/CS.SOTA.352-shrestha-2026.md) | Shrestha et al. | 2026 | P2 | field-study | `culling, organic-dairy, herd-management` | См. файл для деталей |
+| [CS.SOTA.354](../../06-sota/management/CS.SOTA.354-olmo-2026.md) | Olmo et al. | 2026 | P2 | field-study | `cow-calf-contact, animal-welfare, livestock-advisers` | См. файл для деталей |
 
 ---
 
@@ -55,5 +60,5 @@
 
 ---
 
-*Шард обновлён: 2026-06-28*
-*Автоматическая генерация: 16 SoTA*
+*Шард обновлён: 2026-07-30*
+*Автоматическая генерация: 21 SoTA*
