@@ -204,6 +204,8 @@ def generate_master_index(sota_data):
     lines = [
         "# CS.MAP.001: SoTA Index — Научные источники",
         "",
+        "<!-- index-health: skip -->",
+        "",
         "> Карта научно-обоснованных знаний в PACK-cattle-science",
         ">",
         "> **Версия:** 3.0 (Sharded — Auto-generated)",
