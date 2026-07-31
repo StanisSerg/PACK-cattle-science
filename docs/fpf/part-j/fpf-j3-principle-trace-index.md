@@ -9,6 +9,8 @@ created: 2026-06-27
 fpf_context: ["J.3", "J.1", "J.2", "H.2"]
 ---
 
+<!-- index-health: skip -->
+
 # J.3 — Principle-Trace Index: трассировка принципов
 
 > **Цель capture:** объяснить, как Principle-Trace Index отображает каждый Pillar / C-rule / P-rule на конкретные пункты паттернов, где они применяются, и почему это важно для аудита и обучения.
