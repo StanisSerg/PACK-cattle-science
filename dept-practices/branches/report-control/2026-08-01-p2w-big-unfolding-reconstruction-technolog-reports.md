@@ -8,7 +8,7 @@ fpf_grounding: "MCP FPF reference (E.18.1, C.22.2, A.19.ECS, A.3.1/A.3.2, A.15.x
 sources:
   - "2026-08-01-practice-1-p2w-unfolding-report-control-system.md (карта 12 позиций, подтверждена пилотом)"
   - "2026-08-01-practice-5-earliest-broken-transition.md (самый ранний разрыв 4→5, подтверждён пилотом)"
-  - "2026-08-01-seminar-3-session-notes.md"
+  - "../../../docs/fpf/FPF_practical/seminar-03/2026-08-01-seminar-3-session-notes.md"
 status: draft
 ---
 

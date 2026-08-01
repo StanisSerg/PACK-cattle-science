@@ -21,6 +21,6 @@ status: draft
 | D3 | Инструкция внесения в АМТС | Замер и внесение данных при посещении | [ПРОБЕЛ: не создан] |
 | D4 | Правило эскалации (границы основного рациона) | Замер и внесение данных при посещении | [ПРОБЕЛ: не создан] |
 
-Method claim: `docs/fpf/FPF_practical/seminar-03/2026-08-01-method-claim-and-description-farm-visit.md` (раздел 4 — скоуп создания D1–D4).
+Method claim: `dept-practices/branches/report-control/2026-08-01-method-claim-and-description-farm-visit.md` (раздел 4 — скоуп создания D1–D4).
 
 *Создано: 2026-08-01.*

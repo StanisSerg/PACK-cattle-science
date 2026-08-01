@@ -51,8 +51,8 @@ status: confirmed
 
 ## Связи
 
-- Семинар 1: `../seminar-01/2026-07-12-method-training-system-draft.md`, `2026-07-12-pilot-plan-training-system.md`
-- Семинар 2: `../seminar-01/2026-07-16-choice-result-training-system.md` (probe B), `2026-07-16-pilot-plan-control-system.md`, `2026-07-16-automatic-processing-example-case-002.md`, `../seminar-02/2026-07-19-practice-1-system-boundary-analysis.md`, `../seminar-02/2026-07-19-practice-2-interlevel-conflict.md`, `../seminar-02/2026-07-19-practice-4-connected-flows.md`
+- Семинар 1: `../../../docs/fpf/FPF_practical/seminar-01/2026-07-12-method-training-system-draft.md`, `2026-07-12-pilot-plan-training-system.md`
+- Семинар 2: `../../../docs/fpf/FPF_practical/seminar-01/2026-07-16-choice-result-training-system.md` (probe B), `2026-07-16-pilot-plan-control-system.md`, `2026-07-16-automatic-processing-example-case-002.md`, `../../../docs/fpf/FPF_practical/seminar-02/2026-07-19-practice-1-system-boundary-analysis.md`, `../../../docs/fpf/FPF_practical/seminar-02/2026-07-19-practice-2-interlevel-conflict.md`, `../../../docs/fpf/FPF_practical/seminar-02/2026-07-19-practice-4-connected-flows.md`
 - WP-98 capture «сделал, но не донёс до системы» (`DS-strategy/inbox/captures.md`, 2026-07-31)
 
 *Создано: 2026-08-01, сессия WP-109 (семинар 3, практика 1). Подтверждено пилотом.*
