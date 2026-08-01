@@ -20,9 +20,9 @@ date: 2026-08-01
 
 ## Что сделал (практики на проекте «Система контроля отчётов технологов»)
 
-1. **Практика 1** — длинная P2W-развёртка проекта: `../../../../dept-practices/branches/B-01-report-control/2026-08-01-practice-1-p2w-unfolding-report-control-system.md`.
-2. **Практика 4** — поток «замер → внесение (2a АМТС / 2b markdown) → корректировка → согласование → внедрение» таблицей позиций (условное хозяйство РБ): `../../../../dept-practices/branches/B-01-report-control/2026-08-01-practice-4-flow-table-belarus-farm.md`. Включён полный проход FPF (A.3.1/A.3.2) с эскизом method claim.
-3. **Практика 5** — самый ранний разорванный переход: **4→5** (метод не получен как передаваемый); следующий ход проекта сформулирован: `../../../../dept-practices/branches/B-01-report-control/2026-08-01-practice-5-earliest-broken-transition.md`.
+1. **Практика 1** — длинная P2W-развёртка проекта: `../../../../dept-practices/branches/B-01-report-control/B-01.D-01-p2w-unfolding-report-control-system.md`.
+2. **Практика 4** — поток «замер → внесение (2a АМТС / 2b markdown) → корректировка → согласование → внедрение» таблицей позиций (условное хозяйство РБ): `../../../../dept-practices/branches/B-01-report-control/B-01.D-02-flow-table-belarus-farm.md`. Включён полный проход FPF (A.3.1/A.3.2) с эскизом method claim.
+3. **Практика 5** — самый ранний разорванный переход: **4→5** (метод не получен как передаваемый); следующий ход проекта сформулирован: `../../../../dept-practices/branches/B-01-report-control/B-01.D-03-earliest-broken-transition.md`.
 4. **Capture** — рецепт запросов к FPF через MCP на русском: `capture-2026-08-01-fpf-mcp-queries-recipe.md`.
 
 ## Что унести (carry-through)
