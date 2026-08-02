@@ -14,6 +14,7 @@
 | CS.METHOD.002 | [hypocalcemia-diagnosis-treatment.md](./CS.METHOD.002-hypocalcemia-diagnosis-treatment.md) | Диагностика и лечение гипокальцемии | 🟢 Active |
 | CS.METHOD.005 | [calcium-monitoring-hypocalcemia-prevention.md](./CS.METHOD.005-calcium-monitoring-hypocalcemia-prevention.md) | Мониторинг кальция и профилактика гипокальцемии | 🟢 Active |
 | CS.METHOD.006 | [farm-visit-feeding-assessment.md](./CS.METHOD.006-farm-visit-feeding-assessment.md) | Системная оценка кормления при визите на ферму | 🟡 Draft |
+| CS.METHOD.008 | [work-completion-data-entry-checklist.md](./CS.METHOD.008-work-completion-data-entry-checklist.md) | Чек-лист полноты цикла «осмотр → данные → пересчёт → решение» | 🟡 Draft |
 
 ---
 
