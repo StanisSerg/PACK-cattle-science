@@ -232,6 +232,7 @@
 | [CS.SOTA.350](../../06-sota/feeding/CS.SOTA.350-fitzpatrick-2026.md) | Fitzpatrick et al. | 2026 | P2 | field-study | `dry-matter-intake, white-clover, pasture` | См. файл для деталей |
 | [CS.SOTA.353](../../06-sota/feeding/CS.SOTA.353-zhai-2026.md) | Zhai et al. | 2026 | P2 | field-study | `holstein, montbeliarde, crossbreeding` | См. файл для деталей |
 | [CS.SOTA.366](../../06-sota/feeding/CS.SOTA.366-fukami-2026.md) | Fukami et al. | 2026 | P2 | field-study | `calf, milk-replacer, fat` | См. файл для деталей |
+| [CS.SOTA.369](../../06-sota/feeding/CS.SOTA.369-vanamburgh-2025.md) | Van Amburgh | 2025 | P3 | model-update-presentation | `cncps, isoacids, branched-chain-vfa` | См. файл для деталей |
 
 ---
 
