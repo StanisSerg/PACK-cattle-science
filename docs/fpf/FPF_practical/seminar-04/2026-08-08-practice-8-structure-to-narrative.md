@@ -4,7 +4,7 @@ seminar: 4
 practice: П8 (итоговая)
 pattern: A.6.3.NAR (Structure-to-Narrative Rendering) + NSTD.6/NSTD.7 (приёмка)
 created: 2026-08-08
-status: на приёмке пилота
+status: done (приёмка пилота 2026-08-08: «неплохо получилось»)
 source: DS-plaud/processed/1-КРС-молочное-животноводство/02-10-Консультация-СХПК-Битимский__261a2958.txt
 wp: 109
 ---
