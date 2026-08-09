@@ -429,7 +429,7 @@ requirements:
 steps:
   - feature_engineering (from errors)
   - train_model
-  - validate vs rule_engine
+  - validate vs rule_engine  # rule_engine удалён 2026-08-09, пересоздание запланировано
 ```
 
 ---

@@ -679,7 +679,7 @@ saturation_criteria:
 dependencies:
   downstream:
     - RULE-002: "Detects postpartum SCK (should be reduced)"
-    - RULE-001: "Intervenes if SCK occurs"
+    - RULE-001 (удалён 2026-08-09, пересоздаётся): "Intervenes if SCK occurs"
     
 integration:
   - RULE-004 (prevention) ──► RULE-002 (detection) ──► RULE-003 (treatment)
@@ -743,7 +743,7 @@ status: применять, не переписывать
 │     SCK screening (BHB≥1.2)                 │
 │              │                              │
 │              ▼                              │
-│  RULE-001 (intervention)                    │
+│  RULE-001 (удалён 2026-08-09, пересоздаётся) — intervention │
 │     Systemic correction decision            │
 │              │                              │
 │              ▼                              │

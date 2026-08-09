@@ -17,11 +17,14 @@ description: "Портфель правил крупного рогатого с
 
 | ID | Название | Категория | Статус | Confidence | Последний Trigger | Trend | Version |
 |----|----------|-----------|--------|------------|-------------------|-------|---------|
-| [RULE-001](RULE-001-ketosis-threshold.md) | Ketosis-Threshold-Invalidation | metabolic | testing | medium | 2026-04-11 | stable | v4.0 |
 | [RULE-002](RULE-002-sck-bhb-threshold.md) | SCK-BHB-Threshold | metabolic | conceptual | low | — | stable | v4.0 |
 | [RULE-003](RULE-003-propylene-glycol-protocol.md) | Propylene-Glycol-Protocol | metabolic | conceptual | low | — | stable | v4.0 |
 | [RULE-004](RULE-004-dry-period-nutrition.md) | Dry-Period-Nutrition | metabolic | conceptual | low | — | stable | v4.0 |
 | [RULE-005](RULE-005-hypocalcemia-milk-fever.md) | Hypocalcemia-Milk-Fever | metabolic | conceptual | low | — | stable | v1.0 |
+
+> **2026-08-09:** RULE-001 (Ketosis-Threshold-Invalidation) удалён из pack, пересоздаётся.
+> Запись из инвентаря убрана полностью; упоминания RULE-001 (удалён 2026-08-09) ниже в схемах зоны
+> помечены `[удалён 2026-08-09]` и описывают прежнюю структуру потока.
 
 ---
 
@@ -43,11 +46,10 @@ key_variables:
   
 economic_driver: "Prevent metabolic disorders → reduce treatment costs + maintain production"
 
-rules_in_domain: 5
+rules_in_domain: 4
   - RULE-004: prevention (prepartum energy)
   - RULE-005: prevention (prepartum calcium)
   - RULE-002: detection (postpartum screening)
-  - RULE-001: decision (intervention logic)
   - RULE-003: treatment (execution)
 ```
 
@@ -99,13 +101,13 @@ CRITICAL_TRANSITION:
 POSTPARTUM_MONITORING:
   timeframe: DIM 3 to 14
   focus: Early detection of metabolic issues
-  rules_active: [RULE-002, RULE-001]
+  rules_active: [RULE-002]  # decision-правило RULE-001 удалено 2026-08-09, пересоздаётся
   key_monitoring: [BHB, DMI, Ca if at risk]
   
 RECOVERY_OR_TREATMENT:
   timeframe: As needed
   focus: Intervention and recovery
-  rules_active: [RULE-001, RULE-003, RULE-005 treatment]
+  rules_active: [RULE-003, RULE-005 treatment]  # RULE-001 удалён 2026-08-09, пересоздаётся
   exit_condition: "Metrics normalized"
 ```
 
@@ -137,7 +139,7 @@ transitions:
   - from: POSTPARTUM_MONITORING
     to: SUBCLINICAL_KETOSIS
     trigger: "BHB >= 1.2 mmol/L"
-    action: "RULE-002 triggered → RULE-001 evaluation"
+    action: "RULE-002 triggered → RULE-001 evaluation (RULE-001 удалён 2026-08-09, пересоздаётся)"
     
   - from: SUBCLINICAL_KETOSIS
     to: MIXED_METABOLIC
@@ -170,8 +172,8 @@ transitions:
 Prepartum          Transition        Postpartum
    │                    │                  │
    ▼                    ▼                  ▼
-RULE-004 ─────────► RULE-002 ─────────► RULE-001 ─────────► RULE-003
-(prevention)         (detection)        (decision)         (treatment)
+RULE-004 ─────────► RULE-002 ─────────► RULE-001 [удалён 2026-08-09] ─► RULE-003
+(prevention)         (detection)        (decision — пересоздаётся)      (treatment)
    │                    │                  │                  │
    │                    │                  │                  │
    └────────────────────┴──────────────────┴──────────────────┘
@@ -186,17 +188,17 @@ RULE-004 → RULE-002:
   condition: "Postpartum monitoring begins"
   data_capture: "First BHB check scheduled"
   
-RULE-002 → RULE-001:
+RULE-002 → RULE-001 [удалён 2026-08-09, пересоздаётся]:
   trigger: "BHB >= 1.2 mmol/L"
   condition: "SCK detected by screening"
   data_capture: "Record BHB, DIM, clinical signs"
   
-RULE-001 → RULE-003:
+RULE-001 [удалён 2026-08-09] → RULE-003:
   trigger: "intervention decision = PG applicable"
-  condition: "RULE-001 TRIGGERED (not BLOCKED) AND metabolic deficit moderate"
+  condition: "RULE-001 [удалён 2026-08-09, пересоздаётся] TRIGGERED (not BLOCKED) AND metabolic deficit moderate"
   data_capture: "Confirm SCK diagnosis, rule out contraindications"
   
-RULE-001 BLOCKED → Clinical Protocol:
+RULE-001 [удалён 2026-08-09] BLOCKED → Clinical Protocol:
   trigger: "clinical_signs = true OR BHB > 2.9 OR severe deficit"
   condition: "Emergency intervention required"
   data_capture: "Escalation reason, emergency actions"
@@ -205,13 +207,13 @@ RULE-001 BLOCKED → Clinical Protocol:
 ### Feedback Loops (Обратные связи)
 
 ```yaml
-RULE-003 → RULE-001 (failure feedback):
+RULE-003 → RULE-001 [удалён 2026-08-09] (failure feedback):
   trigger: "PG protocol failed (BHB > 1.4 at day 5)"
-  action: "Reassess by RULE-001"
+  action: "Reassess by RULE-001 [удалён 2026-08-09, пересоздаётся]"
   learning: "Check if metabolic deficit was underestimated"
   
-RULE-001 → RULE-004 (pattern feedback):
-  trigger: "Multiple cases requiring RULE-001 intervention"
+RULE-001 [удалён 2026-08-09] → RULE-004 (pattern feedback):
+  trigger: "Multiple cases requiring RULE-001 intervention (правило удалено 2026-08-09, пересоздаётся)"
   action: "Review dry period management"
   learning: "Preventive measures insufficient"
   
@@ -232,8 +234,8 @@ system_loop:
 | Rule | Layer | Function | Specificity | Handoff To |
 |------|-------|----------|-------------|------------|
 | RULE-004 | Prevention | Reduce probability | Herd-level | RULE-002 |
-| RULE-002 | Detection | Catch signal | Individual screening | RULE-001 |
-| RULE-001 | Decision | Interpret & route | High-resolution | RULE-003 or Emergency |
+| RULE-002 | Detection | Catch signal | Individual screening | RULE-001 [удалён 2026-08-09] |
+| RULE-001 [удалён 2026-08-09] | Decision | Interpret & route | High-resolution | RULE-003 or Emergency |
 | RULE-003 | Treatment | Execute intervention | Protocol execution | Follow-up |
 
 ---
@@ -250,7 +252,7 @@ constraint_001:
   
 constraint_002:
   name: "Priority override"
-  description: "RULE-001 overrides RULE-003 if metabolic deficit severe"
+  description: "RULE-001 [удалён 2026-08-09, пересоздаётся] overrides RULE-003 if metabolic deficit severe"
   enforcement: "Automatic escalation"
   
 constraint_003:
@@ -290,14 +292,14 @@ prevention_vs_treatment:
 ### 1. Reinforcement (Усиление)
 
 ```
-RULE-001 ──► RULE-003
+RULE-001 [удалён 2026-08-09] ──► RULE-003
    │            │
-   │            └─► "Если RULE-001 сработал → RULE-003 как support"
+   │            └─► "Если RULE-001 сработал → RULE-003 как support" (RULE-001 удалён 2026-08-09, пересоздаётся)
    │
    └─► "Системная коррекция (001) + Пропиленгликоль (003) = synergistic effect"
 
 Усиление:
-  trigger: RULE-001 TRIGGERED
+  trigger: RULE-001 TRIGGERED (RULE-001 удалён 2026-08-09, пересоздаётся)
   effect: RULE-003 priority повышается
   reasoning: "Метаболический дефицит требует и системной коррекции, и поддержки"
 ```
@@ -305,13 +307,13 @@ RULE-001 ──► RULE-003
 ### 2. Sequencing (Последовательность)
 
 ```
-RULE-004 ──► [time passes] ──► RULE-002 ──► RULE-001 ──► RULE-003
+RULE-004 ──► [time passes] ──► RULE-002 ──► RULE-001 [удалён 2026-08-09] ──► RULE-003
 
 Sequence with conditions:
   - RULE-004 active: DIM -60 to 0
   - Transition: DIM 0 (calving)
   - RULE-002 active: DIM 3-14 (screening window)
-  - RULE-001 evaluates: if BHB >= 1.2
+  - RULE-001 evaluates: if BHB >= 1.2 (RULE-001 удалён 2026-08-09, пересоздаётся)
   - RULE-003 executes: if PG applicable
 ```
 
@@ -322,7 +324,7 @@ RULE-003 DEPENDS ON RULE-002:
   condition: "SCK must be confirmed before PG administration"
   enforcement: "Do not apply PG without RULE-002_TRIGGERED"
   
-RULE-001 DEPENDS ON CONTEXT:
+RULE-001 [удалён 2026-08-09, пересоздаётся] DEPENDS ON CONTEXT:
   inputs: [RULE-002 output, clinical signs, DMI, BCS]
   processing: "Discriminate adaptation vs deficit"
   output: "Intervention decision"
@@ -340,7 +342,7 @@ RULE-001 DEPENDS ON CONTEXT:
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │  PREVENTION          DETECTION           DECISION    TREATMENT  │
-│  ├─ RULE-004         ├─ RULE-002         ├─ RULE-001  ├─ RULE-003│
+│  ├─ RULE-004         ├─ RULE-002         ├─ RULE-001 [удалён 2026-08-09] ├─ RULE-003│
 │  │  Dry Period       │  SCK Screening    │  Systemic  │  PG     │
 │  │  Optimization     │  (BHB≥1.2)        │  Decision  │  Protocol│
 │  │                   │                   │            │         │
@@ -360,8 +362,8 @@ RULE-001 DEPENDS ON CONTEXT:
 └─────────────────────────────────────────────────────────────────┘
 
 Zone Owner: metabolic_team
-Rules: 4 active
-Validation Status: 1 pilot, 3 conceptual
+Rules: 3 active (decision-звено RULE-001 удалено 2026-08-09, пересоздаётся)
+Validation Status: 3 conceptual
 ```
 
 ---
@@ -373,10 +375,10 @@ Validation Status: 1 pilot, 3 conceptual
 | Situation | Primary Rule | Secondary Rule | Resolution |
 |-----------|--------------|----------------|------------|
 | BHB>1.2 + clinical signs | Clinical Protocol | RULE-002 (blocked) | Emergency intervention |
-| BHB>1.2 + DMI<80% | RULE-001 | RULE-002 | RULE-001 decides systemic correction |
+| BHB>1.2 + DMI<80% | RULE-001 [удалён 2026-08-09] | RULE-002 | RULE-001 (пересоздаётся) decides systemic correction |
 | BHB 1.0-1.2 | RULE-002_GRAY_ZONE | — | Monitor, repeat BHB |
 | PG indicated but anorexia | Clinical Protocol | RULE-003 (blocked) | Parenteral therapy |
-| RULE-001 vs Market convention | RULE-001 | Market | Evidence-based priority |
+| RULE-001 [удалён 2026-08-09] vs Market convention | RULE-001 (пересоздаётся) | Market | Evidence-based priority |
 
 ### Escalation Path
 
@@ -418,7 +420,6 @@ metabolic_zone:
 ## EVOLUTION ROADMAP (Дорожная карта)
 
 ### Phase 1: Foundation (Q2 2026)
-- [x] RULE-001 → pilot-ready (testing)
 - [ ] RULE-002, 003, 004 → validation begins
 - [ ] Document transition conditions in practice
 - [ ] Test feedback loops
@@ -427,7 +428,7 @@ metabolic_zone:
 - [ ] Validate handoff success rate >90%
 - [ ] Refine boundary conditions based on cases
 - [ ] Add automation for transitions
-- [ ] RULE-001 → production
+- [ ] Пересоздать decision-правило (бывш. RULE-001, удалено 2026-08-09) → production
 
 ### Phase 3: Expansion (Q4 2026)
 - [ ] New zone: Reproductive
@@ -444,7 +445,7 @@ metabolic_zone:
 ```
 DIM -60 to 0 (Dry period)     → RULE-004
 DIM 3-14 + BHB ≥ 1.2          → RULE-002
-BHB ≥ 1.2 + Low DMI          → RULE-001
+BHB ≥ 1.2 + Low DMI          → RULE-001 [удалён 2026-08-09, пересоздаётся]
 SCK confirmed + No blockers   → RULE-003
 ```
 
@@ -452,7 +453,7 @@ SCK confirmed + No blockers   → RULE-003
 
 ```
 Clinical signs present        → Bypass all rules → Emergency protocol
-Severe deficit (BHB > 2.9)   → RULE-001 BLOCKED → Combined therapy
+Severe deficit (BHB > 2.9)   → RULE-001 [удалён 2026-08-09] BLOCKED → Combined therapy
 Anorexia > 48h               → RULE-003 BLOCKED → Parenteral glucose
 ```
 
@@ -486,4 +487,4 @@ Matrix:
 ---
 
 *Registry обновляется при каждом изменении статуса любого правила*
-*Last updated: 2026-04-11*
+*Last updated: 2026-08-09 (RULE-001 удалён, пересоздаётся)*

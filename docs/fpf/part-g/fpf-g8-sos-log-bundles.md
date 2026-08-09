@@ -52,9 +52,9 @@ fpf_context: ["G.8", "C.23", "G.4", "G.5", "G.6", "G.Core"]
 **Пример из животноводства.**
 
 ```text
-RULE-001: «IF validation_study_on_target_breed THEN pass"
-RULE-002: «IF validation_study_exists BUT NOT target_breed THEN degrade(mode = adapt_thresholds)"
-RULE-003: «IF NO validation_study THEN abstain"
+R-001: «IF validation_study_on_target_breed THEN pass"
+R-002: «IF validation_study_exists BUT NOT target_breed THEN degrade(mode = adapt_thresholds)"
+R-003: «IF NO validation_study THEN abstain"
 ```
 
 **Ключевой признак.** SoS-LOG.Rule — это id, ссылающийся на C.23; семантика не раскрывается в bundle.
@@ -71,7 +71,7 @@ RULE-003: «IF NO validation_study THEN abstain"
 BUNDLE-001:
   - CGFrameContext: ketosis_prevention_FarmA
   - MethodFamilyId: {MF-001, MF-002}
-  - SoSLogRuleId: [RULE-001, RULE-002, RULE-003]
+  - SoSLogRuleId: [R-001, R-002, R-003]
   - MaturityCardRef: MC-001
   - AcceptanceClauseId: [AC-001, AC-002]
   - EvidenceGraphId: EG-001
@@ -90,7 +90,7 @@ BUNDLE-001:
 ```text
 AL-001:
   - MethodFamilyId: MF-001 (propylene_glycol_protocol)
-  - SoSLogRuleId: RULE-001
+  - SoSLogRuleId: R-001
   - GuardDecision: pass
   - MaturityRungId: field_proven
   - AcceptanceClauseId: AC-001
@@ -161,7 +161,7 @@ AL-001:
 
 **SoS-LOG bundle BUNDLE-001:**
 > MethodFamilyId: MF-004 (new metabolic bolus)
-> SoSLogRuleId: [RULE-001, RULE-002, RULE-003]
+> SoSLogRuleId: [R-001, R-002, R-003]
 > MaturityCardRef: MC-001
 > AcceptanceClauseId: [AC-005, AC-006]
 > EvidenceGraphId: EG-002

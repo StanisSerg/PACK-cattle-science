@@ -499,7 +499,7 @@ P3 (no_action):
 | 10 triggers + 5 outcomes | Включить метрики, первый review | scheduled |
 | 5+ threshold_issue errors | Пересмотр BHB порога | targeted |
 | 3+ farms validated | Рассмотрение confidence upgrade | scheduled |
-| Conflicts with RULE-001 | Cross-rule review | emergency |
+| Conflicts with RULE-001 (удалён 2026-08-09, пересоздаётся) | Cross-rule review | emergency |
 
 ---
 
@@ -673,7 +673,7 @@ indicators:
   - conflict_resolution tested
   
 dependencies:
-  - RULE-001: "What to do when BHB≥1.2 (intervention)"
+  - RULE-001 (удалён 2026-08-09, пересоздаётся): "What to do when BHB≥1.2 (intervention)"
   - RULE-003: "PG protocol details"
 ```
 
@@ -693,7 +693,7 @@ potential_improvements:
     - optimize_screening_timing: "Best DIM for one-time BHB check"
     - predict_screening_yield: "Which farms/groups benefit most?"
     
-  decision_layer:  # RULE-001 improvements  
+  decision_layer:  # RULE-001 improvements (RULE-001 удалён 2026-08-09, пересоздаётся)  
     - differentiate_adaptation_vs_deficit: "High BHB normal vs pathological"
     - predict_systemic_correction_response: "Who needs what intensity?"
     
@@ -705,7 +705,7 @@ potential_improvements:
 steps:
   - feature_engineering (from errors)
   - train_classifier
-  - validate vs rule_engine
+  - validate vs rule_engine  # rule_engine удалён 2026-08-09, пересоздание запланировано
 ```
 
 ---
@@ -746,12 +746,12 @@ status: применять, не переписывать
 ### В портфеле метаболических правил
 
 ```
-RULE-002 (this) ──► RULE-001 ──► RULE-003
+RULE-002 (this) ──► RULE-001 [удалён 2026-08-09] ──► RULE-003
    screening          intervention      treatment
    
 Flow:
   1. RULE-002 detects SCK (BHB≥1.2, DIM 3-14)
-  2. RULE-001 decides intervention (systemic correction)
+  2. RULE-001 decides intervention (systemic correction) — RULE-001 удалён 2026-08-09, пересоздаётся
   3. RULE-003 executes PG protocol
 ```
 
@@ -760,14 +760,14 @@ Flow:
 | Situation | Primary Rule | Logic |
 |-----------|--------------|-------|
 | RULE-002 detects SCK (BHB≥1.2) | RULE-002 | Initial screening — entrance to decision chain |
-| RULE-001 identifies metabolic deficit | RULE-001 | Higher resolution override — RULE-002 is coarse filter |
+| RULE-001 (удалён 2026-08-09, пересоздаётся) identifies metabolic deficit | RULE-001 (пересоздаётся) | Higher resolution override — RULE-002 is coarse filter |
 | BHB≥1.2 + clinical signs | Clinical Protocol | RULE_002_BLOCKED — escalation to emergency |
 | BHB 1.0-1.2 | RULE_002_GRAY_ZONE | Explicit uncertainty — no forced decision |
 | BHB normal, but strong clinical suspicion | Clinical Protocol | RULE-002 does not override clinical judgment |
 
 **Principle:**
 ```
-RULE-002 (coarse screening) ──► RULE-001 (fine discrimination)
+RULE-002 (coarse screening) ──► RULE-001 (fine discrimination; удалён 2026-08-09, пересоздаётся)
        BHB≥1.2                        Systemic correction needed?
        "Something wrong"               "What exactly to do"
 ```
@@ -783,14 +783,14 @@ rule_role:
   type: screening
   specificity: coarse
   layer: entrance
-  handoff_to: RULE-001
+  handoff_to: RULE-001 (удалён 2026-08-09, пересоздаётся)
   
   function: "Initial triage — detects potential SCK and routes to appropriate intervention"
   
   position_in_chain:
     - RULE-004 (prevention, prepartum)
     - RULE-002 (screening, postpartum) ← THIS RULE
-    - RULE-001 (discrimination, intervention decision)
+    - RULE-001 (discrimination, intervention decision) — удалён 2026-08-09, пересоздаётся
     - RULE-003 (treatment, execution)
     
   design_principle: "Catch most cases with simple criteria; let downstream rules refine"

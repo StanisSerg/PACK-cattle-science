@@ -28,7 +28,6 @@ PACK-cattle-science построен по многоуровневой архи�
 
 ```
 PACK-cattle-science/
-├── cases/                    # Сырые кейсы с фермы (Case Layer)
 ├── decisions/                # Decision Layer (что было решением)
 ├── docs/                     # Интеграция, workflow, guides
 ├── pack/
@@ -39,7 +38,7 @@ PACK-cattle-science/
 │   │   ├── archive/          # Инвентарь PDF (файлы вне git)
 │   │   └── new-articles/     # Входящие PDF для обработки
 │   └── working/              # Временные файлы
-├── rule_engine/              # Исполняемая система правил
+├── rule_engine/              # Исполняемая система правил (удалён 2026-08-09, пересоздание запланировано)
 └── scripts/                  # Автоматизация pack'а
 ```
 
@@ -83,10 +82,8 @@ pack/cattle-science/
 
 ## Корневые слои (вне `pack/`)
 
-### `cases/` — Слой кейсов
-**Назначение:** Сырые факты с фермы.  
-**Формат:** `CASE-XXX-*.md` + `TEMPLATE-CASE.md`  
-**Flow:** Кейс → Decision Layer → Rule
+### `cases/` — Слой кейсов (удалён 2026-08-09; кейсы живут в `DS-cattle-cases/cases/`)
+**Flow:** Кейс (DS-cattle-cases) → Decision Layer → Rule
 
 ### `decisions/` — Decision Layer
 **Назначение:** Запись того, что именно было решением в кейсе.  
@@ -98,7 +95,7 @@ pack/cattle-science/
 **Формат:** `RULE-XXX-*.md` + `REGISTRY.md`  
 **Структура:** IF → THEN → BECAUSE → LIMITS + Confidence + Escalation
 
-### `rule_engine/` — Исполняемая система
+### `rule_engine/` — Исполняемая система (удалён 2026-08-09, пересоздание запланировано)
 **Назначение:** Python-скрипты, исполняющие правила над YAML-кейсами.  
 **Состав:**
 - `run_case.py` — главный движок
@@ -155,16 +152,16 @@ pack/cattle-science/
 Ферма
   │
   ▼
-cases/        ← Сырой факт (CASE-001)
+DS-cattle-cases/cases/  ← Сырой факт (CASE-XXX, внешний репо)
   │
   ▼
-decisions/    ← Что было решением (DL-001)
+decisions/    ← Что было решением (DL-XXX)
   │
   ▼
-pack/rules/   ← Формализованное правило (RULE-001)
+pack/rules/   ← Формализованное правило (RULE-XXX)
   │
   ▼
-rule_engine/  ← Исполняемая логика (rule_001.py)
+rule_engine/  ← Исполняемая логика (rule_XXX.py) — удалён 2026-08-09, пересоздание запланировано
   │
   ▼
 Рекомендация  ← Action + Prediction + Confidence
@@ -187,18 +184,18 @@ Cases → Decisions → Rules → Rule Engine
 ```
 
 **Верхние уровни зависят от нижних, но не наоборот:**
-- `01-domain-contract` не знает о `cases/`
+- `01-domain-contract` не знает о кейсах (`DS-cattle-cases/cases/`)
 - `06-sota/` ссылается на `02-domain-entities/`
 - `03-methods/` реализует `06-sota/`
 - `pack/rules/` использует `03-methods/` и `06-sota/`
-- `rule_engine/` имплементирует `pack/rules/`
+- `rule_engine/` имплементирует `pack/rules/` (rule_engine удалён 2026-08-09, пересоздание запланировано)
 
 ### Типы связей
 
 | Тип | Описание | Пример |
 |-----|----------|--------|
-| `derived_from` | Кейс порождает решение | `DL-001` derived_from `CASE-001` |
-| `formalizes` | Правило формализует решение | `RULE-001` formalizes `DL-001` |
+| `derived_from` | Кейс порождает решение | `DL-XXX` derived_from `CASE-XXX` |
+| `formalizes` | Правило формализует решение | `RULE-XXX` formalizes `DL-XXX` |
 | `implements` | Код реализует правило | `rule_002.py` implements `RULE-002` |
 | `depends_on` | Зависит от знаний | `Methods` depends_on `SoTA` |
 | `references` | Ссылается на сущность | `SoTA` references `P0 entity` |
@@ -211,8 +208,8 @@ Cases → Decisions → Rules → Rule Engine
 
 | Роль | Начать с | Использовать |
 |------|----------|--------------|
-| **Фермер / Технолог** | `cases/` → `pack/rules/` | `FARM-CHECKLIST.md` для чеклистов |
-| **Ветеринар** | `pack/rules/` (health) | `rule_engine/` для оценки кейса |
+| **Фермер / Технолог** | `DS-cattle-cases/cases/` → `pack/rules/` | `FARM-CHECKLIST.md` для чеклистов |
+| **Ветеринар** | `pack/rules/` (health) | `rule_engine/` для оценки кейса (удалён 2026-08-09, пересоздание запланировано) |
 | **Репродуктолог** | `06-sota/reproduction/` | `03-methods/` для синхронизации |
 | **Студент** | `02-domain-entities/P0/` | `06-sota/` для углубления |
 | **Менеджер** | `00-pack-manifest.md` | `06-sota/economics/` для KPI |
@@ -223,9 +220,9 @@ Cases → Decisions → Rules → Rule Engine
 | Задача | Путь |
 |--------|------|
 | Добавить статью | `process/ingestion/` → `06-sota/` |
-| Создать правило из практики | `cases/` → `decisions/` → `pack/rules/` |
+| Создать правило из практики | `DS-cattle-cases/cases/` → `decisions/` → `pack/rules/` |
 | Проверить нормы | `06-sota/feeding/` (NASEM) |
-| Запустить оценку кейса | `rule_engine/run_case.py` |
+| Запустить оценку кейса | `rule_engine/run_case.py` (удалён 2026-08-09, пересоздание запланировано) |
 | Понять физиологию | `02-domain-entities/P0/` |
 
 ---
@@ -239,13 +236,13 @@ Cases → Decisions → Rules → Rule Engine
     │
     ▼
 Это фермерский кейс?
-    ├── ДА → cases/ (CASE-XXX)
+    ├── ДА → DS-cattle-cases/cases/ (CASE-XXX)
     │   ↓
     │   formalize → decisions/ (DL-XXX)
     │   ↓
     │   generalize → pack/rules/ (RULE-XXX)
     │   ↓
-    │   implement → rule_engine/rules/ (rule_XXX.py)
+    │   implement → rule_engine/rules/ (rule_XXX.py)  # удалён 2026-08-09, пересоздание запланировано
     │
     └── НЕТ
         ↓

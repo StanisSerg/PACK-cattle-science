@@ -225,7 +225,7 @@ note: "Metritis and metabolic disease often coexist."
 
 coordination:
   - if BHB >1.2:
-      action: "Systemic correction first (RULE-001), then PG if applicable (RULE-003)"
+      action: "Systemic correction first (RULE-001 — удалён 2026-08-09, пересоздаётся), then PG if applicable (RULE-003)"
   - if milk_fever_signs:
       action: "Calcium therapy takes precedence (RULE-005)"
   - if both metritis + severe ketosis:
@@ -549,7 +549,7 @@ components:
 │  EARLY POSTPARTUM (0-21 DIM)                                    │
 │  ├── RULE-005: Emergency Calcium (if milk fever)               │
 │  ├── RULE-002: SCK Screening                                    │
-│  ├── RULE-001: Metabolic Deficit Decision                       │
+│  ├── RULE-001 (удалён 2026-08-09, пересоздаётся): Metabolic Deficit Decision │
 │  ├── RULE-003: PG Protocol                                      │
 │  └── RULE-006: Metritis / RP Protocol  ← NEW                   │
 │       │  ← Parallel with metabolic rules                        │
@@ -566,7 +566,7 @@ components:
 | Rule | Boundary | Coordination |
 |------|----------|--------------|
 | RULE-005 | Milk fever + metritis | Treat calcium emergency first, do not delay antibiotics |
-| RULE-001 | Severe ketosis + metritis | Systemic correction + antibiotics together |
+| RULE-001 (удалён 2026-08-09, пересоздаётся) | Severe ketosis + metritis | Systemic correction + antibiotics together |
 | RULE-003 | PG applicable but metritis present | Give PG if cow can swallow; antibiotics are priority |
 | RULE-002 | SCK screening triggers | If SCK + metritis → escalate both RULE-003 and RULE-006 |
 

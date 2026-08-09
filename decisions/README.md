@@ -40,14 +40,13 @@ BECAUSE [почему это сработало]
 ```
 DL-NNN-{краткое-описание}.md
 
-Примеры:
-- DL-001-bhb-threshold.md
+Пример:
 - DL-002-mastitis-protocol-change.md
 ```
 
 ## Связи
 
-**Назад:** [CASE-XXX](../cases/) — сырой факт  
+**Назад:** [CASE-XXX](../../DS-cattle-cases/cases/) — сырой факт (кейсы живут в DS-cattle-cases)  
 **Вперёд:** [RULE-XXX](../pack/rules/) — формализованное знание
 
 ---

@@ -493,7 +493,7 @@ failure_response:  # Что делать если PG не сработал
     - verify_compliance: "Confirm all doses were given correctly"
     
   escalation_path:
-    - step_1: "Review by RULE-001 — is metabolic deficit severe?"
+    - step_1: "Review by RULE-001 (удалён 2026-08-09, пересоздаётся) — is metabolic deficit severe?"
     - step_2: "Add glycerol OR increase PG to 400 ml/day"
     - step_3: "Consider IV glucose if oral intake poor"
     - step_4: "Veterinary intervention if no response"
@@ -720,7 +720,7 @@ saturation_criteria:
   
 dependencies:
   - RULE-002: "Provides SCK diagnosis"
-  - RULE-001: "May override if metabolic deficit severe"
+  - RULE-001 (удалён 2026-08-09, пересоздаётся): "May override if metabolic deficit severe"
   
 integration:
   - RULE-002 ──► RULE-003: "Sequential"
@@ -828,14 +828,14 @@ applicability:
     hepatic_lipidosis: "Specialized Veterinary Care"
     renal_failure: "Modified protocol with veterinary supervision"
     
-  priority_rule: "RULE-001 overrides RULE-003 if metabolic deficit severe"
+  priority_rule: "RULE-001 (удалён 2026-08-09, пересоздаётся) overrides RULE-003 if metabolic deficit severe"
 ```
 
 ### Escalation / Applicability Logic
 
 | Situation | Primary Rule | Logic |
 |-----------|--------------|-------|
-| RULE-001 says "systemic correction first" | RULE-001 | Priority — address root cause before symptom treatment |
+| RULE-001 (удалён 2026-08-09, пересоздаётся) says "systemic correction first" | RULE-001 (пересоздаётся) | Priority — address root cause before symptom treatment |
 | BHB >2.9 (severe SCK) | Clinical Protocol | RULE_003 insufficient alone — escalate |
 | Concurrent clinical ketosis | Clinical Protocol | RULE_003_BLOCKED — emergency intervention required |
 | Complete anorexia >48h | Parenteral Therapy | Cannot administer oral PG |

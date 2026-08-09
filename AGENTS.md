@@ -8,7 +8,7 @@
 
 При работе с файлами в следующих директориях агент **ДОЛЖЕН** вызывать `fpf_reference` **до** начала создания или редактирования артефакта:
 
-- `cases/` — сырые кейсы
+- `DS-cattle-cases/cases/` — сырые кейсы (внешний репо)
 - `decisions/` — Decision Layer (DL)
 - `pack/rules/` — правила Pack
 - `pack/cattle-science/01-domain-contract/` — границы и различения
@@ -30,7 +30,7 @@
 
 | Тип задачи | Триггер | Ключевые паттерны |
 |---|---|---|
-| Создание CASE | Новый файл в `cases/` | A.6.P (precision), C.16 (measurement), C.26.1 (probe-coupled) |
+| Создание CASE | Новый файл в `DS-cattle-cases/cases/` | A.6.P (precision), C.16 (measurement), C.26.1 (probe-coupled) |
 | Создание DL | Новый файл в `decisions/` | A.15 (role-method-work), C.11 (decision theory), B.3 (F-G-R), A.6.B (L/A/D/E) |
 | Создание RULE | Новый файл в `pack/rules/` | A.6 (boundary), A.2.8 (commitment), A.6.C (contract unpacking), B.4 (evolution loop) |
 | SoTA-аннотация | Работа с `06-sota/` | A.10 (evidence graph), B.3 (trust), C.2 (KD-CAL), A.6.3.CSC (coarsening) |

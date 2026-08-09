@@ -2,8 +2,8 @@
 
 ```yaml
 ---
-dl_id: DL-001
-case_ref: CASE-001
+dl_id: DL-XXX
+case_ref: CASE-XXX
 date: YYYY-MM-DD
 author: [кто принял решение]
 category: [metabolic|reproduction|nutrition|economics]
@@ -12,9 +12,9 @@ fpf_context: []  # Автоматически заполняется агент�
 ---
 ```
 
-# DL-001: [Название решения]
+# DL-XXX: [Название решения]
 
-> **Источник:** [CASE-001](../cases/CASE-001.md)  
+> **Источник:** [CASE-XXX](../../DS-cattle-cases/cases/CASE-XXX/)  
 > **Дата принятия:** YYYY-MM-DD
 
 ## Что именно было решением?
@@ -97,4 +97,4 @@ fpf_context: []  # Автоматически заполняется агент�
 ---
 
 *Формат: CASE → DL → RULE*
-*Назад: [CASE-001](../cases/CASE-001.md) | Вперёд: [RULE-XXX](../pack/rules/RULE-XXX.md)*
+*Назад: [CASE-XXX](../../DS-cattle-cases/cases/CASE-XXX/) | Вперёд: [RULE-XXX](../pack/rules/RULE-XXX.md)*

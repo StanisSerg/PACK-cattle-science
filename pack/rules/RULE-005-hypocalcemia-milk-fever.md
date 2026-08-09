@@ -859,7 +859,7 @@ Parallel Prevention (Close-up period):
 |------|----------|--------------|
 | RULE-004 | Both in close-up | Monitor DMI together (acidosis affects intake) |
 | RULE-002 | Postpartum detection | If milk fever → may not need SCK screening immediately |
-| RULE-001 | Postpartum decision | Milk fever takes precedence over metabolic deficit evaluation |
+| RULE-001 (удалён 2026-08-09, пересоздаётся) | Postpartum decision | Milk fever takes precedence over metabolic deficit evaluation |
 | RULE-003 | Postpartum treatment | Oral calcium (005) vs PG (003) — different pathways |
 
 ### Escalation / Applicability Logic
@@ -868,7 +868,7 @@ Parallel Prevention (Close-up period):
 |-----------|--------------|-------|
 | Close-up cow, multiparous | RULE-005 (prevention) + RULE-004 | Parallel prevention protocols |
 | Clinical milk fever at calving | RULE-005 (emergency) | Overrides routine postpartum protocols |
-| Milk fever + ketosis signs | RULE-005 (IV Ca) → then RULE-001 | Treat calcium emergency first |
+| Milk fever + ketosis signs | RULE-005 (IV Ca) → then RULE-001 (удалён 2026-08-09, пересоздаётся) | Treat calcium emergency first |
 | First-lactation heifer | RULE-004 only | RULE-005 prevention BLOCKED |
 | Suspected milk fever but standing | RULE-005 (oral Ca) | Subclinical treatment |
 

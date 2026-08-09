@@ -149,7 +149,7 @@ INITIAL ──► lactating_with_data?
 
 | State | Alert Level | Required Action | Timeline |
 |-------|-------------|-----------------|----------|
-| CRITICAL_NEGATIVE | CRITICAL | Health screening (RULE-001, RULE-006, RULE-011) | Same day |
+| CRITICAL_NEGATIVE | CRITICAL | Health screening (RULE-001 — удалён 2026-08-09, пересоздаётся, RULE-006, RULE-011) | Same day |
 | MODERATE_NEGATIVE | WARNING | Check ration, environment, health | 24-48 hours |
 | PERSISTENCE_ALERT | WARNING | Review mid-lactation ration, body condition | 3-7 days |
 | HYPERPRODUCTIVE_RISK | HIGH | Intensify metabolic monitoring, energy support | Ongoing |
@@ -262,7 +262,7 @@ NOT_APPLICABLE:
   dry_cows: true
   heifers_pre_calving: true
   first_week_postpartum_with_metabolic_crisis:
-    note: "Yield naturally volatile; use clinical rules (RULE-001/RULE-005) instead"
+    note: "Yield naturally volatile; use clinical rules (RULE-001 — удалён 2026-08-09, пересоздаётся / RULE-005) instead"
 ```
 
 ---
@@ -326,7 +326,7 @@ data_policy:
 
 | Rule | Relationship |
 |------|-------------|
-| RULE-001 | CRITICAL_NEGATIVE often triggers ketosis check |
+| RULE-001 (удалён 2026-08-09, пересоздаётся) | CRITICAL_NEGATIVE often triggers ketosis check |
 | RULE-005 | Early lactation drop may indicate hypocalcemia |
 | RULE-006 | Postpartum drop may indicate metritis |
 | RULE-008 | Heat stress is common cause of moderate drop |

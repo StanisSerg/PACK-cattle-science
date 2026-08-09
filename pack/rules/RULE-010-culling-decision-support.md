@@ -311,7 +311,7 @@ data_policy:
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │  INPUTS FROM OTHER RULES:                                       │
-│  ├── RULE-001: Metabolic deficit chronic?                       │
+│  ├── RULE-001 (удалён 2026-08-09, пересоздаётся): Metabolic deficit chronic? │
 │  ├── RULE-002: Repeated SCK episodes?                           │
 │  ├── RULE-003: PG non-responsive?                               │
 │  ├── RULE-006: Chronic metritis / no conception?                │

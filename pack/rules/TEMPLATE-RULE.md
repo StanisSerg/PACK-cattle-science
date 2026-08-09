@@ -2,9 +2,9 @@
 
 ```yaml
 ---
-rule_id: RULE-001
-dl_ref: DL-001
-case_refs: [CASE-001, CASE-002]
+rule_id: RULE-XXX
+dl_ref: DL-XXX
+case_refs: [CASE-XXX, CASE-YYY]
 date_created: YYYY-MM-DD
 date_updated: YYYY-MM-DD
 author: [кто формализовал]
@@ -16,11 +16,11 @@ fpf_context: []  # Автоматически заполняется агент�
 ---
 ```
 
-# RULE-001: [Название правила]
+# RULE-XXX: [Название правила]
 
 > **Тип:** [threshold|protocol|warning|action|diagnostic]  
 > **Уверенность:** [high/medium/low] — основано на N кейсах  
-> **Источник:** [DL-001](../decisions/DL-001.md)
+> **Источник:** [DL-XXX](../decisions/DL-XXX.md)
 
 ## Правило
 
@@ -80,8 +80,8 @@ fpf_context: []  # Автоматически заполняется агент�
 
 | Кейс | Результат | Дата |
 |------|-----------|------|
-| [CASE-001](../cases/CASE-001.md) | ✅ Подтвердилось | YYYY-MM-DD |
-| [CASE-002](../cases/CASE-002.md) | ✅ Подтвердилось | YYYY-MM-DD |
+| [CASE-XXX](../../../DS-cattle-cases/cases/) | ✅ Подтвердилось | YYYY-MM-DD |
+| [CASE-YYY](../../../DS-cattle-cases/cases/) | ✅ Подтвердилось | YYYY-MM-DD |
 
 ### Противопоказания найдены?
 
@@ -129,4 +129,4 @@ fpf_context: []  # Автоматически заполняется агент�
 ---
 
 *Формат: CASE → DL → RULE*
-*Источник: [DL-001](../decisions/DL-001.md)*
+*Источник: [DL-XXX](../decisions/DL-XXX.md)*

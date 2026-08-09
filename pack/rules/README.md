@@ -51,11 +51,11 @@ LIMITS: [где работает / не работает]
 ## Пример полного цикла
 
 ```
-CASE-001: BHB 1.6 → стандарт → нет эффекта → система → BHB 0.4
+CASE-XXX: BHB 1.6 → стандарт → нет эффекта → система → BHB 0.4
     ↓
-DL-001: IF BHB > 1.2 + низкий DMI → не X → коррекция системы
+DL-XXX: IF BHB > 1.2 + низкий DMI → не X → коррекция системы
     ↓
-RULE-001: Ketosis-Threshold-Invalidation
+RULE-XXX: [Название правила]
     IF: BHB > 1.2 AND DMI < 80%
     THEN: не применять гепатопротекторы как основное
     BECAUSE: метаболический дефицит → нет субстратов
@@ -68,7 +68,6 @@ RULE-001: Ketosis-Threshold-Invalidation
 RULE-NNN-{краткое-название}.md
 
 Примеры:
-- RULE-001-ketosis-threshold.md
 - RULE-002-mastitis-early-protocol.md
 ```
 
