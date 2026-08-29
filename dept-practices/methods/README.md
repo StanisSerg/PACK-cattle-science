@@ -23,4 +23,10 @@ status: draft
 
 Method claim: `dept-practices/branches/B-01-report-control/B-01.D-04-method-claim-and-description-farm-visit.md` (раздел 4 — скоуп создания D1–D4).
 
+## Созданные описания
+
+| Файл | Описание | Статус |
+|------|----------|--------|
+| `blank-md-to-pdf.md` | Изготовление печатного бланка для хозяйства (md → PDF, weasyprint) | active (2026-08-29) |
+
 *Создано: 2026-08-01.*

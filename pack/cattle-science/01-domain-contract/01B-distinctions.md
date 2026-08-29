@@ -119,6 +119,30 @@ If at least one of these is missing, the claim is an opinion, not a justified de
 
 ---
 
+## D.009: Living Protocol vs. Dead Protocol
+
+| Aspect | Living Protocol | Dead Protocol |
+|--------|----------------|---------------|
+| **Definition** | Decision base with an owner, an update rhythm (capture after every problem-solving cycle), and a stop condition | Document without owner, rhythm, or stop condition — dead from birth |
+| **Economics** | Updating is paid as part of the work cycle; currency is verified cheaply on return to the branch | Copying is free, verifying currency is expensive — drift accumulates silently |
+| **Failure mode** | An entry may be stale but says so (bounded staleness, review date, supersession link) | Formally «a protocol exists»; factually nobody knows which clauses still work |
+| **Transferability** | Cannot be bought or copied within a quarter — accumulates only from own practice; capture discipline is a defensible competitive advantage | Circulates between farms for years as an artifact, not knowledge |
+
+**Decision rule:** Before relying on a protocol or decision base, answer:
+1. Who is the owner?
+2. When was the last capture (update after a decision cycle)?
+3. What is the stop condition / review trigger?
+
+If at least one is missing — treat it as a dead protocol: verify each clause before use, do not cite it as knowledge.
+
+**Industry observation (dairy consulting):** protocols drift between farms (a document written 10 years ago is passed hand to hand); consulting sells a visit, not currency, so competitors rationally carry outdated solutions; the entry barrier is discipline, not technology — which is why living knowledge bases are absent industry-wide.
+
+**FPF context:** E.19 (review/refresh), B.4 (canonical evolution loop), B.3 (honest stop, reliance). Related: CS.METHOD.008 (work is done at the point of data entry), practice С4-П4 (false ✅ — a stale record stays silent).
+
+**Source:** capture 2026-08-08 (pilot dialogue after seminar 4 practices, WP-109), applied via /apply-captures R15 2026-08-29.
+
+---
+
 ## Distinction Maintenance
 
 | Distinction | Last Reviewed | Status |
@@ -131,6 +155,7 @@ If at least one of these is missing, the claim is an opinion, not a justified de
 | D.006 Acute vs. Chronic | 2026-03-01 | Active |
 | D.007 Model vs. Reality | 2026-03-01 | Active |
 | D.008 Justified Decision vs. Opinion | 2026-06-21 | Active |
+| D.009 Living vs. Dead Protocol | 2026-08-29 | Active |
 
 ---
 
