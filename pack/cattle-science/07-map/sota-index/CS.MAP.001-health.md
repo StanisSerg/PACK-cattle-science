@@ -1,6 +1,6 @@
 # CS.MAP.001-health: SoTA Index — Здоровье и метаболизм
 
-> Шард индекса: health (104 SoTA)
+> Шард индекса: health (109 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 104 |
+| Всего SoTA | 109 |
 | P0 (Фундаментальные) | 4 |
 | P1 (Критически важные) | 31 |
-| P2 (Важные) | 69 |
+| P2 (Важные) | 74 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 9 |
 | Experimental-study | 2 |
-| Field-study | 61 |
+| Field-study | 66 |
 | Meta-analysis | 2 |
 | Observational | 1 |
 | Observational-study | 1 |
@@ -135,6 +135,11 @@
 | [CS.SOTA.365](../../06-sota/health/CS.SOTA.365-erkinger-2026.md) | Erkinger et al. | 2026 | P2 | field-study | `colostrum, fat, newborn-calf` | См. файл для деталей |
 | [CS.SOTA.367](../../06-sota/health/CS.SOTA.367-he-2026.md) | He et al. | 2026 | P2 | field-study | `calf, insulin-resistance, brown-adipose-tissue` | См. файл для деталей |
 | [CS.SOTA.368](../../06-sota/health/CS.SOTA.368-debruijn-2026.md) | Bruijn et al. | 2026 | P2 | field-study | `milk-yield, disease, dynamic-indicator` | См. файл для деталей |
+| [CS.SOTA.372](../../06-sota/health/CS.SOTA.372-lisuzzo-2026.md) | Lisuzzo et al. | 2026 | P2 | field-study | `hyperketonemia, subclinical-ketosis, hepato-protectors` | См. файл для деталей |
+| [CS.SOTA.382](../../06-sota/health/CS.SOTA.382-shaukat-2026.md) | Shaukat et al. | 2026 | P2 | field-study | `mastitis, staphylococcus-aureus, streptococcus-agalactiae` | См. файл для деталей |
+| [CS.SOTA.383](../../06-sota/health/CS.SOTA.383-delavaud-2026.md) | Delavaud et al. | 2026 | P2 | field-study | `cytokines, inflammation, residual-feed-intake` | См. файл для деталей |
+| [CS.SOTA.394](../../06-sota/health/CS.SOTA.394-simmental-blood-metabolites-2025.md) | Ablondi et al. | 2025 | P2 | field-study | `-` | См. файл для деталей |
+| [CS.SOTA.395](../../06-sota/health/CS.SOTA.395-simmental-hyperketonemia-2025.md) | группа et al. | 2025 | P2 | field-study | `-` | См. файл для деталей |
 
 ---
 
@@ -146,5 +151,5 @@
 
 ---
 
-*Шард обновлён: 2026-07-30*
-*Автоматическая генерация: 104 SoTA*
+*Шард обновлён: 2026-09-02*
+*Автоматическая генерация: 109 SoTA*

@@ -1,6 +1,6 @@
 # CS.MAP.001-economics: SoTA Index — Экономика
 
-> Шард индекса: economics (9 SoTA)
+> Шард индекса: economics (10 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,15 +10,16 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 9 |
+| Всего SoTA | 10 |
 | P0 (Фундаментальные) | 0 |
-| P1 (Критически важные) | 3 |
+| P1 (Критически важные) | 4 |
 | P2 (Важные) | 6 |
 | P3 (Дополнительные) | 0 |
 | Decision-support-tool | 1 |
 | Field-study | 1 |
 | Methodology | 1 |
 | Original-research | 1 |
+| Rct | 1 |
 | Review | 2 |
 | Review-article | 1 |
 | Simulation | 1 |
@@ -39,6 +40,7 @@
 | [CS.SOTA.161](../../06-sota/economics/CS.SOTA.161-bach-2020.md) | Bach et al. | 2020 | P2 | review | `feed-efficiency, income-over-feed-cost, economic-optimization` | См. файл для деталей |
 | [CS.SOTA.179](../../06-sota/economics/CS.SOTA.179-karszes-culling.md) | Karszes et al. | 1997 | P2 | field-study | `culling-rate, economics, herd-management` | **Контекст:** Уровни выбытия (culling rates) давно измеряютс... |
 | [CS.SOTA.212](../../06-sota/economics/CS.SOTA.212-grant-2015.md) | Grant et al. | 2015 | P1 | review | `cow-comfort, economics, time-budget` | Данный обзор суммирует современные знания о влиянии улучшенн... |
+| [CS.SOTA.373](../../06-sota/economics/CS.SOTA.373-rial-2026.md) | Rial et al. | 2026 | P2 | rct | `automated-health-monitoring, sensors, rumination` | См. файл для деталей |
 
 ---
 
@@ -50,5 +52,5 @@
 
 ---
 
-*Шард обновлён: 2026-07-30*
-*Автоматическая генерация: 9 SoTA*
+*Шард обновлён: 2026-09-02*
+*Автоматическая генерация: 10 SoTA*

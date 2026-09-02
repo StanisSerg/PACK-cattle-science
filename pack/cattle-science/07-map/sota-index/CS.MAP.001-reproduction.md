@@ -1,6 +1,6 @@
 # CS.MAP.001-reproduction: SoTA Index — Репродуктивный менеджмент
 
-> Шард индекса: reproduction (33 SoTA)
+> Шард индекса: reproduction (34 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,14 +10,14 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 33 |
+| Всего SoTA | 34 |
 | P0 (Фундаментальные) | 1 |
-| P1 (Критически важные) | 6 |
+| P1 (Критически важные) | 7 |
 | P2 (Важные) | 26 |
 | P3 (Дополнительные) | 0 |
 | Experimental | 3 |
 | Field-study | 16 |
-| Meta-analysis | 3 |
+| Meta-analysis | 4 |
 | Observational | 2 |
 | Research | 4 |
 | Review | 5 |
@@ -61,6 +61,7 @@
 | [CS.SOTA.292](../../06-sota/reproduction/CS.SOTA.292-trophoblast-2026.md) | da-Silva-Junior et al. | 2026 | P2 | field-study | `trophoblast, embryo-development, parity` | См. файл для деталей |
 | [CS.SOTA.362](../../06-sota/reproduction/CS.SOTA.362-yang-2026.md) | Yang et al. | 2026 | P2 | field-study | `ovarian-stimulation, follicular-output-rate, follicle-to-oocyte-index` | См. файл для деталей |
 | [CS.SOTA.363](../../06-sota/reproduction/CS.SOTA.363-conceicao-2026.md) | Conceicao et al. | 2026 | P2 | field-study | `gnrh, lh, estrous-expression` | См. файл для деталей |
+| [CS.SOTA.387](../../06-sota/reproduction/CS.SOTA.387-lean-2026.md) | Lean et al. | 2026 | P2 | meta-analysis | `age-at-first-calving, meta-analysis, dairy-heifer` | См. файл для деталей |
 
 ---
 
@@ -72,5 +73,5 @@
 
 ---
 
-*Шард обновлён: 2026-07-30*
-*Автоматическая генерация: 33 SoTA*
+*Шард обновлён: 2026-09-02*
+*Автоматическая генерация: 34 SoTA*

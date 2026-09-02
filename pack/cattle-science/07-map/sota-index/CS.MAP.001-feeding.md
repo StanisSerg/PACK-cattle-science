@@ -1,6 +1,6 @@
 # CS.MAP.001-feeding: SoTA Index — Кормление и метаболизм
 
-> Шард индекса: feeding (197 SoTA)
+> Шард индекса: feeding (210 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,24 +10,26 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 197 |
+| Всего SoTA | 210 |
 | P0 (Фундаментальные) | 21 |
 | P1 (Критически важные) | 28 |
-| P2 (Важные) | 148 |
-| P3 (Дополнительные) | 0 |
+| P2 (Важные) | 160 |
+| P3 (Дополнительные) | 1 |
 | Experimental | 39 |
 | Expert-opinion | 3 |
-| Field-study | 64 |
+| Field-study | 73 |
 | Fpf-audit | 2 |
 | In-vitro-study | 1 |
 | Meta-analysis | 12 |
 | Methodology | 1 |
+| Model-update-presentation | 1 |
 | Number-verification | 1 |
 | Primary-research | 2 |
-| Rct | 1 |
+| Rct | 2 |
 | Reference-book | 20 |
 | Review | 46 |
-| Simulation | 5 |
+| Scoping-review | 1 |
+| Simulation | 6 |
 
 ---
 
@@ -232,7 +234,19 @@
 | [CS.SOTA.350](../../06-sota/feeding/CS.SOTA.350-fitzpatrick-2026.md) | Fitzpatrick et al. | 2026 | P2 | field-study | `dry-matter-intake, white-clover, pasture` | См. файл для деталей |
 | [CS.SOTA.353](../../06-sota/feeding/CS.SOTA.353-zhai-2026.md) | Zhai et al. | 2026 | P2 | field-study | `holstein, montbeliarde, crossbreeding` | См. файл для деталей |
 | [CS.SOTA.366](../../06-sota/feeding/CS.SOTA.366-fukami-2026.md) | Fukami et al. | 2026 | P2 | field-study | `calf, milk-replacer, fat` | См. файл для деталей |
-| [CS.SOTA.369](../../06-sota/feeding/CS.SOTA.369-vanamburgh-2025.md) | Van Amburgh | 2025 | P3 | model-update-presentation | `cncps, isoacids, branched-chain-vfa` | См. файл для деталей |
+| [CS.SOTA.369](../../06-sota/feeding/CS.SOTA.369-vanamburgh-2025.md) | Amburgh et al. | 2025 | P2 | model-update-presentation | `cncps, isoacids, branched-chain-vfa` | См. файл для деталей |
+| [CS.SOTA.370](../../06-sota/feeding/CS.SOTA.370-kock-2026.md) | Köck et al. | 2026 | P2 | field-study | `methane, carbon-dioxide, greenfeed` | См. файл для деталей |
+| [CS.SOTA.374](../../06-sota/feeding/CS.SOTA.374-jensen-2026.md) | Jensen et al. | 2026 | P2 | rct | `transition-cow, calcidiol, 25-OH-D3` | См. файл для деталей |
+| [CS.SOTA.375](../../06-sota/feeding/CS.SOTA.375-lashkari-2026.md) | Lashkari et al. | 2026 | P2 | field-study | `25-hydroxycholecalciferol, vitamin-d, transition-cow` | См. файл для деталей |
+| [CS.SOTA.381](../../06-sota/feeding/CS.SOTA.381-vanamburgh-2026.md) | Amburgh et al. | 2026 | P2 | field-study | `heifer, growth, body-composition` | См. файл для деталей |
+| [CS.SOTA.384](../../06-sota/feeding/CS.SOTA.384-anger-2026.md) | Anger et al. | 2026 | P2 | field-study | `metabolizable-protein, rumen-protected-amino-acids, bypass-starch` | См. файл для деталей |
+| [CS.SOTA.385](../../06-sota/feeding/CS.SOTA.385-lv-2026.md) | Lv et al. | 2026 | P2 | field-study | `branched-chain-fatty-acids, lanolin, calf` | См. файл для деталей |
+| [CS.SOTA.386](../../06-sota/feeding/CS.SOTA.386-zheng-2026.md) | Zheng et al. | 2026 | P2 | field-study | `beta-hydroxybutyrate, dry-period, maternal-programming` | См. файл для деталей |
+| [CS.SOTA.388](../../06-sota/feeding/CS.SOTA.388-scott-2026.md) | Scott et al. | 2026 | P2 | field-study | `transition-cow, metabolizable-protein, rumen-microbiota` | См. файл для деталей |
+| [CS.SOTA.389](../../06-sota/feeding/CS.SOTA.389-daniel-2026.md) | Daniel et al. | 2026 | P2 | simulation | `trace-minerals, zinc, copper` | См. файл для деталей |
+| [CS.SOTA.390](../../06-sota/feeding/CS.SOTA.390-lopez-bondarchuk-2026.md) | Lopez-Bondarchuk et al. | 2026 | P2 | scoping-review | `colostrum, transition-milk, immunoglobulins` | См. файл для деталей |
+| [CS.SOTA.391](../../06-sota/feeding/CS.SOTA.391-brower-2026.md) | Brower et al. | 2026 | P2 | field-study | `heat-stress, THI, close-up` | См. файл для деталей |
+| [CS.SOTA.392](../../06-sota/feeding/CS.SOTA.392-tian-2026.md) | Tian et al. | 2026 | P2 | field-study | `dairy-calf, bedding, rice-husk` | См. файл для деталей |
 
 ---
 
@@ -244,5 +258,5 @@
 
 ---
 
-*Шард обновлён: 2026-07-30*
-*Автоматическая генерация: 197 SoTA*
+*Шард обновлён: 2026-09-02*
+*Автоматическая генерация: 210 SoTA*
