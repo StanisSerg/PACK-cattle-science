@@ -138,8 +138,8 @@
 | [CS.SOTA.372](../../06-sota/health/CS.SOTA.372-lisuzzo-2026.md) | Lisuzzo et al. | 2026 | P2 | field-study | `hyperketonemia, subclinical-ketosis, hepato-protectors` | См. файл для деталей |
 | [CS.SOTA.382](../../06-sota/health/CS.SOTA.382-shaukat-2026.md) | Shaukat et al. | 2026 | P2 | field-study | `mastitis, staphylococcus-aureus, streptococcus-agalactiae` | См. файл для деталей |
 | [CS.SOTA.383](../../06-sota/health/CS.SOTA.383-delavaud-2026.md) | Delavaud et al. | 2026 | P2 | field-study | `cytokines, inflammation, residual-feed-intake` | См. файл для деталей |
-| [CS.SOTA.394](../../06-sota/health/CS.SOTA.394-simmental-blood-metabolites-2025.md) | Ablondi et al. | 2025 | P2 | field-study | `-` | См. файл для деталей |
-| [CS.SOTA.395](../../06-sota/health/CS.SOTA.395-simmental-hyperketonemia-2025.md) | группа et al. | 2025 | P2 | field-study | `-` | См. файл для деталей |
+| [CS.SOTA.394](../../06-sota/health/CS.SOTA.394-simmental-blood-metabolites-2025.md) | Magro et al. | 2025 | P2 | field-study | `field-study, genetics, heritability` | См. файл для деталей |
+| [CS.SOTA.395](../../06-sota/health/CS.SOTA.395-simmental-hyperketonemia-2025.md) | Pothmann et al. | 2025 | P2 | field-study | `field-study, herd-health, metabolic-adaptation` | См. файл для деталей |
 
 ---
 
@@ -151,5 +151,5 @@
 
 ---
 
-*Шард обновлён: 2026-09-02*
+*Шард обновлён: 2026-09-03*
 *Автоматическая генерация: 109 SoTA*

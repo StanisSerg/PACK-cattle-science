@@ -52,7 +52,7 @@
 | [CS.SOTA.354](../../06-sota/management/CS.SOTA.354-olmo-2026.md) | Olmo et al. | 2026 | P2 | field-study | `cow-calf-contact, animal-welfare, livestock-advisers` | См. файл для деталей |
 | [CS.SOTA.371](../../06-sota/management/CS.SOTA.371-prendergast-2026.md) | Prendergast et al. | 2026 | P2 | scoping-review | `milking-efficiency, milking-parlor, rotary` | См. файл для деталей |
 | [CS.SOTA.379](../../06-sota/management/CS.SOTA.379-carter-2026.md) | Carter et al. | 2026 | P2 | field-study | `knowledge-transfer, extension, veterinarian` | См. файл для деталей |
-| [CS.SOTA.396](../../06-sota/management/CS.SOTA.396-buonaiuto-2024.md) | Buonaiuto et al. | 2024 | P2 | field-study | `-` | См. файл для деталей |
+| [CS.SOTA.396](../../06-sota/management/CS.SOTA.396-buonaiuto-2024.md) | Buonaiuto et al. | 2024 | P2 | field-study | `field-study, survival-analysis, cox-regression` | См. файл для деталей |
 
 ---
 
@@ -64,5 +64,5 @@
 
 ---
 
-*Шард обновлён: 2026-09-02*
+*Шард обновлён: 2026-09-03*
 *Автоматическая генерация: 24 SoTA*
