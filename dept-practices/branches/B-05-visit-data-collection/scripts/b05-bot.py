@@ -119,31 +119,38 @@ def transcribe_yc_async(audio_path: str, name: str, audio_encoding: str = "OGG_O
     if converted and os.path.exists(converted):
         os.unlink(converted)  # конверт нужен был только для загрузки в бакет
 
-    def _req(url, body=None):
+    def _req(url, body=None, method=None):
         data = json.dumps(body).encode() if body else None
-        req = urllib.request.Request(url, data=data, headers={
-            "Authorization": f"Api-Key {YC_API_KEY}", "Content-Type": "application/json"})
-        return json.load(urllib.request.urlopen(req, timeout=60))
+        req = urllib.request.Request(url, data=data, method=method or ("POST" if body else "GET"),
+            headers={"Authorization": f"Api-Key {YC_API_KEY}", "Content-Type": "application/json",
+                     "X-Folder-Id": YC_FOLDER_ID})
+        return urllib.request.urlopen(req, timeout=120).read().decode()
 
-    op = _req("https://transcribe.api.cloud.yandex.net/speech/stt/v2/longRunningRecognize", {
-        "config": {"specification": {"languageCode": "ru-RU", "model": "general",
-                                     "audioEncoding": audio_encoding}},
-        "folderId": YC_FOLDER_ID,
-        "audio": {"uri": f"https://storage.yandexcloud.net/{YC_BUCKET}/{obj_key}"},
-    })
+    # API v3: диаризация (channelTag = спикер) работает только здесь (FULL_DATA, general:rc);
+    # в v2 спикеры не поддержаны. Контейнеры v3: OGG_OPUS / MP3 / WAV.
+    container = {"OGG_OPUS": "OGG_OPUS", "MP3": "MP3", "LINEAR16": "WAV"}.get(audio_encoding, "OGG_OPUS")
+    op = json.loads(_req("https://stt.api.cloud.yandex.net/stt/v3/recognizeFileAsync", {
+        "uri": f"https://storage.yandexcloud.net/{YC_BUCKET}/{obj_key}",
+        "recognitionModel": {
+            "model": "general:rc",
+            "audioFormat": {"containerAudio": {"containerAudioType": container}},
+            "languageRestriction": {"restrictionType": "WHITELIST", "languageCode": ["ru-RU"]},
+        },
+        "speakerLabeling": {"speakerLabeling": "SPEAKER_LABELING_ENABLED"},
+    }))
     op_id = op["id"]
-    log.info("stt operation %s для %s", op_id, name)
+    log.info("stt v3 operation %s для %s", op_id, name)
     text = None
     for _ in range(240):  # до ~20 минут ожидания (5с × 240)
         time.sleep(5)
-        st = _req(f"https://operation.api.cloud.yandex.net/operations/{op_id}")
+        st = json.loads(_req(f"https://operation.api.cloud.yandex.net/operations/{op_id}"))
         if st.get("done"):
             if "error" in st:
                 log.error("stt ошибка: %s", st["error"])
             else:
-                chunks = st.get("response", {}).get("chunks", [])
-                text = " ".join(c["alternatives"][0]["text"]
-                                for c in chunks if c.get("alternatives"))
+                raw = _req(f"https://stt.api.cloud.yandex.net/stt/v3/getRecognition?operationId={op_id}")
+                chunks = [json.loads(l)["result"] for l in raw.splitlines() if l.strip()]
+                text = format_transcript_v3(chunks)
             break
     # прибраться в бакете — аудио уже на Drive
     try:
@@ -151,6 +158,54 @@ def transcribe_yc_async(audio_path: str, name: str, audio_encoding: str = "OGG_O
     except Exception as e:
         log.warning("не удалось удалить %s из бакета: %s", obj_key, e)
     return text
+
+
+def _sec(t: str) -> float:
+    """'1.280s' → 1.28"""
+    return float(t.rstrip("s")) if t else 0.0
+
+
+def _mmss(sec: float) -> str:
+    m, s = divmod(int(sec), 60)
+    return f"{m:02d}:{s:02d}"
+
+
+
+
+def format_transcript_v3(results: list) -> str:
+    """Транскрипт v3 с таймкодами и спикерами: [мм:сс] Спикер N: текст.
+
+    Источник — строки JSONL getRecognition: result.finalRefinement.normalizedText
+    (предпочтительно) или result.final; спикер — result.channelTag (0/1).
+    final и finalRefinement дублируют сегмент (общий finalIndex) — берём refinement.
+    """
+    segments = {}  # finalIndex → (text, startMs, channelTag)
+    order = []
+    for r in results:
+        fr = r.get("finalRefinement") or r.get("final")
+        if not fr:
+            continue
+        idx = f"{r.get('channelTag')}:{fr.get('finalIndex', len(order))}"  # счётчик — свой у каждого канала
+        alt = ((fr.get("normalizedText") or fr).get("alternatives") or [{}])[0]
+        t = (alt.get("text") or "").strip()
+        words = alt.get("words") or []
+        ms = int(words[0].get("startTimeMs", 0)) if words else 0
+        if not t:
+            continue
+        if idx not in segments:
+            order.append(idx)
+        segments[idx] = (t, ms, r.get("channelTag"))  # refinement перезаписывает final
+    lines = []
+    prev = None
+    for idx in sorted(order, key=lambda i: segments[i][1]):  # по времени, не по порядку прихода
+        t, ms, tag = segments[idx]
+        if t == prev:
+            continue
+        prev = t
+        start = _mmss(ms / 1000)
+        speaker = f"Спикер {int(tag) + 1}: " if tag is not None else ""
+        lines.append(f"[{start}] {speaker}{t}")
+    return "\n".join(lines)
 
 
 def farm_keyboard(manifest: dict) -> InlineKeyboardMarkup:
