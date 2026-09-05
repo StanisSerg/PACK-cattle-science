@@ -1,0 +1,53 @@
+{
+  "created_by": "create-google-infra.py (WP-117 Ф1)",
+  "farms": [
+    {
+      "slug": "druzhba-narodov",
+      "name": "Дружба Народов",
+      "case": "CASE-003",
+      "spreadsheet_id": "1-lYOzlEoUPTchTm_J6XrsbdAB4i1TjdKvcJdYOhpqrI",
+      "drive_folder_id": "1hkFr5mS7KCIUK_0V9jdORWgTZoaPdT6m",
+      "subfolders": {
+        "фото": "1oGGDms-tVwcNooXIqfeeFGSIlpd6j08v",
+        "аудио": "133v2oFDBdjwEQ5MSWBb67lDNEfd2ggbJ",
+        "транскрипты": "1Bmothci6XK2XFtxhv5SNFgUvAJ2CtHcD"
+      }
+    },
+    {
+      "slug": "belovezhsky",
+      "name": "Беловежский",
+      "case": "CASE-004",
+      "spreadsheet_id": "1t8-pGKveGU78gIan7CoE9l0lfbGz4VcftV4_whpSHNg",
+      "drive_folder_id": "1UYWpwaKMNrP3F93ySnVuRePlgb_XlUME",
+      "subfolders": {
+        "фото": "1p-akejBJpnG1zhWXpllmaG_Ktu8zwifE",
+        "аудио": "1895S5hipqJjdl4BO9JGNk7fdSsynlPWh",
+        "транскрипты": "1Xwk-OqyGOJrZ-jWsleddxb0F6KXdvAvq"
+      }
+    },
+    {
+      "slug": "sheni-agroprodukt",
+      "name": "Шени-Агропродукт",
+      "case": "CASE-005",
+      "spreadsheet_id": "1AMiPcWZk_meSoDNpLX7k9maaseUTfJvNeUGIXeelJPw",
+      "drive_folder_id": "1YT7Nvv-t2BN4eMXLtTRmVbHsJ3BTsfw9",
+      "subfolders": {
+        "фото": "15tejSmNJJJysboe_NG5p4pzsHOSTjFU6",
+        "аудио": "1Hot9VrxzUaSM7kfnUm8q58M0WPDVi9XL",
+        "транскрипты": "1Wc9OefDx9OXr5CV8et1WAUm92JVgMQI6"
+      }
+    },
+    {
+      "slug": "tyshkovichi",
+      "name": "Тышковичи",
+      "case": "CASE-006",
+      "spreadsheet_id": "1rGDSDYnd8SORE3S8fPWiGopzxjWLjyPIXvCTkxfnNGo",
+      "drive_folder_id": "1mHDALiypbnTOLO2yjC0ioxNDGkQnfynt",
+      "subfolders": {
+        "фото": "11aPZq-sGlCkZIOsTNCiaLQNB2k70Px9R",
+        "аудио": "1NrNyyoSERIrVUyPmVyX9Hxl2ssU_mUpa",
+        "транскрипты": "18aggVkcFRTzTwem9v85lTOdkndnyTUEl"
+      }
+    }
+  ]
+}
