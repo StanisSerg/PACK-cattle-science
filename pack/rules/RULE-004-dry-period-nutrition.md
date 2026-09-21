@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-004
-dl_ref: DL-004
 case_refs: []  # Требуется валидация
 date_created: 2026-04-11
 date_updated: 2026-04-11
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — prevention protocol  
 > **Maturity:** conceptual (v4.0) — основано на Litherland 2025  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-004  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, фаза: prepartum  
 > **SoTA:** CS.SOTA.XXX (Litherland 2025), CS.SOTA.YYY (Drackley)

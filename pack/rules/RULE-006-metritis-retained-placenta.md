@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-006
-dl_ref: DL-006
 case_refs: []  # Требуется валидация
 date_created: 2026-04-15
 date_updated: 2026-04-15
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — postpartum reproductive intervention  
 > **Maturity:** conceptual (v1.0) — основано на reproductive herd-health literature  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-006  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: reproductive, фаза: early postpartum  
 > **SoTA:** CS.SOTA.XXX (Postpartum uterine health), CS.SOTA.YYY (Antibiotic stewardship in dairy)

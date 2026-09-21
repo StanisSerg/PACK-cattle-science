@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-003
-dl_ref: DL-003
 case_refs: []  # Требуется валидация
 date_created: 2026-04-11
 date_updated: 2026-04-11
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — treatment protocol  
 > **Maturity:** conceptual (v4.0) — основано на RCT (Duffield, McArt, Chapinal)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-003  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic  
 > **SoTA:** CS.SOTA.071, CS.SOTA.093, CS.SOTA.092, CS.SOTA.106

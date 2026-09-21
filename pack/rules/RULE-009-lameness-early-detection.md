@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-009
-dl_ref: DL-009
 case_refs: []
 date_created: 2026-04-15
 date_updated: 2026-04-15
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — welfare & production screening  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-009  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: welfare, фаза: lactation
 

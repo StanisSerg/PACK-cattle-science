@@ -5,7 +5,7 @@ RULE Generator v1.0
 
 Usage:
   python rule-generator.py --id 005 --name "mastitis-detection" --category infectious
-  python rule-generator.py --id 006 --name "hypocalcemia-protocol" --category metabolic --dl DL-003
+  python rule-generator.py --id 006 --name "hypocalcemia-protocol" --category metabolic
 """
 
 import argparse
@@ -37,7 +37,7 @@ def load_template(template_path: str) -> str:
 
 
 def generate_rule(template: str, rule_id: str, name: str, category: str, 
-                  dl_ref: str = None, author: str = "StanisSerg") -> str:
+                  author: str = "StanisSerg") -> str:
     """Генерирует RULE из шаблона"""
     today = datetime.now().strftime('%Y-%m-%d')
     
@@ -46,7 +46,6 @@ def generate_rule(template: str, rule_id: str, name: str, category: str,
     
     # Frontmatter
     content = re.sub(r'rule_id: RULE-NNN', f'rule_id: {rule_id}', content)
-    content = re.sub(r'dl_ref: DL-NNN', f'dl_ref: {dl_ref or "DL-NNN"}', content)
     content = re.sub(r'date_created: YYYY-MM-DD', f'date_created: {today}', content)
     content = re.sub(r'date_updated: YYYY-MM-DD', f'date_updated: {today}', content)
     content = re.sub(r'author: "Name"', f'author: {author}', content)
@@ -83,7 +82,6 @@ def main():
     parser.add_argument('--category', type=str, required=True, 
                         choices=['metabolic', 'reproductive', 'infectious', 'nutritional', 'management'],
                         help='Категория правила')
-    parser.add_argument('--dl', type=str, help='Ссылка на Decision Layer (например: DL-003)')
     parser.add_argument('--author', type=str, default='StanisSerg', help='Автор правила')
     parser.add_argument('--dir', type=str, default='pack/rules', help='Директория для сохранения')
     parser.add_argument('--template', type=str, default='pack/rules/RULE-TEMPLATE.md', 
@@ -112,7 +110,7 @@ def main():
     template = load_template(args.template)
     
     # Генерируем RULE
-    content = generate_rule(template, rule_id, args.name, args.category, args.dl, args.author)
+    content = generate_rule(template, rule_id, args.name, args.category, args.author)
     
     # Сохраняем
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -126,7 +124,7 @@ def main():
     print(f"\nСледующие шаги:")
     print(f"  1. Заполните hard/soft conditions в секции DECISION")
     print(f"  2. Опишите механизм в BECAUSE")
-    print(f"  3. Создайте CASE и DL для валидации")
+    print(f"  3. Создайте CASE для валидации")
     print(f"  4. Запустите: python scripts/rule-validator.py {output_path}")
 
 

@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-007
-dl_ref: DL-007
 case_refs: []
 date_created: 2026-04-15
 date_updated: 2026-04-15
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — early risk screening  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-007  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, фаза: early postpartum
 

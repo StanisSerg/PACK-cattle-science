@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-008
-dl_ref: DL-008
 case_refs: []
 date_created: 2026-04-15
 date_updated: 2026-04-15
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — environmental management  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-008  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: environmental, фаза: lactation
 

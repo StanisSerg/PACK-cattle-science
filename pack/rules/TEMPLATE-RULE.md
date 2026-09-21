@@ -3,7 +3,6 @@
 ```yaml
 ---
 rule_id: RULE-XXX
-dl_ref: DL-XXX
 case_refs: [CASE-XXX, CASE-YYY]
 date_created: YYYY-MM-DD
 date_updated: YYYY-MM-DD
@@ -20,7 +19,7 @@ fpf_context: []  # Автоматически заполняется агент�
 
 > **Тип:** [threshold|protocol|warning|action|diagnostic]  
 > **Уверенность:** [high/medium/low] — основано на N кейсах  
-> **Источник:** [DL-XXX](../decisions/DL-XXX.md)
+> **Источник:** [CASE-XXX]
 
 ## Правило
 
@@ -128,5 +127,5 @@ fpf_context: []  # Автоматически заполняется агент�
 
 ---
 
-*Формат: CASE → DL → RULE*
-*Источник: [DL-XXX](../decisions/DL-XXX.md)*
+*Формат: CASE → RULE*
+*Источник: [CASE-XXX]*

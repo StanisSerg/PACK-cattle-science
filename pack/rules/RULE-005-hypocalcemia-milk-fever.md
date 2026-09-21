@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-005
-dl_ref: DL-005
 case_refs: []  # Требуется валидация
 date_created: 2026-04-11
 date_updated: 2026-04-11
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — prevention & emergency treatment  
 > **Maturity:** conceptual (v1.0) — основано на DCAD research (Goff, Horst, Roche)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-005  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: metabolic, фаза: transition  
 > **SoTA:** CS.SOTA.XXX (DCAD diets), CS.SOTA.YYY (Calcium homeostasis)

@@ -6,7 +6,6 @@
 ---
 
 rule_id: RULE-NNN
-dl_ref: DL-NNN  # ссылка на Decision Layer
 case_refs: [CASE-NNN]  # подтверждающие кейсы
 date_created: YYYY-MM-DD
 date_updated: YYYY-MM-DD
@@ -58,7 +57,6 @@ production_criteria:
 > **Тип:** executable decision operator  
 > **Maturity:** {maturity} (v{version})  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-NNN  
 > **Валидация:** [CASE-NNN](../../DS-cattle-cases/cases/CASE-NNN/)  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: {zone}
 

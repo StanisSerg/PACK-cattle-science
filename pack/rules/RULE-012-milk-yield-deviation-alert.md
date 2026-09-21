@@ -1,6 +1,5 @@
 ---
 rule_id: RULE-012
-dl_ref: DL-012
 case_refs: []
 date_created: 2026-04-15
 date_updated: 2026-04-15
@@ -52,7 +51,6 @@ production_criteria:
 > **Тип:** executable decision operator — productivity monitoring  
 > **Maturity:** conceptual (v1.0)  
 > **Управление:** metrics to be enabled at 10+ triggers  
-> **Источник:** DL-012  
 > **Валидация:** Требуется  
 > **Портфель:** [REGISTRY.md](REGISTRY.md) — зона: productivity, фаза: lactation  
 > **SoTA:** CS.SOTA.284 (dairy analytics), CS.ENTITY.031 (Milk yield)
