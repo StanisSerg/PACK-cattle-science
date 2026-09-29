@@ -1,1 +1,47 @@
-#!/bin/bash\n# setup-hooks.sh — Настройка git hooks для автоматического обновления индекса\n\necho "=== Настройка git hooks для PACK-cattle-science ==="\necho ""\n\n# Проверяем, что мы в git-репозитории\nif [ ! -d ".git" ]; then\n    echo "Ошибка: Не найдена папка .git"\n    echo "Запустите из корня репозитория PACK-cattle-science"\n    exit 1\nfi\n\n# Настройка hooksPath\necho "Настройка core.hooksPath..."\ngit config core.hooksPath .githooks\n\n# Проверка\nif [ "$(git config core.hooksPath)" = ".githooks" ]; then\n    echo "✅ Hooks настроены: .githooks"\nelse\n    echo "❌ Ошибка настройки hooks"\n    exit 1\nfi\n\n# Проверка наличия hook-файлов\nif [ -f ".githooks/post-commit" ]; then\n    echo "✅ Найден: post-commit hook"\nelse\n    echo "⚠️  Не найден: post-commit hook"\nfi\n\nif [ -f ".githooks/pre-commit" ]; then\n    echo "✅ Найден: pre-commit hook"\nelse\n    echo "⚠️  Не найден: pre-commit hook"\nfi\n\necho ""\necho "=== Готово ==="\necho ""\necho "Теперь при каждом коммите с новой SoTA:"\necho "  1. Автоматически обновится CS.MAP.001-sota-index.md"\necho "  2. Индекс добавится в тот же коммит"\necho ""\necho "Проверка работы:"\necho "  bash scripts/verify-sota-index.sh"\n
+#!/bin/bash
+# setup-hooks.sh — Настройка git hooks для автоматического обновления индекса
+
+echo "=== Настройка git hooks для PACK-cattle-science ==="
+echo ""
+
+# Проверяем, что мы в git-репозитории
+if [ ! -d ".git" ]; then
+    echo "Ошибка: Не найдена папка .git"
+    echo "Запустите из корня репозитория PACK-cattle-science"
+    exit 1
+fi
+
+# Настройка hooksPath
+echo "Настройка core.hooksPath..."
+git config core.hooksPath .githooks
+
+# Проверка
+if [ "$(git config core.hooksPath)" = ".githooks" ]; then
+    echo "✅ Hooks настроены: .githooks"
+else
+    echo "❌ Ошибка настройки hooks"
+    exit 1
+fi
+
+# Проверка наличия hook-файлов
+if [ -f ".githooks/post-commit" ]; then
+    echo "✅ Найден: post-commit hook"
+else
+    echo "⚠️  Не найден: post-commit hook"
+fi
+
+if [ -f ".githooks/pre-commit" ]; then
+    echo "✅ Найден: pre-commit hook"
+else
+    echo "⚠️  Не найден: pre-commit hook"
+fi
+
+echo ""
+echo "=== Готово ==="
+echo ""
+echo "Теперь при каждом коммите с новой SoTA:"
+echo "  1. Автоматически обновится CS.MAP.001-sota-index.md"
+echo "  2. Индекс добавится в тот же коммит"
+echo ""
+echo "Проверка работы:"
+echo "  bash scripts/verify-sota-index.sh"
