@@ -1,6 +1,6 @@
 # CS.MAP.001-management: SoTA Index — Менеджмент
 
-> Шард индекса: management (24 SoTA)
+> Шард индекса: management (25 SoTA)
 >
 > **Мастер-индекс:** [CS.MAP.001-sota-index.md](../CS.MAP.001-sota-index.md)
 
@@ -10,15 +10,15 @@
 
 | Метрика | Значение |
 |---------|----------|
-| Всего SoTA | 24 |
+| Всего SoTA | 25 |
 | P0 (Фундаментальные) | 0 |
 | P1 (Критически важные) | 4 |
-| P2 (Важные) | 19 |
+| P2 (Важные) | 20 |
 | P3 (Дополнительные) | 1 |
 | Field-study | 12 |
 | Framework | 1 |
 | Primary-research | 2 |
-| Review | 5 |
+| Review | 6 |
 | Scoping-review | 1 |
 | Simulation | 1 |
 | Survey | 2 |
@@ -40,6 +40,7 @@
 | [CS.SOTA.267](../../06-sota/management/CS.SOTA.267-weerasingha-2026.md) | Weerasingha et al. | 2026 | P2 | simulation | `salt-diffusion, cheese-production, micellar-casein` | См. файл для деталей |
 | [CS.SOTA.276](../../06-sota/management/CS.SOTA.276-breeding-practices-2026.md) | Changtes et al. | 2026 | P2 | survey | `breeding-practices, surplus-calf, management` | См. файл для деталей |
 | [CS.SOTA.283](../../06-sota/management/CS.SOTA.283-welfare-barriers-2026.md) | Leliveld et al. | 2026 | P2 | review | `welfare-assessment, barriers, implementation` | См. файл для деталей |
+| [CS.SOTA.284](../../06-sota/management/CS.SOTA.284-milking-data-2026.md) | Hostens et al. | 2026 | P2 | review | `data-analytics, value-driven, precision-farming` | См. файл для деталей |
 | [CS.SOTA.287](../../06-sota/management/CS.SOTA.287-rumination-genetics-2026.md) | Lou et al. | 2026 | P2 | field-study | `rumination, genetics, milk-yield` | См. файл для деталей |
 | [CS.SOTA.293](../../06-sota/management/CS.SOTA.293-sop-training-2026.md) | Neukirchner et al. | 2026 | P2 | field-study | `SOP, training, calf-care` | См. файл для деталей |
 | [CS.SOTA.317](../../06-sota/management/CS.SOTA.317-sumit-sharma-2026.md) | Sharma et al. | 2026 | P2 | review | `precision-dairy-farming, artificial-intelligence, machine-learning` | См. файл для деталей |
@@ -64,5 +65,5 @@
 
 ---
 
-*Шард обновлён: 2026-09-03*
-*Автоматическая генерация: 24 SoTA*
+*Шард обновлён: 2026-09-29*
+*Автоматическая генерация: 25 SoTA*

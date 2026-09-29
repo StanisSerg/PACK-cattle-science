@@ -7,7 +7,7 @@ subarea: dairy-analytics
 subarea2: precision-farming
 category: review
 year: 2026
-authors: Sharma et al. (полный список авторов недоступен в извлечённом тексте; corresponding author: Miel Hostens, Cornell University)
+authors: "Sharma et al. (полный список авторов недоступен в извлечённом тексте; corresponding author: Miel Hostens, Cornell University)"
 title: "Milking the data for value-driven dairy farming"
 journal: "Journal of Dairy Science"
 volume: "TBC"

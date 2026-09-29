@@ -39,7 +39,7 @@ def parse_sota_files():
         if not category_dir.exists():
             continue
             
-        for md_file in sorted(category_dir.glob("*.md")):
+        for md_file in sorted(category_dir.glob("CS.SOTA.*.md")):
             content = md_file.read_text(encoding='utf-8')
             meta = extract_yaml_frontmatter(content)
             

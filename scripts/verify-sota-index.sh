@@ -50,8 +50,12 @@ echo "-------------------------------------------"
 for folder in reproduction feeding health economics management; do
     actual=${FOLDER_COUNTS[$folder]:-0}
     
-    # Поиск в индексе
-    index_count=$(grep -oP "\`$folder/\` — \K[0-9]+" "$INDEX_FILE" 2>/dev/null || echo "0")
+    # Поиск в индексе: старый формат "`feeding/` — N" или новый v3.0 "| 🌾 **feeding** | N |"
+    index_count=$(grep -oP "\`$folder/\` — \K[0-9]+" "$INDEX_FILE" 2>/dev/null || true)
+    if [ -z "$index_count" ]; then
+        index_count=$(grep -oP "\*\*$folder\*\* \| \K[0-9]+" "$INDEX_FILE" 2>/dev/null || true)
+    fi
+    index_count=${index_count:-0}
     
     if [ "$actual" -eq "$index_count" ]; then
         status="${GREEN}OK${NC}"
@@ -84,15 +88,14 @@ echo "🔍 Проверка наличия файлов в индексе..."
 echo ""
 
 MISSING=0
-while IFS= read -r file; do
-    filename=$(basename "$file")
-    id=$(echo "$filename" | grep -oP 'CS\.SOTA\.\d+')
-    
-    if ! grep -q "$id" "$INDEX_FILE"; then
-        echo -e "${RED}MISSING:${NC} $filename"
-        MISSING=$((MISSING + 1))
-    fi
-done < <(find "$SOTA_DIR" -name "CS.SOTA.*.md")
+# Один проход через comm вместо grep на каждый файл (быстро на Windows)
+IDS_ACTUAL=$(find "$SOTA_DIR" -name "CS.SOTA.*.md" | sed 's|.*/||' | grep -oP '^CS\.SOTA\.\d+' | sort -u)
+IDS_INDEX=$(grep -oP 'CS\.SOTA\.\d+' "$INDEX_FILE" | sort -u)
+while IFS= read -r id; do
+    [ -z "$id" ] && continue
+    echo -e "${RED}MISSING:${NC} $id"
+    MISSING=$((MISSING + 1))
+done < <(comm -23 <(echo "$IDS_ACTUAL") <(echo "$IDS_INDEX"))
 
 if [ $MISSING -eq 0 ]; then
     echo -e "${GREEN}OK: Все файлы в индексе${NC}"
@@ -108,12 +111,12 @@ echo "🔍 Проверка висячих ссылок..."
 echo ""
 
 ORPHAN=0
-for id in $(grep -oP 'CS\.SOTA\.\d+' "$INDEX_FILE" | sort -u); do
-    if ! find "$SOTA_DIR" -name "$id*.md" | grep -q .; then
-        echo -e "${YELLOW}ORPHAN:${NC} $id (нет файла)"
-        ORPHAN=$((ORPHAN + 1))
-    fi
-done
+# Один проход через comm вместо find/grep на каждый ID (быстро на Windows)
+while IFS= read -r id; do
+    [ -z "$id" ] && continue
+    echo -e "${YELLOW}ORPHAN:${NC} $id (нет файла)"
+    ORPHAN=$((ORPHAN + 1))
+done < <(comm -13 <(echo "$IDS_ACTUAL") <(echo "$IDS_INDEX"))
 
 if [ $ORPHAN -eq 0 ]; then
     echo -e "${GREEN}OK: Нет висячих ссылок${NC}"

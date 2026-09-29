@@ -5,8 +5,8 @@
 > Карта научно-обоснованных знаний в PACK-cattle-science
 >
 > **Версия:** 3.0 (Sharded — Auto-generated)
-> **Всего SoTA:** 387
-> **Последнее обновление:** 2026-09-03
+> **Всего SoTA:** 388
+> **Последнее обновление:** 2026-09-29
 
 ---
 
@@ -18,20 +18,20 @@
 | 🌾 **feeding** | 210 | [Перейти →](./sota-index/CS.MAP.001-feeding.md) | Кормление, метаболизм, переходный период |
 | 🏥 **health** | 109 | [Перейти →](./sota-index/CS.MAP.001-health.md) | Здоровье, кетоз, иммунитет, печень |
 | 💰 **economics** | 10 | [Перейти →](./sota-index/CS.MAP.001-economics.md) | Экономика, моделирование, оптимизация |
-| 📊 **management** | 24 | [Перейти →](./sota-index/CS.MAP.001-management.md) | Менеджмент, алгоритмы, оценка |
-| **ИТОГО** | **387** | | |
+| 📊 **management** | 25 | [Перейти →](./sota-index/CS.MAP.001-management.md) | Менеджмент, алгоритмы, оценка |
+| **ИТОГО** | **388** | | |
 
 ---
 
 ## Статистика по категориям
 
 ```
-Всего SoTA: 387
+Всего SoTA: 388
 ├── reproduction   34 ██████ (8%)
 ├── feeding       210 ████████████████████████████████████████ (54%)
 ├── health        109 ████████████████████ (28%)
 ├── economics      10 █ (2%)
-├── management     24 ████ (6%)
+├── management     25 ████ (6%)
 ```
 
 ## Статистика по уровням
@@ -40,7 +40,7 @@
 |---------|------------|----------|
 | **P0** — Фундаментальные | 26 | Определяют парадигму |
 | **P1** — Критически важные | 74 | Meta-analysis, крупные обзоры |
-| **P2** — Важные | 285 | Эксперименты, уточняющие исследования |
+| **P2** — Важные | 286 | Эксперименты, уточняющие исследования |
 | **P3** — Дополнительные | 2 | Вспомогательные материалы |
 
 ---
@@ -68,8 +68,8 @@
 ### Economics (10)
 `CS.SOTA.021` `CS.SOTA.022` `CS.SOTA.024` `CS.SOTA.069` `CS.SOTA.122` `CS.SOTA.145` `CS.SOTA.161` `CS.SOTA.179` `CS.SOTA.212` `CS.SOTA.373`
 
-### Management (24)
-`CS.SOTA.026` `CS.SOTA.099` `CS.SOTA.205` `CS.SOTA.219` `CS.SOTA.233` `CS.SOTA.240` `CS.SOTA.256` `CS.SOTA.262` `CS.SOTA.267` `CS.SOTA.276` `CS.SOTA.283` `CS.SOTA.287` `CS.SOTA.293` `CS.SOTA.317` `CS.SOTA.321` `CS.SOTA.326` `CS.SOTA.341` `CS.SOTA.347` `CS.SOTA.351` `CS.SOTA.352` `CS.SOTA.354` `CS.SOTA.371` `CS.SOTA.379` `CS.SOTA.396`
+### Management (25)
+`CS.SOTA.026` `CS.SOTA.099` `CS.SOTA.205` `CS.SOTA.219` `CS.SOTA.233` `CS.SOTA.240` `CS.SOTA.256` `CS.SOTA.262` `CS.SOTA.267` `CS.SOTA.276` `CS.SOTA.283` `CS.SOTA.284` `CS.SOTA.287` `CS.SOTA.293` `CS.SOTA.317` `CS.SOTA.321` `CS.SOTA.326` `CS.SOTA.341` `CS.SOTA.347` `CS.SOTA.351` `CS.SOTA.352` `CS.SOTA.354` `CS.SOTA.371` `CS.SOTA.379` `CS.SOTA.396`
 
 ---
 
@@ -81,7 +81,7 @@
 ├── feeding      /     # 210 SoTA
 ├── health       /     # 109 SoTA
 ├── economics    /     # 10 SoTA
-├── management   /     # 24 SoTA
+├── management   /     # 25 SoTA
 ```
 
 ---
@@ -95,5 +95,5 @@ python3 scripts/reindex-sota.py
 
 ---
 
-*Версия 3.0 — Обновлено: 2026-09-03*
-*Автоматический подсчёт: 387 SoTA*
+*Версия 3.0 — Обновлено: 2026-09-29*
+*Автоматический подсчёт: 388 SoTA*
