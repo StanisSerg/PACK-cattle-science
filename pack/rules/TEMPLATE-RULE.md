@@ -11,7 +11,7 @@ category: [metabolic|reproduction|nutrition|economics]
 tags: [ketosis, bhb, threshold]
 status: draft|active|deprecated|experimental
 confidence: high|medium|low  # Насколько валидировано
-fpf_context: []  # Автоматически заполняется агентом через fpf_reference
+fpf_context: []  # Заполняется агентом по локальной процедуре FPF (см. AGENTS.md проекта)
 ---
 ```
 
@@ -120,10 +120,11 @@ fpf_context: []  # Автоматически заполняется агент�
 
 ## FPF-основание
 
-> **Автоматически подобрано через `fpf_reference`:**
-> - IDs: 
-> - Constraints: 
-> - Gaps: 
+> **Подобрано агентом по локальной процедуре FPF (таблица задача→паттерны + grep по спеке):**
+> - IDs (fpf_context): 
+> - Constraints (проверены перед финализацией): 
+> - Gaps / вопросы: 
+> - fpf_verified: "YYYY-MM-DD; grep FPF-Spec.md @<short-hash>"
 
 ---
 
